@@ -31,7 +31,10 @@ summary: >-
 tags: []
 author: PlaceOS
 image: /images/projects/2025/05/heritage-lanes-suncorp-office-16x9-p-500.jpg
-stats: 13,000 users 60,000 m² 22 integrations
+stats: 
+- 13,000 users 
+- 60,000 m² 
+- 22 integrations
 outcomes:
   - 67% commercial real estate reduction
   - Custom workplace application @myOffice

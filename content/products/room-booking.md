@@ -44,13 +44,31 @@ Our meeting room booking software works with every calendar tool, conferencing s
 
 PlaceOS Room Booking is an installable, self-hosted room booking system. Easily book rooms, manage availability, integrate calendars, and customize the interface. It's room booking done right. Since you host it yourself, you can customize it however you like—and you own your data completely.
 
+## Who it's for
+
+- **Privacy-Conscious Organizations:** Enterprises that require full control over data and on-premise solutions.
+- **Coworking Spaces:** Want to reduce SaaS overhead and customize room usage policies.
+- **Facilities/IT Teams:** Managing AV, occupancy, and hardware across shared spaces.
+- **SMBs:** Looking for simple, predictable pricing without monthly vendor lock-in.
+
 ## But we already have a room booking tool
 
-Sure, but most existing tools come with recurring charges that never end. You shouldn't pay tens or hundreds of dollars every month just to book rooms. That's unreasonable. Besides, many room booking tools have become overly complicated and inflexible.
+Sure, but most existing tools come with recurring charges that never end. You shouldn't pay tens or hundreds of dollars every month just to book rooms. Well, what if you've got 100 meeting rooms, even a moderate cost of $60 per room is $6,000 a month. That's unreasonable. Besides, many room booking tools have become overly complicated and inflexible.
 
-Teams have already switched to PlaceOS Room Booking—here’s what they're saying.
+## What PlaceOS Room Booking Has That Others Don’t:
 
+- Self-hosted — data stays inside your infra
+- Hardware agnostic (any tablet, any network)
+- Unlimited usage model (fixed price vs. seat/room pricing)
+- Rules engine for advanced room policies (e.g., time-of-day, advance booking, check-in requirements)
+- Native calendar plugin (Google Workspace, Outlook)
+- Automation options (auto check-in, ghost meeting detection)
 ## What you get
+- Full ownership — no vendor lock-in
+- Deploy anywhere, with any tablet or display
+- One-time payment for unlimited usage
+- Complete control over configuration, branding, and rules
+## Features
 ### Bookings - Search, view & book rooms
 PlaceOS Room Booking is an installable, self-hosted room booking system. Easily book rooms, manage availability, integrate calendars, and customize the interface. It's room booking done right. Since you host it yourself, you can customize it however you like—and you own your data completely.
 
@@ -87,12 +105,4 @@ Restrict rooms to between 7:00AM & 7:00PM + 10 Days in Advance
 - Unlimited rooms
 - Unlimited users
 - Lifetime usage
-
-## Who it's for
-
-- Coworking spaces
-- Small-to-medium businesses
-- Internal teams and developers
-- Privacy-conscious organizations
-
 

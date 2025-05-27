@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "123bd99a13723b2b",
+        "id": "39be39b370bd6887",
         "type": "tabs",
         "children": [
           {
-            "id": "c76fd4ff51a699cc",
+            "id": "d93359f8e1004ee2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "placeos-scraper/content/projects/seamless-online-health-consultations.md",
+                "file": "content/products/room-booking.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "seamless-online-health-consultations"
+              "title": "room-booking"
             }
           }
         ]
@@ -168,8 +168,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c76fd4ff51a699cc",
+  "active": "d93359f8e1004ee2",
   "lastOpenFiles": [
+    "content/_index.md",
+    "content/projects/office-downsize-from-three-buildings-to-one.md",
+    "content/projects/seamless-online-health-consultations.md",
+    "content/projects/multi-tenancy-space-as-a-service.md",
+    "content/projects/campus-energy-reduction-sustainability.md",
+    "content/projects/ashrae-headquarters-net-zero-retrofit.md",
+    "placeos-scraper/content/projects/seamless-online-health-consultations.md",
+    "placeos-scraper/content/projects/office-downsize-from-three-buildings-to-one.md",
+    "placeos-scraper/content/projects/multi-tenancy-space-as-a-service.md",
+    "placeos-scraper/content/projects/campus-energy-reduction-sustainability.md",
+    "placeos-scraper/content/projects/ashrae-headquarters-net-zero-retrofit.md",
     "themes/til/hugo.toml",
     "themes/til/assets/ts/svg/spinner.svg",
     "themes/til/assets/ts/lib/utils.ts",
@@ -181,7 +192,6 @@
     "themes/til/assets/ts/svg",
     "themes/til/assets/ts/main.ts",
     "themes/til/assets/ts/lib",
-    "themes/til/assets/ts/components",
     "themes/til/images/tn.png",
     "themes/til/images/screenshot.png",
     "themes/til/content/graph.md",
@@ -195,11 +205,6 @@
     "public/images/projects/government-agency-concierge-desk-approval-interface.webp",
     "public/images/projects/suncorp-my-office-app-store.png",
     "static/images/projects/suncorp-my-office-app-store.png",
-    "placeos-scraper/content/projects/office-downsize-from-three-buildings-to-one.md",
-    "placeos-scraper/content/projects/multi-tenancy-space-as-a-service.md",
-    "placeos-scraper/content/projects/campus-energy-reduction-sustainability.md",
-    "placeos-scraper/content/projects/ashrae-headquarters-net-zero-retrofit.md",
-    "content/projects/ashrae-headquarters-net-zero-retrofit.md",
     "content/products/visitor-management-app.md",
     "content/products/workmate.md",
     "content/products/room-booking.md",
@@ -210,11 +215,6 @@
     "content/products/desk-booking-app.md",
     "placeos-scraper/content/products/placeos-telehealth-contact_phone.md",
     "placeos-scraper/content/products/room-booking-app-free.md",
-    "content/products/room-booking-free.md",
-    "content/products/occupancy-based-energy.md",
-    "content/products/desk-booking.md",
-    "content/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do.md",
-    "content/posts/webinar-campus-management-systems-with-cisco-meraki.md",
-    "placeos-scraper/content/products/meeting-room-booking.md"
+    "content/products/room-booking-free.md"
   ]
 }

@@ -29,7 +29,10 @@ tags: []
 author: PlaceOS
 image: >-
   /images/projects/ashraes-recently-installed-pv-system-photo-1-p-500.webp
-stats: 10,000 users 66,770 ft² 5 integrations
+stats: 
+- 10,000 users 
+- 66,770 ft² 
+- 5 integrations
 outcomes:
   - Net-zero energy retrofit
 integrations:

@@ -27,7 +27,10 @@ summary: >-
 tags: []
 author: PlaceOS
 image: /images/projects/canadian-university-image-p-500.webp
-stats: 50,000 users 300 acres 7 integrations
+stats: 
+- 50,000 users 
+- 300 acres 
+- 7 integrations
 outcomes:
   - 23% energy use reduction
   - 4,000 tons of CO2 saved per year

@@ -161,14 +161,15 @@ list_items:
       small change can have a massive impact. See our energy savings on campus —
       ~$1K per room per year. We’re not asking for a forklift upgrade. Start
       with what you’ve got. We’ll make it work harder.
-  - title: I want something off-the-shelf
+  - title: Apps suck (but yeah, we’ve got some)
     summary: >
-      Don't want to build? Use our ready-made apps. We’ve built apps like
-      WorkMate that are ready to go. Our apps sit on top of the platform
-      architecture so receive all the same benefits of hot-swappable modules and
-      logic. Everything is pre-determined though. Here's our full list of
-      products:
+      We’ve built apps like WorkMate that are ready to go. An app solves the obvious stuff, bundling up common problems in one place. Tapping into your phone’s native tech like Bluetooth, NFC, and Ultra-Wideband for access and location.
 
+      But that’s just the surface. We go beyond with deep integrations, smart workflows, and modular interfaces.
+
+      Our apps sit on top of the platform architecture so receive all the same benefits of hot-swappable modules and logic. When the next interface drops, glasses, wearables, or whatever OpenAI’s cooking, we’ll be there. Because we’ve decoupled the front-end from the brains, making the experience future-proof, flexible and device-agnostic.
+
+      Here are our apps:
 
       **WorkMate**: The first workplace management system to combine
       out-of-the-box simplicity with enterprise-level configuration &
@@ -202,6 +203,18 @@ list_items:
 
       **Occupancy-based energy**: Align energy use in spaces with actual
       occupancy to reduce HVAC & lighting use.
+  - title: We’ve got an experienced tech team who can build our own stuff
+    summary: >-
+      We’d love that. Honestly, it’s a better move than getting locked into some rigid, hard-coded app. But we think we can give you the best of both worlds: a head start that lets you focus on your unique challenges without getting buried in device-level protocol hell.
+
+      Our integration drivers don’t just connect you to hundreds of vendors, we also support the protocols that make smart buildings actually smart: BACnet, Modbus, KNX, and more. We handle the heavy lifting, device integrations, zone management, system coordination, so you can get straight to building.
+
+      Now your scoping exercise changes: What do you want to build, knowing you can connect everything you need?
+
+      Take it from there. Extend with new drivers. Contribute to our open source libraries. Talk to us about using a non-commercial version for that side project you’ve been meaning to automate.
+      
+      We’re built for developers.
+
   - title: Pricing models that suit your business
     summary: >-
       SaaS, usage-based, or perpetual — we support it all. We don’t care how you
