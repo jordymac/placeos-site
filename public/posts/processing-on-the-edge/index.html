@@ -1,0 +1,316 @@
+<!doctype html>
+<html
+  lang="en-us"
+  dir="ltr"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<meta name="language" content="en" />
+<meta name="viewport" content="width=device-width" />
+<title>
+    Processing on the &#39;Edge&#39; | PlaceOS
+</title>
+  <meta name="description" content="Explore how edge processing transforms data handling and performance. See why processing on the edge is crucial for real-time analytics and faster decision-maki" />
+  <meta name="author" content="Jeremy West" />
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+<meta property="og:url" content="http://localhost:1313/posts/processing-on-the-edge/">
+  <meta property="og:site_name" content="PlaceOS">
+  <meta property="og:title" content="Processing on the &#39;Edge&#39;">
+  <meta property="og:description" content="Explore how edge processing transforms data handling and performance. See why processing on the edge is crucial for real-time analytics and faster decision-maki">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-02T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-02T00:00:00+00:00">
+
+
+  <meta itemprop="name" content="Processing on the &#39;Edge&#39;">
+  <meta itemprop="description" content="Explore how edge processing transforms data handling and performance. See why processing on the edge is crucial for real-time analytics and faster decision-maki">
+  <meta itemprop="datePublished" content="2024-07-02T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-07-02T00:00:00+00:00">
+  <meta itemprop="wordCount" content="283">
+  <meta itemprop="keywords" content="AV,Analytics,Configuration,Drivers,Event,Modules,Product,Product-Update">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Processing on the &#39;Edge&#39;">
+  <meta name="twitter:description" content="Explore how edge processing transforms data handling and performance. See why processing on the edge is crucial for real-time analytics and faster decision-maki">
+
+<link rel="canonical" href="http://localhost:1313/posts/processing-on-the-edge/" />
+
+    <link rel="stylesheet" href="/css/index.css" />
+
+
+      <script src="/js/main.js" defer></script>
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@id": "http://localhost:1313/posts/processing-on-the-edge/",
+  "@type": "BlogPosting",
+  "articleSection": [
+    "AV",
+    "Analytics",
+    "Configuration",
+    "Drivers",
+    "Event",
+    "Modules",
+    "Product",
+    "Product-Update"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "John Doe"
+  },
+  "datePublished": "2024-07-02",
+  "description": "Explore how edge processing transforms data handling and performance. See why processing on the edge is crucial for real-time analytics and faster decision-maki",
+  "headline": "Processing on the 'Edge'",
+  "isPartOf": {
+    "@id": "http://localhost:1313/posts/",
+    "@type": "Blog",
+    "name": "Posts"
+  },
+  "mainEntityOfPage": "http://localhost:1313/posts/processing-on-the-edge/",
+  "name": "Processing on the 'Edge'",
+  "timeRequired": "PT2M",
+  "url": "http://localhost:1313/posts/processing-on-the-edge/",
+  "wordCount": 283
+}
+</script>
+
+<link rel="stylesheet" href="/css/custom.css">
+
+
+  </head>
+  <body>
+    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
+      <header class="flex flex-row items-center justify-between">
+        <div>
+  <a id="skip-nav" class="sr-only" href="#maincontent">Skip to main content</a>
+  <a class="font-semibold" href="/">PlaceOS</a>
+</div>
+
+  <nav>
+    <ul class="flex flex-row items-center justify-end space-x-4">
+    <li>
+      <a href="/products/">Products</a
+      >
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Posts</a
+      >
+    </li>
+    <li>
+      <a href="/projects/">Projects</a
+      >
+    </li>
+    </ul>
+  </nav>
+
+
+      </header>
+      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
+        <article class="main">
+    <header>
+      <h1 class="!mb-1">Processing on the &#39;Edge&#39;</h1><div class="flex flex-row items-center space-x-4">
+          <time class="text-sm italic opacity-80" datetime="2024-07-02T00:00:00&#43;00:00"
+            >2024-07-02</time
+          >
+        </div>
+    </header>
+
+    <p>PlaceOS Edge Connect is a service for enabling device drivers to run on Cisco Edge devices in a similar manner to how drivers run on Core.</p>
+<p>This allows drivers to exist on protected networks with the only egress going to a trusted PlaceOS instance. Where no incoming connections are desirable.</p>
+<p>The service enables:</p>
+<ul>
+<li>Creation of multiple edges, each of which might represent a building or protected network segment</li>
+<li>This generates secrets that can be provided to edge core instances for authorizing connections to the edge connect service</li>
+<li>Assignment of modules to an edge</li>
+<li>Incoming connections from core</li>
+<li>Consistent hashing to distribute modules across cores assigned to a specific edge</li>
+<li>Core to proxy redis state up to the cloud</li>
+<li>Forward execute requests to the appropriate edge core and returns the result</li>
+<li>Forward updates to settings to modules on an edge</li>
+<li>Drivers transparently run on an edge - i.e. configuration determines if they connect to redis or proxy data via the core</li>
+</ul>
+<h4 id="integrations" class="scroll-mt-8 group">
+  Integrations
+  
+    <a href="#integrations"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>Cisco Edge Runners</p>
+<h4 id="use-case" class="scroll-mt-8 group">
+  Use Case
+  
+    <a href="#use-case"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>Edge Connect allows PlaceOS to run in a distributed mode where nodes are deployed to Cisco Edge Runners. An example of this might be each building with its own Edge Switch would have a PlaceOS Node deployed to every one of those switches.</p>
+<p>This then prevents potential downtime in a case like a network trunk being lost between buildings, each building could operate independently without the master node. Once the connection is re-established it will update the master PlaceOS Node, which is deployed to a server.</p>
+<p>This provides a broad redundancy scheme for geographically dispersed facilities and it also reduces the load on the master node as all local processing can be done on the Edge.</p>
+<h4 id="" class="scroll-mt-8 group">
+  
+  
+    <a href="#"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>‍</p>
+
+     
+  </article>
+    <aside class="not-prose flex flex-col space-y-8 border-t pt-6">
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-shapes h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z"
+  />
+  <rect width="7" height="7" x="3" y="14" rx="1" />
+  <circle cx="17.5" cy="17.5" r="3.5" />
+</svg>
+
+        <span>Categories</span>
+      </h2>
+
+      <ul class="ml-6 flex flex-row flex-wrap items-center space-x-2">
+          <li>
+            <a href="/categories/av/" class="taxonomy category">AV</a>
+          </li>
+          <li>
+            <a href="/categories/analytics/" class="taxonomy category">Analytics</a>
+          </li>
+          <li>
+            <a href="/categories/configuration/" class="taxonomy category">Configuration</a>
+          </li>
+          <li>
+            <a href="/categories/drivers/" class="taxonomy category">Drivers</a>
+          </li>
+          <li>
+            <a href="/categories/event/" class="taxonomy category">Event</a>
+          </li>
+          <li>
+            <a href="/categories/modules/" class="taxonomy category">Modules</a>
+          </li>
+          <li>
+            <a href="/categories/product/" class="taxonomy category">Product</a>
+          </li>
+          <li>
+            <a href="/categories/product-update/" class="taxonomy category">product-update</a>
+          </li>
+      </ul>
+    </section>
+    <section class="flex flex-col space-y-4" aria-hidden="true">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-chart-network h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="m13.11 7.664 1.78 2.672M14.162 12.788l-3.324 1.424M20 4l-6.06 1.515M3 3v16a2 2 0 0 0 2 2h16"
+  />
+  <circle cx="12" cy="6" r="2" />
+  <circle cx="16" cy="12" r="2" />
+  <circle cx="9" cy="15" r="2" />
+</svg>
+
+        <span>Graph</span>
+      </h2>
+
+      <content-network-graph
+  class="h-64 ml-6"
+  data-endpoint="/graph/index.json"
+  page="/posts/processing-on-the-edge/"
+></content-network-graph>
+
+    </section>
+</aside>
+
+
+      </main>
+      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+        <section class="items-top flex flex-row justify-between opacity-70">
+  <div class="flex flex-col space-y-2">
+
+  </div>
+</section>
+
+      </footer>
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workplace Management on PlaceOS</title>
+    <link>http://localhost:1313/categories/workplace-management/</link>
+    <description>Recent content in Workplace Management on PlaceOS</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/workplace-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building &amp; Region-Level Workplace Management</title>
+      <link>http://localhost:1313/posts/building-region-level-workplace-management/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/building-region-level-workplace-management/</guid>
+      <description>Control workplace settings to standardize policies across buildings, so you can scale workplace management while ensuring the right settings for each location.</description>
+    </item>
+    <item>
+      <title>LIVE DEMO: Concierge - Managing Workplace Experience</title>
+      <link>http://localhost:1313/posts/live-demo-concierge-managing-workplace-experience/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/live-demo-concierge-managing-workplace-experience/</guid>
+      <description>Elevate your hybrid workplace with our advanced workplace management app. Discover how to enhance the workplace experience and streamline operations.</description>
+    </item>
+    <item>
+      <title>LIVE DEMO: WorkMate Native iOS &amp; Android</title>
+      <link>http://localhost:1313/posts/live-demo-workmate-native-ios-android/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/live-demo-workmate-native-ios-android/</guid>
+      <description>Discover Workmate, the ultimate workplace management app for iOS and Android. Join our live demo to see how it enhances productivity and streamlines tasks.</description>
+    </item>
+    <item>
+      <title>Workplace Management App: New Features and Enhancements</title>
+      <link>http://localhost:1313/posts/workplace-management-app-new-features-and-enhancements/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/workplace-management-app-new-features-and-enhancements/</guid>
+      <description>Explore the new features of the refreshed Concierge workplace management app. Improve efficiency and optimize your workplace with our innovative solutions.</description>
+    </item>
+    <item>
+      <title>LIVE DEMO: Indoor Wayfinding &amp; Workplace Management Overhaul</title>
+      <link>http://localhost:1313/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</link>
+      <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</guid>
+      <description>A brand new feature powered by a new integration. An overhaul of our workplace management application.</description>
+    </item>
+  </channel>
+</rss>

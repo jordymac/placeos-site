@@ -1,0 +1,144 @@
+- name: Ashrae BacNET
+  key: ashrae-bacnet
+  category: bms
+  icon: /icons/integrations/ashrae-bacnet.svg
+- name: Avetta
+  key: avetta
+  category: other
+  icon: /icons/integrations/avetta.svg
+- name: Aws
+  key: aws
+  category: cloud hosting
+  icon: /icons/integrations/aws.svg
+- name: Axiom
+  key: axiom
+  category: access control
+  icon: /icons/integrations/axiom.svg
+- name: Azure AD
+  key: azure-ad
+  category: active directory
+  icon: /icons/integrations/azure-ad.svg
+- name: ChatGPT
+  key: chatgpt
+  category: llm
+  icon: /icons/integrations/chatgpt.svg
+- name: Cisco Meraki
+  key: cisco-meraki-icon
+  category: real-time location
+  icon: /icons/integrations/cisco-meraki-icon.svg
+- name: Cisco Meraki Mv Sense
+  key: cisco-meraki-mv-sense
+  category: camera
+  icon: /icons/integrations/cisco-meraki-mv-sense.svg
+- name: Cisco Spaces
+  key: cisco-spaces
+  category: real-time location
+  icon: /icons/integrations/cisco-spaces.svg
+- name: Cisco Webex
+  key: cisco-webex-icon
+  category: conferencing
+  icon: /icons/integrations/cisco-webex-icon.svg
+- name: Cisco
+  key: cisco
+  category: network
+  icon: /icons/integrations/cisco.svg
+- name: Crestron
+  key: crestron-icon
+  category: audio visual
+  icon: /icons/integrations/crestron-icon.svg
+- name: Gallagher
+  key: gallagher-icon
+  category: access control
+  icon: /icons/integrations/gallagher-icon.svg
+- name: Google Calendar
+  key: google-calendar
+  category: calendar
+  icon: /icons/integrations/google-calendar.svg
+- name: Google Workspace
+  key: google-icon
+  category: resource booking
+  icon: /icons/integrations/google-icon.svg
+- name: Herman Miller
+  key: herman-miller
+  category: other
+  icon: /icons/integrations/herman-miller.svg
+- name: HID
+  key: hid
+  category: access control
+  icon: /icons/integrations/hid.svg
+- name: Kaiterra Icon
+  key: kaiterra-icon
+  category: other
+  icon: /icons/integrations/kaiterra-icon.svg
+- name: KNX
+  key: knx-icon
+  category: lighting
+  icon: /icons/integrations/knx-icon.svg
+- name: Kontact IO
+  key: kontact-io-icon
+  category: real-time location
+  icon: /icons/integrations/kontact-io-icon.svg
+- name: Lenel
+  key: lenel-icon
+  category: access control
+  icon: /icons/integrations/lenel-icon.svg
+- name: Logitech
+  key: logitech-icon
+  category: audio visual
+  icon: /icons/integrations/logitech-icon.svg
+- name: Lutron
+  key: lutron-icon
+  category: lighting
+  icon: /icons/integrations/lutron-icon.svg
+- name: SMS
+  key: sms
+  category: messaging
+  icon: /icons/integrations/messaging.svg
+- name: Microsoft 365
+  key: microsoft-365
+  category: resource booking
+  icon: /icons/integrations/microsoft-365.svg
+- name: Microsoft Copilot
+  key: microsoft-copilot-icon
+  category: llm
+  icon: /icons/integrations/microsoft-copilot-icon.svg
+- name: Microsoft Teams
+  key: microsoft-teams
+  category: conferencing
+  icon: /icons/integrations/microsoft-teams.svg
+- name: MQTT
+  key: mqtt-icon
+  category: protocol
+  icon: /icons/integrations/mqtt-icon.svg
+- name: Oracle
+  key: oracle
+  category: cloud
+  icon: /icons/integrations/oracle.svg
+- name: Outlook
+  key: outlook-icon
+  category: calendar
+  icon: /icons/integrations/outlook-icon.svg
+- name: Pexip
+  key: pexip
+  category: conferencing
+  icon: /icons/integrations/pexip.svg
+- name: Raritan
+  key: raritan
+  category: energy meter
+  icon: /icons/integrations/raritan.svg
+- name: Siemens
+  key: siemens-icon
+  category: bms
+  icon: /icons/integrations/siemens-icon.svg
+- name: Syllabus Plus
+  key: syllabus-plus
+  category: calendar
+  icon: /icons/integrations/syllabus-plus.svg
+- name: Vergesense
+  key: vergesense-icon
+  category: sensor
+  icon: /icons/integrations/vergesense-icon.svg
+- name: Xy Sense
+  key: xy-sense-icon
+  category: sensor
+  icon: /icons/integrations/xy-sense-icon.svg

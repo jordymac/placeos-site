@@ -1,0 +1,35 @@
+bms:
+  label: Bms
+other:
+  label: Other
+cloud hosting:
+  label: Cloud Hosting
+access control:
+  label: Access Control
+real-time location:
+  label: Real Time Location
+camera:
+  label: Camera
+conferencing:
+  label: Conferencing
+network:
+  label: Network
+audio visual:
+  label: Audio Visual
+calendar:
+  label: Calendar
+resource booking:
+  label: Resource Booking
+lighting:
+  label: Lighting
+messaging:
+  label: Messaging
+protocol:
+  label: Protocol
+cloud:
+  label: Cloud
+energy meter:
+  label: Energy Meter
+sensor:
+  label: Sensor
+

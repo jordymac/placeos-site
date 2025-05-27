@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg4375" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" version="1.1" viewBox="0 0 483.5 228.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8e979d;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #006bb6;
+      }
+
+      .cls-3 {
+        fill: #0cb14b;
+      }
+    </style>
+  </defs>
+  <sodipodi:namedview id="base" bordercolor="#666666" borderopacity="1.0" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" inkscape:current-layer="layer1" inkscape:cx="534.63499" inkscape:cy="255" inkscape:document-units="px" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="990" inkscape:window-maximized="1" inkscape:window-width="1680" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:zoom="1.4632711" pagecolor="#ffffff" showgrid="false"/>
+  <g id="layer1" inkscape:groupmode="layer" inkscape:label="Ebene 1">
+    <g id="g116">
+      <path id="path118" class="cls-2" d="M241.4,26.5s60.8,0,114.2,17,89.9,48.6,89.9,48.6h36.5s-38.9-41.3-111.8-68.1C297.3-2.7,241.4,2.2,241.4,2.2v24.3" inkscape:connector-curvature="0"/>
+    </g>
+    <g id="g120">
+      <path id="path122" class="cls-3" d="M116.7,21.9C46.2,43.8,0,92.4,0,92.4h36.5s31.6-29.2,89.9-48.6c58.3-19.4,114.2-17,114.2-17V0c2.4,0-53.5-2.4-124,21.9" inkscape:connector-curvature="0"/>
+    </g>
+    <g id="g128">
+      <path id="path130" class="cls-1" d="M211.9,98.6l58.3,80.2v-80.2h36.5v128.8h-41.3l-58.3-80.2v80.2h-36.5V98.6" inkscape:connector-curvature="0"/>
+    </g>
+    <g id="g132">
+      <path id="path134" class="cls-2" d="M483.5,228.7h-43.8l-38.9-46.2-46.2,46.2h-36.5l65.6-65.6-51-60.8h43.8l31.6,38.9,36.5-38.9h36.5l-58.3,58.3,60.8,68.1" inkscape:connector-curvature="0"/>
+    </g>
+    <g id="g136">
+      <g id="g138">
+        <g id="g144">
+          <path id="path146" class="cls-3" d="M81.4,160.5l-4.9-7.3,51-53.5h-36.5l-53.5,53.5v-53.5H1.2v128.8h36.5v-36.5l14.6-14.6,43.8,51h43.8" inkscape:connector-curvature="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

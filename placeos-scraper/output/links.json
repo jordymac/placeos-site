@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.placeos.com/app/meeting-room-booking",
+    "text": "meeting_roomRoom BookingManage & book meeting rooms.",
+    "category": "products"
+  },
+  {
+    "url": "https://www.placeos.com/app/desk-booking-app",
+    "text": "event_seatDesk BookingStart hot desking.",
+    "category": "products"
+  },
+  {
+    "url": "https://www.placeos.com/app/energy-reduction-app",
+    "text": "boltEnergy ManagementOccupancy-based energy automation.",
+    "category": "products"
+  },
+  {
+    "url": "https://www.placeos.com/app/visitor-management-app",
+    "text": "badgeVisitor ManagementManage & invite visitors.",
+    "category": "products"
+  },
+  {
+    "url": "https://www.placeos.com/suite/workmate-workplace-solution",
+    "text": "businessWorkMateAll-in-one workplace solution.",
+    "category": "products"
+  },
+  {
+    "url": "https://www.placeos.com/suite/stagehand",
+    "text": "micStageHandAll-in-one workplace solution.",
+    "category": "products"
+  },
+  {
+    "url": "https://www.placeos.com/suite/telehealth-solution",
+    "text": "medical_informationTeleHealthComprehensive telehealth solution.",
+    "category": "products"
+  },
+  {
+    "url": "https://www.placeos.com/app/room-booking-app-free",
+    "text": "Room Booking FreeAll your meeting room management and booking needs made easy.Read More",
+    "category": "products"
+  }
+]

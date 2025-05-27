@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Office Space on PlaceOS</title>
+    <link>http://localhost:1313/categories/office-space/</link>
+    <description>Recent content in Office Space on PlaceOS</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/office-space/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Office downsize from three buildings to one</title>
+      <link>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</guid>
+      <description>In preparation for their new office space, Suncorp recognized that they were not perceived as technology innovators and decided to take action. They embarked on a research mission to determine what their ideal technological infrastructure would look like, and then worked backward to identify which specific technologies would help them achieve that goal. Their ultimate objective was to create a system that could serve as the brain of their new building.</description>
+    </item>
+    <item>
+      <title>Downsizing Your Office? First, Take These 5 Essential Steps</title>
+      <link>http://localhost:1313/posts/downsizing-your-office-first-take-these-5-essential-steps/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/downsizing-your-office-first-take-these-5-essential-steps/</guid>
+      <description>Today&amp;rsquo;s work environment has seen dramatic shifts, prompting many companies to consider downsizing their office spaces.</description>
+    </item>
+    <item>
+      <title>How to Create a Desk Booking App for Your Office Needs</title>
+      <link>http://localhost:1313/posts/how-to-create-a-desk-booking-app-for-your-office-needs/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-to-create-a-desk-booking-app-for-your-office-needs/</guid>
+      <description>Discover the steps to effectively scope a desk booking app. Optimize your office space with a tailored desk booking solution that meets your requirements.</description>
+    </item>
+    <item>
+      <title>LIVE DEMO: Concierge - Managing Workplace Experience</title>
+      <link>http://localhost:1313/posts/live-demo-concierge-managing-workplace-experience/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/live-demo-concierge-managing-workplace-experience/</guid>
+      <description>Elevate your hybrid workplace with our advanced workplace management app. Discover how to enhance the workplace experience and streamline operations.</description>
+    </item>
+    <item>
+      <title>Size Does Matter: The 2% Topping the Energy Charts</title>
+      <link>http://localhost:1313/posts/size-does-matter-the-2-topping-the-energy-charts/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/size-does-matter-the-2-topping-the-energy-charts/</guid>
+      <description>Uncover the secrets of the top 2% in commercial real estate. Achieve energy reduction and lower energy consumption with expert insights. Find out how today!</description>
+    </item>
+    <item>
+      <title>LIVE DEMO: Enhanced Room Booking &amp; Event Manager</title>
+      <link>http://localhost:1313/posts/live-demo-enhanced-room-booking-event-manager/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/live-demo-enhanced-room-booking-event-manager/</guid>
+      <description>Our latest webinar will be introducing some highly requested updates to our room booking experience &amp;amp; event manager</description>
+    </item>
+    <item>
+      <title>Office space utilization is only half the story</title>
+      <link>http://localhost:1313/posts/office-space-utilization-is-only-half-the-story/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/office-space-utilization-is-only-half-the-story/</guid>
+      <description>It&amp;rsquo;s easy to guess what most workplaces think they need in terms of data. Here&amp;rsquo;s what they actually need.</description>
+    </item>
+    <item>
+      <title>Office Space Utilization: The Roadmap to Efficiency</title>
+      <link>http://localhost:1313/posts/office-space-utilization-the-roadmap-to-efficiency/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/office-space-utilization-the-roadmap-to-efficiency/</guid>
+      <description>Discover the significance of office space utilization. Dive into key metrics, benefits, and the future of office efficiency.</description>
+    </item>
+  </channel>
+</rss>

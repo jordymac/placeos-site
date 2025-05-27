@@ -1,0 +1,47 @@
+<style>
+  .custom-wistia-wrapper {
+    width: 115%;
+    margin-left: -7.5%;
+    margin-right: -7.5%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+
+  .custom-wistia-wrapper .wistia_responsive_padding {
+    padding-top: 56.25%;
+    position: relative;
+  }
+
+  .custom-wistia-wrapper .wistia_responsive_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+</style>
+
+<div class="custom-wistia-wrapper">
+  <div class="wistia_responsive_padding">
+    <div class="wistia_responsive_wrapper">
+      <iframe
+        src="https://fast.wistia.net/embed/iframe/{{ .Get "id" }}?web_component=true&seo=true"
+        title="Wistia Video"
+        allow="autoplay; fullscreen"
+        allowtransparency="true"
+        frameborder="0"
+        scrolling="no"
+        class="wistia_embed"
+        width="100%"
+        height="100%">
+      </iframe>
+    </div>
+  </div>
+</div>
+<script src="https://fast.wistia.net/player.js" async></script>
+
+  
+  

@@ -1,0 +1,771 @@
+{
+  "graph": {
+    "/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/a-guide-to-digital-workplace-transformation/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/a-guide-to-energy-data-collection-utilization/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/a-guide-to-energy-efficient-commercial-buildings/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/api-keys-simplify-authentication-for-apps-devices/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/approaching-workplace-optimization/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/april-2024-placeos-product-updates/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/area-manager-occupancy-sensor-management/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/auto-assign-desks-car-spaces/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/building-region-level-workplace-management/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/data-deceits-how-to-spot-when-you-re-being-lied-to/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/december-2024-placeos-product-updates/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/deployment-tooling-kubernetes/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/deployment-via-openshift/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/digital-twins-think-about-situations-not-semantics/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/downsizing-your-office-first-take-these-5-essential-steps/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/everybody-needs-good-nabers-the-missing-energy-metric/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/feature-enablement/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/february-2024-placeos-product-updates/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/four-technology-integrations-to-help-during-covid-19/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/how-bms-improve-commercial-building-sustainability/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/how-commercial-real-estate-can-embrace-technology/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/how-to-capture-occupancy-data-in-the-workplace/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/how-to-choose-the-best-meeting-room-booking-software/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/how-to-create-a-desk-booking-app-for-your-office-needs/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/how-to-create-a-workplace-worth-returning-to/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/how-to-successfully-return-to-the-office-after-covid/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/importance-of-energy-data-for-commercial-buildings/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/indoor-air-quality-integration-kaiterra/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/indoor-wayfinding-for-your-workplace/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/integrating-incentives-into-the-workplace-and-beyond/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/introducing-event-manager/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/is-your-hvac-system-cooling-an-empty-office/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/july-2024-placeos-product-updates/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/june-2024-placeos-product-updates/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/learn-about-crystal-v1-0-0-for-workplaces/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/live-demo-ai-room-control/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/live-demo-concierge-managing-workplace-experience/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/live-demo-connect-your-business-to-your-building/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/live-demo-enhanced-room-booking-event-manager/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/live-demo-event-manager/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/live-demo-occupancy-based-energy-automation/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/live-demo-placeai-chatgpt-object-recognition-features/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/live-demo-understanding-energy-analytics-surveys-catering/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/live-demo-visitor-management-locker-booking/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/live-demo-working-with-working-from-home/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/live-demo-workmate-native-ios-android/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/live-event-rethinking-campus-experience/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/managing-technology-redundancy-in-iot-and-smart-buildings/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/meeting-room-display-interface-design/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/new-feature-locking-booking/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/new-workmate-features-experience-surveys-wfh-status-more/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/office-space-utilization-is-only-half-the-story/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/office-space-utilization-the-roadmap-to-efficiency/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/partnership-announcement-with-monstarlab/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/platform-power-unleashed-the-strategy-behind-our-new-products/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/processing-on-the-edge/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/raw-crystal-2020-ft-stephen-von-takach/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/room-booking-updates-recurring-booking-room-manager/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/self-documenting-api/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/september-2024-placeos-product-updates/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/size-does-matter-the-2-topping-the-energy-charts/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/smart-building-automation-platforms-vs-apps/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/smart-building-data-traps/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/smart-building-energy-analytics/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/social-distancing-is-sparking-the-smart-city-revolution/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/support-for-open-telemetry/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/the-most-neglected-smarting-building-ux/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/the-world-s-largest-emitter/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/three-reasons-i-am-not-working-from-home/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/two-core-philosophies-for-smart-building-design/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/unlocking-your-workplace-s-hidden-potential-with-cisco-meraki/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/user-input-equals-error-the-elon-musk-approach/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/user-interface-templates/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/vergesense-object-detection-occupancy-workflows/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/webinar-campus-management-systems-with-cisco-meraki/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/why-switch-from-on-prem-placeos-to-cloud-based/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/why-too-many-workplace-apps-are-counterproductive/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/workplace-management-app-new-features-and-enhancements/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/you-don-t-need-another-workplace-sensor/": {
+      "in": [],
+      "out": []
+    }
+  },
+  "pages": {
+    "/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/": {
+      "permalink": "/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/",
+      "section": "posts",
+      "title": "£93bn of Commercial Real Estate Is at Risk, Here’s What to Do"
+    },
+    "/posts/a-guide-to-digital-workplace-transformation/": {
+      "permalink": "/posts/a-guide-to-digital-workplace-transformation/",
+      "section": "posts",
+      "title": "A Guide to Digital Workplace Transformation"
+    },
+    "/posts/a-guide-to-energy-data-collection-utilization/": {
+      "permalink": "/posts/a-guide-to-energy-data-collection-utilization/",
+      "section": "posts",
+      "title": "A Guide to Energy Data Collection \u0026 Utilization"
+    },
+    "/posts/a-guide-to-energy-efficient-commercial-buildings/": {
+      "permalink": "/posts/a-guide-to-energy-efficient-commercial-buildings/",
+      "section": "posts",
+      "title": "A Guide to Energy Efficient Commercial Buildings"
+    },
+    "/posts/api-keys-simplify-authentication-for-apps-devices/": {
+      "permalink": "/posts/api-keys-simplify-authentication-for-apps-devices/",
+      "section": "posts",
+      "title": "API Keys: Simplify Authentication for Apps \u0026 Devices"
+    },
+    "/posts/approaching-workplace-optimization/": {
+      "permalink": "/posts/approaching-workplace-optimization/",
+      "section": "posts",
+      "title": "Approaching Workplace Optimization"
+    },
+    "/posts/april-2024-placeos-product-updates/": {
+      "permalink": "/posts/april-2024-placeos-product-updates/",
+      "section": "posts",
+      "title": "April 2024 PlaceOS Product Updates"
+    },
+    "/posts/area-manager-occupancy-sensor-management/": {
+      "permalink": "/posts/area-manager-occupancy-sensor-management/",
+      "section": "posts",
+      "title": "Area Manager: Occupancy \u0026 Sensor Management"
+    },
+    "/posts/auto-assign-desks-car-spaces/": {
+      "permalink": "/posts/auto-assign-desks-car-spaces/",
+      "section": "posts",
+      "title": "Auto Assign Desks \u0026 Car Spaces"
+    },
+    "/posts/building-region-level-workplace-management/": {
+      "permalink": "/posts/building-region-level-workplace-management/",
+      "section": "posts",
+      "title": "Building \u0026 Region-Level Workplace Management"
+    },
+    "/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/": {
+      "permalink": "/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/",
+      "section": "posts",
+      "title": "Canada Needs to Retrofit 482,000 Buildings by 2050—At the Current Pace, It Will Take 70 Years"
+    },
+    "/posts/data-deceits-how-to-spot-when-you-re-being-lied-to/": {
+      "permalink": "/posts/data-deceits-how-to-spot-when-you-re-being-lied-to/",
+      "section": "posts",
+      "title": "Data Deceits: How to Spot When You're Being Lied To"
+    },
+    "/posts/december-2024-placeos-product-updates/": {
+      "permalink": "/posts/december-2024-placeos-product-updates/",
+      "section": "posts",
+      "title": "December 2024 PlaceOS Product Updates"
+    },
+    "/posts/deployment-tooling-kubernetes/": {
+      "permalink": "/posts/deployment-tooling-kubernetes/",
+      "section": "posts",
+      "title": "Deployment Tooling: Kubernetes"
+    },
+    "/posts/deployment-via-openshift/": {
+      "permalink": "/posts/deployment-via-openshift/",
+      "section": "posts",
+      "title": "Deployment via OpenShift"
+    },
+    "/posts/digital-twins-think-about-situations-not-semantics/": {
+      "permalink": "/posts/digital-twins-think-about-situations-not-semantics/",
+      "section": "posts",
+      "title": "Digital Twins: Think About Situations Not Semantics"
+    },
+    "/posts/downsizing-your-office-first-take-these-5-essential-steps/": {
+      "permalink": "/posts/downsizing-your-office-first-take-these-5-essential-steps/",
+      "section": "posts",
+      "title": "Downsizing Your Office? First, Take These 5 Essential Steps"
+    },
+    "/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/": {
+      "permalink": "/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/",
+      "section": "posts",
+      "title": "Enhancing Commercial Building Sustainability in a Hybrid Workplace"
+    },
+    "/posts/everybody-needs-good-nabers-the-missing-energy-metric/": {
+      "permalink": "/posts/everybody-needs-good-nabers-the-missing-energy-metric/",
+      "section": "posts",
+      "title": "Everybody Needs Good NABERS: The Missing Energy Metric"
+    },
+    "/posts/feature-enablement/": {
+      "permalink": "/posts/feature-enablement/",
+      "section": "posts",
+      "title": "Feature Enablement"
+    },
+    "/posts/february-2024-placeos-product-updates/": {
+      "permalink": "/posts/february-2024-placeos-product-updates/",
+      "section": "posts",
+      "title": "February 2024 PlaceOS Product Updates"
+    },
+    "/posts/four-technology-integrations-to-help-during-covid-19/": {
+      "permalink": "/posts/four-technology-integrations-to-help-during-covid-19/",
+      "section": "posts",
+      "title": "Four Technology Integrations to Help During Covid-19"
+    },
+    "/posts/how-bms-improve-commercial-building-sustainability/": {
+      "permalink": "/posts/how-bms-improve-commercial-building-sustainability/",
+      "section": "posts",
+      "title": "How BMS Improve Commercial Building Sustainability"
+    },
+    "/posts/how-commercial-real-estate-can-embrace-technology/": {
+      "permalink": "/posts/how-commercial-real-estate-can-embrace-technology/",
+      "section": "posts",
+      "title": "How Commercial Real Estate Can Embrace Technology"
+    },
+    "/posts/how-to-capture-occupancy-data-in-the-workplace/": {
+      "permalink": "/posts/how-to-capture-occupancy-data-in-the-workplace/",
+      "section": "posts",
+      "title": "How to Capture Occupancy Data in the Workplace"
+    },
+    "/posts/how-to-choose-the-best-meeting-room-booking-software/": {
+      "permalink": "/posts/how-to-choose-the-best-meeting-room-booking-software/",
+      "section": "posts",
+      "title": "How to Choose the Best Meeting Room Booking Software"
+    },
+    "/posts/how-to-create-a-desk-booking-app-for-your-office-needs/": {
+      "permalink": "/posts/how-to-create-a-desk-booking-app-for-your-office-needs/",
+      "section": "posts",
+      "title": "How to Create a Desk Booking App for Your Office Needs"
+    },
+    "/posts/how-to-create-a-workplace-worth-returning-to/": {
+      "permalink": "/posts/how-to-create-a-workplace-worth-returning-to/",
+      "section": "posts",
+      "title": "How to Create a Workplace Worth Returning To"
+    },
+    "/posts/how-to-successfully-return-to-the-office-after-covid/": {
+      "permalink": "/posts/how-to-successfully-return-to-the-office-after-covid/",
+      "section": "posts",
+      "title": "How to Successfully Return to the Office After Covid"
+    },
+    "/posts/importance-of-energy-data-for-commercial-buildings/": {
+      "permalink": "/posts/importance-of-energy-data-for-commercial-buildings/",
+      "section": "posts",
+      "title": "Importance of Energy Data for Commercial Buildings"
+    },
+    "/posts/indoor-air-quality-integration-kaiterra/": {
+      "permalink": "/posts/indoor-air-quality-integration-kaiterra/",
+      "section": "posts",
+      "title": "Indoor Air Quality Integration: Kaiterra"
+    },
+    "/posts/indoor-wayfinding-for-your-workplace/": {
+      "permalink": "/posts/indoor-wayfinding-for-your-workplace/",
+      "section": "posts",
+      "title": "Indoor Wayfinding for Your Workplace"
+    },
+    "/posts/integrating-incentives-into-the-workplace-and-beyond/": {
+      "permalink": "/posts/integrating-incentives-into-the-workplace-and-beyond/",
+      "section": "posts",
+      "title": "Integrating Incentives Into the Workplace and Beyond"
+    },
+    "/posts/introducing-event-manager/": {
+      "permalink": "/posts/introducing-event-manager/",
+      "section": "posts",
+      "title": "Introducing Event Manager"
+    },
+    "/posts/is-your-hvac-system-cooling-an-empty-office/": {
+      "permalink": "/posts/is-your-hvac-system-cooling-an-empty-office/",
+      "section": "posts",
+      "title": "Is Your HVAC System Cooling an Empty Office?"
+    },
+    "/posts/july-2024-placeos-product-updates/": {
+      "permalink": "/posts/july-2024-placeos-product-updates/",
+      "section": "posts",
+      "title": "July 2024 PlaceOS Product Updates"
+    },
+    "/posts/june-2024-placeos-product-updates/": {
+      "permalink": "/posts/june-2024-placeos-product-updates/",
+      "section": "posts",
+      "title": "June 2024 PlaceOS Product Updates"
+    },
+    "/posts/learn-about-crystal-v1-0-0-for-workplaces/": {
+      "permalink": "/posts/learn-about-crystal-v1-0-0-for-workplaces/",
+      "section": "posts",
+      "title": "Learn About Crystal V1.0.0 for Workplaces"
+    },
+    "/posts/live-demo-ai-room-control/": {
+      "permalink": "/posts/live-demo-ai-room-control/",
+      "section": "posts",
+      "title": "LIVE DEMO: AI Room Control"
+    },
+    "/posts/live-demo-concierge-managing-workplace-experience/": {
+      "permalink": "/posts/live-demo-concierge-managing-workplace-experience/",
+      "section": "posts",
+      "title": "LIVE DEMO: Concierge - Managing Workplace Experience"
+    },
+    "/posts/live-demo-connect-your-business-to-your-building/": {
+      "permalink": "/posts/live-demo-connect-your-business-to-your-building/",
+      "section": "posts",
+      "title": "LIVE DEMO: Connect Your Business to Your Building"
+    },
+    "/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/": {
+      "permalink": "/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/",
+      "section": "posts",
+      "title": "LIVE DEMO: Energy Analytics Dashboards, Outlook Plugin \u0026 More"
+    },
+    "/posts/live-demo-enhanced-room-booking-event-manager/": {
+      "permalink": "/posts/live-demo-enhanced-room-booking-event-manager/",
+      "section": "posts",
+      "title": "LIVE DEMO: Enhanced Room Booking \u0026 Event Manager"
+    },
+    "/posts/live-demo-event-manager/": {
+      "permalink": "/posts/live-demo-event-manager/",
+      "section": "posts",
+      "title": "LIVE DEMO: Event Manager"
+    },
+    "/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/": {
+      "permalink": "/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/",
+      "section": "posts",
+      "title": "LIVE DEMO: Indoor Wayfinding \u0026 Workplace Management Overhaul"
+    },
+    "/posts/live-demo-occupancy-based-energy-automation/": {
+      "permalink": "/posts/live-demo-occupancy-based-energy-automation/",
+      "section": "posts",
+      "title": "LIVE DEMO: Occupancy-Based Energy Automation"
+    },
+    "/posts/live-demo-placeai-chatgpt-object-recognition-features/": {
+      "permalink": "/posts/live-demo-placeai-chatgpt-object-recognition-features/",
+      "section": "posts",
+      "title": "LIVE DEMO: PlaceAI - ChatGPT \u0026 Object Recognition Features"
+    },
+    "/posts/live-demo-understanding-energy-analytics-surveys-catering/": {
+      "permalink": "/posts/live-demo-understanding-energy-analytics-surveys-catering/",
+      "section": "posts",
+      "title": "LIVE DEMO: Understanding Energy Analytics, Surveys \u0026 Catering"
+    },
+    "/posts/live-demo-visitor-management-locker-booking/": {
+      "permalink": "/posts/live-demo-visitor-management-locker-booking/",
+      "section": "posts",
+      "title": "LIVE DEMO: Visitor Management \u0026 Locker Booking"
+    },
+    "/posts/live-demo-working-with-working-from-home/": {
+      "permalink": "/posts/live-demo-working-with-working-from-home/",
+      "section": "posts",
+      "title": "LIVE DEMO: Working With Working From Home"
+    },
+    "/posts/live-demo-workmate-native-ios-android/": {
+      "permalink": "/posts/live-demo-workmate-native-ios-android/",
+      "section": "posts",
+      "title": "LIVE DEMO: WorkMate Native IOS \u0026 Android"
+    },
+    "/posts/live-event-rethinking-campus-experience/": {
+      "permalink": "/posts/live-event-rethinking-campus-experience/",
+      "section": "posts",
+      "title": "LIVE EVENT: Rethinking Campus Experience"
+    },
+    "/posts/managing-technology-redundancy-in-iot-and-smart-buildings/": {
+      "permalink": "/posts/managing-technology-redundancy-in-iot-and-smart-buildings/",
+      "section": "posts",
+      "title": "Managing Technology Redundancy in IoT and Smart Buildings"
+    },
+    "/posts/meeting-room-display-interface-design/": {
+      "permalink": "/posts/meeting-room-display-interface-design/",
+      "section": "posts",
+      "title": "Meeting Room Display Interface Design"
+    },
+    "/posts/new-feature-locking-booking/": {
+      "permalink": "/posts/new-feature-locking-booking/",
+      "section": "posts",
+      "title": "New Feature: Locking Booking"
+    },
+    "/posts/new-workmate-features-experience-surveys-wfh-status-more/": {
+      "permalink": "/posts/new-workmate-features-experience-surveys-wfh-status-more/",
+      "section": "posts",
+      "title": "New WorkMate Features: Experience Surveys, WFH Status \u0026 More"
+    },
+    "/posts/office-space-utilization-is-only-half-the-story/": {
+      "permalink": "/posts/office-space-utilization-is-only-half-the-story/",
+      "section": "posts",
+      "title": "Office Space Utilization Is Only Half the Story"
+    },
+    "/posts/office-space-utilization-the-roadmap-to-efficiency/": {
+      "permalink": "/posts/office-space-utilization-the-roadmap-to-efficiency/",
+      "section": "posts",
+      "title": "Office Space Utilization: The Roadmap to Efficiency"
+    },
+    "/posts/partnership-announcement-with-monstarlab/": {
+      "permalink": "/posts/partnership-announcement-with-monstarlab/",
+      "section": "posts",
+      "title": "Partnership Announcement With Monstarlab"
+    },
+    "/posts/platform-power-unleashed-the-strategy-behind-our-new-products/": {
+      "permalink": "/posts/platform-power-unleashed-the-strategy-behind-our-new-products/",
+      "section": "posts",
+      "title": "Platform Power Unleashed: The Strategy Behind Our New Products"
+    },
+    "/posts/processing-on-the-edge/": {
+      "permalink": "/posts/processing-on-the-edge/",
+      "section": "posts",
+      "title": "Processing on the 'Edge'"
+    },
+    "/posts/raw-crystal-2020-ft-stephen-von-takach/": {
+      "permalink": "/posts/raw-crystal-2020-ft-stephen-von-takach/",
+      "section": "posts",
+      "title": "Raw Crystal 2020 Ft Stephen Von Takach"
+    },
+    "/posts/room-booking-updates-recurring-booking-room-manager/": {
+      "permalink": "/posts/room-booking-updates-recurring-booking-room-manager/",
+      "section": "posts",
+      "title": "Room Booking Updates: Recurring Booking \u0026 Room Manager"
+    },
+    "/posts/self-documenting-api/": {
+      "permalink": "/posts/self-documenting-api/",
+      "section": "posts",
+      "title": "Self Documenting API"
+    },
+    "/posts/september-2024-placeos-product-updates/": {
+      "permalink": "/posts/september-2024-placeos-product-updates/",
+      "section": "posts",
+      "title": "September 2024 PlaceOS Product Updates"
+    },
+    "/posts/size-does-matter-the-2-topping-the-energy-charts/": {
+      "permalink": "/posts/size-does-matter-the-2-topping-the-energy-charts/",
+      "section": "posts",
+      "title": "Size Does Matter: The 2% Topping the Energy Charts"
+    },
+    "/posts/smart-building-automation-platforms-vs-apps/": {
+      "permalink": "/posts/smart-building-automation-platforms-vs-apps/",
+      "section": "posts",
+      "title": "Smart Building Automation: Platforms vs Apps"
+    },
+    "/posts/smart-building-data-traps/": {
+      "permalink": "/posts/smart-building-data-traps/",
+      "section": "posts",
+      "title": "Smart Building Data Traps"
+    },
+    "/posts/smart-building-energy-analytics/": {
+      "permalink": "/posts/smart-building-energy-analytics/",
+      "section": "posts",
+      "title": "Smart Building Energy Analytics"
+    },
+    "/posts/social-distancing-is-sparking-the-smart-city-revolution/": {
+      "permalink": "/posts/social-distancing-is-sparking-the-smart-city-revolution/",
+      "section": "posts",
+      "title": "Social Distancing Is Sparking the Smart City Revolution"
+    },
+    "/posts/support-for-open-telemetry/": {
+      "permalink": "/posts/support-for-open-telemetry/",
+      "section": "posts",
+      "title": "Support for Open Telemetry"
+    },
+    "/posts/the-most-neglected-smarting-building-ux/": {
+      "permalink": "/posts/the-most-neglected-smarting-building-ux/",
+      "section": "posts",
+      "title": "The Most Neglected Smarting Building UX"
+    },
+    "/posts/the-world-s-largest-emitter/": {
+      "permalink": "/posts/the-world-s-largest-emitter/",
+      "section": "posts",
+      "title": "The World's Largest Emitter"
+    },
+    "/posts/three-reasons-i-am-not-working-from-home/": {
+      "permalink": "/posts/three-reasons-i-am-not-working-from-home/",
+      "section": "posts",
+      "title": "Three Reasons I Am Not Working From Home"
+    },
+    "/posts/two-core-philosophies-for-smart-building-design/": {
+      "permalink": "/posts/two-core-philosophies-for-smart-building-design/",
+      "section": "posts",
+      "title": "Two Core Philosophies for Smart Building Design"
+    },
+    "/posts/unlocking-your-workplace-s-hidden-potential-with-cisco-meraki/": {
+      "permalink": "/posts/unlocking-your-workplace-s-hidden-potential-with-cisco-meraki/",
+      "section": "posts",
+      "title": "Unlocking Your Workplace’s Hidden Potential With Cisco Meraki"
+    },
+    "/posts/user-input-equals-error-the-elon-musk-approach/": {
+      "permalink": "/posts/user-input-equals-error-the-elon-musk-approach/",
+      "section": "posts",
+      "title": "User Input Equals Error: The Elon Musk Approach"
+    },
+    "/posts/user-interface-templates/": {
+      "permalink": "/posts/user-interface-templates/",
+      "section": "posts",
+      "title": "User Interface Templates"
+    },
+    "/posts/vergesense-object-detection-occupancy-workflows/": {
+      "permalink": "/posts/vergesense-object-detection-occupancy-workflows/",
+      "section": "posts",
+      "title": "Vergesense: Object Detection \u0026 Occupancy Workflows"
+    },
+    "/posts/webinar-campus-management-systems-with-cisco-meraki/": {
+      "permalink": "/posts/webinar-campus-management-systems-with-cisco-meraki/",
+      "section": "posts",
+      "title": "Webinar: Campus Management Systems With Cisco Meraki"
+    },
+    "/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/": {
+      "permalink": "/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/",
+      "section": "posts",
+      "title": "When to Go With a Custom or Packaged Smart Building Solution"
+    },
+    "/posts/why-switch-from-on-prem-placeos-to-cloud-based/": {
+      "permalink": "/posts/why-switch-from-on-prem-placeos-to-cloud-based/",
+      "section": "posts",
+      "title": "Why Switch From On-Prem PlaceOS to Cloud Based?"
+    },
+    "/posts/why-too-many-workplace-apps-are-counterproductive/": {
+      "permalink": "/posts/why-too-many-workplace-apps-are-counterproductive/",
+      "section": "posts",
+      "title": "Why Too Many Workplace Apps Are Counterproductive"
+    },
+    "/posts/workplace-management-app-new-features-and-enhancements/": {
+      "permalink": "/posts/workplace-management-app-new-features-and-enhancements/",
+      "section": "posts",
+      "title": "Workplace Management App: New Features and Enhancements"
+    },
+    "/posts/you-don-t-need-another-workplace-sensor/": {
+      "permalink": "/posts/you-don-t-need-another-workplace-sensor/",
+      "section": "posts",
+      "title": "You Don't Need Another Workplace Sensor"
+    }
+  }
+}

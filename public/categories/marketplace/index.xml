@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marketplace on PlaceOS</title>
+    <link>http://localhost:1313/categories/marketplace/</link>
+    <description>Recent content in Marketplace on PlaceOS</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/marketplace/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Platform Power Unleashed: The Strategy Behind Our New Products</title>
+      <link>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</link>
+      <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</guid>
+      <description>The future of enterprise tech is shifting from SaaS to platform-based solutions. Explore how integration, AI agents, and modular design accelerate growth and in</description>
+    </item>
+    <item>
+      <title>How to create a workplace worth returning to</title>
+      <link>http://localhost:1313/posts/how-to-create-a-workplace-worth-returning-to/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-to-create-a-workplace-worth-returning-to/</guid>
+      <description>In this piece, I’m going to discuss how the working environment has changed today and what you can do about it.</description>
+    </item>
+    <item>
+      <title>Unlocking your workplace’s hidden potential with Cisco Meraki</title>
+      <link>http://localhost:1313/posts/unlocking-your-workplace-s-hidden-potential-with-cisco-meraki/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/unlocking-your-workplace-s-hidden-potential-with-cisco-meraki/</guid>
+      <description>Creating a digital workplace can be like opening a mixed bag of technologies, tools, and systems that all tend to operate in</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" version="1.1" viewBox="0 0 75.1 54.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #202020;
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_2658" data-name="Group 2658">
+    <path id="Path_132" data-name="Path 132" class="cls-1" d="M3.6,0h67.9c2,0,3.6,1.6,3.6,3.6v47c0,2-1.6,3.6-3.6,3.6H3.6c-2,0-3.6-1.6-3.6-3.6V3.6C0,1.6,1.6,0,3.6,0Z"/>
+    <g id="Path_133" data-name="Path 133">
+      <path class="cls-2" d="M33.8,41.6h-6.3l-6.7-11.4-6.7,11.4h-6.3l9.6-15.6-9.4-15.3h6.2l6.5,11.2,6.5-11.2h6.2l-9.4,15.3,9.6,15.6ZM57.5,30.2v11.4h-5.4v-11.4l-10.4-19.6h6l7.1,14.7,7.1-14.7h6l-10.4,19.6Z"/>
+    </g>
+  </g>
+</svg>

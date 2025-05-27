@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "a5419ae7d46aa537",
+    "type": "split",
+    "children": [
+      {
+        "id": "123bd99a13723b2b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c76fd4ff51a699cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "placeos-scraper/content/projects/seamless-online-health-consultations.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "seamless-online-health-consultations"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c663e8ee828e3ad5",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c510d72ac133494",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c564a3fd74033488",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "27f0177df2058bf4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6782e2706888e2ad",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3a7665fd9073fa9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "feccc2a44ad6960c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85c2300b39d1e298",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/posts/webinar-campus-management-systems-with-cisco-meraki.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for webinar-campus-management-systems-with-cisco-meraki"
+            }
+          },
+          {
+            "id": "577cb5d83750fee2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/posts/webinar-campus-management-systems-with-cisco-meraki.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from webinar-campus-management-systems-with-cisco-meraki"
+            }
+          },
+          {
+            "id": "835228918f24c42e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e48aa92ca982ebc3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/posts/webinar-campus-management-systems-with-cisco-meraki.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of webinar-campus-management-systems-with-cisco-meraki"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c76fd4ff51a699cc",
+  "lastOpenFiles": [
+    "public/images/projects/government-agency-concierge-desk-approval-interface.webp",
+    "static/images/projects/government-agency-concierge-desk-approval-interface.webp",
+    "public/images/projects/suncorp-my-office-app-store.png",
+    "static/images/projects/suncorp-my-office-app-store.png",
+    "public/images/projects/suncorp-my-office-app-store.png.crdownload",
+    "public/images/projects/government-agency-room-utilization-report.webp",
+    "static/images/projects/government-agency-room-utilization-report.webp",
+    "public/images/projects/government-agency-room-utilization-report.webp.crdownload",
+    "public/images/projects/government-agency-space-booking-map-interface.webp",
+    "static/images/projects/government-agency-space-booking-map-interface.webp",
+    "public/images/projects/government-agency-survey-feedback-data.webp",
+    "static/images/projects/government-agency-survey-feedback-data.webp",
+    "public/images/projects/government-agency-room-booking-data.webp",
+    "placeos-scraper/content/projects/office-downsize-from-three-buildings-to-one.md",
+    "placeos-scraper/content/projects/multi-tenancy-space-as-a-service.md",
+    "placeos-scraper/content/projects/campus-energy-reduction-sustainability.md",
+    "placeos-scraper/content/projects/ashrae-headquarters-net-zero-retrofit.md",
+    "content/projects/ashrae-headquarters-net-zero-retrofit.md",
+    "content/products/visitor-management-app.md",
+    "content/products/workmate.md",
+    "content/products/room-booking.md",
+    "public/images/products/logos",
+    "static/images/products/logos",
+    "public/images/products/untitled folder",
+    "static/images/products/untitled folder",
+    "public/images/products/room-booking-once/logos",
+    "static/images/products/room-booking-once/logos",
+    "public/images/products/workmate/logos",
+    "static/images/products/workmate/logos",
+    "content/products/virtualcare.md",
+    "content/products/stagehand.md",
+    "content/products/room-booking-once.md",
+    "content/products/energy-reduction-app.md",
+    "content/products/desk-booking-app.md",
+    "placeos-scraper/content/products/placeos-telehealth-contact_phone.md",
+    "placeos-scraper/content/products/room-booking-app-free.md",
+    "content/products/room-booking-free.md",
+    "content/products/occupancy-based-energy.md",
+    "content/products/desk-booking.md",
+    "content/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do.md",
+    "content/posts/webinar-campus-management-systems-with-cisco-meraki.md",
+    "placeos-scraper/content/products/meeting-room-booking.md",
+    "placeos-scraper/content/products/room-booking-basic.md",
+    "placeos-scraper/content/products/av-control-that-works-without-third-party-controllers.md",
+    "placeos-scraper/content/products/the-first-workplace-management-system-to-combine-out-of-the-box-simplicity-with-enterprise-level-configuration-scalability.md",
+    "placeos-scraper/content/products/visitor-management-software-so-simple-the-only-thing-you-do-is-send-the-invite-it-does-everything-else.md"
+  ]
+}

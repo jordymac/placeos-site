@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sustainability on PlaceOS</title>
+    <link>http://localhost:1313/categories/sustainability/</link>
+    <description>Recent content in Sustainability on PlaceOS</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/sustainability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ASHRAE Headquarters Net-Zero Retrofit</title>
+      <link>http://localhost:1313/projects/ashrae-headquarters-net-zero-retrofit/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ashrae-headquarters-net-zero-retrofit/</guid>
+      <description>ASHRAE is a global society advancing human well-being through sustainable technology for the built environment. ASHRAE is an industry leader and is dedicated to promoting a healthy and sustainable built environment being the creator of BACnet, a protocol and set of standards for the HVAC industry.</description>
+    </item>
+    <item>
+      <title>Campus Energy Reduction &amp; Sustainability</title>
+      <link>http://localhost:1313/projects/campus-energy-reduction-sustainability/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/campus-energy-reduction-sustainability/</guid>
+      <description>This pilot examined the implementation of PlaceOS for automating and synchronizing separate building systems—security access, HVAC, AV, and others—integrated with the university’s scheduling system. The goal was to transform classrooms into smart spaces through enhanced automation capabilities.</description>
+    </item>
+    <item>
+      <title>A Guide to Energy Data Collection &amp; Utilization</title>
+      <link>http://localhost:1313/posts/a-guide-to-energy-data-collection-utilization/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/a-guide-to-energy-data-collection-utilization/</guid>
+      <description>How to collect energy data in commercial buildings so that you can find out where you&amp;rsquo;re wasting energy like powering empty spaces.</description>
+    </item>
+    <item>
+      <title>Webinar: Campus Management Systems with Cisco Meraki</title>
+      <link>http://localhost:1313/posts/webinar-campus-management-systems-with-cisco-meraki/</link>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/webinar-campus-management-systems-with-cisco-meraki/</guid>
+      <description>Learn how campus management systems leverage occupancy data like Cisco Meraki so that you&amp;rsquo;re not powering empty classrooms on campus.</description>
+    </item>
+    <item>
+      <title>Partnership announcement with Monstarlab</title>
+      <link>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</guid>
+      <description>We are proud to announce our official partnership with global digital consultancy Monstarlab! The partnership will help build</description>
+    </item>
+    <item>
+      <title>Enhancing Commercial Building Sustainability in a Hybrid Workplace</title>
+      <link>http://localhost:1313/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</guid>
+      <description>Explore sustainable practices for hybrid workplaces in commercial buildings. Find out how to reduce energy usage and promote a greener work environment.</description>
+    </item>
+    <item>
+      <title>How BMS Improve Commercial Building Sustainability</title>
+      <link>http://localhost:1313/posts/how-bms-improve-commercial-building-sustainability/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-bms-improve-commercial-building-sustainability/</guid>
+      <description>Explore new integrations that enhance ESG and sustainability in commercial buildings. Achieve your energy reduction goals and sustainability targets today!</description>
+    </item>
+    <item>
+      <title>Is Your HVAC System Cooling An Empty Office?</title>
+      <link>http://localhost:1313/posts/is-your-hvac-system-cooling-an-empty-office/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/is-your-hvac-system-cooling-an-empty-office/</guid>
+      <description>Is your HVAC system cooling empty offices? Discover strategies to reduce energy consumption in commercial buildings. Make your HVAC more efficient today!</description>
+    </item>
+    <item>
+      <title>LIVE EVENT: Rethinking Campus Experience</title>
+      <link>http://localhost:1313/posts/live-event-rethinking-campus-experience/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/live-event-rethinking-campus-experience/</guid>
+      <description>Discover smart campus solutions to enhance the campus experience. Learn how a campus app can streamline operations and improve student engagement.</description>
+    </item>
+    <item>
+      <title>£93bn of Commercial Real Estate is at Risk, Here’s What To Do</title>
+      <link>http://localhost:1313/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/</guid>
+      <description>Unlocking sustainability: UK&amp;rsquo;s mandate &amp;amp; PlaceOS&amp;rsquo;s smart energy solutions reshape real estate&amp;rsquo;s future.</description>
+    </item>
+    <item>
+      <title>Everybody Needs Good NABERS: The Missing Energy Metric</title>
+      <link>http://localhost:1313/posts/everybody-needs-good-nabers-the-missing-energy-metric/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/everybody-needs-good-nabers-the-missing-energy-metric/</guid>
+      <description>There&amp;rsquo;s a SINGLE metric that could improve every office&amp;rsquo;s energy efficiency in the country.And they&amp;rsquo;re not measuring it&amp;hellip;</description>
+    </item>
+    <item>
+      <title>LIVE DEMO: Occupancy-Based Energy Automation</title>
+      <link>http://localhost:1313/posts/live-demo-occupancy-based-energy-automation/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/live-demo-occupancy-based-energy-automation/</guid>
+      <description>A live demonstration about Occupancy-Based Energy Automation, Our AI Roadmap &amp;amp; New Room Booking Features</description>
+    </item>
+  </channel>
+</rss>
