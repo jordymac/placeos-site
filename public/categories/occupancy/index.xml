@@ -9,28 +9,28 @@
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/occupancy/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ASHRAE Headquarters Net-Zero Retrofit</title>
+      <title>ASHRAE Headquarters - Net-Zero Retrofit</title>
       <link>http://localhost:1313/projects/ashrae-headquarters-net-zero-retrofit/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/ashrae-headquarters-net-zero-retrofit/</guid>
       <description>ASHRAE is a global society advancing human well-being through sustainable technology for the built environment. ASHRAE is an industry leader and is dedicated to promoting a healthy and sustainable built environment being the creator of BACnet, a protocol and set of standards for the HVAC industry.</description>
     </item>
     <item>
-      <title>Campus Energy Reduction &amp; Sustainability</title>
+      <title>Canadian University Campus - Energy Reduction &amp; Sustainability</title>
       <link>http://localhost:1313/projects/campus-energy-reduction-sustainability/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/campus-energy-reduction-sustainability/</guid>
       <description>This pilot examined the implementation of PlaceOS for automating and synchronizing separate building systems—security access, HVAC, AV, and others—integrated with the university’s scheduling system. The goal was to transform classrooms into smart spaces through enhanced automation capabilities.</description>
     </item>
     <item>
-      <title>Multi-Tenancy: Space as a Service</title>
+      <title>Government Agency - Multi-Tenancy: Space as a Service</title>
       <link>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</guid>
       <description>This Government Agency required a multifunctional and scalable workspace management system to serve various federal agencies. It must accurately authenticate users to manage and charge for space utilization, and provide a scalable model suitable for other government spaces facing underutilization.</description>
     </item>
     <item>
-      <title>Office downsize from three buildings to one</title>
+      <title>Suncorp - Office downsize from three buildings to one</title>
       <link>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</guid>
