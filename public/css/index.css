@@ -1088,6 +1088,11 @@ video {
   height: auto;
 }
 
+img {
+  border: 1px solid #AEB1BD;
+  border-radius: 0.25rem;
+}
+
 /* Make elements with the HTML hidden attribute stay hidden by default */
 
 [hidden]:where(:not([hidden='until-found'])) {
