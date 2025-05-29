@@ -1,11 +1,11 @@
 /* 1. Set CSS variables for prose and prose-slate using your theme variables */
 html.light {
   --fg: #18181b;
-  --link: #1e40af;
-  --link-hover: #2563eb;
+  --link: #347FF7;
+  --link-hover: #347FF7;
   --heading: #18181b;
   --prose-body: #374151;
-  --prose-links: #1e40af;
+  --prose-links: #275EB8;
   --prose-headings: #18181b;
   --prose-bold: #18181b;
   --prose-lead: #4b5563;
@@ -28,16 +28,18 @@ html.light {
   --g2-y: 55%;
   --g3-x: 0%;
   --g3-y: 100%;
-  --g4-x: 80%;
-  --g4-y: 100%;
-  --g5-x: 0%;
-  --g5-y: 100%;
+  background-color: transparent;
+  background-image:
+    radial-gradient(at var(--g1-x) var(--g1-y), hsla(336,64%,47%,0.1) 0px, transparent 50%),
+    radial-gradient(at var(--g2-x) var(--g2-y), hsla(232,37%,25%,0.1) 0px, transparent 50%),
+    radial-gradient(at var(--g3-x) var(--g3-y), hsla(237,100%,68%,0.1) 0px, transparent 50%);
+  background-blend-mode: lighten;
 }
 
 html.dark {
   --fg: #f9fafb;
-  --link: #38bdf8;
-  --link-hover: #0ea5e9;
+  --link: #5C64FF;
+  --link-hover: #ADB1FF;
   --heading: #f9fafb;
   --prose-body: #d1d5db;
   --prose-links: #38bdf8;
@@ -63,35 +65,16 @@ html.dark {
   --g2-y: 100%;
   --g3-x: 92%;
   --g3-y: 62%;
-  --g4-x: 9%;
-  --g4-y: 24%;
-  --g5-x: 93%;
-  --g5-y: 38%;
-  --g6-x: 41%;
-  --g6-y: 31%;
-}
-
-html.light body {
-  background-color: transparent;
-  background-image:
-    radial-gradient(at var(--g1-x) var(--g1-y), hsla(336,64%,47%,0.1) 0px, transparent 50%),
-    radial-gradient(at var(--g2-x) var(--g2-y), hsla(232,37%,25%,0.1) 0px, transparent 50%),
-    radial-gradient(at var(--g3-x) var(--g3-y), hsla(237,100%,68%,0.1) 0px, transparent 50%),
-    radial-gradient(at var(--g4-x) var(--g4-y), hsla(193,96%,89%,1) 0px, transparent 50%),
-    radial-gradient(at var(--g5-x) var(--g5-y), hsla(193,96%,60%,0.2) 0px, transparent 50%);
-  background-blend-mode: lighten;
-}
-
-html.dark body {
   background-color: hsla(26,0%,0%,1);
   background-image:
     radial-gradient(at var(--g1-x) var(--g1-y), hsla(240,100%,15%,0.5) 0px, transparent 50%),
     radial-gradient(at var(--g2-x) var(--g2-y), hsla(327,100%,30%,0.5) 0px, transparent 50%),
-    radial-gradient(at var(--g3-x) var(--g3-y), hsla(300,100%,17%,0.2) 0px, transparent 50%),
-    radial-gradient(at var(--g4-x) var(--g4-y), hsla(240,100%,17%,0.1) 0px, transparent 50%),
-    radial-gradient(at var(--g5-x) var(--g5-y), hsla(280,100%,17%,0.1) 0px, transparent 50%),
-    radial-gradient(at var(--g6-x) var(--g6-y), hsla(193,96%,60%,0.2) 0px, transparent 50%);
+    radial-gradient(at var(--g3-x) var(--g3-y), hsla(300,100%,17%,0.2) 0px, transparent 50%);
   background-blend-mode: lighten;
+}
+
+html, body {
+  min-height: 100vh;
 }
 
 body, .prose {
@@ -1245,9 +1228,15 @@ nav a.ancestor {
 }
 
 article.main a {
+  color: var(--prose-links) !important;
   --tw-text-opacity: 1 !important;
-  color: rgb(30 64 175 / var(--tw-text-opacity)) !important;
 }
+
+article.main a:hover,
+article.main a:focus {
+  color: var(--link-hover) !important;
+}
+
 
 article.main a:hover {
   text-decoration-thickness: 2px;
