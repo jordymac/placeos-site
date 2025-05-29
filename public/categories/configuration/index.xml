@@ -64,5 +64,26 @@
       <guid>http://localhost:1313/posts/how-to-create-a-workplace-worth-returning-to/</guid>
       <description>In this piece, I’m going to discuss how the working environment has changed today and what you can do about it.</description>
     </item>
+    <item>
+      <title>Occupancy Monitoring System</title>
+      <link>http://localhost:1313/products/occupancy-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/occupancy-monitoring/</guid>
+      <description>A self-hosted occupancy monitoring system that works with the infrastructure you already have — no new sensors needed.</description>
+    </item>
+    <item>
+      <title>Room Booking</title>
+      <link>http://localhost:1313/products/room-booking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/room-booking/</guid>
+      <description>A simple, self-hosted room booking app you don&amp;rsquo;t pay per room per month, you own it</description>
+    </item>
+    <item>
+      <title>WorkMate</title>
+      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
+      <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
+    </item>
   </channel>
 </rss>

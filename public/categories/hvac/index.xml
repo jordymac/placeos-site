@@ -113,5 +113,12 @@
       <guid>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</guid>
       <description>Tesla takes the approach, all user input equals error. There’s a lot we can learn from that when we apply that ethos.</description>
     </item>
+    <item>
+      <title>Energy Reduction App</title>
+      <link>http://localhost:1313/products/energy-reduction-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/energy-reduction-app/</guid>
+      <description>Align energy use in spaces with actual occupancy, reduce HVAC &amp;amp; lighting use</description>
+    </item>
   </channel>
 </rss>

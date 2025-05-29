@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</guid>
       <description>This Government Agency required a multifunctional and scalable workspace management system to serve various federal agencies. It must accurately authenticate users to manage and charge for space utilization, and provide a scalable model suitable for other government spaces facing underutilization.</description>
     </item>
+    <item>
+      <title>Desk Booking App</title>
+      <link>http://localhost:1313/products/desk-booking-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/desk-booking-app/</guid>
+      <description>Configurable desk booking management at scale without no hardware lock-in</description>
+    </item>
   </channel>
 </rss>

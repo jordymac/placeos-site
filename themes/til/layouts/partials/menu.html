@@ -5,6 +5,16 @@
   <nav>
     <ul class="flex flex-row items-center justify-end space-x-4">
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+      <li>
+        <button id="theme-toggle" class="p-2 rounded focus:outline-none" aria-label="Toggle dark mode">
+          <span id="sun" class="hidden">
+            {{ partial "svg/sun.html" . }}
+          </span>
+          <span id="moon" class="hidden">
+            {{ partial "svg/moon.html" . }}
+          </span>
+        </button>
+      </li>
     </ul>
   </nav>
 {{- end }}

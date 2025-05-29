@@ -127,5 +127,26 @@
       <guid>http://localhost:1313/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</guid>
       <description>When it comes to smart building solutions, choosing when to go custom or packaged is difficult. Here&amp;rsquo;s how to approach it.</description>
     </item>
+    <item>
+      <title>Room Booking</title>
+      <link>http://localhost:1313/products/room-booking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/room-booking/</guid>
+      <description>A simple, self-hosted room booking app you don&amp;rsquo;t pay per room per month, you own it</description>
+    </item>
+    <item>
+      <title>Visitor Management</title>
+      <link>http://localhost:1313/products/visitor-management-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/visitor-management-app/</guid>
+      <description>Visitor management software so simple, the only thing you do is send the invite, it does everything else</description>
+    </item>
+    <item>
+      <title>WorkMate</title>
+      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
+      <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
+    </item>
   </channel>
 </rss>

@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/posts/building-region-level-workplace-management/</guid>
       <description>Control workplace settings to standardize policies across buildings, so you can scale workplace management while ensuring the right settings for each location.</description>
     </item>
+    <item>
+      <title>Room Booking</title>
+      <link>http://localhost:1313/products/room-booking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/room-booking/</guid>
+      <description>A simple, self-hosted room booking app you don&amp;rsquo;t pay per room per month, you own it</description>
+    </item>
   </channel>
 </rss>

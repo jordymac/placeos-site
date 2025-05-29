@@ -232,5 +232,33 @@
       <guid>http://localhost:1313/posts/user-interface-templates/</guid>
       <description>Standard interface templates for any current and future partners to develop their own custom products.</description>
     </item>
+    <item>
+      <title>Desk Booking App</title>
+      <link>http://localhost:1313/products/desk-booking-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/desk-booking-app/</guid>
+      <description>Configurable desk booking management at scale without no hardware lock-in</description>
+    </item>
+    <item>
+      <title>Room Booking</title>
+      <link>http://localhost:1313/products/room-booking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/room-booking/</guid>
+      <description>A simple, self-hosted room booking app you don&amp;rsquo;t pay per room per month, you own it</description>
+    </item>
+    <item>
+      <title>VirtualCare</title>
+      <link>http://localhost:1313/products/virtualcare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/virtualcare/</guid>
+      <description>Gives clinicians, carers, and patients one system to manage consults, surveys, referrals, Medicare billing, education, and follow-ups — no plugins or patchwork tools.</description>
+    </item>
+    <item>
+      <title>WorkMate</title>
+      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
+      <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
+    </item>
   </channel>
 </rss>

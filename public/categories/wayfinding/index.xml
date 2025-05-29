@@ -64,5 +64,12 @@
       <guid>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</guid>
       <description>Tesla takes the approach, all user input equals error. There’s a lot we can learn from that when we apply that ethos.</description>
     </item>
+    <item>
+      <title>Visitor Management</title>
+      <link>http://localhost:1313/products/visitor-management-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/visitor-management-app/</guid>
+      <description>Visitor management software so simple, the only thing you do is send the invite, it does everything else</description>
+    </item>
   </channel>
 </rss>

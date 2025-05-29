@@ -435,5 +435,47 @@
       <guid>http://localhost:1313/categories/podcast/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Dashboards</title>
+      <link>http://localhost:1313/categories/dashboards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/dashboards/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>http://localhost:1313/categories/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FAQs</title>
+      <link>http://localhost:1313/categories/faqs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/faqs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Healthcare</title>
+      <link>http://localhost:1313/categories/healthcare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/healthcare/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How-To</title>
+      <link>http://localhost:1313/categories/how-to/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/how-to/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ROI</title>
+      <link>http://localhost:1313/categories/roi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/roi/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

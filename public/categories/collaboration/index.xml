@@ -78,5 +78,12 @@
       <guid>http://localhost:1313/posts/office-space-utilization-the-roadmap-to-efficiency/</guid>
       <description>Discover the significance of office space utilization. Dive into key metrics, benefits, and the future of office efficiency.</description>
     </item>
+    <item>
+      <title>VirtualCare</title>
+      <link>http://localhost:1313/products/virtualcare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/virtualcare/</guid>
+      <description>Gives clinicians, carers, and patients one system to manage consults, surveys, referrals, Medicare billing, education, and follow-ups — no plugins or patchwork tools.</description>
+    </item>
   </channel>
 </rss>

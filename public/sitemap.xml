@@ -469,11 +469,25 @@
   </url><url>
     <loc>http://localhost:1313/graph/</loc>
   </url><url>
+    <loc>http://localhost:1313/categories/dashboards/</loc>
+  </url><url>
     <loc>http://localhost:1313/products/desk-booking-app/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/education/</loc>
   </url><url>
     <loc>http://localhost:1313/products/energy-reduction-app/</loc>
   </url><url>
+    <loc>http://localhost:1313/categories/faqs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/healthcare/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/how-to/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/occupancy-monitoring/</loc>
+  </url><url>
     <loc>http://localhost:1313/products/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/roi/</loc>
   </url><url>
     <loc>http://localhost:1313/products/room-booking/</loc>
   </url><url>

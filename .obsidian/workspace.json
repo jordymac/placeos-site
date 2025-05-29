@@ -199,6 +199,8 @@
   },
   "active": "c22bf7e1566d83bc",
   "lastOpenFiles": [
+    "themes/til/layouts/partials/svg/moon.html",
+    "themes/til/layouts/partials/svg/sun.html",
     "public/categories/education/index.xml",
     "public/categories/healthcare/index.xml",
     "public/products/occupancy-monitoring/index.html",
@@ -225,8 +227,6 @@
     "placeos-scraper/content/projects/ashrae-headquarters-net-zero-retrofit.md",
     "themes/til/hugo.toml",
     "themes/til/assets/ts/svg/spinner.svg",
-    "themes/til/assets/ts/lib/utils.ts",
-    "themes/til/assets/ts/lib/types.ts",
     "themes/til/images/tn.png",
     "themes/til/images/screenshot.png",
     "themes/til/content/graph.md",
