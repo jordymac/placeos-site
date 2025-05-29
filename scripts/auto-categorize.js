@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const yaml = require('js-yaml');
 
-const contentDir = path.join(__dirname, '../content');
+const contentDir = path.join(__dirname, '../content/products');
 const topics = [
   "AI", "Analytics", "APIs", "Article", "Automation", "AV", "Campus", "Change Management", "Collaboration",
   "Commercial Real Estate", "Computer Vision", "Configuration", "Coworking", "Desk Booking", "Digital Signage",
@@ -14,7 +14,10 @@ const topics = [
   "Platform", "Podcast", "Product", "Retrofit", "Room Booking", "RTO", "Safety", "Sales", "Scalability",
   "Smart Building", "Space Planning", "Stagehand", "Surveys", "Sustainability", "Tender", "Utilization",
   "UX", "Visitor Management", "Wayfinding", "WorkMate", "Workplace", "Workplace Flexibility",
-  "Workplace Management", "Modules", "Zones", "Systems", "Drivers"
+  "Workplace Management", "Modules", "Zones", "Systems", "Drivers", "Middleware", "Edge Computing", "Event-Driven Architecture", "Webhooks",
+  "Healthcare", "Education", "Hospitality", "Facilities Management", "Property Management",
+  "SSO", "Directory Sync", "IoT", "Cost Reduction", "ROI", "Compliance", "Dashboards", "Mobile App", "Self-Service", "Voice Control",
+  "How-To", "FAQs", "Case Study"
 ];
 
 const keywordMap = topics.reduce((acc, topic) => {

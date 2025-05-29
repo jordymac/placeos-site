@@ -1,10 +1,24 @@
 ---
-title: "VirtualCare"
-slug: "virtualcare"
-summary: "Gives clinicians, carers, and patients one system to
-      manage consults, surveys, referrals, Medicare billing, education, and
-      follow-ups — no plugins or patchwork tools."
-categories: ["product"]
+title: VirtualCare
+slug: virtualcare
+summary: >-
+  Gives clinicians, carers, and patients one system to manage consults, surveys,
+  referrals, Medicare billing, education, and follow-ups — no plugins or
+  patchwork tools.
+categories:
+  - AI
+  - Analytics
+  - Automation
+  - Collaboration
+  - Education
+  - Government
+  - Healthcare
+  - Interface
+  - Platform
+  - Product
+  - Surveys
+  - Systems
+  - product
 product_logo: virtualcare-logo.svg
 ---
 # PlaceOS TeleHealth contact

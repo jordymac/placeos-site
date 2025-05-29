@@ -1,12 +1,28 @@
 ---
-title: "StageHand"
-slug: "stagehand"
-summary: "# AV control that works without third-party controllers"
-categories: ["product"]
+title: StageHand
+slug: stagehand
+summary: '# AV control that works without third-party controllers'
+categories:
+  - AI
+  - AV
+  - Analytics
+  - Campus
+  - Drivers
+  - Energy
+  - Occupancy
+  - Platform
+  - Stagehand
+  - Surveys
+  - Systems
+  - Utilization
+  - WorkMate
+  - product
 product_logo: stagehand-logo.svg
 ---
 # AV control that works without third-party controllers
 Stagehand is an advanced AV control platform that eliminates the need for third-party controllers so that you can manage every device directly. It also integrates with a wide range of systems—from access control to real-time location services and timetable data—so that you can identify issues and set actions to resolve those issues automatically in the future.
+
+{{< wistia id="rh3qym3420" >}}
 
 ## Integrations extend beyond AV to the campus
 We've developed hundreds of integration drivers for displays, protocols, conferencing, scheduling, directory, real-time location, access control, lighting, audio and video so that you can be confident our solution works with your technology.

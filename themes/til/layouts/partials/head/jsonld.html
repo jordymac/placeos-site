@@ -13,6 +13,25 @@
 {{- end -}}
 {{- with $author -}}{{ $data = merge $data ( dict "author" . ) }}{{- end -}}
 {{- with $license -}}{{ $data = merge $data . }}{{- end -}}
+{{- with .Params.categories }}
+  {{ $topics := slice }}
+  {{ range . }}
+    {{ $topics = $topics | append . }}
+  {{ end }}
+  {{ $data = merge $data (dict "about" $topics) }}
+{{- end }}
+
+{{- with .Params.query }}
+  {{ $data = merge $data (dict "hasQuery" (dict "@type" "seovoc:Query" "name" .)) }}
+{{- end }}
+
+{{- with .Params.related_links }}
+  {{ $links := slice }}
+  {{ range . }}
+    {{ $links = $links | append (dict "@type" "seovoc:Link" "url" .url "anchorText" .anchor_text) }}
+  {{ end }}
+  {{ $data = merge $data (dict "relatedLink" $links) }}
+{{- end }}
 <script type="application/ld+json">
 {{ jsonify (dict "indent" "  ") $data | safeJS }}
 </script>
