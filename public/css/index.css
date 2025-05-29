@@ -1,6 +1,5 @@
 /* 1. Set CSS variables for prose and prose-slate using your theme variables */
 html.light {
-  --bg: #fff;
   --fg: #18181b;
   --link: #1e40af;
   --link-hover: #2563eb;
@@ -23,10 +22,19 @@ html.light {
   --prose-pre-bg: #1f2937;
   --prose-th-borders: #d1d5db;
   --prose-td-borders: #e5e7eb;
+  --g1-x: 40%;
+  --g1-y: 20%;
+  --g2-x: 100%;
+  --g2-y: 55%;
+  --g3-x: 0%;
+  --g3-y: 100%;
+  --g4-x: 80%;
+  --g4-y: 100%;
+  --g5-x: 0%;
+  --g5-y: 100%;
 }
 
 html.dark {
-  --bg: #18181b;
   --fg: #f9fafb;
   --link: #38bdf8;
   --link-hover: #0ea5e9;
@@ -49,6 +57,41 @@ html.dark {
   --prose-pre-bg: rgb(0 0 0 / 50%);
   --prose-th-borders: #4b5563;
   --prose-td-borders: #374151;
+  --g1-x: 95%;
+  --g1-y: 97%;
+  --g2-x: 14%;
+  --g2-y: 100%;
+  --g3-x: 92%;
+  --g3-y: 62%;
+  --g4-x: 9%;
+  --g4-y: 24%;
+  --g5-x: 93%;
+  --g5-y: 38%;
+  --g6-x: 41%;
+  --g6-y: 31%;
+}
+
+html.light body {
+  background-color: transparent;
+  background-image:
+    radial-gradient(at var(--g1-x) var(--g1-y), hsla(336,64%,47%,0.1) 0px, transparent 50%),
+    radial-gradient(at var(--g2-x) var(--g2-y), hsla(232,37%,25%,0.1) 0px, transparent 50%),
+    radial-gradient(at var(--g3-x) var(--g3-y), hsla(237,100%,68%,0.1) 0px, transparent 50%),
+    radial-gradient(at var(--g4-x) var(--g4-y), hsla(193,96%,89%,1) 0px, transparent 50%),
+    radial-gradient(at var(--g5-x) var(--g5-y), hsla(193,96%,60%,0.2) 0px, transparent 50%);
+  background-blend-mode: lighten;
+}
+
+html.dark body {
+  background-color: hsla(26,0%,0%,1);
+  background-image:
+    radial-gradient(at var(--g1-x) var(--g1-y), hsla(240,100%,15%,0.5) 0px, transparent 50%),
+    radial-gradient(at var(--g2-x) var(--g2-y), hsla(327,100%,30%,0.5) 0px, transparent 50%),
+    radial-gradient(at var(--g3-x) var(--g3-y), hsla(300,100%,17%,0.2) 0px, transparent 50%),
+    radial-gradient(at var(--g4-x) var(--g4-y), hsla(240,100%,17%,0.1) 0px, transparent 50%),
+    radial-gradient(at var(--g5-x) var(--g5-y), hsla(280,100%,17%,0.1) 0px, transparent 50%),
+    radial-gradient(at var(--g6-x) var(--g6-y), hsla(193,96%,60%,0.2) 0px, transparent 50%);
+  background-blend-mode: lighten;
 }
 
 body, .prose {

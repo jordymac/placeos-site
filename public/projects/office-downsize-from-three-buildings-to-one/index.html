@@ -144,23 +144,22 @@
       >
     </li>
       <li>
-  <button id="theme-toggle" class="p-2 rounded focus:outline-none" aria-label="Toggle dark mode">
-    <span id="sun" class="hidden">
-      <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <button id="theme-toggle" class="p-2 rounded focus:outline-none" aria-label="Toggle dark mode">
+          <span id="sun" class="hidden">
+            <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
   <path stroke="currentColor" stroke-width="2" d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
 </svg>
 
-    </span>
-    <span id="moon" class="hidden">
-      <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          </span>
+          <span id="moon" class="hidden">
+            <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path stroke="currentColor" stroke-width="2" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
 </svg>
 
-    </span>
-  </button>
-</li>
-
+          </span>
+        </button>
+      </li>
     </ul>
   </nav>
 
@@ -392,5 +391,74 @@
       </footer>
     </div>
     
+    <script>
+        const toggle = document.getElementById('theme-toggle');
+        const sun = document.getElementById('sun');
+        const moon = document.getElementById('moon');
+        const html = document.documentElement;
+
+        function setTheme(theme) {
+          html.classList.remove('light', 'dark');
+          html.classList.add(theme);
+          localStorage.setItem('theme', theme);
+          if(theme === 'dark') {
+            sun.style.display = 'block';
+            moon.style.display = 'none';
+          } else {
+            sun.style.display = 'none';
+            moon.style.display = 'block';
+          }
+        }
+
+        function getSystemTheme() {
+          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        if(toggle && sun && moon){
+          
+          const saved = localStorage.getItem('theme');
+          setTheme(saved || getSystemTheme());
+
+          
+          toggle.addEventListener('click', () => {
+            setTheme(html.classList.contains('dark') ? 'light' : 'dark');
+          });
+        }
+      </script>
+      <script>
+        window.addEventListener('scroll', () => {
+          const scrollY = window.scrollY;
+          
+          const isLight = document.documentElement.classList.contains('light');
+
+          if (isLight) {
+            
+            document.documentElement.style.setProperty('--g1-x', `${40 + Math.sin(scrollY/200)*4}%`);
+            document.documentElement.style.setProperty('--g1-y', `${20 + Math.cos(scrollY/180)*3}%`);
+            document.documentElement.style.setProperty('--g2-x', `${100 + Math.cos(scrollY/140)*2}%`);
+            document.documentElement.style.setProperty('--g2-y', `${55 + Math.sin(scrollY/170)*3}%`);
+            document.documentElement.style.setProperty('--g3-x', `${0 + Math.sin(scrollY/110)*4}%`);
+            document.documentElement.style.setProperty('--g3-y', `${100 + Math.cos(scrollY/160)*3}%`);
+            document.documentElement.style.setProperty('--g4-x', `${80 + Math.sin(scrollY/90)*3}%`);
+            document.documentElement.style.setProperty('--g4-y', `${100 + Math.cos(scrollY/120)*4}%`);
+            document.documentElement.style.setProperty('--g5-x', `${0 + Math.sin(scrollY/80)*5}%`);
+            document.documentElement.style.setProperty('--g5-y', `${0 + Math.cos(scrollY/70)*5}%`);
+          } else {
+            
+            document.documentElement.style.setProperty('--g1-x', `${95 + Math.sin(scrollY/200)*2}%`);
+            document.documentElement.style.setProperty('--g1-y', `${97 + Math.cos(scrollY/180)*2}%`);
+            document.documentElement.style.setProperty('--g2-x', `${14 + Math.cos(scrollY/140)*4}%`);
+            document.documentElement.style.setProperty('--g2-y', `${100 + Math.sin(scrollY/170)*2}%`);
+            document.documentElement.style.setProperty('--g3-x', `${92 + Math.sin(scrollY/110)*2}%`);
+            document.documentElement.style.setProperty('--g3-y', `${62 + Math.cos(scrollY/160)*4}%`);
+            document.documentElement.style.setProperty('--g4-x', `${9 + Math.sin(scrollY/90)*3}%`);
+            document.documentElement.style.setProperty('--g4-y', `${24 + Math.cos(scrollY/120)*3}%`);
+            document.documentElement.style.setProperty('--g5-x', `${93 + Math.sin(scrollY/80)*2}%`);
+            document.documentElement.style.setProperty('--g5-y', `${38 + Math.cos(scrollY/70)*2}%`);
+            document.documentElement.style.setProperty('--g6-x', `${41 + Math.cos(scrollY/60)*2}%`);
+            document.documentElement.style.setProperty('--g6-y', `${31 + Math.sin(scrollY/50)*3}%`);
+          }
+        });
+      </script>
   </body>
 </html>
