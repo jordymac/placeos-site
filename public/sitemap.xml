@@ -8,9 +8,6 @@
     <loc>http://localhost:1313/categories/analytics/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/apis/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/projects/ashrae-headquarters-net-zero-retrofit/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -48,9 +45,6 @@
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/energy/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/enterprise/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/event/</loc>
@@ -113,13 +107,7 @@
     <loc>http://localhost:1313/categories/room-booking/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/sales/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/scalability/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/stagehand/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</loc>
@@ -152,12 +140,6 @@
     <loc>http://localhost:1313/categories/workplace/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/workplace-management/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/zones/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/article/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -185,13 +167,25 @@
     <loc>http://localhost:1313/categories/safety/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/workplace-management/</loc>
+    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/zones/</loc>
+    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/computer-vision/</loc>
+    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/enterprise/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/marketplace/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</loc>
+    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/stagehand/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/tender/</loc>
@@ -239,6 +233,9 @@
     <loc>http://localhost:1313/posts/a-guide-to-energy-efficient-commercial-buildings/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/apis/</loc>
+    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/webinar/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -258,6 +255,9 @@
     <lastmod>2024-11-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</loc>
+    <lastmod>2024-11-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/sales/</loc>
     <lastmod>2024-11-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/july-2024-placeos-product-updates/</loc>
@@ -466,6 +466,14 @@
   </url><url>
     <loc>http://localhost:1313/posts/you-don-t-need-another-workplace-sensor/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/licensing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/privacy-policy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/security/</loc>
+  </url><url>
+    <loc>http://localhost:1313/terms-of-use/</loc>
   </url><url>
     <loc>http://localhost:1313/graph/</loc>
   </url><url>

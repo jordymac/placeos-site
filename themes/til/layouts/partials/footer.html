@@ -34,6 +34,13 @@
         {{- errorf "unknown %q CC license specified in hugo.toml" $license -}}
       {{- end }}
     {{- end }}
+    <div class="flex flex-col space-y-1 mt-2">
+      <a href="https://docs.placeos.com">Docs</a>
+      <a href="/licensing/">Licensing</a>
+      <a href="/privacy-policy/">Privacy</a>
+      <a href="/security/">Security</a>
+      <a href="/terms-of-use/">Terms of Use</a>
+    </div>
 
   </div>
 
@@ -45,6 +52,7 @@
         data-theme-version="{{ site.Data.til.meta.themeVersion }}"
         >theme: til</a
       >
+      
     </div>
   {{- end }}
 </section>

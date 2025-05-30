@@ -1,96 +1,116 @@
 ---
 title: PlaceOS
 description: >-
-  A modular integration platform for building automation and experience —
-  without replacing your existing tech stack.
+  A modular integration platform for building automation and experience
+  without replacing your existing deployments.
 list_items:
   - title: >-
-      For people managing space using complex building systems and technology
-      stacks
+      Start here
+    summary: >-
+      Welcome to PlaceOS. This page isn’t a sales pitch, it’s a practical guide. 
+      We’ve laid everything out so you can understand what PlaceOS actually is, how it works, and why it matters. 
+      We structured it this way to cut through the usual product noise and give you a clear picture of the architecture, capabilities and workflows before you ever book a demo. 
+      Whether you’re managing a single room or hundreds of buildings, we want this to be the fastest path to figuring out if PlaceOS fits your world.
+  - title: The problems teams are solving with PlaceOS
+    summary: >-
+      Hundreds of offices and campuses around the world use PlaceOS for occupancy management, workplace experience, room management, utilization reporting, hot-desks, visitor management, building automation, campus experience and energy savings. If your goal is to connect systems, create smarter workflows, and deliver real-world outcomes ~ without rolling out new tech ~ PlaceOS is the platform to do it.
+  - title: >-
+      The types of teams solving those problems
     summary: >-
       The ones holding it all together. IT teams, space planners, experience
-      leads, facilities, AV and IoT managers — anyone managing complexity across
-      buildings, systems, and tech stacks. We help you stitch it all together
+      leads, facilities, AV and IoT managers. Basically anyone managing complexity across
+      buildings, systems and software. We help you stitch it all together
       and make it work.
-  - title: You don’t need another sensor, dashboard or single pane of glass
+  - title: We won't sell you new hardware, because you probably don't need it
     summary: >-
-      You already invested in technology — get more out of it. You’ve got
-      sensors, booking tools, AV systems, dashboards. But they don’t talk to
-      each other. If AV doesn’t trigger climate, or your calendar doesn’t talk
-      to access control, it’s not about needing new tech. It’s about putting the
-      pieces in sync. Let’s stop paying more for more noise.
-  - title: A true platform – like wordpress but for buildings
+      Most buildings already have what they need, the tech is there, it’s just not connected. That’s why we start with an audit. In most cases, the systems you’ve already deployed can provide the data you’re after. You don’t need a new sensor, you need the siloed systems to talk to each other.
+  - title: Which is what we mean by platform
     summary: >-
-      Open, agnostic, and built for extensibility. Like WordPress or Salesforce,
-      you can build solutions on top, plug in components, or buy something off
+      It's our core philosophy. Open, agnostic and built for extensibility. Like WordPress or Salesforce,
+      you can build solutions on top, plug in components or buy something off
       the shelf (more on that below). You don’t buy a fixed app. You get a
       foundation. Build your own workflows, or start with one of ours. Platforms
-      let others build — that’s the difference.
-  - title: What's not a platform
+      let others build, that’s the difference.
+  - title: Be wary of companies making the platform claim
     summary: >
-      Hardcoded apps pretending to be flexible. The term \"platform\" gets
-      thrown around a lot. But most of the time, it doesn’t mean what it should.
+      The term \"platform\" gets thrown around a lot. But most of the time, it doesn’t mean what it should.
       A true platform separates logic from the interface. It has modular
       integrations, open APIs, and allows others to build on top. The interface
-      can be anything — but the smarts, logic, and automation all live in the
+      can be anything, but the smarts, logic, and automation all live in the
       backend. 
 
 
       Vendors often call their single-use apps “platforms.” A room booking app
       where everything is hardcoded? Not a platform. A dashboard that only
       connects to its own ecosystem? Still not a platform. If you can’t build on
-      it or extend it without asking permission or signing an NDA — it’s not a
+      it or extend it without asking permission or signing an NDA, it’s not a
       platform. Salesforce is a platform. WordPress is a platform. You can build
       on them, resell your version, or plug in your own tools. That’s what
-      PlaceOS is too. A platform isn’t just about where it runs — it’s about
+      PlaceOS is too. A platform isn’t just about where it runs, it’s about
       what it enables. If it locks you in, it’s not a platform. Hardcoded apps.
       Fixed dashboards. Tools that only work with their own ecosystem. That’s
-      not a platform — that’s vendor lock-in.
-  - title: Why architecture matters
+      not a platform, that’s vendor lock-in.
+  - title: Our architecture creates an abstraction layer
     summary: >-
-      An abstraction layer with hot-swappable modules. PlaceOS creates an
-      abstraction layer between your integrations and your logic — so you can
-      swap tech in and out without breaking anything. Drivers handle the
-      connection, modules group them, and logic stays untouched. That’s what
+      PlaceOS creates an abstraction layer extracting away the complexities of all the unique building systems and software. 
+      This separates the integrations and logic so you can
+      swap technology in and out without breaking anything. Drivers handle the
+      connection, modules group them and logic stays untouched. That’s what
       makes it scalable and future-ready.
-  - title: We've built hundreds of drivers
+  - title: The drivers doing the abstraction
     summary: >-
-      Every integration starts here — and we support hundreds. Drivers connect
-      PlaceOS to your systems — like access control, AV, HVAC, sensors, or
-      calendars. They’re open source. Build your own or use what’s already in
-      the library. See our integration list here.
+      Every integration starts here. Drivers connect
+      PlaceOS to your systems like access control, AV, HVAC, sensors, network and
+      calendars. This is where we connect and abstract. 
+
+
+      There are two types of drivers, intergration & logic. 
+
+
+      Integration drivers: 
+
+
+      - Communicate with external systems and lets them talk to PlaceOS. 
+
+      - Represent hardware or software platforms (i.e. device or service).
+
+      - Control any functionality of the external systems and handle any incoming data.
+
+
+      Logic drivers:
+
+
+      - Coordinate interactions between modules
+
+      - Don't map to specific physical objects
+
+      - Represent abstract or conceptual functions
+
+      - May use a variety of devices or software platforms
+
+      
+      They’re also open source so you can build your own or use what’s already in
+      the library. See our integration list [here](https://docs.placeos.com/reference/supported-integrations).
   - title: Hot-swappable modules
     summary: >-
-      We bundle drivers into modules. Modules are reusable components that make
-      logic portable. You can swap out tech behind the scenes — everything keeps
-      working.
+      Modules are reusable building blocks, each one is a live instance of a driver. It could represent a device, a digital service, or a set of logic. Modules control both state (like power status or user presence) and behavior (like powering on a display or creating a booking).
+
+      Each can be started or stopped individually, and reused across systems. That means shared infrastructure, like a lighting gateway or AV switch, doesn’t need to be rebuilt for every room. Logic modules are special: they don’t talk to external systems, they coordinate internal actions and inherit settings from zones and systems for consistent behavior.
   - title: Scaling with zones & systems
     summary: >-
-      Scale with consistency — and tweak as needed. Zones let you apply logic
-      across similar spaces — like all meeting rooms, or all teaching spaces.
-      Systems group your integrations so they’re easy to replicate. It’s how we
-      go from one room to an entire building — or from one building to a global
-      rollout — without starting over. And you can still tweak individual spaces
-      without affecting global settings.
+      Systems are the building blocks that tie together devices, services, and logic. Each system groups modules, settings and metadata, typically representing a physical space like a room, or a logical function like digital signage. Zones are collections of systems that share characteristics, like being part of the same floor, building, or function.
+
+      Zones help you apply shared settings across groups, while systems manage the localized logic and integrations. You can apply broad logic at the zone level (like building-wide HVAC behavior) and tailor specifics within each system. This structure lets you scale from one room to hundreds consistently, and without rewriting everything.
   - title: Workflow automation with triggers & logic drivers
     summary: >-
-      Automations you can run on day one — or scale to complex logic. This is
-      where the automation lives. Triggers connect inputs to actions — no manual
-      steps, no waiting on the user. On day one, you can automate HVAC based on
-      room bookings. Or set up AV to power on when someone walks in. No app
-      needed. And if you need more complexity, Logic Drivers give you full
-      control for layered conditions and decision-making.
-  - title: Decoupled frontend interface & experience from integrations & logic
+      Triggers add dynamic, event-driven behavior across modules without writing complex logic. They define actions that occur based on conditions like system state, time, or external input (like a webhook).
+
+      Triggers let modules react to each other. For example, turning on AV when a room is booked, or posting a chat message when someone badges in. You can create and manage them directly in the PlaceOS Backoffice to customize real-time system behavior or use them to complement more advanced workflows powered by logic modules.
+  - title: Decoupling frontend interface & experience from integrations & logic
     summary: >-
-      Supports varying systems across sites — with consistent logic. AV panel,
-      app, AI agent — it doesn’t matter. PlaceOS handles the backend. Run
-      workflows with or without a user interface. Different systems in different
-      buildings? Still works the same.
-  - title: What you can do with PlaceOS
+      The frontend doesn't drive the experience, the logic does. Whether you're using an AV panel, a workplace app, an AI agent or no interface at all, PlaceOS runs the workflows in the background. It supports varied systems across locations, while maintaining consistent behavior. The interface layer is flexible, so you can switch it out without redoing the logic underneath.
+  - title: Examples of automation that actually deliver outcomes
     summary: >
-      Automation that actually delivers outcomes.
-
-
       - Automate HVAC based on real-time occupancy and room bookings — save ~$1K
       per room per year
 
@@ -130,7 +150,7 @@ list_items:
       - SaaS-only tools: Hardcoded logic, no flexibility
   - title: Why PlaceOS is different
     summary: >
-      The structural choices that set us apart — and why they matter.
+      The structural choices that set us apart and why they matter.
 
 
       - Composable architecture: Swap parts without breaking workflows
@@ -142,7 +162,7 @@ list_items:
       - Separation of logic/interface: Survives tech churn
 
 
-      - UI-agnostic: Works with LLMs, CV, APIs — or no UI at all
+      - UI-agnostic: Works with LLMs, CV, APIs or no UI at all
 
 
       - Platform-based business model: SaaS, usage-based, or license-ready
@@ -151,12 +171,14 @@ list_items:
       - AI-agent ready: Agents can control any system via drivers
 
 
-      All of this means you can build, scale, and adapt — without ever being
+      All of this means you can build, scale and adapt without ever being
       boxed in.
   - title: You can start anywhere, as small as you like
     summary: >-
-      Start small. Prove value. Scale fast. You don’t need a huge rollout. Start
-      with one workflow — like automating HVAC or linking AV to your calendar —
+      Start small. Prove value. Scale fast. 
+      
+      You don’t need a huge rollout. Start
+      with one workflow, like automating HVAC or linking AV to your calendar —
       and grow from there. Proof in week one, not year two. Sometimes scaling a
       small change can have a massive impact. See our energy savings on campus —
       ~$1K per room per year. We’re not asking for a forklift upgrade. Start
@@ -217,9 +239,8 @@ list_items:
 
   - title: Pricing models that suit your business
     summary: >-
-      SaaS, usage-based, or perpetual — we support it all. We don’t care how you
-      buy — just that it fits. SaaS, usage-based, annual license, perpetual —
-      OPEX or CAPEX, your call. We’ve seen every procurement process under the
+      SaaS, usage-based, or perpetual, we support it all. We don’t care how you
+      buy, just that it fits. We’ve seen every procurement process under the
       sun. We’ll work with yours.
   - title: Flexible delivery – cloud, on-prem & hybrid
     summary: >-
@@ -228,44 +249,12 @@ list_items:
       protected. We don't store anything.
   - title: Plugs into what you've already got
     summary: >-
-      This replaces nothing — unless you want it to. PlaceOS doesn’t require you
-      to rip and replace. It plugs into what you’ve already got. Integrate first
-      — replace later, if needed.
+      This replaces nothing, unless you want it to. PlaceOS doesn’t require you
+      to rip and replace. It plugs into what you’ve already got.
   - title: Future proof by design
     summary: >-
-      Built for what’s next — not just what’s now. PlaceOS isn’t tied to any one
-      interface, vendor, or trend. As tech shifts — LLMs, AI agents, new
-      protocols — we’re already wired for it. We didn’t build PlaceOS to be
-      finished. We built it to keep going. That’s the difference between a
-      product and a platform.
-categories:
-  - AI
-  - APIs
-  - AV
-  - Automation
-  - Campus
-  - Configuration
-  - Desk Booking
-  - Drivers
-  - Energy
-  - Enterprise
-  - HVAC
-  - Interface
-  - Meeting Rooms
-  - Modules
-  - Occupancy
-  - Platform
-  - Product
-  - Room Booking
-  - Sales
-  - Scalability
-  - Stagehand
-  - Surveys
-  - Systems
-  - UX
-  - Visitor Management
-  - WorkMate
-  - Workplace
-  - Workplace Management
-  - Zones
+      Built for what’s next, not just what’s now. PlaceOS isn’t tied to any one
+      interface, vendor, or trend. As technology rapidly shifts (LLMs, AI agents, new
+      protocols) we’re already wired for it. We didn’t build PlaceOS to be
+      finished. We built it to keep going.
 ---
