@@ -99,10 +99,6 @@ body, .prose {
   transition: background 0.2s, color 0.2s;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: var(--heading);
-}
-
 a {
   color: var(--link);
   transition: color 0.2s;
@@ -897,6 +893,7 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: inherit;
+  color: var(--heading);
 }
 
 /*
@@ -1886,7 +1883,7 @@ footer a:hover {
 
 .prose :where(h1):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
   color: var(--prose-headings) !important;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 2.25em;
   margin-top: 0;
   margin-bottom: 0.8888889em;
@@ -3371,9 +3368,9 @@ footer a:hover {
   display: inline-block;
 }
 
-.prose-h1\:text-\[2em\] :is(:where(h1):not(:where([class~='not-prose'], [class~='not-prose'] *))) {
+/* .prose-h1\:text-\[2em\] :is(:where(h1):not(:where([class~='not-prose'], [class~='not-prose'] *))) {
   font-size: 2em;
-}
+} */ /*I commented this out to ignore this global override. */
 
 @media (prefers-reduced-motion: no-preference) {
   .motion-safe\:transition-colors {
