@@ -7,17 +7,41 @@
     {{ partial "head.html" . }}
   </head>
   <body>
-    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
-      <header class="flex flex-row items-center justify-between">
-        {{ partial "header.html" . }}
-      </header>
-      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
-        {{ block "main" . }}{{ end }}
-      </main>
-      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
-        {{ partial "footer.html" . }}
-      </footer>
-    </div>
+    {{ if .IsHome }}
+      <!-- Header: narrow prose wrapper -->
+      <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
+        <header class="flex items-center justify-between">
+          {{ partial "header.html" . }}
+        </header>
+      </div>
+
+      <!-- Main: wide up to 1080px, width control separate from typography -->
+      <div class="mx-auto w-full max-w-[1080px] px-4 flex flex-col space-y-10">
+        <article class="prose prose-slate md:prose-lg prose-h1:text-[2em] mx-auto max-w-full" id="maincontent">
+          {{ block "main" . }}{{ end }}
+        </article>
+      </div>
+
+      <!-- Footer: back to narrow/prose -->
+      <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
+        <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+          {{ partial "footer.html" . }}
+        </footer>
+      </div>
+    {{ else }}
+      <!-- non-home: everything in narrow prose wrapper -->
+      <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
+        <header class="flex items-center justify-between">
+          {{ partial "header.html" . }}
+        </header>
+        <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
+          {{ block "main" . }}{{ end }}
+        </main>
+        <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+          {{ partial "footer.html" . }}
+        </footer>
+      </div>
+    {{ end }}
     {{ if .Store.Get "hasMermaid" }}
       <script
         src="https://cdn.jsdelivr.net/npm/mermaid@11.4.0/dist/mermaid.min.js"
@@ -32,71 +56,7 @@
         });
       </script>
     {{ end }}
-    <script>
-        const toggle = document.getElementById('theme-toggle');
-        const sun = document.getElementById('sun');
-        const moon = document.getElementById('moon');
-        const html = document.documentElement;
-
-        function setTheme(theme) {
-          html.classList.remove('light', 'dark');
-          html.classList.add(theme);
-          localStorage.setItem('theme', theme);
-          if(theme === 'dark') {
-            sun.style.display = 'block';
-            moon.style.display = 'none';
-          } else {
-            sun.style.display = 'none';
-            moon.style.display = 'block';
-          }
-        }
-
-        function getSystemTheme() {
-          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        }
-
-        if(toggle && sun && moon){
-          // On page load
-          const saved = localStorage.getItem('theme');
-          setTheme(saved || getSystemTheme());
-
-          // On toggle click
-          toggle.addEventListener('click', () => {
-            setTheme(html.classList.contains('dark') ? 'light' : 'dark');
-          });
-        }
-      </script>
-      <script>
-       let last = 0;
-        function animateGradients(now) {
-          if (now - last > 60) { // ~25fps
-            const t = now / 500; // Time-based animation
-            const isLight = document.documentElement.classList.contains('light');
-            const isMobile = window.matchMedia('(max-width: 700px)').matches;
-            const amp = isMobile ? 1 : 16; // <<< 0 for no animation on mobile
-            const ampY = isMobile ? 1 : 14; // <<< 0 for no animation on mobile
-            if (isLight) {
-              document.documentElement.style.setProperty('--g1-x', `${40 + Math.sin(t)*amp}%`);
-              document.documentElement.style.setProperty('--g1-y', `${20 + Math.cos(t/1.2)*ampY}%`);
-              document.documentElement.style.setProperty('--g2-x', `${100 + Math.cos(t/1.1)*amp}%`);
-              document.documentElement.style.setProperty('--g2-y', `${55 + Math.sin(t/1.5)*ampY}%`);
-              document.documentElement.style.setProperty('--g3-x', `${0 + Math.sin(t/1.4)*amp}%`);
-              document.documentElement.style.setProperty('--g3-y', `${100 + Math.cos(t/1.3)*ampY}%`);
-            } else {
-              document.documentElement.style.setProperty('--g1-x', `${95 + Math.sin(t)*amp}%`);
-              document.documentElement.style.setProperty('--g1-y', `${97 + Math.cos(t/1.2)*ampY}%`);
-              document.documentElement.style.setProperty('--g2-x', `${14 + Math.cos(t/1.1)*amp}%`);
-              document.documentElement.style.setProperty('--g2-y', `${100 + Math.sin(t/1.5)*ampY}%`);
-              document.documentElement.style.setProperty('--g3-x', `${92 + Math.sin(t/1.4)*amp}%`);
-              document.documentElement.style.setProperty('--g3-y', `${62 + Math.cos(t/1.3)*ampY}%`);
-            }
-            last = now;
-          }
-          requestAnimationFrame(animateGradients);
-        }
-
-        requestAnimationFrame(animateGradients);
-
-      </script>
+      <script src="/js/theme-toggle.js"></script>
+      <script src="/js/gradient-animation.js"></script>
   </body>
 </html>

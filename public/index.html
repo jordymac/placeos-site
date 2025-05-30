@@ -39,7 +39,9 @@
   
 
 
-  <link rel="stylesheet" href="/css/custom.css">
+  
+    <link rel="stylesheet" href="/css/custom.css">
+  
 
 
 <script type="application/ld+json">
@@ -58,9 +60,11 @@
 
   </head>
   <body>
-    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
-      <header class="flex flex-row items-center justify-between">
-        <div>
+    
+      
+      <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
+        <header class="flex items-center justify-between">
+          <div>
   <a id="skip-nav" class="sr-only" href="#maincontent">Skip to main content</a>
   <a class="font-semibold" href="/">PlaceOS</a>
 </div>
@@ -81,14 +85,14 @@
     </li>
       <li>
         <button id="theme-toggle" class="p-2 rounded focus:outline-none" aria-label="Toggle dark mode">
-          <span id="sun" class="hidden">
+          <span id="sun" class="hidden w-4 h-4">
             <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
   <path stroke="currentColor" stroke-width="2" d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
 </svg>
 
           </span>
-          <span id="moon" class="hidden">
+          <span id="moon" class="hidden w-4 h-4">
             <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path stroke="currentColor" stroke-width="2" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
 </svg>
@@ -100,104 +104,108 @@
   </nav>
 
 
-      </header>
-      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
-        
+        </header>
+      </div>
+
+      
+      <div class="mx-auto w-full max-w-[1080px] px-4 flex flex-col space-y-10">
+        <article class="prose prose-slate md:prose-lg prose-h1:text-[2em] mx-auto max-w-full" id="maincontent">
+          
 <section class="hero">
-  <div class="hero-content">
+  <div class="hero-content mx-auto max-w-[600px] text-center">
     <h1>PlaceOS</h1>
     <p>A modular integration platform for building automation and experience without replacing your existing deployments.</p>
   </div>
 </section>
-
-<section class="accordion-list">
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Start here</span>
-        <span class="accordion-icon">+</span>
+<div class="home-container mx-auto w-full px-4" style="max-width:1080px;">
+  <section class="accordion-list">
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Start here</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">This is a practical guide to PlaceOS.  We’ve laid everything out so you can understand what PlaceOS actually is, how it works, and why it matters.  We structured it this way to cut through the usual product noise and give you a clear picture of the architecture, capabilities and workflows before you ever book a demo.  Whether you’re managing a single room or hundreds of buildings, we want this to be the fastest path to figuring out if PlaceOS fits your world.</div>
+          
+        </div>
       </div>
-      <div class="accordion-content">
-        <div class="list-summary">Welcome to PlaceOS. This page isn’t a sales pitch, it’s a practical guide.  We’ve laid everything out so you can understand what PlaceOS actually is, how it works, and why it matters.  We structured it this way to cut through the usual product noise and give you a clear picture of the architecture, capabilities and workflows before you ever book a demo.  Whether you’re managing a single room or hundreds of buildings, we want this to be the fastest path to figuring out if PlaceOS fits your world.</div>
-        
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">The problems teams are solving with PlaceOS</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">Hundreds of offices and campuses around the world use PlaceOS for occupancy management, workplace experience, room management, utilization reporting, hot-desks, visitor management, building automation, campus experience and energy savings. If your goal is to connect systems, create smarter workflows, and deliver real-world outcomes ~ without rolling out new tech ~ PlaceOS is the platform to do it.</div>
+          
+        </div>
       </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">The problems teams are solving with PlaceOS</span>
-        <span class="accordion-icon">+</span>
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">The types of teams solving those problems</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">The ones holding it all together. IT teams, space planners, experience leads, facilities, AV and IoT managers. Basically anyone managing complexity across buildings, systems and software. We help you stitch it all together and make it work.</div>
+          
+        </div>
       </div>
-      <div class="accordion-content">
-        <div class="list-summary">Hundreds of offices and campuses around the world use PlaceOS for occupancy management, workplace experience, room management, utilization reporting, hot-desks, visitor management, building automation, campus experience and energy savings. If your goal is to connect systems, create smarter workflows, and deliver real-world outcomes ~ without rolling out new tech ~ PlaceOS is the platform to do it.</div>
-        
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">We won&#39;t sell you new hardware, because you probably don&#39;t need it</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">Most buildings already have what they need, the tech is there, it’s just not connected. That’s why we start with an audit. In most cases, the systems you’ve already deployed can provide the data you’re after. You don’t need a new sensor, you need the siloed systems to talk to each other.</div>
+          
+        </div>
       </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">The types of teams solving those problems</span>
-        <span class="accordion-icon">+</span>
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Which is what we mean by platform</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">It&rsquo;s our core philosophy. Open, agnostic and built for extensibility. Like WordPress or Salesforce, you can build solutions on top, plug in components or buy something off the shelf (more on that below). You don’t buy a fixed app. You get a foundation. Build your own workflows, or start with one of ours. Platforms let others build, that’s the difference.</div>
+          
+        </div>
       </div>
-      <div class="accordion-content">
-        <div class="list-summary">The ones holding it all together. IT teams, space planners, experience leads, facilities, AV and IoT managers. Basically anyone managing complexity across buildings, systems and software. We help you stitch it all together and make it work.</div>
-        
-      </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">We won&#39;t sell you new hardware, because you probably don&#39;t need it</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary">Most buildings already have what they need, the tech is there, it’s just not connected. That’s why we start with an audit. In most cases, the systems you’ve already deployed can provide the data you’re after. You don’t need a new sensor, you need the siloed systems to talk to each other.</div>
-        
-      </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Which is what we mean by platform</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary">It&rsquo;s our core philosophy. Open, agnostic and built for extensibility. Like WordPress or Salesforce, you can build solutions on top, plug in components or buy something off the shelf (more on that below). You don’t buy a fixed app. You get a foundation. Build your own workflows, or start with one of ours. Platforms let others build, that’s the difference.</div>
-        
-      </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Be wary of companies making the platform claim</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary"><p>The term &quot;platform&quot; gets thrown around a lot. But most of the time, it doesn’t mean what it should. A true platform separates logic from the interface. It has modular integrations, open APIs, and allows others to build on top. The interface can be anything, but the smarts, logic, and automation all live in the backend.</p>
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Be wary of companies making the platform claim</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary"><p>The term &quot;platform&quot; gets thrown around a lot. But most of the time, it doesn’t mean what it should. A true platform separates logic from the interface. It has modular integrations, open APIs, and allows others to build on top. The interface can be anything, but the smarts, logic, and automation all live in the backend.</p>
 <p>Vendors often call their single-use apps “platforms.” A room booking app where everything is hardcoded? Not a platform. A dashboard that only connects to its own ecosystem? Still not a platform. If you can’t build on it or extend it without asking permission or signing an NDA, it’s not a platform. Salesforce is a platform. WordPress is a platform. You can build on them, resell your version, or plug in your own tools. That’s what PlaceOS is too. A platform isn’t just about where it runs, it’s about what it enables. If it locks you in, it’s not a platform. Hardcoded apps. Fixed dashboards. Tools that only work with their own ecosystem. That’s not a platform, that’s vendor lock-in.</p>
 </div>
-        
+          
+        </div>
       </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Our architecture creates an abstraction layer</span>
-        <span class="accordion-icon">+</span>
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Our architecture creates an abstraction layer</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">PlaceOS creates an abstraction layer extracting away the complexities of all the unique building systems and software.  This separates the integrations and logic so you can swap technology in and out without breaking anything. Drivers handle the connection, modules group them and logic stays untouched. That’s what makes it scalable and future-ready.</div>
+          
+        </div>
       </div>
-      <div class="accordion-content">
-        <div class="list-summary">PlaceOS creates an abstraction layer extracting away the complexities of all the unique building systems and software.  This separates the integrations and logic so you can swap technology in and out without breaking anything. Drivers handle the connection, modules group them and logic stays untouched. That’s what makes it scalable and future-ready.</div>
-        
-      </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">The drivers doing the abstraction</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary"><p>Every integration starts here. Drivers connect PlaceOS to your systems like access control, AV, HVAC, sensors, network and calendars. This is where we connect and abstract.</p>
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">The drivers doing the abstraction</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary"><p>Every integration starts here. Drivers connect PlaceOS to your systems like access control, AV, HVAC, sensors, network and calendars. This is where we connect and abstract.</p>
 <p>There are two types of drivers, intergration &amp; logic.</p>
 <p>Integration drivers:</p>
 <ul>
@@ -214,64 +222,64 @@
 </ul>
 <p>They’re also open source so you can build your own or use what’s already in the library. See our integration list <a href="https://docs.placeos.com/reference/supported-integrations">here</a>.</p>
 </div>
-        
+          
+        </div>
       </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Hot-swappable modules</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary">Modules are reusable building blocks, each one is a live instance of a driver. It could represent a device, a digital service, or a set of logic. Modules control both state (like power status or user presence) and behavior (like powering on a display or creating a booking).
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Hot-swappable modules</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">Modules are reusable building blocks, each one is a live instance of a driver. It could represent a device, a digital service, or a set of logic. Modules control both state (like power status or user presence) and behavior (like powering on a display or creating a booking).
 Each can be started or stopped individually, and reused across systems. That means shared infrastructure, like a lighting gateway or AV switch, doesn’t need to be rebuilt for every room. Logic modules are special: they don’t talk to external systems, they coordinate internal actions and inherit settings from zones and systems for consistent behavior.</div>
-        
+          
+        </div>
       </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Scaling with zones &amp; systems</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary">Systems are the building blocks that tie together devices, services, and logic. Each system groups modules, settings and metadata, typically representing a physical space like a room, or a logical function like digital signage. Zones are collections of systems that share characteristics, like being part of the same floor, building, or function.
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Scaling with zones &amp; systems</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">Systems are the building blocks that tie together devices, services, and logic. Each system groups modules, settings and metadata, typically representing a physical space like a room, or a logical function like digital signage. Zones are collections of systems that share characteristics, like being part of the same floor, building, or function.
 Zones help you apply shared settings across groups, while systems manage the localized logic and integrations. You can apply broad logic at the zone level (like building-wide HVAC behavior) and tailor specifics within each system. This structure lets you scale from one room to hundreds consistently, and without rewriting everything.</div>
-        
+          
+        </div>
       </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Workflow automation with triggers &amp; logic drivers</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary">Triggers add dynamic, event-driven behavior across modules without writing complex logic. They define actions that occur based on conditions like system state, time, or external input (like a webhook).
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Workflow automation with triggers &amp; logic drivers</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">Triggers add dynamic, event-driven behavior across modules without writing complex logic. They define actions that occur based on conditions like system state, time, or external input (like a webhook).
 Triggers let modules react to each other. For example, turning on AV when a room is booked, or posting a chat message when someone badges in. You can create and manage them directly in the PlaceOS Backoffice to customize real-time system behavior or use them to complement more advanced workflows powered by logic modules.</div>
-        
+          
+        </div>
       </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Decoupling frontend interface &amp; experience from integrations &amp; logic</span>
-        <span class="accordion-icon">+</span>
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Decoupling frontend interface &amp; experience from integrations &amp; logic</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">The frontend doesn&rsquo;t drive the experience, the logic does. Whether you&rsquo;re using an AV panel, a workplace app, an AI agent or no interface at all, PlaceOS runs the workflows in the background. It supports varied systems across locations, while maintaining consistent behavior. The interface layer is flexible, so you can switch it out without redoing the logic underneath.</div>
+          
+        </div>
       </div>
-      <div class="accordion-content">
-        <div class="list-summary">The frontend doesn&rsquo;t drive the experience, the logic does. Whether you&rsquo;re using an AV panel, a workplace app, an AI agent or no interface at all, PlaceOS runs the workflows in the background. It supports varied systems across locations, while maintaining consistent behavior. The interface layer is flexible, so you can switch it out without redoing the logic underneath.</div>
-        
-      </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Examples of automation that actually deliver outcomes</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary"><ul>
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Examples of automation that actually deliver outcomes</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary"><ul>
 <li>
 <p>Automate HVAC based on real-time occupancy and room bookings — save ~$1K per room per year</p>
 </li>
@@ -293,17 +301,17 @@ Triggers let modules react to each other. For example, turning on AV when a room
 </ul>
 <p>Everything you do can become a trigger. Every system can be part of a workflow.</p>
 </div>
-        
+          
+        </div>
       </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Why other tools don&#39;t cut it</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary"><ul>
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Why other tools don&#39;t cut it</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary"><ul>
 <li>
 <p>Custom middleware: Slow, brittle, expensive to maintain</p>
 </li>
@@ -321,17 +329,17 @@ Triggers let modules react to each other. For example, turning on AV when a room
 </li>
 </ul>
 </div>
-        
+          
+        </div>
       </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Why PlaceOS is different</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary"><p>The structural choices that set us apart and why they matter.</p>
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Why PlaceOS is different</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary"><p>The structural choices that set us apart and why they matter.</p>
 <ul>
 <li>
 <p>Composable architecture: Swap parts without breaking workflows</p>
@@ -354,29 +362,29 @@ Triggers let modules react to each other. For example, turning on AV when a room
 </ul>
 <p>All of this means you can build, scale and adapt without ever being boxed in.</p>
 </div>
-        
+          
+        </div>
       </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">You can start anywhere, as small as you like</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary">Start small. Prove value. Scale fast.
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">You can start anywhere, as small as you like</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">Start small. Prove value. Scale fast.
 You don’t need a huge rollout. Start with one workflow, like automating HVAC or linking AV to your calendar — and grow from there. Proof in week one, not year two. Sometimes scaling a small change can have a massive impact. See our energy savings on campus — ~$1K per room per year. We’re not asking for a forklift upgrade. Start with what you’ve got. We’ll make it work harder.</div>
-        
+          
+        </div>
       </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Apps suck (but yeah, we’ve got some)</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary"><p>We’ve built apps like WorkMate that are ready to go. An app solves the obvious stuff, bundling up common problems in one place. Tapping into your phone’s native tech like Bluetooth, NFC, and Ultra-Wideband for access and location.
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Apps suck (but yeah, we’ve got some)</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary"><p>We’ve built apps like WorkMate that are ready to go. An app solves the obvious stuff, bundling up common problems in one place. Tapping into your phone’s native tech like Bluetooth, NFC, and Ultra-Wideband for access and location.
 But that’s just the surface. We go beyond with deep integrations, smart workflows, and modular interfaces.
 Our apps sit on top of the platform architecture so receive all the same benefits of hot-swappable modules and logic. When the next interface drops, glasses, wearables, or whatever OpenAI’s cooking, we’ll be there. Because we’ve decoupled the front-end from the brains, making the experience future-proof, flexible and device-agnostic.
 Here are our apps:
@@ -389,118 +397,79 @@ Here are our apps:
 <p><strong>Visitor management</strong>: So simple, the only thing you do is send the invite — it does everything else.</p>
 <p><strong>Occupancy-based energy</strong>: Align energy use in spaces with actual occupancy to reduce HVAC &amp; lighting use.</p>
 </div>
-        
+          
+        </div>
       </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">We’ve got an experienced tech team who can build our own stuff</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary">We’d love that. Honestly, it’s a better move than getting locked into some rigid, hard-coded app. But we think we can give you the best of both worlds: a head start that lets you focus on your unique challenges without getting buried in device-level protocol hell.
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">We’ve got an experienced tech team who can build our own stuff</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">We’d love that. Honestly, it’s a better move than getting locked into some rigid, hard-coded app. But we think we can give you the best of both worlds: a head start that lets you focus on your unique challenges without getting buried in device-level protocol hell.
 Our integration drivers don’t just connect you to hundreds of vendors, we also support the protocols that make smart buildings actually smart: BACnet, Modbus, KNX, and more. We handle the heavy lifting, device integrations, zone management, system coordination, so you can get straight to building.
 Now your scoping exercise changes: What do you want to build, knowing you can connect everything you need?
 Take it from there. Extend with new drivers. Contribute to our open source libraries. Talk to us about using a non-commercial version for that side project you’ve been meaning to automate.
 We’re built for developers.</div>
-        
-      </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Pricing models that suit your business</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary">SaaS, usage-based, or perpetual, we support it all. We don’t care how you buy, just that it fits. We’ve seen every procurement process under the sun. We’ll work with yours.</div>
-        
-      </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Flexible delivery – cloud, on-prem &amp; hybrid</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary">It&rsquo;s your call, run PlaceOS wherever it makes sense. If you&rsquo;ve got high security standards, everything can run on-prem ensuring your data remains protected. We don&rsquo;t store anything.</div>
-        
-      </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Plugs into what you&#39;ve already got</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary">This replaces nothing, unless you want it to. PlaceOS doesn’t require you to rip and replace. It plugs into what you’ve already got.</div>
-        
-      </div>
-    </div>
-    
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">Future proof by design</span>
-        <span class="accordion-icon">+</span>
-      </div>
-      <div class="accordion-content">
-        <div class="list-summary">Built for what’s next, not just what’s now. PlaceOS isn’t tied to any one interface, vendor, or trend. As technology rapidly shifts (LLMs, AI agents, new protocols) we’re already wired for it. We didn’t build PlaceOS to be finished. We built it to keep going.</div>
-        
-      </div>
-    </div>
-    
-  </section>
-  
-
-  <script>
-    document.querySelectorAll('.accordion-header').forEach(header => {
-      const item = header.parentElement;
-      const content = item.querySelector('.accordion-content');
-      const icon = header.querySelector('.accordion-icon');
-    
-      header.addEventListener('click', () => {
-        const isOpen = item.classList.contains('open');
-    
-        if (isOpen) {
           
-          content.style.height = content.scrollHeight + 'px';
-          requestAnimationFrame(() => {
-            content.style.height = '0';
-          });
-          item.classList.remove('open');
-          icon.textContent = '+';
-        } else {
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Pricing models that suit your business</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">SaaS, usage-based, or perpetual, we support it all. We don’t care how you buy, just that it fits. We’ve seen every procurement process under the sun. We’ll work with yours.</div>
           
-          content.style.height = 'auto';
-          const targetHeight = content.scrollHeight + 'px';
-          content.style.height = '0';
-    
-          requestAnimationFrame(() => {
-            content.style.height = targetHeight;
-          });
-    
-          item.classList.add('open');
-          icon.textContent = '–';
-        }
-    
-        content.addEventListener('transitionend', () => {
-          if (item.classList.contains('open')) {
-            content.style.height = 'auto';
-          }
-        }, { once: true });
-      });
-    });
-    </script>
-    
-    
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Flexible delivery – cloud, on-prem &amp; hybrid</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">It&rsquo;s your call, run PlaceOS wherever it makes sense. If you&rsquo;ve got high security standards, everything can run on-prem ensuring your data remains protected. We don&rsquo;t store anything.</div>
+          
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Plugs into what you&#39;ve already got</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">This replaces nothing, unless you want it to. PlaceOS doesn’t require you to rip and replace. It plugs into what you’ve already got.</div>
+          
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">Future proof by design</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">Built for what’s next, not just what’s now. PlaceOS isn’t tied to any one interface, vendor, or trend. As technology rapidly shifts (LLMs, AI agents, new protocols) we’re already wired for it. We didn’t build PlaceOS to be finished. We built it to keep going.</div>
+          
+        </div>
+      </div>
+      
+    </section>
+  <script src="/js/accordion-header.js"></script>
 
+        </article>
+      </div>
 
-      </main>
-      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
-        <section class="items-top flex flex-row justify-between opacity-70">
+      
+      <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
+        <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+          <section class="items-top flex flex-row justify-between opacity-70">
   <div class="flex flex-col space-y-2">
     <div class="flex flex-col space-y-1 mt-2">
       <a href="https://docs.placeos.com">Docs</a>
@@ -513,74 +482,11 @@ We’re built for developers.</div>
   </div>
 </section>
 
-      </footer>
-    </div>
+        </footer>
+      </div>
     
-    <script>
-        const toggle = document.getElementById('theme-toggle');
-        const sun = document.getElementById('sun');
-        const moon = document.getElementById('moon');
-        const html = document.documentElement;
-
-        function setTheme(theme) {
-          html.classList.remove('light', 'dark');
-          html.classList.add(theme);
-          localStorage.setItem('theme', theme);
-          if(theme === 'dark') {
-            sun.style.display = 'block';
-            moon.style.display = 'none';
-          } else {
-            sun.style.display = 'none';
-            moon.style.display = 'block';
-          }
-        }
-
-        function getSystemTheme() {
-          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        }
-
-        if(toggle && sun && moon){
-          
-          const saved = localStorage.getItem('theme');
-          setTheme(saved || getSystemTheme());
-
-          
-          toggle.addEventListener('click', () => {
-            setTheme(html.classList.contains('dark') ? 'light' : 'dark');
-          });
-        }
-      </script>
-      <script>
-       let last = 0;
-        function animateGradients(now) {
-          if (now - last > 60) { 
-            const t = now / 500; 
-            const isLight = document.documentElement.classList.contains('light');
-            const isMobile = window.matchMedia('(max-width: 700px)').matches;
-            const amp = isMobile ? 1 : 16; 
-            const ampY = isMobile ? 1 : 14; 
-            if (isLight) {
-              document.documentElement.style.setProperty('--g1-x', `${40 + Math.sin(t)*amp}%`);
-              document.documentElement.style.setProperty('--g1-y', `${20 + Math.cos(t/1.2)*ampY}%`);
-              document.documentElement.style.setProperty('--g2-x', `${100 + Math.cos(t/1.1)*amp}%`);
-              document.documentElement.style.setProperty('--g2-y', `${55 + Math.sin(t/1.5)*ampY}%`);
-              document.documentElement.style.setProperty('--g3-x', `${0 + Math.sin(t/1.4)*amp}%`);
-              document.documentElement.style.setProperty('--g3-y', `${100 + Math.cos(t/1.3)*ampY}%`);
-            } else {
-              document.documentElement.style.setProperty('--g1-x', `${95 + Math.sin(t)*amp}%`);
-              document.documentElement.style.setProperty('--g1-y', `${97 + Math.cos(t/1.2)*ampY}%`);
-              document.documentElement.style.setProperty('--g2-x', `${14 + Math.cos(t/1.1)*amp}%`);
-              document.documentElement.style.setProperty('--g2-y', `${100 + Math.sin(t/1.5)*ampY}%`);
-              document.documentElement.style.setProperty('--g3-x', `${92 + Math.sin(t/1.4)*amp}%`);
-              document.documentElement.style.setProperty('--g3-y', `${62 + Math.cos(t/1.3)*ampY}%`);
-            }
-            last = now;
-          }
-          requestAnimationFrame(animateGradients);
-        }
-
-        requestAnimationFrame(animateGradients);
-
-      </script>
+    
+      <script src="/js/theme-toggle.js"></script>
+      <script src="/js/gradient-animation.js"></script>
   </body>
 </html>

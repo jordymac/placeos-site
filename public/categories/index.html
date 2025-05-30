@@ -38,8 +38,6 @@
   
 
 
-  <link rel="stylesheet" href="/css/custom.css">
-
 
 <script type="application/ld+json">
 {
@@ -57,9 +55,11 @@
 
   </head>
   <body>
-    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
-      <header class="flex flex-row items-center justify-between">
-        <div>
+    
+      
+      <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
+        <header class="flex items-center justify-between">
+          <div>
   <a id="skip-nav" class="sr-only" href="#maincontent">Skip to main content</a>
   <a class="font-semibold" href="/">PlaceOS</a>
 </div>
@@ -80,14 +80,14 @@
     </li>
       <li>
         <button id="theme-toggle" class="p-2 rounded focus:outline-none" aria-label="Toggle dark mode">
-          <span id="sun" class="hidden">
+          <span id="sun" class="hidden w-4 h-4">
             <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
   <path stroke="currentColor" stroke-width="2" d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
 </svg>
 
           </span>
-          <span id="moon" class="hidden">
+          <span id="moon" class="hidden w-4 h-4">
             <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path stroke="currentColor" stroke-width="2" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
 </svg>
@@ -99,15 +99,15 @@
   </nav>
 
 
-      </header>
-      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
-        
+        </header>
+        <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
+          
   <div class="flex flex-col space-y-6">
   </div>
 
-      </main>
-      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
-        <section class="items-top flex flex-row justify-between opacity-70">
+        </main>
+        <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+          <section class="items-top flex flex-row justify-between opacity-70">
   <div class="flex flex-col space-y-2">
     <div class="flex flex-col space-y-1 mt-2">
       <a href="https://docs.placeos.com">Docs</a>
@@ -120,8 +120,9 @@
   </div>
 </section>
 
-      </footer>
-    </div>
+        </footer>
+      </div>
+    
     
     <script>
         const toggle = document.getElementById('theme-toggle');

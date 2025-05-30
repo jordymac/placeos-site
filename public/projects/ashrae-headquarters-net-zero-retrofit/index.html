@@ -44,8 +44,6 @@
   
 
 
-  <link rel="stylesheet" href="/css/custom.css">
-
 
   
   
@@ -122,9 +120,11 @@
 
   </head>
   <body>
-    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
-      <header class="flex flex-row items-center justify-between">
-        <div>
+    
+      
+      <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
+        <header class="flex items-center justify-between">
+          <div>
   <a id="skip-nav" class="sr-only" href="#maincontent">Skip to main content</a>
   <a class="font-semibold" href="/">PlaceOS</a>
 </div>
@@ -164,9 +164,9 @@
   </nav>
 
 
-      </header>
-      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
-        <article class="main">
+        </header>
+        <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
+          <article class="main">
     <header>
       <h1 class="!mb-1">ASHRAE Headquarters - Net-Zero Retrofit</h1><div class="flex flex-row items-center space-x-4">
           <time class="text-sm italic opacity-80" datetime="2025-05-21T00:00:00&#43;00:00"
@@ -538,9 +538,9 @@
 
   </article>
 
-      </main>
-      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
-        <section class="items-top flex flex-row justify-between opacity-70">
+        </main>
+        <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+          <section class="items-top flex flex-row justify-between opacity-70">
   <div class="flex flex-col space-y-2">
     <div class="flex flex-col space-y-1 mt-2">
       <a href="https://docs.placeos.com">Docs</a>
@@ -553,8 +553,9 @@
   </div>
 </section>
 
-      </footer>
-    </div>
+        </footer>
+      </div>
+    
     
     <script>
         const toggle = document.getElementById('theme-toggle');

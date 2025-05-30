@@ -38,8 +38,6 @@
   
 
 
-  <link rel="stylesheet" href="/css/custom.css">
-
 
 <script type="application/ld+json">
 {
@@ -57,9 +55,11 @@
 
   </head>
   <body>
-    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
-      <header class="flex flex-row items-center justify-between">
-        <div>
+    
+      
+      <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
+        <header class="flex items-center justify-between">
+          <div>
   <a id="skip-nav" class="sr-only" href="#maincontent">Skip to main content</a>
   <a class="font-semibold" href="/">PlaceOS</a>
 </div>
@@ -99,9 +99,9 @@
   </nav>
 
 
-      </header>
-      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
-        
+        </header>
+        <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
+          
   <div class="flex flex-col space-y-6">
       <section>
         <h2>Posts on Marketplace</h2>
@@ -166,16 +166,24 @@
     
   </div>
 
-      </main>
-      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
-        <section class="items-top flex flex-row justify-between opacity-70">
+        </main>
+        <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+          <section class="items-top flex flex-row justify-between opacity-70">
   <div class="flex flex-col space-y-2">
+    <div class="flex flex-col space-y-1 mt-2">
+      <a href="https://docs.placeos.com">Docs</a>
+      <a href="/licensing/">Licensing</a>
+      <a href="/privacy-policy/">Privacy</a>
+      <a href="/security/">Security</a>
+      <a href="/terms-of-use/">Terms of Use</a>
+    </div>
 
   </div>
 </section>
 
-      </footer>
-    </div>
+        </footer>
+      </div>
+    
     
     <script>
         const toggle = document.getElementById('theme-toggle');
@@ -212,46 +220,36 @@
         }
       </script>
       <script>
-       function animateGradients() {
-        const scrollY = window.scrollY;
-        const isLight = document.documentElement.classList.contains('light');
-        const isMobile = window.matchMedia('(max-width: 700px)').matches;
-
-        
-        const amp = isMobile ? 2 : 16;   
-        const ampY = isMobile ? 2 : 14;  
-
-        if (isLight) {
-          document.documentElement.style.setProperty('--g1-x', `${40 + Math.sin(scrollY/80)*amp}%`);
-          document.documentElement.style.setProperty('--g1-y', `${20 + Math.cos(scrollY/60)*ampY}%`);
-          document.documentElement.style.setProperty('--g2-x', `${100 + Math.cos(scrollY/70)*amp}%`);
-          document.documentElement.style.setProperty('--g2-y', `${55 + Math.sin(scrollY/100)*ampY}%`);
-          document.documentElement.style.setProperty('--g3-x', `${0 + Math.sin(scrollY/60)*amp}%`);
-          document.documentElement.style.setProperty('--g3-y', `${100 + Math.cos(scrollY/90)*ampY}%`);
-          document.documentElement.style.setProperty('--g4-x', `${80 + Math.sin(scrollY/50)*amp}%`);
-          document.documentElement.style.setProperty('--g4-y', `${100 + Math.cos(scrollY/50)*ampY}%`);
-          document.documentElement.style.setProperty('--g5-x', `${0 + Math.sin(scrollY/60)*amp}%`);
-          document.documentElement.style.setProperty('--g5-y', `${0 + Math.cos(scrollY/70)*ampY}%`);
-        } else {
-          document.documentElement.style.setProperty('--g1-x', `${95 + Math.sin(scrollY/80)*amp}%`);
-          document.documentElement.style.setProperty('--g1-y', `${97 + Math.cos(scrollY/100)*ampY}%`);
-          document.documentElement.style.setProperty('--g2-x', `${14 + Math.cos(scrollY/70)*amp}%`);
-          document.documentElement.style.setProperty('--g2-y', `${100 + Math.sin(scrollY/100)*ampY}%`);
-          document.documentElement.style.setProperty('--g3-x', `${92 + Math.sin(scrollY/60)*amp}%`);
-          document.documentElement.style.setProperty('--g3-y', `${62 + Math.cos(scrollY/70)*ampY}%`);
-          document.documentElement.style.setProperty('--g4-x', `${9 + Math.sin(scrollY/50)*amp}%`);
-          document.documentElement.style.setProperty('--g4-y', `${24 + Math.cos(scrollY/50)*ampY}%`);
-          document.documentElement.style.setProperty('--g5-x', `${93 + Math.sin(scrollY/60)*amp}%`);
-          document.documentElement.style.setProperty('--g5-y', `${38 + Math.cos(scrollY/70)*ampY}%`);
-          document.documentElement.style.setProperty('--g6-x', `${41 + Math.cos(scrollY/80)*amp}%`);
-          document.documentElement.style.setProperty('--g6-y', `${31 + Math.sin(scrollY/90)*ampY}%`);
+       let last = 0;
+        function animateGradients(now) {
+          if (now - last > 60) { 
+            const t = now / 500; 
+            const isLight = document.documentElement.classList.contains('light');
+            const isMobile = window.matchMedia('(max-width: 700px)').matches;
+            const amp = isMobile ? 1 : 16; 
+            const ampY = isMobile ? 1 : 14; 
+            if (isLight) {
+              document.documentElement.style.setProperty('--g1-x', `${40 + Math.sin(t)*amp}%`);
+              document.documentElement.style.setProperty('--g1-y', `${20 + Math.cos(t/1.2)*ampY}%`);
+              document.documentElement.style.setProperty('--g2-x', `${100 + Math.cos(t/1.1)*amp}%`);
+              document.documentElement.style.setProperty('--g2-y', `${55 + Math.sin(t/1.5)*ampY}%`);
+              document.documentElement.style.setProperty('--g3-x', `${0 + Math.sin(t/1.4)*amp}%`);
+              document.documentElement.style.setProperty('--g3-y', `${100 + Math.cos(t/1.3)*ampY}%`);
+            } else {
+              document.documentElement.style.setProperty('--g1-x', `${95 + Math.sin(t)*amp}%`);
+              document.documentElement.style.setProperty('--g1-y', `${97 + Math.cos(t/1.2)*ampY}%`);
+              document.documentElement.style.setProperty('--g2-x', `${14 + Math.cos(t/1.1)*amp}%`);
+              document.documentElement.style.setProperty('--g2-y', `${100 + Math.sin(t/1.5)*ampY}%`);
+              document.documentElement.style.setProperty('--g3-x', `${92 + Math.sin(t/1.4)*amp}%`);
+              document.documentElement.style.setProperty('--g3-y', `${62 + Math.cos(t/1.3)*ampY}%`);
+            }
+            last = now;
+          }
+          requestAnimationFrame(animateGradients);
         }
 
         requestAnimationFrame(animateGradients);
-      }
 
-      
-      animateGradients();
       </script>
   </body>
 </html>

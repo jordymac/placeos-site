@@ -22,6 +22,14 @@ html.light {
   --prose-pre-bg: #1f2937;
   --prose-th-borders: #d1d5db;
   --prose-td-borders: #e5e7eb;
+  --taxonomy-bg: #f1f5f9;      /* blue-gray-50 */
+  --taxonomy-bg-hover: #e2e8f0;/* blue-gray-100 */
+  --taxonomy-border: #e2e8f0;  /* blue-gray-200 */
+  --taxonomy-border-hover: #cbd5e1; /* blue-gray-300 */
+  --taxonomy-count-bg: #cbd5e1; /* blue-gray-300 */
+  --taxonomy-count-bg-hover: #94a3b8; /* blue-gray-400 */
+  --taxonomy-count-text: #64748b; /* blue-gray-500 */
+  --taxonomy-count-text-hover: #475569; /* blue-gray-600 */
   --g1-x: 40%;
   --g1-y: 20%;
   --g2-x: 100%;
@@ -59,6 +67,14 @@ html.dark {
   --prose-pre-bg: rgb(0 0 0 / 50%);
   --prose-th-borders: #4b5563;
   --prose-td-borders: #374151;
+  --taxonomy-bg: #334155;          /* blue-gray-800 */
+  --taxonomy-bg-hover: #1e293b;    /* blue-gray-900 */
+  --taxonomy-border: #475569;      /* blue-gray-700 */
+  --taxonomy-border-hover: #64748b;/* blue-gray-500 */
+  --taxonomy-count-bg: #64748b;    /* blue-gray-500 */
+  --taxonomy-count-bg-hover: #94a3b8; /* blue-gray-400 */
+  --taxonomy-count-text: #cbd5e1;  /* blue-gray-300 */
+  --taxonomy-count-text-hover: #f1f5f9; /* blue-gray-50 */
   --g1-x: 95%;
   --g1-y: 97%;
   --g2-x: 14%;
@@ -95,12 +111,38 @@ a:hover, a:focus {
   color: var(--link-hover);
 }
 
+#theme-toggle {
+  position: relative;
+  width: 2.5rem;  /* ensures no layout shift */
+  height: 2.5rem;
+  overflow: hidden;
+}
+
 #theme-toggle svg {
   transition: color 0.2s;
 }
 
 #theme-toggle .hidden {
   display: none;
+}
+
+.icon-sun,
+.icon-moon {
+  transition:
+    opacity 0.3s ease,
+    transform 0.4s cubic-bezier(.77,0,.18,1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1) rotate(0deg);
+  opacity: 1;
+  pointer-events: auto;
+}
+.icon-sun.is-hidden,
+.icon-moon.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0.8) rotate(-30deg);
 }
 
 /* Background */
@@ -1285,50 +1327,43 @@ a.taxonomy {
   white-space: nowrap;
   border-radius: 0.125rem;
   border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(226 232 240 / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+  border-color: var(--taxonomy-border);
+  background-color: var(--taxonomy-bg);
   padding: 0.25rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 600;
   text-transform: lowercase;
   text-decoration-line: none;
+  transition: background 0.2s, border-color 0.2s;
 }
 
 a.taxonomy:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(203 213 225 / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  border-color: var(--taxonomy-border-hover);
+  background-color: var(--taxonomy-bg-hover);
 }
 
 a.taxonomy .count {
   position: relative;
   top: -1px;
   border-radius: 0.25rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+  background-color: var(--taxonomy-count-bg);
   padding-left: 3px;
   padding-right: 3px;
   padding-top: 1px;
   padding-bottom: 1px;
   font-size: 10px;
   font-weight: 400;
-  --tw-numeric-spacing: tabular-nums;
-  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure)
-    var(--tw-numeric-spacing) var(--tw-numeric-fraction);
-  --tw-text-opacity: 1;
-  color: rgb(100 116 139 / var(--tw-text-opacity));
+  font-variant-numeric: tabular-nums;
+  color: var(--taxonomy-count-text);
+  transition: background 0.2s, color 0.2s;
 }
 
 a.taxonomy:hover .count {
-  --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(71 85 105 / var(--tw-text-opacity));
+  background-color: var(--taxonomy-count-bg-hover);
+  color: var(--taxonomy-count-text-hover);
 }
+
 
 .pagination {
   margin-top: 2.5rem;
@@ -2787,7 +2822,7 @@ footer a:hover {
 }
 
 @font-face {
-  font-family: 'LatoLatinWebBlack';
+  font-family: 'LatoLatinWeb';
 
   src:
     url('../fonts/LatoLatin-Black.woff2') format('woff2'),
@@ -2795,13 +2830,13 @@ footer a:hover {
 
   font-style: normal;
 
-  font-weight: normal;
+  font-weight: 900;
 
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebBlack';
+  font-family: 'LatoLatinWeb';
 
   src:
     url('../fonts/LatoLatin-BlackItalic.woff2') format('woff2'),
@@ -2809,7 +2844,7 @@ footer a:hover {
 
   font-style: italic;
 
-  font-weight: normal;
+  font-weight: 900;
 
   text-rendering: optimizeLegibility;
 }
@@ -2823,7 +2858,7 @@ footer a:hover {
 
   font-style: normal;
 
-  font-weight: bold;
+  font-weight: 700;
 
   text-rendering: optimizeLegibility;
 }
@@ -2837,13 +2872,13 @@ footer a:hover {
 
   font-style: italic;
 
-  font-weight: bold;
+  font-weight: 700;
 
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebHairline';
+  font-family: 'LatoLatinWeb';
 
   src:
     url('../fonts/LatoLatin-Hairline.woff2') format('woff2'),
@@ -2851,13 +2886,13 @@ footer a:hover {
 
   font-style: normal;
 
-  font-weight: normal;
+  font-weight: 100;
 
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebHairline';
+  font-family: 'LatoLatinWeb';
 
   src:
     url('../fonts/LatoLatin-HairlineItalic.woff2') format('woff2'),
@@ -2865,13 +2900,13 @@ footer a:hover {
 
   font-style: italic;
 
-  font-weight: normal;
+  font-weight: 100;
 
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebHeavy';
+  font-family: 'LatoLatinWeb';
 
   src:
     url('../fonts/LatoLatin-Heavy.woff2') format('woff2'),
@@ -2879,13 +2914,13 @@ footer a:hover {
 
   font-style: normal;
 
-  font-weight: normal;
+  font-weight: 800;
 
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebHeavy';
+  font-family: 'LatoLatinWeb';
 
   src:
     url('../fonts/LatoLatin-HeavyItalic.woff2') format('woff2'),
@@ -2893,7 +2928,7 @@ footer a:hover {
 
   font-style: italic;
 
-  font-weight: normal;
+  font-weight: 800;
 
   text-rendering: optimizeLegibility;
 }
@@ -2907,19 +2942,19 @@ footer a:hover {
 
   font-style: italic;
 
-  font-weight: normal;
+  font-weight: 400;
 
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebLight';
+  font-family: 'LatoLatinWeb';
 
   src:
     url('../fonts/LatoLatin-Light.woff2') format('woff2'),
     url('../fonts/LatoLatin-Light.woff') format('woff');
 
-  font-style: normal;
+  font-style: 300;
 
   font-weight: normal;
 
@@ -2927,7 +2962,7 @@ footer a:hover {
 }
 
 @font-face {
-  font-family: 'LatoLatinWebLight';
+  font-family: 'LatoLatinWeb';
 
   src:
     url('../fonts/LatoLatin-LightItalic.woff2') format('woff2'),
@@ -2935,13 +2970,13 @@ footer a:hover {
 
   font-style: italic;
 
-  font-weight: normal;
+  font-weight: 300;
 
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebMedium';
+  font-family: 'LatoLatinWeb';
 
   src:
     url('../fonts/LatoLatin-Medium.woff2') format('woff2'),
@@ -2949,7 +2984,7 @@ footer a:hover {
 
   font-style: normal;
 
-  font-weight: normal;
+  font-weight: 500;
 
   text-rendering: optimizeLegibility;
 }
@@ -2963,13 +2998,13 @@ footer a:hover {
 
   font-style: normal;
 
-  font-weight: normal;
+  font-weight: 400;
 
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebSemibold';
+  font-family: 'LatoLatinWeb';
 
   src:
     url('../fonts/LatoLatin-Semibold.woff2') format('woff2'),
@@ -2977,13 +3012,13 @@ footer a:hover {
 
   font-style: normal;
 
-  font-weight: normal;
+  font-weight: 600;
 
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebSemibold';
+  font-family: 'LatoLatinWeb';
 
   src:
     url('../fonts/LatoLatin-SemiboldItalic.woff2') format('woff2'),
@@ -2991,13 +3026,13 @@ footer a:hover {
 
   font-style: italic;
 
-  font-weight: normal;
+  font-weight: 600;
 
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebThin';
+  font-family: 'LatoLatinWeb';
 
   src:
     url('../fonts/LatoLatin-Thin.woff2') format('woff2'),
@@ -3005,13 +3040,13 @@ footer a:hover {
 
   font-style: normal;
 
-  font-weight: normal;
+  font-weight: 200;
 
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebThin';
+  font-family: 'LatoLatinWeb';
 
   src:
     url('../fonts/LatoLatin-ThinItalic.woff2') format('woff2'),
@@ -3019,7 +3054,7 @@ footer a:hover {
 
   font-style: italic;
 
-  font-weight: normal;
+  font-weight: 200;
 
   text-rendering: optimizeLegibility;
 }

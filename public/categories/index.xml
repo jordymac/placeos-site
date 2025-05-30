@@ -23,13 +23,6 @@
       <description></description>
     </item>
     <item>
-      <title>APIs</title>
-      <link>http://localhost:1313/categories/apis/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/apis/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Automation</title>
       <link>http://localhost:1313/categories/automation/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
@@ -97,13 +90,6 @@
       <link>http://localhost:1313/categories/energy/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/energy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Enterprise</title>
-      <link>http://localhost:1313/categories/enterprise/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/enterprise/</guid>
       <description></description>
     </item>
     <item>
@@ -219,24 +205,10 @@
       <description></description>
     </item>
     <item>
-      <title>Sales</title>
-      <link>http://localhost:1313/categories/sales/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/sales/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Scalability</title>
       <link>http://localhost:1313/categories/scalability/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/scalability/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Stagehand</title>
-      <link>http://localhost:1313/categories/stagehand/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/stagehand/</guid>
       <description></description>
     </item>
     <item>
@@ -303,20 +275,6 @@
       <description></description>
     </item>
     <item>
-      <title>Workplace Management</title>
-      <link>http://localhost:1313/categories/workplace-management/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/workplace-management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Zones</title>
-      <link>http://localhost:1313/categories/zones/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/zones/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Article</title>
       <link>http://localhost:1313/categories/article/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
@@ -359,6 +317,20 @@
       <description></description>
     </item>
     <item>
+      <title>Workplace Management</title>
+      <link>http://localhost:1313/categories/workplace-management/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/workplace-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zones</title>
+      <link>http://localhost:1313/categories/zones/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/zones/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Computer Vision</title>
       <link>http://localhost:1313/categories/computer-vision/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
@@ -366,10 +338,24 @@
       <description></description>
     </item>
     <item>
+      <title>Enterprise</title>
+      <link>http://localhost:1313/categories/enterprise/</link>
+      <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/enterprise/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Marketplace</title>
       <link>http://localhost:1313/categories/marketplace/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/marketplace/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stagehand</title>
+      <link>http://localhost:1313/categories/stagehand/</link>
+      <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/stagehand/</guid>
       <description></description>
     </item>
     <item>
@@ -394,6 +380,13 @@
       <description></description>
     </item>
     <item>
+      <title>APIs</title>
+      <link>http://localhost:1313/categories/apis/</link>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/apis/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Webinar</title>
       <link>http://localhost:1313/categories/webinar/</link>
       <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
@@ -405,6 +398,13 @@
       <link>http://localhost:1313/categories/downsizing/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/downsizing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sales</title>
+      <link>http://localhost:1313/categories/sales/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/sales/</guid>
       <description></description>
     </item>
     <item>

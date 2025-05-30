@@ -1,71 +1,28 @@
 {{ define "main" }}
 <section class="hero">
-  <div class="hero-content">
+  <div class="hero-content mx-auto max-w-[600px] text-center">
     <h1>{{ .Title }}</h1>
     <p>{{ .Params.description }}</p>
   </div>
 </section>
-
-<section class="accordion-list">
-    {{ range .Params.list_items }}
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-title">{{ .title }}</span>
-        <span class="accordion-icon">+</span>
+<div class="home-container mx-auto w-full px-4" style="max-width:1080px;">
+  <section class="accordion-list">
+      {{ range .Params.list_items }}
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-title">{{ .title }}</span>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <div class="list-summary">{{ .summary | markdownify }}</div>
+          {{ if .image }}
+            <img src="{{ .image }}" alt="{{ .title }}">
+          {{ end }}
+        </div>
       </div>
-      <div class="accordion-content">
-        <div class="list-summary">{{ .summary | markdownify }}</div>
-        {{ if .image }}
-          <img src="{{ .image }}" alt="{{ .title }}">
-        {{ end }}
-      </div>
-    </div>
-    {{ end }}
-  </section>
-  
-
-  <script>
-    document.querySelectorAll('.accordion-header').forEach(header => {
-      const item = header.parentElement;
-      const content = item.querySelector('.accordion-content');
-      const icon = header.querySelector('.accordion-icon');
-    
-      header.addEventListener('click', () => {
-        const isOpen = item.classList.contains('open');
-    
-        if (isOpen) {
-          // close
-          content.style.height = content.scrollHeight + 'px';
-          requestAnimationFrame(() => {
-            content.style.height = '0';
-          });
-          item.classList.remove('open');
-          icon.textContent = '+';
-        } else {
-          // open
-          content.style.height = 'auto';
-          const targetHeight = content.scrollHeight + 'px';
-          content.style.height = '0';
-    
-          requestAnimationFrame(() => {
-            content.style.height = targetHeight;
-          });
-    
-          item.classList.add('open');
-          icon.textContent = '–';
-        }
-    
-        content.addEventListener('transitionend', () => {
-          if (item.classList.contains('open')) {
-            content.style.height = 'auto';
-          }
-        }, { once: true });
-      });
-    });
-    </script>
-    
-    
-
+      {{ end }}
+    </section>
+  <script src="/js/accordion-header.js"></script>
 {{ end }}
 
 

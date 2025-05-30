@@ -7,10 +7,10 @@
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
       <li>
         <button id="theme-toggle" class="p-2 rounded focus:outline-none" aria-label="Toggle dark mode">
-          <span id="sun" class="hidden">
+          <span id="sun" class="hidden w-4 h-4">
             {{ partial "svg/sun.html" . }}
           </span>
-          <span id="moon" class="hidden">
+          <span id="moon" class="hidden w-4 h-4">
             {{ partial "svg/moon.html" . }}
           </span>
         </button>

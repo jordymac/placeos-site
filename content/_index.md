@@ -7,7 +7,7 @@ list_items:
   - title: >-
       Start here
     summary: >-
-      Welcome to PlaceOS. This page isn’t a sales pitch, it’s a practical guide. 
+      This is a practical guide to PlaceOS. 
       We’ve laid everything out so you can understand what PlaceOS actually is, how it works, and why it matters. 
       We structured it this way to cut through the usual product noise and give you a clear picture of the architecture, capabilities and workflows before you ever book a demo. 
       Whether you’re managing a single room or hundreds of buildings, we want this to be the fastest path to figuring out if PlaceOS fits your world.
