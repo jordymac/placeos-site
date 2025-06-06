@@ -8,29 +8,25 @@ list_items:
       Start here
     summary: >-
       This is a practical guide to PlaceOS. 
-      We’ve laid everything out so you can understand what PlaceOS actually is, how it works, and why it matters. 
+      We’ve laid everything out so you can understand what PlaceOS actually is, how it works and why it matters. 
       We structured it this way to cut through the usual product noise and give you a clear picture of the architecture, capabilities and workflows before you ever book a demo. 
       Whether you’re managing a single room or hundreds of buildings, we want this to be the fastest path to figuring out if PlaceOS fits your world.
   - title: The problems teams are solving with PlaceOS
     summary: >-
-      Hundreds of offices and campuses around the world use PlaceOS for occupancy management, workplace experience, room management, utilization reporting, hot-desks, visitor management, building automation, campus experience and energy savings. If your goal is to connect systems, create smarter workflows, and deliver real-world outcomes ~ without rolling out new tech ~ PlaceOS is the platform to do it.
+      Hundreds of offices and campuses around the world use PlaceOS for occupancy management, workplace experience, room management, utilization reporting, hot-desks, visitor management, building automation, campus experience and energy savings. If your goal is to connect systems, create smarter workflows and deliver real-world outcomes ~ without rolling out new hardware ~ PlaceOS is the platform to do it.
   - title: >-
       The types of teams solving those problems
     summary: >-
-      The ones holding it all together. IT teams, space planners, experience
-      leads, facilities, AV and IoT managers. Basically anyone managing complexity across
-      buildings, systems and software. We help you stitch it all together
-      and make it work.
+      IT, space planning, experience leads, facilities, AV and IoT teams. Basically, anyone managing complexity across spaces, systems and software. We help connect the dots and make it all work together.
+  - title: What makes PlaceOS a platform
+    summary: >- 
+      At its core, PlaceOS is built to connect. Most building systems are siloed. HVAC, AV, calendars, access control and sensors all speak different languages. PlaceOS creates an abstraction layer across them, turning those scattered systems into usable building blocks. Once connected, they can serve as inputs and outputs in any workflow—like presence detection triggering HVAC changes, or badge swipes posting into chat. That’s what makes it a platform: not just a tool, but an integration layer that drives outcomes.
   - title: We won't sell you new hardware, because you probably don't need it
     summary: >-
-      Most buildings already have what they need, the tech is there, it’s just not connected. That’s why we start with an audit. In most cases, the systems you’ve already deployed can provide the data you’re after. You don’t need a new sensor, you need the siloed systems to talk to each other.
-  - title: Which is what we mean by platform
+      You'd be surprised by what data you can extract from existing systems. For example, most people go straight to new sensor rollouts when thinking about occupancy but your Wi-Fi network may already hold most of what you need. That’s why we recommend auditing what you’ve got first. More often than not, you don’t need new sensors. You need the siloed systems to talk to each other.
+  - title: Which is why take the platform approach
     summary: >-
-      It's our core philosophy. Open, agnostic and built for extensibility. Like WordPress or Salesforce,
-      you can build solutions on top, plug in components or buy something off
-      the shelf (more on that below). You don’t buy a fixed app. You get a
-      foundation. Build your own workflows, or start with one of ours. Platforms
-      let others build, that’s the difference.
+      It’s a philosophy: open, agnostic, and designed for extensibility. Like WordPress or Salesforce, you can build solutions on top, plug in components, or use something off the shelf. But unlike single-use tools, PlaceOS gives you a foundation to connect systems, build logic and automate workflows. You get to shape the experience without rebuilding it every time the interface or you hardware changes.~
   - title: Be wary of companies making the platform claim
     summary: >
       The term \"platform\" gets thrown around a lot. But most of the time, it doesn’t mean what it should.
@@ -64,7 +60,7 @@ list_items:
       calendars. This is where we connect and abstract. 
 
 
-      There are two types of drivers, intergration & logic. 
+      There are two types of drivers, integration & logic. 
 
 
       Integration drivers: 
