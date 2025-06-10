@@ -1,0 +1,7 @@
+{{ define "main" }}
+<section class="prose mx-auto py-12">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ partial "contact.html" . }}
+</section>
+{{ end }}

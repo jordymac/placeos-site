@@ -42,6 +42,13 @@ theme = "til"
     name = 'Projects'
     pageRef = '/projects'
     weight = 40
+  [[menus.main]]
+    name = "Contact"
+    pageRef = "/contact"
+    weight = 50
+    identifier = "contact"
+    icon       = "paper-plane"
+
 
 [markup]
   [markup.highlight]

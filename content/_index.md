@@ -24,7 +24,7 @@ list_items:
   - title: We won't sell you new hardware, because you probably don't need it
     summary: >-
       You'd be surprised by what data you can extract from existing systems. For example, most people go straight to new sensor rollouts when thinking about occupancy but your Wi-Fi network may already hold most of what you need. That’s why we recommend auditing what you’ve got first. More often than not, you don’t need new sensors. You need the siloed systems to talk to each other.
-  - title: Which is why take the platform approach
+  - title: Which is why we take the platform approach
     summary: >-
       It’s a philosophy: open, agnostic, and designed for extensibility. Like WordPress or Salesforce, you can build solutions on top, plug in components, or use something off the shelf. But unlike single-use tools, PlaceOS gives you a foundation to connect systems, build logic and automate workflows. You get to shape the experience without rebuilding it every time the interface or you hardware changes.~
   - title: Be wary of companies making the platform claim
@@ -231,8 +231,14 @@ list_items:
 
       Take it from there. Extend with new drivers. Contribute to our open source libraries. Talk to us about using a non-commercial version for that side project you’ve been meaning to automate.
       
-      We’re built for developers.
+      We’re built for developers. Everything you need is available on [GitHub](https://github.com/PlaceOS) & our [Docs](https://docs.placeos.com/)
+  - title: Built on Crystal for speed, safety and scale
+    summary: >-
+      PlaceOS is developed almost entirely in [Crystal](https://crystal-lang.org/), a modern programming language that blends the elegance of Ruby with the performance of C. We chose Crystal because it lets us move fast without compromising reliability. It gives our team the confidence of a typed language, the flexibility to build reusable services, and the performance to scale from a single room to enterprise-wide deployments.
 
+      Our backend stack is fully Crystal—from open source drivers to our web framework [Spider-Gazelle](https://github.com/spider-gazelle). This lets us generate accurate API documentation automatically, run efficiently on minimal infrastructure, and support lightweight edge deployments that work even in bandwidth-constrained environments.
+
+      It’s one of the reasons PlaceOS feels fast, stable and consistent—whether it’s running in the cloud, on-prem, or directly on a network switch.
   - title: Pricing models that suit your business
     summary: >-
       SaaS, usage-based, or perpetual, we support it all. We don’t care how you

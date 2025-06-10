@@ -475,6 +475,8 @@
   </url><url>
     <loc>http://localhost:1313/terms-of-use/</loc>
   </url><url>
+    <loc>http://localhost:1313/contact/</loc>
+  </url><url>
     <loc>http://localhost:1313/graph/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/dashboards/</loc>

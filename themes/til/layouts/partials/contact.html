@@ -1,0 +1,86 @@
+<form
+  action="https://submit.formspark.io/NNJrw6i1X"
+  method="POST"
+  class="space-y-4"
+>
+  <!-- Hidden tags -->
+  <input type="hidden" name="tags" value="4024487,3336663">
+
+  <!-- Standard fields -->
+  <div>
+    <label for="firstName" class="block">First name</label>
+    <input id="firstName" name="FIRSTNAME" required class="input"/>
+  </div>
+  <div>
+    <label for="lastName" class="block">Last name</label>
+    <input id="lastName" name="LASTNAME" required class="input"/>
+  </div>
+  <div>
+    <label for="email" class="block">Email</label>
+    <input id="email" name="email" type="email" required class="input"/>
+  </div>
+  <div>
+    <label for="company" class="block">Company</label>
+    <input id="company" name="COMPANY" class="input" value="{{ .Site.Params.defaultCompany }}"/>
+  </div>
+  <div>
+    <label for="jobTitle" class="block">Job title</label>
+    <input id="jobTitle" name="JOBTITLE" class="input"/>
+  </div>
+  <div>
+    <label for="country" class="block">Country</label>
+    <input id="country" name="COUNTRY" class="input" value="Australia"/>
+  </div>
+
+  <!-- Product: hidden on product pages, dropdown elsewhere -->
+  {{ if .Params.product }}
+    <input type="hidden" name="PRODUCT" value="{{ .Params.product }}"/>
+  {{ else }}
+    <div>
+      <label for="product" class="block">Product</label>
+      <select id="product" name="PRODUCT" class="input">
+        <option value="">— select —</option>
+        <option>WorkMate</option>
+        <option>StageHand</option>
+        <option>VirtualCare</option>
+        <option>Desk booking</option>
+        <option>Room booking</option>
+        <option>Visitor management</option>
+        <option>Occupancy-based energy</option>
+      </select>
+    </div>
+  {{ end }}
+
+  <!-- Metrics fields -->
+  <div class="grid grid-cols-2 gap-4">
+    <div>
+      <label for="desks">Desks</label>
+      <input id="desks" name="DESKS" type="number" min="0" class="input"/>
+    </div>
+    <div>
+      <label for="rooms">Rooms</label>
+      <input id="rooms" name="ROOMS" type="number" min="0" class="input"/>
+    </div>
+    <div>
+      <label for="floors">Floors</label>
+      <input id="floors" name="FLOORS" type="number" min="0" class="input"/>
+    </div>
+    <div>
+      <label for="buildings">Buildings</label>
+      <input id="buildings" name="BUILDINGS" type="number" min="0" class="input"/>
+    </div>
+  </div>
+
+  <div>
+    <label for="subject" class="block">Subject</label>
+    <input id="subject" name="SUBJECT" class="input"/>
+  </div>
+  <div>
+    <label for="message" class="block">Message</label>
+    <textarea id="message" name="MESSAGE" rows="4" class="input"></textarea>
+  </div>
+
+  <button type="submit" class="btn">
+    {{ partial "svg/paper-plane.html" . }} Send message
+  </button>
+</form>

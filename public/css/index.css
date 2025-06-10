@@ -30,12 +30,12 @@ html.light {
   --taxonomy-count-bg-hover: #94a3b8; /* blue-gray-400 */
   --taxonomy-count-text: #64748b; /* blue-gray-500 */
   --taxonomy-count-text-hover: #475569; /* blue-gray-600 */
-  --g1-x: 40%;
-  --g1-y: 20%;
-  --g2-x: 100%;
-  --g2-y: 55%;
-  --g3-x: 0%;
-  --g3-y: 100%;
+  --g1-x: 95%;
+  --g1-y: 97%;
+  --g2-x: 14%;
+  --g2-y: 100%;
+  --g3-x: 92%;
+  --g3-y: 62%;
   background-color: transparent;
   background-image:
     radial-gradient(at var(--g1-x) var(--g1-y), hsla(336,64%,47%,0.1) 0px, transparent 50%),
