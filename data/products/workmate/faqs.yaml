@@ -1,0 +1,81 @@
+faqs:
+  - category: "Implementation"
+    entries:
+      - question: "What is the typical implementation plan for deploying WorkMate by PlaceOS?"
+        answer: >
+          The implementation is intentionally simple and quick. It typically
+          includes build sheet completion, configuration and map build, testing,
+          go-live, and optional customizations if required.
+      - question: "How long does the implementation process take?"
+        answer: >
+          Implementation duration varies based on project size and complexity,
+          but WorkMate projects are designed to be quick—often faster than
+          traditional implementations.
+      - question: "What information do we need to provide to start the implementation?"
+        answer: >
+          You’ll need to complete the build sheet with Graph API details, room IDs
+          and features, interactive map instructions, meeting types, and client
+          matter numbers.
+
+  - category: "Training"
+    entries:
+      - question: "What training is provided for our employees and concierge staff?"
+        answer: >
+          We offer a single 2-hour training session for employees and concierge
+          staff, who will serve as User Champions.
+      - question: "Who should attend the training sessions?"
+        answer: >
+          Anyone comfortable using the platform and willing to help train others.
+          No specific prerequisites are required.
+      - question: "What does the training cover?"
+        answer: >
+          Training includes an overview of PlaceOS, a walkthrough of deployed
+          applications like the Workplace App and Concierge App, and hands-on
+          booking and control exercises.
+      - question: "Is there any assessment after the training?"
+        answer: >
+          Yes, participants demonstrate proficiency in creating bookings and
+          using application features.
+      - question: "Will training materials be provided?"
+        answer: >
+          Yes, all user guides and training documents are provided digitally.
+          Clients are also encouraged to record the session.
+
+  - category: "Post-Implementation Support"
+    entries:
+      - question: "What kind of support does PlaceOS provide post-implementation?"
+        answer: >
+          PlaceOS provides Tier 3 support for product and interface issues,
+          following ITIL standards for incident and service-level management.
+      - question: "What is included in the support contract?"
+        answer: >
+          Support includes performance/security updates, new features under your
+          license, and dependency updates.
+
+  - category: "Updates & Maintenance"
+    entries:
+      - question: "How often are software updates released?"
+        answer: "Typically, PlaceOS releases two updates per year."
+      - question: "Can we opt out of software updates?"
+        answer: >
+          If hosted on-premises, you can opt out of feature updates. However,
+          pricing remains the same regardless.
+      - question: "What is not included in the software updates?"
+        answer: >
+          Exclusions include third-party system updates, major upgrades needing
+          re-deployment, features from unlicensed products, and changes to custom
+          interfaces.
+
+  - category: "Customization & Enterprise"
+    entries:
+      - question: "How are customizations handled if we need features specific to our organization?"
+        answer: >
+          Custom features can be added to our roadmap or developed under PlaceOS
+          Enterprise using an agile approach.
+
+  - category: "Remote Support"
+    entries:
+      - question: "How does remote support work?"
+        answer: >
+          We use the access method you provide (e.g., VPN) to deliver remote support
+          aligned with our priority response matrix.

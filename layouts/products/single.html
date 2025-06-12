@@ -1,0 +1,75 @@
+{{ define "main" }}
+  {{- $imgResources := .Resources.ByType "image" -}}
+  <article class="main">
+    <header>
+      <h1 class="!mb-1">{{ .Title | title }}</h1>
+
+      {{- with .Date }}
+        {{- $dateMachine := . | time.Format "2006-01-02T15:04:05-07:00" -}}
+        {{- $dateHuman := . | time.Format (default ":date_long" site.Params.dateFormat) -}}
+        <div class="flex flex-row items-center space-x-4">
+          <time class="text-sm italic opacity-80" datetime="{{ $dateMachine }}">
+            {{ $dateHuman }}
+          </time>
+        </div>
+      {{- end }}
+
+      {{- with $imgResources.GetMatch "{*feature*,*cover*}" }}
+        <figure class="feature-image !mb-20 block text-center">
+          <img
+            src="{{ .RelPermalink }}"
+            width="{{ .Width }}"
+            height="{{ .Height }}"
+            alt="{{ $.Params.FeatureCaption }}"
+          />
+          {{- with $.Params.FeatureCaption }}
+            <figcaption class="text-xs italic">{{ . | markdownify }}</figcaption>
+          {{- end }}
+        </figure>
+      {{- end }}
+    </header>
+
+    <!-- Page Content -->
+    {{ .Content }}
+    {{ partial "contact.html" . }}
+
+    <!-- Feature Lists (Accordion) -->
+    <h2 class="text-xl font-semibold mb-4">{{ .Title }} Full Feature List</h2>
+    {{- $slug := .File.BaseFileName -}}
+    {{- $data := index site.Data.products $slug -}}
+    {{- $featData := index $data "features" -}}
+    {{- range $groupKey, $group := $featData }}
+      {{- $title := or $group.title (humanize $groupKey) -}}     
+      <details class="mb-6 border rounded p-4">
+        <summary class="cursor-pointer font-semibold">{{ $title }}</summary>
+        <div class="mt-4 space-y-4">
+          {{- range $group.features }}
+            <div>
+              <p class="font-medium">{{ .name }}</p>
+              <p class="text-sm">{{ .description }}</p>
+            </div>
+          {{- end }}
+        </div>
+      </details>
+          </section>
+    {{- end }}
+
+
+    <!-- FAQs -->
+    {{- $faqGroups := index (index $data "faqs") "faqs" -}}
+    {{- if $faqGroups }}
+      <section class="mt-12">
+        <h2 class="text-xl font-semibold mb-4">FAQs</h2>
+        {{- range $faqGroups }}
+          <h3 class="text-lg font-medium mt-6 mb-2">{{ .category }}</h3>
+          {{ partial "faqs.html" (dict "Entries" .entries) }}
+        {{- end }}
+      </section>
+    {{- end }}
+
+  </article>
+
+  {{- if or (eq .Section "posts") (eq .Section "notes") }}
+    {{ partial "page/meta" . }}
+  {{- end }}
+{{ end }}

@@ -1,0 +1,16 @@
+{{- if .Items }}
+  {{ with .Title }}
+    <h2 class="text-lg font-semibold mb-2">{{ . }}</h2>
+  {{ end }}
+  <ul class="grid gap-4 md:grid-cols-2">
+  {{- range .Items }}
+    <li class="flex items-start space-x-2">
+      <svg class="w-5 h-5 flex-shrink-0" aria-hidden="true"><!-- check icon --></svg>
+      <div>
+        <p class="font-medium">{{ .name }}</p>
+        <p class="text-sm">{{ .description }}</p>
+      </div>
+    </li>
+  {{- end }}
+  </ul>
+{{- end }}

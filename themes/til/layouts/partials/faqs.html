@@ -1,0 +1,13 @@
+{{/* 
+   .Entries — array of {question, answer}
+*/}}
+{{- if .Entries }}
+  <div class="space-y-4 my-6">
+    {{- range .Entries }}
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">{{ .question }}</summary>
+        <div class="mt-2 text-sm">{{ .answer }}</div>
+      </details>
+    {{- end }}
+  </div>
+{{- end }}

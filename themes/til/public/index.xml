@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Today I Learned</title>
+    <link>http://localhost:50374/</link>
+    <description>Recent content on Today I Learned</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <atom:link href="http://localhost:50374/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Content Graph</title>
+      <link>http://localhost:50374/graph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50374/graph/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
