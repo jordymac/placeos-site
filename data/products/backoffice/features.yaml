@@ -1,0 +1,51 @@
+backoffice:
+  title: "BackOffice Features"
+  features:
+    - name: "Think in systems, not silos"
+      description: |
+        Bring all your smart building logic into one configuration tree:
+        - Mirror your environment with Zones (Org → Building → Level)
+        - Attach Systems to real rooms, floors, and functions
+        - Group drivers, logic, and metadata that represent how spaces behave
+
+    - name: "Manage integrations like a product team"
+      description: |
+        Add, update, and roll back PlaceOS drivers and interfaces from GitHub/GitLab—no CLI needed:
+        - Test new branches without affecting production
+        - Pin drivers to specific commits
+        - Compile and view errors in the UI
+
+    - name: "Add and configure drivers"
+      description: |
+        Drivers are reusable modules for devices and cloud services:
+        - Load any driver from your connected repo
+        - Configure once at the driver level and reuse across systems
+        - View build status and recompile from the UI
+
+    - name: "Attach logic to the physical world"
+      description: |
+        Zones let you model the built environment digitally:
+        - Attach maps to levels (SVG)
+        - Bind features to spaces via metadata
+        - Control what users see in front-end apps via zone-level config
+
+    - name: "Create and maintain systems"
+      description: |
+        A system is a functional unit—like a meeting room or tracking setup:
+        - Combine drivers, logic, and metadata
+        - Inherit settings from parent zones
+        - Connect back to maps and interfaces
+
+    - name: "Create event-driven automation"
+      description: |
+        Triggers let you define behavior across your entire PlaceOS deployment:
+        - If no one checks into a room → release the booking
+        - If occupancy hits 0 → turn off HVAC
+        - If a driver goes offline → notify the team
+
+    - name: "Manage users, domains and auth"
+      description: |
+        Control access and surface the right experiences:
+        - Define OAuth providers (Azure, Google, etc.)
+        - Map sub-apps like Workplace or Concierge to your domains
+        - Grant per-domain access to specific users or groups

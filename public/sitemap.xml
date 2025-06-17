@@ -475,6 +475,8 @@
   </url><url>
     <loc>http://localhost:1313/terms-of-use/</loc>
   </url><url>
+    <loc>http://localhost:1313/products/backoffice/</loc>
+  </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
     <loc>http://localhost:1313/graph/</loc>
@@ -492,6 +494,8 @@
     <loc>http://localhost:1313/categories/healthcare/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/how-to/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/lenspath/</loc>
   </url><url>
     <loc>http://localhost:1313/products/occupancy-monitoring/</loc>
   </url><url>

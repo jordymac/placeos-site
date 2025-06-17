@@ -34,11 +34,9 @@
 {{- end }}
 {{ partialCached "head/css" . }}
 {{ partialCached "head/js" . }}
-{{ if .IsHome }}
   {{ range site.Params.customCSS }}
     <link rel="stylesheet" href="{{ . | relURL }}">
   {{ end }}
-{{ end }}
 {{- if or .Params.math site.Params.math }}
   {{ partial "head/math" . }}
 {{- end }}

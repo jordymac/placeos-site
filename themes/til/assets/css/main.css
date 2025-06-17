@@ -3,24 +3,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '../../static/css/custom.css';
 
 @font-face {
-  font-family: 'LatoLatinWebBlack';
+  font-family: 'LatoLatinWeb';
   src:
     url('../fonts/LatoLatin-Black.woff2') format('woff2'),
     url('../fonts/LatoLatin-Black.woff') format('woff');
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebBlack';
+  font-family: 'LatoLatinWeb';
   src:
     url('../fonts/LatoLatin-BlackItalic.woff2') format('woff2'),
     url('../fonts/LatoLatin-BlackItalic.woff') format('woff');
   font-style: italic;
-  font-weight: normal;
+  font-weight: 900;
   text-rendering: optimizeLegibility;
 }
 
@@ -30,7 +31,7 @@
     url('../fonts/LatoLatin-Bold.woff2') format('woff2'),
     url('../fonts/LatoLatin-Bold.woff') format('woff');
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
 }
 
@@ -40,47 +41,47 @@
     url('../fonts/LatoLatin-BoldItalic.woff2') format('woff2'),
     url('../fonts/LatoLatin-BoldItalic.woff') format('woff');
   font-style: italic;
-  font-weight: bold;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebHairline';
+  font-family: 'LatoLatinWeb';
   src:
     url('../fonts/LatoLatin-Hairline.woff2') format('woff2'),
     url('../fonts/LatoLatin-Hairline.woff') format('woff');
   font-style: normal;
-  font-weight: normal;
+  font-weight: 100;
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebHairline';
+  font-family: 'LatoLatinWeb';
   src:
     url('../fonts/LatoLatin-HairlineItalic.woff2') format('woff2'),
     url('../fonts/LatoLatin-HairlineItalic.woff') format('woff');
   font-style: italic;
-  font-weight: normal;
+  font-weight: 100;
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebHeavy';
+  font-family: 'LatoLatinWeb';
   src:
     url('../fonts/LatoLatin-Heavy.woff2') format('woff2'),
     url('../fonts/LatoLatin-Heavy.woff') format('woff');
   font-style: normal;
-  font-weight: normal;
+  font-weight: 800;
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebHeavy';
+  font-family: 'LatoLatinWeb';
   src:
     url('../fonts/LatoLatin-HeavyItalic.woff2') format('woff2'),
     url('../fonts/LatoLatin-HeavyItalic.woff') format('woff');
   font-style: italic;
-  font-weight: normal;
+  font-weight: 800;
   text-rendering: optimizeLegibility;
 }
 
@@ -90,37 +91,37 @@
     url('../fonts/LatoLatin-Italic.woff2') format('woff2'),
     url('../fonts/LatoLatin-Italic.woff') format('woff');
   font-style: italic;
-  font-weight: normal;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebLight';
+  font-family: 'LatoLatinWeb';
   src:
     url('../fonts/LatoLatin-Light.woff2') format('woff2'),
     url('../fonts/LatoLatin-Light.woff') format('woff');
-  font-style: normal;
+  font-style: 300;
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebLight';
+  font-family: 'LatoLatinWeb';
   src:
     url('../fonts/LatoLatin-LightItalic.woff2') format('woff2'),
     url('../fonts/LatoLatin-LightItalic.woff') format('woff');
   font-style: italic;
-  font-weight: normal;
+  font-weight: 300;
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebMedium';
+  font-family: 'LatoLatinWeb';
   src:
     url('../fonts/LatoLatin-Medium.woff2') format('woff2'),
     url('../fonts/LatoLatin-Medium.woff') format('woff');
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   text-rendering: optimizeLegibility;
 }
 
@@ -130,47 +131,47 @@
     url('../fonts/LatoLatin-Regular.woff2') format('woff2'),
     url('../fonts/LatoLatin-Regular.woff') format('woff');
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebSemibold';
+  font-family: 'LatoLatinWeb';
   src:
     url('../fonts/LatoLatin-Semibold.woff2') format('woff2'),
     url('../fonts/LatoLatin-Semibold.woff') format('woff');
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebSemibold';
+  font-family: 'LatoLatinWeb';
   src:
     url('../fonts/LatoLatin-SemiboldItalic.woff2') format('woff2'),
     url('../fonts/LatoLatin-SemiboldItalic.woff') format('woff');
   font-style: italic;
-  font-weight: normal;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebThin';
+  font-family: 'LatoLatinWeb';
   src:
     url('../fonts/LatoLatin-Thin.woff2') format('woff2'),
     url('../fonts/LatoLatin-Thin.woff') format('woff');
   font-style: normal;
-  font-weight: normal;
+  font-weight: 200;
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: 'LatoLatinWebThin';
+  font-family: 'LatoLatinWeb';
   src:
     url('../fonts/LatoLatin-ThinItalic.woff2') format('woff2'),
     url('../fonts/LatoLatin-ThinItalic.woff') format('woff');
   font-style: italic;
-  font-weight: normal;
+  font-weight: 200;
   text-rendering: optimizeLegibility;
 }
 
@@ -372,4 +373,5 @@
   .network-chart .edge {
     @apply hidden;
   }
+
 }

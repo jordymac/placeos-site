@@ -394,6 +394,13 @@
       <description>You need inputs in a smart workplace ecosystem to get outputs and insights. However, it doesn&amp;rsquo;t always need to be a sensor.</description>
     </item>
     <item>
+      <title>BackOffice</title>
+      <link>http://localhost:1313/products/backoffice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/backoffice/</guid>
+      <description>BackOffice is where operators shape the logic, integrations, and structure for every smart building deployment</description>
+    </item>
+    <item>
       <title>Occupancy Monitoring System</title>
       <link>http://localhost:1313/products/occupancy-monitoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

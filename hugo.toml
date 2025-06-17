@@ -31,29 +31,28 @@ theme = "til"
 
 [menus]
   [[menus.main]]
-    name = 'Products'
-    pageRef = '/products'
+    name = '#workmate'
+    pageRef = '/products/workmate'
     weight = 20
   [[menus.main]]
-    name = 'Posts'
-    pageRef = '/posts'
+    name = '#stagehand'
+    pageRef = '/products/stagehand'
     weight = 30
   [[menus.main]]
-    name = 'Projects'
-    pageRef = '/projects'
+    name = '#lenspath'
+    pageRef = '/products/lenspath'
     weight = 40
+
   [[menus.main]]
-    name = "Contact"
-    pageRef = "/contact"
-    weight = 50
-    identifier = "contact"
-    icon       = "paper-plane"
+    name = '#backoffice'
+    pageRef = '/products/backoffice'
+    weight =50
 
 
 [markup]
   [markup.highlight]
     noClasses = false
-    style = 'tokyonight-night'
+    style = 'tokyonight-night' 
   [markup.goldmark]
     [markup.goldmark.parser]
       [markup.goldmark.parser.attribute]

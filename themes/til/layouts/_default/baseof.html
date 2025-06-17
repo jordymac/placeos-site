@@ -6,7 +6,7 @@
   <head>
     {{ partial "head.html" . }}
   </head>
-  <body>
+  <body class="pb-16">
     {{ if .IsHome }}
       <!-- Header: narrow prose wrapper -->
       <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
@@ -21,27 +21,35 @@
           {{ block "main" . }}{{ end }}
         </article>
       </div>
-
-      <!-- Footer: back to narrow/prose -->
-      <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
-        <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
-          {{ partial "footer.html" . }}
-        </footer>
-      </div>
     {{ else }}
       <!-- non-home: everything in narrow prose wrapper -->
+      <!-- prose container for header & main content -->
       <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
         <header class="flex items-center justify-between">
           {{ partial "header.html" . }}
         </header>
-        <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
+
+        <main
+          class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]"
+          id="maincontent"
+        >
           {{ block "main" . }}{{ end }}
         </main>
-        <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+      </div>
+    {{ end }}
+    {{/* single footer, width varies by page */}}
+    {{ $fw := cond .IsHome "max-w-[1080px]" "max-w-prose" }}
+    <div
+      class="fixed inset-x-0 bottom-0 w-full
+             bg-white/25 dark:bg-gray-900/40
+             backdrop-blur-lg mask-gradient z-50"
+    >
+      <div class="mx-auto w-full {{ $fw }} px-4 py-12">
+        <footer class="border-t border-neutral-100 pt-2">
           {{ partial "footer.html" . }}
         </footer>
       </div>
-    {{ end }}
+    </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
     {{ if .Store.Get "hasMermaid" }}
       <script
         src="https://cdn.jsdelivr.net/npm/mermaid@11.4.0/dist/mermaid.min.js"

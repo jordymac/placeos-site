@@ -1,6 +1,7 @@
 ---
 title: Visitor Management
 slug: visitor-management-app
+hero_image: "images/products/backoffice/backoffice-hero-image-alt.webp"
 summary: >-
   Visitor management software so simple, the only thing you do is send the
   invite, it does everything else

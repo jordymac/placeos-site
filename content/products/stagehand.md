@@ -1,7 +1,8 @@
 ---
 title: StageHand
 slug: stagehand
-summary: '# AV control that works without third-party controllers'
+summary: 'AV control that works without third-party controllers'
+hero_image: "images/products/stagehand/stagehand-hero-image.webp"
 categories:
   - AI
   - AV
@@ -19,7 +20,7 @@ categories:
   - product
 product_logo: stagehand-logo.svg
 ---
-# AV control that works without third-party controllers
+
 Stagehand is an advanced AV control platform that eliminates the need for third-party controllers so that you can manage every device directly. It also integrates with a wide range of systems—from access control to real-time location services and timetable data—so that you can identify issues and set actions to resolve those issues automatically in the future.
 
 {{< wistia id="rh3qym3420" >}}

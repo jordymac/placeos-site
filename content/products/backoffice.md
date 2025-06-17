@@ -1,78 +1,57 @@
 ---
 title: BackOffice
-summary: BackOffice is where operators shape the logic, integrations, and structure for every smart building deployment
+summary: Command your entire smart environment in one place
 featured: true
+hero_image: images/products/backoffice/backoffice-hero-image-alt.webp
 categories:
   - Platform
   - Workplace
   - Campus
   - product
 ---
-## BackOffice is where operators shape the logic, integrations, and structure for every smart building deployment 
+BackOffice provides a single, powerful interface to configure, monitor, and manage thousands of devices and integrations. Add new integrations and workflows to your building in seconds.. 
 
-**Configuration and control for smart buildings—from one screen.**
-
-BackOffice is the interface behind every PlaceOS deployment. It’s where integrators configure drivers, IT teams define environments, and ops teams make logic come to life.
-
-Some people call it an admin panel. That’s true. But it’s also:
-
-* A versioned Git gateway to your integrations
-* A map-to-logic bridge for your physical environment
-* A single screen for debugging multi-system workflows
-
-If WorkMate is your workplace experience—BackOffice is the control room.
-
-In 10 minutes, you can pull a driver from GitHub, configure a room system, and see it live on a map—no command line required.
-
-Used across every PlaceOS deployment worldwide—hundreds of buildings, systems, and use cases.
+{{< wistia id="bnz61a0wfw" >}}
 
 ---
 
-## What you’re replacing
+## The challenge of a fragmented ecosystem
 
-Before BackOffice, configuration lived in shell commands, YAML files, or scattered wikis. It looked like this:
-
-* Logging into servers to pull driver updates
-* Editing configs across dev/test/prod manually
-* Losing visibility across hundreds of spaces
-* Debugging failures with no centralized view
-
-With BackOffice, all of that moves into one clean interface.
+You're managing a sprawling network of smart devices, sensors, and software. Each new integration adds another layer of complexity, another potential point of failure, and another silo of data. Your team is stretched thin, IT is a constant bottleneck, and the promise of a seamless, automated environment feels just out of reach. The cost of downtime is immense, and the pressure to maintain compliance is unrelenting.
 
 ---
 
-## Who it's for
+### Get time back in your day with a single platform to control and monitor all integrated technology
 
-BackOffice is for the people configuring the system—not just using it.
+BackOffice is the definitive command center for your entire smart ecosystem. We empower you to move beyond fragmented controls and reactive problem-solving. Gain the strategic oversight and granular control needed to master your environment, no matter its scale or complexity.
 
-* System integrators setting up multi-vendor AV, HVAC, lighting and access
-* IT and workplace teams deploying booking, visitor, or tracking apps
-* Developers writing drivers or setting up automation logic
-* Anyone trying to make PlaceOS do more in less time
+Do simple things like monitor if a device is online, extend to powerful features like debugging device issues with the built-in console.
 
 ---
 
-## Why BackOffice is different
+## Strategic advantages of a unified building command center
 
-* **It’s not just settings—it’s the whole structure.**
-* **It’s not tied to any one interface.**
-* **It speaks Git and Crystal.**
-* **It scales with you.**
+BackOffice isn't just another software platform; it's a fundamental shift in how you manage your portfolio of smart buildings. Move from reacting to on-site failures to executing a long-term strategy for operational excellence across your entire physical infrastructure.
 
-You don’t outgrow BackOffice. You grow into it.
+### Slash on-site operational costs & IT dependency
 
----
+Free your skilled IT team from configuring physical hardware. BackOffice empowers your facilities and operations staff to directly manage access control rules, lighting scenes, and AV device settings. This dramatically reduces support tickets for on-site issues and allows your technical experts to focus on strategic innovation instead of routine, in-person maintenance tasks.
 
-## Why BackOffice matters
+### Eliminate costly building system downtime
 
-The more flexible a platform is, the more complexity you need to manage.
-BackOffice gives PlaceOS teams one interface to:
+Keep your meeting rooms, access gates, and building services running flawlessly. BackOffice provides instant diagnostics from thousands of on-site devices—from a single offline projector to a misconfigured HVAC zone. Proactively identify and resolve hardware issues remotely before they disrupt a meeting, compromise security, or impact the tenant experience.
 
-* Visualize system state
-* Link logic to environment
-* Deploy and version integrations
+### Simplify physical security and compliance audits
 
-Now it’s all visible. It’s testable. And it’s structured.
+Navigate physical security and operational audits with confidence. BackOffice automatically generates an immutable, time-stamped log of every action within your buildings—who accessed a secure area, when a critical setting was changed, and by whom. This creates an ironclad audit trail for demonstrating compliance with security protocols and building regulations.
+
+### Drive unprecedented agility in how your spaces are used
+
+Respond to the changing needs of your occupants in minutes, not months. A centralized command center gives you the power to reconfigure how rooms work, adjust sensor-based automation, and manage device permissions on the fly. This agility allows you to optimize your physical spaces continuously for maximum efficiency and adapt quickly to new hybrid work models.
+
+### Scale your smart building portfolio, not your complexity
+
+Roll out sophisticated automations and standardized controls across new floors, buildings, or entire cities. BackOffice allows you to duplicate proven configurations for AV, access, and lighting from one site to another. Manage a vast, multi-site portfolio from a single pane of glass, ensuring a consistent, high-quality experience everywhere without multiplying your operational headcount.
 
 ---
 
@@ -135,10 +114,7 @@ Control access and surface the right experiences:
 * Grant per-domain access to specific users or groups
 
 ---
+	
+## Ready to take command?
 
-## Want to see it in action?
-
-We’ll show you what’s possible—and how teams use it to run everything from a single room to a full global deployment.
-
-[Request a walkthrough →](#)
-See how your building stack would map into BackOffice—from drivers to automation.
+Stop wrestling with complexity and start mastering your smart environment. See firsthand how BackOffice can centralize your operations and unlock new levels of efficiency and control.

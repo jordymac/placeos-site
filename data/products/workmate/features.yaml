@@ -1,5 +1,5 @@
 concierge:
-  title: "Workmate Concierge Features"
+  title: "WorkMate Concierge Features"
   features:
     - name: "Room booking management"
       description: "Enable admins to configure, monitor, and enforce rules for meeting room reservations, including availability windows, capacity limits, and cancellations."
@@ -63,7 +63,7 @@ concierge:
       description: "Track visitor booking details, attendance logs, and host interactions."
 
 employee:
-  title: "Workmate Employee Features"
+  title: "WorkMate Employee Features"
   features:
     - name: "Colleagues"
       description: "View relevant colleagues in your network."
@@ -99,7 +99,7 @@ employee:
       description: "Choose your preferred interface language."
 
 displays:
-  title: "Workmate Display & Kiosk Features"
+  title: "WorkMate Display & Kiosk Features"
   features:
     - name: "Room display"
       description: "Show real-time room availability and upcoming meetings on external room panels."

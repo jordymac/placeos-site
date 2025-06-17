@@ -10,7 +10,8 @@ categories:
   - Configuration 
   - Workplace 
   - product  
-summary: "A self-hosted occupancy monitoring system that works with the infrastructure you already have — no new sensors needed."  
+summary: "A self-hosted occupancy monitoring system that works with the infrastructure you already have — no new sensors needed." 
+hero_image: "images/products/occupancy-monitoring-system/occupancy-monitoring-hero-image.webp"
 product_logo: occupancy-logo.svg  
 hasPrimaryQuery: occupancy monitoring  
 hasQuery: 

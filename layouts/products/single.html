@@ -1,32 +1,18 @@
 {{ define "main" }}
   {{- $imgResources := .Resources.ByType "image" -}}
   <article class="main">
-    <header>
-      <h1 class="!mb-1">{{ .Title | title }}</h1>
-
-      {{- with .Date }}
-        {{- $dateMachine := . | time.Format "2006-01-02T15:04:05-07:00" -}}
-        {{- $dateHuman := . | time.Format (default ":date_long" site.Params.dateFormat) -}}
-        <div class="flex flex-row items-center space-x-4">
-          <time class="text-sm italic opacity-80" datetime="{{ $dateMachine }}">
-            {{ $dateHuman }}
-          </time>
+    <header class="hero-section relative overflow-visible pb-32">
+    
+      {{ with .Params.hero_image }}
+        <div class="product-hero-image">
+          <img src="{{ . | relURL }}" alt="{{ $.Title }} screenshot" />
         </div>
-      {{- end }}
-
-      {{- with $imgResources.GetMatch "{*feature*,*cover*}" }}
-        <figure class="feature-image !mb-20 block text-center">
-          <img
-            src="{{ .RelPermalink }}"
-            width="{{ .Width }}"
-            height="{{ .Height }}"
-            alt="{{ $.Params.FeatureCaption }}"
-          />
-          {{- with $.Params.FeatureCaption }}
-            <figcaption class="text-xs italic">{{ . | markdownify }}</figcaption>
-          {{- end }}
-        </figure>
-      {{- end }}
+      {{ end }}
+        <!-- text block sits above the image -->
+      <div class="container mx-auto relative">
+        <h1>{{ .Title | title }}</h1>
+        <h2>{{ .Params.summary }}</h2>
+      </div>
     </header>
 
     <!-- Page Content -->

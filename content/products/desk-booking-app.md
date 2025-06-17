@@ -2,6 +2,7 @@
 title: Desk Booking App
 slug: desk-booking-app
 summary: Configurable desk booking management at scale without no hardware lock-in
+hero_image: "images/products/desk-booking-app/desk-booking-hero-image.webp"
 categories:
   - Analytics
   - Desk Booking

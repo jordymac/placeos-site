@@ -21,6 +21,7 @@ categories:
 summary: >-
   A simple, self-hosted room booking app you don't pay per room per month, you
   own it
+hero_image: "images/products/room-booking-once/room-booking-hero-image-light.webp"
 product_logo: room-booking-logo.svg
 faqs:
   - question: >-

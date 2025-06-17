@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/posts/live-demo-placeai-chatgpt-object-recognition-features/</guid>
       <description>Discover the benefits of Chat GPT integration in your workplace. Join our live demo to see how this AI assistant can enhance productivity and streamline tasks.</description>
     </item>
+    <item>
+      <title>LensPath</title>
+      <link>http://localhost:1313/products/lenspath/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/lenspath/</guid>
+      <description>LensPath is a no-code computer vision automation platform that turns camera feeds into real-time actions</description>
+    </item>
   </channel>
 </rss>

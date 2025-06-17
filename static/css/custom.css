@@ -1,15 +1,320 @@
+html.light {
+  --tw-prose-body: var(--prose-body);
+  --tw-prose-headings: var(--prose-headings);
+  --tw-prose-lead: var(--prose-lead);
+  --tw-prose-links: var(--prose-links);
+  --tw-prose-bold: var(--prose-bold);
+  --tw-prose-counters: var(--prose-counters);
+  --tw-prose-bullets: var(--prose-bullets);
+  --tw-prose-hr: var(--prose-hr);
+  --tw-prose-quotes: var(--prose-quotes);
+  --tw-prose-quote-borders: var(--prose-quote-borders);
+  --tw-prose-captions: var(--prose-captions);
+  --tw-prose-kbd: var(--prose-kbd);
+  --tw-prose-kbd-shadows: var(--prose-kbd-shadows);
+  --tw-prose-code: var(--prose-code);
+  --tw-prose-pre-code: var(--prose-pre-code);
+  --tw-prose-pre-bg: var(--prose-pre-bg);
+  --tw-prose-th-borders: var(--prose-th-borders);
+  --tw-prose-td-borders: var(--prose-td-borders);
+}
+
+html.dark {
+  --tw-prose-body: var(--prose-body);
+  --tw-prose-headings: var(--prose-headings);
+  --tw-prose-lead: var(--prose-lead);
+  --tw-prose-links: var(--prose-links);
+  --tw-prose-bold: var(--prose-bold);
+  --tw-prose-counters: var(--prose-counters);
+  --tw-prose-bullets: var(--prose-bullets);
+  --tw-prose-hr: var(--prose-hr);
+  --tw-prose-quotes: var(--prose-quotes);
+  --tw-prose-quote-borders: var(--prose-quote-borders);
+  --tw-prose-captions: var(--prose-captions);
+  --tw-prose-kbd: var(--prose-kbd);
+  --tw-prose-kbd-shadows: var(--prose-kbd-shadows);
+  --tw-prose-code: var(--prose-code);
+  --tw-prose-pre-code: var(--prose-pre-code);
+  --tw-prose-pre-bg: var(--prose-pre-bg);
+  --tw-prose-th-borders: var(--prose-th-borders);
+  --tw-prose-td-borders: var(--prose-td-borders);
+}
+
+
+/* 1. Set CSS variables for prose and prose-slate using your theme variables */
+html.light {
+  --fg: #18181b;
+  --link: #347FF7;
+  --link-hover: #347FF7;
+  --heading: #18181b;
+  --prose-body: #374151;
+  --prose-links: #275EB8;
+  --prose-headings: #18181b;
+  --prose-bold: #18181b;
+  --prose-lead: #4b5563;
+  --prose-counters: #6b7280;
+  --prose-bullets: #d1d5db;
+  --prose-hr: #e5e7eb;
+  --prose-quotes: #18181b;
+  --prose-quote-borders: #e5e7eb;
+  --prose-captions: #6b7280;
+  --prose-kbd: #18181b;
+  --prose-kbd-shadows: 17 24 39;
+  --prose-code: #18181b;
+  --prose-pre-code: #e5e7eb;
+  --prose-pre-bg: #1f2937;
+  --prose-th-borders: #d1d5db;
+  --prose-td-borders: #e5e7eb;
+  --taxonomy-bg: #f1f5f9;      /* blue-gray-50 */
+  --taxonomy-bg-hover: #e2e8f0;/* blue-gray-100 */
+  --taxonomy-border: #e2e8f0;  /* blue-gray-200 */
+  --taxonomy-border-hover: #cbd5e1; /* blue-gray-300 */
+  --taxonomy-count-bg: #cbd5e1; /* blue-gray-300 */
+  --taxonomy-count-bg-hover: #94a3b8; /* blue-gray-400 */
+  --taxonomy-count-text: #64748b; /* blue-gray-500 */
+  --taxonomy-count-text-hover: #475569; /* blue-gray-600 */
+  --btn-bg: #4f46e5;             /* purple-600 */
+  --btn-text: #ffffff;          /* white */
+  --btn-hover: #4338ca;          /* purple-700 */
+  --btn-light-bg: transparent;
+  --btn-light-text: var(--link); /* your link color (#347FF7) */
+  --btn-light-border: var(--link);
+  --btn-light-hover-bg: rgba(52,127,247,0.1);
+  --g1-x: 95%;
+  --g1-y: 97%;
+  --g2-x: 14%;
+  --g2-y: 100%;
+  --g3-x: 92%;
+  --g3-y: 62%;
+  background-color: transparent;
+  background-image:
+    radial-gradient(at var(--g1-x) var(--g1-y), hsla(336,64%,47%,0.1) 0px, transparent 50%),
+    radial-gradient(at var(--g2-x) var(--g2-y), hsla(232,37%,25%,0.1) 0px, transparent 50%),
+    radial-gradient(at var(--g3-x) var(--g3-y), hsla(237,100%,68%,0.1) 0px, transparent 50%);
+  background-blend-mode: lighten;
+  --mask-end-alpha: 0;
+  --hero-bg: #fff;
+  --glass-start: rgba(186, 186, 186, 0.6);
+  --glass-mid:   rgba(225, 225, 225, 0.2) 40%;
+  --glass-end:   rgba(211, 211, 211, 0.4);
+}
+
+html.dark {
+  --fg: #f9fafb;
+  --link: #5C64FF;
+  --link-hover: #ADB1FF;
+  --heading: #f9fafb;
+  --prose-body: #d1d5db;
+  --prose-links: #38bdf8;
+  --prose-headings: #f9fafb;
+  --prose-bold: #f9fafb;
+  --prose-lead: #9ca3af;
+  --prose-counters: #9ca3af;
+  --prose-bullets: #4b5563;
+  --prose-hr: #374151;
+  --prose-quotes: #f3f4f6;
+  --prose-quote-borders: #374151;
+  --prose-captions: #9ca3af;
+  --prose-kbd: #f9fafb;
+  --prose-kbd-shadows: 255 255 255;
+  --prose-code: #f9fafb;
+  --prose-pre-code: #d1d5db;
+  --prose-pre-bg: rgb(0 0 0 / 50%);
+  --prose-th-borders: #4b5563;
+  --prose-td-borders: #374151;
+  --taxonomy-bg: #334155;          /* blue-gray-800 */
+  --taxonomy-bg-hover: #1e293b;    /* blue-gray-900 */
+  --taxonomy-border: #475569;      /* blue-gray-700 */
+  --taxonomy-border-hover: #64748b;/* blue-gray-500 */
+  --taxonomy-count-bg: #64748b;    /* blue-gray-500 */
+  --taxonomy-count-bg-hover: #94a3b8; /* blue-gray-400 */
+  --taxonomy-count-text: #cbd5e1;  /* blue-gray-300 */
+  --taxonomy-count-text-hover: #f1f5f9; /* blue-gray-50 */
+  --btn-bg: #4338ca;            /* purple-700 */
+  --btn-text: #f3f4f6;          /* gray-100 */
+  --btn-hover: #372fa4;         /* purple-800 */
+  --btn-light-bg: transparent;
+  --btn-light-text: var(--link-hover);
+  --btn-light-border: var(--link-hover);
+  --btn-light-hover-bg: rgba(173,177,255,0.1);
+  --g1-x: 95%;
+  --g1-y: 97%;
+  --g2-x: 14%;
+  --g2-y: 100%;
+  --g3-x: 92%;
+  --g3-y: 62%;
+  background-color: hsla(26,0%,0%,1);
+  background-image:
+    radial-gradient(at var(--g1-x) var(--g1-y), hsla(240,100%,15%,0.5) 0px, transparent 50%),
+    radial-gradient(at var(--g2-x) var(--g2-y), hsla(327,100%,30%,0.5) 0px, transparent 50%),
+    radial-gradient(at var(--g3-x) var(--g3-y), hsla(300,100%,17%,0.2) 0px, transparent 50%);
+  background-blend-mode: lighten;
+  --mask-end-alpha: 0;
+  --hero-bg: #000;
+  --glass-start: rgba(255,255,255,0.3);
+  --glass-mid:   rgba(255,255,255,0.1) 40%;
+  --glass-end:   rgba(255,255,255,0.2);
+}
+
+nav ul li a span svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: var(--fg);
+}
+
+nav ul li a span svg:hover {
+  fill: var(--link-hover);
+}
+
+html, body {
+  min-height: 100vh;
+  padding-bottom: 6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading)!important;
+}
+
+body, .prose {
+  background: var(--bg);
+  color: var(--fg);
+  transition: background 0.2s, color 0.2s;
+}
+
+a {
+  color: var(--link);
+  transition: color 0.2s;
+}
+a:hover, a:focus {
+  color: var(--link-hover);
+}
+
+article a, header a, nav a {
+  color: var(--fg);
+  transition: color 0.2s;
+}
+
+footer a {
+  color: var(--fg);
+  transition: color 0.2s;
+}
+
+html.dark .prose :where(strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--prose-bold) !important;
+}
+
+#theme-toggle {
+  position: relative;
+  width: 2.5rem;  /* ensures no layout shift */
+  height: 2.5rem;
+  overflow: hidden;
+}
+
+#theme-toggle svg {
+  transition: color 0.2s;
+}
+
+#theme-toggle .hidden {
+  display: none;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.icon-sun,
+.icon-moon {
+  transition:
+    opacity 0.3s ease,
+    transform 0.4s cubic-bezier(.77,0,.18,1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1) rotate(0deg);
+  opacity: 1;
+  pointer-events: auto;
+}
+.icon-sun.is-hidden,
+.icon-moon.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0.8) rotate(-30deg);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.375rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1);
+}
+.btn:hover {
+  background-color: var(--btn-hover);
+}
+
+.btn-light {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.375rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  background-color: var(--btn-light-bg);
+  color: var(--btn-light-text);
+  border: 1px solid var(--btn-light-border);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1);
+}
+.btn-light:hover {
+  background-color: var(--btn-light-hover-bg);
+}
+
+/* 3. SVG sizing / coloring */
+form button svg {
+  display: inline-block;
+  vertical-align: text-bottom;
+  width: 1em;
+  height: 1em;
+  fill: var(--fg);
+  margin-right: 0.25rem;
+}
+
+.input {
+  width: 100%;
+  border-radius: 0.375rem;
+  border-width: 1px;
+  border-color: rgb(203 213 225);
+  background-color: #fff;
+  padding: 0.5rem;
+  color: rgb(15 23 42);
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+.dark .input {
+  border-color: rgb(71 85 105);
+  background-color: rgb(30 41 59);
+  color: rgb(241 245 249);
+}
+
+label {
+  font-weight: 600;
+}
+
+
 /* Accordion Styles for Homepage */
 
 .hero {
   text-align: center;
   padding: 4rem 1rem;
-  max-width: 600px;
+  max-width: 65ch;
   margin: auto;
 }
 
-.prose {
-  max-width: none !important; /* Override Tailwind Typography max-width */
-}
+/* .prose {
+  max-width: none !important; /* Override Tailwind Typography max-width
+} commented this out for now while i figure out this mobile width issue */
 
 .accordion-list {
   margin: 2rem auto;
@@ -80,4 +385,138 @@
   }
 }
 
-  
+/* Product Page Hero Image */
+
+.hero-section h1, .hero-section h2 {
+  margin: 5px 0;
+  z-index: 20;
+}
+
+.product-hero-image {
+  width: 160%;
+  margin: -7% -30% -30% -25%;
+  perspective: 1200px;               /* depth of the 3D scene */
+  perspective-origin: 50% 30%;       /* move vanishing point up/down */
+  overflow: visible;                 /* allow the corners to pop out */      
+}
+
+.product-hero-image img {
+  width: 160%;
+  margin: -7% -30% -30% -25%;
+  z-index: 10;
+  transform-style: preserve-3d;
+  transform-origin: center center;  
+  backface-visibility: hidden;       
+  will-change: transform, box-shadow;
+  transform:
+    rotateY(15deg)
+    rotateX(12deg);
+  border-radius: 1rem;
+  clip-path: inset(0 round 1rem);
+  border: 4px solid transparent;
+  border-image: linear-gradient(
+    135deg,
+      var(--glass-start),
+      var(--glass-mid),
+      var(--glass-end)
+    ) 1;
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.1),
+    inset 0 0 15px rgba(255,255,255,0.3); 
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 1080px) {
+  .product-hero-image {
+      width: 200%;
+      margin: -7% -50% -40% -40%;
+      z-index: 10;
+  }
+}
+
+.product-hero-image img {
+  margin: 0;
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0,1)   50%,
+    rgba(0,0,0, var(--mask-end-alpha)) 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0,1)   50%,
+    rgba(0,0,0, var(--mask-end-alpha)) 100%
+  );
+  mask-mode: alpha;
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 675px) {
+
+  /* reset the wrapper back to a normal block that fills its parent */
+  .product-hero-image {
+    width: 100%;
+    margin: 0;              /* kill the negative offsets */
+    display: block;         /* ensure it behaves as a block */
+  }
+
+  /* make the img fill that wrapper */
+  .product-hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;         /* avoids any inline‐image artifacts */
+  }
+
+  /* and your wistia embed if relevant */
+  .custom-wistia-wrapper {
+    width: 100%;
+    margin: 0;
+    position: static;
+    transform: none;
+  }
+}
+
+
+
+/* Footer Styles */
+.mask-gradient {
+  /* fade footer (and its blur) from 100% at bottom → 0% at top */
+  -webkit-mask-image: linear-gradient(to top, black 70%, transparent);
+          mask-image: linear-gradient(to top, black 70%, transparent);
+}
+
+.liquidGlass-effect {
+  position: absolute; inset: 0; z-index: 0;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  filter: url(#glass-distortion);
+  overflow: hidden;
+}
+
+.liquidGlass-tint {
+  position: absolute; inset: 0; z-index: 1;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.liquidGlass-shine {
+  position: absolute; inset: 0; z-index: 2;
+  box-shadow:
+    inset 2px 2px 6px rgba(255,255,255,0.4),
+    inset -2px -2px 6px rgba(255,255,255,0.2);
+}
+
+.liquidGlass-text {
+  position: relative; z-index: 3;
+}
+
+/* optional: soft feather from top */
+.liquidGlass-effect::before {
+  content: "";
+  position: absolute; top: 0; left: 0; right: 0;
+  height: 60%;
+  background: linear-gradient(to top,
+    rgba(255,255,255,0), rgba(255,255,255,0.2));
+  pointer-events: none;
+  z-index: 4;
+}

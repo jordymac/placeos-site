@@ -10,25 +10,25 @@
 <title>
     BackOffice | PlaceOS
 </title>
-  <meta name="description" content="BackOffice is where operators shape the logic, integrations, and structure for every smart building deployment" />
+  <meta name="description" content="Command your entire smart environment in one place" />
 <link rel="icon" type="image/png" href="/images/favicon.png" />
 <meta property="og:url" content="http://localhost:1313/products/backoffice/">
   <meta property="og:site_name" content="PlaceOS">
   <meta property="og:title" content="BackOffice">
-  <meta property="og:description" content="BackOffice is where operators shape the logic, integrations, and structure for every smart building deployment">
+  <meta property="og:description" content="Command your entire smart environment in one place">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="products">
 
 
   <meta itemprop="name" content="BackOffice">
-  <meta itemprop="description" content="BackOffice is where operators shape the logic, integrations, and structure for every smart building deployment">
-  <meta itemprop="wordCount" content="621">
+  <meta itemprop="description" content="Command your entire smart environment in one place">
+  <meta itemprop="wordCount" content="814">
   <meta itemprop="keywords" content="Platform,Workplace,Campus,Product">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="BackOffice">
-  <meta name="twitter:description" content="BackOffice is where operators shape the logic, integrations, and structure for every smart building deployment">
+  <meta name="twitter:description" content="Command your entire smart environment in one place">
 
 <link rel="canonical" href="http://localhost:1313/products/backoffice/" />
 
@@ -38,7 +38,9 @@
       <script src="/js/main.js" defer></script>
   
 
-
+  
+    <link rel="stylesheet" href="/css/custom.css">
+  
 
   
   
@@ -65,15 +67,16 @@
     "@type": "Person",
     "name": "John Doe"
   },
-  "description": "BackOffice is where operators shape the logic, integrations, and structure for every smart building deployment",
+  "description": "Command your entire smart environment in one place",
   "headline": "BackOffice"
 }
 </script>
 
 
   </head>
-  <body>
+  <body class="pb-16">
     
+      
       
       <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
         <header class="flex items-center justify-between">
@@ -83,33 +86,45 @@
 </div>
 
   <nav>
-    <ul class="flex flex-row items-center justify-end space-x-4">
+    <ul class="flex flex-row items-center justify-end space-x-4 text-xs">
     <li>
-      <a aria-current="true" class="ancestor" href="/products/">Products</a
+      <a href="/products/workmate-workplace-solution/">#workmate</a
       >
     </li>
     <li>
-      <a href="/posts/">Posts</a
+      <a href="/products/stagehand/">#stagehand</a
       >
     </li>
     <li>
-      <a href="/projects/">Projects</a
+      <a href="/products/lenspath/">#lenspath</a
       >
     </li>
     <li>
-      <a href="/contact/">Contact</a
+      <a href="/products/backoffice/">#backoffice</a
       >
     </li>
+<li>
+  
+<a
+  href="/contact/"
+  class="p-2 rounded focus:outline-none"
+>
+  <span>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 512 512">
+    <path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376l0 103.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg>
+  </span>
+</a>
+</li>
       <li>
         <button id="theme-toggle" class="p-2 rounded focus:outline-none" aria-label="Toggle dark mode">
-          <span id="sun" class="hidden w-4 h-4">
+          <span id="sun" class="hidden">
             <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
   <path stroke="currentColor" stroke-width="2" d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
 </svg>
 
           </span>
-          <span id="moon" class="hidden w-4 h-4">
+          <span id="moon" class="hidden">
             <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path stroke="currentColor" stroke-width="2" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
 </svg>
@@ -122,54 +137,88 @@
 
 
         </header>
-        <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
+
+        <main
+          class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]"
+          id="maincontent"
+        >
           <article class="main">
-    <header>
-      <h1 class="!mb-1">BackOffice</h1>
+    <header class="hero-section relative overflow-visible pb-32">
+    
+      
+        <div class="product-hero-image">
+          <img src="/images/products/backoffice/backoffice-hero-image-alt.webp" alt="BackOffice screenshot" />
+        </div>
+      
+        
+      <div class="container mx-auto relative">
+        <h1>BackOffice</h1>
+        <h2>Command your entire smart environment in one place</h2>
+      </div>
     </header>
 
     
-    <h3 id="backoffice-is-where-operators-shape-the-logic-integrations-and-structure-for-every-smart-building-deployment" class="scroll-mt-8 group">
-  BackOffice is where operators shape the logic, integrations, and structure for every smart building deployment
-  
-    <a href="#backoffice-is-where-operators-shape-the-logic-integrations-and-structure-for-every-smart-building-deployment"
-        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
-        aria-hidden="true" title="Link to this heading" tabindex="-1">
-        <svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="16"
-  height="16"
-  fill="none"
-  stroke="currentColor"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  stroke-width="2"
-  class="lucide lucide-link w-4 h-4 block"
-  viewBox="0 0 24 24"
->
-  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
-  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
-</svg>
+    <p>BackOffice provides a single, powerful interface to configure, monitor, and manage thousands of devices and integrations. Add new integrations and workflows to your building in seconds..</p>
+<style>
+  .custom-wistia-wrapper {
+    width: 115%;
+    margin-left: -7.5%;
+    margin-right: -7.5%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
 
-    </a>
+  .custom-wistia-wrapper .wistia_responsive_padding {
+    padding-top: 56.25%;
+    position: relative;
+  }
+
+  .custom-wistia-wrapper .wistia_responsive_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+@media only screen and (max-width: 675px) {
+      .custom-wistia-wrapper {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  }
+</style>
+
+<div class="custom-wistia-wrapper">
+  <div class="wistia_responsive_padding">
+    <div class="wistia_responsive_wrapper">
+      <iframe
+        src="https://fast.wistia.net/embed/iframe/bnz61a0wfw?web_component=true&seo=true"
+        title="Wistia Video"
+        allow="autoplay; fullscreen"
+        allowtransparency="true"
+        frameborder="0"
+        scrolling="no"
+        class="wistia_embed"
+        width="100%"
+        height="100%">
+      </iframe>
+    </div>
+  </div>
+</div>
+<script src="https://fast.wistia.net/player.js" async></script>
+
   
-</h3>
-<p><strong>Configuration and control for smart buildings—from one screen.</strong></p>
-<p>BackOffice is the interface behind every PlaceOS deployment. It’s where integrators configure drivers, IT teams define environments, and ops teams make logic come to life.</p>
-<p>Some people call it an admin panel. That’s true. But it’s also:</p>
-<ul>
-<li>A versioned Git gateway to your integrations</li>
-<li>A map-to-logic bridge for your physical environment</li>
-<li>A single screen for debugging multi-system workflows</li>
-</ul>
-<p>If WorkMate is your workplace experience—BackOffice is the control room.</p>
-<p>In 10 minutes, you can pull a driver from GitHub, configure a room system, and see it live on a map—no command line required.</p>
-<p>Used across every PlaceOS deployment worldwide—hundreds of buildings, systems, and use cases.</p>
+  
 <hr>
-<h3 id="what-youre-replacing" class="scroll-mt-8 group">
-  What you’re replacing
+<h3 id="the-challenge-of-a-fragmented-ecosystem" class="scroll-mt-8 group">
+  The challenge of a fragmented ecosystem
   
-    <a href="#what-youre-replacing"
+    <a href="#the-challenge-of-a-fragmented-ecosystem"
         class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
         aria-hidden="true" title="Link to this heading" tabindex="-1">
         <svg
@@ -191,19 +240,12 @@
     </a>
   
 </h3>
-<p>Before BackOffice, configuration lived in shell commands, YAML files, or scattered wikis. It looked like this:</p>
-<ul>
-<li>Logging into servers to pull driver updates</li>
-<li>Editing configs across dev/test/prod manually</li>
-<li>Losing visibility across hundreds of spaces</li>
-<li>Debugging failures with no centralized view</li>
-</ul>
-<p>With BackOffice, all of that moves into one clean interface.</p>
+<p>You&rsquo;re managing a sprawling network of smart devices, sensors, and software. Each new integration adds another layer of complexity, another potential point of failure, and another silo of data. Your team is stretched thin, IT is a constant bottleneck, and the promise of a seamless, automated environment feels just out of reach. The cost of downtime is immense, and the pressure to maintain compliance is unrelenting.</p>
 <hr>
-<h3 id="who-its-for" class="scroll-mt-8 group">
-  Who it&rsquo;s for
+<h4 id="get-time-back-in-your-day-with-a-single-platform-to-control-and-monitor-all-integrated-technology" class="scroll-mt-8 group">
+  Get time back in your day with a single platform to control and monitor all integrated technology
   
-    <a href="#who-its-for"
+    <a href="#get-time-back-in-your-day-with-a-single-platform-to-control-and-monitor-all-integrated-technology"
         class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
         aria-hidden="true" title="Link to this heading" tabindex="-1">
         <svg
@@ -224,19 +266,14 @@
 
     </a>
   
-</h3>
-<p>BackOffice is for the people configuring the system—not just using it.</p>
-<ul>
-<li>System integrators setting up multi-vendor AV, HVAC, lighting and access</li>
-<li>IT and workplace teams deploying booking, visitor, or tracking apps</li>
-<li>Developers writing drivers or setting up automation logic</li>
-<li>Anyone trying to make PlaceOS do more in less time</li>
-</ul>
+</h4>
+<p>BackOffice is the definitive command center for your entire smart ecosystem. We empower you to move beyond fragmented controls and reactive problem-solving. Gain the strategic oversight and granular control needed to master your environment, no matter its scale or complexity.</p>
+<p>Do simple things like monitor if a device is online, extend to powerful features like debugging device issues with the built-in console.</p>
 <hr>
-<h3 id="why-backoffice-is-different" class="scroll-mt-8 group">
-  Why BackOffice is different
+<h3 id="strategic-advantages-of-a-unified-building-command-center" class="scroll-mt-8 group">
+  Strategic advantages of a unified building command center
   
-    <a href="#why-backoffice-is-different"
+    <a href="#strategic-advantages-of-a-unified-building-command-center"
         class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
         aria-hidden="true" title="Link to this heading" tabindex="-1">
         <svg
@@ -258,18 +295,11 @@
     </a>
   
 </h3>
-<ul>
-<li><strong>It’s not just settings—it’s the whole structure.</strong></li>
-<li><strong>It’s not tied to any one interface.</strong></li>
-<li><strong>It speaks Git and Crystal.</strong></li>
-<li><strong>It scales with you.</strong></li>
-</ul>
-<p>You don’t outgrow BackOffice. You grow into it.</p>
-<hr>
-<h3 id="why-backoffice-matters" class="scroll-mt-8 group">
-  Why BackOffice matters
+<p>BackOffice isn&rsquo;t just another software platform; it&rsquo;s a fundamental shift in how you manage your portfolio of smart buildings. Move from reacting to on-site failures to executing a long-term strategy for operational excellence across your entire physical infrastructure.</p>
+<h4 id="slash-on-site-operational-costs--it-dependency" class="scroll-mt-8 group">
+  Slash on-site operational costs &amp; IT dependency
   
-    <a href="#why-backoffice-matters"
+    <a href="#slash-on-site-operational-costs--it-dependency"
         class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
         aria-hidden="true" title="Link to this heading" tabindex="-1">
         <svg
@@ -290,15 +320,112 @@
 
     </a>
   
-</h3>
-<p>The more flexible a platform is, the more complexity you need to manage.
-BackOffice gives PlaceOS teams one interface to:</p>
-<ul>
-<li>Visualize system state</li>
-<li>Link logic to environment</li>
-<li>Deploy and version integrations</li>
-</ul>
-<p>Now it’s all visible. It’s testable. And it’s structured.</p>
+</h4>
+<p>Free your skilled IT team from configuring physical hardware. BackOffice empowers your facilities and operations staff to directly manage access control rules, lighting scenes, and AV device settings. This dramatically reduces support tickets for on-site issues and allows your technical experts to focus on strategic innovation instead of routine, in-person maintenance tasks.</p>
+<h4 id="eliminate-costly-building-system-downtime" class="scroll-mt-8 group">
+  Eliminate costly building system downtime
+  
+    <a href="#eliminate-costly-building-system-downtime"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>Keep your meeting rooms, access gates, and building services running flawlessly. BackOffice provides instant diagnostics from thousands of on-site devices—from a single offline projector to a misconfigured HVAC zone. Proactively identify and resolve hardware issues remotely before they disrupt a meeting, compromise security, or impact the tenant experience.</p>
+<h4 id="simplify-physical-security-and-compliance-audits" class="scroll-mt-8 group">
+  Simplify physical security and compliance audits
+  
+    <a href="#simplify-physical-security-and-compliance-audits"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>Navigate physical security and operational audits with confidence. BackOffice automatically generates an immutable, time-stamped log of every action within your buildings—who accessed a secure area, when a critical setting was changed, and by whom. This creates an ironclad audit trail for demonstrating compliance with security protocols and building regulations.</p>
+<h4 id="drive-unprecedented-agility-in-how-your-spaces-are-used" class="scroll-mt-8 group">
+  Drive unprecedented agility in how your spaces are used
+  
+    <a href="#drive-unprecedented-agility-in-how-your-spaces-are-used"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>Respond to the changing needs of your occupants in minutes, not months. A centralized command center gives you the power to reconfigure how rooms work, adjust sensor-based automation, and manage device permissions on the fly. This agility allows you to optimize your physical spaces continuously for maximum efficiency and adapt quickly to new hybrid work models.</p>
+<h4 id="scale-your-smart-building-portfolio-not-your-complexity" class="scroll-mt-8 group">
+  Scale your smart building portfolio, not your complexity
+  
+    <a href="#scale-your-smart-building-portfolio-not-your-complexity"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>Roll out sophisticated automations and standardized controls across new floors, buildings, or entire cities. BackOffice allows you to duplicate proven configurations for AV, access, and lighting from one site to another. Manage a vast, multi-site portfolio from a single pane of glass, ensuring a consistent, high-quality experience everywhere without multiplying your operational headcount.</p>
 <hr>
 <h3 id="what-backoffice-makes-possible" class="scroll-mt-8 group">
   What BackOffice makes possible
@@ -543,10 +670,10 @@ BackOffice gives PlaceOS teams one interface to:</p>
 <li>Grant per-domain access to specific users or groups</li>
 </ul>
 <hr>
-<h3 id="want-to-see-it-in-action" class="scroll-mt-8 group">
-  Want to see it in action?
+<h3 id="ready-to-take-command" class="scroll-mt-8 group">
+  Ready to take command?
   
-    <a href="#want-to-see-it-in-action"
+    <a href="#ready-to-take-command"
         class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
         aria-hidden="true" title="Link to this heading" tabindex="-1">
         <svg
@@ -568,9 +695,7 @@ BackOffice gives PlaceOS teams one interface to:</p>
     </a>
   
 </h3>
-<p>We’ll show you what’s possible—and how teams use it to run everything from a single room to a full global deployment.</p>
-<p><a href="#">Request a walkthrough →</a>
-See how your building stack would map into BackOffice—from drivers to automation.</p>
+<p>Stop wrestling with complexity and start mastering your smart environment. See firsthand how BackOffice can centralize your operations and unlock new levels of efficiency and control.</p>
 
     <form
   action="https://submit.formspark.io/NNJrw6i1X"
@@ -652,14 +777,76 @@ See how your building stack would map into BackOffice—from drivers to automati
     <textarea id="message" name="MESSAGE" rows="4" class="input"></textarea>
   </div>
 
-  <button type="submit" class="btn">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376l0 103.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg> Send message
+  <button type="submit" class="btn-light">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 512 512">
+    <path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376l0 103.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg> Send message
   </button>
 </form>
 
 
     
-    <h2 class="text-xl font-semibold mb-4">BackOffice Full Feature List</h2>
+    <h2 class="text-xl font-semibold mb-4">BackOffice Full Feature List</h2><details class="mb-6 border rounded p-4">
+        <summary class="cursor-pointer font-semibold">BackOffice Features</summary>
+        <div class="mt-4 space-y-4">
+            <div>
+              <p class="font-medium">Think in systems, not silos</p>
+              <p class="text-sm">Bring all your smart building logic into one configuration tree:
+- Mirror your environment with Zones (Org → Building → Level)
+- Attach Systems to real rooms, floors, and functions
+- Group drivers, logic, and metadata that represent how spaces behave
+</p>
+            </div>
+            <div>
+              <p class="font-medium">Manage integrations like a product team</p>
+              <p class="text-sm">Add, update, and roll back PlaceOS drivers and interfaces from GitHub/GitLab—no CLI needed:
+- Test new branches without affecting production
+- Pin drivers to specific commits
+- Compile and view errors in the UI
+</p>
+            </div>
+            <div>
+              <p class="font-medium">Add and configure drivers</p>
+              <p class="text-sm">Drivers are reusable modules for devices and cloud services:
+- Load any driver from your connected repo
+- Configure once at the driver level and reuse across systems
+- View build status and recompile from the UI
+</p>
+            </div>
+            <div>
+              <p class="font-medium">Attach logic to the physical world</p>
+              <p class="text-sm">Zones let you model the built environment digitally:
+- Attach maps to levels (SVG)
+- Bind features to spaces via metadata
+- Control what users see in front-end apps via zone-level config
+</p>
+            </div>
+            <div>
+              <p class="font-medium">Create and maintain systems</p>
+              <p class="text-sm">A system is a functional unit—like a meeting room or tracking setup:
+- Combine drivers, logic, and metadata
+- Inherit settings from parent zones
+- Connect back to maps and interfaces
+</p>
+            </div>
+            <div>
+              <p class="font-medium">Create event-driven automation</p>
+              <p class="text-sm">Triggers let you define behavior across your entire PlaceOS deployment:
+- If no one checks into a room → release the booking
+- If occupancy hits 0 → turn off HVAC
+- If a driver goes offline → notify the team
+</p>
+            </div>
+            <div>
+              <p class="font-medium">Manage users, domains and auth</p>
+              <p class="text-sm">Control access and surface the right experiences:
+- Define OAuth providers (Azure, Google, etc.)
+- Map sub-apps like Workplace or Concierge to your domains
+- Grant per-domain access to specific users or groups
+</p>
+            </div>
+        </div>
+      </details>
+          </section>
 
 
     
@@ -667,23 +854,35 @@ See how your building stack would map into BackOffice—from drivers to automati
   </article>
 
         </main>
-        <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+      </div>
+    
+    
+    
+    <div
+      class="fixed inset-x-0 bottom-0 w-full
+             bg-white/25 dark:bg-gray-900/40
+             backdrop-blur-lg mask-gradient z-50"
+    >
+      <div class="mx-auto w-full max-w-prose px-4 py-12">
+        <footer class="border-t border-neutral-100 pt-2">
           <section class="items-top flex flex-row justify-between opacity-70">
   <div class="flex flex-col space-y-2">
-    <div class="flex flex-col space-y-1 mt-2">
-      <a href="https://docs.placeos.com">Docs</a>
-      <a href="/licensing/">Licensing</a>
-      <a href="/privacy-policy/">Privacy</a>
-      <a href="/security/">Security</a>
-      <a href="/terms-of-use/">Terms of Use</a>
-    </div>
-
+    <a href="/products/" class="hover:underline">Products</a>
+    <a href="/posts/" class="hover:underline">Posts</a>
+    <a href="/projects/" class="hover:underline">Projects</a>
   </div>
+  <div class="flex flex-col space-y-1 mt-2  text-xs">
+    <a href="https://docs.placeos.com" class="hover:underline">Docs</a>
+    <a href="/licensing/" class="hover:underline">Licensing</a>
+    <a href="/privacy-policy/" class="hover:underline">Privacy</a>
+    <a href="/security/" class="hover:underline">Security</a>
+    <a href="/terms-of-use/" class="hover:underline">Terms of Use</a>
+  </div>  
 </section>
 
         </footer>
       </div>
-    
+    </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
     
       <script src="/js/theme-toggle.js"></script>
       <script src="/js/gradient-animation.js"></script>

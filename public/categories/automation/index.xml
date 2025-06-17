@@ -226,6 +226,13 @@
       <description>Align energy use in spaces with actual occupancy, reduce HVAC &amp;amp; lighting use</description>
     </item>
     <item>
+      <title>LensPath</title>
+      <link>http://localhost:1313/products/lenspath/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/lenspath/</guid>
+      <description>LensPath is a no-code computer vision automation platform that turns camera feeds into real-time actions</description>
+    </item>
+    <item>
       <title>Room Booking</title>
       <link>http://localhost:1313/products/room-booking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -2,6 +2,7 @@
 title: Energy Reduction App
 slug: energy-reduction-app
 summary: "Align energy use in spaces with actual occupancy, reduce HVAC\_&\_lighting use"
+hero_image: "images/products/energy-reduction-app/energy-reduction-hero-image-dark.webp"
 categories:
   - Analytics
   - Automation

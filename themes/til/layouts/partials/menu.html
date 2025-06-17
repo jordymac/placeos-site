@@ -3,14 +3,25 @@
 
 {{- with index site.Menus $menuID }}
   <nav>
-    <ul class="flex flex-row items-center justify-end space-x-4">
+    <ul class="flex flex-row items-center justify-end space-x-4 text-xs">
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+<li>
+  {{ $contact := site.GetPage "page" "contact" }}
+<a
+  href="{{ $contact.RelPermalink }}"
+  class="p-2 rounded focus:outline-none"
+>
+  <span>
+    {{ partial "svg/paper-plane.html" . }}
+  </span>
+</a>
+</li>
       <li>
         <button id="theme-toggle" class="p-2 rounded focus:outline-none" aria-label="Toggle dark mode">
-          <span id="sun" class="hidden w-4 h-4">
+          <span id="sun" class="hidden">
             {{ partial "svg/sun.html" . }}
           </span>
-          <span id="moon" class="hidden w-4 h-4">
+          <span id="moon" class="hidden">
             {{ partial "svg/moon.html" . }}
           </span>
         </button>
