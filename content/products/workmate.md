@@ -33,7 +33,7 @@ categories:
   - product
 product_logo: workmate-logo.svg
 ---
-WorkMate is the most configurable workplace management software; purpose built for teams managing thousands of workplace resources — desks, rooms, assets, climate, and visitors — across global real estate portfolios. 
+WorkMate is the most configurable workplace management software; purpose built for teams managing thousands of workplace resources – desks, rooms, assets, climate, and visitors – across global real estate portfolios. 
 
 Its architecture ensures a consistent user experience, even as building systems or business software evolve. 
 
@@ -41,29 +41,33 @@ Administrators can easily implement and configure rules for entire buildings, me
 
 {{< wistia id="s8vm3r0maz" >}}
 
-![PlaceOS WorkMate Building Manager](/images/products/workmate/placeos-workmate-building-manager.webp)
+---
 
 ## Spend less time managing apps and more time managing your workplace
-Hundreds of offices around the world use PlaceOS for occupancy management, workplace experience, room management, utilization reportings, hot-desks, visitor management, building automation and energy savings. 
 
-### Most tools solve a slice of the problem
+You’ve invested in hot-desking software, visitor management apps, and space analytics dashboards. Yet, your systems don’t talk to each other. Your facilities team is manually adjusting climate controls, your IT team is buried in integration requests, and your employee experience is inconsistent from one building to the next.
+
+These disconnected "solutions" create friction, waste energy, and prevent you from operating as a single, efficient organization. Point solutions can't solve a platform problem.
+
+---
+## WorkMate is different by design
+
+Our unique platform architecture decouples the front-end user experience from the back-end integrations. This means you can change, upgrade and scale your physical and digital infrastructure without your users ever noticing.
+
+### The other tools solve a slice of the problem
 - **Legacy IWMS?** Rigid, slow, and hard to scale.  
 - **Room & desk apps?** Shallow features and expensive hardware lock-in.  
 - **Analytics dashboards?** Data without action.
 
-### WorkMate is different:
-- **Real-time automation** not static dashboards
-- **Vendor-agnostic** integrations, no lock-in
-- **Enterprise-scale** with local configuration
-- **Future-proof architecture** built on PlaceOS
+### What makes PlaceOS unique
 
-## What makes WorkMate unique
-### Workplace experience tools
-- **Modular architecture** – decouples frontend and backend, so you can change hardware or systems without disrupting UX.  
-- **Global consistency** – set policies across your portfolio while adapting to local needs.  
+- **Modular architecture** – decouples UX from back-end systems so you can update hardware or software independently.  
+- **Vendor-agnostic** – integrates with your existing systems, no lock-in.  
+- **Enterprise-scale with local flexibility** – set global policies while tailoring local building needs.  
+- **Real-time automation** – turn occupancy and booking data into live actions (lighting, HVAC, access, notifications).  
 - **Deep integrations** – from BMS and AV to access control and HRIS.  
-- **Automation engine** – trigger actions from real-time data: occupancy, booking status, permissions.
 
+---
 ## WorkMate's core capabilities
 
 ### Global & Local Configuration
@@ -74,7 +78,10 @@ Book rooms, desks, lockers, parking, and end-of-trip facilities with customizabl
 ![WorkMate Desk Booking Pinned Location](/images/products/workmate/desk-booking-pinned-location-thumbnail.avif)
 
 ### Environmental, Access & AV Automation
-Automate lighting, HVAC, and AV based on occupancy and bookings. Tie building access to calendars, permissions, or room assignments — no manual toggling or vendor lock-in.  
+Automate lighting, HVAC, and AV based on occupancy and bookings. Tie building access to calendars, permissions, or room assignments – no manual toggling or vendor lock-in.
+
+For example: when a room is no longer in use, WorkMate can release the booking, shut off lighting and HVAC, and notify cleaning staff – all automatically.  
+![WorkMate Facility Monitoring Interface](/images/products/workmate/workmate-evironment-information-p-1600.webp)
 ![WorkMate Facility Monitoring Interface](/images/products/workmate/workmate-evironment-information-p-1600.webp)
 
 ### Visitor & Event Management
@@ -91,10 +98,10 @@ Gain a centralized view of building systems and climate comfort. Reduce support 
 
 [See the full list of features](#features)
 
-
+---
 ## Interfaces for every role
 
-WorkMate includes dedicated tools for each user group — from employees to facilities staff.
+WorkMate includes dedicated tools for each user group – from employees to facilities staff.
 
 - **Employee App:** Available as a native app (with NFC access support) and a web version for quick booking and check-ins.  
 - **Concierge Dashboard:** Used by HR and facilities teams to set rules, manage approvals, track visitors, and monitor building systems.  
