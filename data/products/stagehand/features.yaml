@@ -1,0 +1,33 @@
+stagehand:
+  title: Stagehand Features
+  features:
+  - name: Listen in to live audio
+    description: Hear the room’s audio mix remotely over Dante to diagnose sound issues without entering the room.
+
+  - name: Control devices directly
+    description: Change inputs, mute audio, or check logs from your browser — no custom programming needed.
+
+  - name: See patterns across your fleet
+    description: Monitor usage, inputs, and hardware performance across all rooms to inform upgrades and planning.
+
+  - name: Manage AV equipment without third-party controllers
+    description: Access projectors, displays, and cameras directly through Stagehand’s browser interface.
+
+  - name: Monitor troubleshooting progress
+    description: Track issue resolution in real time and take remote action to prevent disruptions.
+
+  - name: Single-click actions
+    description: Automate AV routines like powering devices on/off or switching inputs based on time or occupancy.
+
+  - name: Generate space utilization reports
+    description: Use built-in analytics to assess how rooms are used and guide workspace decisions.
+
+  - name: Get feedback from users
+    description: Send automated surveys at the end of sessions to gather insights on space and tech experience.
+
+  - name: Monitor real-time room use
+    description: See which rooms are in use and for how long based on live occupancy and schedule data.
+
+  - name: Compare climate, occupancy & energy
+    description: Analyze environmental data alongside room usage to improve comfort and reduce energy waste.
+

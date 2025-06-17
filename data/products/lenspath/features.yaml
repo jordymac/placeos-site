@@ -1,0 +1,115 @@
+people_detected:
+  title: "People Detection Features"
+  features:
+    - name: "Smart Lighting"
+      description: "Automatically adjust lighting levels based on the number of people in a space."
+    - name: "Climate Control"
+      description: "Optimize HVAC systems based on occupancy to reduce energy use and improve comfort."
+    - name: "Occupancy Monitoring"
+      description: "Provide real-time data for room booking systems and digital signage."
+    - name: "Queue Management"
+      description: "Detect queues and notify staff or redirect people to less busy areas."
+    - name: "Cleaning Alerts"
+      description: "Trigger cleaning schedules after set uses or high traffic."
+
+security_safety_people:
+  title: "Security & Safety (People)"
+  features:
+    - name: "Unauthorized Access Alerts"
+      description: "Alert security when someone enters restricted areas without credentials."
+    - name: "Crowd Control"
+      description: "Monitor crowd density and send alerts when it exceeds thresholds."
+    - name: "Emergency Evacuations"
+      description: "Guide occupants to exits during emergencies using real-time data."
+    - name: "Visitor Identification"
+      description: "Match detected individuals with visitor lists and notify hosts."
+    - name: "Suspicious Behavior Detection"
+      description: "Identify loitering or unusual activity and alert security staff."
+
+retail_hospitality:
+  title: "Retail & Hospitality Features"
+  features:
+    - name: "Personalized Greetings"
+      description: "Recognize returning customers and display tailored messages or offers."
+    - name: "Staff Allocation"
+      description: "Deploy staff to high-traffic zones to improve service."
+    - name: "Inventory Alerts"
+      description: "Detect when shelves are crowded and alert for restocking."
+    - name: "Dynamic Pricing/Promotions"
+      description: "Trigger promotions in low-traffic zones to drive engagement."
+    - name: "Queue Reduction"
+      description: "Alert staff or open new counters when queues grow."
+
+age_gender_detected:
+  title: "Age & Gender Detection Features"
+  features:
+    - name: "Targeted Promotions"
+      description: "Show demographic-specific offers on digital signage."
+    - name: "Age Verification"
+      description: "Flag underage individuals in age-restricted areas."
+    - name: "Gender-Specific Entertainment"
+      description: "Adapt content based on dominant gender demographics."
+    - name: "Gaming Preferences"
+      description: "Recommend games aligned with detected age/gender profiles."
+
+campus_safety:
+  title: "Campus Safety Features"
+  features:
+    - name: "Missing Child Alerts"
+      description: "Identify unaccompanied minors in unsafe areas and alert security."
+    - name: "Loitering Prevention"
+      description: "Detect age-specific loitering near sensitive zones."
+    - name: "Escort Requests"
+      description: "Offer escorts to minors or elderly during late hours."
+    - name: "Suspicious Activity Detection"
+      description: "Detect age mismatches in restricted areas and notify staff."
+
+aged_care:
+  title: "Aged Care Features"
+  features:
+    - name: "Automatic Room Personalization"
+      description: "Adjust lights, climate, and music when a resident enters a room."
+    - name: "Assisted Mobility Support"
+      description: "Trigger doors, elevators, or lights for safer navigation."
+    - name: "Medication Dispensing"
+      description: "Deliver medication when residents approach dispensers."
+    - name: "Tracking and Redirecting"
+      description: "Guide wandering residents back using visual or audio cues."
+
+smart_cleaning:
+  title: "Smart Cleaning Features"
+  features:
+    - name: "Spot Cleaning"
+      description: "Detect spills or debris and deploy cleaning robots."
+    - name: "Room Cleaning Detection"
+      description: "Identify used dishes or clutter and notify cleaning staff."
+    - name: "Bin Full Alerts"
+      description: "Alert staff when trash bins are full."
+    - name: "Dust Detection"
+      description: "Detect dusty surfaces and trigger cleaning tasks."
+    - name: "Restroom Restocking"
+      description: "Notify when paper or soap supplies are low."
+    - name: "Crowd-Based Cleaning"
+      description: "Schedule extra cleaning in high-traffic zones."
+
+security_safety_objects:
+  title: "Security & Safety (Objects)"
+  features:
+    - name: "Weapon Detection"
+      description: "Identify weapons and initiate alarms or lockdowns."
+    - name: "Left Objects"
+      description: "Detect unattended bags or items and alert security."
+    - name: "Protective Gear Compliance"
+      description: "Alert if required safety gear is missing."
+    - name: "Hazard Identification"
+      description: "Spot spills or broken glass and notify maintenance."
+    - name: "Restricted Items"
+      description: "Detect prohibited items in restricted zones."
+
+pest_control:
+  title: "Pest Control Features"
+  features:
+    - name: "Rodent Detection"
+      description: "Identify rodents and trigger traps or deterrents."
+    - name: "Insect Recognition"
+      description: "Detect insect infestations and activate repellents."
