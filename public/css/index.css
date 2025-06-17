@@ -1113,8 +1113,7 @@ nav a.ancestor {
 }
 
 article.main a {
-  --tw-text-opacity: 1 !important;
-  color: rgb(30 64 175 / var(--tw-text-opacity)) !important;
+  color: var(--link);
 }
 
 article.main a:hover {
@@ -2241,10 +2240,6 @@ footer a:hover {
   display: block;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
 .inline {
   display: inline;
 }
@@ -2317,10 +2312,6 @@ footer a:hover {
   max-width: 20rem;
 }
 
-.flex-none {
-  flex: none;
-}
-
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -2349,10 +2340,6 @@ footer a:hover {
 
 .cursor-default {
   cursor: default;
-}
-
-.cursor-help {
-  cursor: help;
 }
 
 .cursor-pointer {
@@ -2529,10 +2516,6 @@ footer a:hover {
   background-color: rgb(255 255 255 / 0.25);
 }
 
-.fill-slate-400 {
-  fill: #94a3b8;
-}
-
 .p-1 {
   padding: 0.25rem;
 }
@@ -2563,6 +2546,10 @@ footer a:hover {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
 .pb-2 {
@@ -2682,10 +2669,6 @@ footer a:hover {
 
 .text-white\/70 {
   color: rgb(255 255 255 / 0.7);
-}
-
-.text-\[var\(--link\)\] {
-  color: var(--link);
 }
 
 .underline {
@@ -3269,10 +3252,6 @@ footer a:hover {
   margin-left: 0.5rem;
 }
 
-.hover\:fill-slate-600:hover {
-  fill: #475569;
-}
-
 .hover\:text-orange-600:hover {
   --tw-text-opacity: 1;
   color: rgb(234 88 12 / var(--tw-text-opacity));
@@ -3283,8 +3262,8 @@ footer a:hover {
   color: rgb(56 189 248 / var(--tw-text-opacity));
 }
 
-.hover\:text-\[var\(--link-hover\)\]:hover {
-  color: var(--link-hover);
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 .hover\:decoration-inherit:hover {
@@ -3308,28 +3287,12 @@ footer a:hover {
   font-size: 2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .motion-safe\:transition-colors {
-    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 150ms;
-  }
-}
-
 .dark\:bg-gray-900\/40:is(.dark *) {
   background-color: rgb(17 24 39 / 0.4);
 }
 
 .dark\:text-white\/70:is(.dark *) {
   color: rgb(255 255 255 / 0.7);
-}
-
-.dark\:text-\[var\(--link\)\]:is(.dark *) {
-  color: var(--link);
-}
-
-.dark\:hover\:text-\[var\(--link-hover\)\]:hover:is(.dark *) {
-  color: var(--link-hover);
 }
 
 @media (min-width: 768px) {

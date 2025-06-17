@@ -194,9 +194,10 @@
     @apply decoration-slate-300;
   }
 
-  article.main a {
-    @apply !text-blue-800 hover:decoration-2 hover:underline-offset-2;
-  }
+article.main a {
+  color: var(--link);
+  @apply hover:decoration-2 hover:underline-offset-2;
+}
 
   article.main .codeblock-meta a {
     @apply !text-white/70 hover:!text-sky-400;
