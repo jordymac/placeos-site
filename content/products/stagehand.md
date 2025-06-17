@@ -1,8 +1,8 @@
 ---
 title: StageHand
 slug: stagehand
-summary: 'AV control that works without third-party controllers'
-hero_image: "images/products/stagehand/stagehand-hero-image.webp"
+summary: Remote control for every AV room on campus — from your browser
+hero_image: images/products/stagehand/stagehand-hero-image.webp
 categories:
   - AI
   - AV
@@ -21,42 +21,69 @@ categories:
 product_logo: stagehand-logo.svg
 ---
 
-Stagehand is an advanced AV control platform that eliminates the need for third-party controllers so that you can manage every device directly. It also integrates with a wide range of systems—from access control to real-time location services and timetable data—so that you can identify issues and set actions to resolve those issues automatically in the future.
+**Stagehand gives AV and IT support teams complete remote visibility, control, and automation over every lecture hall and meeting room – so you can fix AV issues before they interrupt class – not after.** Proactively resolve problems from a web browser and eliminate disruptive onsite callouts.
 
 {{< wistia id="rh3qym3420" >}}
 
-## Integrations extend beyond AV to the campus
-We've developed hundreds of integration drivers for displays, protocols, conferencing, scheduling, directory, real-time location, access control, lighting, audio and video so that you can be confident our solution works with your technology.
+---
 
-## Manage AV equipment without the need for third-party controllers
-Directly access and control end-point devices such as projectors, displays, and cameras from one platform.  
+## The support ticket is already too late
 
-![StageHand Monitor AV Equipment Remote Support](/images/products/stagehand/stagehand-monitor-details.avif)
+A frantic call from a presenter. A cryptic "it's not working" ticket. A five-minute window between classes to diagnose a problem in a room across campus. 
 
-## Monitor troubleshooting progress & take action
-Utilize built-in remote tools to resolve problems from anywhere and take immediate action to minimize disruptions.  
+For AV support teams, the daily routine is reactive, stressful, and inefficient. Without visibility into each room, problems aren't caught until they're reported — and that usually means class has already been disrupted.
+
+---
+
+## Stagehand: made for campus AV support teams
+
+When a class starts, there's no time for trial-and-error fixes. Stagehand connects directly to your AV hardware so your team can diagnose, triage, and resolve issues — without entering the room or touching a control panel.
+
+### Use it when:
+
+**You need to spot a failure before the lecturer does**  
+Get alerts from every connected device in real time. Fix problems before they trigger a help desk ticket.
+
+**You’re responding to a call mid-class**  
+Immediately verify room status: power, source, audio levels — and guide the user without guessing.
+
+**You’ve got 5 minutes between sessions**  
+See which rooms are vacant and how long you have, so you can make changes fast and remotely.
+
+---
+## Most tools solve a slice of the problem
+
+- **Remote desktop software?** Not AV-specific, clunky for multi-device control, and often blocked by security policies.  
+- **Control systems?** Require programming expertise and costly hardware upgrades.  
+- **Manual walk-ins?** Disruptive, inefficient and can’t scale across large campuses.  
+- **Monitoring dashboards?** Show alerts, but don’t give control or context.
+
+---
+## What you can do with Stagehand
+
+**Listen in to live audio**  
+On Dante-enabled networks, drop into the room’s mix from your browser to pinpoint issues before stepping in.
+
+![StageHand Real-Time Status](/images/products/stagehand/stagehand-monitor-rooms.avif)
+
+**Control devices directly**  
+Change sources, mute audio, or view logs — all remotely, no custom programming required.
 
 ![StageHand Alert Tracking Status](/images/products/stagehand/stagehand-alerts-track-status.avif)
 
-## Single-click actions
-Configure routines to turn devices on/off, adjust settings, or trigger system actions based on schedule, occupancy, or specific conditions with a single click.
+**See patterns across your fleet**  
+Track room usage, input trends, and hardware health across all rooms to plan upgrades and justify spend.
 
-![StageHand AV Preference Actions](/images/products/stagehand/when-meeting-starts--av-control-placeos.webp)
+![StageHand Monitor AV Equipment Remote Support](/images/products/stagehand/stagehand-monitor-details.avif)
+---
 
-## Generate space utilization reports
-Collect and analyze data that helps you make better decisions about your spaces.
+## Trusted by those who know the pain
 
-![StageHand Room Utilization Graphs](/images/products/stagehand/stagehand-analytics-room-utilization.avif)
+Stagehand was born from decades of experience managing AV at universities, hospitals, and enterprise campuses.
 
-## Get feedback from users
-Understand what people like about spaces, technology and their experience. Set surveys to automatically send at the end of sessions.
+> “We used to need three different tools to do what Stagehand does from a single screen. The reduction in onsite callouts has been a game-changer for our team's efficiency.”  
+> — AV Lead, Multi-Campus University
 
-![StageHand Survey Feedback](/images/products/stagehand/placeos-workmate-survey-responses.webp)
+---
 
-## Monitor real-time room use
-![StageHand Real-Time Status](/images/products/stagehand/stagehand-monitor-rooms.avif)
-
-## Compare climate, occupancy & energy
-Provide people with a space that's comfortable while aligning energy use with occupancy.
-
-![StageHand Energy Efficiency Statistics](/images/products/stagehand/stagehand-analytics-av-v-occupancy-v-energy.avif)
+## Ready to start solving problems from your browser?

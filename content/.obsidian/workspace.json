@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "products/backoffice.md",
+                "file": "products/stagehand.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "backoffice"
+              "title": "stagehand"
             }
           }
         ]
@@ -165,8 +165,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c082f9481b7afb1",
+  "active": "9a2b8ed2c2b44075",
   "lastOpenFiles": [
+    "products/workmate.md",
+    "products/stagehand.md",
+    "products/backoffice.md",
+    "products/desk-booking-app.md",
     "products/_index.md",
     "posts/a-guide-to-digital-workplace-transformation.md",
     "posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do.md",

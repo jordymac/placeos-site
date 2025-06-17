@@ -9,7 +9,7 @@ categories:
   - Campus
   - product
 ---
-BackOffice provides a single, powerful interface to configure, monitor, and manage thousands of devices and integrations. Add new integrations and workflows to your building in seconds.. 
+BackOffice provides a single, powerful interface to configure, monitor and manage thousands of devices and integrations. Add new integrations and workflows to your building in seconds.
 
 {{< wistia id="bnz61a0wfw" >}}
 
@@ -17,11 +17,11 @@ BackOffice provides a single, powerful interface to configure, monitor, and mana
 
 ## The challenge of a fragmented ecosystem
 
-You're managing a sprawling network of smart devices, sensors, and software. Each new integration adds another layer of complexity, another potential point of failure, and another silo of data. Your team is stretched thin, IT is a constant bottleneck, and the promise of a seamless, automated environment feels just out of reach. The cost of downtime is immense, and the pressure to maintain compliance is unrelenting.
+You're managing a sprawling network of smart devices, sensors and software. Each new integration adds another layer of complexity, another potential point of failure, and another silo of data. Your team is stretched thin, IT is a constant bottleneck and the promise of a seamless, automated environment feels just out of reach. The cost of downtime is immense, and the pressure to maintain compliance is unrelenting.
 
 ---
 
-### Get time back in your day with a single platform to control and monitor all integrated technology
+## Get time back in your day with a single platform to control and monitor all integrated technology
 
 BackOffice is the definitive command center for your entire smart ecosystem. We empower you to move beyond fragmented controls and reactive problem-solving. Gain the strategic oversight and granular control needed to master your environment, no matter its scale or complexity.
 

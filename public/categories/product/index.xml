@@ -370,7 +370,7 @@
       <link>http://localhost:1313/products/backoffice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/products/backoffice/</guid>
-      <description>BackOffice is where operators shape the logic, integrations, and structure for every smart building deployment</description>
+      <description>Command your entire smart environment in one place</description>
     </item>
     <item>
       <title>Desk Booking App</title>
@@ -391,7 +391,7 @@
       <link>http://localhost:1313/products/lenspath/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/products/lenspath/</guid>
-      <description>LensPath is a no-code computer vision automation platform that turns camera feeds into real-time actions</description>
+      <description>LensPath is a no-code computer vision tool that turns any camera feed into real-time actions</description>
     </item>
     <item>
       <title>Occupancy Monitoring System</title>

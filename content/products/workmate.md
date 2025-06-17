@@ -33,132 +33,74 @@ categories:
   - product
 product_logo: workmate-logo.svg
 ---
-WorkMate is the most configurable workplace management software, built for enterprise HR, IT, and Facilities teams. Its architecture ensures a consistent user experience, even as building systems or business software evolve. Administrators can easily implement and configure rules for entire buildings, meeting rooms, desks, parking spaces and more, tailoring each location to its unique needs while operating at a global scale.
+WorkMate is the most configurable workplace management software; purpose built for teams managing thousands of workplace resources — desks, rooms, assets, climate, and visitors — across global real estate portfolios. 
+
+Its architecture ensures a consistent user experience, even as building systems or business software evolve. 
+
+Administrators can easily implement and configure rules for entire buildings, meeting rooms, desks, parking spaces and more; tailoring each location to its unique needs while operating at a global scale.
 
 {{< wistia id="s8vm3r0maz" >}}
 
 ![PlaceOS WorkMate Building Manager](/images/products/workmate/placeos-workmate-building-manager.webp)
 
-## WorkMate does it all
-Hundreds of offices around the world use PlaceOS for occupancy management, workplace experience, room management, utilization reportings, hot-desks, visitor management, building automation and energy savings. Hundred of apps can provide features like room and desk booking- but can they apply configurable rules and conditions while scaling across your entire global portfolio?
+## Spend less time managing apps and more time managing your workplace
+Hundreds of offices around the world use PlaceOS for occupancy management, workplace experience, room management, utilization reportings, hot-desks, visitor management, building automation and energy savings. 
 
-## Everything else is just an app
+### Most tools solve a slice of the problem
+- **Legacy IWMS?** Rigid, slow, and hard to scale.  
+- **Room & desk apps?** Shallow features and expensive hardware lock-in.  
+- **Analytics dashboards?** Data without action.
 
-WorkMate's underlying architecture, PlaceOS, uses a platform approach. This means there is a decoupling of frontend and backend. With modular integrations, you can switch hardware providers, move into new buildings, or scale across multiple locations without changing the end user experience.
+### WorkMate is different:
+- **Real-time automation** not static dashboards
+- **Vendor-agnostic** integrations, no lock-in
+- **Enterprise-scale** with local configuration
+- **Future-proof architecture** built on PlaceOS
 
-### They don't integrate with that
-
-WorkMate has hundreds of integrations meaning we work with what you've got and what you'll have in the future. If we don’t already support what you need, we can build new drivers for your project.
-
-### They're just a dashboard
-
-Even if they integrate with some technology, the solution is often a dashboard for data, it lacks action. WorkMate takes that a step further and provides you with the ability to automate actions based on using the real-time data we collect.
-
-### They can't scale across buildings
-
-Scaling is hard when each building has different BMS, access control and systems. Our integrations mean we can cater for expansion without affecting experience.
-
-### They lock you into their hardware
-
-Vendor lock-in means buying expensive, unsupported hardware. WorkMate is vendor-agnostic, running on any device, so you stay in control.
-
-## What's the alternative?
+## What makes WorkMate unique
 ### Workplace experience tools
-These tools can provide you some or most of the same features in our WorkMate solution. However, they can't integrate with base building services  limiting their capability in areas like access control and climate control. Scaling across buildings with different systems affects the end user experience.
-We've developed hundreds of integration drivers for every aspect of the building and your business. We integrate with access control, av control, network, authentication, active directory, messaging, resource booking, RTLS, sensors, BMS, lighting and more.
+- **Modular architecture** – decouples frontend and backend, so you can change hardware or systems without disrupting UX.  
+- **Global consistency** – set policies across your portfolio while adapting to local needs.  
+- **Deep integrations** – from BMS and AV to access control and HRIS.  
+- **Automation engine** – trigger actions from real-time data: occupancy, booking status, permissions.
 
-### Space analytics tools
-These tools can provide you with great insights into how people use your space. What they can't do is take action for you. PlaceOS has an automation tool so the spaces react dynamically in real time to drive change.
+## WorkMate's core capabilities
 
-### Room & desk booking tools
-These apps are simple in nature. In order to achieve the complex needs of modern workplaces, they require you to lock-in with their hardware provider, meaning more expensive roll outs. WorkMate can achieve the same outcomes by integrating into your existing technology stack.
-
-### Integrated workplace management systems
-IWMS platforms provide robust tools for managing real estate, facilities and workplace operations. However, many are rigid, hard-coded systems that struggle to adapt to changing building technologies or business software. Their reliance on proprietary hardware often leads to vendor lock-ins, and scaling across diverse buildings can compromise the end-user experience—challenges WorkMate overcomes with its configurable, vendor-agnostic, and scalable architecture.
-
-## Integration - Connect your business software to the building systems
-We've developed hundreds of integration drivers for every aspect of the building and your business. We integrate with access control, av control, network, authentication, active directory, messaging, resource booking, RTLS, sensors, BMS, lighting and more.
-
-## Building management - Apply standardized workplace settings across regions with tailored adjustments for each building
+### Global & Local Configuration
 Standardize policies across locations while allowing tailored adjustments for room booking, desk management, visitor access, and facility controls so that you can manage multiple buildings with unique settings at scale.
-
-## Native access control - HID
-
-
-## Room booking - Configure meeting room booking rules at scale
-Take complete control over every meeting room on every floor in every building. Tailor booking rules for different types of meeting rooms and locations to meet the different needs of your global workforce.
-
 ![WorkMate Room Configuration](/images/products/workmate/workmate-room-configuration-rules.webp)
-
-## Desk booking - Need a desk, get a desk
-Group employees desk bookings by team, search by requirements like sit-to-stand desks, and centralize desk assignments to optimize space usage.
-
+### Resource Booking
+Book rooms, desks, lockers, parking, and end-of-trip facilities with customizable rules and centralized management. Support flexible work while optimizing space usage.  
 ![WorkMate Desk Booking Pinned Location](/images/products/workmate/desk-booking-pinned-location-thumbnail.avif)
 
-## Generate space utilization reports
-Collect and analyze data that helps you make better decisions about your workplace, meeting rooms, office layout, and desks.
-
-![WorkMate Desk Booking Report](/images/products/workmate/desk-report.webp)
-
-## Get feedback from users
-Understand why people are or aren't using certain spaces, rooms or desks. Set surveys to automatically send at the end of room or desk bookings, to users who checked in, or to those who missed their bookings.
-
-![Image](/images/products/workmate/placeos-workmate-survey-responses.webp)
-
-## Visitor management - Provide access to your guests
-Add visitors to room bookings, support seamless check-ins through a visitor kiosk, send visitor welcome invitations with QR code check-in, edit visitor or booking assignee details, and automate notifications to hosts.  
-
-![Image](/images/products/workmate/placeos-workmate-kiosk-check-in.webp)
-
-## AV control - setup presets and remote control
-
-![WorkMate AV Control Interface](/images/products/workmate/when-meeting-starts--av-control-placeos.webp)
-
-## Occupancy - show real-time occupancy levels
-
-![WorkMate Occupancy Heat Map](/images/products/workmate/real-time-occupancy-workmate-floor-plan-occupancy-by-room.webp)
-
-## Room management - Configure room rule sets
-Create and configure the rules and conditions upon which meeting room bookings can be made. 
-
-Restrict rooms to between 7:00AM & 7:00PM + 10 Days in Advance
-
-![Image](/images/products/workmate/workmate-room-management-rule-set-configuration-3.webp)
-
-## Facility management - Visualize building climate
-Reduce facilities tickets, monitor comfort and optimize for occupancy.
-
+### Environmental, Access & AV Automation
+Automate lighting, HVAC, and AV based on occupancy and bookings. Tie building access to calendars, permissions, or room assignments — no manual toggling or vendor lock-in.  
 ![WorkMate Facility Monitoring Interface](/images/products/workmate/workmate-evironment-information-p-1600.webp)
 
-#### Book parking & lockers
-Book and manage all of your parking spaces and lockers which you can tie into access control.
-
-![WorkMate Car Park Booking](/images/products/workmate/workmate-car-space-parking-booking-details.webp)
-
-#### Manage assets
-Manage and monitor all your assets, incorporate into meeting room and desk booking.
-
-![Asset Management & Booking](/images/products/workmate/workmate-available-assets-for-room-booking.webp)
-
-#### Add catering
-Manage catering for meeting rooms, add onto any room booking.
-
-![WorkMate Catering Management & Ordering](/images/products/workmate/workmate-room-booking-catering-add-to-order.webp)
-
-#### Check-in kiosk
-
-Visitors can check in and out. Hosts are notified automatically when a visitor arrives.
-
+### Visitor & Event Management
+Manage the entire visitor experience from pre-registration to check-in. Coordinate events with room availability, catering, and access in one integrated workflow.  
 ![WorkMate Visitor Management Kiosk Check-In](/images/products/workmate/placeos-workmate-kiosk-check-in.webp)
 
-#### Room booking panels
-Display room availability and allow users to book from the panel. Compatible with most devices that can display a browser.
+### Analytics & Feedback
+Monitor space utilization in real-time, generate actionable insights, and trigger post-usage surveys. Make informed decisions about space planning and user experience.  
+![WorkMate Occupancy Heat Map](/images/products/workmate/real-time-occupancy-workmate-floor-plan-occupancy-by-room.webp)
 
-![WorkMate Room Booking Panel Interface](/images/products/workmate/room-booking-panel-placeos-workmate.webp)
+### Facility Oversight
+Gain a centralized view of building systems and climate comfort. Reduce support tickets and monitor facilities performance across your global portfolio.  
+![WorkMate Facility Monitoring Interface](/images/products/workmate/workmate-evironment-information-p-1600.webp)
 
-#### Emergency contacts
-Add roles like Fire Wardens & First Aid Officers to staff. Make it easy to locate people of interest in important scenarios.
-
-![WorkMate Emergency Contact Management](/images/products/workmate/emergency-contacts-placeos-workmate.webp)
+[See the full list of features](#features)
 
 
+## Interfaces for every role
+
+WorkMate includes dedicated tools for each user group — from employees to facilities staff.
+
+- **Employee App:** Available as a native app (with NFC access support) and a web version for quick booking and check-ins.  
+- **Concierge Dashboard:** Used by HR and facilities teams to set rules, manage approvals, track visitors, and monitor building systems.  
+- **Booking & Control Panels:** Interfaces that run on any tablet or display, or can be embedded into supported third-party devices like Cisco Webex.  
+- **Visitor Kiosk:** A check-in system for guests, managed through the Concierge Dashboard and customized for each site.
+
+## Ready to modernize your workplace?
+
+See how WorkMate replaces fragmented apps with a connected, automated platform.

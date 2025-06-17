@@ -20,7 +20,7 @@
     {{ partial "contact.html" . }}
 
     <!-- Feature Lists (Accordion) -->
-    <h2 class="text-xl font-semibold mb-4">{{ .Title }} Full Feature List</h2>
+    <h2 id="features" class="text-xl font-semibold mb-4">{{ .Title }} Full Feature List</h2>
     {{- $slug := .File.BaseFileName -}}
     {{- $data := index site.Data.products $slug -}}
     {{- $featData := index $data "features" -}}

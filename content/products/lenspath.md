@@ -1,6 +1,6 @@
 ---
 title: LensPath
-summary: LensPath is a no-code computer vision automation platform that turns camera feeds into real-time actions
+summary: LensPath is a no-code computer vision tool that turns any camera feed into real-time actions
 hero_image: "images/products/lenspath/lenspath-hero-image-dark.webp"
 featured: true
 categories:
@@ -9,9 +9,7 @@ categories:
 - Computer Vision
 ---
 
-# LensPath Your no-code computer vision automation layer for your existing camera systems
-
-It watches what your cameras see and triggers real-world actions—without writing a line of code or buying new hardware.
+LensPath is the no-code computer vision platform that connects to your existing camera systems, detects events in real time, and triggers automated actions in your facility. Stop just watching. Start acting.
 
 ## What LensPath Replaces
 
