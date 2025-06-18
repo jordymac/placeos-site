@@ -2,10 +2,12 @@
 {{- $menuID := .menuID }}
 
 {{- with index site.Menus $menuID }}
-  <nav>
-    <ul class="flex flex-row items-center justify-end space-x-4 text-xs">
-      {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
-<li>
+<nav class="flex flex-row flex-wrap items-center justify-end gap-4 text-s">
+  <!-- Product Links -->
+  <ul class="flex flex-row flex-wrap items-center gap-2 sm:gap-4">
+    {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+  </ul>
+  <div class="flex flex-row items-center gap-2">
   {{ $contact := site.GetPage "page" "contact" }}
 <a
   href="{{ $contact.RelPermalink }}"
@@ -15,8 +17,6 @@
     {{ partial "svg/paper-plane.html" . }}
   </span>
 </a>
-</li>
-      <li>
         <button id="theme-toggle" class="p-2 rounded focus:outline-none" aria-label="Toggle dark mode">
           <span id="sun" class="hidden">
             {{ partial "svg/sun.html" . }}

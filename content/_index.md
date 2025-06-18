@@ -26,25 +26,6 @@ list_items:
   - title: Which is why we take the platform approach
     summary: >-
       It’s a philosophy: open, agnostic, and designed for extensibility. Like WordPress or Salesforce, you can build solutions on top, plug in components, or use something off the shelf. But unlike single-use tools, PlaceOS gives you a foundation to connect systems, build logic and automate workflows. You get to shape the experience without rebuilding it every time the interface or you hardware changes.~
-  - title: Be wary of companies making the platform claim
-    summary: >
-      The term \"platform\" gets thrown around a lot. But most of the time, it doesn’t mean what it should.
-      A true platform separates logic from the interface. It has modular
-      integrations, open APIs, and allows others to build on top. The interface
-      can be anything, but the smarts, logic, and automation all live in the
-      backend. 
-
-
-      Vendors often call their single-use apps “platforms.” A room booking app
-      where everything is hardcoded? Not a platform. A dashboard that only
-      connects to its own ecosystem? Still not a platform. If you can’t build on
-      it or extend it without asking permission or signing an NDA, it’s not a
-      platform. Salesforce is a platform. WordPress is a platform. You can build
-      on them, resell your version, or plug in your own tools. That’s what
-      PlaceOS is too. A platform isn’t just about where it runs, it’s about
-      what it enables. If it locks you in, it’s not a platform. Hardcoded apps.
-      Fixed dashboards. Tools that only work with their own ecosystem. That’s
-      not a platform, that’s vendor lock-in.
   - title: Our architecture creates an abstraction layer
     summary: >-
       PlaceOS creates an abstraction layer extracting away the complexities of all the unique building systems and software. 

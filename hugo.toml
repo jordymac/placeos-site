@@ -31,20 +31,20 @@ theme = "til"
 
 [menus]
   [[menus.main]]
-    name = '#workmate'
+    name = 'workmate'
     pageRef = '/products/workmate'
     weight = 20
   [[menus.main]]
-    name = '#stagehand'
+    name = 'stagehand'
     pageRef = '/products/stagehand'
     weight = 30
   [[menus.main]]
-    name = '#lenspath'
+    name = 'lenspath'
     pageRef = '/products/lenspath'
     weight = 40
 
   [[menus.main]]
-    name = '#backoffice'
+    name = 'backoffice'
     pageRef = '/products/backoffice'
     weight =50
 

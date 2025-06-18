@@ -7,14 +7,9 @@
     {{ partial "head.html" . }}
   </head>
   <body class="pb-16">
+    {{ partial "header.html" . }}
+    
     {{ if .IsHome }}
-      <!-- Header: narrow prose wrapper -->
-      <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
-        <header class="flex items-center justify-between">
-          {{ partial "header.html" . }}
-        </header>
-      </div>
-
       <!-- Main: wide up to 1080px, width control separate from typography -->
       <div class="mx-auto w-full max-w-[1080px] px-4 flex flex-col space-y-10">
         <article class="prose prose-slate md:prose-lg prose-h1:text-[2em] mx-auto max-w-full" id="maincontent">
@@ -25,10 +20,6 @@
       <!-- non-home: everything in narrow prose wrapper -->
       <!-- prose container for header & main content -->
       <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
-        <header class="flex items-center justify-between">
-          {{ partial "header.html" . }}
-        </header>
-
         <main
           class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]"
           id="maincontent"
