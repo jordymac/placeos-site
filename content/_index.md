@@ -1,8 +1,8 @@
 ---
 title: PlaceOS
-description_title: PlaceOS is an open-source integration platform for building operations
+description_title: PlaceOS is an open-source integration platform for automating commercial building operations
 description_body: >-
-  Used by IT, facilities and space planning teams to connect systems and data across hundreds of buildings and thousands of spaces, without replacing existing deployments
+  Used by IT, facilities and space planning teams to connect systems and data across hundreds of buildings and thousands of spaces, <span class="highlight-link">without replacing existing deployments</span>
 
 list_items:
   - title: >-
