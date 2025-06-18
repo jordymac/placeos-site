@@ -203,7 +203,7 @@ list_items:
 
       **Occupancy-based energy**: Align energy use in spaces with actual
       occupancy to reduce HVAC & lighting use.
-  - title: We’ve got an experienced tech team who can build our own stuff
+  - title: '"But what if I already have a dev team that can build this for me?"'
     summary: >-
       We’d love that. Honestly, it’s a better move than getting locked into some rigid, hard-coded app. But we think we can give you the best of both worlds: a head start that lets you focus on your unique challenges without getting buried in device-level protocol hell.
 

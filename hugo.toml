@@ -57,3 +57,6 @@ theme = "til"
     [markup.goldmark.parser]
       [markup.goldmark.parser.attribute]
         block = false
+
+[sitemap]
+  filename = "sitemap.xml"
