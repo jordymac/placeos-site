@@ -310,15 +310,11 @@ label {
 /* Accordion Styles for Homepage */
 
 .hero {
-  text-align: center;
+  text-align: left;
   padding: 4rem 1rem;
   max-width: 65ch;
   margin: auto;
 }
-
-/* .prose {
-  max-width: none !important; /* Override Tailwind Typography max-width
-} commented this out for now while i figure out this mobile width issue */
 
 .accordion-list {
   margin: 2rem auto;
@@ -342,8 +338,8 @@ label {
 }
 
 .accordion-title {
-  font-size: 2.5rem;
-  line-height: 2.25rem;
+  font-size: 1.5rem;
+  line-height: 1.25rem;
   font-weight: 900;
 }
 
@@ -376,6 +372,12 @@ label {
   margin: 1rem 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
+
+@media screen and (max-width: 768px) {
+  .accordion-list {
+  padding: 0;
+}
+  }
 
 
 @keyframes fadeIn {

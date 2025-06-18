@@ -1,8 +1,12 @@
 {{ define "main" }}
-<section class="hero">
-  <div class="hero-content mx-auto max-w-[600px] text-center">
-    <h1>{{ .Title }}</h1>
-    <p>{{ .Params.description }}</p>
+<section class="hero" style="max-width:1080px;">
+  <div class="hero-content" style="max-width:800px;">
+    <h1 class="text-4xl md:text-5xl font-bold leading-snug tracking-normal mb-4">
+  {{ .Params.description_title }}
+    </h1>
+    <p class="text-xl md:text-2xl leading-relaxed tracking-normal">
+      {{ .Params.description_body | markdownify }}
+    </p>
   </div>
 </section>
 <div class="home-container mx-auto w-full px-4" style="max-width:1080px;">
