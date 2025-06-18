@@ -467,6 +467,12 @@
     <loc>http://localhost:1313/posts/you-don-t-need-another-workplace-sensor/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/industry/energy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/industry/smart-campus/</loc>
+  </url><url>
+    <loc>http://localhost:1313/industry/workplace/</loc>
+  </url><url>
     <loc>http://localhost:1313/licensing/</loc>
   </url><url>
     <loc>http://localhost:1313/privacy-policy/</loc>
@@ -494,6 +500,8 @@
     <loc>http://localhost:1313/categories/healthcare/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/how-to/</loc>
+  </url><url>
+    <loc>http://localhost:1313/industry/</loc>
   </url><url>
     <loc>http://localhost:1313/products/lenspath/</loc>
   </url><url>

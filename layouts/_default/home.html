@@ -2,11 +2,14 @@
 <section class="hero" style="max-width:1080px;">
   <div class="hero-content" style="max-width:800px;">
     <h1 class="leading-snug tracking-normal mb-4">
-  {{ .Params.description_title }}
+  {{ .Params.description_title | safeHTML }}
     </h1>
     <p class="text-xl md:text-2xl leading-relaxed tracking-normal">
       {{ .Params.description_body | safeHTML }}
     </p>
+    <div class="text-xl md:text-2xl leading-relaxed tracking-normal">
+  {{ .Params.feature_list | markdownify }}
+</div>
   </div>
 </section>
 <div class="home-container mx-auto w-full px-4" style="max-width:1080px;">

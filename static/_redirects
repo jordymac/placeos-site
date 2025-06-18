@@ -1,3 +1,5 @@
+/announcement/blog /posts/ 301
+/announcement/projects /projects/ 301
 /app/desk-booking-app /products/desk-booking-app/ 301
 /app/energy-reduction-app /products/energy-reduction-app/ 301
 /app/meeting-room-booking /products/room-booking/ 301
@@ -101,3 +103,8 @@
 /team/jeremy-west / 301
 /team/jon-mcfarlane / 301
 /team/jordy-mcintyre / 301
+/projects/ashrae /projects/ashrae 301
+/projects/canadian-university /projects/canadian-university 301
+/projects/government-agency /projects/government-agency 301
+/projects/nsw-health /projects/nsw-health 301
+/projects/suncorp /projects/suncorp 301

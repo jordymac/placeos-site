@@ -1,8 +1,13 @@
 ---
 title: PlaceOS
-description_title: PlaceOS is an open-source integration platform for automating commercial building operations
+description_title: The only open-source integration platform that retrofits commercial building systems – <span class="highlight-link">without ripping anything out</span>
 description_body: >-
-  Used by IT, facilities and space planning teams to connect systems and data across hundreds of buildings and thousands of spaces, <span class="highlight-link">without replacing existing deployments</span>
+  Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS connects your building systems to:
+feature_list: |-
+  - Automate workflows across spaces and teams
+  - Unify siloed building systems and data
+  - Give occupants and visitors tools to engage with the space
+  - Scale across entire portfolios while maintaining a unified experience
 
 list_items:
   - title: >-
@@ -14,14 +19,14 @@ list_items:
       Whether you’re managing a single room or hundreds of buildings, we want this to be the fastest path to figuring out if PlaceOS fits your world.
   - title: The problems teams are solving with PlaceOS
     summary: >-
-      Hundreds of offices and campuses around the world use PlaceOS for occupancy management, workplace experience, room management, utilization reporting, hot-desks, visitor management, building automation, campus experience and energy savings. If your goal is to connect systems, create smarter workflows and deliver real-world outcomes ~ without rolling out new hardware ~ PlaceOS is the platform to do it.
+      Hundreds of offices and campuses around the world use PlaceOS for [occupancy management](/products/occupancy-monitoring/), [workplace experience](/products/workmate-workplace-solution/), [room management](/products/room-booking/), utilization reporting, [hot-desks](/products/desk-booking-app/), [visitor management](/products/visitor-management-app/), [building automation](/products/backoffice/), campus experience and [energy savings](/products/energy-reduction-app/). If your goal is to connect systems, create smarter workflows and deliver real-world outcomes ~ without rolling out new hardware ~ PlaceOS is the platform to do it.
   - title: >-
       The types of teams solving those problems
     summary: >-
       IT, space planning, experience leads, facilities, AV and IoT teams. Basically, anyone managing complexity across spaces, systems and software. We help connect the dots and make it all work together.
   - title: What makes PlaceOS a platform
     summary: >- 
-      At its core, PlaceOS is built to connect. Most building systems are siloed. HVAC, AV, calendars, access control and sensors all speak different languages. PlaceOS creates an abstraction layer across them, turning those scattered systems into usable building blocks. Once connected, they can serve as inputs and outputs in any workflow—like presence detection triggering HVAC changes, or badge swipes posting into chat. That’s what makes it a platform: not just a tool, but an integration layer that drives outcomes.
+      At its core, PlaceOS is built to connect. Most building systems are siloed. HVAC, AV, calendars, access control and sensors all speak different languages. PlaceOS creates an abstraction layer across them, turning those scattered systems into usable building blocks. Once connected, they can serve as inputs and outputs in any workflow—like presence detection triggering HVAC changes, or badge swipes triggering security footage events. That’s what makes it a platform: not just a tool, but an integration layer that drives outcomes.
   - title: We won't sell you new hardware, because you probably don't need it
     summary: >-
       You'd be surprised by what data you can extract from existing systems. For example, most people go straight to new sensor rollouts when thinking about occupancy but your Wi-Fi network may already hold most of what you need. That’s why we recommend auditing what you’ve got first. More often than not, you don’t need new sensors. You need the siloed systems to talk to each other.

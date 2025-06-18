@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "products/workmate.md",
+                "file": "industry/energy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "workmate"
+              "title": "energy"
             }
           }
         ]
@@ -167,12 +167,25 @@
   },
   "active": "7c082f9481b7afb1",
   "lastOpenFiles": [
+    "industry/smart-campus.md",
+    "industry/energy.md",
+    "industry/workplace.md",
+    "projects/seamless-online-health-consultations.md",
+    "industry",
+    "projects/office-downsize-from-three-buildings-to-one.md",
+    "projects/multi-tenancy-space-as-a-service.md",
+    "projects/campus-energy-reduction-sustainability.md",
+    "projects/ashrae-headquarters-net-zero-retrofit.md",
+    "security.md",
+    "licensing.md",
+    "contact.md",
+    "_index.md",
+    "products/_index.md",
     "products/backoffice.md",
     "products/workmate.md",
     "products/stagehand.md",
     "products/lenspath.md",
     "products/desk-booking-app.md",
-    "products/_index.md",
     "posts/a-guide-to-digital-workplace-transformation.md",
     "posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do.md",
     "posts/_index.md"

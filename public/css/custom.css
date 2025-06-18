@@ -157,7 +157,7 @@ html.dark {
 }
 
 .highlight-link {
-  font-weight: 600;
+  font-weight: 900;
 }
 
 html, body {
@@ -199,6 +199,11 @@ html.dark .prose :where(strong):not(:where([class~="not-prose"],[class~="not-pro
 
 .prose :where(p):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
   color: var(--prose-body) !important;
+}
+
+
+.prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--links);
 }
 
 #theme-toggle {
@@ -305,7 +310,7 @@ label {
 
 .hero {
   text-align: left;
-  padding: 12rem 2rem 8rem 2rem;
+  padding: 8rem 2rem;
   max-width: 65ch;
   margin: auto;
 }
@@ -456,13 +461,13 @@ label {
   margin: 0;
   -webkit-mask-image: linear-gradient(
     to bottom,
-    rgba(0,0,0,1)   50%,
-    rgba(0,0,0, var(--mask-end-alpha)) 100%
+    rgba(0,0,0,1)   30%,
+    rgba(0,0,0, var(--mask-end-alpha)) 75%
   );
   mask-image: linear-gradient(
     to bottom,
-    rgba(0,0,0,1)   50%,
-    rgba(0,0,0, var(--mask-end-alpha)) 100%
+    rgba(0,0,0,1)   30%,
+    rgba(0,0,0, var(--mask-end-alpha)) 75%
   );
   mask-mode: alpha;
   mask-size: 100% 100%;
