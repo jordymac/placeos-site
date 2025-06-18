@@ -21,9 +21,8 @@ categories:
   - Workplace
   - project
 summary: >-
-  ASHRAE is a global society advancing human well-being through sustainable
-  technology for the built environment. ASHRAE is an industry leader and is
-  dedicated to promoting a healthy and sustainable built environment being the
+  ASHRAE is a global society maintaining sustainable standards
+  for the built environment. They are the
   creator of BACnet, a protocol and set of standards for the HVAC industry.
 tags: []
 author: PlaceOS
@@ -43,7 +42,7 @@ integrations:
   - microsoft-365
 ---
 ## Project Overview
-ASHRAE is a global society advancing human well-being through sustainable technology for the built environment. ASHRAE is an industry leader and is dedicated to promoting a healthy and sustainable built environment being the creator of BACnet, a protocol and set of standards for the HVAC industry.
+ASHRAE is a global society maintaining sustainable standards for the built environment. They are the creator of BACnet, a protocol and set of standards for the HVAC industry.
 
 ASHRAE was set to open a new global headquarters and required an intelligent workplace solution to support their employees and visitors. Given their reputation as industry leaders in research and education about HVAC and building efficiency, the solution needed to provide a next-generation workplace experience for employees and visitors, in turn reflecting their vision for the organization and showcasing the latest developments in building technology. The solution needed to integrate many disparate IT and OT technology systems, cater for numerous stakeholder journeys, support a carbon-neutral plan for the entire building and reduce operating costs.
 

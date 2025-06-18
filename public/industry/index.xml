@@ -8,11 +8,25 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/industry/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Campus</title>
       <link>http://localhost:1313/industry/smart-campus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/industry/smart-campus/</guid>
-      <description></description>
+      <description>The only campus management system that reduces energy consumption, handles AV integration, does resource booking, provides wayfinding and car space booking.</description>
+    </item>
+    <item>
+      <title>Energy</title>
+      <link>http://localhost:1313/industry/energy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/industry/energy/</guid>
+      <description>PlaceOS monitors occupancy in real time to dynamically manage the environment in spaces you&amp;rsquo;re using, so that you don&amp;rsquo;t have to worry about heating, cooling, lighting &amp;amp; powering spaces people aren&amp;rsquo;t in.</description>
+    </item>
+    <item>
+      <title>Workplace</title>
+      <link>http://localhost:1313/industry/workplace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/industry/workplace/</guid>
+      <description>Workplaces are facing challenges with office mandates, hybrid policies, and remote work. While data is showing a flexible hybrid approach is best, the implementation is complex and unique to every organization.</description>
     </item>
   </channel>
 </rss>

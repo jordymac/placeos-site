@@ -206,6 +206,8 @@ html.dark .prose :where(strong):not(:where([class~="not-prose"],[class~="not-pro
   color: var(--links);
 }
 
+
+
 #theme-toggle {
   position: relative;
   width: 2.5rem;  /* ensures no layout shift */

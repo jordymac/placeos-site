@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <h1 class="flex flex-row items-center space-x-2">
+    <span>{{ .Title }}</span>
+  </h1>
+
+  {{ .Content }}
+
+  <div class="flex flex-col space-y-8">
+    <section class="not-prose  flex flex-col space-y-4">
+      {{ $pager := .Paginate .Pages (default 20 site.Params.pageSize) }}
+      {{ range $pager.Pages }}
+        <article>
+          <h2 class="text-xl font-semibold mb-1">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h2>
+          <p class="text-slate-500">{{ .Summary }}</p>
+        </article>
+      {{ end }}
+
+      {{ if gt $pager.TotalPages 1 }}
+        {{ partial "pagination.html" . }}
+      {{ end }}
+    </section>
+  </div>
+{{ end }}
