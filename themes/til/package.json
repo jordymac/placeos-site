@@ -27,7 +27,9 @@
     "postcss-import": "^16.1.0",
     "prettier": "3.3.3",
     "prettier-plugin-go-template": "^0.0.15",
-    "prettier-plugin-tailwindcss": "^0.6.5"
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-animation-delay": "^2.0.2"
   },
   "scripts": {
     "build": "hugo -s exampleSite --gc --themesDir=../..",

@@ -11,9 +11,14 @@
   {{ .Params.feature_list | markdownify }}
 </div>
   </div>
+<div class="mt-8 flex justify-start">
+  <a href="#start-here" >
+    {{ partial "svg/arrow-down-to-dot.html" (dict "class" "link w-5 h-5 animate-slide-down duration-1000 delay-1000" "page" .) }}
+  </a>
+</div>
 </section>
 <div class="home-container mx-auto w-full px-4" style="max-width:1080px;">
-  <section class="accordion-list">
+  <section class="accordion-list" id="start-here">
       {{ range .Params.list_items }}
       <div class="accordion-item">
         <div class="accordion-header">

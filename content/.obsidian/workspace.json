@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "industry/energy.md",
+                "file": "posts/integrating-incentives-into-the-workplace-and-beyond.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "energy"
+              "title": "integrating-incentives-into-the-workplace-and-beyond"
             }
           }
         ]
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -167,28 +168,32 @@
   },
   "active": "7c082f9481b7afb1",
   "lastOpenFiles": [
+    "posts/you-don-t-need-another-workplace-sensor.md",
+    "posts/meeting-room-display-interface-design.md",
+    "posts/how-to-successfully-return-to-the-office-after-covid.md",
+    "posts/how-to-create-a-workplace-worth-returning-to.md",
+    "posts/when-to-go-with-a-custom-or-packaged-smart-building-solution.md",
+    "posts/vergesense-object-detection-occupancy-workflows.md",
+    "posts/partnership-announcement-with-monstarlab.md",
+    "posts/live-demo-enhanced-room-booking-event-manager.md",
+    "posts/live-demo-ai-room-control.md",
+    "posts/live-demo-placeai-chatgpt-object-recognition-features.md",
+    "posts/june-2024-placeos-product-updates.md",
+    "posts/indoor-air-quality-integration-kaiterra.md",
+    "posts/user-input-equals-error-the-elon-musk-approach.md",
+    "posts/live-demo-energy-analytics-dashboards-outlook-plugin-more.md",
+    "posts/new-workmate-features-experience-surveys-wfh-status-more.md",
+    "posts/data-deceits-how-to-spot-when-you-re-being-lied-to.md",
+    "posts/workplace-management-app-new-features-and-enhancements.md",
+    "posts/api-keys-simplify-authentication-for-apps-devices.md",
+    "posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace.md",
+    "posts/the-world-s-largest-emitter.md",
+    "_index.md",
+    "posts/why-too-many-workplace-apps-are-counterproductive.md",
+    "posts/september-2024-placeos-product-updates.md",
+    "industry/energy.md",
     "industry/_index.md",
     "industry/smart-campus.md",
-    "industry/energy.md",
-    "industry/workplace.md",
-    "projects/seamless-online-health-consultations.md",
-    "industry",
-    "projects/office-downsize-from-three-buildings-to-one.md",
-    "projects/multi-tenancy-space-as-a-service.md",
-    "projects/campus-energy-reduction-sustainability.md",
-    "projects/ashrae-headquarters-net-zero-retrofit.md",
-    "security.md",
-    "licensing.md",
-    "contact.md",
-    "_index.md",
-    "products/_index.md",
-    "products/backoffice.md",
-    "products/workmate.md",
-    "products/stagehand.md",
-    "products/lenspath.md",
-    "products/desk-booking-app.md",
-    "posts/a-guide-to-digital-workplace-transformation.md",
-    "posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do.md",
-    "posts/_index.md"
+    "industry"
   ]
 }
