@@ -1,0 +1,29 @@
+{{- $title := .Title | plainify | htmlUnescape | chomp | title -}}
+{{- $description := or .Description .Summary site.Params.description | plainify | htmlUnescape | chomp -}}
+
+{{- $keywords := slice -}}
+{{- with .Keywords }}{{ $keywords = . }}{{ end }}
+{{- range .GetTerms "tags" }}{{ $keywords = $keywords | append .Title }}{{ end }}
+{{- $keywords = uniq ( sort $keywords ) -}}
+
+{{- $topics := slice -}}
+{{- range .GetTerms "categories" }}{{ $topics = $topics | append .Title }}{{ end }}
+{{- with .Params.topics }}{{ $topics = uniq ( append $topics . ) }}{{ end }}
+
+{{- $data := dict
+  "@context" "https://schema.org/"
+  "@id" .Permalink
+  "url" .Permalink
+  "name" $title
+  "description" $description
+-}}
+
+{{- with $keywords }}
+  {{- $data = merge $data ( dict "keywords" . ) }}
+{{- end }}
+
+{{- with $topics }}
+  {{- $data = merge $data ( dict "about" . ) }}
+{{- end }}
+
+{{- return $data }}

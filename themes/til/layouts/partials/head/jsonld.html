@@ -1,37 +1,35 @@
-{{- $title := cond .IsHome site.Title .Title | plainify | htmlUnescape | chomp | title -}}
-{{- $description := or .Description .Summary site.Params.description | plainify | htmlUnescape | chomp -}}
+{{- $data := dict "@type" "WebPage" -}}
 {{- $author := partial "head/jsonld/author" . -}}
 {{- $license := partial "head/jsonld/license" . -}}
-{{- $data := dict
-  "@context" "https://schema.org"
-  "@type" "WebPage"
-  "headline" ( $title | plainify | htmlUnescape | title )
-  "description" ( $description | plainify | htmlUnescape )
--}}
-{{- if and .IsPage ( or ( eq .Section "posts" ) ( eq .Section "notes" ) ) -}}
-  {{- $data = merge $data ( partial "head/jsonld/blogPosting" . ) -}}
+
+{{- if and .IsPage ( eq .Section "products" ) -}}
+  {{- $data = merge $data ( partial "head/jsonld/product" . ) }}
+{{- else if and .IsPage ( or ( eq .Section "posts" ) ( eq .Section "notes" ) ) -}}
+  {{- $data = merge $data ( partial "head/jsonld/blogPosting" . ) }}
+{{- else -}}
+  {{- $data = merge $data ( partial "head/jsonld/base" . ) }}
 {{- end -}}
-{{- with $author -}}{{ $data = merge $data ( dict "author" . ) }}{{- end -}}
-{{- with $license -}}{{ $data = merge $data . }}{{- end -}}
-{{- with .Params.categories }}
-  {{ $topics := slice }}
-  {{ range . }}
-    {{ $topics = $topics | append . }}
-  {{ end }}
-  {{ $data = merge $data (dict "about" $topics) }}
+
+{{- with $author -}}
+  {{- $data = merge $data ( dict "author" . ) }}
+{{- end }}
+
+{{- with $license -}}
+  {{- $data = merge $data . }}
 {{- end }}
 
 {{- with .Params.query }}
-  {{ $data = merge $data (dict "hasQuery" (dict "@type" "seovoc:Query" "name" .)) }}
+  {{- $data = merge $data ( dict "hasQuery" ( dict "@type" "seovoc:Query" "name" . ) ) }}
 {{- end }}
 
 {{- with .Params.related_links }}
   {{ $links := slice }}
   {{ range . }}
-    {{ $links = $links | append (dict "@type" "seovoc:Link" "url" .url "anchorText" .anchor_text) }}
+    {{ $links = $links | append ( dict "@type" "seovoc:Link" "url" .url "anchorText" .anchor_text ) }}
   {{ end }}
-  {{ $data = merge $data (dict "relatedLink" $links) }}
+  {{ $data = merge $data ( dict "relatedLink" $links ) }}
 {{- end }}
+
 <script type="application/ld+json">
-{{ jsonify (dict "indent" "  ") $data | safeJS }}
+{{ jsonify ( dict "indent" "  " ) $data | safeJS }}
 </script>

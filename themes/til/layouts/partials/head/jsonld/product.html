@@ -1,0 +1,40 @@
+{{- $base := partial "head/jsonld/base" . -}}
+{{- $brand := site.Params.brandName | default "PlaceOS" -}}
+{{- $data := merge $base ( dict
+  "@type" "Product"
+  "brand" (dict "@type" "Brand" "name" $brand)
+) -}}
+
+{{- with .Params.category }}
+  {{- $data = merge $data ( dict "category" . ) }}
+{{- end }}
+
+{{- with .Params.hasTopic }}
+  {{- $data = merge $data ( dict "hasTopic" . ) }}
+{{- end }}
+
+{{- with .Params.isMainTopicOf }}
+  {{- $data = merge $data ( dict "isMainTopicOf" . ) }}
+{{- end }}
+
+{{- with .Params.queries.primary }}
+  {{- $data = merge $data ( dict "hasPrimaryQuery" . ) }}
+{{- end }}
+
+{{- with .Params.queries.related }}
+  {{- $data = merge $data ( dict "relatedQueries" . ) }}
+{{- end }}
+
+{{- with .Params.hasQuery }}
+  {{- $data = merge $data ( dict "hasQuery" . ) }}
+{{- end }}
+
+{{- with .Params.top_features }}
+  {{- $data = merge $data ( dict "featureList" . ) }}
+{{- end }}
+
+{{- with .Params.cta }}
+  {{- $data = merge $data ( dict "potentialAction" (dict "@type" "Action" "name" .text "target" .url) ) }}
+{{- end }}
+
+{{- return $data }}
