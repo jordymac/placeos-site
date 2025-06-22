@@ -9,11 +9,46 @@
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/workplace/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>WorkMate</title>
+      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
+      <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
+    </item>
+    <item>
+      <title>BackOffice</title>
+      <link>http://localhost:1313/products/backoffice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/backoffice/</guid>
+      <description>Command your entire smart environment in one place</description>
+    </item>
+    <item>
+      <title>Occupancy Monitoring System</title>
+      <link>http://localhost:1313/products/occupancy-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/occupancy-monitoring/</guid>
+      <description>A self-hosted occupancy monitoring system that works with the infrastructure you already have — no new sensors needed.</description>
+    </item>
+    <item>
+      <title>Visitor Management</title>
+      <link>http://localhost:1313/products/visitor-management-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/visitor-management-app/</guid>
+      <description>Visitor management software so simple, the only thing you do is send the invite, it does everything else</description>
+    </item>
+    <item>
+      <title>Room Booking</title>
+      <link>http://localhost:1313/products/room-booking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/room-booking/</guid>
+      <description>A simple, self-hosted room booking app you don&amp;rsquo;t pay per room per month, you own it</description>
+    </item>
+    <item>
       <title>ASHRAE Headquarters - Net-Zero Retrofit</title>
       <link>http://localhost:1313/projects/ashrae-headquarters-net-zero-retrofit/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/ashrae-headquarters-net-zero-retrofit/</guid>
-      <description>ASHRAE is a global society advancing human well-being through sustainable technology for the built environment. ASHRAE is an industry leader and is dedicated to promoting a healthy and sustainable built environment being the creator of BACnet, a protocol and set of standards for the HVAC industry.</description>
+      <description>ASHRAE is a global society maintaining sustainable standards for the built environment. They are the creator of BACnet, a protocol and set of standards for the HVAC industry.</description>
     </item>
     <item>
       <title>Suncorp - Office downsize from three buildings to one</title>
@@ -392,41 +427,6 @@
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/you-don-t-need-another-workplace-sensor/</guid>
       <description>You need inputs in a smart workplace ecosystem to get outputs and insights. However, it doesn&amp;rsquo;t always need to be a sensor.</description>
-    </item>
-    <item>
-      <title>BackOffice</title>
-      <link>http://localhost:1313/products/backoffice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/backoffice/</guid>
-      <description>Command your entire smart environment in one place</description>
-    </item>
-    <item>
-      <title>Occupancy Monitoring System</title>
-      <link>http://localhost:1313/products/occupancy-monitoring/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/occupancy-monitoring/</guid>
-      <description>A self-hosted occupancy monitoring system that works with the infrastructure you already have — no new sensors needed.</description>
-    </item>
-    <item>
-      <title>Room Booking</title>
-      <link>http://localhost:1313/products/room-booking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/room-booking/</guid>
-      <description>A simple, self-hosted room booking app you don&amp;rsquo;t pay per room per month, you own it</description>
-    </item>
-    <item>
-      <title>Visitor Management</title>
-      <link>http://localhost:1313/products/visitor-management-app/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/visitor-management-app/</guid>
-      <description>Visitor management software so simple, the only thing you do is send the invite, it does everything else</description>
-    </item>
-    <item>
-      <title>WorkMate</title>
-      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
-      <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
     </item>
   </channel>
 </rss>

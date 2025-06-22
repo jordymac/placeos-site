@@ -9,6 +9,20 @@
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/campus/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>StageHand</title>
+      <link>http://localhost:1313/products/stagehand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/stagehand/</guid>
+      <description>Remote control for every AV room on campus — from your browser</description>
+    </item>
+    <item>
+      <title>BackOffice</title>
+      <link>http://localhost:1313/products/backoffice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/backoffice/</guid>
+      <description>Command your entire smart environment in one place</description>
+    </item>
+    <item>
       <title>Canadian University Campus - Energy Reduction &amp; Sustainability</title>
       <link>http://localhost:1313/projects/campus-energy-reduction-sustainability/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
@@ -84,20 +98,6 @@
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</guid>
       <description>When it comes to smart building solutions, choosing when to go custom or packaged is difficult. Here&amp;rsquo;s how to approach it.</description>
-    </item>
-    <item>
-      <title>BackOffice</title>
-      <link>http://localhost:1313/products/backoffice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/backoffice/</guid>
-      <description>Command your entire smart environment in one place</description>
-    </item>
-    <item>
-      <title>StageHand</title>
-      <link>http://localhost:1313/products/stagehand/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/stagehand/</guid>
-      <description>Remote control for every AV room on campus — from your browser</description>
     </item>
   </channel>
 </rss>

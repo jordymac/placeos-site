@@ -10,24 +10,24 @@
 <title>
     Neighborhoods | PlaceOS
 </title>
-  <meta name="description" content="Workplaces, campuses, and commercial real estate made smarter." />
+  <meta name="description" content="Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software &amp; systems." />
 <link rel="icon" type="image/png" href="/images/favicon.png" />
 <meta property="og:url" content="http://localhost:1313/categories/neighborhoods/">
   <meta property="og:site_name" content="PlaceOS">
   <meta property="og:title" content="Neighborhoods">
-  <meta property="og:description" content="Workplaces, campuses, and commercial real estate made smarter.">
+  <meta property="og:description" content="Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software &amp; systems.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
 
   <meta itemprop="name" content="Neighborhoods">
-  <meta itemprop="description" content="Workplaces, campuses, and commercial real estate made smarter.">
+  <meta itemprop="description" content="Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software &amp; systems.">
   <meta itemprop="datePublished" content="2025-05-21T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-05-21T00:00:00+00:00">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Neighborhoods">
-  <meta name="twitter:description" content="Workplaces, campuses, and commercial real estate made smarter.">
+  <meta name="twitter:description" content="Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software &amp; systems.">
 
 <link rel="canonical" href="http://localhost:1313/categories/neighborhoods/" /><link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/categories/neighborhoods/index.xml" />
 
@@ -41,22 +41,34 @@
     <link rel="stylesheet" href="/css/custom.css">
   
 
+
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "https://schema.org/",
+  "@id": "http://localhost:1313/categories/neighborhoods/",
   "@type": "WebPage",
   "author": {
     "@type": "Person",
     "name": "John Doe"
   },
-  "description": "Workplaces, campuses, and commercial real estate made smarter.",
-  "headline": "Neighborhoods"
+  "description": "Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software \u0026 systems.",
+  "name": "Neighborhoods",
+  "url": "http://localhost:1313/categories/neighborhoods/"
 }
 </script>
 
+<html lang="en-us">
 
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5B3FL7Z');</script>
+
+<meta name="google-site-verification" content="VhOLEHgmiMZWB1PLKJb_Mq40PayzpZQLgLHFGfu2v1c" />
+<meta http-equiv='content-language' content='en-us'>
   </head>
-  <body class="pb-16">
+  <body>
     <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
   <header>
     <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-2 sm:space-y-0 w-full">
@@ -171,5 +183,52 @@ viewBox="0 0 512 512">
     
       <script src="/js/theme-toggle.js"></script>
       <script src="/js/gradient-animation.js"></script>
+      
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5B3FL7Z"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+
+<script src="https://unpkg.com/@botpoison/browser" async></script>
+
+<script type="text/javascript">
+  $('form[action^="https://submit-form.com"]').each(function (i, el) {
+    var form = $(el);
+    form.submit(function (e) {
+      e.preventDefault();
+      form = $(e.target);
+      var action = form.attr("action");
+      var botpoison = new Botpoison({
+        publicKey: "pk_c7d39b30-2471-4ff9-8f3c-ac7d67a1239b",
+      });
+      botpoison
+        .challenge()
+        .then(function (result) {
+          var data = form.serialize();
+          data += "&_botpoison=" + result.solution;
+          $.ajax({
+            url: action,
+            method: "POST",
+            data: data,
+            dataType: "json",
+            success: function () {
+              var parent = $(form.parent());
+              parent.children("form").css("display", "none");
+              parent.children(".w-form-done").css("display", "block");
+            },
+            error: function () {
+              var parent = $(form.parent());
+              parent.find(".w-form-fail").css("display", "block");
+            },
+          });
+        })
+        .catch(function () {
+          var parent = $(form.parent());
+          parent.find(".w-form-fail").css("display", "block");
+        });
+    });
+  });
+</script>
   </body>
 </html>

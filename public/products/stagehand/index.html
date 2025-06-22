@@ -42,41 +42,12 @@
     <link rel="stylesheet" href="/css/custom.css">
   
 
-  
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-  
+
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
+  "@context": "https://schema.org/",
+  "@id": "http://localhost:1313/products/stagehand/",
+  "@type": "Product",
   "about": [
     "AI",
     "AV",
@@ -91,20 +62,34 @@
     "Systems",
     "Utilization",
     "WorkMate",
-    "product"
+    "Product"
   ],
   "author": {
     "@type": "Person",
     "name": "John Doe"
   },
+  "brand": {
+    "@type": "Brand",
+    "name": "PlaceOS"
+  },
   "description": "Remote control for every AV room on campus — from your browser",
-  "headline": "StageHand"
+  "name": "StageHand",
+  "url": "http://localhost:1313/products/stagehand/"
 }
 </script>
 
+<html lang="en-us">
 
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5B3FL7Z');</script>
+
+<meta name="google-site-verification" content="VhOLEHgmiMZWB1PLKJb_Mq40PayzpZQLgLHFGfu2v1c" />
+<meta http-equiv='content-language' content='en-us'>
   </head>
-  <body class="pb-16">
+  <body>
     <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
   <header>
     <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-2 sm:space-y-0 w-full">
@@ -193,6 +178,9 @@ viewBox="0 0 512 512">
       <div class="container mx-auto relative">
         <h1>StageHand</h1>
         <h2>Remote control for every AV room on campus — from your browser</h2>
+        
+
+
       </div>
     </header>
 
@@ -489,42 +477,43 @@ Track room usage, input trends, and hardware health across all rooms to plan upg
     <form
   action="https://submit.formspark.io/NNJrw6i1X"
   method="POST"
-  class="space-y-4"
+  class="space-y-4 snap-none scroll-target"
+  id="contact"
 >
   
-  <input type="hidden" name="tags" value="4024487,3336663">
+  <input type="hidden" name="tags" value="4024487,3336663"> <section></section>
 
   
   <div>
     <label for="firstName" class="block">First name</label>
-    <input id="firstName" name="FIRSTNAME" required class="input"/>
+    <input id="firstName" name="FIRSTNAME" require/>
   </div>
   <div>
-    <label for="lastName" class="block">Last name</label>
-    <input id="lastName" name="LASTNAME" required class="input"/>
+    <label for="lastName" class="block">Last name</lab sel>
+    <input id="lastName" name="LASTNAME" required/>
   </div>
   <div>
     <label for="email" class="block">Email</label>
-    <input id="email" name="email" type="email" required class="input"/>
+    <input id="email" name="email" type="email" required/>
   </div>
   <div>
     <label for="company" class="block">Company</label>
-    <input id="company" name="COMPANY" class="input" value=""/>
+    <input id="company" name="COMPANY" value=""/>
   </div>
   <div>
     <label for="jobTitle" class="block">Job title</label>
-    <input id="jobTitle" name="JOBTITLE" class="input"/>
+    <input id="jobTitle" name="JOBTITLE"/>
   </div>
   <div>
     <label for="country" class="block">Country</label>
-    <input id="country" name="COUNTRY" class="input" value="Australia"/>
+    <input id="country" name="COUNTRY" value="Australia"/>
   </div>
 
   
   
     <div>
       <label for="product" class="block">Product</label>
-      <select id="product" name="PRODUCT" class="input">
+      <select id="product" name="PRODUCT" >
         <option value="">— select —</option>
         <option>WorkMate</option>
         <option>StageHand</option>
@@ -541,29 +530,29 @@ Track room usage, input trends, and hardware health across all rooms to plan upg
   <div class="grid grid-cols-2 gap-4">
     <div>
       <label for="desks">Desks</label>
-      <input id="desks" name="DESKS" type="number" min="0" class="input"/>
+      <input id="desks" name="DESKS" type="number" min="0" />
     </div>
     <div>
       <label for="rooms">Rooms</label>
-      <input id="rooms" name="ROOMS" type="number" min="0" class="input"/>
+      <input id="rooms" name="ROOMS" type="number" min="0" />
     </div>
     <div>
       <label for="floors">Floors</label>
-      <input id="floors" name="FLOORS" type="number" min="0" class="input"/>
+      <input id="floors" name="FLOORS" type="number" min="0" />
     </div>
     <div>
       <label for="buildings">Buildings</label>
-      <input id="buildings" name="BUILDINGS" type="number" min="0" class="input"/>
+      <input id="buildings" name="BUILDINGS" type="number" min="0" />
     </div>
   </div>
 
   <div>
     <label for="subject" class="block">Subject</label>
-    <input id="subject" name="SUBJECT" class="input"/>
+    <input id="subject" name="SUBJECT" />
   </div>
   <div>
     <label for="message" class="block">Message</label>
-    <textarea id="message" name="MESSAGE" rows="4" class="input"></textarea>
+    <textarea id="message" name="MESSAGE" rows="4" ></textarea>
   </div>
 
   <button type="submit" class="btn-light">
@@ -663,5 +652,52 @@ viewBox="0 0 512 512">
     
       <script src="/js/theme-toggle.js"></script>
       <script src="/js/gradient-animation.js"></script>
+      
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5B3FL7Z"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+
+<script src="https://unpkg.com/@botpoison/browser" async></script>
+
+<script type="text/javascript">
+  document.querySelectorAll('form[action^="https://submit-form.com"]').forEach(form => {
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    const botpoison = new Botpoison({
+      publicKey: 'pk_c7d39b30-2471-4ff9-8f3c-ac7d67a1239b',
+    });
+
+    try {
+      const result = await botpoison.challenge();
+
+      const formData = new FormData(form);
+      formData.append('_botpoison', result.solution);
+
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: formData,
+      });
+
+      const parent = form.parentElement;
+
+      if (response.ok) {
+        form.style.display = 'none';
+        parent.querySelector('.w-form-done').style.display = 'block';
+      } else {
+        parent.querySelector('.w-form-fail').style.display = 'block';
+      }
+    } catch (error) {
+      const parent = form.parentElement;
+      parent.querySelector('.w-form-fail').style.display = 'block';
+    }
+  });
+});
+
+</script>
+<script src="/js/anchors.js"></script>
+
   </body>
 </html>

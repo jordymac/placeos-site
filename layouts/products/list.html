@@ -6,12 +6,12 @@
   {{ .Content }}
 
   <div class="flex flex-col space-y-8">
-    <section class="not-prose  flex flex-col space-y-4">
-      {{ $pager := .Paginate .Pages (default 20 site.Params.pageSize) }}
+    <section class="not-prose flex flex-col space-y-4">
+      {{ $pager := .Paginate (sort .Pages "Weight") (default 20 site.Params.pageSize) }}
       {{ range $pager.Pages }}
         <article>
           <h2 class="text-xl font-semibold mb-1 flex items-center space-x-2">
-            <img class="w-5 h-5 object-contain" src="/images/products/logos/{{ .Params.product_logo }}" alt="{{ .Params.product }} logo" class="w-5 h-5">
+            <img class="w-5 h-5 object-contain" src="/images/products/logos/{{ .Params.product_logo }}" alt="{{ .Params.product }} logo">
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
           </h2>
           <p class="text-slate-500">{{ .Summary }}</p>

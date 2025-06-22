@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/products/workmate-workplace-solution/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/stagehand/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/lenspath/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/backoffice/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/energy-reduction-app/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/occupancy-monitoring/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/visitor-management-app/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/room-booking/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/desk-booking-app/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/virtualcare/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/ai/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -467,12 +487,6 @@
     <loc>http://localhost:1313/posts/you-don-t-need-another-workplace-sensor/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/industry/energy/</loc>
-  </url><url>
-    <loc>http://localhost:1313/industry/smart-campus/</loc>
-  </url><url>
-    <loc>http://localhost:1313/industry/workplace/</loc>
-  </url><url>
     <loc>http://localhost:1313/licensing/</loc>
   </url><url>
     <loc>http://localhost:1313/privacy-policy/</loc>
@@ -481,7 +495,7 @@
   </url><url>
     <loc>http://localhost:1313/terms-of-use/</loc>
   </url><url>
-    <loc>http://localhost:1313/products/backoffice/</loc>
+    <loc>http://localhost:1313/industry/smart-campus/</loc>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
@@ -489,11 +503,9 @@
   </url><url>
     <loc>http://localhost:1313/categories/dashboards/</loc>
   </url><url>
-    <loc>http://localhost:1313/products/desk-booking-app/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/education/</loc>
   </url><url>
-    <loc>http://localhost:1313/products/energy-reduction-app/</loc>
+    <loc>http://localhost:1313/industry/energy/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/faqs/</loc>
   </url><url>
@@ -503,24 +515,12 @@
   </url><url>
     <loc>http://localhost:1313/industry/</loc>
   </url><url>
-    <loc>http://localhost:1313/products/lenspath/</loc>
-  </url><url>
-    <loc>http://localhost:1313/products/occupancy-monitoring/</loc>
-  </url><url>
     <loc>http://localhost:1313/products/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/roi/</loc>
   </url><url>
-    <loc>http://localhost:1313/products/room-booking/</loc>
-  </url><url>
-    <loc>http://localhost:1313/products/stagehand/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/products/virtualcare/</loc>
-  </url><url>
-    <loc>http://localhost:1313/products/visitor-management-app/</loc>
-  </url><url>
-    <loc>http://localhost:1313/products/workmate-workplace-solution/</loc>
+    <loc>http://localhost:1313/industry/workplace/</loc>
   </url>
 </urlset>

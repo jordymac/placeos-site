@@ -1,8 +1,11 @@
 ---
-title: Desk Booking App
+title: Desk Booking
 slug: desk-booking-app
+weight: 9
 summary: Configurable desk booking management at scale without no hardware lock-in
 hero_image: images/products/desk-booking-app/desk-booking-hero-image.webp
+image: images/products/desk-booking-app/desk-booking-hero-image.webp
+product_logo: desk-booking-app-logo.svg
 categories:
   - Analytics
   - Desk Booking
@@ -12,8 +15,6 @@ categories:
   - Occupancy
   - Utilization
   - product
-product_logo: desk-booking-app-logo.svg
-faqs: "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
 ---
 # Configurable desk booking management at scale without vendor lock-in
 Desk booking software that does hot-desking, group bookings, desk assignments, desk preferences, automatic desk check-in, recurring bookings and utilization reports without hardware lock-in.

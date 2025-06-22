@@ -5,11 +5,12 @@ theme = "til"
     
 [params]
     title = "PlaceOS"
-    subtitle = "Your platform for automating smart buildings."
-    description = "Workplaces, campuses, and commercial real estate made smarter."
+    subtitle = "The only open-source integration platform that retrofits commercial building systems – without ripping anything out"
+    description = "Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software & systems."
     dateFormat = "2006-01-02"
     showGraph = true
     customCSS = ["css/custom.css"]
+    defaultImage = "static/PlaceOS.jpg"
 
 [params.author]
     name = 'John Doe'

@@ -34,7 +34,11 @@
 {{- end }}
 
 {{- with .Params.cta }}
-  {{- $data = merge $data ( dict "potentialAction" (dict "@type" "Action" "name" .text "target" .url) ) }}
+  {{- $actions := slice }}
+  {{- range . }}
+    {{- $actions = $actions | append (dict "@type" "Action" "name" .text "target" .url) }}
+  {{- end }}
+  {{- $data = merge $data ( dict "potentialAction" $actions ) }}
 {{- end }}
 
 {{- return $data }}

@@ -1,7 +1,10 @@
 ---
 title: VirtualCare
 slug: virtualcare
+weight: 10
 hero_image: "images/products/virtualcare/group-waiting-rooms-.webp"
+image: images/products/virtualcare/group-waiting-rooms-.webp
+product_logo: virtualcare-logo.svg
 summary: >-
   Gives clinicians, carers, and patients one system to manage consults, surveys,
   referrals, Medicare billing, education, and follow-ups — no plugins or
@@ -20,7 +23,6 @@ categories:
   - Surveys
   - Systems
   - product
-product_logo: virtualcare-logo.svg
 ---
 PlaceOS Telehealth is a suite built in collaboration with health experts. The product leverages core integrations such as Webex for video conferencing platform, authentication tools, physical devices and more, as well as delivering a highly functional front-end to manage user experience for patients, carers, clinicians, administrators and interpreters.
 

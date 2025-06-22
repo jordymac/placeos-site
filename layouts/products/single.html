@@ -12,6 +12,8 @@
       <div class="container mx-auto relative">
         <h1>{{ .Title | title }}</h1>
         <h2>{{ .Params.summary }}</h2>
+        {{ partial "cta.html" . }}
+
       </div>
     </header>
 

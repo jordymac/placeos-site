@@ -9,6 +9,13 @@
     <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>LensPath</title>
+      <link>http://localhost:1313/products/lenspath/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/lenspath/</guid>
+      <description>LensPath is a no-code computer vision tool that turns any camera feed into real-time actions</description>
+    </item>
+    <item>
       <title>Platform Power Unleashed: The Strategy Behind Our New Products</title>
       <link>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
@@ -21,13 +28,6 @@
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/live-demo-placeai-chatgpt-object-recognition-features/</guid>
       <description>Discover the benefits of Chat GPT integration in your workplace. Join our live demo to see how this AI assistant can enhance productivity and streamline tasks.</description>
-    </item>
-    <item>
-      <title>LensPath</title>
-      <link>http://localhost:1313/products/lenspath/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/lenspath/</guid>
-      <description>LensPath is a no-code computer vision tool that turns any camera feed into real-time actions</description>
     </item>
   </channel>
 </rss>

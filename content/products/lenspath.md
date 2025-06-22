@@ -1,7 +1,11 @@
 ---
 title: LensPath
+slug: lenspath
 summary: LensPath is a no-code computer vision tool that turns any camera feed into real-time actions
+weight: 3
 hero_image: "images/products/lenspath/lenspath-hero-image-dark.webp"
+image: images/products/lenspath/lenspath-hero-image-dark.webp
+product_logo: lenspath-logo.svg
 featured: true
 categories:
 - product

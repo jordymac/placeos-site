@@ -1,8 +1,10 @@
 ---
 title: BackOffice
 summary: Command your entire smart environment in one place
-featured: true
+weight: 4
 hero_image: images/products/backoffice/backoffice-hero-image-alt.webp
+image: images/products/backoffice/backoffice-hero-image-alt.webp
+product_logo: backoffice-logo.svg
 categories:
   - Platform
   - Workplace

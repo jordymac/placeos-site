@@ -1,10 +1,13 @@
 ---
 title: Visitor Management
 slug: visitor-management-app
+weight: 7
 hero_image: "images/products/backoffice/backoffice-hero-image-alt.webp"
+image: images/products/backoffice/backoffice-hero-image-alt.webp
 summary: >-
   Visitor management software so simple, the only thing you do is send the
   invite, it does everything else
+product_logo: visitor-management-app-logo.svg
 categories:
   - AI
   - AV
@@ -19,7 +22,6 @@ categories:
   - WorkMate
   - Workplace
   - product
-product_logo: visitor-management-app-logo.svg
 faqs:
   - question: What features does the Visitor Management App offer?
     answer: >-

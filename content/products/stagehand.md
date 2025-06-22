@@ -1,8 +1,11 @@
 ---
 title: StageHand
 slug: stagehand
+weight: 2
 summary: Remote control for every AV room on campus — from your browser
 hero_image: images/products/stagehand/stagehand-hero-image.webp
+image: images/products/stagehand/stagehand-hero-image.webp
+product_logo: stagehand-logo.svg
 categories:
   - AI
   - AV
@@ -18,7 +21,6 @@ categories:
   - Utilization
   - WorkMate
   - product
-product_logo: stagehand-logo.svg
 ---
 
 **Stagehand gives AV and IT support teams complete remote visibility, control, and automation over every lecture hall and meeting room – so you can fix AV issues before they interrupt class – not after.** Proactively resolve problems from a web browser and eliminate disruptive onsite callouts.

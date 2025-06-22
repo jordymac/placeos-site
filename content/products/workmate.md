@@ -1,10 +1,53 @@
 ---
 title: WorkMate
 slug: workmate-workplace-solution
+brand:
+  name: PlaceOS
+weight: 1
 hero_image: "images/products/workmate/workmate-hero-image.webp"
+image: images/products/workmate/workmate-hero-image.webp
+product_logo: workmate-logo.svg
 summary: >-
   The first workplace management system to combine out-of-the-box simplicity
   with enterprise-level configuration & scalability
+hasTopic:
+  - "Hybrid Work"
+  - "Space Utilization"
+  - "Room Booking"
+  - "Workplace Experience"
+  - "Desk Booking"
+  - "Visitor Management"
+  - "Workplace Management System"
+  - "Workplace Occupancy Monitoring"
+isMainTopicOf:
+  - WorkMate - Workplace Management Software
+queries:
+  primary: "workplace management software"
+  related:
+    - "integrated workplace management system"
+    - "workspace management system"
+    - "iwms software"
+    - "workplace management platform"
+hasQuery:
+cta:
+  - text: "Request a demo"
+    type: "email-form"  
+    action_url: "https://submit-form.com/SSqZ3MZYJ"  
+    placeholder: "Your email address"
+  - text: "Get a quote"
+    type: "link"
+    url: "#contact" 
+related_links:
+  - url: /products/room-booking
+    anchor_text: Room Booking App
+  - url: /products/desk-booking-app
+    anchor_text: Desk Booking App
+  - url: /products/visitor-management-app
+    anchor_text: Visitor Management App
+  - url: /products/backoffice
+    anchor_text: Smart Building Platform
+  - url: /products/occupancy-monitoring
+    anchor_text: Occupancy Monitoring System    
 categories:
   - AI
   - AV
@@ -31,7 +74,6 @@ categories:
   - Workplace
   - Workplace Management
   - product
-product_logo: workmate-logo.svg
 ---
 WorkMate is the most configurable workplace management software; purpose built for teams managing thousands of workplace resources – desks, rooms, assets, climate, and visitors – across global real estate portfolios. 
 
@@ -81,7 +123,6 @@ Book rooms, desks, lockers, parking, and end-of-trip facilities with customizabl
 Automate lighting, HVAC, and AV based on occupancy and bookings. Tie building access to calendars, permissions, or room assignments – no manual toggling or vendor lock-in.
 
 For example: when a room is no longer in use, WorkMate can release the booking, shut off lighting and HVAC, and notify cleaning staff – all automatically.  
-![WorkMate Facility Monitoring Interface](/images/products/workmate/workmate-evironment-information-p-1600.webp)
 ![WorkMate Facility Monitoring Interface](/images/products/workmate/workmate-evironment-information-p-1600.webp)
 
 ### Visitor & Event Management

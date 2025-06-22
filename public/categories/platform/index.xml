@@ -9,6 +9,41 @@
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/platform/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>WorkMate</title>
+      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
+      <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
+    </item>
+    <item>
+      <title>StageHand</title>
+      <link>http://localhost:1313/products/stagehand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/stagehand/</guid>
+      <description>Remote control for every AV room on campus — from your browser</description>
+    </item>
+    <item>
+      <title>BackOffice</title>
+      <link>http://localhost:1313/products/backoffice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/backoffice/</guid>
+      <description>Command your entire smart environment in one place</description>
+    </item>
+    <item>
+      <title>Visitor Management</title>
+      <link>http://localhost:1313/products/visitor-management-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/visitor-management-app/</guid>
+      <description>Visitor management software so simple, the only thing you do is send the invite, it does everything else</description>
+    </item>
+    <item>
+      <title>VirtualCare</title>
+      <link>http://localhost:1313/products/virtualcare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/virtualcare/</guid>
+      <description>Gives clinicians, carers, and patients one system to manage consults, surveys, referrals, Medicare billing, education, and follow-ups — no plugins or patchwork tools.</description>
+    </item>
+    <item>
       <title>Government Agency - Multi-Tenancy: Space as a Service</title>
       <link>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
@@ -238,41 +273,6 @@
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/why-switch-from-on-prem-placeos-to-cloud-based/</guid>
       <description>Why move from an on-premise PlaceOS (or even ACAEngine) deployment to a cloud-based PlaceOS solution?</description>
-    </item>
-    <item>
-      <title>BackOffice</title>
-      <link>http://localhost:1313/products/backoffice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/backoffice/</guid>
-      <description>Command your entire smart environment in one place</description>
-    </item>
-    <item>
-      <title>StageHand</title>
-      <link>http://localhost:1313/products/stagehand/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/stagehand/</guid>
-      <description>Remote control for every AV room on campus — from your browser</description>
-    </item>
-    <item>
-      <title>VirtualCare</title>
-      <link>http://localhost:1313/products/virtualcare/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/virtualcare/</guid>
-      <description>Gives clinicians, carers, and patients one system to manage consults, surveys, referrals, Medicare billing, education, and follow-ups — no plugins or patchwork tools.</description>
-    </item>
-    <item>
-      <title>Visitor Management</title>
-      <link>http://localhost:1313/products/visitor-management-app/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/visitor-management-app/</guid>
-      <description>Visitor management software so simple, the only thing you do is send the invite, it does everything else</description>
-    </item>
-    <item>
-      <title>WorkMate</title>
-      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
-      <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
     </item>
   </channel>
 </rss>

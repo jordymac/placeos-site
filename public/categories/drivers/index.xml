@@ -9,6 +9,20 @@
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/drivers/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>WorkMate</title>
+      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
+      <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
+    </item>
+    <item>
+      <title>StageHand</title>
+      <link>http://localhost:1313/products/stagehand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/stagehand/</guid>
+      <description>Remote control for every AV room on campus — from your browser</description>
+    </item>
+    <item>
       <title>Canadian University Campus - Energy Reduction &amp; Sustainability</title>
       <link>http://localhost:1313/projects/campus-energy-reduction-sustainability/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
@@ -49,20 +63,6 @@
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</guid>
       <description>Tesla takes the approach, all user input equals error. There’s a lot we can learn from that when we apply that ethos.</description>
-    </item>
-    <item>
-      <title>StageHand</title>
-      <link>http://localhost:1313/products/stagehand/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/stagehand/</guid>
-      <description>Remote control for every AV room on campus — from your browser</description>
-    </item>
-    <item>
-      <title>WorkMate</title>
-      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
-      <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
     </item>
   </channel>
 </rss>

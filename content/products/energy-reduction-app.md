@@ -1,8 +1,11 @@
 ---
 title: Energy Reduction App
 slug: energy-reduction-app
+weight: 5
 summary: "Align energy use in spaces with actual occupancy, reduce HVAC\_&\_lighting use"
 hero_image: "images/products/energy-reduction-app/energy-reduction-hero-image-dark.webp"
+image: images/products/energy-reduction-app/energy-reduction-hero-image-dark.webp
+product_logo: energy-reduction-app-logo.svg
 categories:
   - Analytics
   - Automation
@@ -13,7 +16,6 @@ categories:
   - Occupancy
   - Systems
   - product
-product_logo: energy-reduction-app-logo.svg
 faqs:
   - question: What features does the energy management system offer?
     answer: >-

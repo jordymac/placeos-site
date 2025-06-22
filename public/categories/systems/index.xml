@@ -9,11 +9,53 @@
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/systems/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>WorkMate</title>
+      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
+      <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
+    </item>
+    <item>
+      <title>StageHand</title>
+      <link>http://localhost:1313/products/stagehand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/stagehand/</guid>
+      <description>Remote control for every AV room on campus — from your browser</description>
+    </item>
+    <item>
+      <title>Energy Reduction App</title>
+      <link>http://localhost:1313/products/energy-reduction-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/energy-reduction-app/</guid>
+      <description>Align energy use in spaces with actual occupancy, reduce HVAC &amp;amp; lighting use</description>
+    </item>
+    <item>
+      <title>Visitor Management</title>
+      <link>http://localhost:1313/products/visitor-management-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/visitor-management-app/</guid>
+      <description>Visitor management software so simple, the only thing you do is send the invite, it does everything else</description>
+    </item>
+    <item>
+      <title>Room Booking</title>
+      <link>http://localhost:1313/products/room-booking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/room-booking/</guid>
+      <description>A simple, self-hosted room booking app you don&amp;rsquo;t pay per room per month, you own it</description>
+    </item>
+    <item>
+      <title>VirtualCare</title>
+      <link>http://localhost:1313/products/virtualcare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/virtualcare/</guid>
+      <description>Gives clinicians, carers, and patients one system to manage consults, surveys, referrals, Medicare billing, education, and follow-ups — no plugins or patchwork tools.</description>
+    </item>
+    <item>
       <title>ASHRAE Headquarters - Net-Zero Retrofit</title>
       <link>http://localhost:1313/projects/ashrae-headquarters-net-zero-retrofit/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/ashrae-headquarters-net-zero-retrofit/</guid>
-      <description>ASHRAE is a global society advancing human well-being through sustainable technology for the built environment. ASHRAE is an industry leader and is dedicated to promoting a healthy and sustainable built environment being the creator of BACnet, a protocol and set of standards for the HVAC industry.</description>
+      <description>ASHRAE is a global society maintaining sustainable standards for the built environment. They are the creator of BACnet, a protocol and set of standards for the HVAC industry.</description>
     </item>
     <item>
       <title>Canadian University Campus - Energy Reduction &amp; Sustainability</title>
@@ -224,48 +266,6 @@
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</guid>
       <description>Tesla takes the approach, all user input equals error. There’s a lot we can learn from that when we apply that ethos.</description>
-    </item>
-    <item>
-      <title>Energy Reduction App</title>
-      <link>http://localhost:1313/products/energy-reduction-app/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/energy-reduction-app/</guid>
-      <description>Align energy use in spaces with actual occupancy, reduce HVAC &amp;amp; lighting use</description>
-    </item>
-    <item>
-      <title>Room Booking</title>
-      <link>http://localhost:1313/products/room-booking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/room-booking/</guid>
-      <description>A simple, self-hosted room booking app you don&amp;rsquo;t pay per room per month, you own it</description>
-    </item>
-    <item>
-      <title>StageHand</title>
-      <link>http://localhost:1313/products/stagehand/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/stagehand/</guid>
-      <description>Remote control for every AV room on campus — from your browser</description>
-    </item>
-    <item>
-      <title>VirtualCare</title>
-      <link>http://localhost:1313/products/virtualcare/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/virtualcare/</guid>
-      <description>Gives clinicians, carers, and patients one system to manage consults, surveys, referrals, Medicare billing, education, and follow-ups — no plugins or patchwork tools.</description>
-    </item>
-    <item>
-      <title>Visitor Management</title>
-      <link>http://localhost:1313/products/visitor-management-app/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/visitor-management-app/</guid>
-      <description>Visitor management software so simple, the only thing you do is send the invite, it does everything else</description>
-    </item>
-    <item>
-      <title>WorkMate</title>
-      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
-      <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
     </item>
   </channel>
 </rss>

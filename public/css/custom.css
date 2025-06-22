@@ -73,9 +73,14 @@ html.light {
   --taxonomy-count-bg-hover: #94a3b8; /* blue-gray-400 */
   --taxonomy-count-text: #64748b; /* blue-gray-500 */
   --taxonomy-count-text-hover: #475569; /* blue-gray-600 */
-  --btn-bg: #4f46e5;             /* purple-600 */
-  --btn-text: #ffffff;          /* white */
-  --btn-hover: #4338ca;          /* purple-700 */
+  --input-bg: #fff;
+  --input-border: rgb(203 213 225);
+  --input-text: rgb(15 23 42);
+  --input-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --btn-bg: #5c64ff0f;             /* purple-600 */
+  --btn-text: #292F5B;          /* white */
+  --btn-hover: #5c64ff81;          /* purple-700 */
+  --btn-border:var(--btn-text);
   --btn-light-bg: transparent;
   --btn-light-text: var(--link); /* your link color (#347FF7) */
   --btn-light-border: var(--link);
@@ -130,9 +135,14 @@ html.dark {
   --taxonomy-count-bg-hover: #94a3b8; /* blue-gray-400 */
   --taxonomy-count-text: #cbd5e1;  /* blue-gray-300 */
   --taxonomy-count-text-hover: #f1f5f9; /* blue-gray-50 */
-  --btn-bg: #4338ca;            /* purple-700 */
-  --btn-text: #f3f4f6;          /* gray-100 */
-  --btn-hover: #372fa4;         /* purple-800 */
+  --input-bg: rgb(30 41 59);
+  --input-border: rgb(71 85 105);
+  --input-text: rgb(241 245 249);
+  --input-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);  
+  --btn-bg: #372fa4;            /* purple-700 */
+  --btn-text: var(--fg);          /* gray-100 */
+  --btn-hover: #292F5B;         /* purple-800 */
+  --btn-border: var(--fg);
   --btn-light-bg: transparent;
   --btn-light-text: var(--link-hover);
   --btn-light-border: var(--link-hover);
@@ -163,6 +173,9 @@ html.dark {
 html, body {
   min-height: 100vh;
   padding-bottom: 6rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -188,6 +201,11 @@ article a, header a, nav a {
   transition: color 0.2s;
 }
 
+p img {
+  border-radius: 0.375em;
+  border: var(--taxonomy-border-hover) solid 1px;
+}
+
 footer a {
   color: var(--fg);
   transition: color 0.2s;
@@ -206,7 +224,9 @@ html.dark .prose :where(strong):not(:where([class~="not-prose"],[class~="not-pro
   color: var(--links);
 }
 
-
+.scroll-target {
+  scroll-margin-top: 6rem;
+}
 
 #theme-toggle {
   position: relative;
@@ -246,37 +266,46 @@ html.dark .prose :where(strong):not(:where([class~="not-prose"],[class~="not-pro
   transform: translate(-50%, -50%) scale(0.8) rotate(-30deg);
 }
 
-.btn {
+button, .btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   border-radius: 0.375rem;
+  border: 1px solid;
   padding: 0.5rem 1rem;
   font-weight: 600;
+  font-size: 0.875rem; /* text-sm */
+  line-height: 1.25rem;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1), 
+              color 150ms cubic-bezier(0.4, 0, 0.2, 1), 
+              border-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+}
+
+.btn-primary {
   background-color: var(--btn-bg);
   color: var(--btn-text);
-  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1);
 }
-.btn:hover {
+
+.btn-primary:hover {
   background-color: var(--btn-hover);
 }
 
 .btn-light {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  border-radius: 0.375rem;
-  padding: 0.5rem 1rem;
-  font-weight: 600;
   background-color: var(--btn-light-bg);
   color: var(--btn-light-text);
-  border: 1px solid var(--btn-light-border);
-  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1);
+  border-color: var(--btn-light-border);
 }
+
 .btn-light:hover {
   background-color: var(--btn-light-hover-bg);
 }
 
+nav button {
+  border: none;
+}
+  
 /* 3. SVG sizing / coloring */
 form button svg {
   display: inline-block;
@@ -287,26 +316,40 @@ form button svg {
   margin-right: 0.25rem;
 }
 
-.input {
+input, select, textarea {
   width: 100%;
   border-radius: 0.375rem;
   border-width: 1px;
-  border-color: rgb(203 213 225);
-  background-color: #fff;
-  padding: 0.5rem;
-  color: rgb(15 23 42);
-  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  border-style: solid;
+  border-color: var(--input-border);
+  background-color: var(--input-bg);
+  padding: 0.25rem;
+  color: var(--input-text);
+  box-shadow: var(--input-shadow);
 }
-.dark .input {
-  border-color: rgb(71 85 105);
-  background-color: rgb(30 41 59);
-  color: rgb(241 245 249);
-}
+
 
 label {
   font-weight: 600;
 }
 
+/* Form hero section */
+header form input {
+  width: unset;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: none;
+  border-color: var(--btn-text);
+}
+
+header form button:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.snap-none {
+  scroll-snap-align: none !important;
+}
 
 /* Accordion Styles for Homepage */
 
@@ -315,10 +358,6 @@ label {
   padding: 8rem 2rem;
   max-width: 65ch;
   margin: auto;
-}
-
-.prose-h1\:text-\[2em\] :is(:where(h1):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
-    font-size: unset !important;
 }
 
 .hero-content h1 {
@@ -501,8 +540,6 @@ label {
     transform: none;
   }
 }
-
-
 
 /* Footer Styles */
 .mask-gradient {

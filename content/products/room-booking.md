@@ -1,6 +1,13 @@
 ---
 title: Room Booking
 slug: room-booking
+weight: 8
+summary: >-
+  A simple, self-hosted room booking app you don't pay per room per month, you
+  own it
+hero_image: "images/products/room-booking-once/room-booking-hero-image-light.webp"
+image: images/products/room-booking-once/room-booking-hero-image-light.webp
+product_logo: room-booking-logo.svg
 categories:
   - AV
   - Automation
@@ -18,11 +25,6 @@ categories:
   - WorkMate
   - Workplace
   - product
-summary: >-
-  A simple, self-hosted room booking app you don't pay per room per month, you
-  own it
-hero_image: "images/products/room-booking-once/room-booking-hero-image-light.webp"
-product_logo: room-booking-logo.svg
 faqs:
   - question: >-
       Does PlaceOS Room Booking integrate with Microsoft 365 and Google
