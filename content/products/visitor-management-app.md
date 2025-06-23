@@ -90,7 +90,7 @@ faqs:
   - question: Can we issue guest Wi-Fi passwords via Meraki integration?
     answer: Yes, guest Wi-Fi passwords can be issued through Meraki integration.
 ---
-# Visitor management software so simple, the only thing you do is send the invite, it does everything else  
+
 Once you send the invite, our visitor management system uses our large suite of integrations including building and lift access, calendar systems, email notifications, parking, wayfinding and concierge services to get the visitor into the building and their destination with ease, so that you don't need to.
 
 {{< wistia id="g9q97oqomm" >}}
