@@ -1,5 +1,16 @@
 {{ with .Params.cta }}
-<div class="not-prose flex flex-col my-4 gap-2">
+<div class="not-prose flex flex-row py-4 gap-2 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-400">
+      {{ if gt (len .) 1 }}
+    <div class="flex gap-2">
+      {{ range after 1 . }}
+        <a 
+          href="{{ .url }}" 
+          class="btn btn-light no-turbolink">
+          {{ .text }} {{ partial "svg/paper-plane.html" . }}
+    </a>
+      {{ end }}
+    </div>
+  {{ end }}
 
   <form class="flex flex-col sm:flex-row gap-0" method="POST" action="{{ (index . 0).action_url }}">
     <button 
@@ -21,17 +32,7 @@
 
   </form>
 
-  {{ if gt (len .) 1 }}
-    <div class="flex gap-2">
-      {{ range after 1 . }}
-        <a 
-          href="{{ .url }}" 
-          class="btn btn-light no-turbolink">
-          {{ .text }} {{ partial "svg/paper-plane.html" . }}
-    </a>
-      {{ end }}
-    </div>
-  {{ end }}
+
 
 </div>
 {{ end }}

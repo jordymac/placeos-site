@@ -47,7 +47,11 @@ module.exports = {
     'backdrop-blur-lg',
     'bg-white/25',
     'dark:bg-gray-900/40',
+    'animate-in',
+    'fade-in',
     { pattern: /^delay-/ },
     { pattern: /^duration-/ },
+    { pattern: /^animate-/ },
+    { pattern: /^slide-in-from-/ },
 ]
 };

@@ -2,6 +2,7 @@
 <html
   lang="{{ or site.Language.LanguageCode }}"
   dir="{{ or site.Language.LanguageDirection `ltr` }}"
+  class="dark"
 >
   <head>
     {{ partial "head.html" . }}
@@ -103,6 +104,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </script>
 <script src="/js/anchors.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+
 
   </body>
 </html>
