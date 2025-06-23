@@ -1,6 +1,6 @@
 ---
 title: PlaceOS
-description_title: The only open-source integration platform that retrofits commercial building systems – <span class="highlight-link">without ripping anything out</span>
+description_title: The only integration platform that retrofits commercial building systems – <span class="highlight-link">without ripping anything out</span>
 description_body: >-
   Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software & systems so that you can:
 feature_list: |-

@@ -20,14 +20,23 @@ hasTopic:
   - "Workplace Management System"
   - "Workplace Occupancy Monitoring"
 isMainTopicOf:
-  - WorkMate - Workplace Management Software
+  - WorkMate - Workplace Management Platform
 queries:
-  primary: "workplace management software"
+  primary: "workplace management platform"
   related:
-    - "integrated workplace management system"
-    - "workspace management system"
-    - "iwms software"
-    - "workplace management platform"
+    - integrated workplace management system
+    - workspace management system
+    - iwms software
+    - workplace management software
+    - office desk booking system
+    - workplace management app
+    - integrated work management system
+    - integrated workplace management software
+    - iwms
+    - workplace booking system
+    - workspace booking system
+    - hybrid workplace management software
+
 hasQuery:
 cta:
   - text: "Request a demo"

@@ -6,6 +6,25 @@ summary: "A self-hosted occupancy monitoring system that works with the infrastr
 hero_image: "images/products/occupancy-monitoring-system/occupancy-monitoring-hero-image.webp"
 image: images/products/lenspath/lenspath-hero-image-dark.webp
 product_logo: occupancy-monitoring-logo.svg  
+hasTopic:
+isMainTopicOf:
+queries:
+  primary: occupancy monitoring
+  related: 
+  - occupancy monitoring
+  - occupancy tracking
+  - real time occupancy monitoring
+  - occupancy monitoring system
+  - workplace occupancy monitoring
+  - room occupancy monitoring system 
+cta:
+  - text: "Request a demo"
+    type: "email-form"  
+    action_url: "https://submit-form.com/SSqZ3MZYJ"  
+    placeholder: "Your email address"
+  - text: "Get a quote"
+    type: "link"
+    url: "#contact" 
 categories:
   - Occupancy
   - Analytics
@@ -15,14 +34,6 @@ categories:
   - Configuration 
   - Workplace 
   - product  
-hasPrimaryQuery: occupancy monitoring  
-hasQuery: 
-  - occupancy monitoring
-  - occupancy tracking
-  - real time occupancy monitoring
-  - occupancy monitoring system
-  - workplace occupancy monitoring
-  - room occupancy monitoring system  
 faqs:    
 - question: What is occupancy monitoring?  
   answer: >-  

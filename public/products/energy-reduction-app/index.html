@@ -2,6 +2,7 @@
 <html
   lang="en-us"
   dir="ltr"
+  class="dark"
 >
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
@@ -69,6 +70,18 @@
   },
   "description": "Align energy use in spaces with actual occupancy, reduce HVAC \u0026 lighting use",
   "name": "Energy Reduction App",
+  "potentialAction": [
+    {
+      "@type": "Action",
+      "name": "Request a demo",
+      "target": null
+    },
+    {
+      "@type": "Action",
+      "name": "Get a quote",
+      "target": "#contact"
+    }
+  ],
   "url": "http://localhost:1313/products/energy-reduction-app/"
 }
 </script>
@@ -128,22 +141,8 @@ viewBox="0 0 512 512">
     <path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376l0 103.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg>
   </span>
 </a>
-        <button id="theme-toggle" class="p-2 rounded focus:outline-none" aria-label="Toggle dark mode">
-          <span id="sun" class="hidden">
-            <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
-  <path stroke="currentColor" stroke-width="2" d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
-</svg>
 
-          </span>
-          <span id="moon" class="hidden">
-            <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke="currentColor" stroke-width="2" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
-</svg>
 
-          </span>
-        </button>
-      </li>
     </ul>
   </nav>
 
@@ -166,17 +165,86 @@ viewBox="0 0 512 512">
     
       
         <div class="product-hero-image">
-          <img src="/images/products/energy-reduction-app/energy-reduction-hero-image-dark.webp" alt="Energy Reduction App screenshot" />
+          <img src="/images/products/energy-reduction-app/energy-reduction-hero-image-dark.webp" alt="Energy Reduction App screenshot" class="animate-in fade-in slide-in-from-top-8 duration-700" />
         </div>
       
-        
       <div class="container mx-auto relative">
-        <h1>Energy Reduction App</h1>
-        <h2>Align energy use in spaces with actual occupancy, reduce HVAC &amp; lighting use</h2>
+        <h1 class="animate-in fade-in slide-in-from-bottom-6 duration-700 delay-0">Energy Reduction App</h1>
+        <h2 class="animate-in fade-in slide-in-from-bottom-6 duration-700 delay-2">Align energy use in spaces with actual occupancy, reduce HVAC &amp; lighting use</h2>
+        
+<div class="not-prose flex flex-row py-4 gap-2 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-400">
+      
+    <div class="flex gap-2">
+      
+        <a 
+          href="#contact" 
+          class="btn btn-light no-turbolink">
+          Get a quote <svg xmlns="http://www.w3.org/2000/svg" 
+fill="currentColor" 
+class="w-4 h-4" 
+viewBox="0 0 512 512">
+    <path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376l0 103.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg>
+    </a>
+      
+    </div>
+  
+
+  <form class="flex flex-col sm:flex-row gap-0" method="POST" action="https://submit-form.com/SSqZ3MZYJ">
+    <button 
+      type="submit" 
+      class="btn-primary">
+      Request a demo
+    </button>
+    <input 
+      type="email" 
+      name="email" 
+      placeholder="Your email address" 
+      required
+      class="flex-1 border border-gray-300 px-4 py-2"
+    >
+    <input 
+      type="hidden" 
+      name="product" 
+      value="Energy Reduction App">
+
+  </form>
+
+    
+    <div id="ctaThankYou" style="display:none; align-self:center; margin-left:1rem;">
+      <p>Thanks for reaching out! We’ll get back to you within 24 hours.</p>
+    </div>
+
+  </div>
+  <script>
+    document.getElementById('ctaForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const form = this;
+      const data = new FormData(form);
+      fetch(form.action, {
+        method: form.method,
+        body: data
+      })
+      .then(res => {
+        if (res.ok) {
+          form.style.display = 'none';
+          document.getElementById('ctaThankYou').style.display = 'block';
+        } else {
+          alert('Oops—something went wrong. Please try again.');
+        }
+      })
+      .catch(() => {
+        alert('Oops—something went wrong. Please try again.');
+      });
+    });
+  </script>
+
+
+
       </div>
     </header>
 
     
+     <section class="animate-in fade-in slide-in-from-bottom-6 duration-700 delay-600">
     <h2 id="align-energy-use-in-spaces-with-actual-occupancy-reduce-hvaclighting-use" class="scroll-mt-8 group">
   Align energy use in spaces with actual occupancy, reduce HVAC &amp; lighting use
   
@@ -288,42 +356,43 @@ viewBox="0 0 512 512">
     <form
   action="https://submit.formspark.io/NNJrw6i1X"
   method="POST"
-  class="space-y-4"
+  class="space-y-4 snap-none scroll-target"
+  id="contact"
 >
   
-  <input type="hidden" name="tags" value="4024487,3336663">
+  <input type="hidden" name="tags" value="4024487,3336663"> <section></section>
 
   
   <div>
     <label for="firstName" class="block">First name</label>
-    <input id="firstName" name="FIRSTNAME" required class="input"/>
+    <input id="firstName" name="FIRSTNAME" require/>
   </div>
   <div>
-    <label for="lastName" class="block">Last name</label>
-    <input id="lastName" name="LASTNAME" required class="input"/>
+    <label for="lastName" class="block">Last name</lab sel>
+    <input id="lastName" name="LASTNAME" required/>
   </div>
   <div>
     <label for="email" class="block">Email</label>
-    <input id="email" name="email" type="email" required class="input"/>
+    <input id="email" name="email" type="email" required/>
   </div>
   <div>
     <label for="company" class="block">Company</label>
-    <input id="company" name="COMPANY" class="input" value=""/>
+    <input id="company" name="COMPANY" value=""/>
   </div>
   <div>
     <label for="jobTitle" class="block">Job title</label>
-    <input id="jobTitle" name="JOBTITLE" class="input"/>
+    <input id="jobTitle" name="JOBTITLE"/>
   </div>
   <div>
     <label for="country" class="block">Country</label>
-    <input id="country" name="COUNTRY" class="input" value="Australia"/>
+    <input id="country" name="COUNTRY" value="Australia"/>
   </div>
 
   
   
     <div>
       <label for="product" class="block">Product</label>
-      <select id="product" name="PRODUCT" class="input">
+      <select id="product" name="PRODUCT" >
         <option value="">— select —</option>
         <option>WorkMate</option>
         <option>StageHand</option>
@@ -340,29 +409,29 @@ viewBox="0 0 512 512">
   <div class="grid grid-cols-2 gap-4">
     <div>
       <label for="desks">Desks</label>
-      <input id="desks" name="DESKS" type="number" min="0" class="input"/>
+      <input id="desks" name="DESKS" type="number" min="0" />
     </div>
     <div>
       <label for="rooms">Rooms</label>
-      <input id="rooms" name="ROOMS" type="number" min="0" class="input"/>
+      <input id="rooms" name="ROOMS" type="number" min="0" />
     </div>
     <div>
       <label for="floors">Floors</label>
-      <input id="floors" name="FLOORS" type="number" min="0" class="input"/>
+      <input id="floors" name="FLOORS" type="number" min="0" />
     </div>
     <div>
       <label for="buildings">Buildings</label>
-      <input id="buildings" name="BUILDINGS" type="number" min="0" class="input"/>
+      <input id="buildings" name="BUILDINGS" type="number" min="0" />
     </div>
   </div>
 
   <div>
     <label for="subject" class="block">Subject</label>
-    <input id="subject" name="SUBJECT" class="input"/>
+    <input id="subject" name="SUBJECT" />
   </div>
   <div>
     <label for="message" class="block">Message</label>
-    <textarea id="message" name="MESSAGE" rows="4" class="input"></textarea>
+    <textarea id="message" name="MESSAGE" rows="4" ></textarea>
   </div>
 
   <button type="submit" class="btn-light">
@@ -375,9 +444,40 @@ viewBox="0 0 512 512">
 </form>
 
 
-    
-    <h2 id="features" class="text-xl font-semibold mb-4">Energy Reduction App Full Feature List</h2>
+<div id="contactThankYou" style="display:none; margin-top:1.5rem;">
+  <h2>Thank you!</h2>
+  <p>We appreciate your message and will get back to you within 24 hours.</p>
+</div>
 
+<script>
+  document.getElementById('contact').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const form = this;
+    const data = new FormData(form);
+    fetch(form.action, {
+      method: form.method,
+      body: data
+    })
+    .then(res => {
+      if (res.ok) {
+        form.style.display = 'none';
+        document.getElementById('contactThankYou').style.display = 'block';
+      } else {
+        alert('Oops—something went wrong. Please try again.');
+      }
+    })
+    .catch(() => {
+      alert('Oops—something went wrong. Please try again.');
+    });
+  });
+</script>
+
+    </section>
+
+    
+    <section>
+      <h2 id="features" class="text-xl font-semibold mb-4 scroll-target">Energy Reduction App Full Feature List</h2>
+    </section>
 
     
 
@@ -427,42 +527,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="https://unpkg.com/@botpoison/browser" async></script>
 
 <script type="text/javascript">
-  $('form[action^="https://submit-form.com"]').each(function (i, el) {
-    var form = $(el);
-    form.submit(function (e) {
-      e.preventDefault();
-      form = $(e.target);
-      var action = form.attr("action");
-      var botpoison = new Botpoison({
-        publicKey: "pk_c7d39b30-2471-4ff9-8f3c-ac7d67a1239b",
-      });
-      botpoison
-        .challenge()
-        .then(function (result) {
-          var data = form.serialize();
-          data += "&_botpoison=" + result.solution;
-          $.ajax({
-            url: action,
-            method: "POST",
-            data: data,
-            dataType: "json",
-            success: function () {
-              var parent = $(form.parent());
-              parent.children("form").css("display", "none");
-              parent.children(".w-form-done").css("display", "block");
-            },
-            error: function () {
-              var parent = $(form.parent());
-              parent.find(".w-form-fail").css("display", "block");
-            },
-          });
-        })
-        .catch(function () {
-          var parent = $(form.parent());
-          parent.find(".w-form-fail").css("display", "block");
-        });
+  document.querySelectorAll('form[action^="https://submit-form.com"]').forEach(form => {
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    const botpoison = new Botpoison({
+      publicKey: 'pk_c7d39b30-2471-4ff9-8f3c-ac7d67a1239b',
     });
+
+    try {
+      const result = await botpoison.challenge();
+
+      const formData = new FormData(form);
+      formData.append('_botpoison', result.solution);
+
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: formData,
+      });
+
+      const parent = form.parentElement;
+
+      if (response.ok) {
+        form.style.display = 'none';
+        parent.querySelector('.w-form-done').style.display = 'block';
+      } else {
+        parent.querySelector('.w-form-fail').style.display = 'block';
+      }
+    } catch (error) {
+      const parent = form.parentElement;
+      parent.querySelector('.w-form-fail').style.display = 'block';
+    }
   });
+});
+
 </script>
+<script src="/js/anchors.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+
+
   </body>
 </html>

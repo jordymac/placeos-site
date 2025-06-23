@@ -8,6 +8,24 @@ summary: >-
 hero_image: "images/products/room-booking-once/room-booking-hero-image-light.webp"
 image: images/products/room-booking-once/room-booking-hero-image-light.webp
 product_logo: room-booking-logo.svg
+hasTopic:
+isMainTopicOf:
+queries:
+  primary: meeting room booking system
+  related:
+    - conference room booking system
+    - conferece room reservation system
+    - meeting room booking software
+    - meeting room reservation system
+hasQuery:
+cta:
+  - text: "Request a demo"
+    type: "email-form"  
+    action_url: "https://submit-form.com/SSqZ3MZYJ"  
+    placeholder: "Your email address"
+  - text: "Get a quote"
+    type: "link"
+    url: "#contact" 
 categories:
   - AV
   - Automation

@@ -5,48 +5,49 @@
     
       {{ with .Params.hero_image }}
         <div class="product-hero-image">
-          <img src="{{ . | relURL }}" alt="{{ $.Title }} screenshot" />
+          <img src="{{ . | relURL }}" alt="{{ $.Title }} screenshot" class="animate-in fade-in slide-in-from-top-8 duration-700" />
         </div>
       {{ end }}
-        <!-- text block sits above the image -->
       <div class="container mx-auto relative">
-        <h1>{{ .Title | title }}</h1>
-        <h2>{{ .Params.summary }}</h2>
+        <h1 class="animate-in fade-in slide-in-from-bottom-6 duration-700 delay-0">{{ .Title | title }}</h1>
+        <h2 class="animate-in fade-in slide-in-from-bottom-6 duration-700 delay-2">{{ .Params.summary }}</h2>
         {{ partial "cta.html" . }}
 
       </div>
     </header>
 
     <!-- Page Content -->
+     <section class="animate-in fade-in slide-in-from-bottom-6 duration-700 delay-600">
     {{ .Content }}
     {{ partial "contact.html" . }}
+    </section>
 
     <!-- Feature Lists (Accordion) -->
-    <h2 id="features" class="text-xl font-semibold mb-4">{{ .Title }} Full Feature List</h2>
-    {{- $slug := .File.BaseFileName -}}
-    {{- $data := index site.Data.products $slug -}}
-    {{- $featData := index $data "features" -}}
-    {{- range $groupKey, $group := $featData }}
-      {{- $title := or $group.title (humanize $groupKey) -}}     
-      <details class="mb-6 border rounded p-4">
-        <summary class="cursor-pointer font-semibold">{{ $title }}</summary>
-        <div class="mt-4 space-y-4">
-          {{- range $group.features }}
-            <div>
-              <p class="font-medium">{{ .name }}</p>
-              <p class="text-sm">{{ .description }}</p>
-            </div>
-          {{- end }}
-        </div>
-      </details>
-          </section>
-    {{- end }}
-
+    <section>
+      <h2 id="features" class="text-xl font-semibold mb-4 scroll-target">{{ .Title }} Full Feature List</h2>
+      {{- $slug := .File.BaseFileName -}}
+      {{- $data := index site.Data.products $slug -}}
+      {{- $featData := index $data "features" -}}
+      {{- range $groupKey, $group := $featData }}
+        {{- $title := or $group.title (humanize $groupKey) -}}     
+        <details class="mb-6 border rounded p-4">
+          <summary class="cursor-pointer font-semibold">{{ $title }}</summary>
+          <div class="mt-4 space-y-4">
+            {{- range $group.features }}
+              <div>
+                <p class="font-medium">{{ .name }}</p>
+                <p class="text-sm">{{ .description }}</p>
+              </div>
+            {{- end }}
+          </div>
+        </details>
+      {{- end }}
+    </section>
 
     <!-- FAQs -->
     {{- $faqGroups := index (index $data "faqs") "faqs" -}}
     {{- if $faqGroups }}
-      <section class="mt-12">
+      <section class="mt-12 scroll-target" id="faqs">
         <h2 class="text-xl font-semibold mb-4">FAQs</h2>
         {{- range $faqGroups }}
           <h3 class="text-lg font-medium mt-6 mb-2">{{ .category }}</h3>

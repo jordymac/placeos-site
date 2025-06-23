@@ -9,6 +9,23 @@ summary: >-
   Gives clinicians, carers, and patients one system to manage consults, surveys,
   referrals, Medicare billing, education, and follow-ups — no plugins or
   patchwork tools.
+hasTopic:
+isMainTopicOf:
+queries:
+  primary: telehealth software
+  related:
+      - telehealth tools
+      - telehealth platform
+
+hasQuery:
+cta:
+  - text: "Request a demo"
+    type: "email-form"  
+    action_url: "https://submit-form.com/SSqZ3MZYJ"  
+    placeholder: "Your email address"
+  - text: "Get a quote"
+    type: "link"
+    url: "#contact" 
 categories:
   - AI
   - Analytics

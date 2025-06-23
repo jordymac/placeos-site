@@ -23,7 +23,7 @@ const toggle = document.getElementById('theme-toggle');
         if(toggle && sun && moon){
           // On page load
           const saved = localStorage.getItem('theme');
-          setTheme(saved || getSystemTheme());
+          setTheme(saved || 'dark');
 
           // On toggle click
           toggle.addEventListener('click', () => {

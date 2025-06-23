@@ -6,6 +6,25 @@ summary: Configurable desk booking management at scale without no hardware lock-
 hero_image: images/products/desk-booking-app/desk-booking-hero-image.webp
 image: images/products/desk-booking-app/desk-booking-hero-image.webp
 product_logo: desk-booking-app-logo.svg
+hasTopic: desk booking system
+isMainTopicOf: desk booking
+queries:
+  primary: dsek booking system
+  related:
+    - desk booking software
+    - desk booking app
+    - office desk booking
+    - desk reservation app
+    - hot desk software
+hasQuery:
+cta:
+  - text: "Request a demo"
+    type: "email-form"  
+    action_url: "https://submit-form.com/SSqZ3MZYJ"  
+    placeholder: "Your email address"
+  - text: "Get a quote"
+    type: "link"
+    url: "#contact" 
 categories:
   - Analytics
   - Desk Booking

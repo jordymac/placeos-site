@@ -6,6 +6,20 @@ summary: "Align energy use in spaces with actual occupancy, reduce HVAC\_&\_ligh
 hero_image: "images/products/energy-reduction-app/energy-reduction-hero-image-dark.webp"
 image: images/products/energy-reduction-app/energy-reduction-hero-image-dark.webp
 product_logo: energy-reduction-app-logo.svg
+hasTopic:
+isMainTopicOf:
+queries:
+  primary:
+  related:
+hasQuery:
+cta:
+  - text: "Request a demo"
+    type: "email-form"  
+    action_url: "https://submit-form.com/SSqZ3MZYJ"  
+    placeholder: "Your email address"
+  - text: "Get a quote"
+    type: "link"
+    url: "#contact" 
 categories:
   - Analytics
   - Automation

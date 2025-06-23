@@ -8,6 +8,29 @@ summary: >-
   Visitor management software so simple, the only thing you do is send the
   invite, it does everything else
 product_logo: visitor-management-app-logo.svg
+hasTopic:
+isMainTopicOf:
+queries:
+  primary: visitor management system
+  related:
+    - visitor management software
+    - visitor management app
+    - visitor management system for office
+    - visitor management kiosk
+    - digital visitor management system
+    - visitor badge system
+    - visitor management solution
+    - office visitor management system
+    - visitor management system software
+hasQuery:
+cta:
+  - text: "Request a demo"
+    type: "email-form"  
+    action_url: "https://submit-form.com/SSqZ3MZYJ"  
+    placeholder: "Your email address"
+  - text: "Get a quote"
+    type: "link"
+    url: "#contact" 
 categories:
   - AI
   - AV

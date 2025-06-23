@@ -5,6 +5,20 @@ weight: 4
 hero_image: images/products/backoffice/backoffice-hero-image-alt.webp
 image: images/products/backoffice/backoffice-hero-image-alt.webp
 product_logo: backoffice-logo.svg
+hasTopic:
+isMainTopicOf:
+queries:
+  primary:
+  related:
+hasQuery:
+cta:
+  - text: "Request a demo"
+    type: "email-form"  
+    action_url: "https://submit-form.com/SSqZ3MZYJ"  
+    placeholder: "Your email address"
+  - text: "Get a quote"
+    type: "link"
+    url: "#contact" 
 categories:
   - Platform
   - Workplace

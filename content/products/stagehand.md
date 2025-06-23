@@ -1,11 +1,27 @@
 ---
 title: StageHand
 slug: stagehand
+brand:
+  name: PlaceOS
 weight: 2
-summary: Remote control for every AV room on campus — from your browser
 hero_image: images/products/stagehand/stagehand-hero-image.webp
 image: images/products/stagehand/stagehand-hero-image.webp
 product_logo: stagehand-logo.svg
+summary: Remote control for every AV room on campus — from your browser
+hasTopic:
+isMainTopicOf:
+queries:
+  primary:
+  related:
+hasQuery:
+cta:
+  - text: "Request a demo"
+    type: "email-form"  
+    action_url: "https://submit-form.com/SSqZ3MZYJ"  
+    placeholder: "Your email address"
+  - text: "Get a quote"
+    type: "link"
+    url: "#contact" 
 categories:
   - AI
   - AV
@@ -77,6 +93,7 @@ Change sources, mute audio, or view logs — all remotely, no custom programming
 Track room usage, input trends, and hardware health across all rooms to plan upgrades and justify spend.
 
 ![StageHand Monitor AV Equipment Remote Support](/images/products/stagehand/stagehand-monitor-details.avif)
+
 ---
 
 ## Trusted by those who know the pain
