@@ -1,9 +1,12 @@
 {{ define "main" }}
 <section class="hero" style="max-width:1080px;">
-  <div class="hero-content" style="max-width:800px;">
-    <h1 class="leading-snug tracking-normal mb-4">
+  <div class="hero-content">
+  <h1 class="text-4xl md:text-5xl font-bold leading-tight tracking-tight">
+    Connect Anything. Automate Everything.
+  </h1>
+    <h2 class="leading-snug tracking-normal mb-4">
   {{ .Params.description_title | safeHTML }}
-    </h1>
+    </h2>
     <p class="text-xl md:text-2xl leading-relaxed tracking-normal">
       {{ .Params.description_body | safeHTML }}
     </p>

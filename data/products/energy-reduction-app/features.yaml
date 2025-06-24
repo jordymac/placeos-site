@@ -1,0 +1,17 @@
+integration:
+  title: "Energy Integration Features"
+  features:
+    - name: "System integrations"
+      description: "Integrate with BMS, BAS, access control, lighting, PoE, sensors, and cameras to unify data streams and control."
+
+analytics:
+  title: "Energy Analytics Features"
+  features:
+    - name: "Comparative energy reporting"
+      description: "Generate reports that correlate energy consumption with occupancy trends, CO₂ levels, and other environmental metrics."
+
+automations:
+  title: "Energy Automation Features"
+  features:
+    - name: "Layered occupancy-based controls"
+      description: "Create multi-source, condition-driven automations to optimize energy use based on real-time occupancy and sensor data."

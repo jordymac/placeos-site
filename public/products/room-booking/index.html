@@ -698,11 +698,14 @@ viewBox="0 0 512 512">
         <option value="">— select —</option>
         <option>WorkMate</option>
         <option>StageHand</option>
-        <option>VirtualCare</option>
+        <option>LensPath</option>
+        <option>BackOffice</option>
+        <option>Energy reduction</option>
         <option>Desk booking</option>
         <option>Room booking</option>
         <option>Visitor management</option>
-        <option>Occupancy-based energy</option>
+        <option>Occupancy monitoring</option>
+        <option>VirtualCare</option>
       </select>
     </div>
   
@@ -778,10 +781,134 @@ viewBox="0 0 512 512">
 
     
     <section>
-      <h2 id="features" class="text-xl font-semibold mb-4 scroll-target">Room Booking Full Feature List</h2>
+      <h2 id="features" class="text-xl font-semibold mb-4 scroll-target">Room Booking Full Feature List</h2><details class="mb-6 border rounded p-4">
+          <summary class="cursor-pointer font-semibold">Room Booking Employee Features</summary>
+          <div class="mt-4 space-y-4">
+              <div>
+                <p class="font-medium">Book room</p>
+                <p class="text-sm">Enable employees to search for and reserve available rooms through the web or mobile app.</p>
+              </div>
+              <div>
+                <p class="font-medium">Recurring room booking</p>
+                <p class="text-sm">Set up repeat reservations (daily, weekly) to secure rooms for regular schedules.</p>
+              </div>
+              <div>
+                <p class="font-medium">Search by features</p>
+                <p class="text-sm">Filter available rooms by attributes like capacity, AV equipment, or layout preferences.</p>
+              </div>
+              <div>
+                <p class="font-medium">Search by map</p>
+                <p class="text-sm">Use an interactive floorplan to visually locate and book rooms.</p>
+              </div>
+          </div>
+        </details><details class="mb-6 border rounded p-4">
+          <summary class="cursor-pointer font-semibold">Room Booking Administrator Features</summary>
+          <div class="mt-4 space-y-4">
+              <div>
+                <p class="font-medium">Create bookings</p>
+                <p class="text-sm">Allow administrators to create and manage room reservations for any user or department.</p>
+              </div>
+              <div>
+                <p class="font-medium">View room bookings by date &amp; time</p>
+                <p class="text-sm">Review all room reservations filtered by specific dates and time slots for efficient scheduling.</p>
+              </div>
+              <div>
+                <p class="font-medium">View room bookings by level</p>
+                <p class="text-sm">Filter and analyze room reservations by floor or level to monitor area utilization.</p>
+              </div>
+              <div>
+                <p class="font-medium">Approve and reject room bookings</p>
+                <p class="text-sm">Manage pending room booking requests and enforce approval workflows based on company policy.</p>
+              </div>
+              <div>
+                <p class="font-medium">Manage room rules and configuration</p>
+                <p class="text-sm">Configure booking parameters such as minimum notice, cancellation windows, and maximum duration.</p>
+              </div>
+              <div>
+                <p class="font-medium">Limit rooms to user groups</p>
+                <p class="text-sm">Restrict room availability to specific teams, departments, or user groups.</p>
+              </div>
+              <div>
+                <p class="font-medium">Add features to rooms</p>
+                <p class="text-sm">Tag rooms with attributes (e.g., video conferencing, whiteboard, capacity) for tailored reservations.</p>
+              </div>
+              <div>
+                <p class="font-medium">Assign users</p>
+                <p class="text-sm">Allocate rooms to individual users or groups for permanent or long-term assignments.</p>
+              </div>
+              <div>
+                <p class="font-medium">Create booking conditions</p>
+                <p class="text-sm">Define rules such as preventing bookings more than one week in advance or enforcing lead times.</p>
+              </div>
+              <div>
+                <p class="font-medium">Assign booking conditions by level</p>
+                <p class="text-sm">Apply booking rules at the floor or building level to ensure consistent policies across zones.</p>
+              </div>
+          </div>
+        </details>
     </section>
 
     
+      <section class="mt-12 scroll-target" id="faqs">
+        <h2 class="text-xl font-semibold mb-4">Room Booking FAQs</h2>
+          <h3 class="text-lg font-medium mt-6 mb-2">General</h3>
+          
+  <div class="space-y-4 my-6">
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Does PlaceOS Room Booking integrate with Microsoft 365 and Google Workspace?</summary>
+        <div class="mt-2 text-sm">Yes! PlaceOS Room Booking seamlessly integrates with Microsoft 365 and Google Workspace. Follow our detailed guides for [Microsoft 365](https://docs.placeos.com/how-to/configure-placeos-for-microsoft-365) and [Google Workspace](https://docs.placeos.com/how-to/configure-placeos-for-google-workspace) to configure it for your environment.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Can I customize the interface?</summary>
+        <div class="mt-2 text-sm">Absolutely. You&#39;re free to import your own maps or lists and control the visual style of your booking interface.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">How do I deploy the Workplace App for room booking only?</summary>
+        <div class="mt-2 text-sm">You can easily deploy the Workplace App specifically tailored for room booking functionality. Follow our [modified Workplace App deployment guide](https://docs.placeos.com/how-to/user-interfaces/workplace-app) focused on room booking.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Is there ongoing support available?</summary>
+        <div class="mt-2 text-sm">We provide detailed documentation and setup guides. For additional support, our community and support teams are here to help.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Do I need technical expertise to set it up?</summary>
+        <div class="mt-2 text-sm">Basic technical knowledge is helpful, but our detailed documentation guides you step-by-step through the setup.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">What features does the Room Booking App offer?</summary>
+        <div class="mt-2 text-sm">The app allows users to search, view, and book rooms based on availability, size, features, and location. It includes options for editing, deleting, or moving reservations and checking in via a touch display. It also has the ability to configure room rules and conditions.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Can I manage my room bookings through the app?</summary>
+        <div class="mt-2 text-sm">Yes, you can manage and monitor your bookings, including editing, deleting, or moving reservations.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Is there a way to display room availability?</summary>
+        <div class="mt-2 text-sm">Yes, room availability can be displayed on tablets using the app in full-screen kiosk mode.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">How do I check in for a room booking?</summary>
+        <div class="mt-2 text-sm">You can check in directly via a touch display on the room booking panel or use automatic check-in features with supported integrations.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Can the app be used on different tablet devices?</summary>
+        <div class="mt-2 text-sm">Yes, the app can be used on any tablet device that supports full-screen kiosk mode.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">What is the difference between Room Booking Free and Room Booking Basic?</summary>
+        <div class="mt-2 text-sm">Room Booking offers additional features such as quick check-in, auto check-in, booking automation, room configuration, and a management tool.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Does the Room Booking App integrate with hardware systems?</summary>
+        <div class="mt-2 text-sm">Yes, the Room Booking App supports integrations with Webex, Cisco Meraki, FloorSense, VergeSense, Microsoft Azure, and Google Workspace.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Is there a native app for iOS or Android?</summary>
+        <div class="mt-2 text-sm">COMING SOON: Yes, the Room Booking App has native apps for both iOS and Android, allowing users to manage bookings on their mobile devices.</div>
+      </details>
+  </div>
+
+      </section>
 
   </article>
 

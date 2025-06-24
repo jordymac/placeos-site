@@ -1,0 +1,34 @@
+faqs:
+  - category: "General"
+    entries:   
+    - question: What is occupancy monitoring?  
+      answer: >-  
+        Occupancy monitoring is the process of tracking how spaces are used, how many people are present, and when. It enables better use of space, energy, and services.
+        
+    - question: What is an occupancy monitoring system?  
+      answer: >-  
+        An occupancy monitoring system combines data from existing building infrastructure — like Wi-Fi, badge access, lighting, and HVAC — to determine where people are in real time.
+        
+    - question: How do you measure room occupancy?  
+      answer: >-  
+        Room occupancy can be measured using a combination of data sources, including Wi-Fi access points, badge swipes, motion sensors, and cameras.
+        
+    - question: Are occupancy sensors worth it?  
+      answer: >-  
+        Only in select areas. We avoid full-scale sensor rollouts and instead use infrastructure you already have. Sensors are supported, but optional.
+        
+    - question: Can a smart thermostat detect room occupancy?  
+      answer: >-  
+        Some smart thermostats have motion detection. But for enterprise-grade monitoring, you’ll want to combine signals from HVAC, Wi-Fi, and booking data.
+        
+    - question: What are the three types of occupant detection system sensors?  
+      answer: >-  
+        Common types include passive infrared (PIR), ultrasonic, and camera-based sensors. PlaceOS integrates with all — but doesn't require them.
+        
+    - question: What happens during an occupancy check?  
+      answer: >-  
+        In smart buildings, occupancy checks happen automatically. PlaceOS continuously evaluates presence data across systems.
+        
+    - question: Do we need to buy new sensors?  
+      answer: >-  
+        No. That’s the point. PlaceOS Occupancy Monitoring works with your existing infrastructure — Wi-Fi, HVAC, badge access, and more.

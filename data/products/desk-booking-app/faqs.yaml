@@ -1,0 +1,33 @@
+faqs:
+  - category: "General"
+    entries:
+      - question: "What features does PlaceOS desk booking software offer?"
+        answer: >-
+          The app allows users to reserve desks, track occupancy and usage, and optimize workspace availability.
+      - question: "How can I book a desk through the PlaceOS desk booking software?"
+        answer: >-
+          Desks can be booked via the app interface or directly through the Outlook plugin.
+      - question: "Does the app support desk check-in?"
+        answer: >-
+          Yes, the app supports automatic desk check-ins using QR codes or sensors to prevent ghost bookings and enable desk power.
+      - question: "Can I integrate the Desk Booking App with existing software and devices?"
+        answer: >-
+          Yes, the app integrates with existing software, devices, and sensors to track desk occupancy and usage.
+      - question: "How does desk booking software help in optimizing space usage?"
+        answer: >-
+          The app provides analytics on desk use by individual, team, neighborhood, floor, and building to optimize space.
+      - question: "Is it possible to search for desks based on specific requirements?"
+        answer: >-
+          Yes, users can search and filter desks by type, equipment, and additional assets.
+      - question: "Can I automate desk assignments?"
+        answer: >-
+          Yes, desk assignments can be automated to populate certain areas first and be grouped by team to optimize space.
+      - question: "Is there an Outlook plugin available for desk booking?"
+        answer: >-
+          Yes, the app includes an Outlook plugin for booking desks directly through the calendar.
+      - question: "What is the workflow for inviting visitors and how can the system differentiate between physical attendees and those attending virtually?"
+        answer: >-
+          Users can select “attending” or “virtual” on the visitor invite to differentiate between physical attendees and virtual participants.
+      - question: "Does the desk booking software support AI-based desk booking?"
+        answer: >-
+          Yes, users can book desks using AI by issuing commands like “I need to book a desk tomorrow for the whole day & make sure the booking is near my team.”  

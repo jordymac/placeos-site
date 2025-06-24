@@ -1,0 +1,27 @@
+integration:
+  title: "Occupancy Monitoring Integration Features"
+  features:
+    - name: "Multi-source data integration"
+      description: "Ingest occupancy data from IoT sensors (BLE, Wi-Fi), cameras, badge access systems, and environmental sensors."
+    - name: "Open API ingestion"
+      description: "Consume and push occupancy data via REST, MQTT, and GraphQL endpoints for flexible data flows."
+
+real-time occupancy:
+  title: "Real-time Occupancy Monitoring Features"
+  features:
+    - name: "Live occupancy dashboards"
+      description: "Display current headcounts and occupancy levels across zones in real time."
+    - name: "Heatmap visualizations"
+      description: "Overlay real-time occupancy data on interactive floorplans to highlight busy areas."
+    - name: "Threshold alerts"
+      description: "Trigger instant notifications when occupancy rises above or falls below defined thresholds."
+
+analytics:
+  title: "Occupancy Analytics Features"
+  features:
+    - name: "Historical trend analysis"
+      description: "Track and visualize occupancy patterns over time to identify peak usage and trends."
+    - name: "Utilization metrics"
+      description: "Calculate average, peak, and variance of occupancy for desks, rooms, and zones."
+    - name: "Custom report generation"
+      description: "Export detailed occupancy reports in CSV or PDF formats for stakeholders."
