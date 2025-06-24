@@ -1,3 +1,24 @@
+computer_vision:
+  title: "Computer Vision Features"
+  features:
+    - name: "Select a vision model"
+      description: "Choose from a variety of computer vision models tailored to specific use cases."
+    - name: "Select the model function"
+      description: "The functions of the model will now be easily selectable as an essential input to enhance your workflow. These options include various factors such as age, gender, object, and many more, providing you with greater flexibility and customization in your processes."
+    - name: "Select an action"
+      description: "Set your specific conditions and define your corresponding actions, and then seamlessly run your workflow. Additionally, you have the option to start your process in simulation mode, allowing you to collect valuable data regarding when your predefined condition is detected—prior to linking it to any form of automation. This approach is a highly effective method for studying the data, which can ultimately aid you in making informed decisions regarding your automation actions."
+    - name: "Manage and test pre-trained models"
+      description: "We will provide you with exclusive access to a comprehensive library of pre-trained models that you can easily apply to your cameras. Furthermore, you can conveniently test these advanced models directly in your browser by uploading an image or using your own web camera for an immersive experience."
+    - name: "Custom model creation"
+      description: "Upload carefully tagged datasets that include images accompanied by detailed annotations, allowing you to effectively train highly customized object detection models. Furthermore, these models can be automatically optimized to function seamlessly across a variety of specific hardware and edge devices, enhancing their performance and usability in real-world applications."
+    - name: "Assign models to cameras"
+      description: "You can run multiple models and select which camera or group is assigned each model. Once you have select the Vision models or trained your own, they will be available to use in the workflow builder."
+    - name: "Workflow templates"
+      description: "Discover a variety of workflow templates designed for both common and intriguing workflows that can enhance productivity. Take the time to set up your Connections effectively to enable valuable and seamless workflow automation that can streamline your processes."
+    - name: "Camera connections"
+      description: "Connect to a variety of third-party products and services to seamlessly enable intelligent and efficient smart workflows. Commonly established connections may include alarms, alerts, access control systems, HVAC management, and various communication services such as email, Slack, and SMS messaging for enhanced notifications and collaboration."
+    - name: "Reports"
+      description: "Our core value lies distinctly in the workflows we develop and support. We began our journey with LensPath because we observed an overwhelming focus on reporting dashboards, often at the expense of actionable insights. However, we recognize that there still exists a time and place for the strategic use of data. What we see, we can count. But more importantly, what we see- we can action."
 people_detected:
   title: "People Detection Features"
   features:

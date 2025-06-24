@@ -530,6 +530,16 @@ header form button:first-child {
     width: 100%;
     height: auto;
     display: block;         /* avoids any inline‐image artifacts */
+      -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0,1)   30%,
+    rgba(0,0,0, var(--mask-end-alpha)) 95%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0,1)   30%,
+    rgba(0,0,0, var(--mask-end-alpha)) 95%
+  );
   }
 
   /* and your wistia embed if relevant */

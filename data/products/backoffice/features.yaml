@@ -1,51 +1,95 @@
-backoffice:
-  title: "BackOffice Features"
+deployment:
+    title: "Deployment Features"
+    features:
+      - name: "AWS Fargate deployments"
+        description: "Deploy PlaceOS on AWS Fargate using modular or nested CloudFormation stacks."
+      - name: "Import scripting"
+        description: "Automate bulk import of rooms, users, and resources via custom scripts."
+
+drivers:
+  title: "Driver Features"
   features:
-    - name: "Think in systems, not silos"
-      description: |
-        Bring all your smart building logic into one configuration tree:
-        - Mirror your environment with Zones (Org → Building → Level)
-        - Attach Systems to real rooms, floors, and functions
-        - Group drivers, logic, and metadata that represent how spaces behave
+    - name: "Driver management"
+      description: "Load and manage PlaceOS drivers directly from GitHub/GitLab, and pin to specific commits for stability."
+    - name: "Driver instantiation"
+      description: "Instantiate each driver as a module within systems, keeping core driver code separate from configuration."
+    - name: "Pre-built driver library"
+      description: "Access a curated set of drivers for common integrations such as HVAC, lighting, and calendar services."
 
-    - name: "Manage integrations like a product team"
-      description: |
-        Add, update, and roll back PlaceOS drivers and interfaces from GitHub/GitLab—no CLI needed:
-        - Test new branches without affecting production
-        - Pin drivers to specific commits
-        - Compile and view errors in the UI
+interfaces:
+  title: "Interface Features"
+  features:
+    - name: "Web-based UIs"
+      description: "Offer built-in web apps like the Staff App and Booking Panel for screen-based user interactions."
+    - name: "GraphQL API"
+      description: "Query and mutate PlaceOS data through a flexible GraphQL endpoint."
+    - name: "REST HTTP API"
+      description: "Interact with PlaceOS resources via a RESTful API secured by X-API Keys."
+    - name: "WebSocket API"
+      description: "Receive real-time updates and push commands over persistent WebSocket connections."
+    - name: "MQTT bridge"
+      description: "Bridge MQTT messages into PlaceOS modules for lightweight IoT device integration."
 
-    - name: "Add and configure drivers"
-      description: |
-        Drivers are reusable modules for devices and cloud services:
-        - Load any driver from your connected repo
-        - Configure once at the driver level and reuse across systems
-        - View build status and recompile from the UI
+modules:
+  title: "Module Features"
+  features:
+    - name: "Module orchestration"
+      description: "Start, stop, and monitor individual modules representing driver instances or logic components."
+    - name: "Digital & logic modules"
+      description: "Deploy modules for digital services (e.g., calendar) or custom logic to automate workflows."
+    - name: "State & behavior tracking"
+      description: "View real-time module state (e.g., power status, bookings) and supported actions (e.g., on/off)."
 
-    - name: "Attach logic to the physical world"
-      description: |
-        Zones let you model the built environment digitally:
-        - Attach maps to levels (SVG)
-        - Bind features to spaces via metadata
-        - Control what users see in front-end apps via zone-level config
+settings:
+  title: "Settings Features"
+  features:
+    - name: "Global configuration"
+      description: "Define default JSON-based settings that apply across the entire deployment."
+    - name: "Hierarchical overrides"
+      description: "Override settings at Zone, System, Driver, or Module levels for precise control."
+    - name: "Common use-cases"
+      description: "Configure parameters like input/output IDs, auto-release timeouts, and device authentication information."
 
-    - name: "Create and maintain systems"
-      description: |
-        A system is a functional unit—like a meeting room or tracking setup:
-        - Combine drivers, logic, and metadata
-        - Inherit settings from parent zones
-        - Connect back to maps and interfaces
+zones:
+  title: "Zone Features"
+  features:
+    - name: "Hierarchical zones"
+      description: "Model your environment as Org → Building → Level for clear organizational structure."
+    - name: "Logical grouping"
+      description: "Group systems by purpose—physical zones or conceptual clusters—for bulk configuration."
+    - name: "Zone-level settings"
+      description: "Apply settings at the zone level to cascade behavior across all contained systems."
 
-    - name: "Create event-driven automation"
-      description: |
-        Triggers let you define behavior across your entire PlaceOS deployment:
-        - If no one checks into a room → release the booking
-        - If occupancy hits 0 → turn off HVAC
-        - If a driver goes offline → notify the team
+triggers:
+  title: "Trigger Features"
+  features:
+    - name: "Event-driven triggers"
+      description: "Define triggers that fire on system state changes, time schedules, or webhooks."
+    - name: "Simple logic linking"
+      description: "Link module state to behavior (e.g., release a booking if occupancy is zero)."
+    - name: "Customizable actions"
+      description: "Create, assign, and manage triggers in Backoffice to automate complex workflows."
 
-    - name: "Manage users, domains and auth"
-      description: |
-        Control access and surface the right experiences:
-        - Define OAuth providers (Azure, Google, etc.)
-        - Map sub-apps like Workplace or Concierge to your domains
-        - Grant per-domain access to specific users or groups
+systems:
+  title: "System Features"
+  features:
+    - name: "System grouping"
+      description: "Bundle drivers and modules into systems representing rooms, signage networks, etc."
+    - name: "Metadata & settings"
+      description: "Attach metadata and inherit settings from parent zones for consistent configuration."
+    - name: "Cross-zone systems"
+      description: "Define systems that span multiple zones, such as campus-wide HVAC or analytics."
+
+authentication:
+  title: "Authentication Features"
+  features:
+    - name: "OAuth2 SSO"
+      description: "Integrate with OAuth2 providers (Azure AD, Google Workspace) for single sign-on."
+    - name: "SAML2 SSO"
+      description: "Configure SAML2-based SSO via AD FS, Auth0, Azure AD, or Google Workspace."
+    - name: "X-API Keys"
+      description: "Generate and manage X-API Keys for programmatic access to REST and GraphQL APIs."
+    - name: "Bearer tokens"
+      description: "Support bearer-token authentication for secure API communication."
+    - name: "Azure B2C"
+      description: "Leverage Azure B2C with custom policies for advanced identity management."

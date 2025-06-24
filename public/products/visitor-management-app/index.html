@@ -606,10 +606,110 @@ viewBox="0 0 512 512">
 
     
     <section>
-      <h2 id="features" class="text-xl font-semibold mb-4 scroll-target">Visitor Management Full Feature List</h2>
+      <h2 id="features" class="text-xl font-semibold mb-4 scroll-target">Visitor Management Full Feature List</h2><details class="mb-6 border rounded p-4">
+          <summary class="cursor-pointer font-semibold">Visitor Management Administrator Features</summary>
+          <div class="mt-4 space-y-4">
+              <div>
+                <p class="font-medium">Invite visitor</p>
+                <p class="text-sm">Allow administrators to send and manage visitor invitations, including approvals and scheduling.</p>
+              </div>
+              <div>
+                <p class="font-medium">View check-in status</p>
+                <p class="text-sm">Display real-time check-in details—visitor name, host, check-in time, and current status.</p>
+              </div>
+              <div>
+                <p class="font-medium">View visitors by date</p>
+                <p class="text-sm">Filter and review visitor logs by specific dates for reporting, compliance, and auditing.</p>
+              </div>
+              <div>
+                <p class="font-medium">Create email templates</p>
+                <p class="text-sm">Design and manage reusable email templates for invitations, reminders, and follow-up communication.</p>
+              </div>
+          </div>
+        </details><details class="mb-6 border rounded p-4">
+          <summary class="cursor-pointer font-semibold">Visitor Management Employee Features</summary>
+          <div class="mt-4 space-y-4">
+              <div>
+                <p class="font-medium">Invite visitors</p>
+                <p class="text-sm">Enable employees to send individual visitor invitations directly from their personal dashboard.</p>
+              </div>
+              <div>
+                <p class="font-medium">Bulk invite</p>
+                <p class="text-sm">Allow employees to upload guest lists (CSV or Excel) and send multiple invitations in one operation.</p>
+              </div>
+          </div>
+        </details><details class="mb-6 border rounded p-4">
+          <summary class="cursor-pointer font-semibold">Visitor Management Guest Features</summary>
+          <div class="mt-4 space-y-4">
+              <div>
+                <p class="font-medium">QR code check-in</p>
+                <p class="text-sm">Provide guests with a unique QR code to scan at the kiosk for quick, contactless check-in.</p>
+              </div>
+              <div>
+                <p class="font-medium">Receive invite details via email</p>
+                <p class="text-sm">Automatically send guests an email containing their invitation details, QR code, and arrival instructions.</p>
+              </div>
+              <div>
+                <p class="font-medium">Kiosk guest check-in</p>
+                <p class="text-sm">Offer a self-service kiosk interface where guests can verify identity and complete the check-in process on arrival.</p>
+              </div>
+          </div>
+        </details>
     </section>
 
     
+      <section class="mt-12 scroll-target" id="faqs">
+        <h2 class="text-xl font-semibold mb-4">Visitor Management FAQs</h2>
+          <h3 class="text-lg font-medium mt-6 mb-2">General</h3>
+          
+  <div class="space-y-4 my-6">
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">What features does the visitor management system offer?</summary>
+        <div class="mt-2 text-sm">The app simplifies visitor management processes, including visitor registration, email invites, QR code check-in, and host notifications.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">How does the visitor check-in process work?</summary>
+        <div class="mt-2 text-sm">Visitors can check in using a unique QR code sent to them via email, which they can scan at a kiosk for automatic entry.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Does the app support access control integration?</summary>
+        <div class="mt-2 text-sm">Yes, the app integrates with access control systems for guest authentication and access management. Our [access control integrations](https://docs.placeos.com/reference/supported-integrations) include Gallagher, Lenel, Inner Range Integriti, Rhombus, and AxiomXA.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Can the app notify hosts when their guests arrive?</summary>
+        <div class="mt-2 text-sm">Yes, hosts receive immediate notifications when their guests check in.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Is there a feature for concierge staff?</summary>
+        <div class="mt-2 text-sm">Yes, concierge staff can view the visitor list, guest details, and manually check in guests if needed.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Does the app provide wayfinding assistance?</summary>
+        <div class="mt-2 text-sm">Yes, the app offers indoor wayfinding through our third-party integrations, helping visitors navigate the building.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Can I send email invites to visitors?</summary>
+        <div class="mt-2 text-sm">Yes, the app allows sending email invites with directions, access details, and QR codes for quick check-in.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Does the visitor management system integrate with other PlaceOS apps?</summary>
+        <div class="mt-2 text-sm">Yes, it works well with other PlaceOS apps like [Room Booking](/products/room-booking) and [WorkMate](/products/workmate-workplace-solution).</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">What is the workflow for inviting visitors and how can the system differentiate between physical attendees and those attending virtually?</summary>
+        <div class="mt-2 text-sm">You can select &#34;attending&#34; or &#34;virtual&#34; on the visitor invite to differentiate between physical attendees and virtual participants.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Do we integrate with HID Origo (the Cloud HID platform)?</summary>
+        <div class="mt-2 text-sm">Yes, the app integrates with HID Origo for enhanced access control.</div>
+      </details>
+      <details class="border rounded p-4">
+        <summary class="cursor-pointer font-semibold">Can we issue guest Wi-Fi passwords via Meraki integration?</summary>
+        <div class="mt-2 text-sm">Yes, guest Wi-Fi passwords can be issued through Meraki integration.</div>
+      </details>
+  </div>
+
+      </section>
 
   </article>
 

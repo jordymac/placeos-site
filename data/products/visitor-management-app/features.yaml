@@ -1,0 +1,30 @@
+administration:
+  title: "Visitor Management Administrator Features"
+  features:
+    - name: "Invite visitor"
+      description: "Allow administrators to send and manage visitor invitations, including approvals and scheduling."
+    - name: "View check-in status"
+      description: "Display real-time check-in details—visitor name, host, check-in time, and current status."
+    - name: "View visitors by date"
+      description: "Filter and review visitor logs by specific dates for reporting, compliance, and auditing."
+    - name: "Create email templates"
+      description: "Design and manage reusable email templates for invitations, reminders, and follow-up communication."
+
+employee:
+  title: "Visitor Management Employee Features"
+  features:
+    - name: "Invite visitors"
+      description: "Enable employees to send individual visitor invitations directly from their personal dashboard."
+    - name: "Bulk invite"
+      description: "Allow employees to upload guest lists (CSV or Excel) and send multiple invitations in one operation."
+
+guest:
+  title: "Visitor Management Guest Features"
+  features:
+    - name: "QR code check-in"
+      description: "Provide guests with a unique QR code to scan at the kiosk for quick, contactless check-in."
+    - name: "Receive invite details via email"
+      description: "Automatically send guests an email containing their invitation details, QR code, and arrival instructions."
+    - name: "Kiosk guest check-in"
+      description: "Offer a self-service kiosk interface where guests can verify identity and complete the check-in process on arrival."
+

@@ -118,7 +118,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       >
     </li>
     <li>
-      <a href="/products/backoffice/">backoffice</a
+      <a aria-current="page" class="active" href="/products/backoffice/">backoffice</a
       >
     </li>
   </ul>
@@ -824,11 +824,14 @@ viewBox="0 0 512 512">
         <option value="">— select —</option>
         <option>WorkMate</option>
         <option>StageHand</option>
-        <option>VirtualCare</option>
+        <option>LensPath</option>
+        <option>BackOffice</option>
+        <option>Energy reduction</option>
         <option>Desk booking</option>
         <option>Room booking</option>
         <option>Visitor management</option>
-        <option>Occupancy-based energy</option>
+        <option>Occupancy monitoring</option>
+        <option>VirtualCare</option>
       </select>
     </div>
   
@@ -905,63 +908,159 @@ viewBox="0 0 512 512">
     
     <section>
       <h2 id="features" class="text-xl font-semibold mb-4 scroll-target">BackOffice Full Feature List</h2><details class="mb-6 border rounded p-4">
-          <summary class="cursor-pointer font-semibold">BackOffice Features</summary>
+          <summary class="cursor-pointer font-semibold">Authentication Features</summary>
           <div class="mt-4 space-y-4">
               <div>
-                <p class="font-medium">Think in systems, not silos</p>
-                <p class="text-sm">Bring all your smart building logic into one configuration tree:
-- Mirror your environment with Zones (Org → Building → Level)
-- Attach Systems to real rooms, floors, and functions
-- Group drivers, logic, and metadata that represent how spaces behave
-</p>
+                <p class="font-medium">OAuth2 SSO</p>
+                <p class="text-sm">Integrate with OAuth2 providers (Azure AD, Google Workspace) for single sign-on.</p>
               </div>
               <div>
-                <p class="font-medium">Manage integrations like a product team</p>
-                <p class="text-sm">Add, update, and roll back PlaceOS drivers and interfaces from GitHub/GitLab—no CLI needed:
-- Test new branches without affecting production
-- Pin drivers to specific commits
-- Compile and view errors in the UI
-</p>
+                <p class="font-medium">SAML2 SSO</p>
+                <p class="text-sm">Configure SAML2-based SSO via AD FS, Auth0, Azure AD, or Google Workspace.</p>
               </div>
               <div>
-                <p class="font-medium">Add and configure drivers</p>
-                <p class="text-sm">Drivers are reusable modules for devices and cloud services:
-- Load any driver from your connected repo
-- Configure once at the driver level and reuse across systems
-- View build status and recompile from the UI
-</p>
+                <p class="font-medium">X-API Keys</p>
+                <p class="text-sm">Generate and manage X-API Keys for programmatic access to REST and GraphQL APIs.</p>
               </div>
               <div>
-                <p class="font-medium">Attach logic to the physical world</p>
-                <p class="text-sm">Zones let you model the built environment digitally:
-- Attach maps to levels (SVG)
-- Bind features to spaces via metadata
-- Control what users see in front-end apps via zone-level config
-</p>
+                <p class="font-medium">Bearer tokens</p>
+                <p class="text-sm">Support bearer-token authentication for secure API communication.</p>
               </div>
               <div>
-                <p class="font-medium">Create and maintain systems</p>
-                <p class="text-sm">A system is a functional unit—like a meeting room or tracking setup:
-- Combine drivers, logic, and metadata
-- Inherit settings from parent zones
-- Connect back to maps and interfaces
-</p>
+                <p class="font-medium">Azure B2C</p>
+                <p class="text-sm">Leverage Azure B2C with custom policies for advanced identity management.</p>
+              </div>
+          </div>
+        </details><details class="mb-6 border rounded p-4">
+          <summary class="cursor-pointer font-semibold">Deployment Features</summary>
+          <div class="mt-4 space-y-4">
+              <div>
+                <p class="font-medium">AWS Fargate deployments</p>
+                <p class="text-sm">Deploy PlaceOS on AWS Fargate using modular or nested CloudFormation stacks.</p>
               </div>
               <div>
-                <p class="font-medium">Create event-driven automation</p>
-                <p class="text-sm">Triggers let you define behavior across your entire PlaceOS deployment:
-- If no one checks into a room → release the booking
-- If occupancy hits 0 → turn off HVAC
-- If a driver goes offline → notify the team
-</p>
+                <p class="font-medium">Import scripting</p>
+                <p class="text-sm">Automate bulk import of rooms, users, and resources via custom scripts.</p>
+              </div>
+          </div>
+        </details><details class="mb-6 border rounded p-4">
+          <summary class="cursor-pointer font-semibold">Driver Features</summary>
+          <div class="mt-4 space-y-4">
+              <div>
+                <p class="font-medium">Driver management</p>
+                <p class="text-sm">Load and manage PlaceOS drivers directly from GitHub/GitLab, and pin to specific commits for stability.</p>
               </div>
               <div>
-                <p class="font-medium">Manage users, domains and auth</p>
-                <p class="text-sm">Control access and surface the right experiences:
-- Define OAuth providers (Azure, Google, etc.)
-- Map sub-apps like Workplace or Concierge to your domains
-- Grant per-domain access to specific users or groups
-</p>
+                <p class="font-medium">Driver instantiation</p>
+                <p class="text-sm">Instantiate each driver as a module within systems, keeping core driver code separate from configuration.</p>
+              </div>
+              <div>
+                <p class="font-medium">Pre-built driver library</p>
+                <p class="text-sm">Access a curated set of drivers for common integrations such as HVAC, lighting, and calendar services.</p>
+              </div>
+          </div>
+        </details><details class="mb-6 border rounded p-4">
+          <summary class="cursor-pointer font-semibold">Interface Features</summary>
+          <div class="mt-4 space-y-4">
+              <div>
+                <p class="font-medium">Web-based UIs</p>
+                <p class="text-sm">Offer built-in web apps like the Staff App and Booking Panel for screen-based user interactions.</p>
+              </div>
+              <div>
+                <p class="font-medium">GraphQL API</p>
+                <p class="text-sm">Query and mutate PlaceOS data through a flexible GraphQL endpoint.</p>
+              </div>
+              <div>
+                <p class="font-medium">REST HTTP API</p>
+                <p class="text-sm">Interact with PlaceOS resources via a RESTful API secured by X-API Keys.</p>
+              </div>
+              <div>
+                <p class="font-medium">WebSocket API</p>
+                <p class="text-sm">Receive real-time updates and push commands over persistent WebSocket connections.</p>
+              </div>
+              <div>
+                <p class="font-medium">MQTT bridge</p>
+                <p class="text-sm">Bridge MQTT messages into PlaceOS modules for lightweight IoT device integration.</p>
+              </div>
+          </div>
+        </details><details class="mb-6 border rounded p-4">
+          <summary class="cursor-pointer font-semibold">Module Features</summary>
+          <div class="mt-4 space-y-4">
+              <div>
+                <p class="font-medium">Module orchestration</p>
+                <p class="text-sm">Start, stop, and monitor individual modules representing driver instances or logic components.</p>
+              </div>
+              <div>
+                <p class="font-medium">Digital &amp; logic modules</p>
+                <p class="text-sm">Deploy modules for digital services (e.g., calendar) or custom logic to automate workflows.</p>
+              </div>
+              <div>
+                <p class="font-medium">State &amp; behavior tracking</p>
+                <p class="text-sm">View real-time module state (e.g., power status, bookings) and supported actions (e.g., on/off).</p>
+              </div>
+          </div>
+        </details><details class="mb-6 border rounded p-4">
+          <summary class="cursor-pointer font-semibold">Settings Features</summary>
+          <div class="mt-4 space-y-4">
+              <div>
+                <p class="font-medium">Global configuration</p>
+                <p class="text-sm">Define default JSON-based settings that apply across the entire deployment.</p>
+              </div>
+              <div>
+                <p class="font-medium">Hierarchical overrides</p>
+                <p class="text-sm">Override settings at Zone, System, Driver, or Module levels for precise control.</p>
+              </div>
+              <div>
+                <p class="font-medium">Common use-cases</p>
+                <p class="text-sm">Configure parameters like input/output IDs, auto-release timeouts, and device authentication information.</p>
+              </div>
+          </div>
+        </details><details class="mb-6 border rounded p-4">
+          <summary class="cursor-pointer font-semibold">System Features</summary>
+          <div class="mt-4 space-y-4">
+              <div>
+                <p class="font-medium">System grouping</p>
+                <p class="text-sm">Bundle drivers and modules into systems representing rooms, signage networks, etc.</p>
+              </div>
+              <div>
+                <p class="font-medium">Metadata &amp; settings</p>
+                <p class="text-sm">Attach metadata and inherit settings from parent zones for consistent configuration.</p>
+              </div>
+              <div>
+                <p class="font-medium">Cross-zone systems</p>
+                <p class="text-sm">Define systems that span multiple zones, such as campus-wide HVAC or analytics.</p>
+              </div>
+          </div>
+        </details><details class="mb-6 border rounded p-4">
+          <summary class="cursor-pointer font-semibold">Trigger Features</summary>
+          <div class="mt-4 space-y-4">
+              <div>
+                <p class="font-medium">Event-driven triggers</p>
+                <p class="text-sm">Define triggers that fire on system state changes, time schedules, or webhooks.</p>
+              </div>
+              <div>
+                <p class="font-medium">Simple logic linking</p>
+                <p class="text-sm">Link module state to behavior (e.g., release a booking if occupancy is zero).</p>
+              </div>
+              <div>
+                <p class="font-medium">Customizable actions</p>
+                <p class="text-sm">Create, assign, and manage triggers in Backoffice to automate complex workflows.</p>
+              </div>
+          </div>
+        </details><details class="mb-6 border rounded p-4">
+          <summary class="cursor-pointer font-semibold">Zone Features</summary>
+          <div class="mt-4 space-y-4">
+              <div>
+                <p class="font-medium">Hierarchical zones</p>
+                <p class="text-sm">Model your environment as Org → Building → Level for clear organizational structure.</p>
+              </div>
+              <div>
+                <p class="font-medium">Logical grouping</p>
+                <p class="text-sm">Group systems by purpose—physical zones or conceptual clusters—for bulk configuration.</p>
+              </div>
+              <div>
+                <p class="font-medium">Zone-level settings</p>
+                <p class="text-sm">Apply settings at the zone level to cascade behavior across all contained systems.</p>
               </div>
           </div>
         </details>

@@ -48,7 +48,7 @@
     {{- $faqGroups := index (index $data "faqs") "faqs" -}}
     {{- if $faqGroups }}
       <section class="mt-12 scroll-target" id="faqs">
-        <h2 class="text-xl font-semibold mb-4">FAQs</h2>
+        <h2 class="text-xl font-semibold mb-4">{{ .Title }} FAQs</h2>
         {{- range $faqGroups }}
           <h3 class="text-lg font-medium mt-6 mb-2">{{ .category }}</h3>
           {{ partial "faqs.html" (dict "Entries" .entries) }}
