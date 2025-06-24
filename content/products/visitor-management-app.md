@@ -87,5 +87,7 @@ Blue dot wayfinding with our MapsPeople Integration. Set unique locations of int
 
 ![PlaceOS Visitor Management Wayfinding & POI](/images/products/visitor-management-app/indoor-wayfinding-map.webp)
 
+[See the full list of features](#features)
+
 
 

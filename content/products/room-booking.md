@@ -107,11 +107,4 @@ Restrict rooms to between 7:00AM & 7:00PM + 10 Days in Advance
 
 ![Meeting Room Booking Configuration Interface](/images/products/room-booking-once/workmate-room-management-rule-set-configuration-3-p-1080.webp)
 
-## Simple Pricing
-
-**$500 USD**
-
-- Unlimited rooms
-- Unlimited users
-- Lifetime usage
 

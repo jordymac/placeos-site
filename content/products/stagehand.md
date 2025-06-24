@@ -94,6 +94,8 @@ Track room usage, input trends, and hardware health across all rooms to plan upg
 
 ![StageHand Monitor AV Equipment Remote Support](/images/products/stagehand/stagehand-monitor-details.avif)
 
+[See the full list of features](#features)
+
 ---
 
 ## Trusted by those who know the pain
@@ -104,5 +106,3 @@ Stagehand was born from decades of experience managing AV at universities, hospi
 > — AV Lead, Multi-Campus University
 
 ---
-
-## Ready to start solving problems from your browser?
