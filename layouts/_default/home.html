@@ -1,20 +1,20 @@
 {{ define "main" }}
 <section class="hero" style="max-width:1080px;">
   <div class="hero-content">
-  <h1 class="text-4xl md:text-5xl font-bold leading-tight tracking-tight">
+  <h1 class="text-4xl md:text-5xl font-bold leading-tight tracking-tight animate-in fade-in slide-in-from-top-8 duration-700">
     Connect Anything. Automate Everything.
   </h1>
-    <h2 class="leading-snug tracking-normal mb-4">
+    <h2 class="leading-snug tracking-normal mb-4 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-0">
   {{ .Params.description_title | safeHTML }}
     </h2>
-    <p class="text-xl md:text-2xl leading-relaxed tracking-normal">
+    <p class="text-xl md:text-2xl leading-relaxed tracking-normal animate-in fade-in slide-in-from-bottom-6 duration-700 delay-200">
       {{ .Params.description_body | safeHTML }}
     </p>
-    <div class="text-xl md:text-2xl leading-relaxed tracking-normal">
+    <div class="text-xl md:text-2xl leading-relaxed tracking-normal animate-in fade-in slide-in-from-bottom-6 duration-700 delay-200">
   {{ .Params.feature_list | markdownify }}
 </div>
   </div>
-<div class="mt-8 flex justify-start">
+<div class=" animate-in fade-in slide-in-from-bottom-6 duration-700 delay-200 mt-8 flex justify-start">
   <a href="#start-here" >
     {{ partial "svg/arrow-down-to-dot.html" (dict "class" "link w-5 h-5 animate-slide-down duration-1000 delay-1000" "page" .) }}
   </a>
