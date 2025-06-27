@@ -1,0 +1,12 @@
+id: kramer
+entityType: Integration
+name: Kramer
+vendor: Kramer
+category:
+- av_over_ip
+description: Kramer provides AV over IP solutions and room control hardware for professional
+  AV installations.
+common_data_available:
+- Video Status
+- Switching routes
+- Device availability

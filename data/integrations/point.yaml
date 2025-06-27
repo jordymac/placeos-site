@@ -1,0 +1,14 @@
+id: point
+entityType: Integration
+name: Point
+vendor: Point
+category:
+- occupancy_sensor
+description: Point provides presence and usage data through ceiling-mounted sensors
+  for desks and meeting rooms.
+common_data_available:
+- Occupancy
+- Desk and room usage
+- Space Utilization
+tags:
+- point

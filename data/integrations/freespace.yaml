@@ -1,0 +1,12 @@
+id: freespace
+entityType: Integration
+name: Freespace
+vendor: Freespace
+category:
+- occupancy_sensor
+description: FreeSpace provides wireless occupancy sensors and analytics to optimize
+  space utilization.
+common_data_available:
+- Occupancy
+- Zone status
+- Space Utilization

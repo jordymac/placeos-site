@@ -1,0 +1,17 @@
+# data/integrations/email.yaml
+id: email
+entityType: Integration
+name: Email (SMTP / MS Graph / Google Workspace / Amazon SES)
+vendor: Various
+category:
+  - messaging
+description: Standard email (SMTP) interface for sending alerts, confirmations, and system notifications.
+common_data_available:
+  - Send status
+  - Recipient logs
+  - Error reports
+tags:
+  - email
+  - smtp
+  - graph_api
+  - ses

@@ -1,0 +1,11 @@
+id: extron_control_systems
+entityType: Integration
+name: Extron Control Systems
+vendor: Extron
+category:
+- av_over_ip
+description: Extron control systems provide automation and management for AV infrastructure.
+common_data_available:
+  - Device online status
+  - Control commands
+  - IR/RS232 interface state

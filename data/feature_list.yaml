@@ -1,0 +1,183 @@
+features:
+  access_control:
+    description: "Manages credentials, door events, and badge reads for controlling physical access."
+  alarm_events:
+    description: "Emits or listens for alarm or alert notifications from integrated systems."
+  analytics:
+    description: "Provides data analysis and insights, including dashboards and reporting."
+  anomaly_detection:
+    description: "Detects unusual patterns or outliers in sensor or system data."
+  api_gateway:
+    description: "Acts as a gateway for routing and securing API calls to backend services."
+  audio_monitoring:
+    description: "Monitors audio feed levels, signal quality, and device status."
+  audio_stream:
+    description: "Provides live audio feeds from microphones or audio sources."
+  authentication:
+    description: "Handles user login, token issuance, and credential verification."
+  availability_query:
+    description: "Checks resource availability (rooms, desks, equipment) in real time."
+  bacnet_control:
+    description: "Reads and writes BACnet objects for building automation control."
+  calendar_read:
+    description: "Fetches events or availability from calendar APIs (e.g., Outlook, Google)."
+  calendar_write:
+    description: "Creates, updates, or cancels events in calendar systems."
+  call_control:
+    description: "Manages audio/video call sessions, including start, stop, and mute."
+  camera_control:
+    description: "Sends control commands (PTZ) to network cameras."
+  channel_control:
+    description: "Manages channel selection and tuning for set-top boxes or TVs."
+  color_control:
+    description: "Adjusts display or lighting color settings."
+  conference_control:
+    description: "Controls conferencing endpoints, layouts, and meeting functions."
+  control_commands:
+    description: "Sends generic commands to devices for remote control actions."
+  data_query:
+    description: "Performs custom data queries against external platforms or databases."
+  data_transformation:
+    description: "Transforms or enriches data payloads in integration workflows."
+  device_control:
+    description: "Controls device functions such as power, volume, or mode settings."
+  device_management:
+    description: "Manages device provisioning, firmware, and configuration status."
+  device_monitoring:
+    description: "Monitors device health, connectivity, and operational metrics."
+  digital_input:
+    description: "Reads binary sensor inputs (e.g., door contacts, switches)."
+  digital_output:
+    description: "Drives binary actuators (e.g., relays, alarms) via digital signals."
+  dimming:
+    description: "Adjusts brightness levels for lighting fixtures."
+  display_control:
+    description: "Manages display power state, input selection, and display modes."
+  dsp_control:
+    description: "Controls digital signal processor settings, audio routing, and presets."
+  email_send:
+    description: "Sends outbound emails via SMTP or API-based mail services."
+  embeddings:
+    description: "Generates or retrieves vector embeddings for text content."
+  energy_metering:
+    description: "Reads energy consumption metrics from meters or submeters."
+  energy_trend:
+    description: "Provides historical energy usage trends and analytics."
+  environmental_metrics:
+    description: "Reads environmental data such as temperature, humidity, and air quality."
+  event_dispatch:
+    description: "Dispatches events to external systems or message queues."
+  event_monitoring:
+    description: "Subscribes to and monitors event streams for system triggers."
+  facility_monitoring:
+    description: "Aggregates data for monitoring facility-wide assets and conditions."
+  geofencing:
+    description: "Defines and enforces geographic boundaries for location-based actions."
+  graph_analytics:
+    description: "Performs graph-based data analysis, network mapping, and topology insights."
+  humidity_reading:
+    description: "Reads humidity sensor values for environmental control."
+  input_switching:
+    description: "Switches AV or display inputs for source selection."
+  knx_control:
+    description: "Sends commands over KNX bus for building automation control."
+  lighting_control:
+    description: "Controls lighting fixtures, scenes, and schedules."
+  llm_generate:
+    description: "Generates natural-language text using large language models."
+  location_tracking:
+    description: "Tracks real-time positions of assets or people within spaces."
+  locker_authentication:
+    description: "Authenticates users for access to smart locker systems."
+  locker_booking:
+    description: "Books and reserves lockers via integration APIs."
+  locker_status:
+    description: "Reads status (occupied, available) of locker units."
+  meeting_management:
+    description: "Manages meeting lifecycles, including scheduling and cancellation."
+  modbus_read:
+    description: "Reads register values from Modbus TCP devices."
+  modbus_write:
+    description: "Writes register values to Modbus TCP devices."
+  motion:
+    description: "Detects motion events from sensors or camera analytics."
+  mqtt_publish:
+    description: "Publishes messages to MQTT topics for IoT communication."
+  mqtt_subscribe:
+    description: "Subscribes to MQTT topics for receiving IoT messages."
+  network_analytics:
+    description: "Analyzes network device metrics and topology data."
+  network_monitoring:
+    description: "Monitors network device status and performance metrics."
+  occupancy:
+    description: "Detects presence or counts people in a space."
+  parking_availability:
+    description: "Reports real-time availability of parking spaces."
+  payment_processing:
+    description: "Processes transactions and manages billing via payment APIs."
+  policy_management:
+    description: "Enforces security or operational policies on connected devices."
+  power_control:
+    description: "Controls power state of circuits, outlets, or devices."
+  preset_management:
+    description: "Manages presets and recall settings for DSP or device configurations."
+  recording_management:
+    description: "Starts, stops, and retrieves media recordings from devices."
+  reservation:
+    description: "Handles resource reservations for rooms, equipment, or lockers."
+  resource_booking:
+    description: "Books and manages availability of rooms and desks."
+  rest_api:
+    description: "Supports generic HTTPS REST API calls with JSON payloads."
+  rssi_read:
+    description: "Reads RSSI values for real-time location and signal strength."
+  schedule_management:
+    description: "Creates and enforces schedules for systems or devices."
+  schedule_read:
+    description: "Reads existing schedules from automation platforms."
+  scheduling:
+    description: "Handles the creation and management of timed tasks and events."
+  screen_share:
+    description: "Shares display content between devices for presentations."
+  service_alerts:
+    description: "Dispatches critical service alerts to monitoring channels."
+  setpoint_control:
+    description: "Reads and writes HVAC setpoints for temperature control."
+  sms_receive:
+    description: "Receives inbound SMS messages via gateway services."
+  sms_send:
+    description: "Sends SMS messages through integrated messaging providers."
+  snmp:
+    description: "Performs SNMP GET/SET operations for network device management."
+  sso:
+    description: "Provides single-sign-on authentication to enterprise systems."
+  status_monitoring:
+    description: "Monitors device or system status for health and uptime."
+  status_reporting:
+    description: "Reports device state changes or telemetry to dashboards."
+  tcp_ip:
+    description: "Supports raw TCP/IP socket communications for custom protocols."
+  temperature:
+    description: "Reads ambient temperature sensor values."
+  temperature_reading:
+    description: "Acquires temperature data from environmental sensors."
+  time_series:
+    description: "Processes time-series data for trend analysis and visualization."
+  time_sync:
+    description: "Synchronizes system clock via NTP or network time protocols."
+  token_authentication:
+    description: "Handles OAuth2 or token-based authentication workflows."
+  video_call:
+    description: "Initiates and manages audio/video call sessions."
+  video_stream:
+    description: "Streams live video from cameras or conferencing devices."
+  video_switching:
+    description: "Switches video sources in matrix or over IP environments."
+  visualization:
+    description: "Generates graphical representations of data and metrics."
+  webhook_receive:
+    description: "Receives inbound HTTP webhooks as event triggers."
+  webhook_trigger:
+    description: "Sends outbound HTTP webhooks on system events."
+  workflow_automation:
+    description: "Orchestrates multi-step workflows across systems and devices."

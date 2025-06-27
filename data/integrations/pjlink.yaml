@@ -1,0 +1,17 @@
+id: pjlink_projectors
+entityType: Integration
+name: PJLink Projectors
+vendor: PJLink
+category:
+- displays
+description: 'PJLink standard protocol for controlling projector power, input, and
+  status queries.
+
+  '
+common_data_available:
+- Power Status
+- Input selection
+- Lamp hours
+tags:
+- pjlink
+- projector

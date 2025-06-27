@@ -1,0 +1,15 @@
+id: tcp_ip
+entityType: Integration
+name: TCP/IP
+vendor: Generic
+category:
+- protocols
+description: Generic TCP/IP communication protocol for controlling and monitoring
+  devices over IP networks.
+common_data_available:
+- API Response
+- Device command log
+- Connection status
+tags:
+- tcp
+- ip

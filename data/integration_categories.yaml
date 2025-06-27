@@ -1,35 +1,160 @@
-bms:
-  label: Bms
-other:
-  label: Other
-cloud hosting:
-  label: Cloud Hosting
-access control:
-  label: Access Control
-real-time location:
-  label: Real Time Location
-camera:
-  label: Camera
-conferencing:
-  label: Conferencing
-network:
-  label: Network
-audio visual:
-  label: Audio Visual
-calendar:
-  label: Calendar
-resource booking:
-  label: Resource Booking
-lighting:
-  label: Lighting
-messaging:
-  label: Messaging
-protocol:
-  label: Protocol
-cloud:
-  label: Cloud
-energy meter:
-  label: Energy Meter
-sensor:
-  label: Sensor
-
+categories:
+  rtls:
+    name: "Real-time Location Services"
+    description: "Wireless network controllers, access points, and location services for indoor positioning and analytics."
+    examples:
+      - Cisco DNA Spaces
+      - Cisco Meraki
+      - Aruba ALE
+      - Juniper Mist
+  network:
+    name: "Wired Infrastructure"
+    description: "Wired network infrastructure management, monitoring, and policy enforcement."
+    examples:
+      - Cisco Catalyst Switches
+      - Cisco ISE
+      - Juniper Mist Network
+      - Meraki Dashboard
+  authentication:
+    name: "Authentication and Identity Management"
+    description: "User identity, single-sign-on and token-based authentication systems."
+    examples:
+      - OAuth2 (JWT)
+      - SAML2
+      - Azure AD B2C
+      - Keycloak
+  cameras:
+    name: "Video Surveillance and Analytics"
+    description: "Network camera feeds for video streaming, motion detection, and occupancy analytics."
+    examples:
+      - Meraki MV
+      - Axis Cameras
+      - Sony Cameras
+      - Xovis
+  displays:
+    name: "Display Technology"
+    description: "Professional displays, projectors, and screen control interfaces."
+    examples:
+      - LG Displays
+      - NEC Displays
+      - Panasonic Displays
+      - Sharp Displays
+  bms:
+    name: "Building Management Systems"
+    description: "Building Management Systems for HVAC, lighting, and energy control via protocols like BACnet."
+    examples:
+      - BACnet Secure Connect
+      - Johnson Controls Metasys
+      - Siemens Desigo
+      - Delta Controls
+  environmental_sensor:
+    name: "Environmental Sensors"
+    description: "Sensors measuring air quality, temperature, humidity, and other environmental metrics."
+    examples:
+      - Kaiterra
+      - FlooSense
+      - Vergesense
+      - InfoSilem
+  occupancy_sensor:
+    name: "Occupancy and Presence Detection"
+    description: "Sensors and analytics platforms dedicated to detecting presence or counting people."
+    examples:
+      - XY Sense
+      - FreeSpace
+      - PointGrab
+      - CMS Engage
+  resource_booking:
+    name: "Resource Booking Systems"
+    description: "Systems for booking rooms, desks, and other shared resources."
+    examples:
+      - Microsoft 365 Booking
+      - Google Workspace Booking
+      - PlaceOS Native Booking
+      - OfficeRnD
+  messaging:
+    name: "Messaging and Notification Systems"
+    description: "Channels for sending notifications and alerts via email, SMS, webhooks, and MQTT."
+    examples:
+      - Email (SMTP)
+      - SMS (Amazon SNS)
+      - Webhooks
+      - MQTT
+  video:
+    name: "Video Conferencing and Collaboration"
+    description: "Unified collaboration platforms and APIs for video meetings and room controls."
+    examples:
+      - Cisco Webex
+      - Microsoft Teams
+      - Zoom Rooms API
+      - Pexip
+  av_over_ip:
+    name: "Audio Visual over IP Systems"
+    description: "AV-over-IP systems for video streaming, switching, and matrix routing."
+    examples:
+      - Atlona AV over IP
+      - Extron NAV
+      - Crestron NVX
+      - Q-SYS AV over IP
+  audio:
+    name: "Audio Systems and DSPs"
+    description: "Audio device control, streaming, and DSP management for conferencing and paging."
+    examples:
+      - QSC Q-SYS
+      - Biamp Tesira
+      - Shure
+      - ClearOne
+  lighting:
+    name: "Lighting Control Systems"
+    description: "Lighting control systems and protocols for dimming, scenes, and automation."
+    examples:
+      - KNX (IP Gateway)
+      - Lutron
+      - DALI
+      - Philips Hue
+  energy:
+    name: "Energy Management and Metering"
+    description: "Energy management platforms and meters for monitoring consumption and trends."
+    examples:
+      - Igor Energy
+      - Leviton Energy
+  protocols:
+    name: "Communication Protocols" 
+    description: "Common protocols and standards for device communication and control."
+    examples:
+      - Modbus TCP
+      - SNMPv2
+      - KNX
+      - BACnet
+  lockers:
+    name: "Locker Systems"
+    description: "Smart locker systems for secure storage and booking."
+    examples:
+      - Gantner
+      - Vecos
+  access_control:
+    name: "Building Access Control Systems"
+    description: "Systems for managing access to buildings and rooms."
+    examples:
+      - Inner Range
+      - Gallagher
+      - Lenel
+  ai_services:
+    name: "AI Services"
+    description: "Services providing artificial intelligence and machine learning capabilities."
+    examples:
+      - OpenAI
+  security:
+    name: "Security Systems"
+    description: "Systems for security monitoring and management."
+    examples:
+      - SecureOS
+  parking:
+    name: "Parking Services"
+    description: "Services related to transportation and parking."
+    examples:
+      - UbiPark
+  active_directory:
+    name: "Active Directory"
+    description: "Microsoft Active Directory integration for user and group management."
+    examples:
+      - Microsoft Active Directory

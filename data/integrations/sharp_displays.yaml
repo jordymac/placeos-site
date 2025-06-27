@@ -1,0 +1,11 @@
+id: sharp_displays
+entityType: Integration
+name: Sharp Displays
+vendor: Sharp
+category:
+- displays
+description: Sharp commercial displays and signage panels for use in AV environments and digital signage.
+common_data_available:
+  - Power status
+  - Input source
+  - Display health

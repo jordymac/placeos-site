@@ -1,0 +1,11 @@
+id: screentechnics
+entityType: Integration
+name: ScreenTechnics
+vendor: ScreenTechnics
+category:
+- displays
+description: Screen Technics offers motorized screens and lift systems integrated with AV control platforms.
+common_data_available:
+  - Lift position
+  - Screen state
+  - Trigger status

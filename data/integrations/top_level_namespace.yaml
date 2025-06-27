@@ -1,0 +1,11 @@
+id: top_level_namespace
+entityType: Integration
+name: Top Level Namespace
+vendor: Top Level Namespace
+category:
+- protocols
+description: PlaceOS system grouping for defining organizational or site-level namespace configurations.
+common_data_available:
+  - Org hierarchy
+  - Zone structure
+  - Default metadata

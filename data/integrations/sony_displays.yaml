@@ -1,0 +1,12 @@
+id: sony_displays
+entityType: Integration
+name: Sony
+vendor: Sony
+category:
+- displays
+description: Commercial displays from Sony for meeting rooms, signage, and control
+  room environments.
+common_data_available:
+- Power Status
+- Input source
+- Display diagnostics

@@ -1,0 +1,16 @@
+id: igor
+entityType: Integration
+name: Igor Energy
+vendor: Igor
+category:
+- energy
+description: Igor’s Nexos platform manages smart building energy usage, lighting control,
+  and PoE automation.
+common_data_available:
+- Energy consumption
+- Lighting levels
+- Device state
+- Occupancy
+tags:
+- igor
+- energy

@@ -1,0 +1,14 @@
+# data/integrations/twentyfivelivepro.yaml
+id: twentyfivelivepro
+entityType: Integration
+name: 25Live Pro
+vendor: CollegeNET
+category:
+  - resource_booking
+description: 25Live Pro is a scheduling and space management platform for higher education institutions.
+common_data_available:
+  - Room bookings
+  - Event metadata
+  - Space availability
+tags:
+  - 25live

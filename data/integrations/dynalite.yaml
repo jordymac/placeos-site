@@ -1,0 +1,14 @@
+# data/integrations/dynalite.yaml
+id: dynalite
+entityType: Integration
+name: DynaLite
+vendor: Philips Dynalite
+category:
+  - lighting
+description: Dynalite is a distributed lighting control system used for scene automation and energy management.
+common_data_available:
+  - Lighting channel status
+  - Scene recall
+  - Dimming levels
+tags:
+  - dynalite

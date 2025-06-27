@@ -1,0 +1,14 @@
+id: polygon
+entityType: Integration
+name: Polygon
+vendor: Polygon
+category:
+- ai_services
+description: Polygon provides spatial analytics and trend modeling from occupancy
+  and environmental data.
+common_data_available:
+- Zone utilization
+- Space Utilization
+- Environmental overlays
+tags:
+- polygon

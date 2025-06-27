@@ -168,6 +168,8 @@
   },
   "active": "7c082f9481b7afb1",
   "lastOpenFiles": [
+    "integrations/_index.md",
+    "integrations",
     "posts/you-don-t-need-another-workplace-sensor.md",
     "posts/meeting-room-display-interface-design.md",
     "posts/how-to-successfully-return-to-the-office-after-covid.md",
@@ -193,7 +195,6 @@
     "posts/september-2024-placeos-product-updates.md",
     "industry/energy.md",
     "industry/_index.md",
-    "industry/smart-campus.md",
     "industry"
   ]
 }

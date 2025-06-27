@@ -1,0 +1,10 @@
+id: kontaktio
+entityType: Integration
+name: KontaktIO
+vendor: KontaktIO
+category:
+- rtls
+description: Kontakt.io offers BLE-based beacons and sensors for indoor asset tracking
+  and presence detection.
+common_data_available:
+- Location Tracking

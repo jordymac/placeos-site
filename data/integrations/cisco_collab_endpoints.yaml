@@ -1,0 +1,18 @@
+id: cisco_collab_endpoints
+entityType: Integration
+name: Cisco Collaboration Endpoints
+vendor: Cisco
+category:
+- video
+description: 'Webex API integration for Cisco collaboration devices, enabling video
+  calls, device status, and meeting control.
+
+  '
+common_data_available:
+- Call status
+- Camera Status
+- Microphone mute state
+- People Count
+tags:
+- cisco
+- webex

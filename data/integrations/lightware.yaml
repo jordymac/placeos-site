@@ -1,0 +1,12 @@
+id: lightware_switchers
+entityType: Integration
+name: Lightware Switchers
+vendor: Lightware
+category:
+- video
+description: Lightware provides AV switchers, extenders, and matrix systems for high-end
+  video routing.
+common_data_available:
+- Matrix routing status
+- Motion Detection
+- Device Status

@@ -1,0 +1,12 @@
+id: juniper
+entityType: Integration
+name: Juniper
+vendor: Juniper
+category:
+- network
+description: Juniper networking hardware and software for enterprise LAN/WAN management
+  and policy enforcement.
+common_data_available:
+- Switch status
+- Interface metrics
+- Connection Status

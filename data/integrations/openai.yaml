@@ -1,0 +1,15 @@
+id: openai
+entityType: Integration
+name: OpenAI
+vendor: OpenAI
+category:
+- ai_services
+description: OpenAI provides access to advanced LLMs (e.g., GPT-4) for natural language
+  processing and automation.
+common_data_available:
+- API Logs
+- Model usage stats
+- Text generation outputs
+tags:
+- openai
+- llm

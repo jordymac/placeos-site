@@ -1,0 +1,15 @@
+id: ubipark
+entityType: Integration
+name: UbiPark
+vendor: UbiPark
+category:
+- parking
+description: UbiPark provides digital parking management and wayfinding solutions
+  for smart cities and workplaces.
+common_data_available:
+- Parking bay availability
+- Occupancy
+- Reservation data
+tags:
+- ubipark
+- parking

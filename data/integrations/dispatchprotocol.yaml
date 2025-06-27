@@ -1,0 +1,13 @@
+# data/integrations/dispatchprotocol.yaml
+id: dispatchprotocol
+entityType: Integration
+name: Dispatch Protocol
+vendor: Generic
+category:
+  - protocols
+  - messaging
+description: The internal message-passing and control signal protocol used by PlaceOS for automation workflows.
+common_data_available:
+  - Driver output commands
+  - Input signal states
+  - Control routing paths

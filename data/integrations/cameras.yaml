@@ -1,0 +1,18 @@
+# data/integrations/cameras.yaml
+id: cameras
+entityType: Integration
+name: Generic Network Cameras
+vendor: Generic
+category:
+  - cameras
+  - rtls
+description: >
+  Placeholder for network camera feeds and analytics when the
+  specific make/model is unknown.
+common_data_available:
+  - Video stream
+  - Motion detection
+  - Device status
+tags:
+  - camera
+  - video

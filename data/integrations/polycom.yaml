@@ -1,0 +1,14 @@
+id: polycom_realpresence
+entityType: Integration
+name: Polycom RealPresence Group
+vendor: Polycom
+category:
+- video
+description: Polycom (now Poly) provides video conferencing hardware for meeting rooms
+  and unified communications.
+common_data_available:
+- Call Events
+- Device status
+- Microphone and camera state
+tags:
+- polycom

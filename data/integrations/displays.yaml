@@ -1,0 +1,15 @@
+id: displays
+entityType: Integration
+name: Generic Display / Projector
+vendor: Generic
+category:
+- displays
+description: Generic control interface for commercial displays, signage screens, and
+  monitors.
+common_data_available:
+- Power Status
+- Input selection
+- Brightness level
+- Device Status
+tags:
+- display

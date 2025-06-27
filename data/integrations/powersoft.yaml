@@ -1,0 +1,14 @@
+# data/integrations/powersoft.yaml
+id: powersoft
+entityType: Integration
+name: PowerSoft
+vendor: PowerSoft
+category:
+  - audio
+description: Powersoft produces professional-grade amplifiers for installed sound and commercial AV applications.
+common_data_available:
+  - Amplifier status
+  - Input/output levels
+  - Thermal and fault states
+tags:
+  - powersoft

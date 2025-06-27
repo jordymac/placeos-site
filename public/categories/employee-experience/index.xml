@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Employee Experience on PlaceOS</title>
-    <link>http://localhost:1313/categories/employee-experience/</link>
+    <link>http://localhost:62587/categories/employee-experience/</link>
     <description>Recent content in Employee Experience on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/employee-experience/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62587/categories/employee-experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LIVE DEMO: WorkMate Native iOS &amp; Android</title>
-      <link>http://localhost:1313/posts/live-demo-workmate-native-ios-android/</link>
+      <link>http://localhost:62587/posts/live-demo-workmate-native-ios-android/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-workmate-native-ios-android/</guid>
+      <guid>http://localhost:62587/posts/live-demo-workmate-native-ios-android/</guid>
       <description>Discover Workmate, the ultimate workplace management app for iOS and Android. Join our live demo to see how it enhances productivity and streamlines tasks.</description>
     </item>
     <item>
       <title>Why Too Many Workplace Apps Are Counterproductive</title>
-      <link>http://localhost:1313/posts/why-too-many-workplace-apps-are-counterproductive/</link>
+      <link>http://localhost:62587/posts/why-too-many-workplace-apps-are-counterproductive/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/why-too-many-workplace-apps-are-counterproductive/</guid>
+      <guid>http://localhost:62587/posts/why-too-many-workplace-apps-are-counterproductive/</guid>
       <description>Discover why too many workplace apps can be counterproductive. Learn why the platform approach is better than every workplace app.</description>
     </item>
     <item>
       <title>A guide to digital workplace transformation</title>
-      <link>http://localhost:1313/posts/a-guide-to-digital-workplace-transformation/</link>
+      <link>http://localhost:62587/posts/a-guide-to-digital-workplace-transformation/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/a-guide-to-digital-workplace-transformation/</guid>
+      <guid>http://localhost:62587/posts/a-guide-to-digital-workplace-transformation/</guid>
       <description>A recent Gartner Report shows that your digital transformation journey will be a dead end unless you do this.</description>
     </item>
     <item>
       <title>Four technology integrations to help during covid-19</title>
-      <link>http://localhost:1313/posts/four-technology-integrations-to-help-during-covid-19/</link>
+      <link>http://localhost:62587/posts/four-technology-integrations-to-help-during-covid-19/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/four-technology-integrations-to-help-during-covid-19/</guid>
+      <guid>http://localhost:62587/posts/four-technology-integrations-to-help-during-covid-19/</guid>
       <description>Right now, it’s hard to focus on any workplace user requirement unless we address the biggest challenge: COVID-19.</description>
     </item>
     <item>
       <title>Smart building automation: platforms vs apps</title>
-      <link>http://localhost:1313/posts/smart-building-automation-platforms-vs-apps/</link>
+      <link>http://localhost:62587/posts/smart-building-automation-platforms-vs-apps/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/smart-building-automation-platforms-vs-apps/</guid>
+      <guid>http://localhost:62587/posts/smart-building-automation-platforms-vs-apps/</guid>
       <description>Right now, you’ve likely got at least 30 apps on your phone, what if it was the same for your building?</description>
     </item>
   </channel>

@@ -1,0 +1,14 @@
+id: xovis
+entityType: Integration
+name: Xovis
+vendor: Xovis
+category:
+- sensors
+description: Xovis sensors use ceiling-mounted stereo vision for accurate people counting
+  and traffic analysis.
+common_data_available:
+- People count
+- Flow direction
+- Space Utilization
+- Room Occupancy
+- Occupancy

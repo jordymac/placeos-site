@@ -1,0 +1,20 @@
+id: biamp_tesira
+entityType: Integration
+name: Biamp Tesira
+vendor: Biamp
+category:
+- av_over_ip
+description: 'Integration with Biamp Tesira DSPs for digital-signal processing control.
+  Allows PlaceOS to adjust volumes, recall and store presets, and monitor signal routing
+  in real time.
+
+  '
+common_data_available:
+- Audio routing
+- Input/output status
+- DSP block configuration
+- System Status
+tags:
+- dsp
+- tesira
+- audio

@@ -1,0 +1,12 @@
+id: gallagher_access_control
+entityType: Integration
+name: Gallagher Access Control
+vendor: Gallagher
+category:
+- access_control
+description: Gallagher provides integrated access control and perimeter security systems
+  for enterprise sites.
+common_data_available:
+- Entry/Exit Events
+- Credentials
+- Alarm triggers

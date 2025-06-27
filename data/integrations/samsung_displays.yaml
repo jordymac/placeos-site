@@ -1,0 +1,12 @@
+id: samsung_displays
+entityType: Integration
+name: Samsung Displays
+vendor: Samsung
+category:
+- displays
+description: Commercial-grade Samsung displays used in corporate signage, meeting
+  spaces, and control rooms.
+common_data_available:
+- Power Status
+- Input source
+- Display diagnostics

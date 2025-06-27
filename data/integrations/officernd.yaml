@@ -1,0 +1,15 @@
+# data/integrations/officernd.yaml
+id: officernd
+entityType: Integration
+name: OfficeRnD
+vendor: OfficeRnD
+category:
+  - resource_booking
+description: OfficeRnD provides workspace booking, room scheduling, and visitor management for hybrid offices.
+common_data_available:
+  - Booking records
+  - Desk availability
+  - User profiles
+tags:
+  - officernd
+  - booking

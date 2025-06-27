@@ -1,0 +1,20 @@
+id: ashrae
+entityType: Integration
+name: ASHRAE BACnet
+vendor: ASHRAE
+category:
+- protocols
+description: 'Support for the ASHRAE BACnet protocol (ANSI/ASHRAE Standard 135),  allowing
+  PlaceOS to read and write BACnet objects for temperature, humidity, setpoints, schedules,
+  alarms, and more.
+
+  '
+common_data_available:
+- Temperature
+- HVAC status
+- Occupancy
+- Energy use
+tags:
+- bacnet
+- bms
+- protocol

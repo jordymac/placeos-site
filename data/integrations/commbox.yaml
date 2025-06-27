@@ -1,0 +1,15 @@
+id: commbox
+entityType: Integration
+name: CommBox
+vendor: CommBox
+category:
+- displays
+description: CommBox provides interactive touchscreen displays and presentation technology
+  for education and corporate use.
+common_data_available:
+- Display status
+- Input source
+- Power Status
+tags:
+- commbox
+- display

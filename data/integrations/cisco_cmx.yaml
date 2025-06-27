@@ -1,0 +1,16 @@
+id: cisco_cmx
+entityType: Integration
+name: Cisco CMX
+vendor: Cisco
+category:
+- rtls
+description: 'Cisco Connected Mobile Experiences (CMX) platform for location services
+  and venue analytics.
+
+  '
+common_data_available:
+- Location Tracking
+- RSSI strength
+tags:
+- cisco
+- cmx

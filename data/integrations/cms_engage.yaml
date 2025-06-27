@@ -1,0 +1,14 @@
+id: cms_engage
+entityType: Integration
+name: CMS Engage
+vendor: CMS Engage
+category:
+- sensors
+description: CMS Engage provides workplace analytics including occupancy sensing,
+  utilization tracking, and spatial intelligence.
+common_data_available:
+- Occupancy
+- Utilization rates
+- Space Utilization
+tags:
+- cms_engage

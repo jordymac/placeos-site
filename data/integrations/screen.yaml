@@ -1,0 +1,14 @@
+# data/integrations/screen.yaml
+id: screen
+entityType: Integration
+name: Motorized Screens
+vendor: Generic
+category:
+  - displays
+description: Motorized projection screen systems with control interfaces for deployment and retraction.
+common_data_available:
+  - Position state
+  - Motor status
+  - Control input
+tags:
+  - screen

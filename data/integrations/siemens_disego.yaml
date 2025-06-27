@@ -1,0 +1,11 @@
+id: siemens_disego
+entityType: Integration
+name: Siemens Disego
+vendor: Siemens
+category:
+- bms
+description: Building automation and management systems by Siemens for controlling HVAC, lighting, and energy usage.
+common_data_available:
+  - HVAC points
+  - Lighting controls
+  - Alarm conditions

@@ -1,0 +1,17 @@
+# data/integrations/cisco_ise.yaml
+id: cisco_ise
+entityType: Integration
+name: Cisco ISE
+vendor: Cisco
+category:
+  - network
+description: >
+  Cisco Identity Services Engine integration for network
+  access control and policy enforcement.
+supportedFeatures:
+  - Authentication logs
+  - User/device mapping
+  - Access policies
+  - Endpoint posture
+tags:
+  - ise

@@ -1,0 +1,14 @@
+# data/integrations/symmetrix.yaml
+id: symmetrix
+entityType: Integration
+name: Symmetrix
+vendor: Symmetrix
+category:
+  - audio
+description: Symetrix audio DSP platforms for live sound, conferencing, and integrated AV solutions.
+common_data_available:
+  - DSP status
+  - Gain levels
+  - Mute state
+tags:
+  - symmetrix

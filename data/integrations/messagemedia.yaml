@@ -1,0 +1,15 @@
+# data/integrations/messagemedia.yaml
+id: messagemedia
+entityType: Integration
+name: MessageMedia
+vendor: MessageMedia
+category:
+  - messaging
+description: MessageMedia enables SMS delivery and alerts for customer communication and notifications.
+common_data_available:
+  - SMS delivery status
+  - Message logs
+  - Recipient phone numbers
+tags:
+  - messagemedia
+  - sms

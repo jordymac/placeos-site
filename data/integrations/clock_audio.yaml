@@ -1,0 +1,15 @@
+# data/integrations/clock_audio.yaml
+id: clock_audio
+entityType: Integration
+name: Clock Audio
+vendor: Clock Audio
+category:
+  - audio
+description: >
+  Professional boundary, gooseneck, and array microphones for conferencing and AV installations.
+common_data_available:
+  - Microphone mute state
+  - Audio levels
+  - Connection status
+tags:
+  - clock_audio

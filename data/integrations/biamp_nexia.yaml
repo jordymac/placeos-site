@@ -1,0 +1,17 @@
+id: biamp_nexia
+entityType: Integration
+name: Biamp Nexia
+vendor: Biamp
+category:
+- audio
+description: 'Biamp Nexia control endpoint integration, exposing control and status
+  over IA or TCP for remote command of Biamp audio devices.
+
+  '
+common_data_available:
+- Audio levels
+- Device Status
+- Input/output routing
+tags:
+- nexia
+- control

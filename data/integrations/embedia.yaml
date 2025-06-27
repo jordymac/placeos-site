@@ -1,0 +1,15 @@
+# data/integrations/embedia.yaml
+id: embedia
+entityType: Integration
+name: Embedia
+vendor: Embedia
+category:
+  - lighting
+description: Embedia systems manage automated blinds, shades, and natural light controls for smart buildings.
+common_data_available:
+  - Shade position
+  - Motor state
+  - Schedule triggers
+tags:
+  - embedia
+  - codec

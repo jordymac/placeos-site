@@ -1,0 +1,14 @@
+id: qbic
+entityType: Integration
+name: QBic
+vendor: QBic
+category:
+- displays
+description: Qbic provides touch panel displays for meeting room booking, occupancy
+  status, and integration with calendar systems.
+common_data_available:
+- Booking status
+- Occupancy
+- Panel device health
+tags:
+- qbic

@@ -1,0 +1,15 @@
+id: webhooks
+entityType: Integration
+name: Webhooks
+vendor: Generic
+category:
+- messaging
+description: Outbound webhooks used for system notifications, data sync, or alerting
+  external services.
+common_data_available:
+- Delivery status
+- Webhook URL
+- API Response
+tags:
+- webhook
+- http

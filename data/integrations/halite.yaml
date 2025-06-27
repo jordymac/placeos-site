@@ -1,0 +1,15 @@
+id: halite
+entityType: Integration
+name: Halite
+vendor: Halite
+category:
+- occupancy_sensor
+description: Halite provides smart occupancy sensors for real-time detection of presence
+  across desks, rooms, and shared spaces.
+common_data_available:
+- Occupancy
+- Space Utilization
+- Utilization trends
+tags:
+- halite
+- sensor

@@ -1,0 +1,15 @@
+id: cisco_meraki_rtls
+entityType: Integration
+name: Cisco Meraki RTLS
+vendor: Cisco
+category:
+- rtls
+description: 'Cisco Meraki RTLS integration using Meraki access point data for indoor
+  positioning and analytics.
+
+  '
+common_data_available:
+- Location Tracking
+tags:
+- meraki
+- rtls

@@ -1,0 +1,14 @@
+id: tripleplay
+entityType: Integration
+name: TriplePlay
+vendor: Tripleplay
+category:
+- av_over_ip
+description: Tripleplay provides IPTV and digital signage solutions for video streaming
+  across enterprise networks.
+common_data_available:
+- Channel list
+- Stream Status
+- Device connection
+tags:
+- tripleplay

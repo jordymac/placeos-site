@@ -1,0 +1,16 @@
+id: global_cache
+entityType: Integration
+name: Global Cache
+vendor: Global Cache
+category:
+- av_over_ip
+description: Global Caché provides IR, RS232, and relay interfaces for controlling
+  AV equipment over IP networks.
+common_data_available:
+- API Status
+- IR command status
+- Serial output logs
+tags:
+- global_cache
+- audio
+- video

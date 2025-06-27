@@ -1,0 +1,11 @@
+id: shure
+entityType: Integration
+name: Shure
+vendor: Shure
+category:
+- audio
+description: Shure audio devices including DSPs, microphones, and wireless systems for conferencing and sound reinforcement.
+common_data_available:
+  - Mute state
+  - Battery level
+  - Channel activity

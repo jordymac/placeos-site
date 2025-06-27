@@ -1,0 +1,11 @@
+id: leviton
+entityType: Integration
+name: Leviton
+vendor: Leviton
+category:
+- energy
+description: Leviton provides energy monitoring systems and smart metering for commercial buildings.
+common_data_available:
+  - Power usage
+  - Voltage/current readings
+  - Circuit monitoring

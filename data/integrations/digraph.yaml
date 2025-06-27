@@ -1,0 +1,15 @@
+# data/integrations/digraph.yaml
+id: digraph
+entityType: Integration
+name: DiGraph
+vendor: DiGraph
+category:
+  - ai_services
+description: Digraph provides AI-assisted graph-based visualizations and relationship mapping between connected entities.
+common_data_available:
+  - Entity relationships
+  - Node metadata
+  - Graph structure updates
+tags:
+  - digraph
+  - analytics

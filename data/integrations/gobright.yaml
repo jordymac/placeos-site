@@ -1,0 +1,12 @@
+id: gobright
+entityType: Integration
+name: GoBright
+vendor: GoBright
+category:
+- resource_booking
+description: GoBright offers room and desk booking, visitor management, and workplace
+  analytics.
+common_data_available:
+- Booking status
+- Occupancy
+- Check-in data

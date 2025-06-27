@@ -1,0 +1,17 @@
+# data/integrations/keycloak.yaml
+id: keycloak
+entityType: Integration
+name: Keycloak
+vendor: Red Hat
+category:
+  - authentication
+description: Keycloak is an open-source identity and access management solution supporting SSO and OAuth2.
+common_data_available:
+  - Authentication tokens
+  - User sessions
+  - Login events
+  - User roles
+  - SSO
+tags:
+  - keycloak
+  - sso

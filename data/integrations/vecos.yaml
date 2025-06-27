@@ -1,0 +1,14 @@
+id: vecos
+entityType: Integration
+name: Vecos
+vendor: Vecos
+category:
+- lockers
+description: Vecos provides smart locker solutions with booking, access control, and
+  usage analytics.
+common_data_available:
+- Locker status
+- User assignment
+- Entry/Exit Events
+tags:
+- vecos

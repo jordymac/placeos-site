@@ -1,0 +1,12 @@
+id: exterity
+entityType: Integration
+name: Exterity
+vendor: Exterity
+category:
+- av_over_ip
+description: Exterity delivers IPTV and digital signage systems over IP networks for
+  enterprise and campus environments.
+common_data_available:
+- Stream Status
+- Channel mapping
+- Device online status

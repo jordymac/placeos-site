@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Neighborhoods on PlaceOS</title>
-    <link>http://localhost:1313/categories/neighborhoods/</link>
+    <link>http://localhost:62587/categories/neighborhoods/</link>
     <description>Recent content in Neighborhoods on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/neighborhoods/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62587/categories/neighborhoods/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Desk Booking</title>
-      <link>http://localhost:1313/products/desk-booking-app/</link>
+      <link>http://localhost:62587/products/desk-booking-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/desk-booking-app/</guid>
+      <guid>http://localhost:62587/products/desk-booking-app/</guid>
       <description>Configurable desk booking management at scale without no hardware lock-in</description>
     </item>
     <item>
       <title>Government Agency - Multi-Tenancy: Space as a Service</title>
-      <link>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</link>
+      <link>http://localhost:62587/projects/multi-tenancy-space-as-a-service/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</guid>
+      <guid>http://localhost:62587/projects/multi-tenancy-space-as-a-service/</guid>
       <description>This Government Agency required a multifunctional and scalable workspace management system to serve various federal agencies. It must accurately authenticate users to manage and charge for space utilization, and provide a scalable model suitable for other government spaces facing underutilization.</description>
     </item>
   </channel>

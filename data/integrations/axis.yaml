@@ -1,0 +1,19 @@
+id: axis_cameras
+entityType: Integration
+name: Axis Cameras
+vendor: Axis
+category:
+- video
+- occupancy_sensor
+description: 'Axis network camera integration for video streaming, motion detection,
+  and event notifications.
+
+  '
+common_data_available:
+- Video Stream
+- Motion Detection
+- Occupancy
+tags:
+- axis
+- camera
+- occupancy

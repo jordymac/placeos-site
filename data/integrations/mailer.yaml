@@ -1,0 +1,14 @@
+# data/integrations/mailer.yaml
+id: mailer
+entityType: Integration
+name: Mailer
+vendor: Generic
+category:
+  - messaging
+description: Internal email dispatch service for sending user alerts, confirmations, and system messages via SMTP.
+common_data_available:
+  - Send logs
+  - Recipient metadata
+  - Delivery status
+tags:
+  - smtp

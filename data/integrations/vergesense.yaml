@@ -1,0 +1,14 @@
+id: vergesense
+entityType: Integration
+name: Vergesense
+vendor: Vergesense
+category:
+- occupancy_sensor
+description: VergeSense offers AI-powered spatial intelligence sensors for workplace
+  analytics and optimization.
+common_data_available:
+- People count
+- Occupancy
+- Space Utilization
+- Room Occupancy
+- Desk Occupancy

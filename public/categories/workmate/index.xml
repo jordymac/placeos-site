@@ -2,122 +2,122 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WorkMate on PlaceOS</title>
-    <link>http://localhost:1313/categories/workmate/</link>
+    <link>http://localhost:62587/categories/workmate/</link>
     <description>Recent content in WorkMate on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/workmate/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62587/categories/workmate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WorkMate</title>
-      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
+      <link>http://localhost:62587/products/workmate-workplace-solution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
+      <guid>http://localhost:62587/products/workmate-workplace-solution/</guid>
       <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
     </item>
     <item>
       <title>StageHand</title>
-      <link>http://localhost:1313/products/stagehand/</link>
+      <link>http://localhost:62587/products/stagehand/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/stagehand/</guid>
+      <guid>http://localhost:62587/products/stagehand/</guid>
       <description>Remote control for every AV room on campus — from your browser</description>
     </item>
     <item>
       <title>Visitor Management</title>
-      <link>http://localhost:1313/products/visitor-management-app/</link>
+      <link>http://localhost:62587/products/visitor-management-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/visitor-management-app/</guid>
+      <guid>http://localhost:62587/products/visitor-management-app/</guid>
       <description>Visitor management software so simple, the only thing you do is send the invite, it does everything else</description>
     </item>
     <item>
       <title>Room Booking</title>
-      <link>http://localhost:1313/products/room-booking/</link>
+      <link>http://localhost:62587/products/room-booking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/room-booking/</guid>
+      <guid>http://localhost:62587/products/room-booking/</guid>
       <description>A simple, self-hosted room booking app you don&amp;rsquo;t pay per room per month, you own it</description>
     </item>
     <item>
       <title>Government Agency - Multi-Tenancy: Space as a Service</title>
-      <link>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</link>
+      <link>http://localhost:62587/projects/multi-tenancy-space-as-a-service/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</guid>
+      <guid>http://localhost:62587/projects/multi-tenancy-space-as-a-service/</guid>
       <description>This Government Agency required a multifunctional and scalable workspace management system to serve various federal agencies. It must accurately authenticate users to manage and charge for space utilization, and provide a scalable model suitable for other government spaces facing underutilization.</description>
     </item>
     <item>
       <title>Suncorp - Office downsize from three buildings to one</title>
-      <link>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</link>
+      <link>http://localhost:62587/projects/office-downsize-from-three-buildings-to-one/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</guid>
+      <guid>http://localhost:62587/projects/office-downsize-from-three-buildings-to-one/</guid>
       <description>In preparation for their new office space, Suncorp recognized that they were not perceived as technology innovators and decided to take action. They embarked on a research mission to determine what their ideal technological infrastructure would look like, and then worked backward to identify which specific technologies would help them achieve that goal. Their ultimate objective was to create a system that could serve as the brain of their new building.</description>
     </item>
     <item>
       <title>Building &amp; Region-Level Workplace Management</title>
-      <link>http://localhost:1313/posts/building-region-level-workplace-management/</link>
+      <link>http://localhost:62587/posts/building-region-level-workplace-management/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/building-region-level-workplace-management/</guid>
+      <guid>http://localhost:62587/posts/building-region-level-workplace-management/</guid>
       <description>Control workplace settings to standardize policies across buildings, so you can scale workplace management while ensuring the right settings for each location.</description>
     </item>
     <item>
       <title>December 2024 PlaceOS Product Updates</title>
-      <link>http://localhost:1313/posts/december-2024-placeos-product-updates/</link>
+      <link>http://localhost:62587/posts/december-2024-placeos-product-updates/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/december-2024-placeos-product-updates/</guid>
+      <guid>http://localhost:62587/posts/december-2024-placeos-product-updates/</guid>
       <description>December 2024 WorkMate updates include new parking utilization reports, kiosk customizations, recurring desk bookings, added language support and room alerts.</description>
     </item>
     <item>
       <title>How to Choose the Best Meeting Room Booking Software</title>
-      <link>http://localhost:1313/posts/how-to-choose-the-best-meeting-room-booking-software/</link>
+      <link>http://localhost:62587/posts/how-to-choose-the-best-meeting-room-booking-software/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-to-choose-the-best-meeting-room-booking-software/</guid>
+      <guid>http://localhost:62587/posts/how-to-choose-the-best-meeting-room-booking-software/</guid>
       <description>Learn how to select the best meeting room booking software. Explore common challenges, scalability concerns &amp;amp; the unique benefits of PlaceOS.</description>
     </item>
     <item>
       <title>New Feature: Locking Booking</title>
-      <link>http://localhost:1313/posts/new-feature-locking-booking/</link>
+      <link>http://localhost:62587/posts/new-feature-locking-booking/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/new-feature-locking-booking/</guid>
+      <guid>http://localhost:62587/posts/new-feature-locking-booking/</guid>
       <description>Explore PlaceOS&amp;rsquo;s Locker Booking System: Easy reservations, access control, visual booking, and flexibility for workplaces and visitor management.</description>
     </item>
     <item>
       <title>September 2024 PlaceOS Product Updates</title>
-      <link>http://localhost:1313/posts/september-2024-placeos-product-updates/</link>
+      <link>http://localhost:62587/posts/september-2024-placeos-product-updates/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/september-2024-placeos-product-updates/</guid>
+      <guid>http://localhost:62587/posts/september-2024-placeos-product-updates/</guid>
       <description>New WorkMate features: email templates, parking management, QR code printing, room alerts, and a media library in our September release.</description>
     </item>
     <item>
       <title>LIVE DEMO: Concierge - Managing Workplace Experience</title>
-      <link>http://localhost:1313/posts/live-demo-concierge-managing-workplace-experience/</link>
+      <link>http://localhost:62587/posts/live-demo-concierge-managing-workplace-experience/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-concierge-managing-workplace-experience/</guid>
+      <guid>http://localhost:62587/posts/live-demo-concierge-managing-workplace-experience/</guid>
       <description>Elevate your hybrid workplace with our advanced workplace management app. Discover how to enhance the workplace experience and streamline operations.</description>
     </item>
     <item>
       <title>LIVE DEMO: WorkMate Native iOS &amp; Android</title>
-      <link>http://localhost:1313/posts/live-demo-workmate-native-ios-android/</link>
+      <link>http://localhost:62587/posts/live-demo-workmate-native-ios-android/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-workmate-native-ios-android/</guid>
+      <guid>http://localhost:62587/posts/live-demo-workmate-native-ios-android/</guid>
       <description>Discover Workmate, the ultimate workplace management app for iOS and Android. Join our live demo to see how it enhances productivity and streamlines tasks.</description>
     </item>
     <item>
       <title>LIVE DEMO: Event Manager</title>
-      <link>http://localhost:1313/posts/live-demo-event-manager/</link>
+      <link>http://localhost:62587/posts/live-demo-event-manager/</link>
       <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-event-manager/</guid>
+      <guid>http://localhost:62587/posts/live-demo-event-manager/</guid>
       <description>The office is there to support in-person connection, collaboration &amp;amp; productivity. The next live demo is all about that.</description>
     </item>
     <item>
       <title>New WorkMate Features: Experience Surveys, WFH Status &amp; more</title>
-      <link>http://localhost:1313/posts/new-workmate-features-experience-surveys-wfh-status-more/</link>
+      <link>http://localhost:62587/posts/new-workmate-features-experience-surveys-wfh-status-more/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/new-workmate-features-experience-surveys-wfh-status-more/</guid>
+      <guid>http://localhost:62587/posts/new-workmate-features-experience-surveys-wfh-status-more/</guid>
       <description>New features for our workplace suite, WorkMate, includes Experience Surveys, Resource Pay, WFH Status &amp;amp; Quick Booking.</description>
     </item>
     <item>
       <title>Office Space Utilization: The Roadmap to Efficiency</title>
-      <link>http://localhost:1313/posts/office-space-utilization-the-roadmap-to-efficiency/</link>
+      <link>http://localhost:62587/posts/office-space-utilization-the-roadmap-to-efficiency/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/office-space-utilization-the-roadmap-to-efficiency/</guid>
+      <guid>http://localhost:62587/posts/office-space-utilization-the-roadmap-to-efficiency/</guid>
       <description>Discover the significance of office space utilization. Dive into key metrics, benefits, and the future of office efficiency.</description>
     </item>
   </channel>

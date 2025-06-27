@@ -1,0 +1,15 @@
+# data/integrations/placeos_native_booking.yaml
+id: placeos_native_booking
+entityType: Integration
+name: PlaceOS Native Booking
+vendor: PlaceOS
+category:
+  - resource_booking
+description: Native booking engine in PlaceOS for rooms, desks, and resources integrated with sensors and automation.
+common_data_available:
+  - Booking status
+  - Check-in/check-out events
+  - Resource availability
+tags:
+  - placeos
+  - booking

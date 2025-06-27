@@ -1,0 +1,17 @@
+# data/integrations/hybrid_active_directory.yaml
+id: hybrid_active_directory
+entityType: Integration
+name: Hybrid On-Premise Active Directory (via MS Graph API)
+vendor: Microsoft
+category:
+  - active_directory
+description: Active Directory integration via Microsoft Graph API for hybrid cloud/on-prem deployments.
+common_data_available:
+  - User and group directory
+  - Login events
+  - Access tokens
+  - group_sync
+tags:
+  - active_directory
+  - hybrid
+  - graph_api

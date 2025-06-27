@@ -1,0 +1,15 @@
+id: svsi
+entityType: Integration
+name: SVSI Video over IP
+vendor: Crestron SVSI
+category:
+- av_over_ip
+description: SVSI provides AV-over-IP solutions for video distribution and matrix
+  switching over standard networks.
+common_data_available:
+- Stream Status
+- Decoder status
+- Video format
+tags:
+- svsi
+- voip

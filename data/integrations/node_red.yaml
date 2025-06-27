@@ -1,0 +1,16 @@
+# data/integrations/node_red.yaml
+id: node_red
+entityType: Integration
+name: Node-RED
+vendor: OpenJS Foundation
+category:
+  - messaging
+description: Node-RED is a low-code programming tool for wiring together APIs and devices using flows.
+common_data_available:
+  - Flow triggers
+  - Input/output messages
+  - Error logs
+tags:
+  - node_red
+  - iot
+  - automation

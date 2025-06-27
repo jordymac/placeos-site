@@ -1,0 +1,15 @@
+# data/integrations/qsc_qsys.yaml
+id: qsc_qsys_video
+entityType: Integration
+name: QSC Q-SYS
+vendor: QSC
+category:
+  - av_over_ip
+description: Q-SYS video distribution and camera integration using AV over IP within the Q-SYS ecosystem.
+common_data_available:
+  - Video input/output
+  - Routing configuration
+  - Camera status
+tags:
+  - qsc
+  - qsys

@@ -1,0 +1,14 @@
+# data/integrations/mqtt_protocol.yaml
+id: mqtt_protocol
+entityType: Integration
+name: MQTT (Protocol)
+vendor: Eclipse
+category:
+  - protocols
+description: Protocol-level interface for MQTT, supporting connection management and data handling for publish-subscribe systems.
+common_data_available:
+  - Broker connection status
+  - Topic subscriptions
+  - Message payloads
+tags:
+  - mqtt

@@ -1,0 +1,13 @@
+id: wifi
+entityType: Integration
+name: Generic Wi-Fi Network
+vendor: Generic
+category:
+- network
+description: Wi-Fi access points and controller systems used for device connectivity
+  and location analytics.
+common_data_available:
+- Location Tracking
+tags:
+- wifi
+- network

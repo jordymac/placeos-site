@@ -1,0 +1,15 @@
+# data/integrations/zencontrol.yaml
+id: zencontrol
+entityType: Integration
+name: Zencontrol
+vendor: Zencontrol
+category:
+  - lighting
+description: Zencontrol provides DALI-2 lighting control systems for commercial smart building applications.
+common_data_available:
+  - Lighting levels
+  - Group state
+  - Energy usage
+tags:
+  - zencontrol
+  - bms

@@ -1,0 +1,14 @@
+# data/integrations/siggraph.yaml
+id: siggraph
+entityType: Integration
+name: SigGraph
+vendor: SigGraph
+category:
+  - Other
+description: >
+  SigGraph analytics platform integration for
+  advanced graph processing.
+supportedFeatures:
+  - Graph Analytics
+tags:
+  - siggraph

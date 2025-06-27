@@ -1,0 +1,12 @@
+id: foxtel_set_top_box
+entityType: Integration
+name: Foxtel Set Top Box
+vendor: Foxtel
+category:
+- displays
+description: Foxtel set-top boxes for integrated TV content delivery in hospitality
+  and shared spaces.
+common_data_available:
+- Channel selection
+- Power Status
+- Remote control state

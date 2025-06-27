@@ -1,0 +1,14 @@
+id: rhbaccess
+entityType: Integration
+name: RHB Access
+vendor: RHB
+category:
+- access_control
+description: Access control systems by RHB with door entry logging and user management
+  features.
+common_data_available:
+- Access attempts
+- Credentials
+- Entry/Exit Events
+tags:
+- rhbaccess

@@ -1,0 +1,16 @@
+id: biamp_ntp
+entityType: Integration
+name: Biamp NTP
+vendor: Biamp
+category:
+  - av_over_ip
+description: >
+  NTP synchronization service for Biamp devices, ensuring all 
+  audio-processing units share accurate, network-time-protocol clocks.
+common_data_available:
+  - Time sync status
+  - NTP server availability
+tags:
+  - ntp
+  - synchronization
+  - protocol

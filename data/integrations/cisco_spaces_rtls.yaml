@@ -1,0 +1,17 @@
+id: cisco_spaces
+entityType: Integration
+name: Cisco Spaces
+vendor: Cisco
+category:
+- rtls
+description: 'Cisco Spaces RTLS platform integration for real-time location analytics
+  and visitor tracking.
+
+  '
+common_data_available:
+- Location Tracking
+- Entry/Exit Events
+- Space Utilization
+tags:
+- cisco
+- rtls

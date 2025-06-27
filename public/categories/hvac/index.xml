@@ -2,122 +2,122 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HVAC on PlaceOS</title>
-    <link>http://localhost:1313/categories/hvac/</link>
+    <link>http://localhost:62587/categories/hvac/</link>
     <description>Recent content in HVAC on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/hvac/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62587/categories/hvac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Energy Reduction App</title>
-      <link>http://localhost:1313/products/energy-reduction-app/</link>
+      <link>http://localhost:62587/products/energy-reduction-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/energy-reduction-app/</guid>
+      <guid>http://localhost:62587/products/energy-reduction-app/</guid>
       <description>Align energy use in spaces with actual occupancy, reduce HVAC &amp;amp; lighting use</description>
     </item>
     <item>
       <title>ASHRAE Headquarters - Net-Zero Retrofit</title>
-      <link>http://localhost:1313/projects/ashrae-headquarters-net-zero-retrofit/</link>
+      <link>http://localhost:62587/projects/ashrae-headquarters-net-zero-retrofit/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/ashrae-headquarters-net-zero-retrofit/</guid>
+      <guid>http://localhost:62587/projects/ashrae-headquarters-net-zero-retrofit/</guid>
       <description>ASHRAE is a global society maintaining sustainable standards for the built environment. They are the creator of BACnet, a protocol and set of standards for the HVAC industry.</description>
     </item>
     <item>
       <title>Canadian University Campus - Energy Reduction &amp; Sustainability</title>
-      <link>http://localhost:1313/projects/campus-energy-reduction-sustainability/</link>
+      <link>http://localhost:62587/projects/campus-energy-reduction-sustainability/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/campus-energy-reduction-sustainability/</guid>
+      <guid>http://localhost:62587/projects/campus-energy-reduction-sustainability/</guid>
       <description>This pilot examined the implementation of PlaceOS for automating and synchronizing separate building systems—security access, HVAC, AV, and others—integrated with the university’s scheduling system. The goal was to transform classrooms into smart spaces through enhanced automation capabilities.</description>
     </item>
     <item>
       <title>Canada Needs to Retrofit 482,000 Buildings by 2050—At the Current Pace, It Will Take 70 Years</title>
-      <link>http://localhost:1313/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</link>
+      <link>http://localhost:62587/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</guid>
+      <guid>http://localhost:62587/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</guid>
       <description>Canada must retrofit nearly half a million commercial buildings to meet its 2050 net-zero target, yet the current pace it will take them 70 years to reach it.</description>
     </item>
     <item>
       <title>A Guide to Energy Data Collection &amp; Utilization</title>
-      <link>http://localhost:1313/posts/a-guide-to-energy-data-collection-utilization/</link>
+      <link>http://localhost:62587/posts/a-guide-to-energy-data-collection-utilization/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/a-guide-to-energy-data-collection-utilization/</guid>
+      <guid>http://localhost:62587/posts/a-guide-to-energy-data-collection-utilization/</guid>
       <description>How to collect energy data in commercial buildings so that you can find out where you&amp;rsquo;re wasting energy like powering empty spaces.</description>
     </item>
     <item>
       <title>How to Choose the Best Meeting Room Booking Software</title>
-      <link>http://localhost:1313/posts/how-to-choose-the-best-meeting-room-booking-software/</link>
+      <link>http://localhost:62587/posts/how-to-choose-the-best-meeting-room-booking-software/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-to-choose-the-best-meeting-room-booking-software/</guid>
+      <guid>http://localhost:62587/posts/how-to-choose-the-best-meeting-room-booking-software/</guid>
       <description>Learn how to select the best meeting room booking software. Explore common challenges, scalability concerns &amp;amp; the unique benefits of PlaceOS.</description>
     </item>
     <item>
       <title>Webinar: Campus Management Systems with Cisco Meraki</title>
-      <link>http://localhost:1313/posts/webinar-campus-management-systems-with-cisco-meraki/</link>
+      <link>http://localhost:62587/posts/webinar-campus-management-systems-with-cisco-meraki/</link>
       <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/webinar-campus-management-systems-with-cisco-meraki/</guid>
+      <guid>http://localhost:62587/posts/webinar-campus-management-systems-with-cisco-meraki/</guid>
       <description>Learn how campus management systems leverage occupancy data like Cisco Meraki so that you&amp;rsquo;re not powering empty classrooms on campus.</description>
     </item>
     <item>
       <title>Importance of Energy Data for Commercial Buildings</title>
-      <link>http://localhost:1313/posts/importance-of-energy-data-for-commercial-buildings/</link>
+      <link>http://localhost:62587/posts/importance-of-energy-data-for-commercial-buildings/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/importance-of-energy-data-for-commercial-buildings/</guid>
+      <guid>http://localhost:62587/posts/importance-of-energy-data-for-commercial-buildings/</guid>
       <description>Understand the importance of energy data in commercial buildings. Learn how analytics drive energy reduction and enhance workplace efficiency.</description>
     </item>
     <item>
       <title>Indoor Air Quality Integration: Kaiterra</title>
-      <link>http://localhost:1313/posts/indoor-air-quality-integration-kaiterra/</link>
+      <link>http://localhost:62587/posts/indoor-air-quality-integration-kaiterra/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/indoor-air-quality-integration-kaiterra/</guid>
+      <guid>http://localhost:62587/posts/indoor-air-quality-integration-kaiterra/</guid>
       <description>Enhance indoor air quality with Kaiterra integration. Learn how to monitor and improve air quality for healthier environments. Experience the difference today!</description>
     </item>
     <item>
       <title>Is Your HVAC System Cooling An Empty Office?</title>
-      <link>http://localhost:1313/posts/is-your-hvac-system-cooling-an-empty-office/</link>
+      <link>http://localhost:62587/posts/is-your-hvac-system-cooling-an-empty-office/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/is-your-hvac-system-cooling-an-empty-office/</guid>
+      <guid>http://localhost:62587/posts/is-your-hvac-system-cooling-an-empty-office/</guid>
       <description>Is your HVAC system cooling empty offices? Discover strategies to reduce energy consumption in commercial buildings. Make your HVAC more efficient today!</description>
     </item>
     <item>
       <title>Size Does Matter: The 2% Topping the Energy Charts</title>
-      <link>http://localhost:1313/posts/size-does-matter-the-2-topping-the-energy-charts/</link>
+      <link>http://localhost:62587/posts/size-does-matter-the-2-topping-the-energy-charts/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/size-does-matter-the-2-topping-the-energy-charts/</guid>
+      <guid>http://localhost:62587/posts/size-does-matter-the-2-topping-the-energy-charts/</guid>
       <description>Uncover the secrets of the top 2% in commercial real estate. Achieve energy reduction and lower energy consumption with expert insights. Find out how today!</description>
     </item>
     <item>
       <title>Smart Building Energy analytics</title>
-      <link>http://localhost:1313/posts/smart-building-energy-analytics/</link>
+      <link>http://localhost:62587/posts/smart-building-energy-analytics/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/smart-building-energy-analytics/</guid>
+      <guid>http://localhost:62587/posts/smart-building-energy-analytics/</guid>
       <description>Discover how energy analytics for commercial buildings can enhance efficiency and reduce costs. Leverage data insights to optimize energy consumption today!</description>
     </item>
     <item>
       <title>£93bn of Commercial Real Estate is at Risk, Here’s What To Do</title>
-      <link>http://localhost:1313/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/</link>
+      <link>http://localhost:62587/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/</guid>
+      <guid>http://localhost:62587/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/</guid>
       <description>Unlocking sustainability: UK&amp;rsquo;s mandate &amp;amp; PlaceOS&amp;rsquo;s smart energy solutions reshape real estate&amp;rsquo;s future.</description>
     </item>
     <item>
       <title>LIVE DEMO: Occupancy-Based Energy Automation</title>
-      <link>http://localhost:1313/posts/live-demo-occupancy-based-energy-automation/</link>
+      <link>http://localhost:62587/posts/live-demo-occupancy-based-energy-automation/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-occupancy-based-energy-automation/</guid>
+      <guid>http://localhost:62587/posts/live-demo-occupancy-based-energy-automation/</guid>
       <description>A live demonstration about Occupancy-Based Energy Automation, Our AI Roadmap &amp;amp; New Room Booking Features</description>
     </item>
     <item>
       <title>The world&#39;s largest emitter</title>
-      <link>http://localhost:1313/posts/the-world-s-largest-emitter/</link>
+      <link>http://localhost:62587/posts/the-world-s-largest-emitter/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/the-world-s-largest-emitter/</guid>
+      <guid>http://localhost:62587/posts/the-world-s-largest-emitter/</guid>
       <description>Real estate is the largest asset class on Earth. It’s also the largest emitter of greenhouse gasses.</description>
     </item>
     <item>
       <title>User input equals error: the Elon Musk approach</title>
-      <link>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</link>
+      <link>http://localhost:62587/posts/user-input-equals-error-the-elon-musk-approach/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</guid>
+      <guid>http://localhost:62587/posts/user-input-equals-error-the-elon-musk-approach/</guid>
       <description>Tesla takes the approach, all user input equals error. There’s a lot we can learn from that when we apply that ethos.</description>
     </item>
   </channel>

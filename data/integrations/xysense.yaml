@@ -1,0 +1,15 @@
+id: xy_sense
+entityType: Integration
+name: XY Sense
+vendor: XY Sense
+category:
+- occupancy_sensor
+description: XY Sense uses ultra-wideband sensors to track occupancy in real-time
+  across open-plan offices and zones.
+common_data_available:
+- Occupancy
+- Space Utilization
+- Desk Occupancy
+- Room Occupancy
+tags:
+- xy_sense

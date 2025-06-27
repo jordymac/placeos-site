@@ -1,0 +1,14 @@
+id: pointgrab
+entityType: Integration
+name: PointGrab
+vendor: PointGrab
+category:
+- occupancy_sensor
+description: PointGrab uses computer vision to detect presence and count people in
+  spaces with high accuracy.
+common_data_available:
+- People count
+- Occupancy
+- Dwell Time
+tags:
+- pointgrab

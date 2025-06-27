@@ -1,0 +1,17 @@
+id: cisco_cmx_net
+entityType: Integration
+name: Cisco CMX Network
+vendor: Cisco
+category:
+- network
+description: 'Cisco CMX integration for Wi-Fi location analytics and network-based
+  services.
+
+  '
+common_data_available:
+- Device location estimates
+- Entry/Exit Events
+- Dwell time
+- Heatmaps
+tags:
+- cmx

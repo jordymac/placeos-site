@@ -1,0 +1,12 @@
+id: panasonic
+entityType: Integration
+name: Panasonic
+vendor: Panasonic
+category:
+- displays
+description: Commercial displays and projectors by Panasonic for use in meeting rooms
+  and signage.
+common_data_available:
+- Power Status
+- Input source
+- Display status

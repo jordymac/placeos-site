@@ -1,0 +1,15 @@
+id: rest_api
+entityType: Integration
+name: HTTPS REST / JSON
+vendor: Generic
+category:
+- protocols
+description: Generic REST API interface for sending and receiving JSON-based requests
+  to cloud and device endpoints.
+common_data_available:
+- API Response
+- Authentication headers
+- API Logs
+tags:
+- https
+- json

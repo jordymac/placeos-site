@@ -1,0 +1,12 @@
+id: steinel
+entityType: Integration
+name: Steinel
+vendor: Steinel
+category:
+- occupancy_sensor
+description: Steinel offers motion and presence detectors for energy-efficient lighting
+  and building automation.
+common_data_available:
+- Motion detection
+- Occupancy
+- Sensor health

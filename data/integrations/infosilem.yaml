@@ -1,0 +1,15 @@
+# data/integrations/infosilem.yaml
+id: infosilem
+entityType: Integration
+name: InfoSilem
+vendor: InfoSilem
+category:
+  - resource_booking
+description: Infosilem provides scheduling tools for academic institutions and facilities management.
+common_data_available:
+  - Room schedules
+  - Booking metadata
+  - Utilization reports
+tags:
+  - infosilem
+  - campus

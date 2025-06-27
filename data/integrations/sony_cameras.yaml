@@ -1,0 +1,17 @@
+id: sony_cameras
+entityType: Integration
+name: Sony Cameras
+vendor: Sony
+category:
+- video
+description: 'Sony camera integration supporting CGI and VISCA protocols for PTZ control
+  and streaming.
+
+  '
+common_data_available:
+- Camera status
+- PTZ control
+- Video Stream
+tags:
+- sony
+- camera

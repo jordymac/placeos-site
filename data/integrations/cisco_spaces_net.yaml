@@ -1,0 +1,20 @@
+id: cisco_spaces_net
+entityType: Integration
+name: Cisco Spaces Network
+vendor: Cisco
+category:
+- network
+description: 'Cisco Spaces location and analytics platform for real-time network-based
+  location services.
+
+  '
+common_data_available:
+- Occupancy
+- Location Tracking
+- People Count
+- Dwell times
+tags:
+- cisco
+- network
+- location_tracking
+- occupancy

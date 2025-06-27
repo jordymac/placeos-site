@@ -1,0 +1,14 @@
+# data/integrations/whispir.yaml
+id: whispir
+entityType: Integration
+name: Whispir
+vendor: Whispir
+category:
+  - messaging
+description: Whispir offers enterprise messaging services including SMS, email, and voice for alerts and workflows.
+common_data_available:
+  - Message ID
+  - Delivery receipts
+  - Notification logs
+tags:
+  - whispir

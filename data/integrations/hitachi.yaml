@@ -1,0 +1,15 @@
+id: hitachi
+entityType: Integration
+name: Hitachi Displays
+vendor: Hitachi
+category:
+- displays
+description: Commercial displays and projectors from Hitachi with control interfaces
+  for AV integration.
+common_data_available:
+- Power Status
+- Input source
+- Display errors
+tags:
+- hitachi
+- display

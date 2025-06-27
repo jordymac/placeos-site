@@ -1,0 +1,21 @@
+id: meraki_mv
+entityType: Integration
+name: Meraki MV
+vendor: Cisco
+category:
+- occupancy_sensor
+- camera
+description: 'Cisco Meraki MV smart cameras provide edge-processed occupancy detection,
+  motion sensing, and people-counting via the MV Sense API. Ideal for space  utilization,
+  workplace analytics, and smart building automation.
+
+  '
+common_data_available:
+- People count (in defined zones)
+- Motion detection
+- Entry/Exit Events
+- Dwell time
+- Space Utilization
+tags:
+- meraki
+- camera

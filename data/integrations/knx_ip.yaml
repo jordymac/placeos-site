@@ -1,0 +1,15 @@
+# data/integrations/knx_ip.yaml
+id: knx_ip
+entityType: Integration
+name: KNX (IP Gateway)
+vendor: KNX Association
+category:
+  - protocols
+description: >
+  KNX IP Gateways enable communication between building automation systems using the KNX standard over IP networks.
+common_data_available:
+  - Lighting commands
+  - HVAC control messages
+  - Device state
+tags:
+  - knx

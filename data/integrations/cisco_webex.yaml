@@ -1,0 +1,18 @@
+id: cisco_webex_instant_connect
+entityType: Integration
+name: Cisco Webex Instant Connect
+vendor: Cisco
+category:
+- video
+description: 'Instant session integration for Webex endpoints, enabling one-click
+  meeting launches and quick-join workflows.
+
+  '
+common_data_available:
+- Meeting participation
+- Call Logs
+- Device pairing
+- Space Utilization
+tags:
+- cisco
+- webex

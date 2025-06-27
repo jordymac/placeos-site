@@ -1,0 +1,15 @@
+# data/integrations/signalgraph.yaml
+id: signalgraph
+entityType: Integration
+name: SignalGraph
+vendor: SignalGraph
+category:
+  - Other
+description: >
+  SignalGraph data integration for time-series
+  signal processing and monitoring.
+supportedFeatures:
+  - Time Series Signal Processing
+  - Time Series Signal Monitoring
+tags:
+  - signalgraph

@@ -1,0 +1,16 @@
+id: environmental_sensor
+entityType: Integration
+name: Generic Environmental Sensor
+vendor: Generic
+category:
+- environmental_sensor
+description: Aggregated interface for sensors tracking temperature, humidity, air
+  quality, and CO₂.
+common_data_available:
+- Temperature
+- Humidity
+- CO₂ levels
+- Air Quality Index
+tags:
+- sensor
+- environmental

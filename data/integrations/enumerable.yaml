@@ -1,0 +1,14 @@
+# data/integrations/enumerable.yaml
+id: enumerable
+entityType: Integration
+name: Enumerable
+vendor: Enumerable
+category:
+  - ai_services
+description: Developer tool to inspect and trace enumerable state machines within PlaceOS drivers.
+common_data_available:
+  - Driver state
+  - Event history
+  - State transitions
+tags:
+  - enumerable

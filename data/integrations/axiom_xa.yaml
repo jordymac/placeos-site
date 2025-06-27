@@ -1,0 +1,18 @@
+id: axiomxa
+entityType: Integration
+name: Axiom XA
+vendor: Axiom Systems
+category:
+- access_control
+description: 'Axiom XA integration for enterprise-grade door control, credential management,
+  and alarm reporting.
+
+  '
+common_data_available:
+- Door Status
+- Entry/Exit Events
+- Credentials
+- Alarm triggers
+tags:
+- axiomxa
+- access

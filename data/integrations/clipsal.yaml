@@ -1,0 +1,17 @@
+# data/integrations/clipsal.yaml
+id: clipsal
+entityType: Integration
+name: Clipsal C-Bus
+vendor: Clipsal
+category:
+  - lighting
+description: >
+  Clipsal C-Bus integration for lighting scene control,
+  dimming, and device status feedback.
+common_data_available:
+  - Lighting circuit state
+  - Scene control
+  - Dimming levels
+tags:
+  - clipsal
+  - cbus

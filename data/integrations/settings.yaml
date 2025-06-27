@@ -1,0 +1,11 @@
+id: settings
+entityType: Integration
+name: Settings
+vendor: Settings
+category:
+- protocols
+description: System configuration and metadata storage used internally by PlaceOS to manage environment and logic setup.
+common_data_available:
+  - Global metadata
+  - Environment variables
+  - Zone mappings

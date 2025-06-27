@@ -1,0 +1,14 @@
+id: williamsav
+entityType: Integration
+name: Williams AV
+vendor: Williams AV
+category:
+- audio
+description: Williams AV provides assistive listening and interpretation audio solutions
+  for inclusive communication.
+common_data_available:
+- Channel usage
+- Battery Status
+- Transmission mode
+tags:
+- williamsav

@@ -1,0 +1,18 @@
+id: atlona_voip
+entityType: Integration
+name: Atlona AV over IP
+vendor: Atlona
+category:
+- av_over_ip
+description: 'Atlona AV-over-IP integration for HDMI-over-Ethernet transport and matrix
+  routing.
+
+  '
+common_data_available:
+- Input/output routing
+- Motion Detection
+- Device Status
+- EDID management
+tags:
+- atlona
+- voip

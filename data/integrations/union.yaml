@@ -1,0 +1,14 @@
+id: union
+entityType: Integration
+name: Union Access
+vendor: PlaceOS
+category:
+- protocols
+description: Union is a PlaceOS service for abstracting device logic and relaying
+  API calls across environments.
+common_data_available:
+- Driver mappings
+- API Status
+- Event handling logs
+tags:
+- union

@@ -2,276 +2,276 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Platform on PlaceOS</title>
-    <link>http://localhost:1313/categories/platform/</link>
+    <link>http://localhost:62587/categories/platform/</link>
     <description>Recent content in Platform on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/platform/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62587/categories/platform/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WorkMate</title>
-      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
+      <link>http://localhost:62587/products/workmate-workplace-solution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
+      <guid>http://localhost:62587/products/workmate-workplace-solution/</guid>
       <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
     </item>
     <item>
       <title>StageHand</title>
-      <link>http://localhost:1313/products/stagehand/</link>
+      <link>http://localhost:62587/products/stagehand/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/stagehand/</guid>
+      <guid>http://localhost:62587/products/stagehand/</guid>
       <description>Remote control for every AV room on campus — from your browser</description>
     </item>
     <item>
       <title>BackOffice</title>
-      <link>http://localhost:1313/products/backoffice/</link>
+      <link>http://localhost:62587/products/backoffice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/backoffice/</guid>
+      <guid>http://localhost:62587/products/backoffice/</guid>
       <description>Command your entire smart environment in one place</description>
     </item>
     <item>
       <title>Visitor Management</title>
-      <link>http://localhost:1313/products/visitor-management-app/</link>
+      <link>http://localhost:62587/products/visitor-management-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/visitor-management-app/</guid>
+      <guid>http://localhost:62587/products/visitor-management-app/</guid>
       <description>Visitor management software so simple, the only thing you do is send the invite, it does everything else</description>
     </item>
     <item>
       <title>VirtualCare</title>
-      <link>http://localhost:1313/products/virtualcare/</link>
+      <link>http://localhost:62587/products/virtualcare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/virtualcare/</guid>
+      <guid>http://localhost:62587/products/virtualcare/</guid>
       <description>Gives clinicians, carers, and patients one system to manage consults, surveys, referrals, Medicare billing, education, and follow-ups — no plugins or patchwork tools.</description>
     </item>
     <item>
       <title>Government Agency - Multi-Tenancy: Space as a Service</title>
-      <link>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</link>
+      <link>http://localhost:62587/projects/multi-tenancy-space-as-a-service/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</guid>
+      <guid>http://localhost:62587/projects/multi-tenancy-space-as-a-service/</guid>
       <description>This Government Agency required a multifunctional and scalable workspace management system to serve various federal agencies. It must accurately authenticate users to manage and charge for space utilization, and provide a scalable model suitable for other government spaces facing underutilization.</description>
     </item>
     <item>
       <title>NSW Health - Integrated Online Health Consultations</title>
-      <link>http://localhost:1313/projects/seamless-online-health-consultations/</link>
+      <link>http://localhost:62587/projects/seamless-online-health-consultations/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/seamless-online-health-consultations/</guid>
+      <guid>http://localhost:62587/projects/seamless-online-health-consultations/</guid>
       <description>Gives clinicians, carers, and patients one system to manage consults, surveys, referrals, Medicare billing, education, and follow-ups — no plugins or patchwork tools.</description>
     </item>
     <item>
       <title>Suncorp - Office downsize from three buildings to one</title>
-      <link>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</link>
+      <link>http://localhost:62587/projects/office-downsize-from-three-buildings-to-one/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</guid>
+      <guid>http://localhost:62587/projects/office-downsize-from-three-buildings-to-one/</guid>
       <description>In preparation for their new office space, Suncorp recognized that they were not perceived as technology innovators and decided to take action. They embarked on a research mission to determine what their ideal technological infrastructure would look like, and then worked backward to identify which specific technologies would help them achieve that goal. Their ultimate objective was to create a system that could serve as the brain of their new building.</description>
     </item>
     <item>
       <title>Canada Needs to Retrofit 482,000 Buildings by 2050—At the Current Pace, It Will Take 70 Years</title>
-      <link>http://localhost:1313/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</link>
+      <link>http://localhost:62587/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</guid>
+      <guid>http://localhost:62587/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</guid>
       <description>Canada must retrofit nearly half a million commercial buildings to meet its 2050 net-zero target, yet the current pace it will take them 70 years to reach it.</description>
     </item>
     <item>
       <title>Platform Power Unleashed: The Strategy Behind Our New Products</title>
-      <link>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</link>
+      <link>http://localhost:62587/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</guid>
+      <guid>http://localhost:62587/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</guid>
       <description>The future of enterprise tech is shifting from SaaS to platform-based solutions. Explore how integration, AI agents, and modular design accelerate growth and in</description>
     </item>
     <item>
       <title>A Guide to Energy Data Collection &amp; Utilization</title>
-      <link>http://localhost:1313/posts/a-guide-to-energy-data-collection-utilization/</link>
+      <link>http://localhost:62587/posts/a-guide-to-energy-data-collection-utilization/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/a-guide-to-energy-data-collection-utilization/</guid>
+      <guid>http://localhost:62587/posts/a-guide-to-energy-data-collection-utilization/</guid>
       <description>How to collect energy data in commercial buildings so that you can find out where you&amp;rsquo;re wasting energy like powering empty spaces.</description>
     </item>
     <item>
       <title>Two core philosophies for smart building design</title>
-      <link>http://localhost:1313/posts/two-core-philosophies-for-smart-building-design/</link>
+      <link>http://localhost:62587/posts/two-core-philosophies-for-smart-building-design/</link>
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/two-core-philosophies-for-smart-building-design/</guid>
+      <guid>http://localhost:62587/posts/two-core-philosophies-for-smart-building-design/</guid>
       <description>Smart building design focuses on user experiences and insights. Avoid common pitfalls like confusing UI with UX or relying too much on dashboards.</description>
     </item>
     <item>
       <title>How to Choose the Best Meeting Room Booking Software</title>
-      <link>http://localhost:1313/posts/how-to-choose-the-best-meeting-room-booking-software/</link>
+      <link>http://localhost:62587/posts/how-to-choose-the-best-meeting-room-booking-software/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-to-choose-the-best-meeting-room-booking-software/</guid>
+      <guid>http://localhost:62587/posts/how-to-choose-the-best-meeting-room-booking-software/</guid>
       <description>Learn how to select the best meeting room booking software. Explore common challenges, scalability concerns &amp;amp; the unique benefits of PlaceOS.</description>
     </item>
     <item>
       <title>Learn About Crystal v1.0.0 for Workplaces</title>
-      <link>http://localhost:1313/posts/learn-about-crystal-v1-0-0-for-workplaces/</link>
+      <link>http://localhost:62587/posts/learn-about-crystal-v1-0-0-for-workplaces/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/learn-about-crystal-v1-0-0-for-workplaces/</guid>
+      <guid>http://localhost:62587/posts/learn-about-crystal-v1-0-0-for-workplaces/</guid>
       <description>Learn how Crystal Lang v1.0.0 enhances your workplace platform. Discover the benefits and improvements brought by this powerful programming language.</description>
     </item>
     <item>
       <title>New Feature: Locking Booking</title>
-      <link>http://localhost:1313/posts/new-feature-locking-booking/</link>
+      <link>http://localhost:62587/posts/new-feature-locking-booking/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/new-feature-locking-booking/</guid>
+      <guid>http://localhost:62587/posts/new-feature-locking-booking/</guid>
       <description>Explore PlaceOS&amp;rsquo;s Locker Booking System: Easy reservations, access control, visual booking, and flexibility for workplaces and visitor management.</description>
     </item>
     <item>
       <title>Webinar: Campus Management Systems with Cisco Meraki</title>
-      <link>http://localhost:1313/posts/webinar-campus-management-systems-with-cisco-meraki/</link>
+      <link>http://localhost:62587/posts/webinar-campus-management-systems-with-cisco-meraki/</link>
       <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/webinar-campus-management-systems-with-cisco-meraki/</guid>
+      <guid>http://localhost:62587/posts/webinar-campus-management-systems-with-cisco-meraki/</guid>
       <description>Learn how campus management systems leverage occupancy data like Cisco Meraki so that you&amp;rsquo;re not powering empty classrooms on campus.</description>
     </item>
     <item>
       <title>Downsizing Your Office? First, Take These 5 Essential Steps</title>
-      <link>http://localhost:1313/posts/downsizing-your-office-first-take-these-5-essential-steps/</link>
+      <link>http://localhost:62587/posts/downsizing-your-office-first-take-these-5-essential-steps/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/downsizing-your-office-first-take-these-5-essential-steps/</guid>
+      <guid>http://localhost:62587/posts/downsizing-your-office-first-take-these-5-essential-steps/</guid>
       <description>Today&amp;rsquo;s work environment has seen dramatic shifts, prompting many companies to consider downsizing their office spaces.</description>
     </item>
     <item>
       <title>Partnership announcement with Monstarlab</title>
-      <link>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</link>
+      <link>http://localhost:62587/posts/partnership-announcement-with-monstarlab/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</guid>
+      <guid>http://localhost:62587/posts/partnership-announcement-with-monstarlab/</guid>
       <description>We are proud to announce our official partnership with global digital consultancy Monstarlab! The partnership will help build</description>
     </item>
     <item>
       <title>Deployment via OpenShift</title>
-      <link>http://localhost:1313/posts/deployment-via-openshift/</link>
+      <link>http://localhost:62587/posts/deployment-via-openshift/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/deployment-via-openshift/</guid>
+      <guid>http://localhost:62587/posts/deployment-via-openshift/</guid>
       <description>Learn how to streamline deployments with OpenShift and Kubernetes. Discover best practices for efficient and scalable application management.</description>
     </item>
     <item>
       <title>Enhancing Commercial Building Sustainability in a Hybrid Workplace</title>
-      <link>http://localhost:1313/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</link>
+      <link>http://localhost:62587/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</guid>
+      <guid>http://localhost:62587/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</guid>
       <description>Explore sustainable practices for hybrid workplaces in commercial buildings. Find out how to reduce energy usage and promote a greener work environment.</description>
     </item>
     <item>
       <title>How BMS Improve Commercial Building Sustainability</title>
-      <link>http://localhost:1313/posts/how-bms-improve-commercial-building-sustainability/</link>
+      <link>http://localhost:62587/posts/how-bms-improve-commercial-building-sustainability/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-bms-improve-commercial-building-sustainability/</guid>
+      <guid>http://localhost:62587/posts/how-bms-improve-commercial-building-sustainability/</guid>
       <description>Explore new integrations that enhance ESG and sustainability in commercial buildings. Achieve your energy reduction goals and sustainability targets today!</description>
     </item>
     <item>
       <title>How to Create a Desk Booking App for Your Office Needs</title>
-      <link>http://localhost:1313/posts/how-to-create-a-desk-booking-app-for-your-office-needs/</link>
+      <link>http://localhost:62587/posts/how-to-create-a-desk-booking-app-for-your-office-needs/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-to-create-a-desk-booking-app-for-your-office-needs/</guid>
+      <guid>http://localhost:62587/posts/how-to-create-a-desk-booking-app-for-your-office-needs/</guid>
       <description>Discover the steps to effectively scope a desk booking app. Optimize your office space with a tailored desk booking solution that meets your requirements.</description>
     </item>
     <item>
       <title>How to Successfully Return to the Office after Covid</title>
-      <link>http://localhost:1313/posts/how-to-successfully-return-to-the-office-after-covid/</link>
+      <link>http://localhost:62587/posts/how-to-successfully-return-to-the-office-after-covid/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-to-successfully-return-to-the-office-after-covid/</guid>
+      <guid>http://localhost:62587/posts/how-to-successfully-return-to-the-office-after-covid/</guid>
       <description>Discover best practices for returning to the office after COVID. Explore how to create a safe and productive work environment in our comprehensive guide.</description>
     </item>
     <item>
       <title>Managing Technology Redundancy in IoT and Smart Buildings</title>
-      <link>http://localhost:1313/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</link>
+      <link>http://localhost:62587/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</guid>
+      <guid>http://localhost:62587/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</guid>
       <description>Learn how to effectively deal with technology redundancy in IoT and smart buildings. Discover strategies to optimize systems and ensure continuous performance.</description>
     </item>
     <item>
       <title>Support for Open Telemetry</title>
-      <link>http://localhost:1313/posts/support-for-open-telemetry/</link>
+      <link>http://localhost:62587/posts/support-for-open-telemetry/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/support-for-open-telemetry/</guid>
+      <guid>http://localhost:62587/posts/support-for-open-telemetry/</guid>
       <description>Explore the power of Open Telemetry in monitoring and improving system performance. Learn how to implement Open Telemetry for better insights and efficiency.</description>
     </item>
     <item>
       <title>Why Too Many Workplace Apps Are Counterproductive</title>
-      <link>http://localhost:1313/posts/why-too-many-workplace-apps-are-counterproductive/</link>
+      <link>http://localhost:62587/posts/why-too-many-workplace-apps-are-counterproductive/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/why-too-many-workplace-apps-are-counterproductive/</guid>
+      <guid>http://localhost:62587/posts/why-too-many-workplace-apps-are-counterproductive/</guid>
       <description>Discover why too many workplace apps can be counterproductive. Learn why the platform approach is better than every workplace app.</description>
     </item>
     <item>
       <title>LIVE DEMO: Indoor Wayfinding &amp; Workplace Management Overhaul</title>
-      <link>http://localhost:1313/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</link>
+      <link>http://localhost:62587/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</link>
       <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</guid>
+      <guid>http://localhost:62587/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</guid>
       <description>A brand new feature powered by a new integration. An overhaul of our workplace management application.</description>
     </item>
     <item>
       <title>Deployment Tooling: Kubernetes</title>
-      <link>http://localhost:1313/posts/deployment-tooling-kubernetes/</link>
+      <link>http://localhost:62587/posts/deployment-tooling-kubernetes/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/deployment-tooling-kubernetes/</guid>
+      <guid>http://localhost:62587/posts/deployment-tooling-kubernetes/</guid>
       <description>Our new deployment tooling will help you get up and running with speed and security at the forefront.</description>
     </item>
     <item>
       <title>Digital twins: think about situations not semantics</title>
-      <link>http://localhost:1313/posts/digital-twins-think-about-situations-not-semantics/</link>
+      <link>http://localhost:62587/posts/digital-twins-think-about-situations-not-semantics/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/digital-twins-think-about-situations-not-semantics/</guid>
+      <guid>http://localhost:62587/posts/digital-twins-think-about-situations-not-semantics/</guid>
       <description>People don’t want to buy a quarter-inch drill. They want a quarter-inch hole. This is what we see with Digital Twins.</description>
     </item>
     <item>
       <title>Four technology integrations to help during covid-19</title>
-      <link>http://localhost:1313/posts/four-technology-integrations-to-help-during-covid-19/</link>
+      <link>http://localhost:62587/posts/four-technology-integrations-to-help-during-covid-19/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/four-technology-integrations-to-help-during-covid-19/</guid>
+      <guid>http://localhost:62587/posts/four-technology-integrations-to-help-during-covid-19/</guid>
       <description>Right now, it’s hard to focus on any workplace user requirement unless we address the biggest challenge: COVID-19.</description>
     </item>
     <item>
       <title>How to create a workplace worth returning to</title>
-      <link>http://localhost:1313/posts/how-to-create-a-workplace-worth-returning-to/</link>
+      <link>http://localhost:62587/posts/how-to-create-a-workplace-worth-returning-to/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-to-create-a-workplace-worth-returning-to/</guid>
+      <guid>http://localhost:62587/posts/how-to-create-a-workplace-worth-returning-to/</guid>
       <description>In this piece, I’m going to discuss how the working environment has changed today and what you can do about it.</description>
     </item>
     <item>
       <title>LIVE DEMO: Energy Analytics Dashboards, Outlook Plugin &amp; More</title>
-      <link>http://localhost:1313/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/</link>
+      <link>http://localhost:62587/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/</guid>
+      <guid>http://localhost:62587/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/</guid>
       <description>A live demonstration of our latest in Commercial Building Energy Analytics, our Outlook Plugin &amp;amp; workplace application.</description>
     </item>
     <item>
       <title>LIVE DEMO: Occupancy-Based Energy Automation</title>
-      <link>http://localhost:1313/posts/live-demo-occupancy-based-energy-automation/</link>
+      <link>http://localhost:62587/posts/live-demo-occupancy-based-energy-automation/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-occupancy-based-energy-automation/</guid>
+      <guid>http://localhost:62587/posts/live-demo-occupancy-based-energy-automation/</guid>
       <description>A live demonstration about Occupancy-Based Energy Automation, Our AI Roadmap &amp;amp; New Room Booking Features</description>
     </item>
     <item>
       <title>LIVE DEMO: Understanding Energy Analytics, Surveys &amp; Catering</title>
-      <link>http://localhost:1313/posts/live-demo-understanding-energy-analytics-surveys-catering/</link>
+      <link>http://localhost:62587/posts/live-demo-understanding-energy-analytics-surveys-catering/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-understanding-energy-analytics-surveys-catering/</guid>
+      <guid>http://localhost:62587/posts/live-demo-understanding-energy-analytics-surveys-catering/</guid>
       <description>A live demo about technical details behind our energy analytics tools, valuable insights from surveys &amp;amp; our catering tool.</description>
     </item>
     <item>
       <title>Office Space Utilization: The Roadmap to Efficiency</title>
-      <link>http://localhost:1313/posts/office-space-utilization-the-roadmap-to-efficiency/</link>
+      <link>http://localhost:62587/posts/office-space-utilization-the-roadmap-to-efficiency/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/office-space-utilization-the-roadmap-to-efficiency/</guid>
+      <guid>http://localhost:62587/posts/office-space-utilization-the-roadmap-to-efficiency/</guid>
       <description>Discover the significance of office space utilization. Dive into key metrics, benefits, and the future of office efficiency.</description>
     </item>
     <item>
       <title>Smart building automation: platforms vs apps</title>
-      <link>http://localhost:1313/posts/smart-building-automation-platforms-vs-apps/</link>
+      <link>http://localhost:62587/posts/smart-building-automation-platforms-vs-apps/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/smart-building-automation-platforms-vs-apps/</guid>
+      <guid>http://localhost:62587/posts/smart-building-automation-platforms-vs-apps/</guid>
       <description>Right now, you’ve likely got at least 30 apps on your phone, what if it was the same for your building?</description>
     </item>
     <item>
       <title>User input equals error: the Elon Musk approach</title>
-      <link>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</link>
+      <link>http://localhost:62587/posts/user-input-equals-error-the-elon-musk-approach/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</guid>
+      <guid>http://localhost:62587/posts/user-input-equals-error-the-elon-musk-approach/</guid>
       <description>Tesla takes the approach, all user input equals error. There’s a lot we can learn from that when we apply that ethos.</description>
     </item>
     <item>
       <title>Why Switch from On-Prem PlaceOS to Cloud Based?</title>
-      <link>http://localhost:1313/posts/why-switch-from-on-prem-placeos-to-cloud-based/</link>
+      <link>http://localhost:62587/posts/why-switch-from-on-prem-placeos-to-cloud-based/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/why-switch-from-on-prem-placeos-to-cloud-based/</guid>
+      <guid>http://localhost:62587/posts/why-switch-from-on-prem-placeos-to-cloud-based/</guid>
       <description>Why move from an on-premise PlaceOS (or even ACAEngine) deployment to a cloud-based PlaceOS solution?</description>
     </item>
   </channel>

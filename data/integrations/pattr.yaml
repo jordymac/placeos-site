@@ -1,0 +1,14 @@
+id: pattr
+entityType: Integration
+name: Pattr
+vendor: Pattr
+category:
+- ai_services
+description: Pattr provides conversational AI tools for intelligent customer and workplace
+  interactions.
+common_data_available:
+- Conversation logs
+- Intent detection
+- API Response
+tags:
+- pattr

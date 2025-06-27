@@ -1,0 +1,15 @@
+id: digitalio
+entityType: Integration
+name: Digital I/O
+vendor: Generic
+category:
+- protocols
+description: Interfaces for digital input/output signaling to trigger or monitor basic
+  binary devices like relays or sensors.
+common_data_available:
+- Input state (on/off)
+- Output control signals
+- Connection Status
+tags:
+- dio
+- protocol

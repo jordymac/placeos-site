@@ -1,0 +1,14 @@
+# data/integrations/knx.yaml
+id: knx
+entityType: Integration
+name: KNX (IP Gateway)
+vendor: KNX Association
+category:
+  - lighting
+description: KNX is a building automation protocol for lighting, blinds, HVAC, and more, typically over twisted-pair wiring.
+common_data_available:
+  - Lighting levels
+  - Blind position
+  - Sensor readings
+tags:
+  - knx

@@ -1,0 +1,15 @@
+id: hp_aruba_ale
+entityType: Integration
+name: HP Aruba ALE
+vendor: Hewlett Packard
+category:
+- rtls
+description: Aruba Analytics and Location Engine (ALE) processes Wi-Fi signal data
+  to provide location insights.
+common_data_available:
+- Occupancy
+- Location Tracking
+- Dwell time
+tags:
+- aruba
+- ale

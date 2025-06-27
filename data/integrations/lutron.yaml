@@ -1,0 +1,11 @@
+id: lutron
+entityType: Integration
+name: Lutron
+vendor: Lutron
+category:
+- lighting
+description: Lutron systems offer advanced lighting and shade control with integration capabilities.
+common_data_available:
+  - Lighting levels
+  - Scene states
+  - Shade position

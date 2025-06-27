@@ -13,7 +13,7 @@ theme = "til"
     defaultImage = "static/PlaceOS.jpg"
 
 [params.author]
-    name = 'John Doe'
+    name = 'PlaceOS'
 
 [params.products]
     pageSize = 20

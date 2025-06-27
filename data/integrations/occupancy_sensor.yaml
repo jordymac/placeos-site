@@ -1,0 +1,14 @@
+id: occupancy_sensor
+entityType: Integration
+name: Generic Occupancy Sensor
+vendor: Generic
+category:
+- occupancy_sensor
+description: General integration interface for presence detection and people counting
+  sensors.
+common_data_available:
+- Occupancy
+- People count
+tags:
+- sensor
+- occupancy

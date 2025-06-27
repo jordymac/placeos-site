@@ -1,0 +1,17 @@
+# data/integrations/sms.yaml
+id: sms
+entityType: Integration
+name: SMS (MessageMedia / Whispir / Amazon SNS)
+vendor: Various
+category:
+  - messaging
+description: SMS messaging services including integrations with Amazon SNS, MessageMedia, and Whispir for outbound notifications.
+common_data_available:
+  - Message status
+  - Delivery logs
+  - Recipient metadata
+tags:
+  - sms
+  - messagemedia
+  - whispir
+  - sns

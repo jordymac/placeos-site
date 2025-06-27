@@ -1,0 +1,19 @@
+# data/integrations/azure_ad.yaml
+id: azure_ad
+entityType: Integration
+name: Azure AD (via MS Graph API)
+vendor: Microsoft
+category:
+  - active_directory
+description: >
+  Connect to Azure Active Directory using the Microsoft Graph API to
+  synchronize users, groups, and directory data into PlaceOS.
+common_data_available:
+  - User login events
+  - Group membership
+  - Access tokens
+  - User metadata
+tags:
+  - azure
+  - graph_api
+  - directory

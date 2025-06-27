@@ -1,0 +1,15 @@
+# data/integrations/company3m.yaml
+id: company3m
+entityType: Integration
+name: 3M
+vendor: 3M
+category:
+  - sensors
+description: 3M manufactures identification, privacy, and safety systems used in secure environments.
+common_data_available:
+  - Device state
+  - Authentication logs
+  - Event triggers
+tags:
+  - 3m
+  - sensor

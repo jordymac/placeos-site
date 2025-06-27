@@ -1,0 +1,14 @@
+id: secureos
+entityType: Integration
+name: SecureOS
+vendor: SecureOS
+category:
+- security
+description: SecureOS provides a secure operating system for critical infrastructure
+  with threat detection and incident response tools.
+common_data_available:
+- Access Logs
+- Threat alerts
+- System status
+tags:
+- secureos

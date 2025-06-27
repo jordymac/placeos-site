@@ -1,0 +1,12 @@
+# data/integrations/stripe.yaml
+id: stripe
+entityType: Integration
+name: Stripe
+vendor: Stripe
+category:
+  - protocols
+description: Stripe API for handling payments, subscriptions, and transactional notifications in integrated platforms.
+common_data_available:
+  - Transaction metadata
+  - Customer ID
+  - Payment status

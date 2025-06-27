@@ -1,0 +1,17 @@
+id: gantner_relaxx_lockers
+entityType: Integration
+name: Gantner Relaxx Lockers
+vendor: Gantner
+category:
+- lockers
+description: Gantner smart locker systems support user authentication and real-time
+  locker status monitoring.
+common_data_available:
+- Locker usage status
+- Credentials
+- Access Logs
+- Locker status
+- Lock/Unlock
+tags:
+- gantner
+- lockers

@@ -1,0 +1,12 @@
+id: rhombus
+entityType: Integration
+name: Rhombus
+vendor: Rhombus
+category:
+- cameras
+description: Rhombus provides smart security cameras with cloud-based analytics and
+  motion detection capabilities.
+common_data_available:
+- Motion Detection
+- People count
+- Camera Status

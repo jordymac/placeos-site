@@ -1,0 +1,11 @@
+id: denon
+entityType: Integration
+name: Denon
+vendor: Denon
+category:
+- audio
+description: Denon offers amplifiers and AV receivers used in commercial and residential AV setups.
+common_data_available:
+  - Power status
+  - Volume level
+  - Input source

@@ -1,0 +1,13 @@
+# data/integrations/epson.yaml
+id: epson
+entityType: Integration
+name: Epson
+vendor: Epson
+category:
+  - displays
+description: Epson projectors used for presentations and digital signage in classrooms and meeting spaces.
+common_data_available:
+  - Power status
+  - Input source
+  - Lamp hours
+  - Error codes

@@ -1,0 +1,15 @@
+id: mediasite_capture
+entityType: Integration
+name: MediaSite Capture
+vendor: Sonic Foundry
+category:
+- video
+description: Mediasite provides lecture capture and video streaming platforms for
+  education and enterprise.
+common_data_available:
+- Recording status
+- Video Stream
+- Playback analytics
+tags:
+- mediasite
+- capture

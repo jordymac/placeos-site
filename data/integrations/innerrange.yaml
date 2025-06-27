@@ -1,0 +1,16 @@
+id: innerrange
+entityType: Integration
+name: Inner Range
+vendor: Inner Range
+category:
+- access_control
+description: Inner Range access control systems support door status monitoring, credential
+  verification, and alarm handling.
+common_data_available:
+- Access Logs
+- Door Status
+- Credentials
+- Alarm Events
+tags:
+- integriti
+- access

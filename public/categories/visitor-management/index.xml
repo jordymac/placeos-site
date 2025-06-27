@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Visitor Management on PlaceOS</title>
-    <link>http://localhost:1313/categories/visitor-management/</link>
+    <link>http://localhost:62587/categories/visitor-management/</link>
     <description>Recent content in Visitor Management on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/visitor-management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62587/categories/visitor-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WorkMate</title>
-      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
+      <link>http://localhost:62587/products/workmate-workplace-solution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
+      <guid>http://localhost:62587/products/workmate-workplace-solution/</guid>
       <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
     </item>
     <item>
       <title>Visitor Management</title>
-      <link>http://localhost:1313/products/visitor-management-app/</link>
+      <link>http://localhost:62587/products/visitor-management-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/visitor-management-app/</guid>
+      <guid>http://localhost:62587/products/visitor-management-app/</guid>
       <description>Visitor management software so simple, the only thing you do is send the invite, it does everything else</description>
     </item>
     <item>
       <title>Government Agency - Multi-Tenancy: Space as a Service</title>
-      <link>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</link>
+      <link>http://localhost:62587/projects/multi-tenancy-space-as-a-service/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</guid>
+      <guid>http://localhost:62587/projects/multi-tenancy-space-as-a-service/</guid>
       <description>This Government Agency required a multifunctional and scalable workspace management system to serve various federal agencies. It must accurately authenticate users to manage and charge for space utilization, and provide a scalable model suitable for other government spaces facing underutilization.</description>
     </item>
     <item>
       <title>Suncorp - Office downsize from three buildings to one</title>
-      <link>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</link>
+      <link>http://localhost:62587/projects/office-downsize-from-three-buildings-to-one/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</guid>
+      <guid>http://localhost:62587/projects/office-downsize-from-three-buildings-to-one/</guid>
       <description>In preparation for their new office space, Suncorp recognized that they were not perceived as technology innovators and decided to take action. They embarked on a research mission to determine what their ideal technological infrastructure would look like, and then worked backward to identify which specific technologies would help them achieve that goal. Their ultimate objective was to create a system that could serve as the brain of their new building.</description>
     </item>
     <item>
       <title>Auto Assign Desks &amp; Car Spaces</title>
-      <link>http://localhost:1313/posts/auto-assign-desks-car-spaces/</link>
+      <link>http://localhost:62587/posts/auto-assign-desks-car-spaces/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/auto-assign-desks-car-spaces/</guid>
+      <guid>http://localhost:62587/posts/auto-assign-desks-car-spaces/</guid>
       <description>Auto-assign desks by department and car spaces with ANPR integration for efficient visitor management.</description>
     </item>
     <item>
       <title>New Feature: Locking Booking</title>
-      <link>http://localhost:1313/posts/new-feature-locking-booking/</link>
+      <link>http://localhost:62587/posts/new-feature-locking-booking/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/new-feature-locking-booking/</guid>
+      <guid>http://localhost:62587/posts/new-feature-locking-booking/</guid>
       <description>Explore PlaceOS&amp;rsquo;s Locker Booking System: Easy reservations, access control, visual booking, and flexibility for workplaces and visitor management.</description>
     </item>
     <item>
       <title>July 2024 PlaceOS Product Updates</title>
-      <link>http://localhost:1313/posts/july-2024-placeos-product-updates/</link>
+      <link>http://localhost:62587/posts/july-2024-placeos-product-updates/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/july-2024-placeos-product-updates/</guid>
+      <guid>http://localhost:62587/posts/july-2024-placeos-product-updates/</guid>
       <description>Non-bookable rooms now show real-time status, desk height management for Floorsense desks, and real-time parking availability.</description>
     </item>
     <item>
       <title>Enhancing Commercial Building Sustainability in a Hybrid Workplace</title>
-      <link>http://localhost:1313/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</link>
+      <link>http://localhost:62587/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</guid>
+      <guid>http://localhost:62587/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</guid>
       <description>Explore sustainable practices for hybrid workplaces in commercial buildings. Find out how to reduce energy usage and promote a greener work environment.</description>
     </item>
     <item>
       <title>Indoor Wayfinding for your Workplace</title>
-      <link>http://localhost:1313/posts/indoor-wayfinding-for-your-workplace/</link>
+      <link>http://localhost:62587/posts/indoor-wayfinding-for-your-workplace/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/indoor-wayfinding-for-your-workplace/</guid>
+      <guid>http://localhost:62587/posts/indoor-wayfinding-for-your-workplace/</guid>
       <description>Enhance workplace navigation with indoor wayfinding technology. Explore how these solutions can streamline movement and boost productivity in your office.</description>
     </item>
     <item>
       <title>LIVE DEMO: Concierge - Managing Workplace Experience</title>
-      <link>http://localhost:1313/posts/live-demo-concierge-managing-workplace-experience/</link>
+      <link>http://localhost:62587/posts/live-demo-concierge-managing-workplace-experience/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-concierge-managing-workplace-experience/</guid>
+      <guid>http://localhost:62587/posts/live-demo-concierge-managing-workplace-experience/</guid>
       <description>Elevate your hybrid workplace with our advanced workplace management app. Discover how to enhance the workplace experience and streamline operations.</description>
     </item>
     <item>
       <title>LIVE DEMO: WorkMate Native iOS &amp; Android</title>
-      <link>http://localhost:1313/posts/live-demo-workmate-native-ios-android/</link>
+      <link>http://localhost:62587/posts/live-demo-workmate-native-ios-android/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-workmate-native-ios-android/</guid>
+      <guid>http://localhost:62587/posts/live-demo-workmate-native-ios-android/</guid>
       <description>Discover Workmate, the ultimate workplace management app for iOS and Android. Join our live demo to see how it enhances productivity and streamlines tasks.</description>
     </item>
     <item>
       <title>Workplace Management App: New Features and Enhancements</title>
-      <link>http://localhost:1313/posts/workplace-management-app-new-features-and-enhancements/</link>
+      <link>http://localhost:62587/posts/workplace-management-app-new-features-and-enhancements/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/workplace-management-app-new-features-and-enhancements/</guid>
+      <guid>http://localhost:62587/posts/workplace-management-app-new-features-and-enhancements/</guid>
       <description>Explore the new features of the refreshed Concierge workplace management app. Improve efficiency and optimize your workplace with our innovative solutions.</description>
     </item>
     <item>
       <title>LIVE DEMO: Visitor Management &amp; Locker Booking</title>
-      <link>http://localhost:1313/posts/live-demo-visitor-management-locker-booking/</link>
+      <link>http://localhost:62587/posts/live-demo-visitor-management-locker-booking/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-visitor-management-locker-booking/</guid>
+      <guid>http://localhost:62587/posts/live-demo-visitor-management-locker-booking/</guid>
       <description>Looking to streamline your workplace&amp;rsquo;s visitor management workflows and enhance the visitor experience?</description>
     </item>
     <item>
       <title>Smart building automation: platforms vs apps</title>
-      <link>http://localhost:1313/posts/smart-building-automation-platforms-vs-apps/</link>
+      <link>http://localhost:62587/posts/smart-building-automation-platforms-vs-apps/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/smart-building-automation-platforms-vs-apps/</guid>
+      <guid>http://localhost:62587/posts/smart-building-automation-platforms-vs-apps/</guid>
       <description>Right now, you’ve likely got at least 30 apps on your phone, what if it was the same for your building?</description>
     </item>
     <item>
       <title>The most neglected smarting building UX</title>
-      <link>http://localhost:1313/posts/the-most-neglected-smarting-building-ux/</link>
+      <link>http://localhost:62587/posts/the-most-neglected-smarting-building-ux/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/the-most-neglected-smarting-building-ux/</guid>
+      <guid>http://localhost:62587/posts/the-most-neglected-smarting-building-ux/</guid>
       <description>I&amp;rsquo;ll give you a hint, it&amp;rsquo;s UX that involves inviting guests to your building for a meeting or sales pitch.</description>
     </item>
     <item>
       <title>User Interface Templates</title>
-      <link>http://localhost:1313/posts/user-interface-templates/</link>
+      <link>http://localhost:62587/posts/user-interface-templates/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/user-interface-templates/</guid>
+      <guid>http://localhost:62587/posts/user-interface-templates/</guid>
       <description>Standard interface templates for any current and future partners to develop their own custom products.</description>
     </item>
     <item>
       <title>When to go with a custom or packaged smart building solution</title>
-      <link>http://localhost:1313/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</link>
+      <link>http://localhost:62587/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</guid>
+      <guid>http://localhost:62587/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</guid>
       <description>When it comes to smart building solutions, choosing when to go custom or packaged is difficult. Here&amp;rsquo;s how to approach it.</description>
     </item>
   </channel>

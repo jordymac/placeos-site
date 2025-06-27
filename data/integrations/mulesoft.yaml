@@ -1,0 +1,15 @@
+id: mulesoft
+entityType: Integration
+name: MuleSoft
+vendor: MuleSoft
+category:
+- protocols
+description: MuleSoft provides API integration and orchestration services for connecting
+  enterprise systems.
+common_data_available:
+- API Logs
+- Authentication tokens
+- Data payload mappings
+tags:
+- mulesoft
+- iPaaS

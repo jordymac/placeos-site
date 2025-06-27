@@ -1,0 +1,14 @@
+# data/integrations/dali.yaml
+id: dali
+entityType: Integration
+name: DALI
+vendor: DiiA
+category:
+  - lighting
+description: DALI is a standard protocol for intelligent lighting systems including dimming and automation.
+common_data_available:
+  - Lighting level
+  - Scene configuration
+  - Power status
+tags:
+  - dali
