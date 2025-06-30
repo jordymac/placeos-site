@@ -10,7 +10,7 @@ theme = "til"
     dateFormat = "2006-01-02"
     showGraph = true
     customCSS = ["css/custom.css"]
-    defaultImage = "static/PlaceOS.jpg"
+    defaultImage = "/images/PlaceOS.jpg"
 
 [params.author]
     name = 'PlaceOS'
