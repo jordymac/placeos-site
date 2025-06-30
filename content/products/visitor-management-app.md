@@ -42,7 +42,6 @@ cta:
 categories:
   - AI
   - AV
-  - FAQs
   - Parking
   - Platform
   - Product

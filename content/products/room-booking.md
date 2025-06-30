@@ -39,9 +39,6 @@ categories:
   - Automation
   - Configuration
   - Coworking
-  - Enterprise
-  - FAQs
-  - How-To
   - Interface
   - Meeting Rooms
   - Occupancy

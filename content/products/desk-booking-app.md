@@ -36,7 +36,6 @@ cta:
 categories:
   - Analytics
   - Desk Booking
-  - FAQs
   - Interface
   - Neighborhoods
   - Occupancy

@@ -33,7 +33,6 @@ categories:
   - Automation
   - Dashboards
   - Energy
-  - FAQs
   - HVAC
   - Occupancy
   - Systems

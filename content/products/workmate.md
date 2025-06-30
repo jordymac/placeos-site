@@ -73,9 +73,7 @@ categories:
   - Configuration
   - Desk Booking
   - Drivers
-  - Energy
   - Enterprise
-  - FAQs
   - Interface
   - Meeting Rooms
   - Occupancy
