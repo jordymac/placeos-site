@@ -10,6 +10,14 @@ product_logo: workmate-logo.svg
 summary: >-
   The first workplace management system to combine out-of-the-box simplicity
   with enterprise-level configuration & scalability
+schema:
+  type: "SoftwareApplication"
+  applicationCategory: "BusinessApplication"
+  operatingSystem: "Web-based"
+  softwareVersion: "2.2505.1"
+  provider:
+    name: "PlaceOS"
+    url: "https://placeos.com"
 hasTopic:
   - "Hybrid Work"
   - "Space Utilization"

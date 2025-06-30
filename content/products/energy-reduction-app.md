@@ -6,6 +6,14 @@ summary: "Align energy use in spaces with actual occupancy, reduce HVAC\_&\_ligh
 hero_image: "images/products/energy-reduction-app/energy-reduction-hero-image-dark.webp"
 image: images/products/energy-reduction-app/energy-reduction-hero-image-dark.webp
 product_logo: energy-reduction-app-logo.svg
+schema:
+  type: "SoftwareApplication"
+  applicationCategory: "BusinessApplication"
+  operatingSystem: "Web-based"
+  softwareVersion: "1"
+  provider:
+    name: "PlaceOS"
+    url: "https://placeos.com"
 hasTopic:
 isMainTopicOf:
 queries:

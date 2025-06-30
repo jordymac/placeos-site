@@ -8,6 +8,14 @@ hero_image: "images/products/lenspath/lenspath-hero-image-dark.webp"
 image: images/products/lenspath/lenspath-hero-image-dark.webp
 product_logo: lenspath-logo.svg
 summary: LensPath is a no-code computer vision tool that turns any camera feed into real-time actions
+schema:
+  type: "SoftwareApplication"
+  applicationCategory: "BusinessApplication"
+  operatingSystem: "Web-based"
+  softwareVersion: "1"
+  provider:
+    name: "PlaceOS"
+    url: "https://placeos.com"
 hasTopic:
 isMainTopicOf:
 queries:

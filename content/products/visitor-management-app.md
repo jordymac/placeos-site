@@ -7,6 +7,14 @@ image: images/products/backoffice/backoffice-hero-image-alt.webp
 summary: >-
   Visitor management software so simple, the only thing you do is send the
   invite, it does everything else
+schema:
+  type: "SoftwareApplication"
+  applicationCategory: "BusinessApplication"
+  operatingSystem: "Web-based"
+  softwareVersion: "2.2505.1"
+  provider:
+    name: "PlaceOS"
+    url: "https://placeos.com"
 product_logo: visitor-management-app-logo.svg
 hasTopic:
 isMainTopicOf:

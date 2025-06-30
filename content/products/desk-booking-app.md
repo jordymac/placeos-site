@@ -6,6 +6,14 @@ summary: Configurable desk booking management at scale without no hardware lock-
 hero_image: images/products/desk-booking-app/desk-booking-hero-image.webp
 image: images/products/desk-booking-app/desk-booking-hero-image.webp
 product_logo: desk-booking-app-logo.svg
+schema:
+  type: "SoftwareApplication"
+  applicationCategory: "BusinessApplication"
+  operatingSystem: "Web-based"
+  softwareVersion: "2.2505.1"
+  provider:
+    name: "PlaceOS"
+    url: "https://placeos.com"
 hasTopic: desk booking system
 isMainTopicOf: desk booking
 queries:

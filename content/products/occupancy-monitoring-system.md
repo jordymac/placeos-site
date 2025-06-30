@@ -3,6 +3,14 @@ title: Occupancy Monitoring System
 slug: occupancy-monitoring  
 weight: 6
 summary: "A self-hosted occupancy monitoring system that works with the infrastructure you already have — no new sensors needed." 
+schema:
+  type: "SoftwareApplication"
+  applicationCategory: "BusinessApplication"
+  operatingSystem: "Web-based"
+  softwareVersion: "1"
+  provider:
+    name: "PlaceOS"
+    url: "https://placeos.com"
 hero_image: "images/products/occupancy-monitoring-system/occupancy-monitoring-hero-image.webp"
 image: images/products/lenspath/lenspath-hero-image-dark.webp
 product_logo: occupancy-monitoring-logo.svg  

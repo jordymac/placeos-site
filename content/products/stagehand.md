@@ -3,6 +3,14 @@ title: StageHand
 slug: stagehand
 brand:
   name: PlaceOS
+schema:
+  type: "SoftwareApplication"
+  applicationCategory: "AudioVisualApplication"
+  operatingSystem: "Web-based"
+  softwareVersion: "1"
+  provider:
+    name: "PlaceOS"
+    url: "https://placeos.com"
 weight: 2
 hero_image: images/products/stagehand/stagehand-hero-image.webp
 image: images/products/stagehand/stagehand-hero-image.webp

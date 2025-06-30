@@ -1,10 +1,55 @@
 {{- $base := partial "head/jsonld/base" . -}}
 {{- $brand := site.Params.brandName | default "PlaceOS" -}}
+
+{{- /* Determine schema type based on front matter */ -}}
+{{- $schemaType := "Product" -}}
+{{- if .Params.schema.type -}}
+  {{- $schemaType = .Params.schema.type -}}
+{{- end -}}
+
 {{- $data := merge $base ( dict
-  "@type" "Product"
+  "@type" $schemaType
   "brand" (dict "@type" "Brand" "name" $brand)
 ) -}}
 
+{{- /* Software Application specific fields */ -}}
+{{- if eq $schemaType "SoftwareApplication" "WebApplication" "MobileApplication" -}}
+  {{- with .Params.schema.applicationCategory }}
+    {{- $data = merge $data ( dict "applicationCategory" . ) }}
+  {{- end }}
+  
+  {{- with .Params.schema.operatingSystem }}
+    {{- $data = merge $data ( dict "operatingSystem" . ) }}
+  {{- end }}
+  
+  {{- with .Params.schema.softwareVersion }}
+    {{- $data = merge $data ( dict "softwareVersion" . ) }}
+  {{- end }}
+  
+  {{- with .Params.schema.releaseNotes }}
+    {{- $data = merge $data ( dict "releaseNotes" . ) }}
+  {{- end }}
+  
+  {{- with .Params.schema.downloadUrl }}
+    {{- $data = merge $data ( dict "downloadUrl" . ) }}
+  {{- end }}
+  
+  {{- with .Params.schema.installUrl }}
+    {{- $data = merge $data ( dict "installUrl" . ) }}
+  {{- end }}
+  
+  {{- with .Params.schema.screenshot }}
+    {{- $data = merge $data ( dict "screenshot" . ) }}
+  {{- end }}
+  
+  {{- with .Params.schema.provider }}
+    {{- $providerData := dict "@type" "Organization" "name" .name }}
+    {{- with .url }}{{ $providerData = merge $providerData ( dict "url" . ) }}{{ end }}
+    {{- $data = merge $data ( dict "provider" $providerData ) }}
+  {{- end }}
+{{- end -}}
+
+{{- /* Standard Product/Software fields */ -}}
 {{- with .Params.category }}
   {{- $data = merge $data ( dict "category" . ) }}
 {{- end }}

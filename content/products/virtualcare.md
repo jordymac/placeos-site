@@ -9,6 +9,14 @@ summary: >-
   Gives clinicians, carers, and patients one system to manage consults, surveys,
   referrals, Medicare billing, education, and follow-ups — no plugins or
   patchwork tools.
+schema:
+  type: "SoftwareApplication"
+  applicationCategory: "HealthcareApplication"
+  operatingSystem: "Web-based"
+  softwareVersion: "1"
+  provider:
+    name: "PlaceOS"
+    url: "https://placeos.com"
 hasTopic:
 isMainTopicOf:
 queries:

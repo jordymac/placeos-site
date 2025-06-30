@@ -5,6 +5,14 @@ weight: 8
 summary: >-
   A simple, self-hosted room booking app you don't pay per room per month, you
   own it
+schema:
+  type: "SoftwareApplication"
+  applicationCategory: "BusinessApplication"
+  operatingSystem: "Web-based"
+  softwareVersion: "1"
+  provider:
+    name: "PlaceOS"
+    url: "https://placeos.com"  
 hero_image: "images/products/room-booking-once/room-booking-hero-image-light.webp"
 image: images/products/room-booking-once/room-booking-hero-image-light.webp
 product_logo: room-booking-logo.svg

@@ -179,6 +179,15 @@ viewBox="0 0 512 512">
         cursor: pointer;
         font-weight: bold;
     }
+    .integration-card {
+        transition: background-color 0.2s ease;
+    }
+    .light .integration-card:hover {
+        background-color: var(--taxonomy-bg);
+    }
+    .dark .integration-card:hover {
+        background-color: var(--taxonomy-bg);
+    }
 </style>
 
 <div class="container">
@@ -234,7 +243,7 @@ viewBox="0 0 512 512">
                     const integrationElement = document.createElement("div");
                     integrationElement.className = "mb-4";
                     integrationElement.innerHTML = `
-                        <div class="border rounded p-4 mb-4 h-full">
+                        <div class="border rounded p-4 mb-4 h-full integration-card">
                             <h5 class="font-semibold mb-2">${integration.name}</h5>
                             <p class="text-sm">${integration.description || ''}</p>
                         </div>

@@ -5,6 +5,14 @@ weight: 4
 hero_image: images/products/backoffice/backoffice-hero-image-alt.webp
 image: images/products/backoffice/backoffice-hero-image-alt.webp
 product_logo: backoffice-logo.svg
+schema:
+  type: "SoftwareApplication"
+  applicationCategory: "BusinessApplication"
+  operatingSystem: "Web-based"
+  softwareVersion: "2.2505.1"
+  provider:
+    name: "PlaceOS"
+    url: "https://placeos.com"
 hasTopic:
 isMainTopicOf:
 queries:
