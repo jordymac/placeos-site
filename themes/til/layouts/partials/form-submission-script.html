@@ -1,0 +1,136 @@
+{{- $formId := .formId -}}
+{{- $thankYouId := .thankYouId -}}
+{{- $redirectInputId := .redirectInputId -}}
+{{- $iframeName := .iframeName -}}
+
+<!-- Hidden iframe for form submission -->
+<iframe name="{{ $iframeName }}" style="display:none;"></iframe>
+
+<script>
+  (function(){
+    function initForm(formId, thankYouId, redirectInputId, iframeName){
+      const form = document.getElementById(formId);
+      const thankYou = document.getElementById(thankYouId);
+      const redirectInput = document.getElementById(redirectInputId);
+      const iframe = document.querySelector('iframe[name="' + iframeName + '"]');
+      
+      if (!form || !thankYou || !redirectInput || !iframe) {
+        console.log('Form elements not found:', { form, thankYou, redirectInput, iframe });
+        return;
+      }
+
+      // Set redirect URL at runtime
+      redirectInput.value = window.location.origin + window.location.pathname;
+      
+      // Set form target to iframe
+      form.target = iframeName;
+
+      // Track iframe loads to detect completion
+      let loadCount = 0;
+      const handleLoad = function() {
+        loadCount++;
+        console.log('Iframe load event:', loadCount);
+        console.log('Iframe URL:', iframe.contentWindow?.location?.href || 'Cannot access iframe URL');
+        
+        // For debugging, let's also try after just 1 load event
+        if (loadCount === 1) {
+          // Wait a bit longer for potential redirect
+          setTimeout(() => {
+            console.log('Checking after 3 seconds...');
+            if (loadCount === 1) {
+              console.log('Only 1 load event detected, completing anyway');
+              const currentForm = document.getElementById(formId);
+              const currentThankYou = document.getElementById(thankYouId);
+              
+              if (currentForm && currentForm.style) {
+                currentForm.style.display = 'none';
+                console.log('Form hidden (after 1 load)');
+              }
+              if (currentThankYou && currentThankYou.style) {
+                currentThankYou.style.display = 'block';
+                console.log('Thank you shown (after 1 load)');
+              }
+            }
+          }, 3000);
+        }
+        
+        // Second load event means redirect completed
+        if (loadCount === 2) {
+          setTimeout(() => {
+            const currentForm = document.getElementById(formId);
+            const currentThankYou = document.getElementById(thankYouId);
+            
+            if (currentForm && currentForm.style) {
+              currentForm.style.display = 'none';
+              console.log('Form hidden (after 2 loads)');
+            }
+            if (currentThankYou && currentThankYou.style) {
+              currentThankYou.style.display = 'block';
+              console.log('Thank you shown (after 2 loads)');
+            }
+          }, 100);
+          // Remove event listener after completion
+          iframe.removeEventListener('load', handleLoad);
+        }
+      };
+      
+      iframe.addEventListener('load', handleLoad);
+
+      // Ensure form submits to iframe only with Botpoison
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault(); // Prevent default to handle Botpoison first
+        console.log('Form submitted to iframe', e);
+        console.log('Form target:', this.target);
+        console.log('Form action:', this.action);
+        
+        // Stop ALL other event listeners from firing
+        e.stopImmediatePropagation();
+        
+        const submitButton = this.querySelector('button[type="submit"]');
+        if (submitButton) {
+          submitButton.textContent = 'Sending...';
+          submitButton.disabled = true;
+        }
+        
+        try {
+          // Add Botpoison challenge
+          if (window.Botpoison) {
+            const botpoison = new Botpoison({
+              publicKey: 'pk_c7d39b30-2471-4ff9-8f3c-ac7d67a1239b',
+            });
+            
+            console.log('Running Botpoison challenge...');
+            const result = await botpoison.challenge();
+            
+            // Add Botpoison solution to form
+            let botpoisonInput = this.querySelector('input[name="_botpoison"]');
+            if (!botpoisonInput) {
+              botpoisonInput = document.createElement('input');
+              botpoisonInput.type = 'hidden';
+              botpoisonInput.name = '_botpoison';
+              this.appendChild(botpoisonInput);
+            }
+            botpoisonInput.value = result.solution;
+            console.log('Botpoison challenge completed');
+          }
+          
+          // Force form to submit to iframe target
+          this.target = iframeName;
+          
+          // Now submit the form naturally to iframe
+          this.submit();
+          
+        } catch (error) {
+          console.error('Botpoison error:', error);
+          // Submit anyway if Botpoison fails
+          this.target = iframeName;
+          this.submit();
+        }
+      }, true); // Use capture phase to run before other listeners
+    }
+
+    document.addEventListener('DOMContentLoaded', ()=> {
+      initForm('{{ $formId }}', '{{ $thankYouId }}', '{{ $redirectInputId }}', '{{ $iframeName }}');
+    });
+  })();
+</script>

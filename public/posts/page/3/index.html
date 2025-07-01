@@ -649,38 +649,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <script type="text/javascript">
   document.querySelectorAll('form[action^="https://submit-form.com"]').forEach(form => {
-  form.addEventListener('submit', async function (e) {
-    e.preventDefault();
+    
+    if (form.target && form.target.includes('Frame')) {
+      console.log('Skipping Botpoison for iframe form:', form.id);
+      return;
+    }
+    
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
 
-    const botpoison = new Botpoison({
-      publicKey: 'pk_c7d39b30-2471-4ff9-8f3c-ac7d67a1239b',
-    });
-
-    try {
-      const result = await botpoison.challenge();
-
-      const formData = new FormData(form);
-      formData.append('_botpoison', result.solution);
-
-      const response = await fetch(form.action, {
-        method: 'POST',
-        body: formData,
+      const botpoison = new Botpoison({
+        publicKey: 'pk_c7d39b30-2471-4ff9-8f3c-ac7d67a1239b',
       });
 
-      const parent = form.parentElement;
+      try {
+        const result = await botpoison.challenge();
 
-      if (response.ok) {
-        form.style.display = 'none';
-        parent.querySelector('.w-form-done').style.display = 'block';
-      } else {
+        const formData = new FormData(form);
+        formData.append('_botpoison', result.solution);
+
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: formData,
+        });
+
+        const parent = form.parentElement;
+
+        if (response.ok) {
+          form.style.display = 'none';
+          parent.querySelector('.w-form-done').style.display = 'block';
+        } else {
+          parent.querySelector('.w-form-fail').style.display = 'block';
+        }
+      } catch (error) {
+        const parent = form.parentElement;
         parent.querySelector('.w-form-fail').style.display = 'block';
       }
-    } catch (error) {
-      const parent = form.parentElement;
-      parent.querySelector('.w-form-fail').style.display = 'block';
-    }
+    });
   });
-});
 
 </script>
 <script src="/js/anchors.js"></script>

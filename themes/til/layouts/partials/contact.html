@@ -1,11 +1,12 @@
 <form
-  action="https://submit.formspark.io/NNJrw6i1X"
+  action="https://submit-form.com/SSqZ3MZYJ"
   method="POST"
   class="space-y-4 snap-none scroll-target"
   id="contact"
 >
   <!-- Hidden tags -->
-  <input type="hidden" name="tags" value="4024487,3336663"> <section></section>
+  <input type="hidden" name="tags" value="4024487,3336663">
+  <input type="hidden" name="_redirect" id="contactRedirect">
 
   <!-- Standard fields -->
   <div>
@@ -95,46 +96,4 @@
   <p>We appreciate your message and will get back to you within 24 hours.</p>
 </div>
 
-<script>
-  (function(){
-    function initForm(formId, thankYouId){
-      const form = document.getElementById(formId);
-      const thankYou = document.getElementById(thankYouId);
-      if (!form || !thankYou) return;
-
-      form.addEventListener('submit', function(e) {
-        const submitButton = this.querySelector('button[type="submit"]');
-        if (submitButton) {
-          submitButton.textContent = 'Sending...';
-          submitButton.disabled = true;
-        }
-        
-        // Create iframe dynamically for this submission
-        const iframe = document.createElement('iframe');
-        iframe.style.display = 'none';
-        iframe.name = 'dynamicFrame_' + Date.now();
-        document.body.appendChild(iframe);
-        
-        // Set form target to this new iframe
-        this.target = iframe.name;
-        
-        // Listen for iframe load (when form submission completes)
-        iframe.addEventListener('load', function() {
-          // Small delay to ensure submission processed
-          setTimeout(() => {
-            form.style.display = 'none';
-            thankYou.style.display = 'block';
-            // Clean up iframe
-            document.body.removeChild(iframe);
-          }, 500);
-        }, { once: true });
-        
-        // Don't prevent default - let form submit naturally
-      });
-    }
-
-    document.addEventListener('DOMContentLoaded', ()=> {
-      initForm('contact', 'contactThankYou');
-    });
-  })();
-</script>
+{{ partial "form-submission-script" (dict "formId" "contact" "thankYouId" "contactThankYou" "redirectInputId" "contactRedirect" "iframeName" "contactFrame") }}

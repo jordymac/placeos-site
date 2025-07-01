@@ -13,7 +13,7 @@
     </div>
   {{ end }}
 
-  <form id="ctaForm" class="flex flex-row gap-0" method="POST" action="https://submit.formspark.io/NNJrw6i1X">
+  <form id="ctaForm" class="flex flex-row gap-0" method="POST" action="https://submit-form.com/CY23pHiJu">
     <input 
       type="email" 
       name="email" 
@@ -31,6 +31,7 @@
       name="product" 
       value="{{ $.Title }}"
     >
+    <input type="hidden" name="_redirect" id="ctaRedirect">
 
   </form>
 
@@ -40,47 +41,5 @@
     </div>
 
   </div>
-  <script>
-    (function(){
-      function initForm(formId, thankYouId){
-        const form = document.getElementById(formId);
-        const thankYou = document.getElementById(thankYouId);
-        if (!form || !thankYou) return;
-
-        form.addEventListener('submit', function(e) {
-          const submitButton = this.querySelector('button[type="submit"]');
-          if (submitButton) {
-            submitButton.textContent = 'Sending...';
-            submitButton.disabled = true;
-          }
-          
-          // Create iframe dynamically for this submission
-          const iframe = document.createElement('iframe');
-          iframe.style.display = 'none';
-          iframe.name = 'dynamicFrame_' + Date.now();
-          document.body.appendChild(iframe);
-          
-          // Set form target to this new iframe
-          this.target = iframe.name;
-          
-          // Listen for iframe load (when form submission completes)
-          iframe.addEventListener('load', function() {
-            // Small delay to ensure submission processed
-            setTimeout(() => {
-              form.style.display = 'none';
-              thankYou.style.display = 'block';
-              // Clean up iframe
-              document.body.removeChild(iframe);
-            }, 500);
-          }, { once: true });
-          
-          // Don't prevent default - let form submit naturally
-        });
-      }
-
-      document.addEventListener('DOMContentLoaded', ()=> {
-        initForm('ctaForm', 'ctaThankYou');
-      });
-    })();
-  </script>
+  {{ partial "form-submission-script" (dict "formId" "ctaForm" "thankYouId" "ctaThankYou" "redirectInputId" "ctaRedirect" "iframeName" "ctaFrame") }}
 {{ end }}

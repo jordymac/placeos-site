@@ -190,7 +190,7 @@ viewBox="0 0 512 512">
     </div>
   
 
-  <form id="ctaForm" class="flex flex-row gap-0" method="POST" action="https://submit.formspark.io/NNJrw6i1X">
+  <form id="ctaForm" class="flex flex-row gap-0" method="POST" action="https://submit-form.com/CY23pHiJu">
     <input 
       type="email" 
       name="email" 
@@ -208,6 +208,7 @@ viewBox="0 0 512 512">
       name="product" 
       value="StageHand"
     >
+    <input type="hidden" name="_redirect" id="ctaRedirect">
 
   </form>
 
@@ -217,49 +218,137 @@ viewBox="0 0 512 512">
     </div>
 
   </div>
-  <script>
-    (function(){
-      function initForm(formId, thankYouId){
-        const form = document.getElementById(formId);
-        const thankYou = document.getElementById(thankYouId);
-        if (!form || !thankYou) return;
+  
+<iframe name="ctaFrame" style="display:none;"></iframe>
 
-        form.addEventListener('submit', function(e) {
-          const submitButton = this.querySelector('button[type="submit"]');
-          if (submitButton) {
-            submitButton.textContent = 'Sending...';
-            submitButton.disabled = true;
+<script>
+  (function(){
+    function initForm(formId, thankYouId, redirectInputId, iframeName){
+      const form = document.getElementById(formId);
+      const thankYou = document.getElementById(thankYouId);
+      const redirectInput = document.getElementById(redirectInputId);
+      const iframe = document.querySelector('iframe[name="' + iframeName + '"]');
+      
+      if (!form || !thankYou || !redirectInput || !iframe) {
+        console.log('Form elements not found:', { form, thankYou, redirectInput, iframe });
+        return;
+      }
+
+      
+      redirectInput.value = window.location.origin + window.location.pathname;
+      
+      
+      form.target = iframeName;
+
+      
+      let loadCount = 0;
+      const handleLoad = function() {
+        loadCount++;
+        console.log('Iframe load event:', loadCount);
+        console.log('Iframe URL:', iframe.contentWindow?.location?.href || 'Cannot access iframe URL');
+        
+        
+        if (loadCount === 1) {
+          
+          setTimeout(() => {
+            console.log('Checking after 3 seconds...');
+            if (loadCount === 1) {
+              console.log('Only 1 load event detected, completing anyway');
+              const currentForm = document.getElementById(formId);
+              const currentThankYou = document.getElementById(thankYouId);
+              
+              if (currentForm && currentForm.style) {
+                currentForm.style.display = 'none';
+                console.log('Form hidden (after 1 load)');
+              }
+              if (currentThankYou && currentThankYou.style) {
+                currentThankYou.style.display = 'block';
+                console.log('Thank you shown (after 1 load)');
+              }
+            }
+          }, 3000);
+        }
+        
+        
+        if (loadCount === 2) {
+          setTimeout(() => {
+            const currentForm = document.getElementById(formId);
+            const currentThankYou = document.getElementById(thankYouId);
+            
+            if (currentForm && currentForm.style) {
+              currentForm.style.display = 'none';
+              console.log('Form hidden (after 2 loads)');
+            }
+            if (currentThankYou && currentThankYou.style) {
+              currentThankYou.style.display = 'block';
+              console.log('Thank you shown (after 2 loads)');
+            }
+          }, 100);
+          
+          iframe.removeEventListener('load', handleLoad);
+        }
+      };
+      
+      iframe.addEventListener('load', handleLoad);
+
+      
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault(); 
+        console.log('Form submitted to iframe', e);
+        console.log('Form target:', this.target);
+        console.log('Form action:', this.action);
+        
+        
+        e.stopImmediatePropagation();
+        
+        const submitButton = this.querySelector('button[type="submit"]');
+        if (submitButton) {
+          submitButton.textContent = 'Sending...';
+          submitButton.disabled = true;
+        }
+        
+        try {
+          
+          if (window.Botpoison) {
+            const botpoison = new Botpoison({
+              publicKey: 'pk_c7d39b30-2471-4ff9-8f3c-ac7d67a1239b',
+            });
+            
+            console.log('Running Botpoison challenge...');
+            const result = await botpoison.challenge();
+            
+            
+            let botpoisonInput = this.querySelector('input[name="_botpoison"]');
+            if (!botpoisonInput) {
+              botpoisonInput = document.createElement('input');
+              botpoisonInput.type = 'hidden';
+              botpoisonInput.name = '_botpoison';
+              this.appendChild(botpoisonInput);
+            }
+            botpoisonInput.value = result.solution;
+            console.log('Botpoison challenge completed');
           }
           
           
-          const iframe = document.createElement('iframe');
-          iframe.style.display = 'none';
-          iframe.name = 'dynamicFrame_' + Date.now();
-          document.body.appendChild(iframe);
+          this.target = iframeName;
           
           
-          this.target = iframe.name;
+          this.submit();
           
+        } catch (error) {
+          console.error('Botpoison error:', error);
           
-          iframe.addEventListener('load', function() {
-            
-            setTimeout(() => {
-              form.style.display = 'none';
-              thankYou.style.display = 'block';
-              
-              document.body.removeChild(iframe);
-            }, 500);
-          }, { once: true });
-          
-          
-        });
-      }
+          this.target = iframeName;
+          this.submit();
+        }
+      }, true); 
+    }
 
-      document.addEventListener('DOMContentLoaded', ()=> {
-        initForm('ctaForm', 'ctaThankYou');
-      });
-    })();
-  </script>
+    document.addEventListener('DOMContentLoaded', ()=> {
+      initForm('ctaForm', 'ctaThankYou', 'ctaRedirect', 'ctaFrame');
+    });
+  })();
+</script>
 
 
 
@@ -511,13 +600,14 @@ Track room usage, input trends, and hardware health across all rooms to plan upg
 <hr>
 
     <form
-  action="https://submit.formspark.io/NNJrw6i1X"
+  action="https://submit-form.com/SSqZ3MZYJ"
   method="POST"
   class="space-y-4 snap-none scroll-target"
   id="contact"
 >
   
-  <input type="hidden" name="tags" value="4024487,3336663"> <section></section>
+  <input type="hidden" name="tags" value="4024487,3336663">
+  <input type="hidden" name="_redirect" id="contactRedirect">
 
   
   <div>
@@ -609,46 +699,134 @@ viewBox="0 0 512 512">
   <p>We appreciate your message and will get back to you within 24 hours.</p>
 </div>
 
+
+<iframe name="contactFrame" style="display:none;"></iframe>
+
 <script>
   (function(){
-    function initForm(formId, thankYouId){
+    function initForm(formId, thankYouId, redirectInputId, iframeName){
       const form = document.getElementById(formId);
       const thankYou = document.getElementById(thankYouId);
-      if (!form || !thankYou) return;
+      const redirectInput = document.getElementById(redirectInputId);
+      const iframe = document.querySelector('iframe[name="' + iframeName + '"]');
+      
+      if (!form || !thankYou || !redirectInput || !iframe) {
+        console.log('Form elements not found:', { form, thankYou, redirectInput, iframe });
+        return;
+      }
 
-      form.addEventListener('submit', function(e) {
+      
+      redirectInput.value = window.location.origin + window.location.pathname;
+      
+      
+      form.target = iframeName;
+
+      
+      let loadCount = 0;
+      const handleLoad = function() {
+        loadCount++;
+        console.log('Iframe load event:', loadCount);
+        console.log('Iframe URL:', iframe.contentWindow?.location?.href || 'Cannot access iframe URL');
+        
+        
+        if (loadCount === 1) {
+          
+          setTimeout(() => {
+            console.log('Checking after 3 seconds...');
+            if (loadCount === 1) {
+              console.log('Only 1 load event detected, completing anyway');
+              const currentForm = document.getElementById(formId);
+              const currentThankYou = document.getElementById(thankYouId);
+              
+              if (currentForm && currentForm.style) {
+                currentForm.style.display = 'none';
+                console.log('Form hidden (after 1 load)');
+              }
+              if (currentThankYou && currentThankYou.style) {
+                currentThankYou.style.display = 'block';
+                console.log('Thank you shown (after 1 load)');
+              }
+            }
+          }, 3000);
+        }
+        
+        
+        if (loadCount === 2) {
+          setTimeout(() => {
+            const currentForm = document.getElementById(formId);
+            const currentThankYou = document.getElementById(thankYouId);
+            
+            if (currentForm && currentForm.style) {
+              currentForm.style.display = 'none';
+              console.log('Form hidden (after 2 loads)');
+            }
+            if (currentThankYou && currentThankYou.style) {
+              currentThankYou.style.display = 'block';
+              console.log('Thank you shown (after 2 loads)');
+            }
+          }, 100);
+          
+          iframe.removeEventListener('load', handleLoad);
+        }
+      };
+      
+      iframe.addEventListener('load', handleLoad);
+
+      
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault(); 
+        console.log('Form submitted to iframe', e);
+        console.log('Form target:', this.target);
+        console.log('Form action:', this.action);
+        
+        
+        e.stopImmediatePropagation();
+        
         const submitButton = this.querySelector('button[type="submit"]');
         if (submitButton) {
           submitButton.textContent = 'Sending...';
           submitButton.disabled = true;
         }
         
-        
-        const iframe = document.createElement('iframe');
-        iframe.style.display = 'none';
-        iframe.name = 'dynamicFrame_' + Date.now();
-        document.body.appendChild(iframe);
-        
-        
-        this.target = iframe.name;
-        
-        
-        iframe.addEventListener('load', function() {
+        try {
           
-          setTimeout(() => {
-            form.style.display = 'none';
-            thankYou.style.display = 'block';
+          if (window.Botpoison) {
+            const botpoison = new Botpoison({
+              publicKey: 'pk_c7d39b30-2471-4ff9-8f3c-ac7d67a1239b',
+            });
             
-            document.body.removeChild(iframe);
-          }, 500);
-        }, { once: true });
-        
-        
-      });
+            console.log('Running Botpoison challenge...');
+            const result = await botpoison.challenge();
+            
+            
+            let botpoisonInput = this.querySelector('input[name="_botpoison"]');
+            if (!botpoisonInput) {
+              botpoisonInput = document.createElement('input');
+              botpoisonInput.type = 'hidden';
+              botpoisonInput.name = '_botpoison';
+              this.appendChild(botpoisonInput);
+            }
+            botpoisonInput.value = result.solution;
+            console.log('Botpoison challenge completed');
+          }
+          
+          
+          this.target = iframeName;
+          
+          
+          this.submit();
+          
+        } catch (error) {
+          console.error('Botpoison error:', error);
+          
+          this.target = iframeName;
+          this.submit();
+        }
+      }, true); 
     }
 
     document.addEventListener('DOMContentLoaded', ()=> {
-      initForm('contact', 'contactThankYou');
+      initForm('contact', 'contactThankYou', 'contactRedirect', 'contactFrame');
     });
   })();
 </script>
@@ -767,38 +945,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <script type="text/javascript">
   document.querySelectorAll('form[action^="https://submit-form.com"]').forEach(form => {
-  form.addEventListener('submit', async function (e) {
-    e.preventDefault();
+    
+    if (form.target && form.target.includes('Frame')) {
+      console.log('Skipping Botpoison for iframe form:', form.id);
+      return;
+    }
+    
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
 
-    const botpoison = new Botpoison({
-      publicKey: 'pk_c7d39b30-2471-4ff9-8f3c-ac7d67a1239b',
-    });
-
-    try {
-      const result = await botpoison.challenge();
-
-      const formData = new FormData(form);
-      formData.append('_botpoison', result.solution);
-
-      const response = await fetch(form.action, {
-        method: 'POST',
-        body: formData,
+      const botpoison = new Botpoison({
+        publicKey: 'pk_c7d39b30-2471-4ff9-8f3c-ac7d67a1239b',
       });
 
-      const parent = form.parentElement;
+      try {
+        const result = await botpoison.challenge();
 
-      if (response.ok) {
-        form.style.display = 'none';
-        parent.querySelector('.w-form-done').style.display = 'block';
-      } else {
+        const formData = new FormData(form);
+        formData.append('_botpoison', result.solution);
+
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: formData,
+        });
+
+        const parent = form.parentElement;
+
+        if (response.ok) {
+          form.style.display = 'none';
+          parent.querySelector('.w-form-done').style.display = 'block';
+        } else {
+          parent.querySelector('.w-form-fail').style.display = 'block';
+        }
+      } catch (error) {
+        const parent = form.parentElement;
         parent.querySelector('.w-form-fail').style.display = 'block';
       }
-    } catch (error) {
-      const parent = form.parentElement;
-      parent.querySelector('.w-form-fail').style.display = 'block';
-    }
+    });
   });
-});
 
 </script>
 <script src="/js/anchors.js"></script>
