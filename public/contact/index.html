@@ -13,21 +13,25 @@
 </title>
   <meta name="description" content="Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software &amp; systems." />
 <link rel="icon" type="image/png" href="/images/favicon.png" />
-<meta property="og:url" content="http://localhost:1313/contact/">
-  <meta property="og:site_name" content="PlaceOS">
-  <meta property="og:title" content="Contact">
-  <meta property="og:description" content="Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software &amp; systems.">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
+
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="PlaceOS" />
+<meta property="og:title" content="Contact" />
+<meta property="og:description" content="Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software &amp; systems." />
+<meta property="og:url" content="http://localhost:1313/contact/" />
+<meta property="og:image" content="http://localhost:1313/images/PlaceOS.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Contact" />
+<meta name="twitter:description" content="Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software &amp; systems." />
+<meta name="twitter:image" content="http://localhost:1313/images/PlaceOS.jpg" />
 
 
   <meta itemprop="name" content="Contact">
   <meta itemprop="description" content="Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software &amp; systems.">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Contact">
-  <meta name="twitter:description" content="Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software &amp; systems.">
-
 <link rel="canonical" href="http://localhost:1313/contact/" />
 
     <link rel="stylesheet" href="/css/index.css" />
@@ -234,26 +238,47 @@ viewBox="0 0 512 512">
 </div>
 
 <script>
-  document.getElementById('contact').addEventListener('submit', function(e) {
-    e.preventDefault();
-    const form = this;
-    const data = new FormData(form);
-    fetch(form.action, {
-      method: form.method,
-      body: data
-    })
-    .then(res => {
-      if (res.ok) {
-        form.style.display = 'none';
-        document.getElementById('contactThankYou').style.display = 'block';
-      } else {
-        alert('Oops—something went wrong. Please try again.');
-      }
-    })
-    .catch(() => {
-      alert('Oops—something went wrong. Please try again.');
+  (function(){
+    function initForm(formId, thankYouId){
+      const form = document.getElementById(formId);
+      const thankYou = document.getElementById(thankYouId);
+      if (!form || !thankYou) return;
+
+      form.addEventListener('submit', function(e) {
+        const submitButton = this.querySelector('button[type="submit"]');
+        if (submitButton) {
+          submitButton.textContent = 'Sending...';
+          submitButton.disabled = true;
+        }
+        
+        
+        const iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        iframe.name = 'dynamicFrame_' + Date.now();
+        document.body.appendChild(iframe);
+        
+        
+        this.target = iframe.name;
+        
+        
+        iframe.addEventListener('load', function() {
+          
+          setTimeout(() => {
+            form.style.display = 'none';
+            thankYou.style.display = 'block';
+            
+            document.body.removeChild(iframe);
+          }, 500);
+        }, { once: true });
+        
+        
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', ()=> {
+      initForm('contact', 'contactThankYou');
     });
-  });
+  })();
 </script>
 
 </section>

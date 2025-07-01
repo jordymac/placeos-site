@@ -13,24 +13,27 @@
 </title>
   <meta name="description" content="Gives clinicians, carers, and patients one system to manage consults, surveys, referrals, Medicare billing, education, and follow-ups — no plugins or patchwork tools." />
 <link rel="icon" type="image/png" href="/images/favicon.png" />
-<meta property="og:url" content="http://localhost:1313/products/virtualcare/">
-  <meta property="og:site_name" content="PlaceOS">
-  <meta property="og:title" content="VirtualCare">
-  <meta property="og:description" content="Gives clinicians, carers, and patients one system to manage consults, surveys, referrals, Medicare billing, education, and follow-ups — no plugins or patchwork tools.">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="products">
+
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="PlaceOS" />
+<meta property="og:title" content="VirtualCare" />
+<meta property="og:description" content="Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software &amp; systems." />
+<meta property="og:url" content="http://localhost:1313/products/virtualcare/" />
+<meta property="og:image" content="http://localhost:1313/images/products/virtualcare/group-waiting-rooms-.webp" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="VirtualCare" />
+<meta name="twitter:description" content="Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software &amp; systems." />
+<meta name="twitter:image" content="http://localhost:1313/images/products/virtualcare/group-waiting-rooms-.webp" />
 
 
   <meta itemprop="name" content="VirtualCare">
   <meta itemprop="description" content="Gives clinicians, carers, and patients one system to manage consults, surveys, referrals, Medicare billing, education, and follow-ups — no plugins or patchwork tools.">
   <meta itemprop="wordCount" content="294">
   <meta itemprop="keywords" content="AI,Analytics,Automation,Collaboration,Education,Government,Healthcare,Interface,Platform,Surveys,Systems,Product">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="VirtualCare">
-  <meta name="twitter:description" content="Gives clinicians, carers, and patients one system to manage consults, surveys, referrals, Medicare billing, education, and follow-ups — no plugins or patchwork tools.">
-
 <link rel="canonical" href="http://localhost:1313/products/virtualcare/" />
 
     <link rel="stylesheet" href="/css/index.css" />
@@ -49,20 +52,6 @@
   "@context": "https://schema.org/",
   "@id": "http://localhost:1313/products/virtualcare/",
   "@type": "SoftwareApplication",
-  "about": [
-    "AI",
-    "Analytics",
-    "Automation",
-    "Collaboration",
-    "Education",
-    "Government",
-    "Healthcare",
-    "Interface",
-    "Platform",
-    "Surveys",
-    "Systems",
-    "Product"
-  ],
   "applicationCategory": "HealthcareApplication",
   "author": {
     "@type": "Person",
@@ -206,12 +195,7 @@ viewBox="0 0 512 512">
     </div>
   
 
-  <form class="flex flex-row gap-0" method="POST" action="https://submit-form.com/SSqZ3MZYJ">
-    <button 
-      type="submit" 
-      class="btn-primary">
-      Request a demo
-    </button>
+  <form id="ctaForm" class="flex flex-row gap-0" method="POST" action="https://submit.formspark.io/NNJrw6i1X">
     <input 
       type="email" 
       name="email" 
@@ -219,6 +203,11 @@ viewBox="0 0 512 512">
       required
       class="flex-1 border border-gray-300 px-4 py-2"
     >
+    <button 
+      type="submit" 
+      class="btn-primary">
+      Request a demo
+    </button>
     <input 
       type="hidden" 
       name="product" 
@@ -234,26 +223,47 @@ viewBox="0 0 512 512">
 
   </div>
   <script>
-    document.getElementById('ctaForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      const form = this;
-      const data = new FormData(form);
-      fetch(form.action, {
-        method: form.method,
-        body: data
-      })
-      .then(res => {
-        if (res.ok) {
-          form.style.display = 'none';
-          document.getElementById('ctaThankYou').style.display = 'block';
-        } else {
-          alert('Oops—something went wrong. Please try again.');
-        }
-      })
-      .catch(() => {
-        alert('Oops—something went wrong. Please try again.');
+    (function(){
+      function initForm(formId, thankYouId){
+        const form = document.getElementById(formId);
+        const thankYou = document.getElementById(thankYouId);
+        if (!form || !thankYou) return;
+
+        form.addEventListener('submit', function(e) {
+          const submitButton = this.querySelector('button[type="submit"]');
+          if (submitButton) {
+            submitButton.textContent = 'Sending...';
+            submitButton.disabled = true;
+          }
+          
+          
+          const iframe = document.createElement('iframe');
+          iframe.style.display = 'none';
+          iframe.name = 'dynamicFrame_' + Date.now();
+          document.body.appendChild(iframe);
+          
+          
+          this.target = iframe.name;
+          
+          
+          iframe.addEventListener('load', function() {
+            
+            setTimeout(() => {
+              form.style.display = 'none';
+              thankYou.style.display = 'block';
+              
+              document.body.removeChild(iframe);
+            }, 500);
+          }, { once: true });
+          
+          
+        });
+      }
+
+      document.addEventListener('DOMContentLoaded', ()=> {
+        initForm('ctaForm', 'ctaThankYou');
       });
-    });
+    })();
   </script>
 
 
@@ -696,26 +706,47 @@ viewBox="0 0 512 512">
 </div>
 
 <script>
-  document.getElementById('contact').addEventListener('submit', function(e) {
-    e.preventDefault();
-    const form = this;
-    const data = new FormData(form);
-    fetch(form.action, {
-      method: form.method,
-      body: data
-    })
-    .then(res => {
-      if (res.ok) {
-        form.style.display = 'none';
-        document.getElementById('contactThankYou').style.display = 'block';
-      } else {
-        alert('Oops—something went wrong. Please try again.');
-      }
-    })
-    .catch(() => {
-      alert('Oops—something went wrong. Please try again.');
+  (function(){
+    function initForm(formId, thankYouId){
+      const form = document.getElementById(formId);
+      const thankYou = document.getElementById(thankYouId);
+      if (!form || !thankYou) return;
+
+      form.addEventListener('submit', function(e) {
+        const submitButton = this.querySelector('button[type="submit"]');
+        if (submitButton) {
+          submitButton.textContent = 'Sending...';
+          submitButton.disabled = true;
+        }
+        
+        
+        const iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        iframe.name = 'dynamicFrame_' + Date.now();
+        document.body.appendChild(iframe);
+        
+        
+        this.target = iframe.name;
+        
+        
+        iframe.addEventListener('load', function() {
+          
+          setTimeout(() => {
+            form.style.display = 'none';
+            thankYou.style.display = 'block';
+            
+            document.body.removeChild(iframe);
+          }, 500);
+        }, { once: true });
+        
+        
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', ()=> {
+      initForm('contact', 'contactThankYou');
     });
-  });
+  })();
 </script>
 
     </section>

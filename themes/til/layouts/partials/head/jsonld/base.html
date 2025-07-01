@@ -14,8 +14,8 @@
   "description" $description
 -}}
 
-{{- with $topics }}
-  {{- $data = merge $data ( dict "about" . ) }}
+{{- if isset . "topics" }}
+  {{- $data = merge $data ( dict "about" .topics ) }}
 {{- end }}
 
 {{- return $data }}

@@ -13,12 +13,7 @@
     </div>
   {{ end }}
 
-  <form class="flex flex-row gap-0" method="POST" action="{{ (index . 0).action_url }}">
-    <button 
-      type="submit" 
-      class="btn-primary">
-      {{ (index . 0).text }}
-    </button>
+  <form id="ctaForm" class="flex flex-row gap-0" method="POST" action="https://submit.formspark.io/NNJrw6i1X">
     <input 
       type="email" 
       name="email" 
@@ -26,6 +21,11 @@
       required
       class="flex-1 border border-gray-300 px-4 py-2"
     >
+    <button 
+      type="submit" 
+      class="btn-primary">
+      {{ (index . 0).text }}
+    </button>
     <input 
       type="hidden" 
       name="product" 
@@ -41,25 +41,46 @@
 
   </div>
   <script>
-    document.getElementById('ctaForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      const form = this;
-      const data = new FormData(form);
-      fetch(form.action, {
-        method: form.method,
-        body: data
-      })
-      .then(res => {
-        if (res.ok) {
-          form.style.display = 'none';
-          document.getElementById('ctaThankYou').style.display = 'block';
-        } else {
-          alert('Oops—something went wrong. Please try again.');
-        }
-      })
-      .catch(() => {
-        alert('Oops—something went wrong. Please try again.');
+    (function(){
+      function initForm(formId, thankYouId){
+        const form = document.getElementById(formId);
+        const thankYou = document.getElementById(thankYouId);
+        if (!form || !thankYou) return;
+
+        form.addEventListener('submit', function(e) {
+          const submitButton = this.querySelector('button[type="submit"]');
+          if (submitButton) {
+            submitButton.textContent = 'Sending...';
+            submitButton.disabled = true;
+          }
+          
+          // Create iframe dynamically for this submission
+          const iframe = document.createElement('iframe');
+          iframe.style.display = 'none';
+          iframe.name = 'dynamicFrame_' + Date.now();
+          document.body.appendChild(iframe);
+          
+          // Set form target to this new iframe
+          this.target = iframe.name;
+          
+          // Listen for iframe load (when form submission completes)
+          iframe.addEventListener('load', function() {
+            // Small delay to ensure submission processed
+            setTimeout(() => {
+              form.style.display = 'none';
+              thankYou.style.display = 'block';
+              // Clean up iframe
+              document.body.removeChild(iframe);
+            }, 500);
+          }, { once: true });
+          
+          // Don't prevent default - let form submit naturally
+        });
+      }
+
+      document.addEventListener('DOMContentLoaded', ()=> {
+        initForm('ctaForm', 'ctaThankYou');
       });
-    });
+    })();
   </script>
 {{ end }}
