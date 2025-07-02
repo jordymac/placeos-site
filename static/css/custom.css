@@ -279,6 +279,7 @@ html.dark .prose :where(strong):not(:where([class~="not-prose"],[class~="not-pro
   opacity: 1;
   pointer-events: auto;
 }
+
 .icon-sun.is-hidden,
 .icon-moon.is-hidden {
   opacity: 0;
@@ -478,7 +479,7 @@ header form button {
 
 .product-hero-image {
   width: 160%;
-  margin: -7% -30% -30% -25%;
+  margin: -7% -30% -45% -25%;
   perspective: 1200px;               /* depth of the 3D scene */
   perspective-origin: 50% 30%;       /* move vanishing point up/down */
   overflow: visible;                 /* allow the corners to pop out */      
@@ -486,7 +487,7 @@ header form button {
 
 .product-hero-image img {
   width: 160%;
-  margin: -7% -30% -30% -25%;
+  margin: -7% -30% -45% -25%;
   z-index: 10;
   transform-style: preserve-3d;
   transform-origin: center center;  
@@ -513,7 +514,7 @@ header form button {
 @media only screen and (min-width: 1080px) {
   .product-hero-image {
       width: 200%;
-      margin: -7% -50% -40% -40%;
+      margin: -7% -50% -55% -40%;
       z-index: 10;
   }
 }
