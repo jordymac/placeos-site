@@ -1,0 +1,29 @@
+integration:
+  title: "HVAC Automation Integrations"
+  features:
+    - name: "Occupancy and people counting"
+      description: "Integrate with systems like Vergesense, XY Sense, Cisco Meraki, Xovis, and more to enable accurate space usage tracking and real-time people counting."
+    - name: "Booking and scheduling systems"
+      description: "Connect to Microsoft 365, Google Calendar, GoBright, InfoSilem, and other tools to automate building systems based on room and desk bookings."
+    - name: "Building management systems (BMS)"
+      description: "Supports integration with Metasys, Siemens, Delta Controls, Optergy, BACnet, and Modbus TCP for deep HVAC and lighting control."
+    - name: "Lighting and device control"
+      description: "Works with Lutron, Helvar, KNX, DALI, Clipsal C-Bus, and more to control lighting scenes and energy-hungry devices."
+
+analytics:
+  title: "HVAC Energy Analytics"
+  features:
+    - name: "Occupancy-linked energy reporting"
+      description: "Generate reports that correlate energy consumption with occupancy data, booking patterns, and environmental factors."
+    - name: "Environmental data monitoring"
+      description: "Collect CO₂, temperature, humidity, and air quality data from connected systems to optimize comfort and ventilation."
+
+automations:
+  title: "HVAC Automation Capabilities"
+  features:
+    - name: "Sensorless occupancy automation"
+      description: "Use Wi-Fi, calendar data, and existing infrastructure to control HVAC without new sensors or wiring."
+    - name: "Conditional rule-based controls"
+      description: "Define layered automations using presence, schedule, and booking data to turn systems on/off by room, zone, or floor."
+    - name: "Multi-system coordination"
+      description: "Coordinate HVAC, lighting, and AV controls from one place, adapting to how spaces are actually used throughout the day."

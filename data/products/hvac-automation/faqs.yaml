@@ -1,0 +1,67 @@
+faqs:
+- category: "General"
+  entries:
+  - question: What features does the energy management system offer?
+    answer: >-
+      The solution integrates with building management systems (BMS), lighting,
+      HVAC, and in-room devices to provide real-time data on energy consumption
+      and optimize usage based on occupancy data.
+  - question: How does the energy management system help in reducing energy usage?
+    answer: >-
+      It uses automation workflows to control lighting, HVAC, and other devices
+      based on occupancy or scheduling data. If the space isn't being used, it
+      can turn everything off.
+  - question: >-
+      Can the energy management system integrate with existing building systems like BMS?
+    answer: >-
+      Yes, the app can connect building systems to tenancy systems. It
+      integrates with the following building management systems (BMS): BACnet
+      Secure Connect, Johnson Controls Metasys, Siemens Desigo, and Delta
+      Controls.
+  - question: Does the energy management system offer real-time monitoring?
+    answer: >-
+      Yes, it provides tools for real-time monitoring and historical trend
+      analysis of energy consumption.
+  - question: What kind of analytics does the energy management system provide?
+    answer: >-
+      The energy management system tracks energy trends, identifies high
+      consumption areas, generates usage reports, and links occupancy with
+      energy consumption to optimize operational costs.
+  - question: Is it possible to automate control of lighting and HVAC?
+    answer: >-
+      Yes, the energy management system allows for automation of lighting, HVAC
+      (BMS), and other devices to enhance energy efficiency.
+  - question: Can I set alerts for unusual energy consumption?
+    answer: >-
+      Yes, the energy management system allows you to set alerts for unusual
+      energy consumption patterns.
+  - question: What kind of insights can I gain from the energy management system?
+    answer: >-
+      The energy management system provides insights into energy consumption
+      patterns by showcasing comparisons to occupancy and energy usage, helping
+      to identify inefficiencies and optimize energy use.
+
+- category: "Integrations"
+  entries:
+  - question: What systems can PlaceOS integrate with for occupancy detection?
+    answer: >-
+      PlaceOS supports integration with occupancy and people counting systems like Vergesense, XY Sense, Cisco Meraki MV, Xovis, Floorsense, PointGrab, Freespace, SenseStudio, Steinel, Rhombus, and general occupancy sensors. These systems provide data on presence, people count, and space utilization.
+  - question: What scheduling and booking systems does PlaceOS integrate with?
+    answer: >-
+      PlaceOS integrates with Microsoft 365, Google Calendar, Google Workspace, GoBright, InfoSilem, QBic, and its own native room/desk booking module to automate HVAC and lighting based on bookings and availability.
+  - question: What BMS platforms are compatible with PlaceOS?
+    answer: >-
+      PlaceOS supports Johnson Controls Metasys, Delta Controls, Siemens Disego, Optergy, BACnet, Modbus TCP, and other standard BMS protocols.
+  - question: Can PlaceOS control lighting systems?
+    answer: >-
+      Yes. It integrates with systems like Lutron, Philips Hue, Helvar, Dynalite, KNX, DALI, and Clipsal C-Bus to manage lighting scenes, shading, and energy optimization.
+
+- category: "Functionality"
+  entries:
+
+  - question: How does PlaceOS track occupancy without new sensors?
+    answer: >-
+      PlaceOS uses existing infrastructure such as Wi-Fi access points and calendar data from systems like Outlook and Google Workspace to infer real-time occupancy. This allows for automation without the cost or disruption of new sensor installation.
+  - question: What kind of data can PlaceOS extract from integrated systems?
+    answer: >-
+      PlaceOS can extract environmental and energy metrics such as CO2 levels, humidity, temperature, and power consumption to support automation logic and generate reports.

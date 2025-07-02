@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dashboards on PlaceOS</title>
-    <link>http://localhost:62587/categories/dashboards/</link>
+    <link>http://localhost:1313/categories/dashboards/</link>
     <description>Recent content in Dashboards on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:62587/categories/dashboards/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/dashboards/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Energy Reduction App</title>
-      <link>http://localhost:62587/products/energy-reduction-app/</link>
+      <title>HVAC Automation</title>
+      <link>http://localhost:1313/products/hvac-automation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/products/energy-reduction-app/</guid>
+      <guid>http://localhost:1313/products/hvac-automation/</guid>
       <description>Align energy use in spaces with actual occupancy, reduce HVAC &amp;amp; lighting use</description>
     </item>
   </channel>

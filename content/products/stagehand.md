@@ -15,13 +15,32 @@ weight: 2
 hero_image: images/products/stagehand/stagehand-hero-image.webp
 image: images/products/stagehand/stagehand-hero-image.webp
 product_logo: stagehand-logo.svg
-summary: Remote control for every AV room on campus — from your browser
+summary: Control every AV device in every room on campus — from your browser
 hasTopic:
+  - "AV Control"
+  - "Browser-Based AV Control System"
+  - "Remote AV Troubleshooting"
+  - "Digital Signage Management"
+  - "Meeting Room AV Control"
+  - "Classroom AV Control"
+  - "Lecture Theatre AV Control"
+  - "Boardroom AV Support"
+  - "Campus AV Infrastructure"
+  - "AV Over IP"
+  - "AV Device Monitoring"
+  - "AV Automation"
+  - "Remote AV Reboot"
 isMainTopicOf:
+  - "StageHand – Browser-Based AV Control System"
+
 queries:
-  primary:
+  primary: browser based av control system
   related:
-hasQuery:
+    - av control software
+    - meeting room av support
+    - classroom av support
+    - av control system
+    - audio visual control system
 cta:
   - text: "Request a demo"
     type: "email-form"  

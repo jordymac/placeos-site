@@ -6,7 +6,8 @@
 /announcement/webinars /posts/ 301
 /announcements /posts/ 301
 /app/desk-booking-app /products/desk-booking-app 301
-/app/energy-reduction-app /products/energy-reduction-app 301
+/app/energy-reduction-app /products/hvac-automation 301
+/products/energy-reduction-app /products/hvac-automation 301
 /app/meeting-room-booking /products/room-booking 301
 /app/room-booking-app-free /products/room-booking 301
 /app/visitor-management-app /products/visitor-management-app 301

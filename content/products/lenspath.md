@@ -7,7 +7,7 @@ weight: 3
 hero_image: "images/products/lenspath/lenspath-hero-image-dark.webp"
 image: images/products/lenspath/lenspath-hero-image-dark.webp
 product_logo: lenspath-logo.svg
-summary: LensPath is a no-code computer vision tool that turns any camera feed into real-time actions
+summary: The no-code computer vision ai tool that turns any camera feed into real-time actions
 schema:
   type: "SoftwareApplication"
   applicationCategory: "BusinessApplication"
@@ -17,10 +17,33 @@ schema:
     name: "PlaceOS"
     url: "https://placeos.com"
 hasTopic:
+  - "Computer Vision"
+  - "No-Code AI Tools"
+  - "Camera Feed Automation"
+  - "Real-Time Object Detection"
+  - "Smart Building Automation"
+  - "Video Analytics"
+  - "Sensorless Occupancy Monitoring"
+  - "Edge AI for Buildings"
+  - "People Counting"
+  - "AI Event Triggering"
+  - "Surveillance Automation"
+
 isMainTopicOf:
+  - "LensPath – No-Code Computer Vision AI for Real-Time Actions"
 queries:
-  primary:
+  primary: "computer vision platform"
   related:
+    - "computer vision ai"
+    - "ai object recognition"
+    - "computer vision object recognition"
+    - "edge computer vision"
+    - "computer vision ai platform"
+    - "cctv automation"
+    - "video analytics platform"
+    - "no-code computer vision"
+    - "trigger actions from camera feed"
+    - "camera-based automation"
 hasQuery:
 cta:
   - text: "Request a demo"

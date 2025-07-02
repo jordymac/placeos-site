@@ -19,7 +19,7 @@ list_items:
       Whether you’re managing a single room or hundreds of buildings, we want this to be the fastest path to figuring out if PlaceOS fits your world.
   - title: The problems teams are solving with PlaceOS
     summary: >-
-      Hundreds of offices and campuses around the world use PlaceOS for [occupancy management](/products/occupancy-monitoring/), [workplace experience](/products/workmate-workplace-solution/), [room management](/products/room-booking/), utilization reporting, [hot-desks](/products/desk-booking-app/), [visitor management](/products/visitor-management-app/), [building automation](/products/backoffice/), [campus experience](/industry/smart-campus) and [energy savings](/products/energy-reduction-app/). If your goal is to connect systems, create smarter workflows and deliver real-world outcomes ~ without rolling out new hardware ~ PlaceOS is the platform to do it.
+      Hundreds of offices and campuses around the world use PlaceOS for [occupancy management](/products/occupancy-monitoring/), [workplace experience](/products/workmate-workplace-solution/), [room management](/products/room-booking/), utilization reporting, [hot-desks](/products/desk-booking-app/), [visitor management](/products/visitor-management-app/), [building automation](/products/backoffice/), [campus experience](/industry/smart-campus) and [energy savings](/products/hvac-automation/). If your goal is to connect systems, create smarter workflows and deliver real-world outcomes ~ without rolling out new hardware ~ PlaceOS is the platform to do it.
   - title: >-
       The types of teams solving those problems
     summary: >-

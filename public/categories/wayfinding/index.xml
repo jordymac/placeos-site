@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wayfinding on PlaceOS</title>
-    <link>http://localhost:62587/categories/wayfinding/</link>
+    <link>http://localhost:1313/categories/wayfinding/</link>
     <description>Recent content in Wayfinding on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:62587/categories/wayfinding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/wayfinding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Visitor Management</title>
-      <link>http://localhost:62587/products/visitor-management-app/</link>
+      <link>http://localhost:1313/products/visitor-management-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/products/visitor-management-app/</guid>
+      <guid>http://localhost:1313/products/visitor-management-app/</guid>
       <description>Visitor management software so simple, the only thing you do is send the invite, it does everything else</description>
     </item>
     <item>
       <title>Suncorp - Office downsize from three buildings to one</title>
-      <link>http://localhost:62587/projects/office-downsize-from-three-buildings-to-one/</link>
+      <link>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/projects/office-downsize-from-three-buildings-to-one/</guid>
+      <guid>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</guid>
       <description>In preparation for their new office space, Suncorp recognized that they were not perceived as technology innovators and decided to take action. They embarked on a research mission to determine what their ideal technological infrastructure would look like, and then worked backward to identify which specific technologies would help them achieve that goal. Their ultimate objective was to create a system that could serve as the brain of their new building.</description>
     </item>
     <item>
       <title>Indoor Wayfinding for your Workplace</title>
-      <link>http://localhost:62587/posts/indoor-wayfinding-for-your-workplace/</link>
+      <link>http://localhost:1313/posts/indoor-wayfinding-for-your-workplace/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/indoor-wayfinding-for-your-workplace/</guid>
+      <guid>http://localhost:1313/posts/indoor-wayfinding-for-your-workplace/</guid>
       <description>Enhance workplace navigation with indoor wayfinding technology. Explore how these solutions can streamline movement and boost productivity in your office.</description>
     </item>
     <item>
       <title>LIVE DEMO: Working with Working from Home</title>
-      <link>http://localhost:62587/posts/live-demo-working-with-working-from-home/</link>
+      <link>http://localhost:1313/posts/live-demo-working-with-working-from-home/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/live-demo-working-with-working-from-home/</guid>
+      <guid>http://localhost:1313/posts/live-demo-working-with-working-from-home/</guid>
       <description>oin our live demo to optimize hybrid work. Find out how to efficiently manage work from home and work status location for better team collaboration. Learn more</description>
     </item>
     <item>
       <title>Workplace Management App: New Features and Enhancements</title>
-      <link>http://localhost:62587/posts/workplace-management-app-new-features-and-enhancements/</link>
+      <link>http://localhost:1313/posts/workplace-management-app-new-features-and-enhancements/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/workplace-management-app-new-features-and-enhancements/</guid>
+      <guid>http://localhost:1313/posts/workplace-management-app-new-features-and-enhancements/</guid>
       <description>Explore the new features of the refreshed Concierge workplace management app. Improve efficiency and optimize your workplace with our innovative solutions.</description>
     </item>
     <item>
       <title>LIVE DEMO: Indoor Wayfinding &amp; Workplace Management Overhaul</title>
-      <link>http://localhost:62587/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</link>
+      <link>http://localhost:1313/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</link>
       <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</guid>
+      <guid>http://localhost:1313/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</guid>
       <description>A brand new feature powered by a new integration. An overhaul of our workplace management application.</description>
     </item>
     <item>
       <title>Smart building automation: platforms vs apps</title>
-      <link>http://localhost:62587/posts/smart-building-automation-platforms-vs-apps/</link>
+      <link>http://localhost:1313/posts/smart-building-automation-platforms-vs-apps/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/smart-building-automation-platforms-vs-apps/</guid>
+      <guid>http://localhost:1313/posts/smart-building-automation-platforms-vs-apps/</guid>
       <description>Right now, you’ve likely got at least 30 apps on your phone, what if it was the same for your building?</description>
     </item>
     <item>
       <title>The most neglected smarting building UX</title>
-      <link>http://localhost:62587/posts/the-most-neglected-smarting-building-ux/</link>
+      <link>http://localhost:1313/posts/the-most-neglected-smarting-building-ux/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/the-most-neglected-smarting-building-ux/</guid>
+      <guid>http://localhost:1313/posts/the-most-neglected-smarting-building-ux/</guid>
       <description>I&amp;rsquo;ll give you a hint, it&amp;rsquo;s UX that involves inviting guests to your building for a meeting or sales pitch.</description>
     </item>
     <item>
       <title>User input equals error: the Elon Musk approach</title>
-      <link>http://localhost:62587/posts/user-input-equals-error-the-elon-musk-approach/</link>
+      <link>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/user-input-equals-error-the-elon-musk-approach/</guid>
+      <guid>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</guid>
       <description>Tesla takes the approach, all user input equals error. There’s a lot we can learn from that when we apply that ethos.</description>
     </item>
   </channel>

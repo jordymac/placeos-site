@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Smart Building on PlaceOS</title>
-    <link>http://localhost:62587/categories/smart-building/</link>
+    <link>http://localhost:1313/categories/smart-building/</link>
     <description>Recent content in Smart Building on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:62587/categories/smart-building/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/smart-building/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Occupancy Monitoring System</title>
-      <link>http://localhost:62587/products/occupancy-monitoring/</link>
+      <link>http://localhost:1313/products/occupancy-monitoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/products/occupancy-monitoring/</guid>
+      <guid>http://localhost:1313/products/occupancy-monitoring/</guid>
       <description>A self-hosted occupancy monitoring system that works with the infrastructure you already have — no new sensors needed.</description>
     </item>
     <item>
       <title>Canada Needs to Retrofit 482,000 Buildings by 2050—At the Current Pace, It Will Take 70 Years</title>
-      <link>http://localhost:62587/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</link>
+      <link>http://localhost:1313/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</guid>
+      <guid>http://localhost:1313/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</guid>
       <description>Canada must retrofit nearly half a million commercial buildings to meet its 2050 net-zero target, yet the current pace it will take them 70 years to reach it.</description>
     </item>
     <item>
       <title>Two core philosophies for smart building design</title>
-      <link>http://localhost:62587/posts/two-core-philosophies-for-smart-building-design/</link>
+      <link>http://localhost:1313/posts/two-core-philosophies-for-smart-building-design/</link>
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/two-core-philosophies-for-smart-building-design/</guid>
+      <guid>http://localhost:1313/posts/two-core-philosophies-for-smart-building-design/</guid>
       <description>Smart building design focuses on user experiences and insights. Avoid common pitfalls like confusing UI with UX or relying too much on dashboards.</description>
     </item>
     <item>
       <title>Partnership announcement with Monstarlab</title>
-      <link>http://localhost:62587/posts/partnership-announcement-with-monstarlab/</link>
+      <link>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/partnership-announcement-with-monstarlab/</guid>
+      <guid>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</guid>
       <description>We are proud to announce our official partnership with global digital consultancy Monstarlab! The partnership will help build</description>
     </item>
     <item>
       <title>Area Manager: Occupancy &amp; Sensor Management</title>
-      <link>http://localhost:62587/posts/area-manager-occupancy-sensor-management/</link>
+      <link>http://localhost:1313/posts/area-manager-occupancy-sensor-management/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/area-manager-occupancy-sensor-management/</guid>
+      <guid>http://localhost:1313/posts/area-manager-occupancy-sensor-management/</guid>
       <description>Discover how Area Manager optimizes occupancy sensor management for efficient space utilization. Enhance your workplace with advanced occupancy tracking.</description>
     </item>
     <item>
       <title>Enhancing Commercial Building Sustainability in a Hybrid Workplace</title>
-      <link>http://localhost:62587/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</link>
+      <link>http://localhost:1313/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</guid>
+      <guid>http://localhost:1313/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</guid>
       <description>Explore sustainable practices for hybrid workplaces in commercial buildings. Find out how to reduce energy usage and promote a greener work environment.</description>
     </item>
     <item>
       <title>How to Successfully Return to the Office after Covid</title>
-      <link>http://localhost:62587/posts/how-to-successfully-return-to-the-office-after-covid/</link>
+      <link>http://localhost:1313/posts/how-to-successfully-return-to-the-office-after-covid/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/how-to-successfully-return-to-the-office-after-covid/</guid>
+      <guid>http://localhost:1313/posts/how-to-successfully-return-to-the-office-after-covid/</guid>
       <description>Discover best practices for returning to the office after COVID. Explore how to create a safe and productive work environment in our comprehensive guide.</description>
     </item>
     <item>
       <title>LIVE DEMO: Connect Your Business to Your Building</title>
-      <link>http://localhost:62587/posts/live-demo-connect-your-business-to-your-building/</link>
+      <link>http://localhost:1313/posts/live-demo-connect-your-business-to-your-building/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/live-demo-connect-your-business-to-your-building/</guid>
+      <guid>http://localhost:1313/posts/live-demo-connect-your-business-to-your-building/</guid>
       <description>Experience digital transformation with our live demo. Discover how smart building technology can enhance your workplace solution and connect your business seaml</description>
     </item>
     <item>
       <title>Managing Technology Redundancy in IoT and Smart Buildings</title>
-      <link>http://localhost:62587/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</link>
+      <link>http://localhost:1313/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</guid>
+      <guid>http://localhost:1313/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</guid>
       <description>Learn how to effectively deal with technology redundancy in IoT and smart buildings. Discover strategies to optimize systems and ensure continuous performance.</description>
     </item>
     <item>
       <title>Smart Building Data traps</title>
-      <link>http://localhost:62587/posts/smart-building-data-traps/</link>
+      <link>http://localhost:1313/posts/smart-building-data-traps/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/smart-building-data-traps/</guid>
+      <guid>http://localhost:1313/posts/smart-building-data-traps/</guid>
       <description>Learn how to spot deceit in smart building data and understand analytics better. Protect your business from misinformation with these expert tips.</description>
     </item>
     <item>
       <title>Smart Building Energy analytics</title>
-      <link>http://localhost:62587/posts/smart-building-energy-analytics/</link>
+      <link>http://localhost:1313/posts/smart-building-energy-analytics/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/smart-building-energy-analytics/</guid>
+      <guid>http://localhost:1313/posts/smart-building-energy-analytics/</guid>
       <description>Discover how energy analytics for commercial buildings can enhance efficiency and reduce costs. Leverage data insights to optimize energy consumption today!</description>
     </item>
     <item>
       <title>Four technology integrations to help during covid-19</title>
-      <link>http://localhost:62587/posts/four-technology-integrations-to-help-during-covid-19/</link>
+      <link>http://localhost:1313/posts/four-technology-integrations-to-help-during-covid-19/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/four-technology-integrations-to-help-during-covid-19/</guid>
+      <guid>http://localhost:1313/posts/four-technology-integrations-to-help-during-covid-19/</guid>
       <description>Right now, it’s hard to focus on any workplace user requirement unless we address the biggest challenge: COVID-19.</description>
     </item>
     <item>
       <title>How commercial real estate can embrace technology</title>
-      <link>http://localhost:62587/posts/how-commercial-real-estate-can-embrace-technology/</link>
+      <link>http://localhost:1313/posts/how-commercial-real-estate-can-embrace-technology/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/how-commercial-real-estate-can-embrace-technology/</guid>
+      <guid>http://localhost:1313/posts/how-commercial-real-estate-can-embrace-technology/</guid>
       <description>It&amp;rsquo;s not just about email and communication anymore. It&amp;rsquo;s a fundamental revenue stream for any industry.</description>
     </item>
     <item>
       <title>Smart building automation: platforms vs apps</title>
-      <link>http://localhost:62587/posts/smart-building-automation-platforms-vs-apps/</link>
+      <link>http://localhost:1313/posts/smart-building-automation-platforms-vs-apps/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/smart-building-automation-platforms-vs-apps/</guid>
+      <guid>http://localhost:1313/posts/smart-building-automation-platforms-vs-apps/</guid>
       <description>Right now, you’ve likely got at least 30 apps on your phone, what if it was the same for your building?</description>
     </item>
     <item>
       <title>When to go with a custom or packaged smart building solution</title>
-      <link>http://localhost:62587/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</link>
+      <link>http://localhost:1313/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</guid>
+      <guid>http://localhost:1313/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</guid>
       <description>When it comes to smart building solutions, choosing when to go custom or packaged is difficult. Here&amp;rsquo;s how to approach it.</description>
     </item>
     <item>
       <title>Why Switch from On-Prem PlaceOS to Cloud Based?</title>
-      <link>http://localhost:62587/posts/why-switch-from-on-prem-placeos-to-cloud-based/</link>
+      <link>http://localhost:1313/posts/why-switch-from-on-prem-placeos-to-cloud-based/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/why-switch-from-on-prem-placeos-to-cloud-based/</guid>
+      <guid>http://localhost:1313/posts/why-switch-from-on-prem-placeos-to-cloud-based/</guid>
       <description>Why move from an on-premise PlaceOS (or even ACAEngine) deployment to a cloud-based PlaceOS solution?</description>
     </item>
     <item>
       <title>You don&#39;t need another workplace sensor</title>
-      <link>http://localhost:62587/posts/you-don-t-need-another-workplace-sensor/</link>
+      <link>http://localhost:1313/posts/you-don-t-need-another-workplace-sensor/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/you-don-t-need-another-workplace-sensor/</guid>
+      <guid>http://localhost:1313/posts/you-don-t-need-another-workplace-sensor/</guid>
       <description>You need inputs in a smart workplace ecosystem to get outputs and insights. However, it doesn&amp;rsquo;t always need to be a sensor.</description>
     </item>
   </channel>

@@ -2,527 +2,523 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:62587/products/workmate-workplace-solution/</loc>
+    <loc>http://localhost:1313/products/workmate-workplace-solution/</loc>
   </url><url>
-    <loc>http://localhost:62587/products/stagehand/</loc>
+    <loc>http://localhost:1313/products/stagehand/</loc>
   </url><url>
-    <loc>http://localhost:62587/products/lenspath/</loc>
+    <loc>http://localhost:1313/products/lenspath/</loc>
   </url><url>
-    <loc>http://localhost:62587/products/backoffice/</loc>
+    <loc>http://localhost:1313/products/backoffice/</loc>
   </url><url>
-    <loc>http://localhost:62587/products/energy-reduction-app/</loc>
+    <loc>http://localhost:1313/products/hvac-automation/</loc>
   </url><url>
-    <loc>http://localhost:62587/products/occupancy-monitoring/</loc>
+    <loc>http://localhost:1313/products/occupancy-monitoring/</loc>
   </url><url>
-    <loc>http://localhost:62587/products/visitor-management-app/</loc>
+    <loc>http://localhost:1313/products/visitor-management-app/</loc>
   </url><url>
-    <loc>http://localhost:62587/products/room-booking/</loc>
+    <loc>http://localhost:1313/products/room-booking/</loc>
   </url><url>
-    <loc>http://localhost:62587/products/desk-booking-app/</loc>
+    <loc>http://localhost:1313/products/desk-booking-app/</loc>
   </url><url>
-    <loc>http://localhost:62587/products/virtualcare/</loc>
+    <loc>http://localhost:1313/products/virtualcare/</loc>
   </url><url>
-    <loc>http://localhost:62587/categories/ai/</loc>
+    <loc>http://localhost:1313/categories/ai/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/analytics/</loc>
+    <loc>http://localhost:1313/categories/analytics/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/projects/ashrae-headquarters-net-zero-retrofit/</loc>
+    <loc>http://localhost:1313/projects/ashrae-headquarters-net-zero-retrofit/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/automation/</loc>
+    <loc>http://localhost:1313/categories/automation/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/av/</loc>
+    <loc>http://localhost:1313/categories/av/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/campus/</loc>
+    <loc>http://localhost:1313/categories/campus/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/projects/campus-energy-reduction-sustainability/</loc>
+    <loc>http://localhost:1313/projects/campus-energy-reduction-sustainability/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/collaboration/</loc>
+    <loc>http://localhost:1313/categories/collaboration/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/commercial-real-estate/</loc>
+    <loc>http://localhost:1313/categories/commercial-real-estate/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/configuration/</loc>
+    <loc>http://localhost:1313/categories/configuration/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/coworking/</loc>
+    <loc>http://localhost:1313/categories/coworking/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/desk-booking/</loc>
+    <loc>http://localhost:1313/categories/desk-booking/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/drivers/</loc>
+    <loc>http://localhost:1313/categories/drivers/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/energy/</loc>
+    <loc>http://localhost:1313/categories/energy/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/event/</loc>
+    <loc>http://localhost:1313/categories/event/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/government/</loc>
+    <loc>http://localhost:1313/categories/government/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/projects/multi-tenancy-space-as-a-service/</loc>
+    <loc>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/hvac/</loc>
+    <loc>http://localhost:1313/categories/hvac/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/hybrid-work/</loc>
+    <loc>http://localhost:1313/categories/hybrid-work/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/interface/</loc>
+    <loc>http://localhost:1313/categories/interface/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/meeting-rooms/</loc>
+    <loc>http://localhost:1313/categories/meeting-rooms/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/modules/</loc>
+    <loc>http://localhost:1313/categories/modules/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/neighborhoods/</loc>
+    <loc>http://localhost:1313/categories/neighborhoods/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/projects/seamless-online-health-consultations/</loc>
+    <loc>http://localhost:1313/projects/seamless-online-health-consultations/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/occupancy/</loc>
+    <loc>http://localhost:1313/categories/occupancy/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/office-space/</loc>
+    <loc>http://localhost:1313/categories/office-space/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/partner/</loc>
+    <loc>http://localhost:1313/categories/partner/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/platform/</loc>
+    <loc>http://localhost:1313/categories/platform/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/product/</loc>
+    <loc>http://localhost:1313/categories/product/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/project/</loc>
+    <loc>http://localhost:1313/categories/project/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/retrofit/</loc>
+    <loc>http://localhost:1313/categories/retrofit/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/room-booking/</loc>
+    <loc>http://localhost:1313/categories/room-booking/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/scalability/</loc>
+    <loc>http://localhost:1313/categories/scalability/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/projects/office-downsize-from-three-buildings-to-one/</loc>
+    <loc>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/surveys/</loc>
+    <loc>http://localhost:1313/categories/surveys/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/sustainability/</loc>
+    <loc>http://localhost:1313/categories/sustainability/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/systems/</loc>
+    <loc>http://localhost:1313/categories/systems/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/utilization/</loc>
+    <loc>http://localhost:1313/categories/utilization/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/ux/</loc>
+    <loc>http://localhost:1313/categories/ux/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/visitor-management/</loc>
+    <loc>http://localhost:1313/categories/visitor-management/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/wayfinding/</loc>
+    <loc>http://localhost:1313/categories/wayfinding/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/workmate/</loc>
+    <loc>http://localhost:1313/categories/workmate/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/workplace/</loc>
+    <loc>http://localhost:1313/categories/workplace/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/article/</loc>
+    <loc>http://localhost:1313/categories/article/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/blog/</loc>
+    <loc>http://localhost:1313/categories/blog/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</loc>
+    <loc>http://localhost:1313/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/smart-building/</loc>
+    <loc>http://localhost:1313/categories/smart-building/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/building-region-level-workplace-management/</loc>
+    <loc>http://localhost:1313/posts/building-region-level-workplace-management/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/parking/</loc>
+    <loc>http://localhost:1313/categories/parking/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/product-update/</loc>
+    <loc>http://localhost:1313/categories/product-update/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/safety/</loc>
+    <loc>http://localhost:1313/categories/safety/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/workplace-management/</loc>
+    <loc>http://localhost:1313/categories/workplace-management/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/zones/</loc>
+    <loc>http://localhost:1313/categories/zones/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/computer-vision/</loc>
+    <loc>http://localhost:1313/categories/computer-vision/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/enterprise/</loc>
+    <loc>http://localhost:1313/categories/enterprise/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/marketplace/</loc>
+    <loc>http://localhost:1313/categories/marketplace/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</loc>
+    <loc>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/stagehand/</loc>
+    <loc>http://localhost:1313/categories/stagehand/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/tender/</loc>
+    <loc>http://localhost:1313/categories/tender/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/room-booking-updates-recurring-booking-room-manager/</loc>
+    <loc>http://localhost:1313/posts/room-booking-updates-recurring-booking-room-manager/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/a-guide-to-energy-data-collection-utilization/</loc>
+    <loc>http://localhost:1313/posts/a-guide-to-energy-data-collection-utilization/</loc>
     <lastmod>2025-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/december-2024-placeos-product-updates/</loc>
+    <loc>http://localhost:1313/posts/december-2024-placeos-product-updates/</loc>
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/locker-booking/</loc>
+    <loc>http://localhost:1313/categories/locker-booking/</loc>
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/data-deceits-how-to-spot-when-you-re-being-lied-to/</loc>
+    <loc>http://localhost:1313/posts/data-deceits-how-to-spot-when-you-re-being-lied-to/</loc>
     <lastmod>2024-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/two-core-philosophies-for-smart-building-design/</loc>
+    <loc>http://localhost:1313/posts/two-core-philosophies-for-smart-building-design/</loc>
     <lastmod>2024-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/api-keys-simplify-authentication-for-apps-devices/</loc>
+    <loc>http://localhost:1313/posts/api-keys-simplify-authentication-for-apps-devices/</loc>
     <lastmod>2024-12-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/auto-assign-desks-car-spaces/</loc>
+    <loc>http://localhost:1313/posts/auto-assign-desks-car-spaces/</loc>
     <lastmod>2024-12-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/how-to-choose-the-best-meeting-room-booking-software/</loc>
+    <loc>http://localhost:1313/posts/how-to-choose-the-best-meeting-room-booking-software/</loc>
     <lastmod>2024-12-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/learn-about-crystal-v1-0-0-for-workplaces/</loc>
+    <loc>http://localhost:1313/posts/learn-about-crystal-v1-0-0-for-workplaces/</loc>
     <lastmod>2024-12-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/new-feature-locking-booking/</loc>
+    <loc>http://localhost:1313/posts/new-feature-locking-booking/</loc>
     <lastmod>2024-12-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/digital-signage/</loc>
+    <loc>http://localhost:1313/categories/digital-signage/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/september-2024-placeos-product-updates/</loc>
+    <loc>http://localhost:1313/posts/september-2024-placeos-product-updates/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/a-guide-to-energy-efficient-commercial-buildings/</loc>
+    <loc>http://localhost:1313/posts/a-guide-to-energy-efficient-commercial-buildings/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/apis/</loc>
+    <loc>http://localhost:1313/categories/apis/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/webinar/</loc>
+    <loc>http://localhost:1313/categories/webinar/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/webinar-campus-management-systems-with-cisco-meraki/</loc>
+    <loc>http://localhost:1313/posts/webinar-campus-management-systems-with-cisco-meraki/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/live-demo-ai-room-control/</loc>
+    <loc>http://localhost:1313/posts/live-demo-ai-room-control/</loc>
     <lastmod>2024-11-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/downsizing/</loc>
+    <loc>http://localhost:1313/categories/downsizing/</loc>
     <lastmod>2024-11-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/downsizing-your-office-first-take-these-5-essential-steps/</loc>
+    <loc>http://localhost:1313/posts/downsizing-your-office-first-take-these-5-essential-steps/</loc>
     <lastmod>2024-11-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/meeting-room-display-interface-design/</loc>
+    <loc>http://localhost:1313/posts/meeting-room-display-interface-design/</loc>
     <lastmod>2024-11-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/partnership-announcement-with-monstarlab/</loc>
+    <loc>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</loc>
     <lastmod>2024-11-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/sales/</loc>
+    <loc>http://localhost:1313/categories/sales/</loc>
     <lastmod>2024-11-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/july-2024-placeos-product-updates/</loc>
+    <loc>http://localhost:1313/posts/july-2024-placeos-product-updates/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/area-manager-occupancy-sensor-management/</loc>
+    <loc>http://localhost:1313/posts/area-manager-occupancy-sensor-management/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/deployment-via-openshift/</loc>
+    <loc>http://localhost:1313/posts/deployment-via-openshift/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/employee-experience/</loc>
+    <loc>http://localhost:1313/categories/employee-experience/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</loc>
+    <loc>http://localhost:1313/posts/enhancing-commercial-building-sustainability-in-a-hybrid-workplace/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/event-management/</loc>
+    <loc>http://localhost:1313/categories/event-management/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/feature-enablement/</loc>
+    <loc>http://localhost:1313/posts/feature-enablement/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/how-bms-improve-commercial-building-sustainability/</loc>
+    <loc>http://localhost:1313/posts/how-bms-improve-commercial-building-sustainability/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/how-to-capture-occupancy-data-in-the-workplace/</loc>
+    <loc>http://localhost:1313/posts/how-to-capture-occupancy-data-in-the-workplace/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/how-to-create-a-desk-booking-app-for-your-office-needs/</loc>
+    <loc>http://localhost:1313/posts/how-to-create-a-desk-booking-app-for-your-office-needs/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/how-to-successfully-return-to-the-office-after-covid/</loc>
+    <loc>http://localhost:1313/posts/how-to-successfully-return-to-the-office-after-covid/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/importance-of-energy-data-for-commercial-buildings/</loc>
+    <loc>http://localhost:1313/posts/importance-of-energy-data-for-commercial-buildings/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/indoor-air-quality-integration-kaiterra/</loc>
+    <loc>http://localhost:1313/posts/indoor-air-quality-integration-kaiterra/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/indoor-wayfinding-for-your-workplace/</loc>
+    <loc>http://localhost:1313/posts/indoor-wayfinding-for-your-workplace/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/introducing-event-manager/</loc>
+    <loc>http://localhost:1313/posts/introducing-event-manager/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/is-your-hvac-system-cooling-an-empty-office/</loc>
+    <loc>http://localhost:1313/posts/is-your-hvac-system-cooling-an-empty-office/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/live-demo-concierge-managing-workplace-experience/</loc>
+    <loc>http://localhost:1313/posts/live-demo-concierge-managing-workplace-experience/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/live-demo-connect-your-business-to-your-building/</loc>
+    <loc>http://localhost:1313/posts/live-demo-connect-your-business-to-your-building/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/live-demo-placeai-chatgpt-object-recognition-features/</loc>
+    <loc>http://localhost:1313/posts/live-demo-placeai-chatgpt-object-recognition-features/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/live-demo-working-with-working-from-home/</loc>
+    <loc>http://localhost:1313/posts/live-demo-working-with-working-from-home/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/live-demo-workmate-native-ios-android/</loc>
+    <loc>http://localhost:1313/posts/live-demo-workmate-native-ios-android/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/live-event-rethinking-campus-experience/</loc>
+    <loc>http://localhost:1313/posts/live-event-rethinking-campus-experience/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/location-status/</loc>
+    <loc>http://localhost:1313/categories/location-status/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</loc>
+    <loc>http://localhost:1313/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/categories/podcast/</loc>
+    <loc>http://localhost:1313/categories/podcast/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/processing-on-the-edge/</loc>
+    <loc>http://localhost:1313/posts/processing-on-the-edge/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/self-documenting-api/</loc>
+    <loc>http://localhost:1313/posts/self-documenting-api/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/size-does-matter-the-2-topping-the-energy-charts/</loc>
+    <loc>http://localhost:1313/posts/size-does-matter-the-2-topping-the-energy-charts/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/smart-building-data-traps/</loc>
+    <loc>http://localhost:1313/posts/smart-building-data-traps/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/smart-building-energy-analytics/</loc>
+    <loc>http://localhost:1313/posts/smart-building-energy-analytics/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/support-for-open-telemetry/</loc>
+    <loc>http://localhost:1313/posts/support-for-open-telemetry/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/three-reasons-i-am-not-working-from-home/</loc>
+    <loc>http://localhost:1313/posts/three-reasons-i-am-not-working-from-home/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/vergesense-object-detection-occupancy-workflows/</loc>
+    <loc>http://localhost:1313/posts/vergesense-object-detection-occupancy-workflows/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/why-too-many-workplace-apps-are-counterproductive/</loc>
+    <loc>http://localhost:1313/posts/why-too-many-workplace-apps-are-counterproductive/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/workplace-management-app-new-features-and-enhancements/</loc>
+    <loc>http://localhost:1313/posts/workplace-management-app-new-features-and-enhancements/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/april-2024-placeos-product-updates/</loc>
+    <loc>http://localhost:1313/posts/april-2024-placeos-product-updates/</loc>
     <lastmod>2024-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/february-2024-placeos-product-updates/</loc>
+    <loc>http://localhost:1313/posts/february-2024-placeos-product-updates/</loc>
     <lastmod>2024-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/june-2024-placeos-product-updates/</loc>
+    <loc>http://localhost:1313/posts/june-2024-placeos-product-updates/</loc>
     <lastmod>2024-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/live-demo-event-manager/</loc>
+    <loc>http://localhost:1313/posts/live-demo-event-manager/</loc>
     <lastmod>2024-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</loc>
+    <loc>http://localhost:1313/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</loc>
     <lastmod>2024-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/</loc>
+    <loc>http://localhost:1313/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/a-guide-to-digital-workplace-transformation/</loc>
+    <loc>http://localhost:1313/posts/a-guide-to-digital-workplace-transformation/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/approaching-workplace-optimization/</loc>
+    <loc>http://localhost:1313/posts/approaching-workplace-optimization/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/deployment-tooling-kubernetes/</loc>
+    <loc>http://localhost:1313/posts/deployment-tooling-kubernetes/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/digital-twins-think-about-situations-not-semantics/</loc>
+    <loc>http://localhost:1313/posts/digital-twins-think-about-situations-not-semantics/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/everybody-needs-good-nabers-the-missing-energy-metric/</loc>
+    <loc>http://localhost:1313/posts/everybody-needs-good-nabers-the-missing-energy-metric/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/four-technology-integrations-to-help-during-covid-19/</loc>
+    <loc>http://localhost:1313/posts/four-technology-integrations-to-help-during-covid-19/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/how-commercial-real-estate-can-embrace-technology/</loc>
+    <loc>http://localhost:1313/posts/how-commercial-real-estate-can-embrace-technology/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/how-to-create-a-workplace-worth-returning-to/</loc>
+    <loc>http://localhost:1313/posts/how-to-create-a-workplace-worth-returning-to/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/integrating-incentives-into-the-workplace-and-beyond/</loc>
+    <loc>http://localhost:1313/posts/integrating-incentives-into-the-workplace-and-beyond/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/</loc>
+    <loc>http://localhost:1313/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/live-demo-enhanced-room-booking-event-manager/</loc>
+    <loc>http://localhost:1313/posts/live-demo-enhanced-room-booking-event-manager/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/live-demo-occupancy-based-energy-automation/</loc>
+    <loc>http://localhost:1313/posts/live-demo-occupancy-based-energy-automation/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/live-demo-understanding-energy-analytics-surveys-catering/</loc>
+    <loc>http://localhost:1313/posts/live-demo-understanding-energy-analytics-surveys-catering/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/live-demo-visitor-management-locker-booking/</loc>
+    <loc>http://localhost:1313/posts/live-demo-visitor-management-locker-booking/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/new-workmate-features-experience-surveys-wfh-status-more/</loc>
+    <loc>http://localhost:1313/posts/new-workmate-features-experience-surveys-wfh-status-more/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/office-space-utilization-is-only-half-the-story/</loc>
+    <loc>http://localhost:1313/posts/office-space-utilization-is-only-half-the-story/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/office-space-utilization-the-roadmap-to-efficiency/</loc>
+    <loc>http://localhost:1313/posts/office-space-utilization-the-roadmap-to-efficiency/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/raw-crystal-2020-ft-stephen-von-takach/</loc>
+    <loc>http://localhost:1313/posts/raw-crystal-2020-ft-stephen-von-takach/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/smart-building-automation-platforms-vs-apps/</loc>
+    <loc>http://localhost:1313/posts/smart-building-automation-platforms-vs-apps/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/social-distancing-is-sparking-the-smart-city-revolution/</loc>
+    <loc>http://localhost:1313/posts/social-distancing-is-sparking-the-smart-city-revolution/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/the-most-neglected-smarting-building-ux/</loc>
+    <loc>http://localhost:1313/posts/the-most-neglected-smarting-building-ux/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/the-world-s-largest-emitter/</loc>
+    <loc>http://localhost:1313/posts/the-world-s-largest-emitter/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/unlocking-your-workplace-s-hidden-potential-with-cisco-meraki/</loc>
+    <loc>http://localhost:1313/posts/unlocking-your-workplace-s-hidden-potential-with-cisco-meraki/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/user-input-equals-error-the-elon-musk-approach/</loc>
+    <loc>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/user-interface-templates/</loc>
+    <loc>http://localhost:1313/posts/user-interface-templates/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</loc>
+    <loc>http://localhost:1313/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/why-switch-from-on-prem-placeos-to-cloud-based/</loc>
+    <loc>http://localhost:1313/posts/why-switch-from-on-prem-placeos-to-cloud-based/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/posts/you-don-t-need-another-workplace-sensor/</loc>
+    <loc>http://localhost:1313/posts/you-don-t-need-another-workplace-sensor/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:62587/licensing/</loc>
+    <loc>http://localhost:1313/licensing/</loc>
   </url><url>
-    <loc>http://localhost:62587/privacy-policy/</loc>
+    <loc>http://localhost:1313/privacy-policy/</loc>
   </url><url>
-    <loc>http://localhost:62587/security/</loc>
+    <loc>http://localhost:1313/security/</loc>
   </url><url>
-    <loc>http://localhost:62587/terms-of-use/</loc>
+    <loc>http://localhost:1313/terms-of-use/</loc>
   </url><url>
-    <loc>http://localhost:62587/industry/smart-campus/</loc>
+    <loc>http://localhost:1313/industry/smart-campus/</loc>
   </url><url>
-    <loc>http://localhost:62587/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>http://localhost:62587/graph/</loc>
+    <loc>http://localhost:1313/graph/</loc>
   </url><url>
-    <loc>http://localhost:62587/categories/dashboards/</loc>
+    <loc>http://localhost:1313/categories/dashboards/</loc>
   </url><url>
-    <loc>http://localhost:62587/categories/education/</loc>
+    <loc>http://localhost:1313/categories/education/</loc>
   </url><url>
-    <loc>http://localhost:62587/industry/energy/</loc>
+    <loc>http://localhost:1313/industry/energy/</loc>
   </url><url>
-    <loc>http://localhost:62587/categories/faqs/</loc>
+    <loc>http://localhost:1313/categories/healthcare/</loc>
   </url><url>
-    <loc>http://localhost:62587/categories/healthcare/</loc>
+    <loc>http://localhost:1313/industry/</loc>
   </url><url>
-    <loc>http://localhost:62587/categories/how-to/</loc>
+    <loc>http://localhost:1313/integrations/</loc>
   </url><url>
-    <loc>http://localhost:62587/industry/</loc>
+    <loc>http://localhost:1313/products/</loc>
   </url><url>
-    <loc>http://localhost:62587/integrations/</loc>
+    <loc>http://localhost:1313/categories/roi/</loc>
   </url><url>
-    <loc>http://localhost:62587/products/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:62587/categories/roi/</loc>
-  </url><url>
-    <loc>http://localhost:62587/tags/</loc>
-  </url><url>
-    <loc>http://localhost:62587/industry/workplace/</loc>
+    <loc>http://localhost:1313/industry/workplace/</loc>
   </url>
 </urlset>
