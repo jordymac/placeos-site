@@ -1,19 +1,8 @@
 {{ with .Params.cta }}
 <div class="not-prose flex flex-col sm:flex-row py-4 gap-2 
             animate-in fade-in slide-in-from-bottom-6 duration-700 delay-400">
-      {{ if gt (len .) 1 }}
-    <div class="flex gap-2">
-      {{ range after 1 . }}
-        <a 
-          href="{{ .url }}" 
-          class="btn btn-light no-turbolink">
-          {{ .text }} {{ partial "svg/paper-plane.html" . }}
-    </a>
-      {{ end }}
-    </div>
-  {{ end }}
 
-  <form id="ctaForm" class="flex flex-row gap-0" method="POST" action="https://submit-form.com/CY23pHiJu">
+  <form id="ctaForm" class="flex flex-row gap-0" method="POST" action="{{ (index . 0).action_url }}">
     <input 
       type="email" 
       name="email" 
@@ -39,6 +28,18 @@
     <div id="ctaThankYou" style="display:none; align-self:center; margin-left:1rem;">
       <p>Thanks for reaching out! We’ll get back to you within 24 hours.</p>
     </div>
+
+      {{ if gt (len .) 1 }}
+    <div class="flex gap-2">
+      {{ range after 1 . }}
+        <a 
+          href="{{ .url }}" 
+          class="btn btn-light no-turbolink">
+          {{ .text }} {{ partial "svg/paper-plane.html" . }}
+    </a>
+      {{ end }}
+    </div>
+  {{ end }}
 
   </div>
   {{ partial "form-submission-script" (dict "formId" "ctaForm" "thankYouId" "ctaThankYou" "redirectInputId" "ctaRedirect" "iframeName" "ctaFrame") }}

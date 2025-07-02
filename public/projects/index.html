@@ -225,62 +225,14 @@ viewBox="0 0 512 512">
       </div>
     </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
     
-      <script src="/js/theme-toggle.js"></script>
-      <script src="/js/gradient-animation.js"></script>
       
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5B3FL7Z"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
-
-
+<script src="/js/theme-toggle.js" defer></script>
+<script src="/js/gradient-animation.js" defer></script>
 <script src="https://unpkg.com/@botpoison/browser" async></script>
-
-<script type="text/javascript">
-  document.querySelectorAll('form[action^="https://submit-form.com"]').forEach(form => {
-    
-    if (form.target && form.target.includes('Frame')) {
-      console.log('Skipping Botpoison for iframe form:', form.id);
-      return;
-    }
-    
-    form.addEventListener('submit', async function (e) {
-      e.preventDefault();
-
-      const botpoison = new Botpoison({
-        publicKey: 'pk_c7d39b30-2471-4ff9-8f3c-ac7d67a1239b',
-      });
-
-      try {
-        const result = await botpoison.challenge();
-
-        const formData = new FormData(form);
-        formData.append('_botpoison', result.solution);
-
-        const response = await fetch(form.action, {
-          method: 'POST',
-          body: formData,
-        });
-
-        const parent = form.parentElement;
-
-        if (response.ok) {
-          form.style.display = 'none';
-          parent.querySelector('.w-form-done').style.display = 'block';
-        } else {
-          parent.querySelector('.w-form-fail').style.display = 'block';
-        }
-      } catch (error) {
-        const parent = form.parentElement;
-        parent.querySelector('.w-form-fail').style.display = 'block';
-      }
-    });
-  });
-
-</script>
-<script src="/js/anchors.js"></script>
+<script src="/js/botpoison.js" defer></script>
+<script src="/js/anchors.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
-
-
   </body>
 </html>
