@@ -28,9 +28,8 @@ hasTopic:
   - "People Counting"
   - "AI Event Triggering"
   - "Surveillance Automation"
-
 isMainTopicOf:
-  - "LensPath – No-Code Computer Vision AI for Real-Time Actions"
+  - "No-Code Computer Vision AI for Real-Time Actions"
 queries:
   primary: "computer vision platform"
   related:
@@ -57,6 +56,20 @@ categories:
 - product
 - Automation
 - Computer Vision
+
+related_links:
+  - url: /products/occupancy-monitoring
+    anchor_text: Occupancy Monitoring System
+  - url: /products/hvac-automation
+    anchor_text: HVAC Automation
+  - url: /products/visitor-management-app
+    anchor_text: Visitor Management System
+  - url: /products/backoffice
+    anchor_text: BackOffice - Smart Building Platform
+  - url: /products/stagehand
+    anchor_text: StageHand - AV Control System
+  - url: /products/workmate-workplace-solution
+    anchor_text: WorkMate - Workplace Management Platform
 ---
 
 **Fix problems the moment they're seen.** LensPath is the no-code computer vision automation platform that connects to your existing camera systems, detects events in real time, and triggers automated actions in your facility.

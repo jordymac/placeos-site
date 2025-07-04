@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tender on PlaceOS</title>
-    <link>http://localhost:62587/categories/tender/</link>
+    <link>https://placeos.com/categories/tender/</link>
     <description>Recent content in Tender on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:62587/categories/tender/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://placeos.com/categories/tender/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Platform Power Unleashed: The Strategy Behind Our New Products</title>
-      <link>http://localhost:62587/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</link>
+      <link>https://placeos.com/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</guid>
+      <guid>https://placeos.com/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</guid>
       <description>The future of enterprise tech is shifting from SaaS to platform-based solutions. Explore how integration, AI agents, and modular design accelerate growth and in</description>
     </item>
     <item>
       <title>Why Switch from On-Prem PlaceOS to Cloud Based?</title>
-      <link>http://localhost:62587/posts/why-switch-from-on-prem-placeos-to-cloud-based/</link>
+      <link>https://placeos.com/posts/why-switch-from-on-prem-placeos-to-cloud-based/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/why-switch-from-on-prem-placeos-to-cloud-based/</guid>
+      <guid>https://placeos.com/posts/why-switch-from-on-prem-placeos-to-cloud-based/</guid>
       <description>Why move from an on-premise PlaceOS (or even ACAEngine) deployment to a cloud-based PlaceOS solution?</description>
     </item>
   </channel>

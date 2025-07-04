@@ -15,7 +15,6 @@ schema:
     name: "PlaceOS"
     url: "https://placeos.com"
 hasTopic:
-  - "HVAC Automation"
   - "Building Energy Management"
   - "BMS Automation"
   - "Occupancy-Based HVAC Control"
@@ -25,7 +24,7 @@ hasTopic:
   - "Demand Control Ventilation"
   - "Energy Management Software"
   - "Sensorless Occupancy Monitoring"
-isMainTopicOf:
+isMainTopicOf: "HVAC Automation"
 queries: 
   primary: "hvac automation"
   related:
@@ -53,6 +52,20 @@ categories:
   - Occupancy
   - Systems
   - product
+
+related_links:
+  - url: /products/occupancy-monitoring
+    anchor_text: Occupancy Monitoring System
+  - url: /products/workmate-workplace-solution
+    anchor_text: WorkMate - Workplace Management Platform
+  - url: /products/room-booking
+    anchor_text: Meeting Room Booking System
+  - url: /products/desk-booking-app
+    anchor_text: Desk Booking System
+  - url: /products/lenspath
+    anchor_text: LensPath Computer Vision Platform
+  - url: /products/backoffice
+    anchor_text: BackOffice - Smart Building Platform
 
 ---
 ## No sensors. No hardware. No problem.

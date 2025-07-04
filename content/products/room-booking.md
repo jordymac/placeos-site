@@ -17,15 +17,43 @@ hero_image: "images/products/room-booking-once/room-booking-hero-image-light.web
 image: images/products/room-booking-once/room-booking-hero-image-light.webp
 product_logo: room-booking-logo.svg
 hasTopic:
+  - "Meeting Room Booking System"
+  - "Room Reservation Software"
+  - "Conference Room Scheduler"
+  - "Room Booking Panels"
+  - "Room Scheduling Software"
 isMainTopicOf:
+  - "Room Booking"
 queries:
-  primary: meeting room booking system
+  primary: "meeting room booking system"
   related:
-    - conference room booking system
-    - conferece room reservation system
-    - meeting room booking software
-    - meeting room reservation system
-hasQuery:
+    - "room booking system"
+    - "meeting room booking software"
+    - "conference room booking system"
+    - "room booking software"
+    - "meeting room reservation system"
+    - "room reservation software"
+    - "conference room reservation system"
+    - "meeting room scheduler"
+    - "conference room scheduler"
+    - "room booking app"
+    - "room scheduling software"
+    - "conference room booking app"
+    - "meeting room scheduling software"
+    - "meeting room display"
+    - "room scheduling panels"
+    - "room booking system office 365"
+    - "microsoft meeting room booking system"
+    - "meeting room management system"
+    - "room reservation system free"
+    - "meeting room booking app"
+    - "best room booking software"
+    - "meeting room calendar app"
+    - "conference room booking software"
+    - "room booking panels"
+    - "online meeting room booking system"
+    - "conference room scheduling software"
+    - "room booking system microsoft teams"
 cta:
   - text: "Request a demo"
     type: "email-form"  
@@ -48,6 +76,22 @@ categories:
   - WorkMate
   - Workplace
   - product
+
+related_links:
+  - url: /products/workmate-workplace-solution
+    anchor_text: WorkMate - Workplace Management Platform
+  - url: /products/desk-booking-app
+    anchor_text: Desk Booking System
+  - url: /products/visitor-management-app
+    anchor_text: Visitor Management System
+  - url: /products/stagehand
+    anchor_text: StageHand - AV Control System
+  - url: /products/occupancy-monitoring-system
+    anchor_text: Occupancy Monitoring System
+  - url: /products/hvac-automation
+    anchor_text: HVAC Automation
+  - url: /products/backoffice
+    anchor_text: BackOffice - Smart Building Platform
 ---
 # A simple, self-hosted room booking app you don't pay per room per month, you own it
 Our meeting room booking software works with every calendar tool, conferencing system, occupancy sensor, AV equipment and network so that you can install it everywhere with ease.

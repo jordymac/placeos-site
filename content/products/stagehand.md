@@ -31,8 +31,7 @@ hasTopic:
   - "AV Automation"
   - "Remote AV Reboot"
 isMainTopicOf:
-  - "StageHand – Browser-Based AV Control System"
-
+  - "AV Control System"
 queries:
   primary: browser based av control system
   related:
@@ -64,6 +63,23 @@ categories:
   - Utilization
   - WorkMate
   - product
+related_links:
+  - url: /products/room-booking
+    anchor_text: Meeting Room Booking System
+  - url: /products/desk-booking-app
+    anchor_text: Desk Booking System
+  - url: /products/visitor-management-app
+    anchor_text: Visitor Management System
+  - url: /products/backoffice
+    anchor_text: Smart Building Platform
+  - url: /products/workmate-workplace-solution
+    anchor_text: WorkMate - Workplace Management Platform  
+  - url: /products/occupancy-monitoring 
+    anchor_text: Occupancy Monitoring System
+  - url: /products/hvac-automation
+    anchor_text: HVAC Automation
+  - url: /products/lenspath
+    anchor_text: LensPath Computer Vision Platform
 ---
 
 **Stagehand gives AV and IT support teams complete remote visibility, control, and automation over every lecture hall and meeting room – so you can fix AV issues before they interrupt class – not after.** Proactively resolve problems from a web browser and eliminate disruptive onsite callouts.

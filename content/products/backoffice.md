@@ -32,6 +32,23 @@ categories:
   - Workplace
   - Campus
   - product
+related_links:
+  - url: /products/room-booking
+    anchor_text: Meeting Room Booking System
+  - url: /products/desk-booking-app
+    anchor_text: Desk Booking System
+  - url: /products/visitor-management-app
+    anchor_text: Visitor Management System
+  - url: /products/workmate-workplace-solution
+    anchor_text: WorkMate - Workplace Management Platform  
+  - url: /products/occupancy-monitoring 
+    anchor_text: Occupancy Monitoring System
+  - url: /products/hvac-automation
+    anchor_text: HVAC Automation
+  - url: /products/lenspath
+    anchor_text: LensPath Computer Vision Platform
+  - url: /products/stagehand
+    anchor_text: StageHand - AV Control System
 ---
 BackOffice provides a single, powerful interface to configure, monitor and manage thousands of devices and integrations. Add new integrations and workflows to your building in seconds.
 

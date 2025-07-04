@@ -14,17 +14,35 @@ schema:
   provider:
     name: "PlaceOS"
     url: "https://placeos.com"
-hasTopic: desk booking system
-isMainTopicOf: desk booking
+hasTopic:
+  - "Desk Booking System"
+  - "Desk Reservation Software"
+  - "Hot Desking"
+  - "Office Hoteling Software"
+  - "Workspace Booking Tools"
+isMainTopicOf:
+  - "Desk Booking"
 queries:
-  primary: dsek booking system
+  primary: "desk booking system"
   related:
-    - desk booking software
-    - desk booking app
-    - office desk booking
-    - desk reservation app
-    - hot desk software
-hasQuery:
+    - "desk booking software"
+    - "desk booking app"
+    - "desk booking tool"
+    - "desk booking solutions"
+    - "desk reservation software"
+    - "hot desking system"
+    - "hot desk software"
+    - "office hoteling software"
+    - "workspace booking system"
+    - "hot desk booking system"
+    - "best desk booking software"
+    - "office desk booking system"
+    - "desk reservation app"
+    - "desk booking system microsoft teams"
+    - "desk booking system office 365"
+    - "free desk booking system"
+    - "office desk reservation system"
+
 cta:
   - text: "Request a demo"
     type: "email-form"  
@@ -41,6 +59,20 @@ categories:
   - Occupancy
   - Utilization
   - product
+
+related_links:
+  - url: /products/workmate-workplace-solution
+    anchor_text: WorkMate - Workplace Management Platform
+  - url: /products/room-booking
+    anchor_text: Meeting Room Booking System
+  - url: /products/occupancy-monitoring
+    anchor_text: Occupancy Monitoring System
+  - url: /products/hvac-automation
+    anchor_text: HVAC Automation
+  - url: /products/visitor-management-app
+    anchor_text: Visitor Management System
+  - url: /products/backoffice
+    anchor_text: BackOffice - Smart Building Platform
 ---
 # Configurable desk booking management at scale without vendor lock-in
 Desk booking software that does hot-desking, group bookings, desk assignments, desk preferences, automatic desk check-in, recurring bookings and utilization reports without hardware lock-in.

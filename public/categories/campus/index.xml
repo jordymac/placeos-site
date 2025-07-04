@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Campus on PlaceOS</title>
-    <link>http://localhost:1313/categories/campus/</link>
+    <link>https://placeos.com/categories/campus/</link>
     <description>Recent content in Campus on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/campus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://placeos.com/categories/campus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>StageHand</title>
-      <link>http://localhost:1313/products/stagehand/</link>
+      <link>https://placeos.com/products/stagehand/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/stagehand/</guid>
+      <guid>https://placeos.com/products/stagehand/</guid>
       <description>Control every AV device in every room on campus — from your browser</description>
     </item>
     <item>
       <title>BackOffice</title>
-      <link>http://localhost:1313/products/backoffice/</link>
+      <link>https://placeos.com/products/backoffice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/backoffice/</guid>
+      <guid>https://placeos.com/products/backoffice/</guid>
       <description>Command your entire smart environment in one place</description>
     </item>
     <item>
       <title>Canadian University Campus - Energy Reduction &amp; Sustainability</title>
-      <link>http://localhost:1313/projects/campus-energy-reduction-sustainability/</link>
+      <link>https://placeos.com/projects/campus-energy-reduction-sustainability/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/campus-energy-reduction-sustainability/</guid>
+      <guid>https://placeos.com/projects/campus-energy-reduction-sustainability/</guid>
       <description>This pilot examined the implementation of PlaceOS for automating and synchronizing separate building systems—security access, HVAC, AV, and others—integrated with the university’s scheduling system. The goal was to transform classrooms into smart spaces through enhanced automation capabilities.</description>
     </item>
     <item>
       <title>Building &amp; Region-Level Workplace Management</title>
-      <link>http://localhost:1313/posts/building-region-level-workplace-management/</link>
+      <link>https://placeos.com/posts/building-region-level-workplace-management/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/building-region-level-workplace-management/</guid>
+      <guid>https://placeos.com/posts/building-region-level-workplace-management/</guid>
       <description>Control workplace settings to standardize policies across buildings, so you can scale workplace management while ensuring the right settings for each location.</description>
     </item>
     <item>
       <title>A Guide to Energy Data Collection &amp; Utilization</title>
-      <link>http://localhost:1313/posts/a-guide-to-energy-data-collection-utilization/</link>
+      <link>https://placeos.com/posts/a-guide-to-energy-data-collection-utilization/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/a-guide-to-energy-data-collection-utilization/</guid>
+      <guid>https://placeos.com/posts/a-guide-to-energy-data-collection-utilization/</guid>
       <description>How to collect energy data in commercial buildings so that you can find out where you&amp;rsquo;re wasting energy like powering empty spaces.</description>
     </item>
     <item>
       <title>Webinar: Campus Management Systems with Cisco Meraki</title>
-      <link>http://localhost:1313/posts/webinar-campus-management-systems-with-cisco-meraki/</link>
+      <link>https://placeos.com/posts/webinar-campus-management-systems-with-cisco-meraki/</link>
       <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/webinar-campus-management-systems-with-cisco-meraki/</guid>
+      <guid>https://placeos.com/posts/webinar-campus-management-systems-with-cisco-meraki/</guid>
       <description>Learn how campus management systems leverage occupancy data like Cisco Meraki so that you&amp;rsquo;re not powering empty classrooms on campus.</description>
     </item>
     <item>
       <title>Partnership announcement with Monstarlab</title>
-      <link>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</link>
+      <link>https://placeos.com/posts/partnership-announcement-with-monstarlab/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</guid>
+      <guid>https://placeos.com/posts/partnership-announcement-with-monstarlab/</guid>
       <description>We are proud to announce our official partnership with global digital consultancy Monstarlab! The partnership will help build</description>
     </item>
     <item>
       <title>LIVE EVENT: Rethinking Campus Experience</title>
-      <link>http://localhost:1313/posts/live-event-rethinking-campus-experience/</link>
+      <link>https://placeos.com/posts/live-event-rethinking-campus-experience/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-event-rethinking-campus-experience/</guid>
+      <guid>https://placeos.com/posts/live-event-rethinking-campus-experience/</guid>
       <description>Discover smart campus solutions to enhance the campus experience. Learn how a campus app can streamline operations and improve student engagement.</description>
     </item>
     <item>
       <title>Size Does Matter: The 2% Topping the Energy Charts</title>
-      <link>http://localhost:1313/posts/size-does-matter-the-2-topping-the-energy-charts/</link>
+      <link>https://placeos.com/posts/size-does-matter-the-2-topping-the-energy-charts/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/size-does-matter-the-2-topping-the-energy-charts/</guid>
+      <guid>https://placeos.com/posts/size-does-matter-the-2-topping-the-energy-charts/</guid>
       <description>Uncover the secrets of the top 2% in commercial real estate. Achieve energy reduction and lower energy consumption with expert insights. Find out how today!</description>
     </item>
     <item>
       <title>Three reasons I am not working from home</title>
-      <link>http://localhost:1313/posts/three-reasons-i-am-not-working-from-home/</link>
+      <link>https://placeos.com/posts/three-reasons-i-am-not-working-from-home/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/three-reasons-i-am-not-working-from-home/</guid>
+      <guid>https://placeos.com/posts/three-reasons-i-am-not-working-from-home/</guid>
       <description>Discover three compelling reasons not to work from home. Learn why returning to the office can boost productivity, collaboration, and overall job satisfaction.</description>
     </item>
     <item>
       <title>LIVE DEMO: Indoor Wayfinding &amp; Workplace Management Overhaul</title>
-      <link>http://localhost:1313/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</link>
+      <link>https://placeos.com/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</link>
       <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</guid>
+      <guid>https://placeos.com/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</guid>
       <description>A brand new feature powered by a new integration. An overhaul of our workplace management application.</description>
     </item>
     <item>
       <title>£93bn of Commercial Real Estate is at Risk, Here’s What To Do</title>
-      <link>http://localhost:1313/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/</link>
+      <link>https://placeos.com/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/</guid>
+      <guid>https://placeos.com/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/</guid>
       <description>Unlocking sustainability: UK&amp;rsquo;s mandate &amp;amp; PlaceOS&amp;rsquo;s smart energy solutions reshape real estate&amp;rsquo;s future.</description>
     </item>
     <item>
       <title>When to go with a custom or packaged smart building solution</title>
-      <link>http://localhost:1313/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</link>
+      <link>https://placeos.com/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</guid>
+      <guid>https://placeos.com/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</guid>
       <description>When it comes to smart building solutions, choosing when to go custom or packaged is difficult. Here&amp;rsquo;s how to approach it.</description>
     </item>
   </channel>

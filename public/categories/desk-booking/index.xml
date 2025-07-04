@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Desk Booking on PlaceOS</title>
-    <link>http://localhost:1313/categories/desk-booking/</link>
+    <link>https://placeos.com/categories/desk-booking/</link>
     <description>Recent content in Desk Booking on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/desk-booking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://placeos.com/categories/desk-booking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WorkMate</title>
-      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
+      <link>https://placeos.com/products/workmate-workplace-solution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
+      <guid>https://placeos.com/products/workmate-workplace-solution/</guid>
       <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
     </item>
     <item>
       <title>Desk Booking</title>
-      <link>http://localhost:1313/products/desk-booking-app/</link>
+      <link>https://placeos.com/products/desk-booking-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/desk-booking-app/</guid>
+      <guid>https://placeos.com/products/desk-booking-app/</guid>
       <description>Configurable desk booking management at scale without no hardware lock-in</description>
     </item>
     <item>
       <title>Government Agency - Multi-Tenancy: Space as a Service</title>
-      <link>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</link>
+      <link>https://placeos.com/projects/multi-tenancy-space-as-a-service/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</guid>
+      <guid>https://placeos.com/projects/multi-tenancy-space-as-a-service/</guid>
       <description>This Government Agency required a multifunctional and scalable workspace management system to serve various federal agencies. It must accurately authenticate users to manage and charge for space utilization, and provide a scalable model suitable for other government spaces facing underutilization.</description>
     </item>
     <item>
       <title>Building &amp; Region-Level Workplace Management</title>
-      <link>http://localhost:1313/posts/building-region-level-workplace-management/</link>
+      <link>https://placeos.com/posts/building-region-level-workplace-management/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/building-region-level-workplace-management/</guid>
+      <guid>https://placeos.com/posts/building-region-level-workplace-management/</guid>
       <description>Control workplace settings to standardize policies across buildings, so you can scale workplace management while ensuring the right settings for each location.</description>
     </item>
     <item>
       <title>December 2024 PlaceOS Product Updates</title>
-      <link>http://localhost:1313/posts/december-2024-placeos-product-updates/</link>
+      <link>https://placeos.com/posts/december-2024-placeos-product-updates/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/december-2024-placeos-product-updates/</guid>
+      <guid>https://placeos.com/posts/december-2024-placeos-product-updates/</guid>
       <description>December 2024 WorkMate updates include new parking utilization reports, kiosk customizations, recurring desk bookings, added language support and room alerts.</description>
     </item>
     <item>
       <title>Auto Assign Desks &amp; Car Spaces</title>
-      <link>http://localhost:1313/posts/auto-assign-desks-car-spaces/</link>
+      <link>https://placeos.com/posts/auto-assign-desks-car-spaces/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/auto-assign-desks-car-spaces/</guid>
+      <guid>https://placeos.com/posts/auto-assign-desks-car-spaces/</guid>
       <description>Auto-assign desks by department and car spaces with ANPR integration for efficient visitor management.</description>
     </item>
     <item>
       <title>New Feature: Locking Booking</title>
-      <link>http://localhost:1313/posts/new-feature-locking-booking/</link>
+      <link>https://placeos.com/posts/new-feature-locking-booking/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/new-feature-locking-booking/</guid>
+      <guid>https://placeos.com/posts/new-feature-locking-booking/</guid>
       <description>Explore PlaceOS&amp;rsquo;s Locker Booking System: Easy reservations, access control, visual booking, and flexibility for workplaces and visitor management.</description>
     </item>
     <item>
       <title>How to Create a Desk Booking App for Your Office Needs</title>
-      <link>http://localhost:1313/posts/how-to-create-a-desk-booking-app-for-your-office-needs/</link>
+      <link>https://placeos.com/posts/how-to-create-a-desk-booking-app-for-your-office-needs/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-to-create-a-desk-booking-app-for-your-office-needs/</guid>
+      <guid>https://placeos.com/posts/how-to-create-a-desk-booking-app-for-your-office-needs/</guid>
       <description>Discover the steps to effectively scope a desk booking app. Optimize your office space with a tailored desk booking solution that meets your requirements.</description>
     </item>
     <item>
       <title>LIVE DEMO: Concierge - Managing Workplace Experience</title>
-      <link>http://localhost:1313/posts/live-demo-concierge-managing-workplace-experience/</link>
+      <link>https://placeos.com/posts/live-demo-concierge-managing-workplace-experience/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-concierge-managing-workplace-experience/</guid>
+      <guid>https://placeos.com/posts/live-demo-concierge-managing-workplace-experience/</guid>
       <description>Elevate your hybrid workplace with our advanced workplace management app. Discover how to enhance the workplace experience and streamline operations.</description>
     </item>
     <item>
       <title>LIVE DEMO: PlaceAI - ChatGPT &amp; Object Recognition Features</title>
-      <link>http://localhost:1313/posts/live-demo-placeai-chatgpt-object-recognition-features/</link>
+      <link>https://placeos.com/posts/live-demo-placeai-chatgpt-object-recognition-features/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-placeai-chatgpt-object-recognition-features/</guid>
+      <guid>https://placeos.com/posts/live-demo-placeai-chatgpt-object-recognition-features/</guid>
       <description>Discover the benefits of Chat GPT integration in your workplace. Join our live demo to see how this AI assistant can enhance productivity and streamline tasks.</description>
     </item>
     <item>
       <title>Managing Technology Redundancy in IoT and Smart Buildings</title>
-      <link>http://localhost:1313/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</link>
+      <link>https://placeos.com/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</guid>
+      <guid>https://placeos.com/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</guid>
       <description>Learn how to effectively deal with technology redundancy in IoT and smart buildings. Discover strategies to optimize systems and ensure continuous performance.</description>
     </item>
     <item>
       <title>Workplace Management App: New Features and Enhancements</title>
-      <link>http://localhost:1313/posts/workplace-management-app-new-features-and-enhancements/</link>
+      <link>https://placeos.com/posts/workplace-management-app-new-features-and-enhancements/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/workplace-management-app-new-features-and-enhancements/</guid>
+      <guid>https://placeos.com/posts/workplace-management-app-new-features-and-enhancements/</guid>
       <description>Explore the new features of the refreshed Concierge workplace management app. Improve efficiency and optimize your workplace with our innovative solutions.</description>
     </item>
     <item>
       <title>April 2024 PlaceOS Product Updates</title>
-      <link>http://localhost:1313/posts/april-2024-placeos-product-updates/</link>
+      <link>https://placeos.com/posts/april-2024-placeos-product-updates/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/april-2024-placeos-product-updates/</guid>
+      <guid>https://placeos.com/posts/april-2024-placeos-product-updates/</guid>
       <description>POI QR code support, public map kiosk, enhanced MapsPeople search, backoffice warnings, and driver updates.</description>
     </item>
     <item>
       <title>February 2024 PlaceOS Product Updates</title>
-      <link>http://localhost:1313/posts/february-2024-placeos-product-updates/</link>
+      <link>https://placeos.com/posts/february-2024-placeos-product-updates/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/february-2024-placeos-product-updates/</guid>
+      <guid>https://placeos.com/posts/february-2024-placeos-product-updates/</guid>
       <description>Added Secure S3 Uploads, enhanced MapBox and MapsPeople integration, and new Work Locations feature, Improved visitor booking</description>
     </item>
     <item>
       <title>LIVE DEMO: Energy Analytics Dashboards, Outlook Plugin &amp; More</title>
-      <link>http://localhost:1313/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/</link>
+      <link>https://placeos.com/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/</guid>
+      <guid>https://placeos.com/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/</guid>
       <description>A live demonstration of our latest in Commercial Building Energy Analytics, our Outlook Plugin &amp;amp; workplace application.</description>
     </item>
     <item>
       <title>LIVE DEMO: Understanding Energy Analytics, Surveys &amp; Catering</title>
-      <link>http://localhost:1313/posts/live-demo-understanding-energy-analytics-surveys-catering/</link>
+      <link>https://placeos.com/posts/live-demo-understanding-energy-analytics-surveys-catering/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-understanding-energy-analytics-surveys-catering/</guid>
+      <guid>https://placeos.com/posts/live-demo-understanding-energy-analytics-surveys-catering/</guid>
       <description>A live demo about technical details behind our energy analytics tools, valuable insights from surveys &amp;amp; our catering tool.</description>
     </item>
     <item>
       <title>When to go with a custom or packaged smart building solution</title>
-      <link>http://localhost:1313/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</link>
+      <link>https://placeos.com/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</guid>
+      <guid>https://placeos.com/posts/when-to-go-with-a-custom-or-packaged-smart-building-solution/</guid>
       <description>When it comes to smart building solutions, choosing when to go custom or packaged is difficult. Here&amp;rsquo;s how to approach it.</description>
     </item>
   </channel>

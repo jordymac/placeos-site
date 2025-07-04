@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>UX on PlaceOS</title>
-    <link>http://localhost:62587/categories/ux/</link>
+    <link>https://placeos.com/categories/ux/</link>
     <description>Recent content in UX on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:62587/categories/ux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://placeos.com/categories/ux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ASHRAE Headquarters - Net-Zero Retrofit</title>
-      <link>http://localhost:62587/projects/ashrae-headquarters-net-zero-retrofit/</link>
+      <link>https://placeos.com/projects/ashrae-headquarters-net-zero-retrofit/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/projects/ashrae-headquarters-net-zero-retrofit/</guid>
+      <guid>https://placeos.com/projects/ashrae-headquarters-net-zero-retrofit/</guid>
       <description>ASHRAE is a global society maintaining sustainable standards for the built environment. They are the creator of BACnet, a protocol and set of standards for the HVAC industry.</description>
     </item>
     <item>
       <title>Canadian University Campus - Energy Reduction &amp; Sustainability</title>
-      <link>http://localhost:62587/projects/campus-energy-reduction-sustainability/</link>
+      <link>https://placeos.com/projects/campus-energy-reduction-sustainability/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/projects/campus-energy-reduction-sustainability/</guid>
+      <guid>https://placeos.com/projects/campus-energy-reduction-sustainability/</guid>
       <description>This pilot examined the implementation of PlaceOS for automating and synchronizing separate building systems—security access, HVAC, AV, and others—integrated with the university’s scheduling system. The goal was to transform classrooms into smart spaces through enhanced automation capabilities.</description>
     </item>
     <item>
       <title>Two core philosophies for smart building design</title>
-      <link>http://localhost:62587/posts/two-core-philosophies-for-smart-building-design/</link>
+      <link>https://placeos.com/posts/two-core-philosophies-for-smart-building-design/</link>
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/two-core-philosophies-for-smart-building-design/</guid>
+      <guid>https://placeos.com/posts/two-core-philosophies-for-smart-building-design/</guid>
       <description>Smart building design focuses on user experiences and insights. Avoid common pitfalls like confusing UI with UX or relying too much on dashboards.</description>
     </item>
     <item>
       <title>Meeting Room Display Interface Design</title>
-      <link>http://localhost:62587/posts/meeting-room-display-interface-design/</link>
+      <link>https://placeos.com/posts/meeting-room-display-interface-design/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/meeting-room-display-interface-design/</guid>
+      <guid>https://placeos.com/posts/meeting-room-display-interface-design/</guid>
       <description>Improve room booking efficiency with our advanced meeting room display. Explore interface design tips to create a user-friendly and effective booking system.</description>
     </item>
     <item>
       <title>Area Manager: Occupancy &amp; Sensor Management</title>
-      <link>http://localhost:62587/posts/area-manager-occupancy-sensor-management/</link>
+      <link>https://placeos.com/posts/area-manager-occupancy-sensor-management/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/area-manager-occupancy-sensor-management/</guid>
+      <guid>https://placeos.com/posts/area-manager-occupancy-sensor-management/</guid>
       <description>Discover how Area Manager optimizes occupancy sensor management for efficient space utilization. Enhance your workplace with advanced occupancy tracking.</description>
     </item>
     <item>
       <title>How to Successfully Return to the Office after Covid</title>
-      <link>http://localhost:62587/posts/how-to-successfully-return-to-the-office-after-covid/</link>
+      <link>https://placeos.com/posts/how-to-successfully-return-to-the-office-after-covid/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/how-to-successfully-return-to-the-office-after-covid/</guid>
+      <guid>https://placeos.com/posts/how-to-successfully-return-to-the-office-after-covid/</guid>
       <description>Discover best practices for returning to the office after COVID. Explore how to create a safe and productive work environment in our comprehensive guide.</description>
     </item>
     <item>
       <title>Why Too Many Workplace Apps Are Counterproductive</title>
-      <link>http://localhost:62587/posts/why-too-many-workplace-apps-are-counterproductive/</link>
+      <link>https://placeos.com/posts/why-too-many-workplace-apps-are-counterproductive/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/why-too-many-workplace-apps-are-counterproductive/</guid>
+      <guid>https://placeos.com/posts/why-too-many-workplace-apps-are-counterproductive/</guid>
       <description>Discover why too many workplace apps can be counterproductive. Learn why the platform approach is better than every workplace app.</description>
     </item>
     <item>
       <title>Approaching workplace optimization</title>
-      <link>http://localhost:62587/posts/approaching-workplace-optimization/</link>
+      <link>https://placeos.com/posts/approaching-workplace-optimization/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/approaching-workplace-optimization/</guid>
+      <guid>https://placeos.com/posts/approaching-workplace-optimization/</guid>
       <description>The sales funnel has a pretty well-defined approach. Instead of using that to sell more products, how can we build better UX?</description>
     </item>
     <item>
       <title>Four technology integrations to help during covid-19</title>
-      <link>http://localhost:62587/posts/four-technology-integrations-to-help-during-covid-19/</link>
+      <link>https://placeos.com/posts/four-technology-integrations-to-help-during-covid-19/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/four-technology-integrations-to-help-during-covid-19/</guid>
+      <guid>https://placeos.com/posts/four-technology-integrations-to-help-during-covid-19/</guid>
       <description>Right now, it’s hard to focus on any workplace user requirement unless we address the biggest challenge: COVID-19.</description>
     </item>
     <item>
       <title>LIVE DEMO: Energy Analytics Dashboards, Outlook Plugin &amp; More</title>
-      <link>http://localhost:62587/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/</link>
+      <link>https://placeos.com/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/</guid>
+      <guid>https://placeos.com/posts/live-demo-energy-analytics-dashboards-outlook-plugin-more/</guid>
       <description>A live demonstration of our latest in Commercial Building Energy Analytics, our Outlook Plugin &amp;amp; workplace application.</description>
     </item>
     <item>
       <title>The most neglected smarting building UX</title>
-      <link>http://localhost:62587/posts/the-most-neglected-smarting-building-ux/</link>
+      <link>https://placeos.com/posts/the-most-neglected-smarting-building-ux/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/the-most-neglected-smarting-building-ux/</guid>
+      <guid>https://placeos.com/posts/the-most-neglected-smarting-building-ux/</guid>
       <description>I&amp;rsquo;ll give you a hint, it&amp;rsquo;s UX that involves inviting guests to your building for a meeting or sales pitch.</description>
     </item>
     <item>
       <title>User input equals error: the Elon Musk approach</title>
-      <link>http://localhost:62587/posts/user-input-equals-error-the-elon-musk-approach/</link>
+      <link>https://placeos.com/posts/user-input-equals-error-the-elon-musk-approach/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62587/posts/user-input-equals-error-the-elon-musk-approach/</guid>
+      <guid>https://placeos.com/posts/user-input-equals-error-the-elon-musk-approach/</guid>
       <description>Tesla takes the approach, all user input equals error. There’s a lot we can learn from that when we apply that ethos.</description>
     </item>
   </channel>

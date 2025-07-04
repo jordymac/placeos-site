@@ -15,16 +15,25 @@ hero_image: "images/products/occupancy-monitoring-system/occupancy-monitoring-he
 image: images/products/lenspath/lenspath-hero-image-dark.webp
 product_logo: occupancy-monitoring-logo.svg  
 hasTopic:
+  - "Occupancy Monitoring"
+  - "Occupancy Tracking"
+  - "Real-Time Occupancy Monitoring"
+  - "Workplace Occupancy Monitoring"
+  - "Room Occupancy Monitoring"
+  - "Sensorless Occupancy Detection"
+  - "Building Occupancy Analytics"
 isMainTopicOf:
+  - "Occupancy Monitoring System"
 queries:
-  primary: occupancy monitoring
-  related: 
-  - occupancy monitoring
-  - occupancy tracking
-  - real time occupancy monitoring
-  - occupancy monitoring system
-  - workplace occupancy monitoring
-  - room occupancy monitoring system 
+  primary: "occupancy monitoring"
+  related:
+    - "occupancy tracking"
+    - "occupancy monitoring system"
+    - "real time occupancy monitoring"
+    - "room occupancy monitoring system"
+    - "workplace occupancy monitoring"
+    - "occupancy tracking system"
+    - "occupancy monitoring sensors"
 cta:
   - text: "Request a demo"
     type: "email-form"  
@@ -42,6 +51,20 @@ categories:
   - Configuration 
   - Workplace 
   - product  
+
+related_links:
+  - url: /products/hvac-automation
+    anchor_text: HVAC Automation
+  - url: /products/workmate-workplace-solution
+    anchor_text: WorkMate - Workplace Management Platform
+  - url: /products/desk-booking-app
+    anchor_text: Desk Booking System
+  - url: /products/room-booking
+    anchor_text: Meeting Room Booking System
+  - url: /products/lenspath
+    anchor_text: LensPath Computer Vision Platform
+  - url: /products/backoffice
+    anchor_text: BackOffice - Smart Building Platform
 
 ---
 

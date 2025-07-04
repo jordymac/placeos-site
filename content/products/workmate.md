@@ -56,15 +56,21 @@ cta:
     url: "#contact" 
 related_links:
   - url: /products/room-booking
-    anchor_text: Room Booking App
+    anchor_text: Meeting Room Booking System
   - url: /products/desk-booking-app
-    anchor_text: Desk Booking App
+    anchor_text: Desk Booking System
   - url: /products/visitor-management-app
-    anchor_text: Visitor Management App
+    anchor_text: Visitor Management System
   - url: /products/backoffice
     anchor_text: Smart Building Platform
-  - url: /products/occupancy-monitoring
-    anchor_text: Occupancy Monitoring System    
+  - url: /products/occupancy-monitoring-system
+    anchor_text: Occupancy Monitoring System
+  - url: /products/hvac-automation
+    anchor_text: HVAC Automation
+  - url: /products/lenspath
+    anchor_text: LensPath Computer Vision Platform
+  - url: /products/stagehand
+    anchor_text: StageHand - AV Control System
 categories:
   - AI
   - AV

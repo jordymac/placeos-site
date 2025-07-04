@@ -1,0 +1,25 @@
+general:
+  features:
+    - name: Native Conferencing
+      description: Integrated & intuitive conferencing.
+
+    - name: Chat Room
+      description: Chat rooms & chat bots with survey feedback.
+
+    - name: Queue Management
+      description: Virtual waiting rooms & queues easily managed.
+
+    - name: Business Hours
+      description: Set your availability with ease.
+
+    - name: Educational Resources
+      description: Available for patients while they're waiting.
+
+    - name: Medicare Billing
+      description: Patients can toggle accept medicare billing.
+
+    - name: Authentication
+      description: Active Directory integration for authenticated staff only.
+
+    - name: Reporting
+      description: Insights & understanding into patient care.

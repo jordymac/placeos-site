@@ -17,19 +17,33 @@ schema:
     url: "https://placeos.com"
 product_logo: visitor-management-app-logo.svg
 hasTopic:
+  - "Visitor Check-In"
+  - "Visitor Badge Printing"
+  - "Visitor Notification System"
+  - "Digital Visitor Management"
+  - "Guest Access Automation"
+  - "QR Code Visitor Check-In"
+  - "Visitor Access Control"
+  - "Concierge Software"
+  - "Workplace Experience"
 isMainTopicOf:
+  - "Visitor Management"
 queries:
-  primary: visitor management system
+  primary: "visitor management system"
   related:
-    - visitor management software
-    - visitor management app
-    - visitor management system for office
-    - visitor management kiosk
-    - digital visitor management system
-    - visitor badge system
-    - visitor management solution
-    - office visitor management system
-    - visitor management system software
+    - "visitor management software"
+    - "visitor management app"
+    - "office visitor management system"
+    - "visitor check in system"
+    - "visitor management kiosk"
+    - "digital visitor management system"
+    - "visitor badge system"
+    - "visitor sign in app"
+    - "visitor access management system"
+    - "ipad visitor sign in app"
+    - "best visitor management system"
+    - "visitor registration software"
+    - "guest management software"
 hasQuery:
 cta:
   - text: "Request a demo"
@@ -52,7 +66,23 @@ categories:
   - WorkMate
   - Workplace
   - product
-
+related_links:
+  - url: /products/room-booking
+    anchor_text: Meeting Room Booking System
+  - url: /products/desk-booking-app
+    anchor_text: Desk Booking System
+  - url: /products/backoffice
+    anchor_text: Smart Building Platform
+  - url: /products/workmate-workplace-solution
+    anchor_text: WorkMate - Workplace Management Platform  
+  - url: /products/occupancy-monitoring 
+    anchor_text: Occupancy Monitoring System
+  - url: /products/hvac-automation
+    anchor_text: HVAC Automation
+  - url: /products/lenspath
+    anchor_text: LensPath Computer Vision Platform
+  - url: /products/stagehand
+    anchor_text: StageHand - AV Control System
 ---
 
 Once you send the invite, our visitor management system uses our large suite of integrations including building and lift access, calendar systems, email notifications, parking, wayfinding and concierge services to get the visitor into the building and their destination with ease, so that you don't need to.

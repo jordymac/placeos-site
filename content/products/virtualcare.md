@@ -18,12 +18,36 @@ schema:
     name: "PlaceOS"
     url: "https://placeos.com"
 hasTopic:
+  - "Telehealth Software"
+  - "Virtual Care Platform"
+  - "Remote Healthcare Management"
+  - "Telemedicine Tools"
+  - "Video Consultations"
+  - "Patient Communication"
+  - "Healthcare Chatbots"
+  - "Digital Health Queue Management"
+  - "Medicare Billing Integration"
+  - "Health Education Portals"
+  - "Authenticated Clinical Access"
+  - "Healthcare Reporting and Analytics"
 isMainTopicOf:
+  - "Telehealth Software"
 queries:
-  primary: telehealth software
+  primary: "telehealth software"
   related:
-      - telehealth tools
-      - telehealth platform
+    - "telehealth tools"
+    - "telehealth platform"
+    - "virtual care software"
+    - "remote healthcare platform"
+    - "online patient consultations"
+    - "medicare billing software"
+    - "video conferencing for healthcare"
+    - "virtual waiting room system"
+    - "healthcare chatbot"
+    - "telemedicine queue management"
+    - "telehealth education tools"
+    - "telehealth authentication"
+    - "telehealth analytics software"
 
 hasQuery:
 cta:
@@ -48,6 +72,16 @@ categories:
   - Surveys
   - Systems
   - product
+
+related_links:
+  - url: /products/room-booking
+    anchor_text: Meeting Room Booking System
+  - url: /products/stagehand
+    anchor_text: StageHand - AV Control System
+  - url: /products/visitor-management-app
+    anchor_text: Visitor Management System
+  - url: /products/backoffice
+    anchor_text: BackOffice - Smart Building Platform
 ---
 PlaceOS Telehealth is a suite built in collaboration with health experts. The product leverages core integrations such as Webex for video conferencing platform, authentication tools, physical devices and more, as well as delivering a highly functional front-end to manage user experience for patients, carers, clinicians, administrators and interpreters.
 
