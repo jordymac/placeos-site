@@ -2,7 +2,7 @@
 title: Desk Booking
 slug: desk-booking-app
 weight: 9
-summary: Configurable desk booking management at scale without no hardware lock-in
+summary: Configurable desk booking management at scale without hardware lock-in
 hero_image: images/products/desk-booking-app/desk-booking-hero-image.webp
 image: images/products/desk-booking-app/desk-booking-hero-image.webp
 product_logo: desk-booking-app-logo.svg
