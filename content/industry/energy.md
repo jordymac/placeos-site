@@ -7,8 +7,6 @@ summary: >-
 
 PlaceOS monitors occupancy in real time to dynamically manage the environment in spaces you're using, so that you don't have to worry about heating, cooling, lighting & powering spaces people aren't in.
 
-![placeos room booking basic app find a space](/images/industry/energy/placeos-room-booking-basic-app-find-a-space.webp)
-
 ## Energy consumption challenges
 
 ### High energy consumption
