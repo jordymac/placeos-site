@@ -5,19 +5,14 @@ categories:
   - AI
   - AV
   - Automation
-  - Enterprise
-  - Event
-  - HVAC
+  - Energy
   - Meeting Rooms
   - Occupancy
   - Platform
-  - Product
-  - Room Booking
   - Scalability
   - Systems
   - Utilization
-  - WorkMate
-  - Workplace
+  - Workplace Management
   - blog
 summary: >-
   Learn how to select the best meeting room booking software. Explore common

@@ -65,17 +65,14 @@ cta:
 categories:
   - AV
   - Automation
-  - Configuration
+  - System Configuration
   - Coworking
-  - Interface
+  - Control Interfaces
   - Meeting Rooms
   - Occupancy
   - ROI
-  - Room Booking
   - Systems
-  - WorkMate
-  - Workplace
-  - product
+  - Workplace Management
 
 related_links:
   - url: /products/workmate-workplace-solution

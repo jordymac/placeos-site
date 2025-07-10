@@ -4,13 +4,10 @@ date: 2024-05-20T00:00:00.000Z
 categories:
   - AI
   - AV
-  - Article
   - Collaboration
   - Employee Experience
   - Meeting Rooms
-  - Product
-  - Room Booking
-  - Workplace
+  - Workplace Management
   - blog
 summary: >-
   A recent Gartner Report shows that your digital transformation journey will be

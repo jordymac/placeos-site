@@ -3,8 +3,6 @@ title: 'API Keys: Simplify Authentication for Apps & Devices'
 date: 2024-12-03T00:00:00.000Z
 categories:
   - AV
-  - Event
-  - Product
   - product-update
 summary: >-
   Simplify app integration with PlaceOS API Keys. Enable secure, authenticated

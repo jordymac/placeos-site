@@ -57,12 +57,10 @@ categories:
   - Energy
   - Occupancy
   - Platform
-  - Stagehand
-  - Surveys
+  - Workplace Surveys
   - Systems
   - Utilization
-  - WorkMate
-  - product
+  - Workplace Management
 related_links:
   - url: /products/room-booking
     anchor_text: Meeting Room Booking System

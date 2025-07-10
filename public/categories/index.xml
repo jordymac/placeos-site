@@ -2,465 +2,493 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on PlaceOS</title>
-    <link>https://placeos.com/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://placeos.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>https://placeos.com/categories/ai/</link>
+      <link>http://localhost:1313/categories/ai/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/ai/</guid>
+      <guid>http://localhost:1313/categories/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Analytics</title>
-      <link>https://placeos.com/categories/analytics/</link>
+      <link>http://localhost:1313/categories/analytics/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/analytics/</guid>
+      <guid>http://localhost:1313/categories/analytics/</guid>
       <description></description>
     </item>
     <item>
       <title>Automation</title>
-      <link>https://placeos.com/categories/automation/</link>
+      <link>http://localhost:1313/categories/automation/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/automation/</guid>
+      <guid>http://localhost:1313/categories/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>AV</title>
-      <link>https://placeos.com/categories/av/</link>
+      <link>http://localhost:1313/categories/av/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/av/</guid>
+      <guid>http://localhost:1313/categories/av/</guid>
       <description></description>
     </item>
     <item>
       <title>Campus</title>
-      <link>https://placeos.com/categories/campus/</link>
+      <link>http://localhost:1313/categories/campus/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/campus/</guid>
+      <guid>http://localhost:1313/categories/campus/</guid>
       <description></description>
     </item>
     <item>
       <title>Collaboration</title>
-      <link>https://placeos.com/categories/collaboration/</link>
+      <link>http://localhost:1313/categories/collaboration/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/collaboration/</guid>
+      <guid>http://localhost:1313/categories/collaboration/</guid>
       <description></description>
     </item>
     <item>
       <title>Commercial Real Estate</title>
-      <link>https://placeos.com/categories/commercial-real-estate/</link>
+      <link>http://localhost:1313/categories/commercial-real-estate/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/commercial-real-estate/</guid>
+      <guid>http://localhost:1313/categories/commercial-real-estate/</guid>
       <description></description>
     </item>
     <item>
       <title>Configuration</title>
-      <link>https://placeos.com/categories/configuration/</link>
+      <link>http://localhost:1313/categories/configuration/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/configuration/</guid>
+      <guid>http://localhost:1313/categories/configuration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Control Interfaces</title>
+      <link>http://localhost:1313/categories/control-interfaces/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/control-interfaces/</guid>
       <description></description>
     </item>
     <item>
       <title>Coworking</title>
-      <link>https://placeos.com/categories/coworking/</link>
+      <link>http://localhost:1313/categories/coworking/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/coworking/</guid>
+      <guid>http://localhost:1313/categories/coworking/</guid>
       <description></description>
     </item>
     <item>
       <title>Desk Booking</title>
-      <link>https://placeos.com/categories/desk-booking/</link>
+      <link>http://localhost:1313/categories/desk-booking/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/desk-booking/</guid>
+      <guid>http://localhost:1313/categories/desk-booking/</guid>
       <description></description>
     </item>
     <item>
       <title>Drivers</title>
-      <link>https://placeos.com/categories/drivers/</link>
+      <link>http://localhost:1313/categories/drivers/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/drivers/</guid>
+      <guid>http://localhost:1313/categories/drivers/</guid>
       <description></description>
     </item>
     <item>
       <title>Energy</title>
-      <link>https://placeos.com/categories/energy/</link>
+      <link>http://localhost:1313/categories/energy/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/energy/</guid>
+      <guid>http://localhost:1313/categories/energy/</guid>
       <description></description>
     </item>
     <item>
       <title>Event</title>
-      <link>https://placeos.com/categories/event/</link>
+      <link>http://localhost:1313/categories/event/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/event/</guid>
+      <guid>http://localhost:1313/categories/event/</guid>
       <description></description>
     </item>
     <item>
       <title>Government</title>
-      <link>https://placeos.com/categories/government/</link>
+      <link>http://localhost:1313/categories/government/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/government/</guid>
+      <guid>http://localhost:1313/categories/government/</guid>
       <description></description>
     </item>
     <item>
       <title>HVAC</title>
-      <link>https://placeos.com/categories/hvac/</link>
+      <link>http://localhost:1313/categories/hvac/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/hvac/</guid>
+      <guid>http://localhost:1313/categories/hvac/</guid>
       <description></description>
     </item>
     <item>
       <title>Hybrid Work</title>
-      <link>https://placeos.com/categories/hybrid-work/</link>
+      <link>http://localhost:1313/categories/hybrid-work/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/hybrid-work/</guid>
+      <guid>http://localhost:1313/categories/hybrid-work/</guid>
       <description></description>
     </item>
     <item>
       <title>Interface</title>
-      <link>https://placeos.com/categories/interface/</link>
+      <link>http://localhost:1313/categories/interface/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/interface/</guid>
+      <guid>http://localhost:1313/categories/interface/</guid>
       <description></description>
     </item>
     <item>
       <title>Meeting Rooms</title>
-      <link>https://placeos.com/categories/meeting-rooms/</link>
+      <link>http://localhost:1313/categories/meeting-rooms/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/meeting-rooms/</guid>
+      <guid>http://localhost:1313/categories/meeting-rooms/</guid>
       <description></description>
     </item>
     <item>
       <title>Modules</title>
-      <link>https://placeos.com/categories/modules/</link>
+      <link>http://localhost:1313/categories/modules/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/modules/</guid>
+      <guid>http://localhost:1313/categories/modules/</guid>
       <description></description>
     </item>
     <item>
       <title>Neighborhoods</title>
-      <link>https://placeos.com/categories/neighborhoods/</link>
+      <link>http://localhost:1313/categories/neighborhoods/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/neighborhoods/</guid>
+      <guid>http://localhost:1313/categories/neighborhoods/</guid>
       <description></description>
     </item>
     <item>
       <title>Occupancy</title>
-      <link>https://placeos.com/categories/occupancy/</link>
+      <link>http://localhost:1313/categories/occupancy/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/occupancy/</guid>
+      <guid>http://localhost:1313/categories/occupancy/</guid>
       <description></description>
     </item>
     <item>
       <title>Office Space</title>
-      <link>https://placeos.com/categories/office-space/</link>
+      <link>http://localhost:1313/categories/office-space/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/office-space/</guid>
+      <guid>http://localhost:1313/categories/office-space/</guid>
       <description></description>
     </item>
     <item>
       <title>Partner</title>
-      <link>https://placeos.com/categories/partner/</link>
+      <link>http://localhost:1313/categories/partner/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/partner/</guid>
+      <guid>http://localhost:1313/categories/partner/</guid>
       <description></description>
     </item>
     <item>
       <title>Platform</title>
-      <link>https://placeos.com/categories/platform/</link>
+      <link>http://localhost:1313/categories/platform/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/platform/</guid>
+      <guid>http://localhost:1313/categories/platform/</guid>
       <description></description>
     </item>
     <item>
       <title>Product</title>
-      <link>https://placeos.com/categories/product/</link>
+      <link>http://localhost:1313/categories/product/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/product/</guid>
+      <guid>http://localhost:1313/categories/product/</guid>
       <description></description>
     </item>
     <item>
       <title>Project</title>
-      <link>https://placeos.com/categories/project/</link>
+      <link>http://localhost:1313/categories/project/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/project/</guid>
+      <guid>http://localhost:1313/categories/project/</guid>
       <description></description>
     </item>
     <item>
       <title>Retrofit</title>
-      <link>https://placeos.com/categories/retrofit/</link>
+      <link>http://localhost:1313/categories/retrofit/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/retrofit/</guid>
+      <guid>http://localhost:1313/categories/retrofit/</guid>
       <description></description>
     </item>
     <item>
       <title>Room Booking</title>
-      <link>https://placeos.com/categories/room-booking/</link>
+      <link>http://localhost:1313/categories/room-booking/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/room-booking/</guid>
+      <guid>http://localhost:1313/categories/room-booking/</guid>
       <description></description>
     </item>
     <item>
       <title>Scalability</title>
-      <link>https://placeos.com/categories/scalability/</link>
+      <link>http://localhost:1313/categories/scalability/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/scalability/</guid>
+      <guid>http://localhost:1313/categories/scalability/</guid>
       <description></description>
     </item>
     <item>
       <title>Surveys</title>
-      <link>https://placeos.com/categories/surveys/</link>
+      <link>http://localhost:1313/categories/surveys/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/surveys/</guid>
+      <guid>http://localhost:1313/categories/surveys/</guid>
       <description></description>
     </item>
     <item>
       <title>Sustainability</title>
-      <link>https://placeos.com/categories/sustainability/</link>
+      <link>http://localhost:1313/categories/sustainability/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/sustainability/</guid>
+      <guid>http://localhost:1313/categories/sustainability/</guid>
       <description></description>
     </item>
     <item>
       <title>Systems</title>
-      <link>https://placeos.com/categories/systems/</link>
+      <link>http://localhost:1313/categories/systems/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/systems/</guid>
+      <guid>http://localhost:1313/categories/systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Utilization</title>
-      <link>https://placeos.com/categories/utilization/</link>
+      <link>http://localhost:1313/categories/utilization/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/utilization/</guid>
+      <guid>http://localhost:1313/categories/utilization/</guid>
       <description></description>
     </item>
     <item>
       <title>UX</title>
-      <link>https://placeos.com/categories/ux/</link>
+      <link>http://localhost:1313/categories/ux/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/ux/</guid>
+      <guid>http://localhost:1313/categories/ux/</guid>
       <description></description>
     </item>
     <item>
       <title>Visitor Management</title>
-      <link>https://placeos.com/categories/visitor-management/</link>
+      <link>http://localhost:1313/categories/visitor-management/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/visitor-management/</guid>
+      <guid>http://localhost:1313/categories/visitor-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Wayfinding</title>
-      <link>https://placeos.com/categories/wayfinding/</link>
+      <link>http://localhost:1313/categories/wayfinding/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/wayfinding/</guid>
+      <guid>http://localhost:1313/categories/wayfinding/</guid>
       <description></description>
     </item>
     <item>
       <title>WorkMate</title>
-      <link>https://placeos.com/categories/workmate/</link>
+      <link>http://localhost:1313/categories/workmate/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/workmate/</guid>
+      <guid>http://localhost:1313/categories/workmate/</guid>
       <description></description>
     </item>
     <item>
       <title>Workplace</title>
-      <link>https://placeos.com/categories/workplace/</link>
+      <link>http://localhost:1313/categories/workplace/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/workplace/</guid>
+      <guid>http://localhost:1313/categories/workplace/</guid>
       <description></description>
     </item>
     <item>
       <title>Article</title>
-      <link>https://placeos.com/categories/article/</link>
+      <link>http://localhost:1313/categories/article/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/article/</guid>
+      <guid>http://localhost:1313/categories/article/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>https://placeos.com/categories/blog/</link>
+      <link>http://localhost:1313/categories/blog/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/blog/</guid>
+      <guid>http://localhost:1313/categories/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Smart Building</title>
-      <link>https://placeos.com/categories/smart-building/</link>
+      <link>http://localhost:1313/categories/smart-building/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/smart-building/</guid>
+      <guid>http://localhost:1313/categories/smart-building/</guid>
       <description></description>
     </item>
     <item>
       <title>Parking</title>
-      <link>https://placeos.com/categories/parking/</link>
+      <link>http://localhost:1313/categories/parking/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/parking/</guid>
+      <guid>http://localhost:1313/categories/parking/</guid>
       <description></description>
     </item>
     <item>
       <title>Product-Update</title>
-      <link>https://placeos.com/categories/product-update/</link>
+      <link>http://localhost:1313/categories/product-update/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/product-update/</guid>
+      <guid>http://localhost:1313/categories/product-update/</guid>
       <description></description>
     </item>
     <item>
       <title>Safety</title>
-      <link>https://placeos.com/categories/safety/</link>
+      <link>http://localhost:1313/categories/safety/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/safety/</guid>
+      <guid>http://localhost:1313/categories/safety/</guid>
       <description></description>
     </item>
     <item>
       <title>Workplace Management</title>
-      <link>https://placeos.com/categories/workplace-management/</link>
+      <link>http://localhost:1313/categories/workplace-management/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/workplace-management/</guid>
+      <guid>http://localhost:1313/categories/workplace-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Zones</title>
-      <link>https://placeos.com/categories/zones/</link>
+      <link>http://localhost:1313/categories/zones/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/zones/</guid>
+      <guid>http://localhost:1313/categories/zones/</guid>
       <description></description>
     </item>
     <item>
       <title>Computer Vision</title>
-      <link>https://placeos.com/categories/computer-vision/</link>
+      <link>http://localhost:1313/categories/computer-vision/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/computer-vision/</guid>
+      <guid>http://localhost:1313/categories/computer-vision/</guid>
       <description></description>
     </item>
     <item>
       <title>Enterprise</title>
-      <link>https://placeos.com/categories/enterprise/</link>
+      <link>http://localhost:1313/categories/enterprise/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/enterprise/</guid>
+      <guid>http://localhost:1313/categories/enterprise/</guid>
       <description></description>
     </item>
     <item>
       <title>Marketplace</title>
-      <link>https://placeos.com/categories/marketplace/</link>
+      <link>http://localhost:1313/categories/marketplace/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/marketplace/</guid>
+      <guid>http://localhost:1313/categories/marketplace/</guid>
       <description></description>
     </item>
     <item>
       <title>Stagehand</title>
-      <link>https://placeos.com/categories/stagehand/</link>
+      <link>http://localhost:1313/categories/stagehand/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/stagehand/</guid>
+      <guid>http://localhost:1313/categories/stagehand/</guid>
       <description></description>
     </item>
     <item>
       <title>Tender</title>
-      <link>https://placeos.com/categories/tender/</link>
+      <link>http://localhost:1313/categories/tender/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/tender/</guid>
+      <guid>http://localhost:1313/categories/tender/</guid>
       <description></description>
     </item>
     <item>
       <title>Locker Booking</title>
-      <link>https://placeos.com/categories/locker-booking/</link>
+      <link>http://localhost:1313/categories/locker-booking/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/locker-booking/</guid>
+      <guid>http://localhost:1313/categories/locker-booking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System Configuration</title>
+      <link>http://localhost:1313/categories/system-configuration/</link>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/system-configuration/</guid>
       <description></description>
     </item>
     <item>
       <title>Digital Signage</title>
-      <link>https://placeos.com/categories/digital-signage/</link>
+      <link>http://localhost:1313/categories/digital-signage/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/digital-signage/</guid>
+      <guid>http://localhost:1313/categories/digital-signage/</guid>
       <description></description>
     </item>
     <item>
       <title>APIs</title>
-      <link>https://placeos.com/categories/apis/</link>
+      <link>http://localhost:1313/categories/apis/</link>
       <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/apis/</guid>
+      <guid>http://localhost:1313/categories/apis/</guid>
       <description></description>
     </item>
     <item>
       <title>Webinar</title>
-      <link>https://placeos.com/categories/webinar/</link>
+      <link>http://localhost:1313/categories/webinar/</link>
       <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/webinar/</guid>
+      <guid>http://localhost:1313/categories/webinar/</guid>
       <description></description>
     </item>
     <item>
       <title>Downsizing</title>
-      <link>https://placeos.com/categories/downsizing/</link>
+      <link>http://localhost:1313/categories/downsizing/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/downsizing/</guid>
+      <guid>http://localhost:1313/categories/downsizing/</guid>
       <description></description>
     </item>
     <item>
       <title>Sales</title>
-      <link>https://placeos.com/categories/sales/</link>
+      <link>http://localhost:1313/categories/sales/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/sales/</guid>
+      <guid>http://localhost:1313/categories/sales/</guid>
       <description></description>
     </item>
     <item>
       <title>Employee Experience</title>
-      <link>https://placeos.com/categories/employee-experience/</link>
+      <link>http://localhost:1313/categories/employee-experience/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/employee-experience/</guid>
+      <guid>http://localhost:1313/categories/employee-experience/</guid>
       <description></description>
     </item>
     <item>
       <title>Event Management</title>
-      <link>https://placeos.com/categories/event-management/</link>
+      <link>http://localhost:1313/categories/event-management/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/event-management/</guid>
+      <guid>http://localhost:1313/categories/event-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Location Status</title>
-      <link>https://placeos.com/categories/location-status/</link>
+      <link>http://localhost:1313/categories/location-status/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/location-status/</guid>
+      <guid>http://localhost:1313/categories/location-status/</guid>
       <description></description>
     </item>
     <item>
       <title>Podcast</title>
-      <link>https://placeos.com/categories/podcast/</link>
+      <link>http://localhost:1313/categories/podcast/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/podcast/</guid>
+      <guid>http://localhost:1313/categories/podcast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workplace Surveys</title>
+      <link>http://localhost:1313/categories/workplace-surveys/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/workplace-surveys/</guid>
       <description></description>
     </item>
     <item>
       <title>Dashboards</title>
-      <link>https://placeos.com/categories/dashboards/</link>
+      <link>http://localhost:1313/categories/dashboards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/dashboards/</guid>
+      <guid>http://localhost:1313/categories/dashboards/</guid>
       <description></description>
     </item>
     <item>
       <title>Education</title>
-      <link>https://placeos.com/categories/education/</link>
+      <link>http://localhost:1313/categories/education/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/education/</guid>
+      <guid>http://localhost:1313/categories/education/</guid>
       <description></description>
     </item>
     <item>
       <title>Healthcare</title>
-      <link>https://placeos.com/categories/healthcare/</link>
+      <link>http://localhost:1313/categories/healthcare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/healthcare/</guid>
+      <guid>http://localhost:1313/categories/healthcare/</guid>
       <description></description>
     </item>
     <item>
       <title>ROI</title>
-      <link>https://placeos.com/categories/roi/</link>
+      <link>http://localhost:1313/categories/roi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/categories/roi/</guid>
+      <guid>http://localhost:1313/categories/roi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workplace Neighborhoods</title>
+      <link>http://localhost:1313/categories/workplace-neighborhoods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/workplace-neighborhoods/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Downsizing on PlaceOS</title>
-    <link>https://placeos.com/categories/downsizing/</link>
+    <link>http://localhost:1313/categories/downsizing/</link>
     <description>Recent content in Downsizing on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://placeos.com/categories/downsizing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/downsizing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Downsizing Your Office? First, Take These 5 Essential Steps</title>
-      <link>https://placeos.com/posts/downsizing-your-office-first-take-these-5-essential-steps/</link>
+      <link>http://localhost:1313/posts/downsizing-your-office-first-take-these-5-essential-steps/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/downsizing-your-office-first-take-these-5-essential-steps/</guid>
+      <guid>http://localhost:1313/posts/downsizing-your-office-first-take-these-5-essential-steps/</guid>
       <description>Today&amp;rsquo;s work environment has seen dramatic shifts, prompting many companies to consider downsizing their office spaces.</description>
     </item>
   </channel>

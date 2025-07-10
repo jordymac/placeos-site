@@ -21,11 +21,11 @@ schema:
 hasTopic:
   - "Hybrid Work"
   - "Space Utilization"
-  - "Room Booking"
+  - "Meeting Rooms"
   - "Workplace Experience"
   - "Desk Booking"
   - "Visitor Management"
-  - "Workplace Management System"
+  - "Workplace Management"
   - "Workplace Occupancy Monitoring"
 isMainTopicOf:
   - WorkMate - Workplace Management Platform
@@ -76,25 +76,20 @@ categories:
   - AV
   - Analytics
   - Automation
-  - Configuration
+  - System Configuration
   - Desk Booking
   - Drivers
-  - Enterprise
-  - Interface
+  - Control Interfaces
   - Meeting Rooms
   - Occupancy
   - Parking
   - Platform
-  - Room Booking
   - Scalability
-  - Surveys
+  - Workplace Surveys
   - Systems
   - Utilization
   - Visitor Management
-  - WorkMate
-  - Workplace
   - Workplace Management
-  - product
 ---
 WorkMate is the most configurable workplace management software; purpose built for teams managing thousands of workplace resources – desks, rooms, assets, climate, and visitors – across global real estate portfolios. 
 

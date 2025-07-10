@@ -29,9 +29,8 @@ cta:
     url: "#contact" 
 categories:
   - Platform
-  - Workplace
+  - Workplace Management
   - Campus
-  - product
 related_links:
   - url: /products/room-booking
     anchor_text: Meeting Room Booking System

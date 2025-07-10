@@ -4,10 +4,8 @@ date: 2025-01-15T00:00:00.000Z
 categories:
   - AI
   - AV
-  - Event
-  - Interface
-  - Product
-  - Room Booking
+  - Control Interfaces
+  - Meeting Rooms
   - product-update
 summary: >-
   Learn about the new recurring bookings feature in our room booking app.

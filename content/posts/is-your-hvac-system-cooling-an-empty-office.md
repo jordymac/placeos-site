@@ -6,9 +6,7 @@ categories:
   - AV
   - Automation
   - Energy
-  - HVAC
   - Occupancy
-  - Sustainability
   - Systems
   - blog
 summary: >-

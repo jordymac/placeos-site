@@ -53,7 +53,6 @@ cta:
     type: "link"
     url: "#contact" 
 categories:
-- product
 - Automation
 - Computer Vision
 

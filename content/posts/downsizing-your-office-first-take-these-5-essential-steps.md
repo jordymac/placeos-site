@@ -9,10 +9,9 @@ categories:
   - Downsizing
   - Office Space
   - Platform
-  - Product
   - Systems
   - Utilization
-  - Workplace
+  - Workplace Management
   - blog
 summary: >-
   Today's work environment has seen dramatic shifts, prompting many companies to

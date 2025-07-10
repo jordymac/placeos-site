@@ -4,12 +4,11 @@ date: 2024-07-02T00:00:00.000Z
 categories:
   - AI
   - AV
-  - Interface
-  - Product
+  - Control Interfaces
   - Utilization
   - Visitor Management
   - Wayfinding
-  - Workplace
+  - Workplace Management
   - product-update
 summary: >-
   Enhance workplace navigation with indoor wayfinding technology. Explore how

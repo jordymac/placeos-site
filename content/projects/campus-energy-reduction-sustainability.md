@@ -9,12 +9,10 @@ categories:
   - Campus
   - Drivers
   - Energy
-  - HVAC
-  - Interface
+  - Control Interfaces
   - Modules
   - Occupancy
   - Scalability
-  - Sustainability
   - Systems
   - UX
   - project

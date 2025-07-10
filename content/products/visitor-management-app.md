@@ -58,14 +58,11 @@ categories:
   - AV
   - Parking
   - Platform
-  - Product
-  - Room Booking
+  - Meeting Rooms
   - Systems
   - Visitor Management
   - Wayfinding
-  - WorkMate
-  - Workplace
-  - product
+  - Workplace Management
 related_links:
   - url: /products/room-booking
     anchor_text: Meeting Room Booking System

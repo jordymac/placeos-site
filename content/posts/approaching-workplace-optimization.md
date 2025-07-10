@@ -5,12 +5,10 @@ categories:
   - AI
   - AV
   - Analytics
-  - Enterprise
-  - Product
   - Sales
   - UX
   - Utilization
-  - Workplace
+  - Workplace Management
   - blog
 summary: >-
   The sales funnel has a pretty well-defined approach. Instead of using that to

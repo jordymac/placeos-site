@@ -55,6 +55,9 @@
     <loc>http://localhost:1313/categories/configuration/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/control-interfaces/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/coworking/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -221,6 +224,9 @@
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/locker-booking/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/system-configuration/</loc>
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/data-deceits-how-to-spot-when-you-re-being-lied-to/</loc>
@@ -484,6 +490,9 @@
     <loc>http://localhost:1313/posts/why-switch-from-on-prem-placeos-to-cloud-based/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/workplace-surveys/</loc>
+    <lastmod>2024-05-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/you-don-t-need-another-workplace-sensor/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -520,5 +529,7 @@
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/industry/workplace/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/workplace-neighborhoods/</loc>
   </url>
 </urlset>

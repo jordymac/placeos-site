@@ -2,7 +2,7 @@
 title: HVAC Automation
 slug: hvac-automation
 weight: 5
-summary: "Align energy use in spaces with actual occupancy, reduce HVAC\_&\_lighting use"
+summary: "Control HVAC based on real occupancy — without replacing your existing system"
 hero_image: "images/products/hvac-automation/energy-reduction-hero-image-dark.webp"
 image: images/products/hvac-automation/energy-reduction-hero-image-dark.webp
 product_logo: hvac-automation-logo.svg
@@ -48,13 +48,11 @@ categories:
   - Automation
   - Dashboards
   - Energy
-  - HVAC
   - Occupancy
   - Systems
-  - product
 
 related_links:
-  - url: /products/occupancy-monitoring
+  - url: /products/occupancy-monitoring~
     anchor_text: Occupancy Monitoring System
   - url: /products/workmate-workplace-solution
     anchor_text: WorkMate - Workplace Management Platform
@@ -68,15 +66,16 @@ related_links:
     anchor_text: BackOffice - Smart Building Platform
 
 ---
-## No sensors. No hardware. No problem.
-
-Unlike other solutions that require physical occupancy sensors, PlaceOS uses existing IT systems—like Wi-Fi networks and booking platforms—to infer occupancy. That means faster deployment, lower cost, and no disruption to your building.
-
 ## Automate HVAC usage based on actual presence
 
 Rather than heating or cooling based on fixed schedules, PlaceOS adjusts HVAC output in real time based on whether spaces are occupied. This means no more conditioning empty rooms—and no more manual overrides.
 
 ![Image](/images/products/hvac-automation/list-of-triggers.webp)
+
+## No sensors. No hardware. No problem.
+
+Unlike other solutions that require physical occupancy sensors, PlaceOS uses existing IT systems—like Wi-Fi networks and booking platforms—to infer occupancy. That means faster deployment, lower cost, and no disruption to your building.
+
 
 ## Make your existing BMS smarter
 

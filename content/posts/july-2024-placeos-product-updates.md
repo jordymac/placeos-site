@@ -5,10 +5,9 @@ categories:
   - AI
   - AV
   - Parking
-  - Product
   - Systems
   - Visitor Management
-  - Workplace
+  - Workplace Management
   - Zones
   - product-update
 summary: >-

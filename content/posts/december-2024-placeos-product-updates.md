@@ -4,15 +4,12 @@ date: 2024-12-19T00:00:00.000Z
 categories:
   - AI
   - AV
-  - Configuration
+  - System Configuration
   - Desk Booking
-  - Event
   - Locker Booking
   - Parking
-  - Product
   - Utilization
-  - WorkMate
-  - Workplace
+  - Workplace Management
   - product-update
 summary: >-
   December 2024 WorkMate updates include new parking utilization reports, kiosk

@@ -5,7 +5,6 @@ categories:
   - AI
   - Desk Booking
   - Parking
-  - Product
   - Systems
   - Visitor Management
   - product-update

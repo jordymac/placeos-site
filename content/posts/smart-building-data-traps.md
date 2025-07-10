@@ -6,9 +6,8 @@ categories:
   - AV
   - Analytics
   - Meeting Rooms
-  - Podcast
   - Smart Building
-  - Workplace
+  - Workplace Management
   - blog
 summary: >-
   Learn how to spot deceit in smart building data and understand analytics

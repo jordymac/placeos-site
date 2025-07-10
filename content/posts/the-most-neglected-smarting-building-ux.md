@@ -5,8 +5,6 @@ categories:
   - AI
   - AV
   - Automation
-  - Event
-  - Partner
   - Sales
   - Systems
   - UX

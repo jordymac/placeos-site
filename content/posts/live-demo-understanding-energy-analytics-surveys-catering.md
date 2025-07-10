@@ -9,14 +9,11 @@ categories:
   - Commercial Real Estate
   - Desk Booking
   - Energy
-  - Event
-  - Interface
+  - Control Interfaces
   - Meeting Rooms
   - Platform
-  - Product
-  - Room Booking
-  - Surveys
-  - Workplace
+  - Workplace Surveys
+  - Workplace Management
   - webinar
 summary: >-
   A live demo about technical details behind our energy analytics tools,

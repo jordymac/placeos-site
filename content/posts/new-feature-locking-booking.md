@@ -5,15 +5,13 @@ categories:
   - AI
   - AV
   - Desk Booking
-  - Interface
+  - Control Interfaces
   - Locker Booking
   - Platform
-  - Product
-  - Room Booking
+  - Meeting Rooms
   - Systems
   - Visitor Management
-  - WorkMate
-  - Workplace
+  - Workplace Management
   - product-update
 summary: >-
   Explore PlaceOS's Locker Booking System: Easy reservations, access control,

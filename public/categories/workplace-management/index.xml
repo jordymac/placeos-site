@@ -2,53 +2,158 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workplace Management on PlaceOS</title>
-    <link>https://placeos.com/categories/workplace-management/</link>
+    <link>http://localhost:1313/categories/workplace-management/</link>
     <description>Recent content in Workplace Management on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://placeos.com/categories/workplace-management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/workplace-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WorkMate</title>
-      <link>https://placeos.com/products/workmate-workplace-solution/</link>
+      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/products/workmate-workplace-solution/</guid>
+      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
       <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
     </item>
     <item>
+      <title>StageHand</title>
+      <link>http://localhost:1313/products/stagehand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/stagehand/</guid>
+      <description>Control every AV device in every room on campus — from your browser</description>
+    </item>
+    <item>
+      <title>BackOffice</title>
+      <link>http://localhost:1313/products/backoffice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/backoffice/</guid>
+      <description>Command your entire smart environment in one place</description>
+    </item>
+    <item>
+      <title>Occupancy Monitoring System</title>
+      <link>http://localhost:1313/products/occupancy-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/occupancy-monitoring/</guid>
+      <description>A self-hosted occupancy monitoring system that works with the infrastructure you already have — no new sensors needed.</description>
+    </item>
+    <item>
+      <title>Visitor Management</title>
+      <link>http://localhost:1313/products/visitor-management-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/visitor-management-app/</guid>
+      <description>Visitor management software so simple, the only thing you do is send the invite, it does everything else</description>
+    </item>
+    <item>
       <title>Building &amp; Region-Level Workplace Management</title>
-      <link>https://placeos.com/posts/building-region-level-workplace-management/</link>
+      <link>http://localhost:1313/posts/building-region-level-workplace-management/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/building-region-level-workplace-management/</guid>
+      <guid>http://localhost:1313/posts/building-region-level-workplace-management/</guid>
       <description>Control workplace settings to standardize policies across buildings, so you can scale workplace management while ensuring the right settings for each location.</description>
     </item>
     <item>
-      <title>LIVE DEMO: Concierge - Managing Workplace Experience</title>
-      <link>https://placeos.com/posts/live-demo-concierge-managing-workplace-experience/</link>
+      <title>December 2024 PlaceOS Product Updates</title>
+      <link>http://localhost:1313/posts/december-2024-placeos-product-updates/</link>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/december-2024-placeos-product-updates/</guid>
+      <description>December 2024 WorkMate updates include new parking utilization reports, kiosk customizations, recurring desk bookings, added language support and room alerts.</description>
+    </item>
+    <item>
+      <title>How to Choose the Best Meeting Room Booking Software</title>
+      <link>http://localhost:1313/posts/how-to-choose-the-best-meeting-room-booking-software/</link>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-to-choose-the-best-meeting-room-booking-software/</guid>
+      <description>Learn how to select the best meeting room booking software. Explore common challenges, scalability concerns &amp;amp; the unique benefits of PlaceOS.</description>
+    </item>
+    <item>
+      <title>New Feature: Locking Booking</title>
+      <link>http://localhost:1313/posts/new-feature-locking-booking/</link>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/new-feature-locking-booking/</guid>
+      <description>Explore PlaceOS&amp;rsquo;s Locker Booking System: Easy reservations, access control, visual booking, and flexibility for workplaces and visitor management.</description>
+    </item>
+    <item>
+      <title>Downsizing Your Office? First, Take These 5 Essential Steps</title>
+      <link>http://localhost:1313/posts/downsizing-your-office-first-take-these-5-essential-steps/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/downsizing-your-office-first-take-these-5-essential-steps/</guid>
+      <description>Today&amp;rsquo;s work environment has seen dramatic shifts, prompting many companies to consider downsizing their office spaces.</description>
+    </item>
+    <item>
+      <title>July 2024 PlaceOS Product Updates</title>
+      <link>http://localhost:1313/posts/july-2024-placeos-product-updates/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/july-2024-placeos-product-updates/</guid>
+      <description>Non-bookable rooms now show real-time status, desk height management for Floorsense desks, and real-time parking availability.</description>
+    </item>
+    <item>
+      <title>Indoor Wayfinding for your Workplace</title>
+      <link>http://localhost:1313/posts/indoor-wayfinding-for-your-workplace/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/live-demo-concierge-managing-workplace-experience/</guid>
+      <guid>http://localhost:1313/posts/indoor-wayfinding-for-your-workplace/</guid>
+      <description>Enhance workplace navigation with indoor wayfinding technology. Explore how these solutions can streamline movement and boost productivity in your office.</description>
+    </item>
+    <item>
+      <title>LIVE DEMO: Concierge - Managing Workplace Experience</title>
+      <link>http://localhost:1313/posts/live-demo-concierge-managing-workplace-experience/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/live-demo-concierge-managing-workplace-experience/</guid>
       <description>Elevate your hybrid workplace with our advanced workplace management app. Discover how to enhance the workplace experience and streamline operations.</description>
     </item>
     <item>
       <title>LIVE DEMO: WorkMate Native iOS &amp; Android</title>
-      <link>https://placeos.com/posts/live-demo-workmate-native-ios-android/</link>
+      <link>http://localhost:1313/posts/live-demo-workmate-native-ios-android/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/live-demo-workmate-native-ios-android/</guid>
+      <guid>http://localhost:1313/posts/live-demo-workmate-native-ios-android/</guid>
       <description>Discover Workmate, the ultimate workplace management app for iOS and Android. Join our live demo to see how it enhances productivity and streamlines tasks.</description>
     </item>
     <item>
-      <title>Workplace Management App: New Features and Enhancements</title>
-      <link>https://placeos.com/posts/workplace-management-app-new-features-and-enhancements/</link>
+      <title>Managing Technology Redundancy in IoT and Smart Buildings</title>
+      <link>http://localhost:1313/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/workplace-management-app-new-features-and-enhancements/</guid>
+      <guid>http://localhost:1313/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</guid>
+      <description>Learn how to effectively deal with technology redundancy in IoT and smart buildings. Discover strategies to optimize systems and ensure continuous performance.</description>
+    </item>
+    <item>
+      <title>Smart Building Data traps</title>
+      <link>http://localhost:1313/posts/smart-building-data-traps/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/smart-building-data-traps/</guid>
+      <description>Learn how to spot deceit in smart building data and understand analytics better. Protect your business from misinformation with these expert tips.</description>
+    </item>
+    <item>
+      <title>Workplace Management App: New Features and Enhancements</title>
+      <link>http://localhost:1313/posts/workplace-management-app-new-features-and-enhancements/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/workplace-management-app-new-features-and-enhancements/</guid>
       <description>Explore the new features of the refreshed Concierge workplace management app. Improve efficiency and optimize your workplace with our innovative solutions.</description>
     </item>
     <item>
       <title>LIVE DEMO: Indoor Wayfinding &amp; Workplace Management Overhaul</title>
-      <link>https://placeos.com/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</link>
+      <link>http://localhost:1313/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</link>
       <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</guid>
+      <guid>http://localhost:1313/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</guid>
       <description>A brand new feature powered by a new integration. An overhaul of our workplace management application.</description>
+    </item>
+    <item>
+      <title>A guide to digital workplace transformation</title>
+      <link>http://localhost:1313/posts/a-guide-to-digital-workplace-transformation/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/a-guide-to-digital-workplace-transformation/</guid>
+      <description>A recent Gartner Report shows that your digital transformation journey will be a dead end unless you do this.</description>
+    </item>
+    <item>
+      <title>Approaching workplace optimization</title>
+      <link>http://localhost:1313/posts/approaching-workplace-optimization/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/approaching-workplace-optimization/</guid>
+      <description>The sales funnel has a pretty well-defined approach. Instead of using that to sell more products, how can we build better UX?</description>
+    </item>
+    <item>
+      <title>LIVE DEMO: Understanding Energy Analytics, Surveys &amp; Catering</title>
+      <link>http://localhost:1313/posts/live-demo-understanding-energy-analytics-surveys-catering/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/live-demo-understanding-energy-analytics-surveys-catering/</guid>
+      <description>A live demo about technical details behind our energy analytics tools, valuable insights from surveys &amp;amp; our catering tool.</description>
     </item>
   </channel>
 </rss>

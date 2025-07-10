@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Parking on PlaceOS</title>
-    <link>https://placeos.com/categories/parking/</link>
+    <link>http://localhost:1313/categories/parking/</link>
     <description>Recent content in Parking on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://placeos.com/categories/parking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/parking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WorkMate</title>
-      <link>https://placeos.com/products/workmate-workplace-solution/</link>
+      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/products/workmate-workplace-solution/</guid>
+      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
       <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
     </item>
     <item>
       <title>Visitor Management</title>
-      <link>https://placeos.com/products/visitor-management-app/</link>
+      <link>http://localhost:1313/products/visitor-management-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/products/visitor-management-app/</guid>
+      <guid>http://localhost:1313/products/visitor-management-app/</guid>
       <description>Visitor management software so simple, the only thing you do is send the invite, it does everything else</description>
     </item>
     <item>
       <title>Building &amp; Region-Level Workplace Management</title>
-      <link>https://placeos.com/posts/building-region-level-workplace-management/</link>
+      <link>http://localhost:1313/posts/building-region-level-workplace-management/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/building-region-level-workplace-management/</guid>
+      <guid>http://localhost:1313/posts/building-region-level-workplace-management/</guid>
       <description>Control workplace settings to standardize policies across buildings, so you can scale workplace management while ensuring the right settings for each location.</description>
     </item>
     <item>
       <title>December 2024 PlaceOS Product Updates</title>
-      <link>https://placeos.com/posts/december-2024-placeos-product-updates/</link>
+      <link>http://localhost:1313/posts/december-2024-placeos-product-updates/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/december-2024-placeos-product-updates/</guid>
+      <guid>http://localhost:1313/posts/december-2024-placeos-product-updates/</guid>
       <description>December 2024 WorkMate updates include new parking utilization reports, kiosk customizations, recurring desk bookings, added language support and room alerts.</description>
     </item>
     <item>
       <title>Auto Assign Desks &amp; Car Spaces</title>
-      <link>https://placeos.com/posts/auto-assign-desks-car-spaces/</link>
+      <link>http://localhost:1313/posts/auto-assign-desks-car-spaces/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/auto-assign-desks-car-spaces/</guid>
+      <guid>http://localhost:1313/posts/auto-assign-desks-car-spaces/</guid>
       <description>Auto-assign desks by department and car spaces with ANPR integration for efficient visitor management.</description>
     </item>
     <item>
       <title>September 2024 PlaceOS Product Updates</title>
-      <link>https://placeos.com/posts/september-2024-placeos-product-updates/</link>
+      <link>http://localhost:1313/posts/september-2024-placeos-product-updates/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/september-2024-placeos-product-updates/</guid>
+      <guid>http://localhost:1313/posts/september-2024-placeos-product-updates/</guid>
       <description>New WorkMate features: email templates, parking management, QR code printing, room alerts, and a media library in our September release.</description>
     </item>
     <item>
       <title>July 2024 PlaceOS Product Updates</title>
-      <link>https://placeos.com/posts/july-2024-placeos-product-updates/</link>
+      <link>http://localhost:1313/posts/july-2024-placeos-product-updates/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/july-2024-placeos-product-updates/</guid>
+      <guid>http://localhost:1313/posts/july-2024-placeos-product-updates/</guid>
       <description>Non-bookable rooms now show real-time status, desk height management for Floorsense desks, and real-time parking availability.</description>
     </item>
     <item>
       <title>Workplace Management App: New Features and Enhancements</title>
-      <link>https://placeos.com/posts/workplace-management-app-new-features-and-enhancements/</link>
+      <link>http://localhost:1313/posts/workplace-management-app-new-features-and-enhancements/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/workplace-management-app-new-features-and-enhancements/</guid>
+      <guid>http://localhost:1313/posts/workplace-management-app-new-features-and-enhancements/</guid>
       <description>Explore the new features of the refreshed Concierge workplace management app. Improve efficiency and optimize your workplace with our innovative solutions.</description>
     </item>
     <item>
       <title>April 2024 PlaceOS Product Updates</title>
-      <link>https://placeos.com/posts/april-2024-placeos-product-updates/</link>
+      <link>http://localhost:1313/posts/april-2024-placeos-product-updates/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/april-2024-placeos-product-updates/</guid>
+      <guid>http://localhost:1313/posts/april-2024-placeos-product-updates/</guid>
       <description>POI QR code support, public map kiosk, enhanced MapsPeople search, backoffice warnings, and driver updates.</description>
     </item>
     <item>
       <title>Smart building automation: platforms vs apps</title>
-      <link>https://placeos.com/posts/smart-building-automation-platforms-vs-apps/</link>
+      <link>http://localhost:1313/posts/smart-building-automation-platforms-vs-apps/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/smart-building-automation-platforms-vs-apps/</guid>
+      <guid>http://localhost:1313/posts/smart-building-automation-platforms-vs-apps/</guid>
       <description>Right now, you’ve likely got at least 30 apps on your phone, what if it was the same for your building?</description>
     </item>
     <item>
       <title>Social distancing is sparking the smart city revolution</title>
-      <link>https://placeos.com/posts/social-distancing-is-sparking-the-smart-city-revolution/</link>
+      <link>http://localhost:1313/posts/social-distancing-is-sparking-the-smart-city-revolution/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/social-distancing-is-sparking-the-smart-city-revolution/</guid>
+      <guid>http://localhost:1313/posts/social-distancing-is-sparking-the-smart-city-revolution/</guid>
       <description>We should be preparing for a future in which workspaces and buildings are interconnected with other aspects of our lives.</description>
     </item>
     <item>
       <title>User input equals error: the Elon Musk approach</title>
-      <link>https://placeos.com/posts/user-input-equals-error-the-elon-musk-approach/</link>
+      <link>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/user-input-equals-error-the-elon-musk-approach/</guid>
+      <guid>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</guid>
       <description>Tesla takes the approach, all user input equals error. There’s a lot we can learn from that when we apply that ethos.</description>
     </item>
   </channel>

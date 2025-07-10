@@ -2,192 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Event on PlaceOS</title>
-    <link>https://placeos.com/categories/event/</link>
+    <link>http://localhost:1313/categories/event/</link>
     <description>Recent content in Event on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://placeos.com/categories/event/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/event/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ASHRAE Headquarters - Net-Zero Retrofit</title>
-      <link>https://placeos.com/projects/ashrae-headquarters-net-zero-retrofit/</link>
+      <link>http://localhost:1313/projects/ashrae-headquarters-net-zero-retrofit/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/projects/ashrae-headquarters-net-zero-retrofit/</guid>
+      <guid>http://localhost:1313/projects/ashrae-headquarters-net-zero-retrofit/</guid>
       <description>ASHRAE is a global society maintaining sustainable standards for the built environment. They are the creator of BACnet, a protocol and set of standards for the HVAC industry.</description>
     </item>
     <item>
       <title>Government Agency - Multi-Tenancy: Space as a Service</title>
-      <link>https://placeos.com/projects/multi-tenancy-space-as-a-service/</link>
+      <link>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/projects/multi-tenancy-space-as-a-service/</guid>
+      <guid>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</guid>
       <description>This Government Agency required a multifunctional and scalable workspace management system to serve various federal agencies. It must accurately authenticate users to manage and charge for space utilization, and provide a scalable model suitable for other government spaces facing underutilization.</description>
     </item>
     <item>
       <title>NSW Health - Integrated Online Health Consultations</title>
-      <link>https://placeos.com/projects/seamless-online-health-consultations/</link>
+      <link>http://localhost:1313/projects/seamless-online-health-consultations/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/projects/seamless-online-health-consultations/</guid>
+      <guid>http://localhost:1313/projects/seamless-online-health-consultations/</guid>
       <description>Gives clinicians, carers, and patients one system to manage consults, surveys, referrals, Medicare billing, education, and follow-ups — no plugins or patchwork tools.</description>
     </item>
     <item>
       <title>Building &amp; Region-Level Workplace Management</title>
-      <link>https://placeos.com/posts/building-region-level-workplace-management/</link>
+      <link>http://localhost:1313/posts/building-region-level-workplace-management/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/building-region-level-workplace-management/</guid>
+      <guid>http://localhost:1313/posts/building-region-level-workplace-management/</guid>
       <description>Control workplace settings to standardize policies across buildings, so you can scale workplace management while ensuring the right settings for each location.</description>
     </item>
     <item>
-      <title>Room Booking Updates: Recurring Booking &amp; Room Manager</title>
-      <link>https://placeos.com/posts/room-booking-updates-recurring-booking-room-manager/</link>
-      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/room-booking-updates-recurring-booking-room-manager/</guid>
-      <description>Learn about the new recurring bookings feature in our room booking app. Streamline your scheduling process and enhance room management with ease.</description>
-    </item>
-    <item>
-      <title>December 2024 PlaceOS Product Updates</title>
-      <link>https://placeos.com/posts/december-2024-placeos-product-updates/</link>
-      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/december-2024-placeos-product-updates/</guid>
-      <description>December 2024 WorkMate updates include new parking utilization reports, kiosk customizations, recurring desk bookings, added language support and room alerts.</description>
-    </item>
-    <item>
-      <title>API Keys: Simplify Authentication for Apps &amp; Devices</title>
-      <link>https://placeos.com/posts/api-keys-simplify-authentication-for-apps-devices/</link>
-      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/api-keys-simplify-authentication-for-apps-devices/</guid>
-      <description>Simplify app integration with PlaceOS API Keys. Enable secure, authenticated server-to-server interactions, unattended panel access, and auto-login.</description>
-    </item>
-    <item>
-      <title>How to Choose the Best Meeting Room Booking Software</title>
-      <link>https://placeos.com/posts/how-to-choose-the-best-meeting-room-booking-software/</link>
-      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/how-to-choose-the-best-meeting-room-booking-software/</guid>
-      <description>Learn how to select the best meeting room booking software. Explore common challenges, scalability concerns &amp;amp; the unique benefits of PlaceOS.</description>
-    </item>
-    <item>
       <title>September 2024 PlaceOS Product Updates</title>
-      <link>https://placeos.com/posts/september-2024-placeos-product-updates/</link>
+      <link>http://localhost:1313/posts/september-2024-placeos-product-updates/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/september-2024-placeos-product-updates/</guid>
+      <guid>http://localhost:1313/posts/september-2024-placeos-product-updates/</guid>
       <description>New WorkMate features: email templates, parking management, QR code printing, room alerts, and a media library in our September release.</description>
     </item>
     <item>
       <title>LIVE DEMO: AI Room Control</title>
-      <link>https://placeos.com/posts/live-demo-ai-room-control/</link>
+      <link>http://localhost:1313/posts/live-demo-ai-room-control/</link>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/live-demo-ai-room-control/</guid>
+      <guid>http://localhost:1313/posts/live-demo-ai-room-control/</guid>
       <description>Book, cancel, and control meeting rooms effortlessly with simple prompts. Explore ChromeOS, AOPEN touch panels, and digital signage in our demo event. Join now!</description>
     </item>
     <item>
       <title>Introducing Event Manager</title>
-      <link>https://placeos.com/posts/introducing-event-manager/</link>
+      <link>http://localhost:1313/posts/introducing-event-manager/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/introducing-event-manager/</guid>
+      <guid>http://localhost:1313/posts/introducing-event-manager/</guid>
       <description>Introducing the Workplace Event Manager, your solution for seamless event planning and management. Optimize workplace events with our innovative tool.</description>
     </item>
     <item>
       <title>LIVE DEMO: Concierge - Managing Workplace Experience</title>
-      <link>https://placeos.com/posts/live-demo-concierge-managing-workplace-experience/</link>
+      <link>http://localhost:1313/posts/live-demo-concierge-managing-workplace-experience/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/live-demo-concierge-managing-workplace-experience/</guid>
+      <guid>http://localhost:1313/posts/live-demo-concierge-managing-workplace-experience/</guid>
       <description>Elevate your hybrid workplace with our advanced workplace management app. Discover how to enhance the workplace experience and streamline operations.</description>
     </item>
     <item>
       <title>LIVE EVENT: Rethinking Campus Experience</title>
-      <link>https://placeos.com/posts/live-event-rethinking-campus-experience/</link>
+      <link>http://localhost:1313/posts/live-event-rethinking-campus-experience/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/live-event-rethinking-campus-experience/</guid>
+      <guid>http://localhost:1313/posts/live-event-rethinking-campus-experience/</guid>
       <description>Discover smart campus solutions to enhance the campus experience. Learn how a campus app can streamline operations and improve student engagement.</description>
     </item>
     <item>
-      <title>Managing Technology Redundancy in IoT and Smart Buildings</title>
-      <link>https://placeos.com/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</link>
-      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</guid>
-      <description>Learn how to effectively deal with technology redundancy in IoT and smart buildings. Discover strategies to optimize systems and ensure continuous performance.</description>
-    </item>
-    <item>
       <title>Processing on the &#39;Edge&#39;</title>
-      <link>https://placeos.com/posts/processing-on-the-edge/</link>
+      <link>http://localhost:1313/posts/processing-on-the-edge/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/processing-on-the-edge/</guid>
+      <guid>http://localhost:1313/posts/processing-on-the-edge/</guid>
       <description>Explore how edge processing transforms data handling and performance. See why processing on the edge is crucial for real-time analytics and faster decision-maki</description>
     </item>
     <item>
       <title>June 2024 PlaceOS Product Updates</title>
-      <link>https://placeos.com/posts/june-2024-placeos-product-updates/</link>
+      <link>http://localhost:1313/posts/june-2024-placeos-product-updates/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/june-2024-placeos-product-updates/</guid>
+      <guid>http://localhost:1313/posts/june-2024-placeos-product-updates/</guid>
       <description>Print concierge reports, refactored tables, authenticated user lists, support request types, map view POI creation, bug fixes.</description>
     </item>
     <item>
       <title>LIVE DEMO: Event Manager</title>
-      <link>https://placeos.com/posts/live-demo-event-manager/</link>
+      <link>http://localhost:1313/posts/live-demo-event-manager/</link>
       <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/live-demo-event-manager/</guid>
+      <guid>http://localhost:1313/posts/live-demo-event-manager/</guid>
       <description>The office is there to support in-person connection, collaboration &amp;amp; productivity. The next live demo is all about that.</description>
     </item>
     <item>
       <title>Four technology integrations to help during covid-19</title>
-      <link>https://placeos.com/posts/four-technology-integrations-to-help-during-covid-19/</link>
+      <link>http://localhost:1313/posts/four-technology-integrations-to-help-during-covid-19/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/four-technology-integrations-to-help-during-covid-19/</guid>
+      <guid>http://localhost:1313/posts/four-technology-integrations-to-help-during-covid-19/</guid>
       <description>Right now, it’s hard to focus on any workplace user requirement unless we address the biggest challenge: COVID-19.</description>
     </item>
     <item>
       <title>LIVE DEMO: Enhanced Room Booking &amp; Event Manager</title>
-      <link>https://placeos.com/posts/live-demo-enhanced-room-booking-event-manager/</link>
+      <link>http://localhost:1313/posts/live-demo-enhanced-room-booking-event-manager/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/live-demo-enhanced-room-booking-event-manager/</guid>
+      <guid>http://localhost:1313/posts/live-demo-enhanced-room-booking-event-manager/</guid>
       <description>Our latest webinar will be introducing some highly requested updates to our room booking experience &amp;amp; event manager</description>
     </item>
     <item>
-      <title>LIVE DEMO: Understanding Energy Analytics, Surveys &amp; Catering</title>
-      <link>https://placeos.com/posts/live-demo-understanding-energy-analytics-surveys-catering/</link>
-      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/live-demo-understanding-energy-analytics-surveys-catering/</guid>
-      <description>A live demo about technical details behind our energy analytics tools, valuable insights from surveys &amp;amp; our catering tool.</description>
-    </item>
-    <item>
       <title>LIVE DEMO: Visitor Management &amp; Locker Booking</title>
-      <link>https://placeos.com/posts/live-demo-visitor-management-locker-booking/</link>
+      <link>http://localhost:1313/posts/live-demo-visitor-management-locker-booking/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/live-demo-visitor-management-locker-booking/</guid>
+      <guid>http://localhost:1313/posts/live-demo-visitor-management-locker-booking/</guid>
       <description>Looking to streamline your workplace&amp;rsquo;s visitor management workflows and enhance the visitor experience?</description>
     </item>
     <item>
       <title>Office space utilization is only half the story</title>
-      <link>https://placeos.com/posts/office-space-utilization-is-only-half-the-story/</link>
+      <link>http://localhost:1313/posts/office-space-utilization-is-only-half-the-story/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/office-space-utilization-is-only-half-the-story/</guid>
+      <guid>http://localhost:1313/posts/office-space-utilization-is-only-half-the-story/</guid>
       <description>It&amp;rsquo;s easy to guess what most workplaces think they need in terms of data. Here&amp;rsquo;s what they actually need.</description>
     </item>
     <item>
       <title>Office Space Utilization: The Roadmap to Efficiency</title>
-      <link>https://placeos.com/posts/office-space-utilization-the-roadmap-to-efficiency/</link>
+      <link>http://localhost:1313/posts/office-space-utilization-the-roadmap-to-efficiency/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/office-space-utilization-the-roadmap-to-efficiency/</guid>
+      <guid>http://localhost:1313/posts/office-space-utilization-the-roadmap-to-efficiency/</guid>
       <description>Discover the significance of office space utilization. Dive into key metrics, benefits, and the future of office efficiency.</description>
     </item>
     <item>
       <title>Raw crystal 2020 ft Stephen Von Takach</title>
-      <link>https://placeos.com/posts/raw-crystal-2020-ft-stephen-von-takach/</link>
+      <link>http://localhost:1313/posts/raw-crystal-2020-ft-stephen-von-takach/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/raw-crystal-2020-ft-stephen-von-takach/</guid>
+      <guid>http://localhost:1313/posts/raw-crystal-2020-ft-stephen-von-takach/</guid>
       <description>Raw Crystal 2020 is the last opportunity of the year to connect, share experiences, and learn about Crystal Programming.</description>
     </item>
     <item>
-      <title>The most neglected smarting building UX</title>
-      <link>https://placeos.com/posts/the-most-neglected-smarting-building-ux/</link>
-      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/the-most-neglected-smarting-building-ux/</guid>
-      <description>I&amp;rsquo;ll give you a hint, it&amp;rsquo;s UX that involves inviting guests to your building for a meeting or sales pitch.</description>
-    </item>
-    <item>
       <title>User input equals error: the Elon Musk approach</title>
-      <link>https://placeos.com/posts/user-input-equals-error-the-elon-musk-approach/</link>
+      <link>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/user-input-equals-error-the-elon-musk-approach/</guid>
+      <guid>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</guid>
       <description>Tesla takes the approach, all user input equals error. There’s a lot we can learn from that when we apply that ethos.</description>
     </item>
   </channel>

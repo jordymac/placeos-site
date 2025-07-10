@@ -54,11 +54,10 @@ cta:
 categories:
   - Analytics
   - Desk Booking
-  - Interface
-  - Neighborhoods
+  - Control Interfaces
+  - Workplace Neighborhoods
   - Occupancy
   - Utilization
-  - product
 
 related_links:
   - url: /products/workmate-workplace-solution

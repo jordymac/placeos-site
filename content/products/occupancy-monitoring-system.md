@@ -48,9 +48,8 @@ categories:
   - Smart Building
   - Energy 
   - ROI
-  - Configuration 
-  - Workplace 
-  - product  
+  - System Configuration
+  - Workplace Management  
 
 related_links:
   - url: /products/hvac-automation

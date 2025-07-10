@@ -6,10 +6,8 @@ categories:
   - AV
   - Desk Booking
   - Parking
-  - Product
   - Visitor Management
   - Wayfinding
-  - Workplace
   - Workplace Management
   - product-update
 summary: >-

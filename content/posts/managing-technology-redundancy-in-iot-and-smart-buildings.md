@@ -5,13 +5,12 @@ categories:
   - AV
   - Analytics
   - Desk Booking
-  - Event
-  - Interface
+  - Control Interfaces
   - Occupancy
   - Platform
   - Smart Building
   - Systems
-  - Workplace
+  - Workplace Management
   - blog
 summary: >-
   Learn how to effectively deal with technology redundancy in IoT and smart
