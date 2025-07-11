@@ -1,15 +1,15 @@
-# data/integrations/microsoft_teams.yaml
 id: microsoft_teams
 entityType: Integration
 name: Microsoft Teams
 vendor: Microsoft
 category:
-  - video
-description: Microsoft Teams provides video conferencing, messaging, and meeting room integration for workplace collaboration.
+- video
+description: Microsoft Teams provides video conferencing, messaging, and meeting room
+  integration for workplace collaboration.
 common_data_available:
-  - Meeting events
-  - Participants
-  - Room join status
+- Meeting events
+- Participants
+- Room join status
 tags:
-  - microsoft
-  - teams
+- microsoft
+- teams

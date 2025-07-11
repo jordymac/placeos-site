@@ -7,8 +7,8 @@ category:
 description: PointGrab uses computer vision to detect presence and count people in
   spaces with high accuracy.
 common_data_available:
-- People count
-- Occupancy
 - Dwell Time
+- Occupancy
+- People Count
 tags:
 - pointgrab

@@ -1,16 +1,16 @@
-# data/integrations/authentication.yaml
 id: authentication
 entityType: Integration
 name: Generic Authentication
 vendor: Generic
 category:
-  - authentication
-description: >
-  Placeholder for any identity provider (OAuth2, SAML, LDAP, etc.)
-  when the exact solution isn’t yet identified.
+- authentication
+description: 'Placeholder for any identity provider (OAuth2, SAML, LDAP, etc.) when
+  the exact solution isn’t yet identified.
+
+  '
 common_data_available:
-  - User login status
-  - Authentication tokens
-  - Session logs
+- Authentication Tokens
+- Session logs
+- User login status
 tags:
-  - auth
+- auth

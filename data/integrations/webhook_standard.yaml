@@ -1,15 +1,15 @@
-# data/integrations/webhook_standard.yaml
 id: webhook_standard
 entityType: Integration
 name: HTTPS Webhook
 vendor: Generic
 category:
-  - messaging
-description: Standard webhook handler for receiving push-based messages and triggering workflows.
+- messaging
+description: Standard webhook handler for receiving push-based messages and triggering
+  workflows.
 common_data_available:
-  - Payload data
-  - Headers
-  - Source metadata
+- Headers
+- Payload data
+- Source metadata
 tags:
-  - http
-  - webhook
+- http
+- webhook

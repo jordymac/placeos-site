@@ -9,10 +9,10 @@ description: 'Instant session integration for Webex endpoints, enabling one-clic
 
   '
 common_data_available:
+- Call Events
+- Device Status
 - Meeting participation
-- Call Logs
-- Device pairing
-- Space Utilization
+- Utilization
 tags:
 - cisco
 - webex

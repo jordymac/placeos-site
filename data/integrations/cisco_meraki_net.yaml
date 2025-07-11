@@ -1,19 +1,19 @@
-# data/integrations/cisco_meraki_net.yaml
 id: cisco_meraki_net
 entityType: Integration
 name: Cisco Meraki
 vendor: Cisco
 category:
-  - network
-description: >
-  Cisco Meraki dashboard integration for network device management,
-  firmware updates, and monitoring.
+- network
+description: 'Cisco Meraki dashboard integration for network device management, firmware
+  updates, and monitoring.
+
+  '
 common_data_available:
-  - Client device list
-  - Port status
-  - Network traffic stats
-  - Wi-Fi SSID status
+- Client device list
+- Network traffic stats
+- Port status
+- Wi-Fi SSID status
 tags:
-  - meraki
-  - network
-  - occupancy
+- meraki
+- network
+- occupancy

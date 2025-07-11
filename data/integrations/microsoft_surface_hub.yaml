@@ -1,15 +1,15 @@
-# data/integrations/microsoft_surface_hub.yaml
 id: microsoft_surface_hub
 entityType: Integration
 name: Microsoft Surface Hub
 vendor: Microsoft
 category:
-  - video
-description: Interactive whiteboard and video collaboration device used for team meetings and remote collaboration.
+- video
+description: Interactive whiteboard and video collaboration device used for team meetings
+  and remote collaboration.
 common_data_available:
-  - Call status
-  - Screen sharing
-  - User activity
+- Call status
+- Screen sharing
+- User activity
 tags:
-  - microsoft
-  - surface_hub
+- microsoft
+- surface_hub

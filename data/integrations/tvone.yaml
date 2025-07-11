@@ -1,14 +1,14 @@
-# data/integrations/tvone.yaml
 id: tvone
 entityType: Integration
 name: tvONE
 vendor: tvONE
 category:
-  - av_over_ip
-description: tvONE delivers video processing and distribution technology for broadcast and AV systems.
+- av_over_ip
+description: tvONE delivers video processing and distribution technology for broadcast
+  and AV systems.
 common_data_available:
-  - Input/output routing
-  - Signal format
-  - Video wall state
+- Input Status
+- Signal format
+- Video wall state
 tags:
-  - tvone
+- tvone

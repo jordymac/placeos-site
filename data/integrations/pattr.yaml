@@ -7,8 +7,7 @@ category:
 description: Pattr provides conversational AI tools for intelligent customer and workplace
   interactions.
 common_data_available:
+- API Logs
 - Conversation logs
-- Intent detection
-- API Response
 tags:
 - pattr

@@ -7,9 +7,9 @@ category:
 description: Mist’s location services provide BLE-based real-time positioning and
   analytics through AI-powered cloud APIs.
 common_data_available:
+- Access Events
 - Device location
 - Location Tracking
-- Entry/Exit Events
 tags:
 - juniper
 - mist

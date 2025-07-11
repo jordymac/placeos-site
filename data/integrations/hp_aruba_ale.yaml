@@ -7,9 +7,9 @@ category:
 description: Aruba Analytics and Location Engine (ALE) processes Wi-Fi signal data
   to provide location insights.
 common_data_available:
-- Occupancy
+- Dwell Time
 - Location Tracking
-- Dwell time
+- Occupancy
 tags:
 - aruba
 - ale

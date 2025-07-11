@@ -7,9 +7,9 @@ category:
 description: Generic control interface for commercial displays, signage screens, and
   monitors.
 common_data_available:
-- Power Status
-- Input selection
 - Brightness level
 - Device Status
+- Input source
+- Power Status
 tags:
 - display

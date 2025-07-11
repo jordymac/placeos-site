@@ -1,15 +1,14 @@
-# data/integrations/nec.yaml
 id: nec
 entityType: Integration
 name: NEC Displays
 vendor: NEC
 category:
-  - displays
+- displays
 description: NEC professional displays for digital signage and commercial AV environments.
 common_data_available:
-  - Power status
-  - Input source
-  - Screen diagnostics
+- Input source
+- Power status
+- Screen diagnostics
 tags:
-  - nec
-  - display
+- nec
+- display

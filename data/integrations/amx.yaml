@@ -1,17 +1,17 @@
-# data/integrations/amx.yaml
 id: amx
 entityType: Integration
 name: AMX
 vendor: AMX by Harman
 category:
-  - av_over_ip
-description: >
-  AMX control system integration for remote device control,
-  event monitoring, and automation within AV environments.
+- av_over_ip
+description: 'AMX control system integration for remote device control, event monitoring,
+  and automation within AV environments.
+
+  '
 common_data_available:
-  - Video routing
-  - Stream status
-  - Device diagnostics
+- Device diagnostics
+- Stream status
+- Video routing
 tags:
-  - amx
-  - control
+- amx
+- control

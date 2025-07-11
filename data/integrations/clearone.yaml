@@ -1,16 +1,16 @@
-# data/integrations/clearone.yaml
 id: clearone
 entityType: Integration
 name: ClearOne
 vendor: ClearOne
 category:
-  - audio
-description: >
-  ClearOne audio conferencing system integration for mic,
-  speaker control, and conferencing features.
+- audio
+description: 'ClearOne audio conferencing system integration for mic, speaker control,
+  and conferencing features.
+
+  '
 common_data_available:
-  - Microphone mute status
-  - Audio levels
-  - Device status
+- Audio levels
+- Device Status
+- Microphone mute status
 tags:
-  - clearone
+- clearone

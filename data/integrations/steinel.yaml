@@ -7,6 +7,6 @@ category:
 description: Steinel offers motion and presence detectors for energy-efficient lighting
   and building automation.
 common_data_available:
-- Motion detection
+- Device Status
+- Motion Detection
 - Occupancy
-- Sensor health

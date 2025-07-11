@@ -4,8 +4,9 @@ name: Planar
 vendor: Planar
 category:
 - displays
-description: Professional LED and LCD display walls from Planar for digital signage and command centers.
+description: Professional LED and LCD display walls from Planar for digital signage
+  and command centers.
 common_data_available:
-  - Display state
-  - Input source
-  - Device uptime
+- Device uptime
+- Display state
+- Input source

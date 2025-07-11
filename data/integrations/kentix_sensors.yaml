@@ -7,9 +7,9 @@ category:
 description: Kentix sensors monitor environmental risks such as temperature, humidity,
   motion, and air quality.
 common_data_available:
-- Temperature
-- Humidity
-- Motion detection
 - Air Quality
+- Humidity
+- Motion Detection
+- Temperature
 tags:
 - kentix

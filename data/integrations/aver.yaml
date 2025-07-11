@@ -5,15 +5,15 @@ vendor: AVer
 category:
 - occupancy_sensor
 - video
-description: 'AVer network camera integration for live streaming, people-counting,
-  and motion detection.'
+description: AVer network camera integration for live streaming, people-counting,
+  and motion detection.
 common_data_available:
-- Camera status
-- Preset control
+- Camera Status
+- Motion Detection
+- Occupancy
 - Pan/tilt/zoom
 - People Count
-- Motion detection
-- Occupancy
+- Preset configuration
 tags:
 - aver
 - camera

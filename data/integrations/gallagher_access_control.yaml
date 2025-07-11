@@ -7,6 +7,6 @@ category:
 description: Gallagher provides integrated access control and perimeter security systems
   for enterprise sites.
 common_data_available:
-- Entry/Exit Events
+- Access Events
+- Alarm Events
 - Credentials
-- Alarm triggers

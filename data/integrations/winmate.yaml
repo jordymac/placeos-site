@@ -1,14 +1,14 @@
-# data/integrations/winmate.yaml
 id: winmate
 entityType: Integration
 name: Winmate
 vendor: Winmate
 category:
-  - displays
-description: Winmate industrial-grade panel PCs and touchscreens for meeting rooms and digital signage.
+- displays
+description: Winmate industrial-grade panel PCs and touchscreens for meeting rooms
+  and digital signage.
 common_data_available:
-  - Power status
-  - Display mode
-  - Device diagnostics
+- Device diagnostics
+- Display mode
+- Power status
 tags:
-  - winmate
+- winmate

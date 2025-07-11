@@ -7,6 +7,5 @@ category:
 description: Microsoft Graph API enables access to user identity, calendar, directory,
   and other Microsoft 365 services.
 common_data_available:
-- Access tokens
+- Access Events
 - Directory user info
-- Access Logs

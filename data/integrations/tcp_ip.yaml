@@ -7,9 +7,9 @@ category:
 description: Generic TCP/IP communication protocol for controlling and monitoring
   devices over IP networks.
 common_data_available:
-- API Response
-- Device command log
-- Connection status
+- API Logs
+- Connection Status
+- Device Status
 tags:
 - tcp
 - ip

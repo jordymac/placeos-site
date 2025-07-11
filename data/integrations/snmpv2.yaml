@@ -1,14 +1,14 @@
-# data/integrations/snmpv2.yaml
 id: snmpv2
 entityType: Integration
 name: SNMPv2
 vendor: IETF
 category:
-  - protocols
-description: Simple Network Management Protocol v2 used for querying networked device status and configuration.
+- protocols
+description: Simple Network Management Protocol v2 used for querying networked device
+  status and configuration.
 common_data_available:
-  - MIB data
-  - Device metrics
-  - Trap alerts
+- Device metrics
+- MIB data
+- Trap alerts
 tags:
-  - snmp
+- snmp

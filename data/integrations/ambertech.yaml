@@ -1,18 +1,16 @@
-# data/integrations/ambertech.yaml
 id: ambertech
 entityType: Integration
 name: AmberTech
 vendor: AmberTech
 category:
-  - occupancy_sensor
-  - environmental_sensor
-description: >
-  AmberTech environmental sensor integration for occupancy and
-  ambient monitoring in workspaces.
+- AV
+description: 'AmberTech environmental sensor integration for occupancy and ambient
+  monitoring in workspaces.
+
+  '
 common_data_available:
-  - Device availability
-  - Signal status
-  - Control commands
+- Control commands
+- Device Status
+- Signal status
 tags:
-  - ambertech
-  - sensor
+- ambertech

@@ -8,7 +8,6 @@ description: Polycom (now Poly) provides video conferencing hardware for meeting
   and unified communications.
 common_data_available:
 - Call Events
-- Device status
-- Microphone and camera state
+- Device Status
 tags:
 - polycom

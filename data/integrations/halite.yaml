@@ -8,8 +8,7 @@ description: Halite provides smart occupancy sensors for real-time detection of 
   across desks, rooms, and shared spaces.
 common_data_available:
 - Occupancy
-- Space Utilization
-- Utilization trends
+- Utilization
 tags:
 - halite
 - sensor

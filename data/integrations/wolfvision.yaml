@@ -1,15 +1,15 @@
-# data/integrations/wolfvision_document_cameras.yaml
 id: wolfvision_document_cameras
 entityType: Integration
 name: Wolfvision Document Cameras
 vendor: Wolfvision
 category:
-  - video
-description: WolfVision provides visualizer systems and wireless presentation tools for education and enterprise AV.
+- video
+description: WolfVision provides visualizer systems and wireless presentation tools
+  for education and enterprise AV.
 common_data_available:
-  - Streaming input
-  - Device control state
-  - Presentation status
+- Device control state
+- Presentation status
+- Streaming input
 tags:
-  - wolfvision
-  - camera
+- wolfvision
+- camera

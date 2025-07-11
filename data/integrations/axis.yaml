@@ -10,9 +10,9 @@ description: 'Axis network camera integration for video streaming, motion detect
 
   '
 common_data_available:
-- Video Stream
 - Motion Detection
 - Occupancy
+- Video Status
 tags:
 - axis
 - camera

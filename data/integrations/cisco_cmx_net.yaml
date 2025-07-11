@@ -9,9 +9,9 @@ description: 'Cisco CMX integration for Wi-Fi location analytics and network-bas
 
   '
 common_data_available:
-- Device location estimates
-- Entry/Exit Events
-- Dwell time
+- Access Events
+- Device location
+- Dwell Time
 - Heatmaps
 tags:
 - cmx

@@ -1,20 +1,20 @@
-# data/integrations/aws_sms.yaml
 id: aws_sms
 entityType: Integration
 name: AWS SMS
 vendor: AWS
 category:
-  - messaging
-description: >
-  Integration with AWS Simple Notification Service (SNS) SMS channel.  
-  Enables PlaceOS to send text-message alerts and notifications (e.g. room-release
-  warnings, system alarms, visitor arrival notices) via AWS’s SMS endpoint.
+- messaging
+description: 'Integration with AWS Simple Notification Service (SNS) SMS channel.   Enables
+  PlaceOS to send text-message alerts and notifications (e.g. room-release warnings,
+  system alarms, visitor arrival notices) via AWS’s SMS endpoint.
+
+  '
 common_data_available:
-  - Device control state
-  - AV routing info
-  - Scheduled events
+- AV routing info
+- Device control state
+- Scheduled events
 tags:
-  - aws
-  - sns
-  - sms
-  - notification
+- aws
+- sns
+- sms
+- notification

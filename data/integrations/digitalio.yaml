@@ -7,9 +7,9 @@ category:
 description: Interfaces for digital input/output signaling to trigger or monitor basic
   binary devices like relays or sensors.
 common_data_available:
-- Input state (on/off)
-- Output control signals
 - Connection Status
+- Input Status
+- Output control signals
 tags:
 - dio
 - protocol

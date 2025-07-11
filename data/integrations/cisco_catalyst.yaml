@@ -1,17 +1,17 @@
-# data/integrations/cisco_catalyst.yaml
 id: cisco_catalyst
 entityType: Integration
 name: Cisco Catalyst Switches
 vendor: Cisco
 category:
-  - network
-description: >
-  Cisco Catalyst switch integration for port status, VLAN,
-  and network monitoring.
+- network
+description: 'Cisco Catalyst switch integration for port status, VLAN, and network
+  monitoring.
+
+  '
 common_data_available:
-  - Port activity
-  - PoE usage
-  - Connected devices
-  - VLAN status
+- Connected devices
+- PoE usage
+- Port activity
+- VLAN status
 tags:
-  - catalyst
+- catalyst

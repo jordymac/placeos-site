@@ -1,15 +1,15 @@
-# data/integrations/zoom_rooms_api.yaml
 id: zoom_rooms_api
 entityType: Integration
 name: Zoom Rooms API
 vendor: Zoom
 category:
-  - video
-description: Zoom Rooms API enables control and status visibility into Zoom-based video conferencing setups.
+- video
+description: Zoom Rooms API enables control and status visibility into Zoom-based
+  video conferencing setups.
 common_data_available:
-  - Meeting status
-  - Room availability
-  - Participant info
+- Meeting status
+- Participant info
+- Room availability
 tags:
-  - zoom
-  - rooms
+- zoom
+- rooms

@@ -8,5 +8,5 @@ description: FreeSpace provides wireless occupancy sensors and analytics to opti
   space utilization.
 common_data_available:
 - Occupancy
+- Utilization
 - Zone status
-- Space Utilization

@@ -1,15 +1,15 @@
-# data/integrations/microsoft_365.yaml
 id: microsoft_365
 entityType: Integration
 name: Microsoft 365 Booking
 vendor: Microsoft
 category:
-  - resource_booking
-description: Microsoft 365 Calendar provides room and desk booking capabilities through Outlook and Exchange APIs.
+- resource_booking
+description: Microsoft 365 Calendar provides room and desk booking capabilities through
+  Outlook and Exchange APIs.
 common_data_available:
-  - Room bookings
-  - User calendars
-  - Event metadata
+- Event metadata
+- Room bookings
+- User calendars
 tags:
-  - microsoft
-  - calendar
+- microsoft
+- calendar

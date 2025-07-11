@@ -4,14 +4,12 @@ name: ASHRAE BACnet Secure Connect
 vendor: ASHRAE
 category:
 - bms
-description: 'Encrypted BACnet Secure Connect integration (ANSI/ASHRAE 135-2016) for
+description: Encrypted BACnet Secure Connect integration (ANSI/ASHRAE 135-2016) for
   secure BMS object read/write and alarm monitoring.
-
-  '
 common_data_available:
+- Access Events
 - Encrypted device communications
-- Secure HVAC control
-- Access Logs
+- HVAC Control
 tags:
 - bacnet
 - bms

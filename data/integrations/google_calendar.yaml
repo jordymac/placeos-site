@@ -1,15 +1,15 @@
-# data/integrations/google_calendar.yaml
 id: google_calendar
 entityType: Integration
 name: Google Workspace Booking
 vendor: Google
 category:
-  - resource_booking
-description: Google Calendar integration provides room and event booking through Google Workspace.
+- resource_booking
+description: Google Calendar integration provides room and event booking through Google
+  Workspace.
 common_data_available:
-  - Meeting times
-  - Room availability
-  - Event metadata
+- Event metadata
+- Meeting times
+- Room availability
 tags:
-  - google
-  - calendar
+- google
+- calendar

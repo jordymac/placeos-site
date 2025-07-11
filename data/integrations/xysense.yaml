@@ -7,9 +7,8 @@ category:
 description: XY Sense uses ultra-wideband sensors to track occupancy in real-time
   across open-plan offices and zones.
 common_data_available:
-- Occupancy
-- Space Utilization
 - Desk Occupancy
-- Room Occupancy
+- Occupancy
+- Utilization
 tags:
 - xy_sense

@@ -1,14 +1,14 @@
-# data/integrations/network.yaml
 id: network
 entityType: Integration
 name: Generic Network Switch/Router
 vendor: Generic
 category:
-  - network
-description: Generic interface for managed switches and routers in enterprise LAN environments.
+- network
+description: Generic interface for managed switches and routers in enterprise LAN
+  environments.
 common_data_available:
-  - Port activity
-  - Device uptime
-  - Bandwidth usage
+- Bandwidth usage
+- Device uptime
+- Port activity
 tags:
-  - network
+- network

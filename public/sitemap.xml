@@ -514,9 +514,9 @@
   </url><url>
     <loc>http://localhost:1313/categories/education/</loc>
   </url><url>
-    <loc>http://localhost:1313/industry/energy/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/healthcare/</loc>
+  </url><url>
+    <loc>http://localhost:1313/industry/energy/</loc>
   </url><url>
     <loc>http://localhost:1313/industry/</loc>
   </url><url>

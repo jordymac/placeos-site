@@ -7,10 +7,10 @@ category:
 description: Aggregated interface for sensors tracking temperature, humidity, air
   quality, and CO₂.
 common_data_available:
-- Temperature
-- Humidity
+- Air Quality
 - CO₂ levels
-- Air Quality Index
+- Humidity
+- Temperature
 tags:
 - sensor
 - environmental

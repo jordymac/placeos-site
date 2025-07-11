@@ -1,16 +1,19 @@
-# data/integrations/johnson_controls_metasys.yaml
 id: johnson_controls_metasys
 entityType: Integration
 name: Johnson Controls Metasys
 vendor: Johnson Controls
 category:
-  - bms
-description: Metasys by Johnson Controls is a building management system for HVAC, lighting, and energy monitoring.
+- bms
+description: Metasys by Johnson Controls is a building management system for HVAC,
+  lighting, and energy monitoring.
 common_data_available:
-  - Temperature
-  - HVAC state
-  - Fan operation
-  - Power consumption
+- Air Quality
+- CO₂ levels
+- Fan operation
+- HVAC status
+- Humidity
+- Power consumption
+- Temperature
 tags:
-  - metasys
-  - bms
+- metasys
+- bms

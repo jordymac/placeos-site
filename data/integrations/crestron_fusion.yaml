@@ -1,15 +1,15 @@
-# data/integrations/crestron_fusion.yaml
 id: crestron_fusion
 entityType: Integration
 name: Crestron Fusion
 vendor: Crestron
 category:
-  - av_over_ip
-description: Crestron Fusion is an enterprise AV monitoring and management platform with room booking and analytics.
+- av_over_ip
+description: Crestron Fusion is an enterprise AV monitoring and management platform
+  with room booking and analytics.
 common_data_available:
-  - Room availability
-  - AV device status
-  - Energy usage
+- AV device status
+- Energy usage
+- Room availability
 tags:
-  - crestron
-  - fusion
+- crestron
+- fusion

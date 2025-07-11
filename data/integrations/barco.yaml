@@ -1,18 +1,18 @@
-# data/integrations/barco_clickshare.yaml
 id: barco_clickshare
 entityType: Integration
 name: Barco ClickShare
 vendor: Barco
 category:
-  - video
-description: >
-  Barco ClickShare integration for wireless presentation,
-  session control, and device status.
+- video
+description: 'Barco ClickShare integration for wireless presentation, session control,
+  and device status.
+
+  '
 common_data_available:
-  - Device online status
-  - Connected users
-  - Input/output resolution
-  - Meeting activity logs
+- Connected users
+- Device Status
+- Input/output resolution
+- Meeting activity logs
 tags:
-  - barco
-  - clickshare
+- barco
+- clickshare

@@ -8,5 +8,5 @@ description: GoBright offers room and desk booking, visitor management, and work
   analytics.
 common_data_available:
 - Booking status
-- Occupancy
 - Check-in data
+- Occupancy

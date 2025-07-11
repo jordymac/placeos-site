@@ -1,14 +1,14 @@
-# data/integrations/pexip_management_api.yaml
 id: pexip_management_api
 entityType: Integration
 name: Pexip Management API
 vendor: Pexip
 category:
-  - video
-description: Pexip is a video conferencing and interoperability platform that connects SIP, H.323, and WebRTC calls with platforms like Teams and Zoom.
+- video
+description: Pexip is a video conferencing and interoperability platform that connects
+  SIP, H.323, and WebRTC calls with platforms like Teams and Zoom.
 common_data_available:
-  - Call status
-  - Participant info
-  - Conference metadata
+- Call status
+- Conference metadata
+- Participant info
 tags:
-  - pexip
+- pexip

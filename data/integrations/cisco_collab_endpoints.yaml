@@ -11,7 +11,7 @@ description: 'Webex API integration for Cisco collaboration devices, enabling vi
 common_data_available:
 - Call status
 - Camera Status
-- Microphone mute state
+- Device Status
 - People Count
 tags:
 - cisco

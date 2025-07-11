@@ -4,8 +4,9 @@ name: Lg
 vendor: Lg
 category:
 - displays
-description: Commercial displays and signage solutions by LG for corporate, retail, and education environments.
+description: Commercial displays and signage solutions by LG for corporate, retail,
+  and education environments.
 common_data_available:
-  - Power status
-  - Input source
-  - Display mode
+- Display mode
+- Input source
+- Power status

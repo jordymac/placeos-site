@@ -7,9 +7,9 @@ category:
 description: Commercial displays and projectors from Hitachi with control interfaces
   for AV integration.
 common_data_available:
-- Power Status
+- Display Diagnostics
 - Input source
-- Display errors
+- Power Status
 tags:
 - hitachi
 - display

@@ -6,7 +6,7 @@ category: av_over_ip
 description: Crestron provides AV switching, control processors, and touch panels
   for integrated room control.
 common_data_available:
-- Input/output routing
 - Device Status
-- Room status
+- Input Status
 - Occupancy
+- Room status

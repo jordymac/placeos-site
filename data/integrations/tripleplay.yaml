@@ -8,7 +8,7 @@ description: Tripleplay provides IPTV and digital signage solutions for video st
   across enterprise networks.
 common_data_available:
 - Channel list
+- Device Status
 - Stream Status
-- Device connection
 tags:
 - tripleplay

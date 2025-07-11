@@ -1,19 +1,18 @@
-# data/integrations/google_workspace.yaml
 id: google_workspace
 entityType: Integration
 name: Google Workspace (GSuite)
 vendor: Google
 category:
-  - active_directory
-description: >
-  Use the Google Workspace Admin SDK to pull user accounts, groups, and
-  organizational units from GSuite into PlaceOS for authentication and
-  directory management.
+- active_directory
+description: 'Use the Google Workspace Admin SDK to pull user accounts, groups, and
+  organizational units from GSuite into PlaceOS for authentication and directory management.
+
+  '
 common_data_available:
-  - User calendar data
-  - Room bookings
-  - Directory users
+- Directory users
+- Room bookings
+- User calendar data
 tags:
-  - google
-  - gsuite
-  - directory
+- google
+- gsuite
+- directory

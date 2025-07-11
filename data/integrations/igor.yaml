@@ -7,9 +7,9 @@ category:
 description: Igor’s Nexos platform manages smart building energy usage, lighting control,
   and PoE automation.
 common_data_available:
+- Device Status
 - Energy consumption
 - Lighting levels
-- Device state
 - Occupancy
 tags:
 - igor

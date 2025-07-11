@@ -9,9 +9,9 @@ description: 'Sony camera integration supporting CGI and VISCA protocols for PTZ
 
   '
 common_data_available:
-- Camera status
+- Camera Status
 - PTZ control
-- Video Stream
+- Video Status
 tags:
 - sony
 - camera

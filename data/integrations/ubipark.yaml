@@ -7,9 +7,9 @@ category:
 description: UbiPark provides digital parking management and wayfinding solutions
   for smart cities and workplaces.
 common_data_available:
-- Parking bay availability
 - Occupancy
-- Reservation data
+- Parking bay availability
+- Schedule Data
 tags:
 - ubipark
 - parking

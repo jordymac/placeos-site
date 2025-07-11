@@ -1,15 +1,15 @@
-# data/integrations/echo360.yaml
 id: echo360
 entityType: Integration
 name: Echo360
 vendor: Echo360
 category:
-  - video
-description: Echo360 captures, manages, and streams lecture content for educational institutions.
+- video
+description: Echo360 captures, manages, and streams lecture content for educational
+  institutions.
 common_data_available:
-  - Recording status
-  - Scheduled sessions
-  - Media availability
+- Media availability
+- Recording status
+- Scheduled sessions
 tags:
-  - echo360
-  - capture
+- echo360
+- capture

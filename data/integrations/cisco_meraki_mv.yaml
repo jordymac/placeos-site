@@ -11,11 +11,11 @@ description: 'Cisco Meraki MV smart cameras provide edge-processed occupancy det
 
   '
 common_data_available:
-- People count (in defined zones)
-- Motion detection
-- Entry/Exit Events
-- Dwell time
-- Space Utilization
+- Access Events
+- Dwell Time
+- Motion Detection
+- People Count
+- Utilization
 tags:
 - meraki
 - camera

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Event Management on PlaceOS</title>
-    <link>https://placeos.com/categories/event-management/</link>
+    <link>http://localhost:1313/categories/event-management/</link>
     <description>Recent content in Event Management on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://placeos.com/categories/event-management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/event-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing Event Manager</title>
-      <link>https://placeos.com/posts/introducing-event-manager/</link>
+      <link>http://localhost:1313/posts/introducing-event-manager/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://placeos.com/posts/introducing-event-manager/</guid>
+      <guid>http://localhost:1313/posts/introducing-event-manager/</guid>
       <description>Introducing the Workplace Event Manager, your solution for seamless event planning and management. Optimize workplace events with our innovative tool.</description>
     </item>
   </channel>

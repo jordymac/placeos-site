@@ -8,7 +8,7 @@ description: Qbic provides touch panel displays for meeting room booking, occupa
   status, and integration with calendar systems.
 common_data_available:
 - Booking status
+- Device Status
 - Occupancy
-- Panel device health
 tags:
 - qbic

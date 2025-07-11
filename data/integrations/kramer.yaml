@@ -7,6 +7,6 @@ category:
 description: Kramer provides AV over IP solutions and room control hardware for professional
   AV installations.
 common_data_available:
+- Device Status
+- Input/output routing
 - Video Status
-- Switching routes
-- Device availability

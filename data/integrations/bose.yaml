@@ -1,16 +1,16 @@
-# data/integrations/bose_controlspace.yaml
 id: bose_controlspace
 entityType: Integration
 name: Bose ControlSpace
 vendor: Bose
 category:
-  - audio
-description: >
-  ControlSpace DSP integration for zone mixing, preset recall,
-  and system monitoring.
+- audio
+description: 'ControlSpace DSP integration for zone mixing, preset recall, and system
+  monitoring.
+
+  '
 common_data_available:
-  - Speaker status
-  - Audio zones
-  - Input/output levels
+- Audio zones
+- Input/output levels
+- Speaker status
 tags:
-  - bose
+- bose

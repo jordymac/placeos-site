@@ -7,6 +7,6 @@ category:
 description: Foxtel set-top boxes for integrated TV content delivery in hospitality
   and shared spaces.
 common_data_available:
-- Channel selection
+- Channel list
+- Device Status
 - Power Status
-- Remote control state

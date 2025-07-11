@@ -7,9 +7,8 @@ category:
 description: Generic REST API interface for sending and receiving JSON-based requests
   to cloud and device endpoints.
 common_data_available:
-- API Response
-- Authentication headers
 - API Logs
+- Authentication Tokens
 tags:
 - https
 - json

@@ -7,7 +7,7 @@ category:
 description: Lenel provides enterprise access control and security systems with integration
   for alarms and credentials.
 common_data_available:
-- Entry/Exit Events
+- Access Events
+- Alarm Events
 - Credentials
-- Alarm triggers
 - Door Status

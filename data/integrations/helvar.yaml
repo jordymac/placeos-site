@@ -4,8 +4,9 @@ name: Helvar
 vendor: Helvar
 category:
 - lighting
-description: Helvar provides intelligent lighting systems with energy optimization and scene management.
+description: Helvar provides intelligent lighting systems with energy optimization
+  and scene management.
 common_data_available:
-  - Lighting levels
-  - Scene state
-  - Energy usage
+- Energy usage
+- Lighting levels
+- Scene state

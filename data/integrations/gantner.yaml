@@ -7,11 +7,10 @@ category:
 description: Gantner smart locker systems support user authentication and real-time
   locker status monitoring.
 common_data_available:
-- Locker usage status
+- Access Events
 - Credentials
-- Access Logs
-- Locker status
 - Lock/Unlock
+- Locker status
 tags:
 - gantner
 - lockers

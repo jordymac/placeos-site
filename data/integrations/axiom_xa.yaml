@@ -9,10 +9,10 @@ description: 'Axiom XA integration for enterprise-grade door control, credential
 
   '
 common_data_available:
-- Door Status
-- Entry/Exit Events
+- Access Events
+- Alarm Events
 - Credentials
-- Alarm triggers
+- Door Status
 tags:
 - axiomxa
 - access

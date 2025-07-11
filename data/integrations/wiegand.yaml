@@ -7,8 +7,7 @@ category:
 description: Wiegand protocol is a standard interface used in card access systems
   and entry control devices.
 common_data_available:
-- Card read data
 - Access Events
-- Entry validation
+- Card read data
 tags:
 - wiegand

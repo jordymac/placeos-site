@@ -1,15 +1,19 @@
-# data/integrations/delta.yaml
 id: delta
 entityType: Integration
 name: Delta Controls
 vendor: Delta Controls
 category:
-  - bms
-description: Delta Controls provides building management systems for HVAC, energy, and access control.
+- bms
+description: Delta Controls provides building management systems for HVAC, energy,
+  and access control.
 common_data_available:
-  - Temperature readings
-  - Zone control state
-  - System diagnostics
+- Air Quality
+- CO₂ levels
+- HVAC status
+- Humidity
+- Occupancy
+- Temperature
+- Zone control state
 tags:
-  - delta
-  - bms
+- delta
+- bms

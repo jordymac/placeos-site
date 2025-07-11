@@ -11,7 +11,7 @@ description: 'Biamp Nexia control endpoint integration, exposing control and sta
 common_data_available:
 - Audio levels
 - Device Status
-- Input/output routing
+- Input Status
 tags:
 - nexia
 - control

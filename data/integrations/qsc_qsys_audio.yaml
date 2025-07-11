@@ -1,15 +1,15 @@
-# data/integrations/qsc_qsys_audio.yaml
 id: qsc_qsys_audio
 entityType: Integration
 name: QSC Q-SYS Audio
 vendor: QSC
 category:
-  - audio
-description: Q-SYS audio DSP platform by QSC for processing, routing, and managing audio in enterprise AV setups.
+- audio
+description: Q-SYS audio DSP platform by QSC for processing, routing, and managing
+  audio in enterprise AV setups.
 common_data_available:
-  - Audio levels
-  - Mute state
-  - DSP signal path
+- Audio levels
+- DSP signal path
+- Mute state
 tags:
-  - qsc
-  - qsys
+- qsc
+- qsys

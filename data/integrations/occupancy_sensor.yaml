@@ -8,7 +8,7 @@ description: General integration interface for presence detection and people cou
   sensors.
 common_data_available:
 - Occupancy
-- People count
+- People Count
 tags:
 - sensor
 - occupancy

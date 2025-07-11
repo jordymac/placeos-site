@@ -8,5 +8,5 @@ description: Lumens provides PTZ and fixed IP cameras used in lecture capture an
   live video streaming.
 common_data_available:
 - Pan/tilt/zoom
-- Video Status
 - Preset configuration
+- Video Status

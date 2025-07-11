@@ -44,6 +44,13 @@
       <description>Visitor management software so simple, the only thing you do is send the invite, it does everything else</description>
     </item>
     <item>
+      <title>Room Booking</title>
+      <link>http://localhost:1313/products/room-booking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/room-booking/</guid>
+      <description>A simple, self-hosted room booking app you don&amp;rsquo;t pay per room per month, you own it</description>
+    </item>
+    <item>
       <title>Building &amp; Region-Level Workplace Management</title>
       <link>http://localhost:1313/posts/building-region-level-workplace-management/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>

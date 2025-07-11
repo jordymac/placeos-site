@@ -11,8 +11,8 @@ description: 'Integration with Biamp Tesira DSPs for digital-signal processing c
   '
 common_data_available:
 - Audio routing
-- Input/output status
 - DSP block configuration
+- Input Status
 - System Status
 tags:
 - dsp

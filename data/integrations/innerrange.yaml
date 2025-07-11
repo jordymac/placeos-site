@@ -7,10 +7,10 @@ category:
 description: Inner Range access control systems support door status monitoring, credential
   verification, and alarm handling.
 common_data_available:
-- Access Logs
-- Door Status
-- Credentials
+- Access Events
 - Alarm Events
+- Credentials
+- Door Status
 tags:
 - integriti
 - access

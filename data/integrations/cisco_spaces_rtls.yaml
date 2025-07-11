@@ -9,9 +9,9 @@ description: 'Cisco Spaces RTLS platform integration for real-time location anal
 
   '
 common_data_available:
+- Access Events
 - Location Tracking
-- Entry/Exit Events
-- Space Utilization
+- Utilization
 tags:
 - cisco
 - rtls

@@ -7,8 +7,7 @@ category:
 description: Sense Studio offers AI-driven vision sensors for detecting presence,
   people counting, and space utilization.
 common_data_available:
-- Occupancy data
-- Space Utilization
 - Occupancy
+- Utilization
 tags:
 - sensestudio

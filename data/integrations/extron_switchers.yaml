@@ -1,15 +1,15 @@
-# data/integrations/extron_switchers.yaml
 id: extron_switchers
 entityType: Integration
 name: Extron Switchers
 vendor: Extron
 category:
-  - av_over_ip
-description: Extron switchers handle AV input/output routing for conference rooms, lecture halls, and control rooms.
+- av_over_ip
+description: Extron switchers handle AV input/output routing for conference rooms,
+  lecture halls, and control rooms.
 common_data_available:
-  - Input/output routing
-  - Switch state
-  - Port signal status
+- Input Status
+- Port signal status
+- Switch state
 tags:
-  - extron
-  - switcher
+- extron
+- switcher

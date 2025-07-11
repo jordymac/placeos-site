@@ -6,6 +6,6 @@ category:
 - av_over_ip
 description: Extron control systems provide automation and management for AV infrastructure.
 common_data_available:
-  - Device online status
-  - Control commands
-  - IR/RS232 interface state
+- Control commands
+- Device Status
+- IR/RS232 interface state

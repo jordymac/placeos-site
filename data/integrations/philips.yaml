@@ -1,15 +1,15 @@
-# data/integrations/philips.yaml
 id: philips
 entityType: Integration
 name: Philips Hue
 vendor: Philips
 category:
-  - lighting
-description: Philips lighting systems, including Hue and commercial-grade controls, for dynamic lighting scenes and energy optimization.
+- lighting
+description: Philips lighting systems, including Hue and commercial-grade controls,
+  for dynamic lighting scenes and energy optimization.
 common_data_available:
-  - Lighting levels
-  - Scene control
-  - Device state
+- Device Status
+- Lighting levels
+- Scene control
 tags:
-  - philips
-  - hue
+- philips
+- hue

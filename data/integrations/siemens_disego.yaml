@@ -4,8 +4,13 @@ name: Siemens Disego
 vendor: Siemens
 category:
 - bms
-description: Building automation and management systems by Siemens for controlling HVAC, lighting, and energy usage.
+description: Building automation and management systems by Siemens for controlling
+  HVAC, lighting, and energy usage.
 common_data_available:
-  - HVAC points
-  - Lighting controls
-  - Alarm conditions
+- Air Quality
+- CO₂ levels
+- Fan operation
+- HVAC status
+- Humidity
+- Power consumption
+- Temperature

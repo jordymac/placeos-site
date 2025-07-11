@@ -8,7 +8,7 @@ description: MuleSoft provides API integration and orchestration services for co
   enterprise systems.
 common_data_available:
 - API Logs
-- Authentication tokens
+- Authentication Tokens
 - Data payload mappings
 tags:
 - mulesoft

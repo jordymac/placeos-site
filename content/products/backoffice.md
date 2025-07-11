@@ -1,6 +1,6 @@
 ---
 title: BackOffice
-summary: Command your entire smart environment in one place
+summary: Command every device and integration in every building in one place
 weight: 4
 hero_image: images/products/backoffice/backoffice-hero-image-alt.webp
 image: images/products/backoffice/backoffice-hero-image-alt.webp
@@ -49,7 +49,7 @@ related_links:
   - url: /products/stagehand
     anchor_text: StageHand - AV Control System
 ---
-BackOffice provides a single, powerful interface to configure, monitor and manage thousands of devices and integrations. Add new integrations and workflows to your building in seconds.
+BackOffice gives you a unified interface to manage your smart environment at scale—add new workflows, systems, or entire buildings in seconds, without touching end-user experience.
 
 {{< wistia id="bnz61a0wfw" >}}
 

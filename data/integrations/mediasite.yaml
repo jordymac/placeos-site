@@ -7,9 +7,9 @@ category:
 description: Mediasite provides lecture capture and video streaming platforms for
   education and enterprise.
 common_data_available:
-- Recording status
-- Video Stream
 - Playback analytics
+- Recording status
+- Video Status
 tags:
 - mediasite
 - capture

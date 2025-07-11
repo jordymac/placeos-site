@@ -1,16 +1,16 @@
-# data/integrations/juniper_mist_net.yaml
 id: juniper_mist_net
 entityType: Integration
 name: Juniper Mist Network
 vendor: Juniper
 category:
-  - network
-description: Juniper Mist provides AI-driven wired and wireless network infrastructure with deep visibility and control.
+- network
+description: Juniper Mist provides AI-driven wired and wireless network infrastructure
+  with deep visibility and control.
 common_data_available:
-  - Client list
-  - Access point status
-  - Network health
-  - Bandwidth usage
+- Access point status
+- Bandwidth usage
+- Client list
+- Network health
 tags:
-  - juniper
-  - mist
+- juniper
+- mist

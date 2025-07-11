@@ -7,6 +7,6 @@ category:
 description: Rhombus provides smart security cameras with cloud-based analytics and
   motion detection capabilities.
 common_data_available:
-- Motion Detection
-- People count
 - Camera Status
+- Motion Detection
+- People Count

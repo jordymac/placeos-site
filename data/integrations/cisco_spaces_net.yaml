@@ -9,10 +9,10 @@ description: 'Cisco Spaces location and analytics platform for real-time network
 
   '
 common_data_available:
-- Occupancy
+- Dwell Time
 - Location Tracking
+- Occupancy
 - People Count
-- Dwell times
 tags:
 - cisco
 - network

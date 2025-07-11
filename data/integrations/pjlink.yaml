@@ -9,9 +9,9 @@ description: 'PJLink standard protocol for controlling projector power, input, a
 
   '
 common_data_available:
-- Power Status
-- Input selection
+- Input source
 - Lamp hours
+- Power Status
 tags:
 - pjlink
 - projector

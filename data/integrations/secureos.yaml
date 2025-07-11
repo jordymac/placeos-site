@@ -7,8 +7,8 @@ category:
 description: SecureOS provides a secure operating system for critical infrastructure
   with threat detection and incident response tools.
 common_data_available:
-- Access Logs
+- Access Events
+- System Status
 - Threat alerts
-- System status
 tags:
 - secureos

@@ -7,6 +7,6 @@ category:
 description: FlooSense provides wireless occupancy sensors for desks, rooms, and spaces
   with analytics to optimize workplace utilization.
 common_data_available:
-- Occupancy
-- Space Utilization
 - Desk Occupancy
+- Occupancy
+- Utilization

@@ -7,8 +7,7 @@ category:
 description: VergeSense offers AI-powered spatial intelligence sensors for workplace
   analytics and optimization.
 common_data_available:
-- People count
-- Occupancy
-- Space Utilization
-- Room Occupancy
 - Desk Occupancy
+- Occupancy
+- People Count
+- Utilization

@@ -1,17 +1,19 @@
-# data/integrations/bms.yaml
 id: bms
 entityType: Integration
 name: Generic Building Management System
 vendor: Generic
 category:
-  - bms
-description: >
-  Placeholder for BMS protocols (BACnet, Modbus, KNX, etc.) when
-  the specific system isn’t yet identified.
+- bms
+description: 'Placeholder for BMS protocols (BACnet, Modbus, KNX, etc.) when the specific
+  system isn’t yet identified.
+
+  '
 common_data_available:
-  - Zone temperature
-  - Fan status
-  - HVAC modes
-  - Power usage
+- Air Quality
+- CO₂ levels
+- HVAC status
+- Humidity
+- Occupancy
+- Temperature
 tags:
-  - bms
+- bms

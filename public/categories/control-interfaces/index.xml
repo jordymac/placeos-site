@@ -6,14 +6,70 @@
     <description>Recent content in Control Interfaces on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/control-interfaces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WorkMate</title>
+      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
+      <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
+    </item>
+    <item>
+      <title>Room Booking</title>
+      <link>http://localhost:1313/products/room-booking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/room-booking/</guid>
+      <description>A simple, self-hosted room booking app you don&amp;rsquo;t pay per room per month, you own it</description>
+    </item>
+    <item>
+      <title>Desk Booking</title>
+      <link>http://localhost:1313/products/desk-booking-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/desk-booking-app/</guid>
+      <description>Configurable desk booking management at scale without hardware lock-in</description>
+    </item>
+    <item>
+      <title>Canadian University Campus - Energy Reduction &amp; Sustainability</title>
+      <link>http://localhost:1313/projects/campus-energy-reduction-sustainability/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/campus-energy-reduction-sustainability/</guid>
+      <description>This pilot examined the implementation of PlaceOS for automating and synchronizing separate building systems—security access, HVAC, AV, and others—integrated with the university’s scheduling system. The goal was to transform classrooms into smart spaces through enhanced automation capabilities.</description>
+    </item>
     <item>
       <title>Room Booking Updates: Recurring Booking &amp; Room Manager</title>
       <link>http://localhost:1313/posts/room-booking-updates-recurring-booking-room-manager/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/room-booking-updates-recurring-booking-room-manager/</guid>
       <description>Learn about the new recurring bookings feature in our room booking app. Streamline your scheduling process and enhance room management with ease.</description>
+    </item>
+    <item>
+      <title>New Feature: Locking Booking</title>
+      <link>http://localhost:1313/posts/new-feature-locking-booking/</link>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/new-feature-locking-booking/</guid>
+      <description>Explore PlaceOS&amp;rsquo;s Locker Booking System: Easy reservations, access control, visual booking, and flexibility for workplaces and visitor management.</description>
+    </item>
+    <item>
+      <title>Indoor Wayfinding for your Workplace</title>
+      <link>http://localhost:1313/posts/indoor-wayfinding-for-your-workplace/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/indoor-wayfinding-for-your-workplace/</guid>
+      <description>Enhance workplace navigation with indoor wayfinding technology. Explore how these solutions can streamline movement and boost productivity in your office.</description>
+    </item>
+    <item>
+      <title>Managing Technology Redundancy in IoT and Smart Buildings</title>
+      <link>http://localhost:1313/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/managing-technology-redundancy-in-iot-and-smart-buildings/</guid>
+      <description>Learn how to effectively deal with technology redundancy in IoT and smart buildings. Discover strategies to optimize systems and ensure continuous performance.</description>
+    </item>
+    <item>
+      <title>LIVE DEMO: Understanding Energy Analytics, Surveys &amp; Catering</title>
+      <link>http://localhost:1313/posts/live-demo-understanding-energy-analytics-surveys-catering/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/live-demo-understanding-energy-analytics-surveys-catering/</guid>
+      <description>A live demo about technical details behind our energy analytics tools, valuable insights from surveys &amp;amp; our catering tool.</description>
     </item>
   </channel>
 </rss>

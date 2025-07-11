@@ -7,9 +7,9 @@ category:
 description: Extron NAV is an AV over IP solution for streaming and switching 4K video
   over standard networks.
 common_data_available:
+- Device Status
 - Routing matrix
 - Stream Status
-- Device status
 tags:
 - extron
 - nav

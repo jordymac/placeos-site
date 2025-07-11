@@ -1,15 +1,15 @@
-# data/integrations/mqtt.yaml
 id: mqtt
 entityType: Integration
 name: MQTT
 vendor: Eclipse
 category:
-  - messaging
-description: MQTT protocol for lightweight publish-subscribe messaging used in IoT and smart building systems.
+- messaging
+description: MQTT protocol for lightweight publish-subscribe messaging used in IoT
+  and smart building systems.
 common_data_available:
-  - Published messages
-  - Subscription events
-  - Topic metadata
+- Published messages
+- Subscription events
+- Topic metadata
 tags:
-  - mqtt
-  - pubsub
+- mqtt
+- pubsub

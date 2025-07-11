@@ -7,8 +7,8 @@ category:
 description: SVSI provides AV-over-IP solutions for video distribution and matrix
   switching over standard networks.
 common_data_available:
-- Stream Status
 - Decoder status
+- Stream Status
 - Video format
 tags:
 - svsi

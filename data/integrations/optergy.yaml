@@ -1,15 +1,19 @@
-# data/integrations/opterg.yaml
 id: opterg
 entityType: Integration
 name: Optergy
 vendor: Optergy
 category:
-  - bms
-description: Optergy provides building and energy management systems with data visualization and automation.
+- bms
+description: Optergy provides building and energy management systems with data visualization
+  and automation.
 common_data_available:
-  - HVAC control points
-  - Energy usage
-  - Occupancy schedules
+- Air Quality
+- CO₂ levels
+- Fan operation
+- HVAC status
+- Humidity
+- Power consumption
+- Temperature
 tags:
-  - optergy
-  - bms
+- optergy
+- bms

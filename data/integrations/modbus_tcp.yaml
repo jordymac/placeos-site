@@ -1,14 +1,14 @@
-# data/integrations/modbus_tcp.yaml
 id: modbus_tcp
 entityType: Integration
 name: Modbus TCP
 vendor: Modbus.org
 category:
-  - protocols
-description: Modbus TCP is a standard protocol used for connecting industrial electronic devices over IP networks.
+- protocols
+description: Modbus TCP is a standard protocol used for connecting industrial electronic
+  devices over IP networks.
 common_data_available:
-  - Register values
-  - Sensor input
-  - Device outputs
+- Device outputs
+- Register values
+- Sensor input
 tags:
-  - modbus
+- modbus

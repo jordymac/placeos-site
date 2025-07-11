@@ -7,6 +7,6 @@ category:
 description: Exterity delivers IPTV and digital signage systems over IP networks for
   enterprise and campus environments.
 common_data_available:
+- Channel list
+- Device Status
 - Stream Status
-- Channel mapping
-- Device online status
