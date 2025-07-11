@@ -1,9 +1,9 @@
 ---
-title: Energy
+title: HVAC & Energy Waste in Commercial Buildings
 summary: >-
-    PlaceOS monitors occupancy in real time to dynamically manage the environment in spaces you're using, so that you don't have to worry about heating, cooling, lighting & powering spaces people aren't in.
+    Commercial buildings use 40% of global energy. PlaceOS energy reduction app helps meet strict regulations with occupancy-based automation to cut HVAC and lighting waste.
 ---
-# We use occupancy to make energy efficient commercial buildings
+# How energy consumption in commercial buildings are operating 
 
 PlaceOS monitors occupancy in real time to dynamically manage the environment in spaces you're using, so that you don't have to worry about heating, cooling, lighting & powering spaces people aren't in.
 
