@@ -1,0 +1,707 @@
+- id: ai
+  title: AI
+  description: Artificial Intelligence in workplace technology powers automation,
+    decision-making, and user interaction. From voice-controlled AV systems to predictive
+    occupancy modeling, AI is becoming a foundational tool for optimizing building
+    operations.
+  subtopics:
+  - Edge AI
+  - Predictive Occupancy
+  - Voice Interfaces
+  - LLM Assistants
+  related_topics:
+  - automation
+  - computer-vision
+  - av
+  - occupancy
+- id: apis
+  title: API Integrations
+  description: "APIs allow PlaceOS to integrate with a wide range of systems \u2014\
+    \ from building management systems and access control to third-party workplace\
+    \ tools \u2014 enabling seamless data exchange and control logic across the stack."
+  subtopics:
+  - REST APIs
+  - Webhooks
+  - GraphQL
+  - Authentication APIs
+  related_topics:
+  - platform
+  - configuration
+  - automation
+  - systems
+- id: av
+  title: AV
+  description: Audio-visual (AV) systems are central to meeting room functionality.
+    PlaceOS integrates with AV hardware for room automation, control interfaces, and
+    remote support, improving reliability and ease-of-use for hybrid work.
+  subtopics:
+  - AV Over IP
+  - Boardroom AV
+  - AV Control Interfaces
+  - Remote AV Support
+  related_topics:
+  - meeting-rooms
+  - automation
+  - interface
+  - ai
+- id: analytics
+  title: Analytics
+  description: Workplace analytics provide insights into space utilization, energy
+    consumption, booking behavior, and employee movement. These insights drive strategic
+    decisions and real-time automation across the workplace.
+  subtopics:
+  - Utilization Reporting
+  - Occupancy Trends
+  - Space Demand Forecasting
+  - Booking Patterns
+  related_topics:
+  - occupancy
+  - dashboards
+  - energy
+  - hybrid-work
+- id: automation
+  title: Automation
+  description: "Automation is the core promise of PlaceOS \u2014 triggering actions\
+    \ based on schedules, occupancy, environmental conditions, or user behavior. It\
+    \ reduces manual intervention and improves efficiency across HVAC, lighting, AV,\
+    \ and access systems."
+  subtopics:
+  - Occupancy-Based Automation
+  - Rule-Based Scheduling
+  - BMS Automation
+  - Event-Driven Control
+  related_topics:
+  - hvac
+  - energy
+  - ai
+  - smart-building
+- id: campus
+  title: Campus
+  description: "A campus refers to a network of interconnected buildings \u2014 often\
+    \ seen in universities, hospitals, or enterprise headquarters \u2014 requiring\
+    \ unified control, wayfinding, and reporting across multiple sites."
+  subtopics:
+  - Federated Control
+  - Campus AV Infrastructure
+  - Multi-Building Navigation
+  - Campus-Wide Access Control
+  related_topics:
+  - wayfinding
+  - government
+  - healthcare
+  - platform
+- id: collaboration
+  title: Collaboration
+  description: Collaboration is supported through well-equipped spaces, intuitive
+    booking, and seamless AV experiences. It extends beyond meeting rooms to include
+    how teams connect across hybrid environments.
+  subtopics:
+  - Hybrid Collaboration
+  - Shared Spaces
+  - Integrated Chat and Video
+  - Interactive Whiteboards
+  related_topics:
+  - meeting-rooms
+  - hybrid-work
+  - ux
+  - employee-experience
+- id: commercial-real-estate
+  title: Commercial Real Estate
+  description: "CRE teams leverage PlaceOS to manage tenant amenities, monitor space\
+    \ utilization, and ensure compliance with energy regulations \u2014 helping them\
+    \ retain tenants and maximize revenue across portfolios."
+  subtopics:
+  - Tenant Experience Platforms
+  - Energy Compliance
+  - Flexible Leasing
+  - Building Certifications
+  related_topics:
+  - energy
+  - workplace-management
+  - retrofit
+  - smart-building
+- id: computer-vision
+  title: Computer Vision
+  description: "Using camera feeds to detect occupancy, count people, and trigger\
+    \ automation \u2014 without needing additional hardware. PlaceOS connects vision-based\
+    \ data to building controls in real time."
+  subtopics:
+  - People Counting
+  - Real-Time Object Detection
+  - Sensorless Monitoring
+  - Camera Feed Integration
+  related_topics:
+  - occupancy
+  - ai
+  - automation
+  - av
+- id: configuration
+  title: System Configuration
+  description: "PlaceOS allows fine-grained configuration of buildings, spaces, and\
+    \ workflows \u2014 from defining how meeting rooms behave to setting rules for\
+    \ parking, lockers, or campus-wide logic."
+  subtopics:
+  - Workflow Rules
+  - Building-Level Overrides
+  - Role-Based Access
+  - Dynamic Schedules
+  related_topics:
+  - platform
+  - apis
+  - workplace-management
+  - systems
+- id: coworking
+  title: Coworking
+  description: Coworking spaces benefit from automation, flexible booking, and usage
+    analytics to support dynamic tenant needs. PlaceOS enables seamless onboarding,
+    access control, and amenity integration across shared environments.
+  subtopics:
+  - Hot Desking
+  - Member Access Control
+  - Space Utilization Analytics
+  - Booking Rules
+  related_topics:
+  - desk-booking
+  - visitor-management
+  - flexible-spaces
+  - hybrid-work
+- id: desk-booking
+  title: Desk Booking
+  description: Desk booking enables flexible workspace use by allowing employees to
+    reserve seats based on availability, proximity, or preferences. It integrates
+    with occupancy data and check-in tools to reduce ghost bookings.
+  subtopics:
+  - QR Code Check-In
+  - Auto-Release Rules
+  - Neighborhood Booking
+  - Outlook Integration
+  related_topics:
+  - hybrid-work
+  - occupancy
+  - configuration
+  - workplace-management
+- id: digital-signage
+  title: Digital Signage
+  description: "Digital signage displays live room status, wayfinding, event schedules,\
+    \ or safety alerts \u2014 often tied into AV systems or kiosk displays across\
+    \ campuses and office buildings."
+  subtopics:
+  - Meeting Room Displays
+  - Wayfinding Kiosks
+  - Live Announcements
+  - Emergency Alerts
+  related_topics:
+  - av
+  - visitor-management
+  - campus
+  - interface
+- id: downsizing
+  title: Downsizing
+  description: As workplace utilization drops, companies downsize their real estate
+    footprint. PlaceOS supports this shift by surfacing underused spaces and enabling
+    consolidation through occupancy analytics and automation.
+  subtopics:
+  - Portfolio Rationalization
+  - Subleasing Strategy
+  - Space Consolidation
+  - Underutilization Reports
+  related_topics:
+  - occupancy
+  - energy
+  - commercial-real-estate
+  - workplace-management
+- id: drivers
+  title: Drivers
+  description: "Drivers are modular code components that allow PlaceOS to interface\
+    \ with external systems, devices, or APIs. They form the bridge between the platform\u2019\
+    s automation logic and real-world hardware or services."
+  subtopics:
+  - AV Drivers
+  - HVAC Integration
+  - Access Control Drivers
+  - Custom API Wrappers
+  related_topics:
+  - apis
+  - platform
+  - configuration
+  - systems
+- id: employee-experience
+  title: Employee Experience
+  description: "Employee experience is shaped by the ease of navigating the workplace\
+    \ \u2014 from finding a desk or meeting room to accessing amenities. PlaceOS enhances\
+    \ this through intuitive interfaces, personalization, and automation."
+  subtopics:
+  - Workplace Apps
+  - Arrival Experience
+  - Space Comfort Controls
+  - User Onboarding
+  related_topics:
+  - ux
+  - hybrid-work
+  - collaboration
+  - workplace-management
+- id: energy
+  title: Energy
+  description: Energy optimization is central to modern building operations. PlaceOS
+    reduces consumption by dynamically controlling HVAC and lighting based on occupancy
+    and schedules, and surfacing usage trends via dashboards.
+  subtopics:
+  - Building Energy Management
+  - HVAC Optimization
+  - Energy Dashboards
+  - Demand Response
+  related_topics:
+  - hvac
+  - occupancy
+  - sustainability
+  - automation
+- id: event-management
+  title: Event Management
+  description: For campuses and offices, PlaceOS can manage events through room booking,
+    signage, access control, and attendee tracking. This creates a seamless experience
+    from planning to execution.
+  subtopics:
+  - Room Booking for Events
+  - Event-Based Access
+  - Signage Scheduling
+  - Attendee Check-In
+  related_topics:
+  - meeting-rooms
+  - visitor-management
+  - digital-signage
+  - platform
+- id: government
+  title: Government
+  description: Government buildings require secure, compliant, and efficient facility
+    management. PlaceOS supports public sector environments through integrations with
+    physical infrastructure and adherence to regulatory standards.
+  subtopics:
+  - Public Access Management
+  - Secure AV Control
+  - Facility Oversight
+  - Sustainability Compliance
+  related_topics:
+  - energy
+  - campus
+  - safety
+  - smart-building
+- id: hvac
+  title: HVAC
+  description: Heating, Ventilation, and Air Conditioning (HVAC) systems are major
+    energy consumers in commercial buildings. PlaceOS integrates with BMS systems
+    to automate HVAC operation based on occupancy and environmental context.
+  subtopics:
+  - Demand Control Ventilation
+  - HVAC Scheduling
+  - Occupancy-Based HVAC Control
+  - HVAC Reboot Automation
+  related_topics:
+  - energy
+  - occupancy
+  - bms
+  - automation
+- id: hybrid-work
+  title: Hybrid Work
+  description: Hybrid work strategies rely on a flexible, intelligent workplace. PlaceOS
+    supports this by enabling dynamic desk booking, presence-based policies, and real-time
+    data to balance occupancy and experience.
+  subtopics:
+  - Flex Scheduling
+  - Presence-Based Rules
+  - Weekly Utilization Planning
+  - Hot Desking
+  related_topics:
+  - desk-booking
+  - occupancy
+  - employee-experience
+  - collaboration
+- id: interface
+  title: Control Interfaces
+  description: "Control interfaces connect users with the building \u2014 whether\
+    \ through kiosks, mobile apps, or touch panels. PlaceOS powers these UIs with\
+    \ dynamic logic tied to real-time data and user context."
+  subtopics:
+  - AV Control Panels
+  - Mobile App UI
+  - Digital Kiosks
+  - Custom Room Interfaces
+  related_topics:
+  - av
+  - user-experience
+  - automation
+  - configuration
+- id: location-status
+  title: Presence Detection
+  description: "PlaceOS tracks user presence via sensors, network connections, or\
+    \ badges \u2014 enabling systems to respond to actual usage and eliminating the\
+    \ need for manual check-ins."
+  subtopics:
+  - Wi-Fi Presence
+  - Badge Swipes
+  - Sensor Fusion
+  - Ghost Booking Detection
+  related_topics:
+  - occupancy
+  - desk-booking
+  - automation
+  - analytics
+- id: locker-booking
+  title: Locker Booking
+  description: PlaceOS enables employees and visitors to reserve lockers on demand,
+    often integrated with access control and mobile apps. Automating locker availability
+    improves arrival experience and space efficiency.
+  subtopics:
+  - Mobile Locker Access
+  - Visitor Locker Assignment
+  - Time-Based Release
+  - Integration with Building Entry
+  related_topics:
+  - visitor-management
+  - employee-experience
+  - parking
+  - configuration
+- id: meeting-rooms
+  title: Meeting Rooms
+  description: Meeting rooms are high-demand spaces where AV reliability, booking
+    ease, and room readiness are critical. PlaceOS ensures these rooms are smart,
+    automated, and bookable via multiple channels.
+  subtopics:
+  - Room Booking
+  - AV Automation
+  - Room Release Rules
+  - Environmental Conditioning
+  related_topics:
+  - desk-booking
+  - occupancy
+  - av
+  - hybrid-work
+- id: modules
+  title: Modules
+  description: Modules in PlaceOS define reusable logic for controlling devices or
+    workflows. They're stackable, configurable, and serve as the logic layer between
+    drivers and automation rules.
+  subtopics:
+  - Logic Modules
+  - Automation Templates
+  - Space Behavior Modules
+  - Trigger Modules
+  related_topics:
+  - drivers
+  - configuration
+  - automation
+  - platform
+- id: neighborhoods
+  title: Workplace Neighborhoods
+  description: Workplace neighborhoods are defined zones where teams or functions
+    co-locate. PlaceOS supports neighborhood-based booking, occupancy monitoring,
+    and environmental automation tailored to each zone.
+  subtopics:
+  - Team-Based Zones
+  - Neighborhood Booking Rules
+  - Utilization Analytics
+  - Desk Clustering
+  related_topics:
+  - desk-booking
+  - occupancy
+  - hybrid-work
+  - office-space
+- id: occupancy
+  title: Occupancy
+  description: Occupancy data is the foundation for dynamic building automation, space
+    planning, and real-time energy optimization. PlaceOS gathers this via sensors,
+    cameras, and network presence to control environments and surface insights.
+  subtopics:
+  - Occupancy Trends
+  - Real-Time Presence
+  - Occupancy-Driven Automation
+  - Sensor Fusion
+  related_topics:
+  - energy
+  - automation
+  - hvac
+  - analytics
+- id: office-space
+  title: Office Space
+  description: "Office space refers to the physical environment where employees work\
+    \ \u2014 from individual desks to shared collaboration areas. PlaceOS helps optimize\
+    \ this space for flexibility, efficiency, and employee satisfaction."
+  subtopics:
+  - Space Zoning
+  - Space Reservations
+  - Space Type Analytics
+  - Occupancy-Based Layout Adjustments
+  related_topics:
+  - desk-booking
+  - utilization
+  - hybrid-work
+  - workplace-management
+- id: parking
+  title: Parking
+  description: "Parking management with PlaceOS enables staff and visitors to reserve,\
+    \ access, and release parking spots \u2014 often linked with license plate recognition\
+    \ and access control for automation."
+  subtopics:
+  - Parking Spot Booking
+  - LPR Access Control
+  - Visitor Parking Management
+  - Automated Spot Release
+  related_topics:
+  - visitor-management
+  - configuration
+  - locker-booking
+  - campus
+- id: partner
+  title: Integration Partners
+  description: PlaceOS works with a wide range of partners for AV, BMS, sensors, and
+    workplace tools. Partners are critical to expanding the ecosystem and delivering
+    end-to-end solutions.
+  subtopics:
+  - AV Integrators
+  - BMS Vendors
+  - Workplace Tech Providers
+  - Channel Partners
+  related_topics:
+  - apis
+  - systems
+  - product
+  - platform
+- id: retrofit
+  title: Retrofit
+  description: "PlaceOS can be deployed in existing buildings without major hardware\
+    \ changes. Retrofit-friendly integrations \u2014 like occupancy via Wi-Fi or camera\
+    \ feeds \u2014 bring automation to legacy environments."
+  subtopics:
+  - Sensorless Occupancy
+  - Network-Based Presence
+  - Integration Without BMS
+  - Kiosk Upgrades
+  related_topics:
+  - smart-building
+  - occupancy
+  - energy
+  - commercial-real-estate
+- id: room-booking
+  title: Room Booking
+  description: Room booking allows employees to reserve meeting spaces based on time,
+    availability, equipment, or location. PlaceOS supports integrations with calendar
+    tools, check-in mechanisms, and no-show automation.
+  subtopics:
+  - Outlook Integration
+  - QR Code Check-In
+  - Ghost Booking Prevention
+  - Booking Panel Displays
+  related_topics:
+  - meeting-rooms
+  - hybrid-work
+  - occupancy
+  - event-management
+- id: safety
+  title: Safety
+  description: PlaceOS enhances workplace safety through occupancy limits, emergency
+    notifications, and control of access to sensitive areas. It supports real-time
+    response by connecting data to building systems.
+  subtopics:
+  - Occupancy Threshold Alerts
+  - Emergency Lighting Triggers
+  - Safety Panel Displays
+  - Restricted Area Controls
+  related_topics:
+  - campus
+  - visitor-management
+  - digital-signage
+  - smart-building
+- id: scalability
+  title: Scalability
+  description: "Scalability refers to PlaceOS\u2019s ability to manage thousands of\
+    \ spaces, buildings, and users \u2014 all with central control and tenant-level\
+    \ customization. It\u2019s built for enterprise and campus-wide deployments."
+  subtopics:
+  - Multi-Tenant Support
+  - Federated Control
+  - Location-Specific Logic
+  - Role-Based Access
+  related_topics:
+  - campus
+  - configuration
+  - systems
+  - enterprise
+- id: smart-building
+  title: Smart Building
+  description: Smart buildings use data and automation to optimize building operations.
+    PlaceOS makes buildings intelligent by connecting occupancy, HVAC, lighting, access,
+    and more into a single automated platform.
+  subtopics:
+  - BMS Integration
+  - Automated Lighting Control
+  - Context-Aware Rules
+  - Energy-Aware Scheduling
+  related_topics:
+  - automation
+  - occupancy
+  - energy
+  - sustainability
+- id: surveys
+  title: Workplace Surveys
+  description: Surveys help organizations gather feedback on space usability, amenities,
+    and employee experience. PlaceOS supports automated surveys tied to bookings or
+    events, providing contextual insights.
+  subtopics:
+  - Post-Meeting Surveys
+  - Space Satisfaction Polls
+  - QR-Based Feedback
+  - Scheduled Survey Campaigns
+  related_topics:
+  - analytics
+  - employee-experience
+  - collaboration
+  - workplace
+- id: sustainability
+  title: Sustainability
+  description: Sustainability in the workplace is driven by reducing energy use, increasing
+    space efficiency, and supporting green building certifications. PlaceOS helps
+    meet ESG goals through automation and analytics.
+  subtopics:
+  - ESG Reporting
+  - Carbon Emissions Tracking
+  - Energy Optimization
+  - Space Consolidation
+  related_topics:
+  - energy
+  - smart-building
+  - retrofit
+  - utilization
+- id: systems
+  title: Systems
+  description: "PlaceOS connects to all building and workplace systems \u2014 from\
+    \ HVAC and AV to access control and lighting \u2014 providing a unified layer\
+    \ of automation, control, and monitoring."
+  subtopics:
+  - AV Systems
+  - Lighting Systems
+  - Security Systems
+  - BMS Integration
+  related_topics:
+  - automation
+  - platform
+  - configuration
+  - apis
+- id: ux
+  title: UX
+  description: User experience (UX) focuses on how intuitive, accessible, and satisfying
+    it is to interact with workplace technology. PlaceOS aims for seamless workflows
+    with minimal user effort across web, kiosk, and mobile.
+  subtopics:
+  - Accessibility Design
+  - Role-Based Interfaces
+  - Booking Flows
+  - First-Time User Experience
+  related_topics:
+  - interface
+  - employee-experience
+  - mobile
+  - collaboration
+- id: utilization
+  title: Utilization
+  description: Utilization measures how often spaces are used versus their availability.
+    PlaceOS captures this data in real time and over time, helping organizations right-size
+    and optimize their office footprint.
+  subtopics:
+  - Space Occupancy Rates
+  - Desk & Room Usage
+  - Booking Behavior Analysis
+  - Capacity Planning
+  related_topics:
+  - analytics
+  - occupancy
+  - energy
+  - downsizing
+- id: visitor-management
+  title: Visitor Management
+  description: PlaceOS enables smooth visitor check-in, notifications, badge printing,
+    and access control. It connects to calendars, desks, and rooms for complete arrival
+    coordination and safety compliance.
+  subtopics:
+  - Pre-Registration
+  - Visitor Arrival Notifications
+  - Badge Printing
+  - Access Rules for Guests
+  related_topics:
+  - parking
+  - digital-signage
+  - event-management
+  - locker-booking
+- id: wayfinding
+  title: Wayfinding
+  description: Wayfinding helps users navigate large or complex buildings via digital
+    signage, kiosks, or mobile apps. PlaceOS enables dynamic pathfinding tied to room
+    bookings, events, or user roles.
+  subtopics:
+  - Interactive Maps
+  - Kiosk Navigation
+  - Dynamic Directions
+  - Role-Based Routing
+  related_topics:
+  - campus
+  - meeting-rooms
+  - digital-signage
+  - visitor-management
+- id: workmate
+  title: WorkMate
+  description: "WorkMate is PlaceOS\u2019s flagship workplace management solution.\
+    \ It brings together desk booking, visitor management, room scheduling, and space\
+    \ analytics into one configurable platform."
+  subtopics:
+  - Desk Booking
+  - Visitor Check-In
+  - Room Scheduling
+  - Space Analytics
+  related_topics:
+  - workplace-management
+  - occupancy
+  - ux
+  - hybrid-work
+- id: workplace
+  title: Workplace
+  description: The modern workplace is hybrid, data-driven, and experience-focused.
+    PlaceOS orchestrates the systems, automations, and interfaces needed to make workplaces
+    productive and adaptable.
+  subtopics:
+  - Workplace Strategy
+  - Hybrid Office Setup
+  - Space Services
+  - Experience-Driven Design
+  related_topics:
+  - workmate
+  - utilization
+  - collaboration
+  - employee-experience
+- id: workplace-management
+  title: Workplace Management
+  description: "Workplace management involves overseeing space allocation, bookings,\
+    \ employee services, and usage analytics. PlaceOS centralizes this into a configurable\
+    \ platform that adapts to every organization\u2019s policies."
+  subtopics:
+  - Resource Allocation
+  - Booking Configuration
+  - Occupancy Reporting
+  - Cross-Site Management
+  related_topics:
+  - workmate
+  - desk-booking
+  - energy
+  - hybrid-work
+- id: zones
+  title: Zones
+  description: "Zones represent logical or physical areas within a building \u2014\
+    \ like a floor, wing, or department section. PlaceOS uses zones to scope automation\
+    \ rules, analytics, and booking logic."
+  subtopics:
+  - Floor-Level Zones
+  - Department Zones
+  - Access-Controlled Zones
+  - Zone-Based Scheduling
+  related_topics:
+  - configuration
+  - occupancy
+  - workplace-management
+  - neighborhood

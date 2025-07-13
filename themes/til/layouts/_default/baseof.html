@@ -42,6 +42,16 @@
         </footer>
       </div>
     </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    <!-- Scroll to Top Button -->
+    <button
+      id="scrollToTop"
+      class="fixed bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition-all duration-300 z-50 opacity-0 invisible"
+      aria-label="Scroll to top"
+      style="position: fixed; bottom: 120px; right: 24px;"
+    >
+      {{ partial "svg/arrow-up-from-dot.html" (dict "class" "w-5 h-5") }}
+    </button>
+
     {{ if .Store.Get "hasMermaid" }}
       <script
         src="https://cdn.jsdelivr.net/npm/mermaid@11.4.0/dist/mermaid.min.js"
@@ -65,5 +75,31 @@
 <script src="/js/botpoison.js" defer></script>
 <script src="/js/anchors.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+
+<!-- Scroll to Top Button Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const scrollToTopBtn = document.getElementById('scrollToTop');
+  
+  // Show/hide button based on scroll position
+  window.addEventListener('scroll', function() {
+    if (window.pageYOffset > 300) {
+      scrollToTopBtn.classList.remove('opacity-0', 'invisible');
+      scrollToTopBtn.classList.add('opacity-100', 'visible');
+    } else {
+      scrollToTopBtn.classList.add('opacity-0', 'invisible');
+      scrollToTopBtn.classList.remove('opacity-100', 'visible');
+    }
+  });
+  
+  // Smooth scroll to top when clicked
+  scrollToTopBtn.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
+</script>
   </body>
 </html>

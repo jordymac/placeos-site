@@ -504,6 +504,8 @@
   </url><url>
     <loc>http://localhost:1313/terms-of-use/</loc>
   </url><url>
+    <loc>http://localhost:1313/topics/</loc>
+  </url><url>
     <loc>http://localhost:1313/industry/smart-campus/</loc>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>

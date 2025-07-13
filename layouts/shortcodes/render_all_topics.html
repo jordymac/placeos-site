@@ -1,0 +1,43 @@
+<!-- Debug: Check if data exists -->
+{{ if .Site.Data.all_topics }}
+  <p>Found {{ len .Site.Data.all_topics }} topics</p>
+  {{ range .Site.Data.all_topics }}
+    <section id="{{ .id }}" class="mb-8">
+      <h2 class="text-xl font-bold">{{ .title }}</h2>
+      <p class="mb-2">{{ .description }}</p>
+
+      {{ if .subtopics }}
+        <strong>Subtopics:</strong>
+        <ul>
+          {{ range .subtopics }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      {{ end }}
+
+      {{ if .related_topics }}
+        <div class="mt-3">
+          <strong>Related Topics:</strong>
+          <div class="flex flex-wrap gap-2 mt-2">
+            {{ range .related_topics }}
+              <a href="#{{ . }}" class="inline-block bg-blue-100 hover:bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm transition-colors">{{ . }}</a>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+
+      <h3 class="mt-4">Linked Content:</h3>
+      <ul>
+        {{ $topicID := .id }}
+        {{ range where site.RegularPages "Params.categories" "intersect" (slice $topicID) }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </section>
+  {{ end }}
+{{ else }}
+  <p>No topics data found. Checking .Site.Data contents...</p>
+  {{ range $key, $value := .Site.Data }}
+    <p>Data key: {{ $key }}</p>
+  {{ end }}
+{{ end }}
