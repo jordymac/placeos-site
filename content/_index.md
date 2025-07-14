@@ -4,10 +4,9 @@ description_title: The only integration platform that retrofits commercial build
 description_body: >-
   Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software & systems so that you can:
 feature_list: |-
-  - Automate workflows across spaces and teams
-  - Unify siloed building systems and data
-  - Give occupants and visitors tools to engage with the space
-  - Scale across entire portfolios while maintaining a unified experience
+  - Coordinate how your organization uses physical space
+  - Enable scalable and unified real estate operations across a portfolio
+  - Reduce manual interventions between departments
 
 list_items:
   - title: >-

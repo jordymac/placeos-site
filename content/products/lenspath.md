@@ -7,7 +7,7 @@ weight: 3
 hero_image: "images/products/lenspath/lenspath-hero-image-dark.webp"
 image: images/products/lenspath/lenspath-hero-image-dark.webp
 product_logo: lenspath-logo.svg
-summary: The no-code computer vision ai tool that turns any camera feed into real-time actions
+summary: The computer vision tool that turns any camera feed into real-time actions – with no-code deployments
 schema:
   type: "SoftwareApplication"
   applicationCategory: "BusinessApplication"

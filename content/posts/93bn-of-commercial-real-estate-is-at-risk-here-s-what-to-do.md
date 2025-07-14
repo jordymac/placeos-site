@@ -3,7 +3,6 @@ title: £93bn of Commercial Real Estate is at Risk, Here’s What To Do
 date: 2024-05-20T00:00:00.000Z
 categories:
   - AI
-  - AV
   - Automation
   - Campus
   - Commercial Real Estate

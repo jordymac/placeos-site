@@ -36,7 +36,7 @@
   <meta itemprop="datePublished" content="2024-05-20T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-05-20T00:00:00+00:00">
   <meta itemprop="wordCount" content="971">
-  <meta itemprop="keywords" content="AI,AV,Automation,Campus,Commercial Real Estate,Energy,HVAC,Occupancy,Sustainability,Systems,Blog">
+  <meta itemprop="keywords" content="AI,Automation,Campus,Commercial Real Estate,Energy,HVAC,Occupancy,Sustainability,Systems,Blog">
 <link rel="canonical" href="http://localhost:1313/posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do/" />
 
     <link rel="stylesheet" href="/css/index.css" />
@@ -546,9 +546,6 @@ viewBox="0 0 512 512">
             <a href="/categories/ai/" class="taxonomy category">AI</a>
           </li>
           <li>
-            <a href="/categories/av/" class="taxonomy category">AV</a>
-          </li>
-          <li>
             <a href="/categories/automation/" class="taxonomy category">Automation</a>
           </li>
           <li>
@@ -649,6 +646,30 @@ viewBox="0 0 512 512">
       </div>
     </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
     
+    <button
+      id="scrollToTop"
+      class="fixed bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition-all duration-300 z-50 opacity-0 invisible"
+      aria-label="Scroll to top"
+      style="position: fixed; bottom: 120px; right: 24px;"
+    >
+      <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-arrow-up-from-dot w-5 h-5"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path d="m5 9 7-7 7 7M12 16V2" />
+  <circle cx="12" cy="21" r="1" />
+</svg>
+
+    </button>
+
+    
       
 
 
@@ -658,5 +679,31 @@ viewBox="0 0 512 512">
 <script src="/js/botpoison.js" defer></script>
 <script src="/js/anchors.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const scrollToTopBtn = document.getElementById('scrollToTop');
+  
+  
+  window.addEventListener('scroll', function() {
+    if (window.pageYOffset > 300) {
+      scrollToTopBtn.classList.remove('opacity-0', 'invisible');
+      scrollToTopBtn.classList.add('opacity-100', 'visible');
+    } else {
+      scrollToTopBtn.classList.add('opacity-0', 'invisible');
+      scrollToTopBtn.classList.remove('opacity-100', 'visible');
+    }
+  });
+  
+  
+  scrollToTopBtn.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
+</script>
   </body>
 </html>
