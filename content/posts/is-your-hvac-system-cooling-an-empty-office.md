@@ -2,18 +2,14 @@
 title: Is Your HVAC System Cooling An Empty Office?
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Automation
   - Energy
   - Occupancy
   - Systems
+post_types:
   - blog
-summary: >-
-  Is your HVAC system cooling empty offices? Discover strategies to reduce
-  energy consumption in commercial buildings. Make your HVAC more efficient
-  today!
-tags: []
+summary: Is your HVAC system cooling empty offices? Discover strategies to reduce energy consumption in commercial buildings. Make your HVAC more efficient today!
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/07/hvac-empty-office.png
 ---

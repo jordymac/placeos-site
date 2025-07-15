@@ -2,59 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>APIs on PlaceOS</title>
-    <link>http://localhost:1313/categories/apis/</link>
+    <link>http://localhost:1314/categories/apis/</link>
     <description>Recent content in APIs on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/apis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1314/categories/apis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API Keys: Simplify Authentication for Apps &amp; Devices</title>
+      <link>http://localhost:1314/posts/api-keys-simplify-authentication-for-apps-devices/</link>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/posts/api-keys-simplify-authentication-for-apps-devices/</guid>
+      <description>Simplify app integration with PlaceOS API Keys. Enable secure, authenticated server-to-server interactions, unattended panel access, and auto-login.</description>
+    </item>
     <item>
       <title>Webinar: Campus Management Systems with Cisco Meraki</title>
-      <link>http://localhost:1313/posts/webinar-campus-management-systems-with-cisco-meraki/</link>
+      <link>http://localhost:1314/posts/webinar-campus-management-systems-with-cisco-meraki/</link>
       <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/webinar-campus-management-systems-with-cisco-meraki/</guid>
+      <guid>http://localhost:1314/posts/webinar-campus-management-systems-with-cisco-meraki/</guid>
       <description>Learn how campus management systems leverage occupancy data like Cisco Meraki so that you&amp;rsquo;re not powering empty classrooms on campus.</description>
     </item>
     <item>
       <title>How BMS Improve Commercial Building Sustainability</title>
-      <link>http://localhost:1313/posts/how-bms-improve-commercial-building-sustainability/</link>
+      <link>http://localhost:1314/posts/how-bms-improve-commercial-building-sustainability/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-bms-improve-commercial-building-sustainability/</guid>
+      <guid>http://localhost:1314/posts/how-bms-improve-commercial-building-sustainability/</guid>
       <description>Explore new integrations that enhance ESG and sustainability in commercial buildings. Achieve your energy reduction goals and sustainability targets today!</description>
     </item>
     <item>
       <title>How to Successfully Return to the Office after Covid</title>
-      <link>http://localhost:1313/posts/how-to-successfully-return-to-the-office-after-covid/</link>
+      <link>http://localhost:1314/posts/how-to-successfully-return-to-the-office-after-covid/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-to-successfully-return-to-the-office-after-covid/</guid>
+      <guid>http://localhost:1314/posts/how-to-successfully-return-to-the-office-after-covid/</guid>
       <description>Discover best practices for returning to the office after COVID. Explore how to create a safe and productive work environment in our comprehensive guide.</description>
     </item>
     <item>
       <title>Self Documenting API</title>
-      <link>http://localhost:1313/posts/self-documenting-api/</link>
+      <link>http://localhost:1314/posts/self-documenting-api/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/self-documenting-api/</guid>
+      <guid>http://localhost:1314/posts/self-documenting-api/</guid>
       <description>Learn about the benefits of a self-documenting API for seamless integration and enhanced efficiency.</description>
     </item>
     <item>
       <title>Deployment Tooling: Kubernetes</title>
-      <link>http://localhost:1313/posts/deployment-tooling-kubernetes/</link>
+      <link>http://localhost:1314/posts/deployment-tooling-kubernetes/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/deployment-tooling-kubernetes/</guid>
+      <guid>http://localhost:1314/posts/deployment-tooling-kubernetes/</guid>
       <description>Our new deployment tooling will help you get up and running with speed and security at the forefront.</description>
     </item>
     <item>
       <title>How to create a workplace worth returning to</title>
-      <link>http://localhost:1313/posts/how-to-create-a-workplace-worth-returning-to/</link>
+      <link>http://localhost:1314/posts/how-to-create-a-workplace-worth-returning-to/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-to-create-a-workplace-worth-returning-to/</guid>
+      <guid>http://localhost:1314/posts/how-to-create-a-workplace-worth-returning-to/</guid>
       <description>In this piece, I’m going to discuss how the working environment has changed today and what you can do about it.</description>
     </item>
     <item>
       <title>Unlocking your workplace’s hidden potential with Cisco Meraki</title>
-      <link>http://localhost:1313/posts/unlocking-your-workplace-s-hidden-potential-with-cisco-meraki/</link>
+      <link>http://localhost:1314/posts/unlocking-your-workplace-s-hidden-potential-with-cisco-meraki/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/unlocking-your-workplace-s-hidden-potential-with-cisco-meraki/</guid>
+      <guid>http://localhost:1314/posts/unlocking-your-workplace-s-hidden-potential-with-cisco-meraki/</guid>
       <description>Creating a digital workplace can be like opening a mixed bag of technologies, tools, and systems that all tend to operate in</description>
     </item>
   </channel>

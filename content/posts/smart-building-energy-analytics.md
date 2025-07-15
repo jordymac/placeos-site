@@ -2,21 +2,17 @@
 title: Smart Building Energy analytics
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Analytics
   - Automation
   - Energy
   - HVAC
   - Occupancy
-  - Podcast
   - Smart Building
   - Workplace
+post_types:
   - blog
-summary: >-
-  Discover how energy analytics for commercial buildings can enhance efficiency
-  and reduce costs. Leverage data insights to optimize energy consumption today!
-tags: []
+summary: Discover how energy analytics for commercial buildings can enhance efficiency and reduce costs. Leverage data insights to optimize energy consumption today!
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/07/a-better-place.jpg
 ---

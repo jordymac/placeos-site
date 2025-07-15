@@ -2,20 +2,15 @@
 title: Why Too Many Workplace Apps Are Counterproductive
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
-  - Article
   - Automation
   - Employee Experience
   - Platform
-  - Product
   - UX
   - Workplace
+post_types:
   - blog
-summary: >-
-  Discover why too many workplace apps can be counterproductive. Learn why the
-  platform approach is better than every workplace app.
-tags: []
+summary: Discover why too many workplace apps can be counterproductive. Learn why the platform approach is better than every workplace app.
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/07/vanity2.jpg
 ---

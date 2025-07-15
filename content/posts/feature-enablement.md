@@ -3,7 +3,7 @@ title: Feature Enablement
 date: 2024-07-02T00:00:00.000Z
 categories:
   - Interface
-  - Product
+post_types:
   - product-update
 summary: >-
   Unlock the full potential of PlaceOS Backoffice with feature enablement. Learn

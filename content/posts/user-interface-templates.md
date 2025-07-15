@@ -2,18 +2,14 @@
 title: User Interface Templates
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Interface
   - Partner
-  - Product
   - Visitor Management
   - Workplace
+post_types:
   - product-update
-summary: >-
-  Standard interface templates for any current and future partners to develop
-  their own custom products.
-tags: []
+summary: Standard interface templates for any current and future partners to develop their own custom products.
+tags:
 author: Jeremy West
 image: /images/posts/2024/05/new-user-interface-templates.jpg
 ---

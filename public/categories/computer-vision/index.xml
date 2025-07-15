@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computer Vision on PlaceOS</title>
-    <link>http://localhost:1313/categories/computer-vision/</link>
+    <link>http://localhost:1314/categories/computer-vision/</link>
     <description>Recent content in Computer Vision on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/categories/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LensPath</title>
-      <link>http://localhost:1313/products/lenspath/</link>
+      <link>http://localhost:1314/products/lenspath/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/lenspath/</guid>
-      <description>The no-code computer vision ai tool that turns any camera feed into real-time actions</description>
+      <guid>http://localhost:1314/products/lenspath/</guid>
+      <description>The computer vision tool that turns any camera feed into real-time actions – with no-code deployments</description>
     </item>
     <item>
       <title>Platform Power Unleashed: The Strategy Behind Our New Products</title>
-      <link>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</link>
+      <link>http://localhost:1314/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</guid>
+      <guid>http://localhost:1314/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</guid>
       <description>The future of enterprise tech is shifting from SaaS to platform-based solutions. Explore how integration, AI agents, and modular design accelerate growth and in</description>
     </item>
     <item>
       <title>LIVE DEMO: PlaceAI - ChatGPT &amp; Object Recognition Features</title>
-      <link>http://localhost:1313/posts/live-demo-placeai-chatgpt-object-recognition-features/</link>
+      <link>http://localhost:1314/posts/live-demo-placeai-chatgpt-object-recognition-features/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-placeai-chatgpt-object-recognition-features/</guid>
+      <guid>http://localhost:1314/posts/live-demo-placeai-chatgpt-object-recognition-features/</guid>
       <description>Discover the benefits of Chat GPT integration in your workplace. Join our live demo to see how this AI assistant can enhance productivity and streamline tasks.</description>
     </item>
   </channel>

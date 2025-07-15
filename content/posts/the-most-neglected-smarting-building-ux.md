@@ -2,19 +2,15 @@
 title: The most neglected smarting building UX
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Automation
-  - Sales
   - Systems
   - UX
   - Visitor Management
   - Wayfinding
+post_types:
   - blog
-summary: >-
-  I'll give you a hint, it's UX that involves inviting guests to your building
-  for a meeting or sales pitch.
-tags: []
+summary: I'll give you a hint, it's UX that involves inviting guests to your building for a meeting or sales pitch.
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/05/neglected-smart-building-ux.jpg
 ---

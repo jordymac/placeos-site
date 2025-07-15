@@ -1,17 +1,13 @@
 ---
-title: 'Vergesense: Object Detection & Occupancy Workflows'
+title: "Vergesense: Object Detection & Occupancy Workflows"
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Occupancy
-  - Product
   - Workplace
+post_types:
   - product-update
-summary: >-
-  Discover how VergeSense leverages object detection for accurate occupancy
-  tracking. Enhance your workplace efficiency with advanced occupancy workflows.
-tags: []
+summary: Discover how VergeSense leverages object detection for accurate occupancy tracking. Enhance your workplace efficiency with advanced occupancy workflows.
+tags:
 author: Jeremy West
 image: /images/posts/2024/07/occupancy.jpg
 ---

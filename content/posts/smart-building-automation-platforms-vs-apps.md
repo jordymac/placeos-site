@@ -1,11 +1,8 @@
 ---
-title: 'Smart building automation: platforms vs apps'
+title: "Smart building automation: platforms vs apps"
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Analytics
-  - Article
   - Automation
   - Employee Experience
   - Energy
@@ -17,11 +14,10 @@ categories:
   - Visitor Management
   - Wayfinding
   - Workplace
+post_types:
   - blog
-summary: >-
-  Right now, you’ve likely got at least 30 apps on your phone, what if it was
-  the same for your building?
-tags: []
+summary: Right now, you’ve likely got at least 30 apps on your phone, what if it was the same for your building?
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/05/article.jpg
 ---

@@ -1,10 +1,8 @@
 ---
-title: 'Webinar: Campus Management Systems with Cisco Meraki'
+title: "Webinar: Campus Management Systems with Cisco Meraki"
 date: 2024-11-24T00:00:00.000Z
 categories:
-  - AI
   - APIs
-  - AV
   - Campus
   - Energy
   - HVAC
@@ -12,11 +10,10 @@ categories:
   - Platform
   - Sustainability
   - Systems
+post_types:
   - webinar
-summary: >-
-  Learn how campus management systems leverage occupancy data like Cisco Meraki
-  so that you're not powering empty classrooms on campus.
-tags: []
+summary: Learn how campus management systems leverage occupancy data like Cisco Meraki so that you're not powering empty classrooms on campus.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/11/campus-sprawling-out-using-solar-power.webp
 ---

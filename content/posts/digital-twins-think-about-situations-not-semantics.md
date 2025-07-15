@@ -1,18 +1,14 @@
 ---
-title: 'Digital twins: think about situations not semantics'
+title: "Digital twins: think about situations not semantics"
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Automation
   - Platform
-  - Product
   - Workplace
+post_types:
   - blog
-summary: >-
-  People don’t want to buy a quarter-inch drill. They want a quarter-inch hole.
-  This is what we see with Digital Twins.
-tags: []
+summary: People don’t want to buy a quarter-inch drill. They want a quarter-inch hole. This is what we see with Digital Twins.
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/05/thumbnail-digital-twins-copy.jpg
 ---

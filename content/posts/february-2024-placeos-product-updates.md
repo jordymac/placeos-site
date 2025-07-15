@@ -2,17 +2,14 @@
 title: February 2024 PlaceOS Product Updates
 date: 2024-06-25T00:00:00.000Z
 categories:
-  - AI
   - Configuration
   - Desk Booking
   - Interface
-  - Product
   - Zones
+post_types:
   - product-update
-summary: >-
-  Added Secure S3 Uploads, enhanced MapBox and MapsPeople integration, and new
-  Work Locations feature, Improved visitor booking
-tags: []
+summary: Added Secure S3 Uploads, enhanced MapBox and MapsPeople integration, and new Work Locations feature, Improved visitor booking
+tags:
 author: Jeremy West
 image: /images/posts/2024/06/feb-2024-placeos-update-main.webp
 ---

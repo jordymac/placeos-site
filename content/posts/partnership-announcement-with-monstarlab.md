@@ -2,32 +2,27 @@
 title: Partnership announcement with Monstarlab
 date: 2024-11-13T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Analytics
   - Automation
   - Campus
   - Collaboration
   - Commercial Real Estate
   - Energy
-  - Enterprise
+  - scalability
   - Government
   - Hybrid Work
   - Interface
   - Occupancy
   - Partner
   - Platform
-  - Product
   - Safety
-  - Sales
   - Smart Building
   - Sustainability
   - Workplace
+post_types:
   - blog
-summary: >-
-  We are proud to announce our official partnership with global digital
-  consultancy Monstarlab! The partnership will help build
-tags: []
+summary: We are proud to announce our official partnership with global digital consultancy Monstarlab! The partnership will help build
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/11/jackie-du-plooy.jpg
 ---

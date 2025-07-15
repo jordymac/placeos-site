@@ -2,7 +2,6 @@
 title: When to go with a custom or packaged smart building solution
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AV
   - Campus
   - Desk Booking
   - Room Booking
@@ -10,11 +9,10 @@ categories:
   - Utilization
   - Visitor Management
   - Workplace
+post_types:
   - blog
-summary: >-
-  When it comes to smart building solutions, choosing when to go custom or
-  packaged is difficult. Here's how to approach it.
-tags: []
+summary: When it comes to smart building solutions, choosing when to go custom or packaged is difficult. Here's how to approach it.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/05/a-better-place-05.jpg
 ---

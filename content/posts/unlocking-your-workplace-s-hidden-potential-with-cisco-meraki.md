@@ -2,18 +2,15 @@
 title: Unlocking your workplace’s hidden potential with Cisco Meraki
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
   - APIs
   - Hybrid Work
-  - Marketplace
-  - Product
+  - partner
   - Systems
   - Workplace
+post_types:
   - blog
-summary: >-
-  Creating a digital workplace can be like opening a mixed bag of technologies,
-  tools, and systems that all tend to operate in
-tags: []
+summary: Creating a digital workplace can be like opening a mixed bag of technologies, tools, and systems that all tend to operate in
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/05/unlock-hidden-potential.png
 ---

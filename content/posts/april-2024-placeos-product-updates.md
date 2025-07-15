@@ -2,18 +2,15 @@
 title: April 2024 PlaceOS Product Updates
 date: 2024-06-25T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Desk Booking
   - Drivers
   - Parking
-  - Product
   - Workplace
+  - WorkMate
+post_types:
   - product-update
-summary: >-
-  POI QR code support, public map kiosk, enhanced MapsPeople search, backoffice
-  warnings, and driver updates.
-tags: []
+summary: POI QR code support, public map kiosk, enhanced MapsPeople search, backoffice warnings, and driver updates.
+tags:
 author: Jeremy West
 image: /images/posts/2024/06/placeos-april-2024-updates-main.webp
 ---
@@ -22,7 +19,7 @@ image: /images/posts/2024/06/placeos-april-2024-updates-main.webp
 
 #### **PlaceOS Minimum Version**
 
-*   Workplace App
+*   WorkMate
 *   Map Kiosk
 *   Visitor Kiosk
 *   Concierge

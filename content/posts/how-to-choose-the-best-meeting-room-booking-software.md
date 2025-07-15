@@ -2,8 +2,6 @@
 title: How to Choose the Best Meeting Room Booking Software
 date: 2024-12-03T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Automation
   - Energy
   - Meeting Rooms
@@ -13,11 +11,10 @@ categories:
   - Systems
   - Utilization
   - Workplace Management
+post_types:
   - blog
-summary: >-
-  Learn how to select the best meeting room booking software. Explore common
-  challenges, scalability concerns & the unique benefits of PlaceOS.
-tags: []
+summary: Learn how to select the best meeting room booking software. Explore common challenges, scalability concerns & the unique benefits of PlaceOS.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/12/meeting-room-booking-solution-guide.webp
 ---

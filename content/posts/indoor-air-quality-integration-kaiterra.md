@@ -1,20 +1,16 @@
 ---
-title: 'Indoor Air Quality Integration: Kaiterra'
+title: "Indoor Air Quality Integration: Kaiterra"
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
   - Analytics
   - Energy
   - HVAC
   - Interface
-  - Product
   - Systems
+post_types:
   - product-update
-summary: >-
-  Enhance indoor air quality with Kaiterra integration. Learn how to monitor and
-  improve air quality for healthier environments. Experience the difference
-  today!
-tags: []
+summary: Enhance indoor air quality with Kaiterra integration. Learn how to monitor and improve air quality for healthier environments. Experience the difference today!
+tags:
 author: Jeremy West
 image: /images/posts/2024/07/iaq.jpg
 ---

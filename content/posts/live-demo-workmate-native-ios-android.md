@@ -1,24 +1,20 @@
 ---
-title: 'LIVE DEMO: WorkMate Native iOS & Android'
+title: "LIVE DEMO: WorkMate Native iOS & Android"
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Analytics
   - Configuration
   - Employee Experience
   - Interface
-  - Product
   - Systems
   - Visitor Management
   - WorkMate
   - Workplace
   - Workplace Management
+post_types:
   - webinar
-summary: >-
-  Discover Workmate, the ultimate workplace management app for iOS and Android.
-  Join our live demo to see how it enhances productivity and streamlines tasks.
-tags: []
+summary: Discover Workmate, the ultimate workplace management app for iOS and Android. Join our live demo to see how it enhances productivity and streamlines tasks.
+tags:
 author: Jeremy West
 image: /images/posts/2024/07/october-demo-thumbnail.jpg
 ---

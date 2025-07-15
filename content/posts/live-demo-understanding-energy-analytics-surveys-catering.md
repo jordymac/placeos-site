@@ -1,24 +1,21 @@
 ---
-title: 'LIVE DEMO: Understanding Energy Analytics, Surveys & Catering'
+title: "LIVE DEMO: Understanding Energy Analytics, Surveys & Catering"
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Analytics
   - Automation
   - Commercial Real Estate
   - Desk Booking
   - Energy
-  - Control Interfaces
+  - interface
   - Meeting Rooms
   - Platform
-  - Workplace Surveys
+  - surveys
   - Workplace Management
+post_types:
   - webinar
-summary: >-
-  A live demo about technical details behind our energy analytics tools,
-  valuable insights from surveys & our catering tool.
-tags: []
+summary: A live demo about technical details behind our energy analytics tools, valuable insights from surveys & our catering tool.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/05/understanding-energy-16x9.jpg
 ---

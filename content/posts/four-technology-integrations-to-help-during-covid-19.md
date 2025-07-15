@@ -2,12 +2,10 @@
 title: Four technology integrations to help during covid-19
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Analytics
   - Automation
   - Employee Experience
-  - Event
+  - event-management
   - Interface
   - Occupancy
   - Platform
@@ -18,11 +16,10 @@ categories:
   - Utilization
   - Workplace
   - Zones
+post_types:
   - blog
-summary: >-
-  Right now, it’s hard to focus on any workplace user requirement unless we
-  address the biggest challenge: COVID-19.
-tags: []
+summary: "Right now, it’s hard to focus on any workplace user requirement unless we address the biggest challenge: COVID-19."
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/05/contact-tracing-iphonex-ui-ux-copy-copy.jpg
 ---

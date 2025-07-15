@@ -1,31 +1,24 @@
 ---
-title: 'Platform Power Unleashed: The Strategy Behind Our New Products'
+title: "Platform Power Unleashed: The Strategy Behind Our New Products"
 date: 2025-02-13T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Analytics
-  - Article
   - Automation
   - Computer Vision
   - Drivers
-  - Enterprise
+  - scalability
   - Government
   - Interface
-  - Marketplace
+  - partner
   - Partner
   - Platform
-  - Product
   - Scalability
   - Stagehand
   - Systems
-  - Tender
+post_types:
   - blog
-summary: >-
-  The future of enterprise tech is shifting from SaaS to platform-based
-  solutions. Explore how integration, AI agents, and modular design accelerate
-  growth and in
-tags: []
+summary: The future of enterprise tech is shifting from SaaS to platform-based solutions. Explore how integration, AI agents, and modular design accelerate growth and in
+tags:
 author: Jon McFarlane
 image: /images/posts/2025/02/1739155409262.png
 ---

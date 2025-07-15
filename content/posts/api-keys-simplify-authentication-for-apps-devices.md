@@ -1,13 +1,12 @@
 ---
-title: 'API Keys: Simplify Authentication for Apps & Devices'
+title: "API Keys: Simplify Authentication for Apps & Devices"
 date: 2024-12-03T00:00:00.000Z
 categories:
-  - AV
+  - APIs
+post_types:
   - product-update
-summary: >-
-  Simplify app integration with PlaceOS API Keys. Enable secure, authenticated
-  server-to-server interactions, unattended panel access, and auto-login.
-tags: []
+summary: Simplify app integration with PlaceOS API Keys. Enable secure, authenticated server-to-server interactions, unattended panel access, and auto-login.
+tags:
 author: Jeremy West
 image: /images/posts/2024/12/api-keys.jpg
 ---

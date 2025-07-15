@@ -1,13 +1,8 @@
 ---
-title: >-
-  Canada Needs to Retrofit 482,000 Buildings by 2050—At the Current Pace, It
-  Will Take 70 Years
+title: Canada Needs to Retrofit 482,000 Buildings by 2050—At the Current Pace, It Will Take 70 Years
 date: 2025-04-06T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Analytics
-  - Article
   - Automation
   - Commercial Real Estate
   - Energy
@@ -19,12 +14,10 @@ categories:
   - Smart Building
   - Systems
   - Utilization
+post_types:
   - blog
-summary: >-
-  Canada must retrofit nearly half a million commercial buildings to meet its
-  2050 net-zero target, yet the current pace it will take them 70 years to reach
-  it.
-tags: []
+summary: Canada must retrofit nearly half a million commercial buildings to meet its 2050 net-zero target, yet the current pace it will take them 70 years to reach it.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2025/04/thumbnails-12-5-copy.webp
 ---

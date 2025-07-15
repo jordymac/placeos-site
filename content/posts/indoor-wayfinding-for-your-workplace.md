@@ -2,18 +2,14 @@
 title: Indoor Wayfinding for your Workplace
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
-  - Control Interfaces
   - Utilization
   - Visitor Management
   - Wayfinding
   - Workplace Management
+post_types:
   - product-update
-summary: >-
-  Enhance workplace navigation with indoor wayfinding technology. Explore how
-  these solutions can streamline movement and boost productivity in your office.
-tags: []
+summary: Enhance workplace navigation with indoor wayfinding technology. Explore how these solutions can streamline movement and boost productivity in your office.
+tags:
 author: Jeremy West
 image: /images/posts/2024/07/indoor-wayfinding-thumbnail.jpg
 ---

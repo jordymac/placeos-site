@@ -1,18 +1,15 @@
 ---
-title: 'LIVE DEMO: Event Manager'
+title: "LIVE DEMO: Event Manager"
 date: 2024-06-04T00:00:00.000Z
 categories:
-  - AI
   - Collaboration
-  - Event
-  - Product
+  - event-management
   - WorkMate
   - Workplace
+post_types:
   - webinar
-summary: >-
-  The office is there to support in-person connection, collaboration &
-  productivity. The next live demo is all about that.
-tags: []
+summary: The office is there to support in-person connection, collaboration & productivity. The next live demo is all about that.
+tags:
 author: Jeremy West
 image: /images/posts/2024/06/event-manager-thumbnail.webp
 ---

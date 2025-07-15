@@ -1,23 +1,19 @@
 ---
-title: 'LIVE DEMO: Indoor Wayfinding & Workplace Management Overhaul'
+title: "LIVE DEMO: Indoor Wayfinding & Workplace Management Overhaul"
 date: 2024-06-04T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Campus
   - Collaboration
-  - Enterprise
+  - scalability
   - Interface
   - Platform
-  - Product
   - Wayfinding
   - Workplace
   - Workplace Management
+post_types:
   - webinar
-summary: >-
-  A brand new feature powered by a new integration. An overhaul of our workplace
-  management application.
-tags: []
+summary: A brand new feature powered by a new integration. An overhaul of our workplace management application.
+tags:
 author: Jeremy West
 image: /images/posts/2024/06/thumbnail-live-demo-august.jpg
 ---

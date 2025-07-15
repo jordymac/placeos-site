@@ -1,19 +1,16 @@
 ---
-title: 'Workplace Management App: New Features and Enhancements'
+title: "Workplace Management App: New Features and Enhancements"
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Desk Booking
   - Parking
   - Visitor Management
   - Wayfinding
   - Workplace Management
+post_types:
   - product-update
-summary: >-
-  Explore the new features of the refreshed Concierge workplace management app.
-  Improve efficiency and optimize your workplace with our innovative solutions.
-tags: []
+summary: Explore the new features of the refreshed Concierge workplace management app. Improve efficiency and optimize your workplace with our innovative solutions.
+tags:
 author: Jeremy West
 image: /images/posts/2024/07/concierge-refresh-thumbnail.jpg
 ---

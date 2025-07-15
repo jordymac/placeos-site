@@ -2,20 +2,14 @@
 title: Why Switch from On-Prem PlaceOS to Cloud Based?
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
-  - Enterprise
+  - scalability
   - Platform
-  - Product
-  - Sales
   - Smart Building
-  - Tender
   - Workplace
+post_types:
   - blog
-summary: >-
-  Why move from an on-premise PlaceOS (or even ACAEngine) deployment to a
-  cloud-based PlaceOS solution?
-tags: []
+summary: Why move from an on-premise PlaceOS (or even ACAEngine) deployment to a cloud-based PlaceOS solution?
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/05/on-prem-to-cloud-illustration.jpg
 ---

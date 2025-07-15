@@ -1,16 +1,13 @@
 ---
-title: 'Room Booking Updates: Recurring Booking & Room Manager'
+title: "Room Booking Updates: Recurring Booking & Room Manager"
 date: 2025-01-15T00:00:00.000Z
 categories:
-  - AI
-  - AV
-  - Control Interfaces
   - Meeting Rooms
+  - Room Booking
+post_types:
   - product-update
-summary: >-
-  Learn about the new recurring bookings feature in our room booking app.
-  Streamline your scheduling process and enhance room management with ease.
-tags: []
+summary: Learn about the new recurring bookings feature in our room booking app. Streamline your scheduling process and enhance room management with ease.
+tags:
 author: Jeremy West
 image: /images/posts/2025/01/room-booking-updates-thumbnail.jpg
 ---

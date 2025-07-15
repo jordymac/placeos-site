@@ -7,10 +7,10 @@ categories:
   - Energy
   - Interface
   - Platform
-  - Product
   - Room Booking
   - UX
   - Workplace
+post_types:
   - webinar
 summary: >-
   A live demonstration of our latest in Commercial Building Energy Analytics,

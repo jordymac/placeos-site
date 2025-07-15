@@ -2,21 +2,18 @@
 title: Managing Technology Redundancy in IoT and Smart Buildings
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AV
   - Analytics
   - Desk Booking
-  - Control Interfaces
+  - interface
   - Occupancy
   - Platform
   - Smart Building
   - Systems
   - Workplace Management
+post_types:
   - blog
-summary: >-
-  Learn how to effectively deal with technology redundancy in IoT and smart
-  buildings. Discover strategies to optimize systems and ensure continuous
-  performance.
-tags: []
+summary: Learn how to effectively deal with technology redundancy in IoT and smart buildings. Discover strategies to optimize systems and ensure continuous performance.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/07/technology-redundancy.png
 ---

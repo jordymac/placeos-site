@@ -2,8 +2,6 @@
 title: The world's largest emitter
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Analytics
   - Automation
   - Energy
@@ -11,11 +9,10 @@ categories:
   - HVAC
   - Occupancy
   - Systems
+post_types:
   - blog
-summary: >-
-  Real estate is the largest asset class on Earth. It’s also the largest emitter
-  of greenhouse gasses.
-tags: []
+summary: Real estate is the largest asset class on Earth. It’s also the largest emitter of greenhouse gasses.
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/05/real-estate-emissions-investment.jpg
 ---

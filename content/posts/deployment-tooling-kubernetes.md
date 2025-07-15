@@ -4,7 +4,7 @@ date: 2024-05-20T00:00:00.000Z
 categories:
   - APIs
   - Platform
-  - Product
+post_types:
   - product-update
 summary: >-
   Our new deployment tooling will help you get up and running with speed and

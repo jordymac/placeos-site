@@ -2,7 +2,6 @@
 title: £93bn of Commercial Real Estate is at Risk, Here’s What To Do
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
   - Automation
   - Campus
   - Commercial Real Estate
@@ -11,11 +10,10 @@ categories:
   - Occupancy
   - Sustainability
   - Systems
+post_types:
   - blog
-summary: >-
-  Unlocking sustainability: UK's mandate & PlaceOS's smart energy solutions
-  reshape real estate's future.
-tags: []
+summary: "Unlocking sustainability: UK's mandate & PlaceOS's smart energy solutions reshape real estate's future."
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/05/thumbnails.png
 ---

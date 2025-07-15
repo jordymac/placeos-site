@@ -1,18 +1,15 @@
 ---
-title: 'LIVE DEMO: Enhanced Room Booking & Event Manager'
+title: "LIVE DEMO: Enhanced Room Booking & Event Manager"
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
-  - Event
+  - event-management
   - Office Space
   - Room Booking
   - Workplace
+post_types:
   - webinar
-summary: >-
-  Our latest webinar will be introducing some highly requested updates to our
-  room booking experience & event manager
-tags: []
+summary: Our latest webinar will be introducing some highly requested updates to our room booking experience & event manager
+tags:
 author: Jeremy West
 image: /images/posts/2024/05/05-may-webinar-thumbnail_2.jpg
 ---

@@ -2,15 +2,12 @@
 title: June 2024 PlaceOS Product Updates
 date: 2024-06-25T00:00:00.000Z
 categories:
-  - AI
-  - Event
-  - Product
+  - event-management
   - Zones
+post_types:
   - product-update
-summary: >-
-  Print concierge reports, refactored tables, authenticated user lists, support
-  request types, map view POI creation, bug fixes.
-tags: []
+summary: Print concierge reports, refactored tables, authenticated user lists, support request types, map view POI creation, bug fixes.
+tags:
 author: Jeremy West
 image: /images/posts/2024/06/placeos-april-2024-updates-main.webp
 ---

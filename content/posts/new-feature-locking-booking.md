@@ -1,22 +1,19 @@
 ---
-title: 'New Feature: Locking Booking'
+title: "New Feature: Locking Booking"
 date: 2024-12-03T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Desk Booking
-  - Control Interfaces
+  - interface
   - Locker Booking
   - Platform
   - Meeting Rooms
   - Systems
   - Visitor Management
   - Workplace Management
+post_types:
   - product-update
-summary: >-
-  Explore PlaceOS's Locker Booking System: Easy reservations, access control,
-  visual booking, and flexibility for workplaces and visitor management.
-tags: []
+summary: "Explore PlaceOS's Locker Booking System: Easy reservations, access control, visual booking, and flexibility for workplaces and visitor management."
+tags:
 author: Jeremy West
 image: /images/posts/2024/12/locker-booking-thumbnail.jpg
 ---

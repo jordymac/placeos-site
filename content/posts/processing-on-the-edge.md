@@ -2,19 +2,15 @@
 title: Processing on the 'Edge'
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AV
   - Analytics
   - Configuration
   - Drivers
-  - Event
+  - event-management
   - Modules
-  - Product
+post_types:
   - product-update
-summary: >-
-  Explore how edge processing transforms data handling and performance. See why
-  processing on the edge is crucial for real-time analytics and faster
-  decision-maki
-tags: []
+summary: Explore how edge processing transforms data handling and performance. See why processing on the edge is crucial for real-time analytics and faster decision-maki
+tags:
 author: Jeremy West
 image: /images/posts/2024/07/processing-on-the-edge.jpg
 ---

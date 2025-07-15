@@ -2,21 +2,17 @@
 title: September 2024 PlaceOS Product Updates
 date: 2024-11-28T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Configuration
   - Digital Signage
-  - Event
+  - event-management
   - Parking
-  - Product
   - Room Booking
   - WorkMate
   - Workplace
+post_types:
   - product-update
-summary: >-
-  New WorkMate features: email templates, parking management, QR code printing,
-  room alerts, and a media library in our September release.
-tags: []
+summary: "New WorkMate features: email templates, parking management, QR code printing, room alerts, and a media library in our September release."
+tags:
 author: Jeremy West
 image: /images/posts/2024/11/thumbnails-12.png
 ---

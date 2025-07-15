@@ -2,17 +2,14 @@
 title: A guide to digital workplace transformation
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Collaboration
   - Employee Experience
   - Meeting Rooms
   - Workplace Management
+post_types:
   - blog
-summary: >-
-  A recent Gartner Report shows that your digital transformation journey will be
-  a dead end unless you do this.
-tags: []
+summary: A recent Gartner Report shows that your digital transformation journey will be a dead end unless you do this.
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/05/digitalworkplacearticleheading.png
 ---

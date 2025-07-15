@@ -2,7 +2,6 @@
 title: Importance of Energy Data for Commercial Buildings
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
   - Analytics
   - Automation
   - Energy
@@ -10,11 +9,10 @@ categories:
   - Occupancy
   - Systems
   - Workplace
+post_types:
   - blog
-summary: >-
-  Understand the importance of energy data in commercial buildings. Learn how
-  analytics drive energy reduction and enhance workplace efficiency.
-tags: []
+summary: Understand the importance of energy data in commercial buildings. Learn how analytics drive energy reduction and enhance workplace efficiency.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/07/the-importance-of-energy-data-hero-image.jpg
 ---

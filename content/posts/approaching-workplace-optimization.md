@@ -2,18 +2,14 @@
 title: Approaching workplace optimization
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Analytics
-  - Sales
   - UX
   - Utilization
   - Workplace Management
+post_types:
   - blog
-summary: >-
-  The sales funnel has a pretty well-defined approach. Instead of using that to
-  sell more products, how can we build better UX?
-tags: []
+summary: The sales funnel has a pretty well-defined approach. Instead of using that to sell more products, how can we build better UX?
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/05/workplace-optimization-thumbnail.png
 ---

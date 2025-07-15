@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Safety on PlaceOS</title>
-    <link>http://localhost:1313/categories/safety/</link>
+    <link>http://localhost:1314/categories/safety/</link>
     <description>Recent content in Safety on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/safety/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/categories/safety/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building &amp; Region-Level Workplace Management</title>
-      <link>http://localhost:1313/posts/building-region-level-workplace-management/</link>
+      <link>http://localhost:1314/posts/building-region-level-workplace-management/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/building-region-level-workplace-management/</guid>
+      <guid>http://localhost:1314/posts/building-region-level-workplace-management/</guid>
       <description>Control workplace settings to standardize policies across buildings, so you can scale workplace management while ensuring the right settings for each location.</description>
     </item>
     <item>
       <title>Partnership announcement with Monstarlab</title>
-      <link>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</link>
+      <link>http://localhost:1314/posts/partnership-announcement-with-monstarlab/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</guid>
+      <guid>http://localhost:1314/posts/partnership-announcement-with-monstarlab/</guid>
       <description>We are proud to announce our official partnership with global digital consultancy Monstarlab! The partnership will help build</description>
     </item>
     <item>
       <title>LIVE DEMO: PlaceAI - ChatGPT &amp; Object Recognition Features</title>
-      <link>http://localhost:1313/posts/live-demo-placeai-chatgpt-object-recognition-features/</link>
+      <link>http://localhost:1314/posts/live-demo-placeai-chatgpt-object-recognition-features/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/live-demo-placeai-chatgpt-object-recognition-features/</guid>
+      <guid>http://localhost:1314/posts/live-demo-placeai-chatgpt-object-recognition-features/</guid>
       <description>Discover the benefits of Chat GPT integration in your workplace. Join our live demo to see how this AI assistant can enhance productivity and streamline tasks.</description>
     </item>
     <item>
       <title>Four technology integrations to help during covid-19</title>
-      <link>http://localhost:1313/posts/four-technology-integrations-to-help-during-covid-19/</link>
+      <link>http://localhost:1314/posts/four-technology-integrations-to-help-during-covid-19/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/four-technology-integrations-to-help-during-covid-19/</guid>
+      <guid>http://localhost:1314/posts/four-technology-integrations-to-help-during-covid-19/</guid>
       <description>Right now, it’s hard to focus on any workplace user requirement unless we address the biggest challenge: COVID-19.</description>
     </item>
   </channel>

@@ -2,21 +2,16 @@
 title: Office space utilization is only half the story
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
-  - Article
-  - Event
+  - event-management
   - Meeting Rooms
   - Office Space
-  - Product
   - Utilization
   - Workplace
   - Zones
+post_types:
   - blog
-summary: >-
-  It's easy to guess what most workplaces think they need in terms of data.
-  Here's what they actually need.
-tags: []
+summary: It's easy to guess what most workplaces think they need in terms of data. Here's what they actually need.
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/05/image-4-blog-technology-template.jpg
 ---

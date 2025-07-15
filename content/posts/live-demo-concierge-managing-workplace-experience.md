@@ -1,22 +1,20 @@
 ---
-title: 'LIVE DEMO: Concierge - Managing Workplace Experience'
+title: "LIVE DEMO: Concierge - Managing Workplace Experience"
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
   - Analytics
   - Desk Booking
-  - Event
+  - event-management
   - Hybrid Work
   - Office Space
   - Visitor Management
   - WorkMate
   - Workplace
   - Workplace Management
+post_types:
   - webinar
-summary: >-
-  Elevate your hybrid workplace with our advanced workplace management app.
-  Discover how to enhance the workplace experience and streamline operations.
-tags: []
+summary: Elevate your hybrid workplace with our advanced workplace management app. Discover how to enhance the workplace experience and streamline operations.
+tags:
 author: Jeremy West
 image: /images/posts/2024/07/concierge.jpg
 ---

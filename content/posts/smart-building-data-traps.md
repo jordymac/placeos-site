@@ -2,17 +2,14 @@
 title: Smart Building Data traps
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Analytics
   - Meeting Rooms
   - Smart Building
   - Workplace Management
+post_types:
   - blog
-summary: >-
-  Learn how to spot deceit in smart building data and understand analytics
-  better. Protect your business from misinformation with these expert tips.
-tags: []
+summary: Learn how to spot deceit in smart building data and understand analytics better. Protect your business from misinformation with these expert tips.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/07/08-a-better-place-podcast.jpg
 ---

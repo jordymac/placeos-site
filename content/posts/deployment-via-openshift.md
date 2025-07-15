@@ -2,16 +2,12 @@
 title: Deployment via OpenShift
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
-  - Enterprise
+  - scalability
   - Platform
-  - Product
+post_types:
   - product-update
-summary: >-
-  Learn how to streamline deployments with OpenShift and Kubernetes. Discover
-  best practices for efficient and scalable application management.
-tags: []
+summary: Learn how to streamline deployments with OpenShift and Kubernetes. Discover best practices for efficient and scalable application management.
+tags:
 author: Jeremy West
 image: /images/posts/2024/07/openshift.jpg
 ---

@@ -2,18 +2,14 @@
 title: How to capture occupancy data in the workplace
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Interface
   - Occupancy
   - Utilization
   - Workplace
+post_types:
   - blog
-summary: >-
-  Learn how to capture occupancy data in commercial buildings using real-time
-  location services. Optimize space utilization and enhance workplace
-  efficiency.
-tags: []
+summary: Learn how to capture occupancy data in commercial buildings using real-time location services. Optimize space utilization and enhance workplace efficiency.
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/07/ep-40_auditing_16x9.png
 ---

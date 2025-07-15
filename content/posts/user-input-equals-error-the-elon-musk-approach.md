@@ -1,28 +1,22 @@
 ---
-title: 'User input equals error: the Elon Musk approach'
+title: "User input equals error: the Elon Musk approach"
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
-  - Article
   - Drivers
-  - Event
+  - event-management
   - HVAC
   - Interface
   - Meeting Rooms
   - Parking
   - Platform
-  - Podcast
-  - Sales
   - Systems
   - UX
   - Wayfinding
   - Workplace
+post_types:
   - blog
-summary: >-
-  Tesla takes the approach, all user input equals error. There’s a lot we can
-  learn from that when we apply that ethos.
-tags: []
+summary: Tesla takes the approach, all user input equals error. There’s a lot we can learn from that when we apply that ethos.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/05/how-tesla-tackles-ux-design.jpg
 ---

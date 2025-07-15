@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zones on PlaceOS</title>
-    <link>http://localhost:1313/categories/zones/</link>
+    <link>http://localhost:1314/categories/zones/</link>
     <description>Recent content in Zones on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/zones/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/categories/zones/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building &amp; Region-Level Workplace Management</title>
-      <link>http://localhost:1313/posts/building-region-level-workplace-management/</link>
+      <link>http://localhost:1314/posts/building-region-level-workplace-management/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/building-region-level-workplace-management/</guid>
+      <guid>http://localhost:1314/posts/building-region-level-workplace-management/</guid>
       <description>Control workplace settings to standardize policies across buildings, so you can scale workplace management while ensuring the right settings for each location.</description>
     </item>
     <item>
       <title>July 2024 PlaceOS Product Updates</title>
-      <link>http://localhost:1313/posts/july-2024-placeos-product-updates/</link>
+      <link>http://localhost:1314/posts/july-2024-placeos-product-updates/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/july-2024-placeos-product-updates/</guid>
+      <guid>http://localhost:1314/posts/july-2024-placeos-product-updates/</guid>
       <description>Non-bookable rooms now show real-time status, desk height management for Floorsense desks, and real-time parking availability.</description>
     </item>
     <item>
       <title>Area Manager: Occupancy &amp; Sensor Management</title>
-      <link>http://localhost:1313/posts/area-manager-occupancy-sensor-management/</link>
+      <link>http://localhost:1314/posts/area-manager-occupancy-sensor-management/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/area-manager-occupancy-sensor-management/</guid>
+      <guid>http://localhost:1314/posts/area-manager-occupancy-sensor-management/</guid>
       <description>Discover how Area Manager optimizes occupancy sensor management for efficient space utilization. Enhance your workplace with advanced occupancy tracking.</description>
     </item>
     <item>
       <title>February 2024 PlaceOS Product Updates</title>
-      <link>http://localhost:1313/posts/february-2024-placeos-product-updates/</link>
+      <link>http://localhost:1314/posts/february-2024-placeos-product-updates/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/february-2024-placeos-product-updates/</guid>
+      <guid>http://localhost:1314/posts/february-2024-placeos-product-updates/</guid>
       <description>Added Secure S3 Uploads, enhanced MapBox and MapsPeople integration, and new Work Locations feature, Improved visitor booking</description>
     </item>
     <item>
       <title>June 2024 PlaceOS Product Updates</title>
-      <link>http://localhost:1313/posts/june-2024-placeos-product-updates/</link>
+      <link>http://localhost:1314/posts/june-2024-placeos-product-updates/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/june-2024-placeos-product-updates/</guid>
+      <guid>http://localhost:1314/posts/june-2024-placeos-product-updates/</guid>
       <description>Print concierge reports, refactored tables, authenticated user lists, support request types, map view POI creation, bug fixes.</description>
     </item>
     <item>
       <title>Four technology integrations to help during covid-19</title>
-      <link>http://localhost:1313/posts/four-technology-integrations-to-help-during-covid-19/</link>
+      <link>http://localhost:1314/posts/four-technology-integrations-to-help-during-covid-19/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/four-technology-integrations-to-help-during-covid-19/</guid>
+      <guid>http://localhost:1314/posts/four-technology-integrations-to-help-during-covid-19/</guid>
       <description>Right now, it’s hard to focus on any workplace user requirement unless we address the biggest challenge: COVID-19.</description>
     </item>
     <item>
       <title>How to create a workplace worth returning to</title>
-      <link>http://localhost:1313/posts/how-to-create-a-workplace-worth-returning-to/</link>
+      <link>http://localhost:1314/posts/how-to-create-a-workplace-worth-returning-to/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-to-create-a-workplace-worth-returning-to/</guid>
+      <guid>http://localhost:1314/posts/how-to-create-a-workplace-worth-returning-to/</guid>
       <description>In this piece, I’m going to discuss how the working environment has changed today and what you can do about it.</description>
     </item>
     <item>
       <title>Office space utilization is only half the story</title>
-      <link>http://localhost:1313/posts/office-space-utilization-is-only-half-the-story/</link>
+      <link>http://localhost:1314/posts/office-space-utilization-is-only-half-the-story/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/office-space-utilization-is-only-half-the-story/</guid>
+      <guid>http://localhost:1314/posts/office-space-utilization-is-only-half-the-story/</guid>
       <description>It&amp;rsquo;s easy to guess what most workplaces think they need in terms of data. Here&amp;rsquo;s what they actually need.</description>
     </item>
     <item>
       <title>Office Space Utilization: The Roadmap to Efficiency</title>
-      <link>http://localhost:1313/posts/office-space-utilization-the-roadmap-to-efficiency/</link>
+      <link>http://localhost:1314/posts/office-space-utilization-the-roadmap-to-efficiency/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/office-space-utilization-the-roadmap-to-efficiency/</guid>
+      <guid>http://localhost:1314/posts/office-space-utilization-the-roadmap-to-efficiency/</guid>
       <description>Discover the significance of office space utilization. Dive into key metrics, benefits, and the future of office efficiency.</description>
     </item>
   </channel>

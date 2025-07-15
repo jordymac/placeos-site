@@ -1,20 +1,17 @@
 ---
-title: 'LIVE DEMO: Visitor Management & Locker Booking'
+title: "LIVE DEMO: Visitor Management & Locker Booking"
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
-  - Event
+  - event-management
   - Interface
   - Locker Booking
   - Occupancy
   - Visitor Management
   - Workplace
+post_types:
   - webinar
-summary: >-
-  Looking to streamline your workplace's visitor management workflows and
-  enhance the visitor experience?
-tags: []
+summary: Looking to streamline your workplace's visitor management workflows and enhance the visitor experience?
+tags:
 author: Jeremy West
 image: /images/posts/2024/05/visitor-management.jpg
 ---

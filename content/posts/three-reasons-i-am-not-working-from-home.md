@@ -2,18 +2,13 @@
 title: Three reasons I am not working from home
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Campus
   - Collaboration
-  - Product
   - Workplace
+post_types:
   - blog
-summary: >-
-  Discover three compelling reasons not to work from home. Learn why returning
-  to the office can boost productivity, collaboration, and overall job
-  satisfaction.
-tags: []
+summary: Discover three compelling reasons not to work from home. Learn why returning to the office can boost productivity, collaboration, and overall job satisfaction.
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/07/sydney-city-business-district.jpg
 ---

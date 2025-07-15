@@ -2,16 +2,13 @@
 title: You don't need another workplace sensor
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Occupancy
   - Smart Building
   - Workplace
+post_types:
   - blog
-summary: >-
-  You need inputs in a smart workplace ecosystem to get outputs and insights.
-  However, it doesn't always need to be a sensor.
-tags: []
+summary: You need inputs in a smart workplace ecosystem to get outputs and insights. However, it doesn't always need to be a sensor.
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/05/sensors-diagram.png
 ---

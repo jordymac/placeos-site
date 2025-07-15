@@ -4,7 +4,7 @@ date: 2024-07-02T00:00:00.000Z
 categories:
   - APIs
   - Partner
-  - Product
+post_types:
   - product-update
 summary: >-
   Learn about the benefits of a self-documenting API for seamless integration

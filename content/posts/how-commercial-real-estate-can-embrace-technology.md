@@ -2,19 +2,15 @@
 title: How commercial real estate can embrace technology
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
-  - Article
   - Commercial Real Estate
   - Energy
   - Smart Building
   - Systems
   - Workplace
+post_types:
   - blog
-summary: >-
-  It's not just about email and communication anymore. It's a fundamental
-  revenue stream for any industry.
-tags: []
+summary: It's not just about email and communication anymore. It's a fundamental revenue stream for any industry.
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/05/commercial-real-estate.jpg
 ---

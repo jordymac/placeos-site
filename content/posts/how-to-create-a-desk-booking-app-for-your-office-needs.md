@@ -2,20 +2,15 @@
 title: How to Create a Desk Booking App for Your Office Needs
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Desk Booking
   - Interface
   - Office Space
   - Platform
-  - Podcast
   - Utilization
+post_types:
   - blog
-summary: >-
-  Discover the steps to effectively scope a desk booking app. Optimize your
-  office space with a tailored desk booking solution that meets your
-  requirements.
-tags: []
+summary: Discover the steps to effectively scope a desk booking app. Optimize your office space with a tailored desk booking solution that meets your requirements.
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/07/desk-booking-guide-thumbnail.jpg
 ---

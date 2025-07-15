@@ -2,16 +2,13 @@
 title: Building & Region-Level Workplace Management
 date: 2025-03-04T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Automation
   - Campus
   - Coworking
   - Desk Booking
-  - Event
+  - event-management
   - Meeting Rooms
   - Parking
-  - Product
   - Room Booking
   - Safety
   - Utilization
@@ -19,12 +16,10 @@ categories:
   - Workplace
   - Workplace Management
   - Zones
+post_types:
   - product-update
-summary: >-
-  Control workplace settings to standardize policies across buildings, so you
-  can scale workplace management while ensuring the right settings for each
-  location.
-tags: []
+summary: Control workplace settings to standardize policies across buildings, so you can scale workplace management while ensuring the right settings for each location.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2025/03/product-updates-1-icon-1-.png
 ---

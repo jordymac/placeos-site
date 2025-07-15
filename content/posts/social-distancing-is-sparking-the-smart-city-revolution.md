@@ -2,8 +2,8 @@
 title: Social distancing is sparking the smart city revolution
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - Article
   - Parking
+post_types:
   - blog
 summary: >-
   We should be preparing for a future in which workspaces and buildings are

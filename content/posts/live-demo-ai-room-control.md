@@ -1,18 +1,15 @@
 ---
-title: 'LIVE DEMO: AI Room Control'
+title: "LIVE DEMO: AI Room Control"
 date: 2024-11-19T00:00:00.000Z
 categories:
-  - AI
   - Digital Signage
-  - Event
+  - event-management
   - Meeting Rooms
   - Partner
+post_types:
   - webinar
-summary: >-
-  Book, cancel, and control meeting rooms effortlessly with simple prompts.
-  Explore ChromeOS, AOPEN touch panels, and digital signage in our demo event.
-  Join now!
-tags: []
+summary: Book, cancel, and control meeting rooms effortlessly with simple prompts. Explore ChromeOS, AOPEN touch panels, and digital signage in our demo event. Join now!
+tags:
 author: Jeremy West
 image: /images/posts/2024/11/thumbnails-10-copy.webp
 ---

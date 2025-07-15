@@ -2,20 +2,16 @@
 title: December 2024 PlaceOS Product Updates
 date: 2024-12-19T00:00:00.000Z
 categories:
-  - AI
-  - AV
-  - System Configuration
+  - configuration
   - Desk Booking
   - Locker Booking
   - Parking
   - Utilization
   - Workplace Management
+post_types:
   - product-update
-summary: >-
-  December 2024 WorkMate updates include new parking utilization reports, kiosk
-  customizations, recurring desk bookings, added language support and room
-  alerts.
-tags: []
+summary: December 2024 WorkMate updates include new parking utilization reports, kiosk customizations, recurring desk bookings, added language support and room alerts.
+tags:
 author: Jeremy West
 image: /images/posts/2024/12/product-updates-1-icon.png
 ---

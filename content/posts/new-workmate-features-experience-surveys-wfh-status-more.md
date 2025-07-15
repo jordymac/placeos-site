@@ -1,22 +1,18 @@
 ---
-title: 'New WorkMate Features: Experience Surveys, WFH Status & more'
+title: "New WorkMate Features: Experience Surveys, WFH Status & more"
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
-  - Enterprise
+  - scalability
   - Interface
-  - Product
   - Room Booking
   - Surveys
   - Utilization
   - WorkMate
   - Workplace
+post_types:
   - product-update
-summary: >-
-  New features for our workplace suite, WorkMate, includes Experience Surveys,
-  Resource Pay, WFH Status & Quick Booking.
-tags: []
+summary: New features for our workplace suite, WorkMate, includes Experience Surveys, Resource Pay, WFH Status & Quick Booking.
+tags:
 author: Jeremy West
 image: /images/posts/2024/05/workmate.jpg
 ---

@@ -2,19 +2,16 @@
 title: Two core philosophies for smart building design
 date: 2024-12-04T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Analytics
   - Automation
   - Interface
   - Platform
   - Smart Building
   - UX
+post_types:
   - blog
-summary: >-
-  Smart building design focuses on user experiences and insights. Avoid common
-  pitfalls like confusing UI with UX or relying too much on dashboards.
-tags: []
+summary: Smart building design focuses on user experiences and insights. Avoid common pitfalls like confusing UI with UX or relying too much on dashboards.
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/12/two-core-philosophies-new-york-landscape.jpg
 ---

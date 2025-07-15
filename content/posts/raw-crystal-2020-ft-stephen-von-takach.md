@@ -2,13 +2,11 @@
 title: Raw crystal 2020 ft Stephen Von Takach
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - Event
-  - Product
+  - Platform
+post_types:
   - blog
-summary: >-
-  Raw Crystal 2020 is the last opportunity of the year to connect, share
-  experiences, and learn about Crystal Programming.
-tags: []
+summary: Raw Crystal 2020 is the last opportunity of the year to connect, share experiences, and learn about Crystal Programming.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/05/raw-crystal-2020-header.jpg
 ---

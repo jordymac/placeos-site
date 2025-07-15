@@ -2,8 +2,6 @@
 title: Enhancing Commercial Building Sustainability in a Hybrid Workplace
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - Article
   - Energy
   - Hybrid Work
   - Platform
@@ -13,11 +11,10 @@ categories:
   - Utilization
   - Visitor Management
   - Workplace
+post_types:
   - blog
-summary: >-
-  Explore sustainable practices for hybrid workplaces in commercial buildings.
-  Find out how to reduce energy usage and promote a greener work environment.
-tags: []
+summary: Explore sustainable practices for hybrid workplaces in commercial buildings. Find out how to reduce energy usage and promote a greener work environment.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/07/sustainability.jpg
 ---

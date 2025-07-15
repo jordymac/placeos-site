@@ -2,8 +2,6 @@
 title: Downsizing Your Office? First, Take These 5 Essential Steps
 date: 2024-11-13T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Automation
   - Collaboration
   - Downsizing
@@ -12,11 +10,10 @@ categories:
   - Systems
   - Utilization
   - Workplace Management
+post_types:
   - blog
-summary: >-
-  Today's work environment has seen dramatic shifts, prompting many companies to
-  consider downsizing their office spaces.
-tags: []
+summary: Today's work environment has seen dramatic shifts, prompting many companies to consider downsizing their office spaces.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/11/downsizing-thumbnail.png
 ---

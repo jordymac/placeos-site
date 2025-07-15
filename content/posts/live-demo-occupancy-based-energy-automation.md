@@ -1,9 +1,7 @@
 ---
-title: 'LIVE DEMO: Occupancy-Based Energy Automation'
+title: "LIVE DEMO: Occupancy-Based Energy Automation"
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Automation
   - Energy
   - HVAC
@@ -13,11 +11,10 @@ categories:
   - Sustainability
   - Systems
   - Workplace
+post_types:
   - webinar
-summary: >-
-  A live demonstration about Occupancy-Based Energy Automation, Our AI Roadmap &
-  New Room Booking Features
-tags: []
+summary: A live demonstration about Occupancy-Based Energy Automation, Our AI Roadmap & New Room Booking Features
+tags:
 author: Jeremy West
 image: /images/posts/2024/05/06-june-thumbnail.jpg
 ---

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Industries on PlaceOS</title>
-    <link>http://localhost:1313/industry/</link>
+    <link>http://localhost:1314/industry/</link>
     <description>Recent content in Industries on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/industry/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/industry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Campus</title>
-      <link>http://localhost:1313/industry/smart-campus/</link>
+      <link>http://localhost:1314/industry/smart-campus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/industry/smart-campus/</guid>
+      <guid>http://localhost:1314/industry/smart-campus/</guid>
       <description>The only campus management system that reduces energy consumption, handles AV integration, does resource booking, provides wayfinding and car space booking.</description>
     </item>
     <item>
       <title>HVAC &amp; Energy Waste in Commercial Buildings</title>
-      <link>http://localhost:1313/industry/energy/</link>
+      <link>http://localhost:1314/industry/energy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/industry/energy/</guid>
+      <guid>http://localhost:1314/industry/energy/</guid>
       <description>Commercial buildings use 40% of global energy. PlaceOS energy reduction app helps meet strict regulations with occupancy-based automation to cut HVAC and lighting waste.</description>
     </item>
     <item>
       <title>Workplace</title>
-      <link>http://localhost:1313/industry/workplace/</link>
+      <link>http://localhost:1314/industry/workplace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/industry/workplace/</guid>
+      <guid>http://localhost:1314/industry/workplace/</guid>
       <description>Workplaces are facing challenges with office mandates, hybrid policies, and remote work. While data is showing a flexible hybrid approach is best, the implementation is complex and unique to every organization.</description>
     </item>
   </channel>

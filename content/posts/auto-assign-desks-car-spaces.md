@@ -2,16 +2,14 @@
 title: Auto Assign Desks & Car Spaces
 date: 2024-12-03T00:00:00.000Z
 categories:
-  - AI
   - Desk Booking
   - Parking
   - Systems
   - Visitor Management
+post_types:
   - product-update
-summary: >-
-  Auto-assign desks by department and car spaces with ANPR integration for
-  efficient visitor management.
-tags: []
+summary: Auto-assign desks by department and car spaces with ANPR integration for efficient visitor management.
+tags:
 author: Jeremy West
 image: /images/posts/2024/12/auto.jpg
 ---

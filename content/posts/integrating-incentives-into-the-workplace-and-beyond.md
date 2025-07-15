@@ -2,16 +2,13 @@
 title: Integrating incentives into the workplace and beyond
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Meeting Rooms
   - Room Booking
   - Workplace
+post_types:
   - blog
-summary: >-
-  Rewards programs aren’t new, but they typically haven’t extended into the
-  physical work environment. Let's change that.
-tags: []
+summary: Rewards programs aren’t new, but they typically haven’t extended into the physical work environment. Let's change that.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/05/workplace-incentives.png
 ---

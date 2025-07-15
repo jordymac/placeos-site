@@ -2,25 +2,20 @@
 title: A Guide to Energy Data Collection & Utilization
 date: 2025-01-08T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Analytics
-  - Article
   - Campus
   - Commercial Real Estate
   - Energy
   - HVAC
   - Occupancy
   - Platform
-  - Product
   - Sustainability
   - Systems
   - Utilization
+post_types:
   - blog
-summary: >-
-  How to collect energy data in commercial buildings so that you can find out
-  where you're wasting energy like powering empty spaces.
-tags: []
+summary: How to collect energy data in commercial buildings so that you can find out where you're wasting energy like powering empty spaces.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2025/01/energy-data-collection.webp
 ---

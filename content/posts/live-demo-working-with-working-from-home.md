@@ -1,9 +1,7 @@
 ---
-title: 'LIVE DEMO: Working with Working from Home'
+title: "LIVE DEMO: Working with Working from Home"
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Automation
   - Collaboration
   - Hybrid Work
@@ -11,12 +9,10 @@ categories:
   - Occupancy
   - Utilization
   - Wayfinding
+post_types:
   - webinar
-summary: >-
-  oin our live demo to optimize hybrid work. Find out how to efficiently manage
-  work from home and work status location for better team collaboration. Learn
-  more
-tags: []
+summary: oin our live demo to optimize hybrid work. Find out how to efficiently manage work from home and work status location for better team collaboration. Learn more
+tags:
 author: Jeremy West
 image: /images/posts/2024/07/working-with-working-from-home.webp
 ---

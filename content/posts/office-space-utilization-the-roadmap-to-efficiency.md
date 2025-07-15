@@ -1,26 +1,22 @@
 ---
-title: 'Office Space Utilization: The Roadmap to Efficiency'
+title: "Office Space Utilization: The Roadmap to Efficiency"
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Automation
   - Collaboration
-  - Event
+  - event-management
   - Occupancy
   - Office Space
   - Platform
-  - Product
   - Surveys
   - Systems
   - Utilization
   - WorkMate
   - Zones
+post_types:
   - blog
-summary: >-
-  Discover the significance of office space utilization. Dive into key metrics,
-  benefits, and the future of office efficiency.
-tags: []
+summary: Discover the significance of office space utilization. Dive into key metrics, benefits, and the future of office efficiency.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/05/office-space-utilization.jpg
 ---

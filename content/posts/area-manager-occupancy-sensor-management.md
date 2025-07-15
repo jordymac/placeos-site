@@ -5,12 +5,12 @@ categories:
   - AI
   - Analytics
   - Occupancy
-  - Product
   - Smart Building
   - UX
   - Utilization
   - Workplace
   - Zones
+post_types:
   - product-update
 summary: >-
   Discover how Area Manager optimizes occupancy sensor management for efficient

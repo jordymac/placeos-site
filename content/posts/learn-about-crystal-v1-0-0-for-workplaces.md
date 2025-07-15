@@ -2,16 +2,12 @@
 title: Learn About Crystal v1.0.0 for Workplaces
 date: 2024-12-03T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Platform
-  - Product
   - Workplace
+post_types:
   - product-update
-summary: >-
-  Learn how Crystal Lang v1.0.0 enhances your workplace platform. Discover the
-  benefits and improvements brought by this powerful programming language.
-tags: []
+summary: Learn how Crystal Lang v1.0.0 enhances your workplace platform. Discover the benefits and improvements brought by this powerful programming language.
+tags:
 author: Jeremy West
 image: /images/posts/2024/12/crystal.jpg
 ---

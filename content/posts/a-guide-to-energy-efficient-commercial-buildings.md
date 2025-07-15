@@ -2,17 +2,14 @@
 title: A Guide to Energy Efficient Commercial Buildings
 date: 2024-11-24T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Commercial Real Estate
   - Energy
   - Occupancy
   - Utilization
+post_types:
   - blog
-summary: >-
-  Learn about energy efficient commercial buildings. How to collect energy data,
-  integrate occupancy and establish baselines to optimize energy.
-tags: []
+summary: Learn about energy efficient commercial buildings. How to collect energy data, integrate occupancy and establish baselines to optimize energy.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/11/understanding-building-energy-thumbnail.png
 ---

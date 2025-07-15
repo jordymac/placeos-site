@@ -1,14 +1,12 @@
 ---
-title: 'Data deceits: how to spot when you''re being lied to'
+title: "Data deceits: how to spot when you're being lied to"
 date: 2024-12-04T00:00:00.000Z
 categories:
-  - AI
-  - Article
+  - Analytics
+post_types:
   - blog
-summary: >-
-  Learn to spot deceptive data with tips on identifying misleading
-  visualizations, correlation vs. causation, and tricks like axis manipulation.
-tags: []
+summary: Learn to spot deceptive data with tips on identifying misleading visualizations, correlation vs. causation, and tricks like axis manipulation.
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/12/data-deceits-liar-liar.jpg
 ---

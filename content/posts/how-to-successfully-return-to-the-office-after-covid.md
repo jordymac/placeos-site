@@ -2,9 +2,7 @@
 title: How to Successfully Return to the Office after Covid
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
   - APIs
-  - AV
   - Analytics
   - Automation
   - Drivers
@@ -12,16 +10,14 @@ categories:
   - Interface
   - Partner
   - Platform
-  - Product
   - Smart Building
   - UX
   - Utilization
   - Workplace
+post_types:
   - blog
-summary: >-
-  Discover best practices for returning to the office after COVID. Explore how
-  to create a safe and productive work environment in our comprehensive guide.
-tags: []
+summary: Discover best practices for returning to the office after COVID. Explore how to create a safe and productive work environment in our comprehensive guide.
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/07/covid-temperature-check.jpg
 ---

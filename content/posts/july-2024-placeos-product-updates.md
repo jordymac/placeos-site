@@ -2,18 +2,15 @@
 title: July 2024 PlaceOS Product Updates
 date: 2024-08-14T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Parking
   - Systems
   - Visitor Management
   - Workplace Management
   - Zones
+post_types:
   - product-update
-summary: >-
-  Non-bookable rooms now show real-time status, desk height management for
-  Floorsense desks, and real-time parking availability.
-tags: []
+summary: Non-bookable rooms now show real-time status, desk height management for Floorsense desks, and real-time parking availability.
+tags:
 author: Jeremy West
 image: /images/posts/2024/08/placeos-april-2024-updates-main.webp
 ---

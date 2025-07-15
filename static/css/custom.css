@@ -376,7 +376,7 @@ header form button {
 
 .hero {
   text-align: left;
-  padding: 8rem 2rem;
+  padding: 4rem 2rem;
   max-width: 65ch;
   margin: auto;
 }
@@ -450,7 +450,7 @@ header form button {
   }
 
   .hero {
-    padding: 4rem 0rem;
+    padding: 2rem 0rem;
   }
 
   .hero-content h1 {
@@ -612,4 +612,22 @@ header form button {
     rgba(255,255,255,0), rgba(255,255,255,0.2));
   pointer-events: none;
   z-index: 4;
+}
+
+/* Mobile Navigation - Align Left */
+@media (max-width: 640px) {
+  nav.flex {
+    justify-content: flex-start !important;
+  }
+  
+  nav.flex ul {
+    justify-content: flex-start !important;
+  }
+}
+
+/* Tablet Footer - Half Bottom Padding */
+@media (min-width: 640px) {
+  .fixed .mx-auto.px-4.py-12 {
+    padding-bottom: 1.5rem !important; /* Half of py-12 (3rem) */
+  }
 }

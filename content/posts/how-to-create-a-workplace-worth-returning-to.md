@@ -2,28 +2,24 @@
 title: How to create a workplace worth returning to
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
   - APIs
-  - AV
   - Automation
   - Collaboration
   - Configuration
   - Hybrid Work
   - Interface
-  - Marketplace
+  - partner
   - Occupancy
   - Partner
   - Platform
-  - Product
   - Room Booking
   - Systems
   - Workplace
   - Zones
+post_types:
   - blog
-summary: >-
-  In this piece, I’m going to discuss how the working environment has changed
-  today and what you can do about it.
-tags: []
+summary: In this piece, I’m going to discuss how the working environment has changed today and what you can do about it.
+tags:
 author: Jon McFarlane
 image: /images/posts/2024/05/how-to-create-a-workplace-worth-returning-to.png
 ---

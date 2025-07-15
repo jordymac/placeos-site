@@ -2,17 +2,13 @@
 title: Introducing Event Manager
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
-  - Event
+  - event-management
   - Event Management
-  - Product
   - Workplace
+post_types:
   - product-update
-summary: >-
-  Introducing the Workplace Event Manager, your solution for seamless event
-  planning and management. Optimize workplace events with our innovative tool.
-tags: []
+summary: Introducing the Workplace Event Manager, your solution for seamless event planning and management. Optimize workplace events with our innovative tool.
+tags:
 author: Jeremy West
 image: /images/posts/2024/07/event-manager-thumbnail.jpg
 ---

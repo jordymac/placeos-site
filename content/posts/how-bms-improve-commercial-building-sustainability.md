@@ -2,21 +2,17 @@
 title: How BMS Improve Commercial Building Sustainability
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
   - APIs
   - AV
   - Automation
   - Energy
   - Platform
-  - Product
   - Sustainability
   - Systems
+post_types:
   - blog
-summary: >-
-  Explore new integrations that enhance ESG and sustainability in commercial
-  buildings. Achieve your energy reduction goals and sustainability targets
-  today!
-tags: []
+summary: Explore new integrations that enhance ESG and sustainability in commercial buildings. Achieve your energy reduction goals and sustainability targets today!
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/07/a-better-place_07.jpg
 ---

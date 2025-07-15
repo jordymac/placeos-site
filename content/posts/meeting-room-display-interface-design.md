@@ -2,18 +2,14 @@
 title: Meeting Room Display Interface Design
 date: 2024-11-13T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Automation
   - Interface
   - Room Booking
   - UX
+post_types:
   - blog
-summary: >-
-  Improve room booking efficiency with our advanced meeting room display.
-  Explore interface design tips to create a user-friendly and effective booking
-  system.
-tags: []
+summary: Improve room booking efficiency with our advanced meeting room display. Explore interface design tips to create a user-friendly and effective booking system.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/11/room-booking.png
 ---

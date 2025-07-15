@@ -1,19 +1,117 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Event Management on PlaceOS</title>
-    <link>http://localhost:1313/categories/event-management/</link>
-    <description>Recent content in Event Management on PlaceOS</description>
+    <title>Event-Management on PlaceOS</title>
+    <link>http://localhost:1314/categories/event-management/</link>
+    <description>Recent content in Event-Management on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/event-management/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1314/categories/event-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building &amp; Region-Level Workplace Management</title>
+      <link>http://localhost:1314/posts/building-region-level-workplace-management/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/posts/building-region-level-workplace-management/</guid>
+      <description>Control workplace settings to standardize policies across buildings, so you can scale workplace management while ensuring the right settings for each location.</description>
+    </item>
+    <item>
+      <title>September 2024 PlaceOS Product Updates</title>
+      <link>http://localhost:1314/posts/september-2024-placeos-product-updates/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/posts/september-2024-placeos-product-updates/</guid>
+      <description>New WorkMate features: email templates, parking management, QR code printing, room alerts, and a media library in our September release.</description>
+    </item>
+    <item>
+      <title>LIVE DEMO: AI Room Control</title>
+      <link>http://localhost:1314/posts/live-demo-ai-room-control/</link>
+      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/posts/live-demo-ai-room-control/</guid>
+      <description>Book, cancel, and control meeting rooms effortlessly with simple prompts. Explore ChromeOS, AOPEN touch panels, and digital signage in our demo event. Join now!</description>
+    </item>
     <item>
       <title>Introducing Event Manager</title>
-      <link>http://localhost:1313/posts/introducing-event-manager/</link>
+      <link>http://localhost:1314/posts/introducing-event-manager/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/introducing-event-manager/</guid>
+      <guid>http://localhost:1314/posts/introducing-event-manager/</guid>
       <description>Introducing the Workplace Event Manager, your solution for seamless event planning and management. Optimize workplace events with our innovative tool.</description>
+    </item>
+    <item>
+      <title>LIVE DEMO: Concierge - Managing Workplace Experience</title>
+      <link>http://localhost:1314/posts/live-demo-concierge-managing-workplace-experience/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/posts/live-demo-concierge-managing-workplace-experience/</guid>
+      <description>Elevate your hybrid workplace with our advanced workplace management app. Discover how to enhance the workplace experience and streamline operations.</description>
+    </item>
+    <item>
+      <title>LIVE EVENT: Rethinking Campus Experience</title>
+      <link>http://localhost:1314/posts/live-event-rethinking-campus-experience/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/posts/live-event-rethinking-campus-experience/</guid>
+      <description>Discover smart campus solutions to enhance the campus experience. Learn how a campus app can streamline operations and improve student engagement.</description>
+    </item>
+    <item>
+      <title>Processing on the &#39;Edge&#39;</title>
+      <link>http://localhost:1314/posts/processing-on-the-edge/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/posts/processing-on-the-edge/</guid>
+      <description>Explore how edge processing transforms data handling and performance. See why processing on the edge is crucial for real-time analytics and faster decision-maki</description>
+    </item>
+    <item>
+      <title>June 2024 PlaceOS Product Updates</title>
+      <link>http://localhost:1314/posts/june-2024-placeos-product-updates/</link>
+      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/posts/june-2024-placeos-product-updates/</guid>
+      <description>Print concierge reports, refactored tables, authenticated user lists, support request types, map view POI creation, bug fixes.</description>
+    </item>
+    <item>
+      <title>LIVE DEMO: Event Manager</title>
+      <link>http://localhost:1314/posts/live-demo-event-manager/</link>
+      <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/posts/live-demo-event-manager/</guid>
+      <description>The office is there to support in-person connection, collaboration &amp;amp; productivity. The next live demo is all about that.</description>
+    </item>
+    <item>
+      <title>Four technology integrations to help during covid-19</title>
+      <link>http://localhost:1314/posts/four-technology-integrations-to-help-during-covid-19/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/posts/four-technology-integrations-to-help-during-covid-19/</guid>
+      <description>Right now, it’s hard to focus on any workplace user requirement unless we address the biggest challenge: COVID-19.</description>
+    </item>
+    <item>
+      <title>LIVE DEMO: Enhanced Room Booking &amp; Event Manager</title>
+      <link>http://localhost:1314/posts/live-demo-enhanced-room-booking-event-manager/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/posts/live-demo-enhanced-room-booking-event-manager/</guid>
+      <description>Our latest webinar will be introducing some highly requested updates to our room booking experience &amp;amp; event manager</description>
+    </item>
+    <item>
+      <title>LIVE DEMO: Visitor Management &amp; Locker Booking</title>
+      <link>http://localhost:1314/posts/live-demo-visitor-management-locker-booking/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/posts/live-demo-visitor-management-locker-booking/</guid>
+      <description>Looking to streamline your workplace&amp;rsquo;s visitor management workflows and enhance the visitor experience?</description>
+    </item>
+    <item>
+      <title>Office space utilization is only half the story</title>
+      <link>http://localhost:1314/posts/office-space-utilization-is-only-half-the-story/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/posts/office-space-utilization-is-only-half-the-story/</guid>
+      <description>It&amp;rsquo;s easy to guess what most workplaces think they need in terms of data. Here&amp;rsquo;s what they actually need.</description>
+    </item>
+    <item>
+      <title>Office Space Utilization: The Roadmap to Efficiency</title>
+      <link>http://localhost:1314/posts/office-space-utilization-the-roadmap-to-efficiency/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/posts/office-space-utilization-the-roadmap-to-efficiency/</guid>
+      <description>Discover the significance of office space utilization. Dive into key metrics, benefits, and the future of office efficiency.</description>
+    </item>
+    <item>
+      <title>User input equals error: the Elon Musk approach</title>
+      <link>http://localhost:1314/posts/user-input-equals-error-the-elon-musk-approach/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/posts/user-input-equals-error-the-elon-musk-approach/</guid>
+      <description>Tesla takes the approach, all user input equals error. There’s a lot we can learn from that when we apply that ethos.</description>
     </item>
   </channel>
 </rss>

@@ -463,8 +463,22 @@
   related_topics:
   - apis
   - systems
-  - product
   - platform
+- id: platform
+  title: Platform
+  description: "PlaceOS is an open-source integration platform that connects building
+    systems, workplace technologies, and user interfaces. The platform enables seamless
+    automation and control across diverse hardware and software ecosystems."
+  subtopics:
+  - Integration Layer
+  - Open-Source Architecture
+  - API-First Design
+  - Multi-Tenant Support
+  related_topics:
+  - apis
+  - systems
+  - drivers
+  - configuration
 - id: retrofit
   title: Retrofit
   description: "PlaceOS can be deployed in existing buildings without major hardware\
@@ -540,6 +554,21 @@
   - occupancy
   - energy
   - sustainability
+- id: stagehand
+  title: Stagehand
+  description: "Stagehand is PlaceOS's AV control and automation solution designed
+    for meeting rooms and presentation spaces. It provides intuitive interfaces for
+    managing audio-visual equipment and room environments."
+  subtopics:
+  - AV Control Interface
+  - Meeting Room Automation
+  - Presentation Management
+  - Room Environment Control
+  related_topics:
+  - av
+  - meeting-rooms
+  - interface
+  - automation
 - id: surveys
   title: Workplace Surveys
   description: Surveys help organizations gather feedback on space usability, amenities,

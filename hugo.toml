@@ -59,5 +59,10 @@ theme = "til"
       [markup.goldmark.parser.attribute]
         block = false
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  post_type = "post_types"
+
 [sitemap]
   filename = "sitemap.xml"

@@ -1,8 +1,7 @@
 ---
-title: 'LIVE DEMO: Connect Your Business to Your Building'
+title: "LIVE DEMO: Connect Your Business to Your Building"
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
   - Automation
   - Energy
   - Interface
@@ -10,12 +9,10 @@ categories:
   - Smart Building
   - Systems
   - Workplace
+post_types:
   - webinar
-summary: >-
-  Experience digital transformation with our live demo. Discover how smart
-  building technology can enhance your workplace solution and connect your
-  business seaml
-tags: []
+summary: Experience digital transformation with our live demo. Discover how smart building technology can enhance your workplace solution and connect your business seaml
+tags:
 author: Jeremy West
 image: /images/posts/2024/07/connect-your-business-to-your-building.webp
 ---

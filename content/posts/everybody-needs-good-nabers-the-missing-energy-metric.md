@@ -1,19 +1,16 @@
 ---
-title: 'Everybody Needs Good NABERS: The Missing Energy Metric'
+title: "Everybody Needs Good NABERS: The Missing Energy Metric"
 date: 2024-05-20T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Energy
   - Hybrid Work
   - Occupancy
   - Sustainability
   - Workplace
+post_types:
   - blog
-summary: >-
-  There's a SINGLE metric that could improve every office's energy efficiency in
-  the country.And they're not measuring it...
-tags: []
+summary: There's a SINGLE metric that could improve every office's energy efficiency in the country.And they're not measuring it...
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/05/nabers-copy.webp
 ---

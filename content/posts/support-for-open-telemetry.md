@@ -2,16 +2,12 @@
 title: Support for Open Telemetry
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Platform
-  - Product
+  - Analytics
+post_types:
   - product-update
-summary: >-
-  Explore the power of Open Telemetry in monitoring and improving system
-  performance. Learn how to implement Open Telemetry for better insights and
-  efficiency.
-tags: []
+summary: Explore the power of Open Telemetry in monitoring and improving system performance. Learn how to implement Open Telemetry for better insights and efficiency.
+tags:
 author: Jeremy West
 image: /images/posts/2024/07/open-telemetry.jpg
 ---

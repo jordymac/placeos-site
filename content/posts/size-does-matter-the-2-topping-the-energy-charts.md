@@ -1,9 +1,7 @@
 ---
-title: 'Size Does Matter: The 2% Topping the Energy Charts'
+title: "Size Does Matter: The 2% Topping the Energy Charts"
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Automation
   - Campus
   - Commercial Real Estate
@@ -11,12 +9,10 @@ categories:
   - HVAC
   - Occupancy
   - Office Space
+post_types:
   - blog
-summary: >-
-  Uncover the secrets of the top 2% in commercial real estate. Achieve energy
-  reduction and lower energy consumption with expert insights. Find out how
-  today!
-tags: []
+summary: Uncover the secrets of the top 2% in commercial real estate. Achieve energy reduction and lower energy consumption with expert insights. Find out how today!
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/07/size-does-matter.webp
 ---

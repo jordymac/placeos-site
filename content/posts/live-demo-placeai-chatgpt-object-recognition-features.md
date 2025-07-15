@@ -1,23 +1,18 @@
 ---
-title: 'LIVE DEMO: PlaceAI - ChatGPT & Object Recognition Features'
+title: "LIVE DEMO: PlaceAI - ChatGPT & Object Recognition Features"
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Computer Vision
   - Desk Booking
   - Interface
   - Meeting Rooms
   - Occupancy
-  - Product
   - Safety
   - Workplace
+post_types:
   - webinar
-summary: >-
-  Discover the benefits of Chat GPT integration in your workplace. Join our live
-  demo to see how this AI assistant can enhance productivity and streamline
-  tasks.
-tags: []
+summary: Discover the benefits of Chat GPT integration in your workplace. Join our live demo to see how this AI assistant can enhance productivity and streamline tasks.
+tags:
 author: Jeremy West
 image: /images/posts/2024/07/12-placegpt.jpg
 ---

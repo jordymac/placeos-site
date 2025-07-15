@@ -1,19 +1,16 @@
 ---
-title: 'LIVE EVENT: Rethinking Campus Experience'
+title: "LIVE EVENT: Rethinking Campus Experience"
 date: 2024-07-02T00:00:00.000Z
 categories:
-  - AI
-  - AV
   - Campus
   - Energy
-  - Event
+  - event-management
   - Sustainability
   - Workplace
+post_types:
   - webinar
-summary: >-
-  Discover smart campus solutions to enhance the campus experience. Learn how a
-  campus app can streamline operations and improve student engagement.
-tags: []
+summary: Discover smart campus solutions to enhance the campus experience. Learn how a campus app can streamline operations and improve student engagement.
+tags:
 author: Jordy McIntyre
 image: /images/posts/2024/07/rethinking-campus-experience-event-thumbnail9x16.jpg
 ---
