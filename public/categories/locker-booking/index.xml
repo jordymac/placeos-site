@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Locker Booking on PlaceOS</title>
-    <link>http://localhost:1314/categories/locker-booking/</link>
+    <link>http://localhost:1313/categories/locker-booking/</link>
     <description>Recent content in Locker Booking on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1314/categories/locker-booking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/locker-booking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>December 2024 PlaceOS Product Updates</title>
-      <link>http://localhost:1314/posts/december-2024-placeos-product-updates/</link>
+      <link>http://localhost:1313/posts/december-2024-placeos-product-updates/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/december-2024-placeos-product-updates/</guid>
+      <guid>http://localhost:1313/posts/december-2024-placeos-product-updates/</guid>
       <description>December 2024 WorkMate updates include new parking utilization reports, kiosk customizations, recurring desk bookings, added language support and room alerts.</description>
     </item>
     <item>
       <title>New Feature: Locking Booking</title>
-      <link>http://localhost:1314/posts/new-feature-locking-booking/</link>
+      <link>http://localhost:1313/posts/new-feature-locking-booking/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/new-feature-locking-booking/</guid>
+      <guid>http://localhost:1313/posts/new-feature-locking-booking/</guid>
       <description>Explore PlaceOS&amp;rsquo;s Locker Booking System: Easy reservations, access control, visual booking, and flexibility for workplaces and visitor management.</description>
     </item>
     <item>
       <title>LIVE DEMO: Visitor Management &amp; Locker Booking</title>
-      <link>http://localhost:1314/posts/live-demo-visitor-management-locker-booking/</link>
+      <link>http://localhost:1313/posts/live-demo-visitor-management-locker-booking/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/live-demo-visitor-management-locker-booking/</guid>
+      <guid>http://localhost:1313/posts/live-demo-visitor-management-locker-booking/</guid>
       <description>Looking to streamline your workplace&amp;rsquo;s visitor management workflows and enhance the visitor experience?</description>
     </item>
   </channel>

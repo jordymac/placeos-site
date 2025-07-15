@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Location Status on PlaceOS</title>
-    <link>http://localhost:1314/categories/location-status/</link>
+    <link>http://localhost:1313/categories/location-status/</link>
     <description>Recent content in Location Status on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1314/categories/location-status/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/location-status/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LIVE DEMO: Working with Working from Home</title>
-      <link>http://localhost:1314/posts/live-demo-working-with-working-from-home/</link>
+      <link>http://localhost:1313/posts/live-demo-working-with-working-from-home/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/live-demo-working-with-working-from-home/</guid>
+      <guid>http://localhost:1313/posts/live-demo-working-with-working-from-home/</guid>
       <description>oin our live demo to optimize hybrid work. Find out how to efficiently manage work from home and work status location for better team collaboration. Learn more</description>
     </item>
   </channel>

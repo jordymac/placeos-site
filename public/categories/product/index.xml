@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Product on PlaceOS</title>
-    <link>http://localhost:1314/categories/product/</link>
+    <link>http://localhost:1313/categories/product/</link>
     <description>Recent content in Product on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1314/categories/product/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/product/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VirtualCare</title>
-      <link>http://localhost:1314/products/virtualcare/</link>
+      <link>http://localhost:1313/products/virtualcare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/products/virtualcare/</guid>
+      <guid>http://localhost:1313/products/virtualcare/</guid>
       <description>Gives clinicians, carers, and patients one system to manage consults, surveys, referrals, Medicare billing, education, and follow-ups — no plugins or patchwork tools.</description>
     </item>
     <item>
       <title>Suncorp - Office downsize from three buildings to one</title>
-      <link>http://localhost:1314/projects/office-downsize-from-three-buildings-to-one/</link>
+      <link>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/projects/office-downsize-from-three-buildings-to-one/</guid>
+      <guid>http://localhost:1313/projects/office-downsize-from-three-buildings-to-one/</guid>
       <description>In preparation for their new office space, Suncorp recognized that they were not perceived as technology innovators and decided to take action. They embarked on a research mission to determine what their ideal technological infrastructure would look like, and then worked backward to identify which specific technologies would help them achieve that goal. Their ultimate objective was to create a system that could serve as the brain of their new building.</description>
     </item>
   </channel>

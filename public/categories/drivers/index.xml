@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drivers on PlaceOS</title>
-    <link>http://localhost:1314/categories/drivers/</link>
+    <link>http://localhost:1313/categories/drivers/</link>
     <description>Recent content in Drivers on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1314/categories/drivers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/drivers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WorkMate</title>
-      <link>http://localhost:1314/products/workmate-workplace-solution/</link>
+      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/products/workmate-workplace-solution/</guid>
+      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
       <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
     </item>
     <item>
       <title>StageHand</title>
-      <link>http://localhost:1314/products/stagehand/</link>
+      <link>http://localhost:1313/products/stagehand/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/products/stagehand/</guid>
+      <guid>http://localhost:1313/products/stagehand/</guid>
       <description>Control every AV device in every room on campus — from your browser</description>
     </item>
     <item>
       <title>Canadian University Campus - Energy Reduction &amp; Sustainability</title>
-      <link>http://localhost:1314/projects/campus-energy-reduction-sustainability/</link>
+      <link>http://localhost:1313/projects/campus-energy-reduction-sustainability/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/projects/campus-energy-reduction-sustainability/</guid>
+      <guid>http://localhost:1313/projects/campus-energy-reduction-sustainability/</guid>
       <description>This pilot examined the implementation of PlaceOS for automating and synchronizing separate building systems—security access, HVAC, AV, and others—integrated with the university’s scheduling system. The goal was to transform classrooms into smart spaces through enhanced automation capabilities.</description>
     </item>
     <item>
       <title>Platform Power Unleashed: The Strategy Behind Our New Products</title>
-      <link>http://localhost:1314/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</link>
+      <link>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</guid>
+      <guid>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</guid>
       <description>The future of enterprise tech is shifting from SaaS to platform-based solutions. Explore how integration, AI agents, and modular design accelerate growth and in</description>
     </item>
     <item>
       <title>How to Successfully Return to the Office after Covid</title>
-      <link>http://localhost:1314/posts/how-to-successfully-return-to-the-office-after-covid/</link>
+      <link>http://localhost:1313/posts/how-to-successfully-return-to-the-office-after-covid/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/how-to-successfully-return-to-the-office-after-covid/</guid>
+      <guid>http://localhost:1313/posts/how-to-successfully-return-to-the-office-after-covid/</guid>
       <description>Discover best practices for returning to the office after COVID. Explore how to create a safe and productive work environment in our comprehensive guide.</description>
     </item>
     <item>
       <title>Processing on the &#39;Edge&#39;</title>
-      <link>http://localhost:1314/posts/processing-on-the-edge/</link>
+      <link>http://localhost:1313/posts/processing-on-the-edge/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/processing-on-the-edge/</guid>
+      <guid>http://localhost:1313/posts/processing-on-the-edge/</guid>
       <description>Explore how edge processing transforms data handling and performance. See why processing on the edge is crucial for real-time analytics and faster decision-maki</description>
     </item>
     <item>
       <title>April 2024 PlaceOS Product Updates</title>
-      <link>http://localhost:1314/posts/april-2024-placeos-product-updates/</link>
+      <link>http://localhost:1313/posts/april-2024-placeos-product-updates/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/april-2024-placeos-product-updates/</guid>
+      <guid>http://localhost:1313/posts/april-2024-placeos-product-updates/</guid>
       <description>POI QR code support, public map kiosk, enhanced MapsPeople search, backoffice warnings, and driver updates.</description>
     </item>
     <item>
       <title>User input equals error: the Elon Musk approach</title>
-      <link>http://localhost:1314/posts/user-input-equals-error-the-elon-musk-approach/</link>
+      <link>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/user-input-equals-error-the-elon-musk-approach/</guid>
+      <guid>http://localhost:1313/posts/user-input-equals-error-the-elon-musk-approach/</guid>
       <description>Tesla takes the approach, all user input equals error. There’s a lot we can learn from that when we apply that ethos.</description>
     </item>
   </channel>

@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Government on PlaceOS</title>
-    <link>http://localhost:1314/categories/government/</link>
+    <link>http://localhost:1313/categories/government/</link>
     <description>Recent content in Government on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1314/categories/government/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/government/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VirtualCare</title>
-      <link>http://localhost:1314/products/virtualcare/</link>
+      <link>http://localhost:1313/products/virtualcare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/products/virtualcare/</guid>
+      <guid>http://localhost:1313/products/virtualcare/</guid>
       <description>Gives clinicians, carers, and patients one system to manage consults, surveys, referrals, Medicare billing, education, and follow-ups — no plugins or patchwork tools.</description>
     </item>
     <item>
       <title>Government Agency - Multi-Tenancy: Space as a Service</title>
-      <link>http://localhost:1314/projects/multi-tenancy-space-as-a-service/</link>
+      <link>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/projects/multi-tenancy-space-as-a-service/</guid>
+      <guid>http://localhost:1313/projects/multi-tenancy-space-as-a-service/</guid>
       <description>This Government Agency required a multifunctional and scalable workspace management system to serve various federal agencies. It must accurately authenticate users to manage and charge for space utilization, and provide a scalable model suitable for other government spaces facing underutilization.</description>
     </item>
     <item>
       <title>Canada Needs to Retrofit 482,000 Buildings by 2050—At the Current Pace, It Will Take 70 Years</title>
-      <link>http://localhost:1314/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</link>
+      <link>http://localhost:1313/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</guid>
+      <guid>http://localhost:1313/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</guid>
       <description>Canada must retrofit nearly half a million commercial buildings to meet its 2050 net-zero target, yet the current pace it will take them 70 years to reach it.</description>
     </item>
     <item>
       <title>Platform Power Unleashed: The Strategy Behind Our New Products</title>
-      <link>http://localhost:1314/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</link>
+      <link>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</guid>
+      <guid>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</guid>
       <description>The future of enterprise tech is shifting from SaaS to platform-based solutions. Explore how integration, AI agents, and modular design accelerate growth and in</description>
     </item>
     <item>
       <title>Partnership announcement with Monstarlab</title>
-      <link>http://localhost:1314/posts/partnership-announcement-with-monstarlab/</link>
+      <link>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/partnership-announcement-with-monstarlab/</guid>
+      <guid>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</guid>
       <description>We are proud to announce our official partnership with global digital consultancy Monstarlab! The partnership will help build</description>
     </item>
     <item>
       <title>The world&#39;s largest emitter</title>
-      <link>http://localhost:1314/posts/the-world-s-largest-emitter/</link>
+      <link>http://localhost:1313/posts/the-world-s-largest-emitter/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/the-world-s-largest-emitter/</guid>
+      <guid>http://localhost:1313/posts/the-world-s-largest-emitter/</guid>
       <description>Real estate is the largest asset class on Earth. It’s also the largest emitter of greenhouse gasses.</description>
     </item>
   </channel>

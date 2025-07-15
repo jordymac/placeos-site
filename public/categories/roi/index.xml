@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ROI on PlaceOS</title>
-    <link>http://localhost:1314/categories/roi/</link>
+    <link>http://localhost:1313/categories/roi/</link>
     <description>Recent content in ROI on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1314/categories/roi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/roi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Occupancy Monitoring System</title>
-      <link>http://localhost:1314/products/occupancy-monitoring/</link>
+      <link>http://localhost:1313/products/occupancy-monitoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/products/occupancy-monitoring/</guid>
+      <guid>http://localhost:1313/products/occupancy-monitoring/</guid>
       <description>A self-hosted occupancy monitoring system that works with the infrastructure you already have — no new sensors needed.</description>
     </item>
     <item>
       <title>Room Booking</title>
-      <link>http://localhost:1314/products/room-booking/</link>
+      <link>http://localhost:1313/products/room-booking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/products/room-booking/</guid>
+      <guid>http://localhost:1313/products/room-booking/</guid>
       <description>A simple, self-hosted room booking app you don&amp;rsquo;t pay per room per month, you own it</description>
     </item>
   </channel>

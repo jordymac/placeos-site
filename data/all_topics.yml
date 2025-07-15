@@ -14,6 +14,19 @@
   - computer-vision
   - av
   - occupancy
+- id: access-control
+  title: Access Control
+  description: Access control systems manage who can enter buildings, rooms, and areas through card readers, mobile credentials, and biometric systems. PlaceOS integrates with access control to automate entries, track occupancy, and enhance security workflows.
+  subtopics:
+  - Mobile Access
+  - Card Reader Integration
+  - Biometric Access
+  - Visitor Access Management
+  related_topics:
+  - visitor-management
+  - campus
+  - systems
+  - safety
 - id: apis
   title: API Integrations
   description: "APIs allow PlaceOS to integrate with a wide range of systems \u2014\

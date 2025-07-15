@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scalability on PlaceOS</title>
-    <link>http://localhost:1314/categories/scalability/</link>
+    <link>http://localhost:1313/categories/scalability/</link>
     <description>Recent content in Scalability on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1314/categories/scalability/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/scalability/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WorkMate</title>
-      <link>http://localhost:1314/products/workmate-workplace-solution/</link>
+      <link>http://localhost:1313/products/workmate-workplace-solution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/products/workmate-workplace-solution/</guid>
+      <guid>http://localhost:1313/products/workmate-workplace-solution/</guid>
       <description>The first workplace management system to combine out-of-the-box simplicity with enterprise-level configuration &amp;amp; scalability</description>
     </item>
     <item>
       <title>Canadian University Campus - Energy Reduction &amp; Sustainability</title>
-      <link>http://localhost:1314/projects/campus-energy-reduction-sustainability/</link>
+      <link>http://localhost:1313/projects/campus-energy-reduction-sustainability/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/projects/campus-energy-reduction-sustainability/</guid>
+      <guid>http://localhost:1313/projects/campus-energy-reduction-sustainability/</guid>
       <description>This pilot examined the implementation of PlaceOS for automating and synchronizing separate building systems—security access, HVAC, AV, and others—integrated with the university’s scheduling system. The goal was to transform classrooms into smart spaces through enhanced automation capabilities.</description>
     </item>
     <item>
       <title>Platform Power Unleashed: The Strategy Behind Our New Products</title>
-      <link>http://localhost:1314/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</link>
+      <link>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</guid>
+      <guid>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</guid>
       <description>The future of enterprise tech is shifting from SaaS to platform-based solutions. Explore how integration, AI agents, and modular design accelerate growth and in</description>
     </item>
     <item>
       <title>How to Choose the Best Meeting Room Booking Software</title>
-      <link>http://localhost:1314/posts/how-to-choose-the-best-meeting-room-booking-software/</link>
+      <link>http://localhost:1313/posts/how-to-choose-the-best-meeting-room-booking-software/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/how-to-choose-the-best-meeting-room-booking-software/</guid>
+      <guid>http://localhost:1313/posts/how-to-choose-the-best-meeting-room-booking-software/</guid>
       <description>Learn how to select the best meeting room booking software. Explore common challenges, scalability concerns &amp;amp; the unique benefits of PlaceOS.</description>
     </item>
     <item>
       <title>Partnership announcement with Monstarlab</title>
-      <link>http://localhost:1314/posts/partnership-announcement-with-monstarlab/</link>
+      <link>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/partnership-announcement-with-monstarlab/</guid>
+      <guid>http://localhost:1313/posts/partnership-announcement-with-monstarlab/</guid>
       <description>We are proud to announce our official partnership with global digital consultancy Monstarlab! The partnership will help build</description>
     </item>
     <item>
       <title>Deployment via OpenShift</title>
-      <link>http://localhost:1314/posts/deployment-via-openshift/</link>
+      <link>http://localhost:1313/posts/deployment-via-openshift/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/deployment-via-openshift/</guid>
+      <guid>http://localhost:1313/posts/deployment-via-openshift/</guid>
       <description>Learn how to streamline deployments with OpenShift and Kubernetes. Discover best practices for efficient and scalable application management.</description>
     </item>
     <item>
       <title>LIVE DEMO: Indoor Wayfinding &amp; Workplace Management Overhaul</title>
-      <link>http://localhost:1314/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</link>
+      <link>http://localhost:1313/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</link>
       <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</guid>
+      <guid>http://localhost:1313/posts/live-demo-indoor-wayfinding-workplace-management-overhaul/</guid>
       <description>A brand new feature powered by a new integration. An overhaul of our workplace management application.</description>
     </item>
     <item>
       <title>New WorkMate Features: Experience Surveys, WFH Status &amp; more</title>
-      <link>http://localhost:1314/posts/new-workmate-features-experience-surveys-wfh-status-more/</link>
+      <link>http://localhost:1313/posts/new-workmate-features-experience-surveys-wfh-status-more/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/new-workmate-features-experience-surveys-wfh-status-more/</guid>
+      <guid>http://localhost:1313/posts/new-workmate-features-experience-surveys-wfh-status-more/</guid>
       <description>New features for our workplace suite, WorkMate, includes Experience Surveys, Resource Pay, WFH Status &amp;amp; Quick Booking.</description>
     </item>
     <item>
       <title>Why Switch from On-Prem PlaceOS to Cloud Based?</title>
-      <link>http://localhost:1314/posts/why-switch-from-on-prem-placeos-to-cloud-based/</link>
+      <link>http://localhost:1313/posts/why-switch-from-on-prem-placeos-to-cloud-based/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/why-switch-from-on-prem-placeos-to-cloud-based/</guid>
+      <guid>http://localhost:1313/posts/why-switch-from-on-prem-placeos-to-cloud-based/</guid>
       <description>Why move from an on-premise PlaceOS (or even ACAEngine) deployment to a cloud-based PlaceOS solution?</description>
     </item>
   </channel>
