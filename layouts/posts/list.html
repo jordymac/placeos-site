@@ -1,0 +1,173 @@
+{{ define "main" }}
+  <h1 class="flex flex-row space-x-2 items-center">
+    <span>{{ .Title }}</span>
+    {{- with .OutputFormats.Get "rss" -}}
+      <a
+        rel="alternate"
+        type="application/rss+xml"
+        href="{{ .RelPermalink }}"
+        title="Subscribe to the {{ $.Title }} RSS feed"
+        class="text-slate-300 hover:text-orange-600"
+      >
+        {{ partial "svg/rss.html" }}
+      </a>
+    {{- end }}
+  </h1>
+
+  {{ .Content }}
+
+  <!-- Category Filter Section -->
+  <div class="not-prose mb-8">
+    <div class="flex flex-col lg:flex-row gap-6">
+      <!-- Filter Sidebar -->
+      <div class="lg:w-1/4">
+        <h4 class="text-lg font-semibold mb-4">Filter by Category</h4>
+        <div id="category-filter-container"></div>
+      </div>
+      
+      <!-- Content Area -->
+      <div class="lg:w-3/4">
+        <!-- Post Type Tabs -->
+        <div class="border-b border-gray-200 dark:border-gray-700 mb-6">
+          <nav class="-mb-px flex space-x-8" aria-label="Tabs">
+            <button 
+              onclick="showTab('all')" 
+              id="tab-all" 
+              class="tab-button active whitespace-nowrap py-2 px-1 border-b-2 font-medium text-sm focus:outline-none"
+            >
+              All Posts
+            </button>
+            <button 
+              onclick="showTab('blog')" 
+              id="tab-blog" 
+              class="tab-button whitespace-nowrap py-2 px-1 border-b-2 font-medium text-sm focus:outline-none"
+            >
+              Blog
+            </button>
+            <button 
+              onclick="showTab('product-update')" 
+              id="tab-product-update" 
+              class="tab-button whitespace-nowrap py-2 px-1 border-b-2 font-medium text-sm focus:outline-none"
+            >
+              Product Updates
+            </button>
+            <button 
+              onclick="showTab('webinar')" 
+              id="tab-webinar" 
+              class="tab-button whitespace-nowrap py-2 px-1 border-b-2 font-medium text-sm focus:outline-none"
+            >
+              Webinars
+            </button>
+          </nav>
+        </div>
+
+        <!-- Posts Content -->
+        <div id="posts-content">
+          <!-- Posts will be rendered here by JavaScript -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Prepare posts data for JavaScript -->
+  {{ $pages := where site.RegularPages "Section" "posts" }}
+  
+  <script>
+    // Inject posts data for JavaScript filtering
+    window.postsData = {
+      posts: [
+        {{- range $pages }}
+        {
+          title: {{ .Title | jsonify }},
+          summary: {{ .Summary | jsonify }},
+          date: {{ .Date.Format "2006-01-02" | jsonify }},
+          permalink: {{ .RelPermalink | jsonify }},
+          categories: {{ if .Params.categories }}{{ .Params.categories | jsonify }}{{ else }}[]{{ end }},
+          post_types: {{ if .Params.post_types }}{{ .Params.post_types | jsonify }}{{ else }}[]{{ end }},
+          year: {{ .Date.Format "2006" | jsonify }}
+        },
+        {{- end }}
+      ].filter(p => p.title), // Remove any empty entries
+      categories: [
+        {{- range .Site.Data.all_topics }}
+        {
+          id: {{ .id | jsonify }},
+          title: {{ .title | jsonify }}
+        },
+        {{- end }}
+      ].filter(c => c.id) // Remove any empty entries
+    };
+  </script>
+  
+  <!-- Filter and tab styles -->
+  <style>
+    .filter-container {
+        position: relative;
+        margin-bottom: 1rem;
+    }
+    .filter-input {
+        width: 100%;
+        padding: 0.5rem 0.75rem;
+        border: 1px solid var(--input-border);
+        border-radius: 0.375rem;
+        background-color: var(--input-bg);
+        color: var(--input-text);
+    }
+    .suggestions-dropdown {
+        position: absolute;
+        width: 100%;
+        max-height: 200px;
+        overflow-y: auto;
+        background: var(--input-bg);
+        border: 1px solid var(--input-border);
+        border-top: none;
+        border-radius: 0 0 0.375rem 0.375rem;
+        z-index: 1000;
+        display: none;
+    }
+    .suggestion-item {
+        padding: 0.5rem 0.75rem;
+        cursor: pointer;
+        color: var(--input-text);
+    }
+    .suggestion-item:hover {
+        background-color: var(--taxonomy-bg-hover);
+    }
+    .selected-pills {
+        margin-top: 0.5rem;
+    }
+    .selected-pill {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.25rem 0.75rem;
+        margin: 0.25rem;
+        font-size: 0.875rem;
+        background-color: var(--btn-bg);
+        color: var(--btn-text);
+        border-radius: 50rem;
+        border: 1px solid var(--btn-border);
+    }
+    .remove-pill {
+        margin-left: 0.5rem;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .tab-button {
+      transition: all 0.2s ease;
+    }
+    .tab-button:not(.active) {
+      border-color: transparent;
+      color: var(--prose-body);
+    }
+    .tab-button:not(.active):hover {
+      border-color: var(--taxonomy-border);
+      color: var(--fg);
+    }
+    .tab-button.active {
+      border-color: var(--link);
+      color: var(--link);
+    }
+  </style>
+  
+  <script src="/js/posts-filter.js" defer></script>
+{{ end }}
