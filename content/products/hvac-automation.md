@@ -2,7 +2,7 @@
 title: HVAC Automation
 slug: hvac-automation
 weight: 5
-summary: "Control HVAC based on real occupancy — without replacing your existing system"
+summary: "Cut HVAC costs from day one—with your existing system"
 hero_image: "images/products/hvac-automation/energy-reduction-hero-image-dark.webp"
 image: images/products/hvac-automation/energy-reduction-hero-image-dark.webp
 product_logo: hvac-automation-logo.svg
@@ -64,10 +64,26 @@ related_links:
     anchor_text: LensPath Computer Vision Platform
   - url: /products/backoffice
     anchor_text: BackOffice - Smart Building Platform
+  - url: /industry/energy/
+    anchor_text: Why commercial buildings waste energy
+  - url: /posts/importance-of-energy-data-for-commercial-buildings/
+    anchor_text: Importance of energy data for commercial buildings
+  - url: /posts/size-does-matter-the-2-topping-the-energy-charts/
+    anchor_text: The 2 topping the energy charts
+  - url: /canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/
+    anchor_text: Canada’s retrofit challenge
+  - url: /posts/a-guide-to-energy-data-collection-utilization/
+    anchor_text: Guide to energy data collection & utilization
 
 ---
 
 {{< wistia id="gmk916qhu4" >}} 
+
+## 30% of energy in commercial buildings is wasted and it's static HVAC schedules fault
+
+Up to [30% of energy in commercial buildings is wasted](/industry/energy/)—often because HVAC systems run on static schedules regardless of occupancy. Studies show that basing HVAC control on real-time presence could improve HVAC efficiency by up to 40%. [PlaceOS helped one university reduce HVAC energy usage by 23%](/projects/campus-energy-reduction-sustainability/)—all without installing new sensors. 
+
+Deploy intelligent HVAC automation without the usual capital project. PlaceOS uses your existing Wi-Fi and BMS infrastructure to infer real-time occupancy and control HVAC accordingly—reducing energy costs from day one.
 
 ## Automate HVAC usage based on actual presence
 
@@ -78,7 +94,6 @@ Rather than heating or cooling based on fixed schedules, PlaceOS adjusts HVAC ou
 ## No sensors. No hardware. No problem.
 
 Unlike other solutions that require physical occupancy sensors, PlaceOS uses existing IT systems—like Wi-Fi networks and booking platforms—to infer occupancy. That means faster deployment, lower cost, and no disruption to your building.
-
 
 ## Make your existing BMS smarter
 
@@ -111,6 +126,8 @@ Track usage across days, weeks, and seasons. Use PlaceOS analytics tools to buil
 ## Cut costs without the capital project
 
 PlaceOS offers building-wide HVAC automation that doesn’t require a construction crew. Start optimizing immediately—with what you already have.
+
+### Stop conditioning empty rooms today
 
 
 
