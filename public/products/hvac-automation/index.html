@@ -426,7 +426,62 @@ viewBox="0 0 512 512">
 
     
      <section class="animate-in fade-in slide-in-from-bottom-6 duration-700 delay-600">
-    <h3 id="automate-hvac-usage-based-on-actual-presence" class="scroll-mt-8 group">
+    <style>
+  .custom-wistia-wrapper {
+    width: 115%;
+    margin-left: -7.5%;
+    margin-right: -7.5%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+
+  .custom-wistia-wrapper .wistia_responsive_padding {
+    padding-top: 56.25%;
+    position: relative;
+  }
+
+  .custom-wistia-wrapper .wistia_responsive_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+@media only screen and (max-width: 675px) {
+      .custom-wistia-wrapper {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  }
+</style>
+
+<div class="custom-wistia-wrapper">
+  <div class="wistia_responsive_padding">
+    <div class="wistia_responsive_wrapper">
+      <iframe
+        src="https://fast.wistia.net/embed/iframe/gmk916qhu4?web_component=true&seo=true"
+        title="Wistia Video"
+        allow="autoplay; fullscreen"
+        allowtransparency="true"
+        frameborder="0"
+        scrolling="no"
+        class="wistia_embed"
+        width="100%"
+        height="100%">
+      </iframe>
+    </div>
+  </div>
+</div>
+<script src="https://fast.wistia.net/player.js" async></script>
+
+  
+  
+<h3 id="automate-hvac-usage-based-on-actual-presence" class="scroll-mt-8 group">
   Automate HVAC usage based on actual presence
   
     <a href="#automate-hvac-usage-based-on-actual-presence"
@@ -963,7 +1018,7 @@ viewBox="0 0 512 512">
       </details>
       <details class="border rounded p-4">
         <summary class="cursor-pointer font-semibold">How does the energy management system help in reducing energy usage?</summary>
-        <div class="mt-2 text-sm">It uses automation workflows to control lighting, HVAC, and other devices based on occupancy or scheduling data. If the space isn&#39;t being used, it can turn everything off.</div>
+        <div class="mt-2 text-sm">It uses automation workflows to control lighting, HVAC, and other devices based on occupancy or scheduling data. If the space isn&rsquo;t being used, it can turn everything off.</div>
       </details>
       <details class="border rounded p-4">
         <summary class="cursor-pointer font-semibold">Can the energy management system integrate with existing building systems like BMS?</summary>

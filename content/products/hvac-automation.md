@@ -66,6 +66,9 @@ related_links:
     anchor_text: BackOffice - Smart Building Platform
 
 ---
+
+{{< wistia id="gmk916qhu4" >}} 
+
 ## Automate HVAC usage based on actual presence
 
 Rather than heating or cooling based on fixed schedules, PlaceOS adjusts HVAC output in real time based on whether spaces are occupied. This means no more conditioning empty rooms—and no more manual overrides.

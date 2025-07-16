@@ -4,6 +4,8 @@ summary: >-
     The only campus management system that reduces energy consumption, handles AV integration, does resource booking, provides wayfinding and car space booking.
 ---
 
+{{< wistia id="lpgcfokl2w" >}} gmk916qhu4
+
 The only campus management system that reduces energy consumption, handles AV integration, does resource booking, provides wayfinding and car space booking.
 
 ![smart campus interface of entire campus map](/images/industry/smart-campus/smart-campus-interface-of-entire-campus-map.webp)
