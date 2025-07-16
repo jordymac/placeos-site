@@ -81,9 +81,11 @@ related_links:
 
 ## 30% of energy in commercial buildings is wasted and it's static HVAC schedules fault
 
-Up to [30% of energy in commercial buildings is wasted](/industry/energy/)—often because HVAC systems run on static schedules regardless of occupancy. Studies show that basing HVAC control on real-time presence could improve HVAC efficiency by up to 40%. [PlaceOS helped one university reduce HVAC energy usage by 23%](/projects/campus-energy-reduction-sustainability/)—all without installing new sensors. 
+Up to [30% of energy in commercial buildings is wasted](/industry/energy/)—often because HVAC systems run on static schedules regardless of occupancy. Studies show that basing HVAC control on real-time presence could improve HVAC efficiency by up to 40%. 
 
-Deploy intelligent HVAC automation without the usual capital project. PlaceOS uses your existing Wi-Fi and BMS infrastructure to infer real-time occupancy and control HVAC accordingly—reducing energy costs from day one.
+We've already proven this [helping one university reduce HVAC energy usage by 23%](/projects/campus-energy-reduction-sustainability/)—all without installing new sensors. 
+
+PlaceOS uses your existing Wi-Fi sensors, network & scheduling systems combined with BMS infrastructure to infer real-time occupancy and control HVAC accordingly—reducing energy costs from day one.
 
 ## Automate HVAC usage based on actual presence
 
