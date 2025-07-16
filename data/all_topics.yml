@@ -88,6 +88,19 @@
   - energy
   - ai
   - smart-building
+- id: backoffice
+  title: BackOffice
+  description: BackOffice is PlaceOS's comprehensive administrative platform for managing workplace operations, user accounts, and system configurations. It provides centralized control for facility managers and administrators across multiple locations.
+  subtopics:
+  - User Management
+  - System Administration
+  - Reporting & Analytics
+  - Multi-Location Management
+  related_topics:
+  - workplace-management
+  - configuration
+  - platform
+  - scalability
 - id: campus
   title: Campus
   description: "A campus refers to a network of interconnected buildings \u2014 often\
@@ -163,6 +176,19 @@
   - apis
   - workplace-management
   - systems
+- id: concierge
+  title: Concierge
+  description: Concierge is WorkMate's administration tool that enables facility managers and administrators to oversee workplace operations, manage bookings, and configure space policies. It provides real-time insights and control over workplace activities.
+  subtopics:
+  - Booking Management
+  - Space Administration
+  - User Support Tools
+  - Real-Time Monitoring
+  related_topics:
+  - workmate
+  - workplace-management
+  - backoffice
+  - configuration
 - id: coworking
   title: Coworking
   description: Coworking spaces benefit from automation, flexible booking, and usage
