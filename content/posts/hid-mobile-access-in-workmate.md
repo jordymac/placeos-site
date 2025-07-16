@@ -10,9 +10,8 @@ post_types:
 summary: You can now use your phone as your staff ID at supported offices — no fob required.
 tags:
 author: Jeremy West
-image: /images/posts/2024/06/placeos-april-2024-updates-main.webp
+image: /images/posts/2025/06/hid-workmate-app.webp
 ---
-# HID Mobile Access Now Available via PlaceOS WorkMate
 
 You can now use your phone as your staff ID at supported offices — no fob required.
 

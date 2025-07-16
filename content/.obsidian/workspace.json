@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "posts/hid-mobile-access-in-workmate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for hid-mobile-access-in-workmate"
             }
           },
           {
@@ -153,8 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,8 +167,9 @@
   },
   "active": "70bc16b8910cdb09",
   "lastOpenFiles": [
-    "posts/api-keys-simplify-authentication-for-apps-devices.md",
+    "posts/june-2025-placeos-product-updates.md",
     "posts/hid-mobile-access-in-workmate.md",
+    "posts/api-keys-simplify-authentication-for-apps-devices.md",
     "posts/93bn-of-commercial-real-estate-is-at-risk-here-s-what-to-do.md",
     "posts/april-2024-placeos-product-updates.md",
     "posts/a-guide-to-energy-efficient-commercial-buildings.md",
@@ -193,7 +193,6 @@
     "posts/social-distancing-is-sparking-the-smart-city-revolution.md",
     "posts/smart-building-energy-analytics.md",
     "posts/smart-building-data-traps.md",
-    "posts/smart-building-automation-platforms-vs-apps.md",
     "integrations",
     "industry"
   ]
