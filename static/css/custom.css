@@ -536,6 +536,17 @@ header form button {
   mask-repeat: no-repeat;
 }
 
+/* Wistia Video Wrapper Styles */
+.custom-wistia-wrapper {
+  width: 115%;
+  margin-left: -7.5%;
+  margin-right: -7.5%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
 
 @media only screen and (max-width: 675px) {
 

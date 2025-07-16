@@ -13,21 +13,19 @@
           >
         </div>
       {{- end }}
-
-      {{- with $imgResources.GetMatch "{*feature*,*cover*}" }}
-        <figure class="feature-image !mb-20 block text-center">
-          <img
-            src="{{ .RelPermalink }}"
-            width="{{ .Width }}"
-            height="{{ .Height }}"
-            alt="{{ $.Params.FeatureCaption }}"
-          />
-          {{- with $.Params.FeatureCaption }}
-            <figcaption class="text-xs italic">{{ . |  markdownify }}</figcaption>
-          {{- end }}
-        </figure>
-      {{- end }}
     </header>
+
+    {{- with .Params.image }}
+    <p>
+        <img
+          src="{{ . | relURL }}"
+          alt="{{ $.Params.FeatureCaption | default $.Title }}"
+        />
+</p>
+      {{- with $.Params.FeatureCaption }}
+        <p class="text-xs italic text-center">{{ . |  markdownify }}</p>
+      {{- end }}
+    {{- end }}
 
     {{ .Content }}
   </article>
