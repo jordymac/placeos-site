@@ -88,6 +88,10 @@
       "in": [],
       "out": []
     },
+    "/posts/hid-mobile-access-in-workmate/": {
+      "in": [],
+      "out": []
+    },
     "/posts/how-bms-improve-commercial-building-sustainability/": {
       "in": [],
       "out": []
@@ -145,6 +149,10 @@
       "out": []
     },
     "/posts/june-2024-placeos-product-updates/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/june-2025-placeos-product-updates/": {
       "in": [],
       "out": []
     },
@@ -452,6 +460,11 @@
       "section": "posts",
       "title": "Four Technology Integrations to Help During Covid-19"
     },
+    "/posts/hid-mobile-access-in-workmate/": {
+      "permalink": "/posts/hid-mobile-access-in-workmate/",
+      "section": "posts",
+      "title": "HID Mobile Access Now Available via PlaceOS WorkMate"
+    },
     "/posts/how-bms-improve-commercial-building-sustainability/": {
       "permalink": "/posts/how-bms-improve-commercial-building-sustainability/",
       "section": "posts",
@@ -526,6 +539,11 @@
       "permalink": "/posts/june-2024-placeos-product-updates/",
       "section": "posts",
       "title": "June 2024 PlaceOS Product Updates"
+    },
+    "/posts/june-2025-placeos-product-updates/": {
+      "permalink": "/posts/june-2025-placeos-product-updates/",
+      "section": "posts",
+      "title": "June 2025 PlaceOS Product Updates"
     },
     "/posts/learn-about-crystal-v1-0-0-for-workplaces/": {
       "permalink": "/posts/learn-about-crystal-v1-0-0-for-workplaces/",

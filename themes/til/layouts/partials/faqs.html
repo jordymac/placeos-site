@@ -6,7 +6,7 @@
     {{- range .Entries }}
       <details class="border rounded p-4">
         <summary class="cursor-pointer font-semibold">{{ .question }}</summary>
-        <div class="mt-2 text-sm">{{ .answer }}</div>
+        <div class="mt-2 text-sm">{{ .answer | markdownify }}</div>
       </details>
     {{- end }}
   </div>

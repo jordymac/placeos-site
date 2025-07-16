@@ -97,6 +97,9 @@ employee:
       description: "Set preferred desk styles and configurations for your workspace."
     - name: "Language"
       description: "Choose your preferred interface language."
+    - name: "HID mobile access"
+      description: "Use your phone as your staff ID for building access with HID Mobile Access integration."
+      link: "/posts/hid-mobile-access-in-workmate/"
 
 displays:
   title: "WorkMate Display & Kiosk Features"

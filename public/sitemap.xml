@@ -22,11 +22,53 @@
   </url><url>
     <loc>http://localhost:1313/products/virtualcare/</loc>
   </url><url>
+    <loc>http://localhost:1313/categories/backoffice/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/concierge/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/desk-booking/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/june-2025-placeos-product-updates/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post_types/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post_types/product-update/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/room-booking/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/stagehand/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/visitor-management/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/workmate/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/workplace/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/access-control/</loc>
+    <lastmod>2025-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/hid-mobile-access-in-workmate/</loc>
+    <lastmod>2025-06-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ai/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
@@ -49,9 +91,6 @@
     <loc>http://localhost:1313/projects/campus-energy-reduction-sustainability/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/collaboration/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -65,9 +104,6 @@
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/coworking/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/desk-booking/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/drivers/</loc>
@@ -130,9 +166,6 @@
     <loc>http://localhost:1313/categories/retrofit/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/room-booking/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/scalability/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -154,25 +187,13 @@
     <loc>http://localhost:1313/categories/ux/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/visitor-management/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/wayfinding/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/workmate/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/workplace/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post_types/blog/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</loc>
-    <lastmod>2025-04-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post_types/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/smart-building/</loc>
@@ -185,9 +206,6 @@
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/parking/</loc>
-    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post_types/product-update/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/safety/</loc>
@@ -203,9 +221,6 @@
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/platform-power-unleashed-the-strategy-behind-our-new-products/</loc>
-    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/stagehand/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/room-booking-updates-recurring-booking-room-manager/</loc>

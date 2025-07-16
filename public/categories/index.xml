@@ -6,8 +6,71 @@
     <description>Recent content in Categories on PlaceOS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BackOffice</title>
+      <link>http://localhost:1313/categories/backoffice/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/backoffice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Concierge</title>
+      <link>http://localhost:1313/categories/concierge/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/concierge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Desk Booking</title>
+      <link>http://localhost:1313/categories/desk-booking/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/desk-booking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Room Booking</title>
+      <link>http://localhost:1313/categories/room-booking/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/room-booking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stagehand</title>
+      <link>http://localhost:1313/categories/stagehand/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/stagehand/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visitor Management</title>
+      <link>http://localhost:1313/categories/visitor-management/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/visitor-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WorkMate</title>
+      <link>http://localhost:1313/categories/workmate/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/workmate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workplace</title>
+      <link>http://localhost:1313/categories/workplace/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/workplace/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Access Control</title>
+      <link>http://localhost:1313/categories/access-control/</link>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/access-control/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>http://localhost:1313/categories/ai/</link>
@@ -76,13 +139,6 @@
       <link>http://localhost:1313/categories/coworking/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/coworking/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Desk Booking</title>
-      <link>http://localhost:1313/categories/desk-booking/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/desk-booking/</guid>
       <description></description>
     </item>
     <item>
@@ -205,13 +261,6 @@
       <description></description>
     </item>
     <item>
-      <title>Room Booking</title>
-      <link>http://localhost:1313/categories/room-booking/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/room-booking/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Scalability</title>
       <link>http://localhost:1313/categories/scalability/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
@@ -254,31 +303,10 @@
       <description></description>
     </item>
     <item>
-      <title>Visitor Management</title>
-      <link>http://localhost:1313/categories/visitor-management/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/visitor-management/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Wayfinding</title>
       <link>http://localhost:1313/categories/wayfinding/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/wayfinding/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>WorkMate</title>
-      <link>http://localhost:1313/categories/workmate/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/workmate/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Workplace</title>
-      <link>http://localhost:1313/categories/workplace/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/workplace/</guid>
       <description></description>
     </item>
     <item>
@@ -328,13 +356,6 @@
       <link>http://localhost:1313/categories/computer-vision/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/computer-vision/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Stagehand</title>
-      <link>http://localhost:1313/categories/stagehand/</link>
-      <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/stagehand/</guid>
       <description></description>
     </item>
     <item>
