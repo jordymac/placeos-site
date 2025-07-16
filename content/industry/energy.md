@@ -10,11 +10,13 @@ summary: >-
 
 ### High energy consumption
 
-Commercial buildings consume [40%](https://www.architecture2030.org/why-the-built-environment/) of global energy. New regulations are emerging worldwide. Reducing energy use is critical. HVAC systems are responsible for [40%](https://www.youtube.com/watch?v=EXSFGL_Ubd8) of energy consumption in commercial real estate buildings.
+Commercial buildings consume [40%](https://www.architecture2030.org/why-the-built-environment/) of global energy. New regulations are emerging worldwide. Reducing energy use is critical. HVAC systems are responsible for [40%](https://www.youtube.com/watch?v=EXSFGL_Ubd8) of energy consumption in commercial real estate buildings. Furthermore, industry research shows there's a [10-40%](https://www.youtube.com/watch?v=sCmouaE5jNk) margin for improvement!
 
 ### Government mandates
 
-Governments around the globe are implementing new laws and regulations that give energy ratings to buildings and more importantly, affect the bottom line. [Local Law 97](https://www.nyc.gov/site/buildings/codes/ll97-greenhouse-gas-emissions-reductions.page#:~:text=Local%20Law%2097%20of%202019,coming%20into%20effect%20in%202030.) in New York City for example, it fines organizations per square foot that don’t meet their standards. In the UK, the government is [stopping building owners from leasing their building](https://www.placeos.com/blog/ps93bn-of-commercial-real-estate-is-at-risk-heres-what-to-do) it's not rated an "E" or higher. By 2027, it'll be "C", and by 2030 you'll need a rating of "B".
+Governments around the globe are implementing new laws and regulations that give energy ratings to buildings and more importantly, affect the bottom line. [Local Law 97](https://www.nyc.gov/site/buildings/codes/ll97-greenhouse-gas-emissions-reductions.page#:~:text=Local%20Law%2097%20of%202019,coming%20into%20effect%20in%202030.) in New York City for example, it fines organizations per square foot that don’t meet their standards. In the UK, the government is [stopping building owners from leasing their building](https://www.placeos.com/blog/ps93bn-of-commercial-real-estate-is-at-risk-heres-what-to-do) it's not rated an "E" or higher. By 2027, it'll be "C", and by 2030 you'll need a rating of "B". 
+
+[Canada is aiming to retrofit 482,000 buildings by 2050](https://www.placeos.com/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/), at their current rate, it'll take them to 2095. Change is coming (in most countries).
 
 ### High office vacancy rates
 
