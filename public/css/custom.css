@@ -385,6 +385,11 @@ header form button {
   font-size: 3rem!important;
   line-height: 1;
   font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.hero-content h2 {
+  margin-top: 0;
 }
 
 .accordion-list {
