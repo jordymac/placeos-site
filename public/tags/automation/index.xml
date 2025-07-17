@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation on PlaceOS</title>
+    <link>http://localhost:1313/tags/automation/</link>
+    <description>Recent content in Automation on PlaceOS</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Framework for Scoping UX in Automation and AI-Driven Systems</title>
+      <link>http://localhost:1313/posts/guide-to-scoping-ux/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/guide-to-scoping-ux/</guid>
+      <description>How to scope user experience for automation and AI-driven systems through intent-based, event-driven UX frameworks.</description>
+    </item>
+  </channel>
+</rss>

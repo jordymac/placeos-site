@@ -1,0 +1,1328 @@
+<!doctype html>
+<html
+  lang="en-us"
+  dir="ltr"
+  class="dark"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<meta name="language" content="en" />
+<meta name="viewport" content="width=device-width" />
+<title>
+    A Framework for Scoping UX in Automation and AI-Driven Systems | PlaceOS
+</title>
+  <meta name="description" content="How to scope user experience for automation and AI-driven systems through intent-based, event-driven UX frameworks." />
+  <meta name="author" content="Jon McFarlane" />
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="PlaceOS" />
+<meta property="og:title" content="A Framework for Scoping UX in Automation and AI-Driven Systems" />
+<meta property="og:description" content="Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software &amp; systems." />
+<meta property="og:url" content="http://localhost:1313/posts/guide-to-scoping-ux/" />
+<meta property="og:image" content="http://localhost:1313/images/posts/2025/07/ux-ai-framework.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="A Framework for Scoping UX in Automation and AI-Driven Systems" />
+<meta name="twitter:description" content="Commercial buildings still run on disconnected systems – forcing IT, facilities, and space teams into manual workarounds and limiting the value of existing infrastructure. PlaceOS changes that by connecting your sensors, software &amp; systems." />
+<meta name="twitter:image" content="http://localhost:1313/images/posts/2025/07/ux-ai-framework.png" />
+
+
+  <meta itemprop="name" content="A Framework for Scoping UX in Automation and AI-Driven Systems">
+  <meta itemprop="description" content="How to scope user experience for automation and AI-driven systems through intent-based, event-driven UX frameworks.">
+  <meta itemprop="datePublished" content="2025-07-17T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-07-17T00:00:00+00:00">
+  <meta itemprop="wordCount" content="927">
+  <meta itemprop="keywords" content="UX,AI,Automation,Design Systems,Blog">
+<link rel="canonical" href="http://localhost:1313/posts/guide-to-scoping-ux/" />
+
+    <link rel="stylesheet" href="/css/index.css" />
+
+
+      <script src="/js/main.js" defer></script>
+  
+
+  
+    <link rel="stylesheet" href="/css/custom.css">
+  
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@id": "http://localhost:1313/posts/guide-to-scoping-ux/",
+  "@type": "BlogPosting",
+  "author": {
+    "@type": "Person",
+    "name": "PlaceOS"
+  },
+  "datePublished": "2025-07-17",
+  "description": "How to scope user experience for automation and AI-driven systems through intent-based, event-driven UX frameworks.",
+  "headline": "A Framework for Scoping UX in Automation and AI-Driven Systems",
+  "isPartOf": {
+    "@id": "http://localhost:1313/posts/",
+    "@type": "Blog",
+    "name": "Posts"
+  },
+  "mainEntityOfPage": "http://localhost:1313/posts/guide-to-scoping-ux/",
+  "name": "A Framework for Scoping UX in Automation and AI-Driven Systems",
+  "timeRequired": "PT5M",
+  "url": "http://localhost:1313/posts/guide-to-scoping-ux/",
+  "wordCount": 927
+}
+</script>
+
+<html lang="en-us">
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5B3FL7Z');</script>
+
+<meta name="google-site-verification" content="VhOLEHgmiMZWB1PLKJb_Mq40PayzpZQLgLHFGfu2v1c" />
+<meta http-equiv='content-language' content='en-us'>
+  </head>
+  <body>
+    <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
+  <header>
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-2 sm:space-y-0 w-full">
+      <div>
+        <a id="skip-nav" class="sr-only" href="#maincontent">Skip to main content</a>
+        <a class="font-semibold text-lg" href="/">PlaceOS</a>
+      </div>
+      <div>
+        
+<nav class="flex flex-row flex-wrap items-center justify-end gap-4 text-s">
+  
+  <ul class="flex flex-row flex-wrap items-center gap-2 sm:gap-4">
+    <li>
+      <a href="/products/workmate-workplace-solution/">workmate</a
+      >
+    </li>
+    <li>
+      <a href="/products/stagehand/">stagehand</a
+      >
+    </li>
+    <li>
+      <a href="/products/lenspath/">lenspath</a
+      >
+    </li>
+    <li>
+      <a href="/products/backoffice/">backoffice</a
+      >
+    </li>
+  </ul>
+  <div class="flex flex-row items-center gap-2">
+  
+<a
+  href="/contact/"
+  class="p-2 rounded focus:outline-none"
+>
+  <span>
+    <svg xmlns="http://www.w3.org/2000/svg" 
+fill="currentColor" 
+class="w-4 h-4" 
+viewBox="0 0 512 512">
+    <path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376l0 103.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg>
+  </span>
+</a>
+
+
+    </ul>
+  </nav>
+
+      </div>
+    </div>
+  </header>
+</div>
+
+    
+    
+      
+      
+      <div class="container mx-auto max-w-prose flex flex-col space-y-10 p-4 md:p-6">
+        <main
+          class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]"
+          id="maincontent"
+        >
+          <article class="main">
+    <header>
+      <h1 class="!mb-1">A Framework for Scoping UX in Automation and AI-Driven Systems</h1><div class="flex flex-row items-center space-x-4">
+          <time class="text-sm italic opacity-80" datetime="2025-07-17T00:00:00&#43;00:00"
+            >2025-07-17</time
+          >
+        </div>
+    </header>
+    <p>
+        <img
+          src="/images/posts/2025/07/ux-ai-framework.png"
+          alt="A Framework for Scoping UX in Automation and AI-Driven Systems"
+        />
+</p>
+
+    <h3 id="introduction--overview" class="scroll-mt-8 group">
+  Introduction &amp; Overview
+  
+    <a href="#introduction--overview"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<p>Traditional UX design relies on visual wireframes and static prototypes, which work well for conventional applications but fall short when designing AI-driven and automated experiences. Unlike static UI elements, AI agents operate dynamically, responding to context, user behaviour, and automation triggers in real-time.</p>
+<h4 id="key-challenges" class="scroll-mt-8 group">
+  Key Challenges:
+  
+    <a href="#key-challenges"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<ul>
+<li>Mapping AI interactions beyond screens</li>
+<li>Focusing on user intent and automation logic</li>
+<li>Understanding AI agent capabilities and access levels</li>
+<li>Defining AI permissions (read-only, write, or full autonomy)</li>
+<li>Supporting user control and transparency in automated workflows</li>
+</ul>
+<p>This framework provides a structured UX scoping process for designing AI-driven, event-based, and automated experiences, ensuring predictability, user control, and transparency.</p>
+<hr>
+<h3 id="a-process-for-designing-ux-with-automation--ai-agents" class="scroll-mt-8 group">
+  A Process for Designing UX with Automation &amp; AI Agents
+  
+    <a href="#a-process-for-designing-ux-with-automation--ai-agents"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<h4 id="1-define-core-user-intent--context" class="scroll-mt-8 group">
+  1. Define Core User Intent &amp; Context
+  
+    <a href="#1-define-core-user-intent--context"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<ul>
+<li>Identify primary user tasks</li>
+<li>Determine if AI actions are proactive or reactive</li>
+<li>Define environment (e.g., mobile, smart home, workplace)</li>
+<li>Determine continuity (persistent assistant vs. one-time automation)</li>
+</ul>
+<h4 id="2-identify-automation--ai-capabilities" class="scroll-mt-8 group">
+  2. Identify Automation &amp; AI Capabilities
+  
+    <a href="#2-identify-automation--ai-capabilities"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<figure class="diagram not-prose relative scroll-mt-8 rounded border pt-6" id="diagram-01">
+  <aside
+    class="absolute -top-[1px] right-0 z-50 hidden rounded-bl-sm rounded-tr-sm bg-gray-200 px-2 py-1 text-gray-500 transition-opacity md:inline-block"
+  >
+    <div class="diagram-meta flex max-w-xs flex-row items-center space-x-3">
+      <div>
+        <clipboard-copy
+          type="button"
+          aria-label="Copy Mermaid definition to clipboard"
+          title="Copy Mermaid definition to clipboard"
+          class="block cursor-pointer transition-colors hover:text-sky-400"
+          target="#diagram-01 .raw-diagram"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="lucide lucide-clipboard h-4 w-4"
+  viewBox="0 0 24 24"
+>
+  <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+</svg>
+
+        </clipboard-copy>
+      </div>
+      <div>
+        <a
+          href="#diagram-01"
+          class="block !text-gray-200"
+          aria-label="Link to this diagram"
+          title="Link to this diagram"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+        </a>
+      </div>
+    </div>
+  </aside>
+  <p class="sr-only">Mermaid diagram start</p>
+  <pre class="mermaid !bg-inherit">graph TD
+  A[User Query] --> B[Level 1: Single Data Source]
+  B --> B1["Where is my next meeting?"]
+  A --> C[Level 2: Multiple Data Sources]
+  C --> C1["Where is my next meeting, and how do I get there?"]
+  A --> D[Level 3: Cross-Database Synthesis]
+  D --> D1["Where is my next meeting, and will I make it on time?"]
+  </pre>
+  <p class="sr-only">Mermaid diagram end</p>
+  <div class="raw-diagram hidden">graph TD
+  A[User Query] --&gt; B[Level 1: Single Data Source]
+  B --&gt; B1[&#34;Where is my next meeting?&#34;]
+  A --&gt; C[Level 2: Multiple Data Sources]
+  C --&gt; C1[&#34;Where is my next meeting, and how do I get there?&#34;]
+  A --&gt; D[Level 3: Cross-Database Synthesis]
+  D --&gt; D1[&#34;Where is my next meeting, and will I make it on time?&#34;]</div>
+</figure><h4 id="3-define-ai-permissions-read-write-decide" class="scroll-mt-8 group">
+  3. Define AI Permissions: Read, Write, Decide
+  
+    <a href="#3-define-ai-permissions-read-write-decide"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<figure class="diagram not-prose relative scroll-mt-8 rounded border pt-6" id="diagram-02">
+  <aside
+    class="absolute -top-[1px] right-0 z-50 hidden rounded-bl-sm rounded-tr-sm bg-gray-200 px-2 py-1 text-gray-500 transition-opacity md:inline-block"
+  >
+    <div class="diagram-meta flex max-w-xs flex-row items-center space-x-3">
+      <div>
+        <clipboard-copy
+          type="button"
+          aria-label="Copy Mermaid definition to clipboard"
+          title="Copy Mermaid definition to clipboard"
+          class="block cursor-pointer transition-colors hover:text-sky-400"
+          target="#diagram-02 .raw-diagram"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="lucide lucide-clipboard h-4 w-4"
+  viewBox="0 0 24 24"
+>
+  <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+</svg>
+
+        </clipboard-copy>
+      </div>
+      <div>
+        <a
+          href="#diagram-02"
+          class="block !text-gray-200"
+          aria-label="Link to this diagram"
+          title="Link to this diagram"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+        </a>
+      </div>
+    </div>
+  </aside>
+  <p class="sr-only">Mermaid diagram start</p>
+  <pre class="mermaid !bg-inherit">graph LR
+  A[Read - Informative] --> B[Retrieve info only]
+  C[Write - Actionable] --> D[Modify with confirmation]
+  E[Decide - Autonomous] --> F[Autonomous decisions]
+  
+  A -.-> A1[What is my meeting schedule today?]
+  C -.-> C1[Book me a meeting room at 3 PM]
+  E -.-> E1[Find the best time and book my meeting]
+  </pre>
+  <p class="sr-only">Mermaid diagram end</p>
+  <div class="raw-diagram hidden">graph LR
+  A[Read - Informative] --&gt; B[Retrieve info only]
+  C[Write - Actionable] --&gt; D[Modify with confirmation]
+  E[Decide - Autonomous] --&gt; F[Autonomous decisions]
+  
+  A -.-&gt; A1[What is my meeting schedule today?]
+  C -.-&gt; C1[Book me a meeting room at 3 PM]
+  E -.-&gt; E1[Find the best time and book my meeting]</div>
+</figure><p>Ensure users understand AI actions with summaries and manual override options.</p>
+<h4 id="4-map-ux-flow-with-automation-triggers" class="scroll-mt-8 group">
+  4. Map UX Flow with Automation Triggers
+  
+    <a href="#4-map-ux-flow-with-automation-triggers"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<figure class="diagram not-prose relative scroll-mt-8 rounded border pt-6" id="diagram-03">
+  <aside
+    class="absolute -top-[1px] right-0 z-50 hidden rounded-bl-sm rounded-tr-sm bg-gray-200 px-2 py-1 text-gray-500 transition-opacity md:inline-block"
+  >
+    <div class="diagram-meta flex max-w-xs flex-row items-center space-x-3">
+      <div>
+        <clipboard-copy
+          type="button"
+          aria-label="Copy Mermaid definition to clipboard"
+          title="Copy Mermaid definition to clipboard"
+          class="block cursor-pointer transition-colors hover:text-sky-400"
+          target="#diagram-03 .raw-diagram"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="lucide lucide-clipboard h-4 w-4"
+  viewBox="0 0 24 24"
+>
+  <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+</svg>
+
+        </clipboard-copy>
+      </div>
+      <div>
+        <a
+          href="#diagram-03"
+          class="block !text-gray-200"
+          aria-label="Link to this diagram"
+          title="Link to this diagram"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+        </a>
+      </div>
+    </div>
+  </aside>
+  <p class="sr-only">Mermaid diagram start</p>
+  <pre class="mermaid !bg-inherit">flowchart TD
+  A[Trigger: User Input / Sensor Event] --> B[AI Processing: Lookup / Analyse / Synthesis]
+  B --> C[System Response: Notify / Act / Silent Update]
+  C --> D{User Control?}
+  D -->|Yes| E[Override / Customise Action]
+  D -->|No| F[Action Completed]
+  </pre>
+  <p class="sr-only">Mermaid diagram end</p>
+  <div class="raw-diagram hidden">flowchart TD
+  A[Trigger: User Input / Sensor Event] --&gt; B[AI Processing: Lookup / Analyse / Synthesis]
+  B --&gt; C[System Response: Notify / Act / Silent Update]
+  C --&gt; D{User Control?}
+  D --&gt;|Yes| E[Override / Customise Action]
+  D --&gt;|No| F[Action Completed]</div>
+</figure><p>Use event-driven models instead of static wireframes.</p>
+<h4 id="5-prototype-functional-experiences" class="scroll-mt-8 group">
+  5. Prototype Functional Experiences
+  
+    <a href="#5-prototype-functional-experiences"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<ul>
+<li>Use decision trees &amp; conversation flows</li>
+<li>Simulate responses (Wizard-of-Oz testing)</li>
+<li>Prioritise user control and clarity</li>
+</ul>
+<hr>
+<h3 id="example-user-stories" class="scroll-mt-8 group">
+  Example User Stories
+  
+    <a href="#example-user-stories"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th>User Role</th>
+          <th>Scenario</th>
+          <th>Trigger</th>
+          <th>AI Level</th>
+          <th>Action</th>
+          <th>User Experience</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Traveler</td>
+          <td>Needs flight info</td>
+          <td>User query</td>
+          <td>Level 1 - Read</td>
+          <td>Retrieve from airline</td>
+          <td>Basic flight details</td>
+      </tr>
+      <tr>
+          <td>Employee</td>
+          <td>Desk location</td>
+          <td>User query</td>
+          <td>Level 2 - Read</td>
+          <td>Lookup desk booking</td>
+          <td>Assigned desk shown</td>
+      </tr>
+      <tr>
+          <td>Sales Manager</td>
+          <td>Automated scheduling</td>
+          <td>User opts in</td>
+          <td>Level 3 - Decide</td>
+          <td>Schedule meetings</td>
+          <td>Get confirmations</td>
+      </tr>
+      <tr>
+          <td>IT Admin</td>
+          <td>Detect anomalies</td>
+          <td>Suspicious login</td>
+          <td>Level 2 - Read/Write</td>
+          <td>Flag and prompt</td>
+          <td>Alert with approval</td>
+      </tr>
+      <tr>
+          <td>Smart Home User</td>
+          <td>Thermostat control</td>
+          <td>Presence detected</td>
+          <td>Level 3 - Decide</td>
+          <td>Auto-adjust settings</td>
+          <td>Passive comfort</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="tips-for-successful-ai-ux" class="scroll-mt-8 group">
+  Tips for Successful AI UX
+  
+    <a href="#tips-for-successful-ai-ux"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<ul>
+<li><strong>Think in Systems, Not Screens</strong>: Prioritise flow over layout</li>
+<li><strong>Predictability</strong>: Clearly signal AI logic</li>
+<li><strong>User Control</strong>: Provide override and customisation</li>
+<li><strong>Failure Handling</strong>: Define fallback behaviours</li>
+<li><strong>Real Data</strong>: Base tests on real-world usage</li>
+</ul>
+<hr>
+<h3 id="workshop-structure-scoping-ux-for-ai--automation" class="scroll-mt-8 group">
+  Workshop Structure: Scoping UX for AI &amp; Automation
+  
+    <a href="#workshop-structure-scoping-ux-for-ai--automation"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<figure class="diagram not-prose relative scroll-mt-8 rounded border pt-6" id="diagram-04">
+  <aside
+    class="absolute -top-[1px] right-0 z-50 hidden rounded-bl-sm rounded-tr-sm bg-gray-200 px-2 py-1 text-gray-500 transition-opacity md:inline-block"
+  >
+    <div class="diagram-meta flex max-w-xs flex-row items-center space-x-3">
+      <div>
+        <clipboard-copy
+          type="button"
+          aria-label="Copy Mermaid definition to clipboard"
+          title="Copy Mermaid definition to clipboard"
+          class="block cursor-pointer transition-colors hover:text-sky-400"
+          target="#diagram-04 .raw-diagram"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="lucide lucide-clipboard h-4 w-4"
+  viewBox="0 0 24 24"
+>
+  <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+</svg>
+
+        </clipboard-copy>
+      </div>
+      <div>
+        <a
+          href="#diagram-04"
+          class="block !text-gray-200"
+          aria-label="Link to this diagram"
+          title="Link to this diagram"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+        </a>
+      </div>
+    </div>
+  </aside>
+  <p class="sr-only">Mermaid diagram start</p>
+  <pre class="mermaid !bg-inherit">gantt
+title Workshop Agenda
+section Introduction
+Intro to AI UX         :done,    des1, 2025-07-17, 20m
+section User Mapping
+User Intent Mapping     :done,    des2, after des1, 25m
+AI Access & Permissions :done,    des3, after des2, 30m
+Functional Modelling    :done,    des4, after des3, 30m
+Failure & Recovery      :done,    des5, after des4, 30m
+Wrap-up & Next Steps    :done,    des6, after des5, 15m
+  </pre>
+  <p class="sr-only">Mermaid diagram end</p>
+  <div class="raw-diagram hidden">gantt
+title Workshop Agenda
+section Introduction
+Intro to AI UX         :done,    des1, 2025-07-17, 20m
+section User Mapping
+User Intent Mapping     :done,    des2, after des1, 25m
+AI Access &amp; Permissions :done,    des3, after des2, 30m
+Functional Modelling    :done,    des4, after des3, 30m
+Failure &amp; Recovery      :done,    des5, after des4, 30m
+Wrap-up &amp; Next Steps    :done,    des6, after des5, 15m</div>
+</figure><h4 id="expected-outcomes" class="scroll-mt-8 group">
+  Expected Outcomes
+  
+    <a href="#expected-outcomes"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<ul>
+<li>Clear AI access &amp; permission framework</li>
+<li>Trigger-response automation maps</li>
+<li>AI-centric user stories</li>
+<li>Transparent override mechanisms</li>
+</ul>
+<hr>
+<h3 id="rethinking-wireframes-in-ai-ux" class="scroll-mt-8 group">
+  Rethinking Wireframes in AI UX
+  
+    <a href="#rethinking-wireframes-in-ai-ux"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<h4 id="traditional-wireframing-vs-ai-needs" class="scroll-mt-8 group">
+  Traditional Wireframing vs. AI Needs
+  
+    <a href="#traditional-wireframing-vs-ai-needs"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>Wireframes have focused on layout, navigation, and components. AI requires:</p>
+<ul>
+<li>Feedback &amp; system updates</li>
+<li>Dynamic personalisation</li>
+<li>Contextual notifications</li>
+<li>Override paths</li>
+<li>Conversational flows</li>
+</ul>
+<h4 id="adapting-wireframes-for-ai" class="scroll-mt-8 group">
+  Adapting Wireframes for AI
+  
+    <a href="#adapting-wireframes-for-ai"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<h5 id="1-wireframe-feedback--responses" class="scroll-mt-8 group">
+  1. Wireframe Feedback &amp; Responses
+  
+    <a href="#1-wireframe-feedback--responses"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>Show dynamic state updates and feedback mechanisms.</p>
+<h5 id="2-design-actionable-notifications" class="scroll-mt-8 group">
+  2. Design Actionable Notifications
+  
+    <a href="#2-design-actionable-notifications"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>Account for urgency, delivery method, and clarity.</p>
+<h5 id="3-personalisation-mapping" class="scroll-mt-8 group">
+  3. Personalisation Mapping
+  
+    <a href="#3-personalisation-mapping"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>Context-aware UI changes that can be explained and overridden.</p>
+<h5 id="4-user-overrides" class="scroll-mt-8 group">
+  4. User Overrides
+  
+    <a href="#4-user-overrides"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>Visualise undo paths, manual controls, and fallback modes.</p>
+<h5 id="5-conversational--assistive-ux" class="scroll-mt-8 group">
+  5. Conversational &amp; Assistive UX
+  
+    <a href="#5-conversational--assistive-ux"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>Use dialogue maps instead of screens to prototype experiences.</p>
+<hr>
+<h3 id="final-thoughts" class="scroll-mt-8 group">
+  Final Thoughts
+  
+    <a href="#final-thoughts"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<p>Designing UX for automation means shifting from screens to systems:</p>
+<p>✔ Focus on dynamic feedback over static pages
+✔ Make automation transparent and user-controllable
+✔ Prototype flows and behaviours, not just layouts
+✔ Use real interactions to refine AI experiences</p>
+
+  </article>
+    <aside class="not-prose flex flex-col space-y-8 border-t pt-6">
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-shapes h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z"
+  />
+  <rect width="7" height="7" x="3" y="14" rx="1" />
+  <circle cx="17.5" cy="17.5" r="3.5" />
+</svg>
+
+        <span>Categories</span>
+      </h2>
+
+      <ul class="ml-6 flex flex-row flex-wrap items-center space-x-2">
+          <li>
+            <a href="/categories/ux/" class="taxonomy category">UX</a>
+          </li>
+          <li>
+            <a href="/categories/ai/" class="taxonomy category">AI</a>
+          </li>
+          <li>
+            <a href="/categories/automation/" class="taxonomy category">Automation</a>
+          </li>
+          <li>
+            <a href="/categories/design-systems/" class="taxonomy category">Design Systems</a>
+          </li>
+      </ul>
+    </section>
+    <section class="flex flex-col space-y-4" aria-hidden="true">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-chart-network h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="m13.11 7.664 1.78 2.672M14.162 12.788l-3.324 1.424M20 4l-6.06 1.515M3 3v16a2 2 0 0 0 2 2h16"
+  />
+  <circle cx="12" cy="6" r="2" />
+  <circle cx="16" cy="12" r="2" />
+  <circle cx="9" cy="15" r="2" />
+</svg>
+
+        <span>Graph</span>
+      </h2>
+
+      <content-network-graph
+  class="h-64 ml-6"
+  data-endpoint="/graph/index.json"
+  page="/posts/guide-to-scoping-ux/"
+></content-network-graph>
+
+    </section>
+</aside>
+
+
+        </main>
+      </div>
+    
+    
+    
+    <div
+      class="fixed inset-x-0 bottom-0 w-full
+             bg-white/25 dark:bg-gray-900/40
+             backdrop-blur-lg mask-gradient z-50"
+    >
+      <div class="mx-auto w-full max-w-prose px-4 py-12">
+        <footer class="border-t border-neutral-100 pt-2">
+          <section class="opacity-70 text-xs sm:text-base">
+
+  
+  <div class="flex justify-between items-center mb-6">
+    <a href="/products/" class="hover:underline inline-block">Products</a>
+    <a href="/posts/" class="hover:underline inline-block">Posts</a>
+    <a href="/projects/" class="hover:underline inline-block">Projects</a>
+    <a href="/industry/" class="hover:underline inline-block">Industry</a>
+    <a href="/integrations/" class="hover:underline inline-block">Integrations</a>
+  </div>
+
+  
+  <div class="flex justify-between items-center">
+    <a href="https://docs.placeos.com" class="hover:underline inline-block">Docs</a>
+    <a href="/licensing/" class="hover:underline inline-block">Licensing</a>
+    <a href="/privacy-policy/" class="hover:underline inline-block">Privacy</a>
+    <a href="/security/" class="hover:underline inline-block">Security</a>
+    <a href="/terms-of-use/" class="hover:underline inline-block">Terms of Use</a>
+  </div>
+
+</section>
+
+        </footer>
+      </div>
+    </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    
+    <button
+      id="scrollToTop"
+      class="fixed bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition-all duration-300 z-50 opacity-0 invisible"
+      aria-label="Scroll to top"
+      style="position: fixed; bottom: 120px; right: 24px;"
+    >
+      <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-arrow-up-from-dot w-5 h-5"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path d="m5 9 7-7 7 7M12 16V2" />
+  <circle cx="12" cy="21" r="1" />
+</svg>
+
+    </button>
+
+    
+      <script
+        src="https://cdn.jsdelivr.net/npm/mermaid@11.4.0/dist/mermaid.min.js"
+        integrity="sha256-G8ouPAnw4zzMbnAenHnVz6h9XpKbNdOkrqTh7AadyHs="
+        crossorigin="anonymous"
+      ></script>
+      <script type="text/javascript">
+        
+        const isDarkMode = document.documentElement.classList.contains('dark');
+        
+        mermaid.initialize({
+          startOnLoad: true,
+          theme: isDarkMode ? 'dark' : 'neutral',
+          fontFamily: "'LatoLatinWeb', sans-serif",
+          themeVariables: {
+            primaryColor: isDarkMode ? '#5C64FF' : '#347FF7',
+            primaryTextColor: isDarkMode ? '#d1d5db' : '#374151',
+            primaryBorderColor: isDarkMode ? '#ADB1FF' : '#275EB8',
+            lineColor: isDarkMode ? '#9ca3af' : '#6b7280',
+            secondaryColor: isDarkMode ? '#374151' : '#f3f4f6',
+            tertiaryColor: isDarkMode ? '#4b5563' : '#e5e7eb',
+            background: 'transparent',
+            mainBkg: isDarkMode ? '#1f2937' : '#fff',
+            secondBkg: isDarkMode ? '#374151' : '#f3f4f6',
+            tertiaryBkg: isDarkMode ? '#4b5563' : '#e5e7eb'
+          }
+        });
+        
+        
+        document.addEventListener('themeChanged', function() {
+          const newIsDarkMode = document.documentElement.classList.contains('dark');
+          mermaid.initialize({
+            startOnLoad: true,
+            theme: newIsDarkMode ? 'dark' : 'neutral',
+            fontFamily: "'LatoLatinWeb', sans-serif",
+            themeVariables: {
+              primaryColor: newIsDarkMode ? '#5C64FF' : '#347FF7',
+              primaryTextColor: newIsDarkMode ? '#d1d5db' : '#374151',
+              primaryBorderColor: newIsDarkMode ? '#ADB1FF' : '#275EB8',
+              lineColor: newIsDarkMode ? '#9ca3af' : '#6b7280',
+              secondaryColor: newIsDarkMode ? '#374151' : '#f3f4f6',
+              tertiaryColor: newIsDarkMode ? '#4b5563' : '#e5e7eb',
+              background: 'transparent',
+              mainBkg: newIsDarkMode ? '#1f2937' : '#fff',
+              secondBkg: newIsDarkMode ? '#374151' : '#f3f4f6',
+              tertiaryBkg: newIsDarkMode ? '#4b5563' : '#e5e7eb'
+            }
+          });
+          
+          mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+        });
+      </script>
+    
+      
+
+
+<script src="/js/theme-toggle.js" defer></script>
+<script src="/js/gradient-animation.js" defer></script>
+<script src="https://unpkg.com/@botpoison/browser" async></script>
+<script src="/js/botpoison.js" defer></script>
+<script src="/js/anchors.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const scrollToTopBtn = document.getElementById('scrollToTop');
+  
+  
+  window.addEventListener('scroll', function() {
+    if (window.pageYOffset > 300) {
+      scrollToTopBtn.classList.remove('opacity-0', 'invisible');
+      scrollToTopBtn.classList.add('opacity-100', 'visible');
+    } else {
+      scrollToTopBtn.classList.add('opacity-0', 'invisible');
+      scrollToTopBtn.classList.remove('opacity-100', 'visible');
+    }
+  });
+  
+  
+  scrollToTopBtn.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
+</script>
+  </body>
+</html>

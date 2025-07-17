@@ -59,10 +59,49 @@
         crossorigin="anonymous"
       ></script>
       <script type="text/javascript">
+        // Get current theme
+        const isDarkMode = document.documentElement.classList.contains('dark');
+        
         mermaid.initialize({
           startOnLoad: true,
-          theme: 'neutral',
-          fontFamily: "'LatoLatinWeb', sans-serif"
+          theme: isDarkMode ? 'dark' : 'neutral',
+          fontFamily: "'LatoLatinWeb', sans-serif",
+          themeVariables: {
+            primaryColor: isDarkMode ? '#5C64FF' : '#347FF7',
+            primaryTextColor: isDarkMode ? '#d1d5db' : '#374151',
+            primaryBorderColor: isDarkMode ? '#ADB1FF' : '#275EB8',
+            lineColor: isDarkMode ? '#9ca3af' : '#6b7280',
+            secondaryColor: isDarkMode ? '#374151' : '#f3f4f6',
+            tertiaryColor: isDarkMode ? '#4b5563' : '#e5e7eb',
+            background: 'transparent',
+            mainBkg: isDarkMode ? '#1f2937' : '#fff',
+            secondBkg: isDarkMode ? '#374151' : '#f3f4f6',
+            tertiaryBkg: isDarkMode ? '#4b5563' : '#e5e7eb'
+          }
+        });
+        
+        // Re-initialize mermaid when theme changes
+        document.addEventListener('themeChanged', function() {
+          const newIsDarkMode = document.documentElement.classList.contains('dark');
+          mermaid.initialize({
+            startOnLoad: true,
+            theme: newIsDarkMode ? 'dark' : 'neutral',
+            fontFamily: "'LatoLatinWeb', sans-serif",
+            themeVariables: {
+              primaryColor: newIsDarkMode ? '#5C64FF' : '#347FF7',
+              primaryTextColor: newIsDarkMode ? '#d1d5db' : '#374151',
+              primaryBorderColor: newIsDarkMode ? '#ADB1FF' : '#275EB8',
+              lineColor: newIsDarkMode ? '#9ca3af' : '#6b7280',
+              secondaryColor: newIsDarkMode ? '#374151' : '#f3f4f6',
+              tertiaryColor: newIsDarkMode ? '#4b5563' : '#e5e7eb',
+              background: 'transparent',
+              mainBkg: newIsDarkMode ? '#1f2937' : '#fff',
+              secondBkg: newIsDarkMode ? '#374151' : '#f3f4f6',
+              tertiaryBkg: newIsDarkMode ? '#4b5563' : '#e5e7eb'
+            }
+          });
+          // Re-render all mermaid diagrams
+          mermaid.init(undefined, document.querySelectorAll('.mermaid'));
         });
       </script>
     {{ end }}
