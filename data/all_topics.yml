@@ -653,6 +653,21 @@
   - platform
   - configuration
   - apis
+- id: design-systems
+  title: Design Systems
+  description: Design systems provide consistent UI components, patterns, and guidelines
+    for building cohesive user experiences across workplace applications. They ensure
+    scalability, maintainability, and brand consistency in digital products.
+  subtopics:
+  - Component Libraries
+  - Design Tokens
+  - UI Pattern Guidelines
+  - Brand Consistency
+  related_topics:
+  - ux
+  - interface
+  - employee-experience
+  - collaboration
 - id: ux
   title: UX
   description: User experience (UX) focuses on how intuitive, accessible, and satisfying
@@ -668,6 +683,7 @@
   - employee-experience
   - mobile
   - collaboration
+  - design-systems
 - id: utilization
   title: Utilization
   description: Utilization measures how often spaces are used versus their availability.
