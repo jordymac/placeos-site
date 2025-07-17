@@ -35,7 +35,7 @@
   <meta itemprop="description" content="How to scope user experience for automation and AI-driven systems through intent-based, event-driven UX frameworks.">
   <meta itemprop="datePublished" content="2025-07-17T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-07-17T00:00:00+00:00">
-  <meta itemprop="wordCount" content="927">
+  <meta itemprop="wordCount" content="939">
   <meta itemprop="keywords" content="UX,AI,Automation,Design Systems,Blog">
 <link rel="canonical" href="http://localhost:1313/posts/framework-for-scoping-ux-in-automation-and-ai-systems/" />
 
@@ -71,7 +71,7 @@
   "name": "A Framework for Scoping UX in Automation and AI-Driven Systems",
   "timeRequired": "PT5M",
   "url": "http://localhost:1313/posts/framework-for-scoping-ux-in-automation-and-ai-systems/",
-  "wordCount": 927
+  "wordCount": 939
 }
 </script>
 
@@ -803,27 +803,31 @@ viewBox="0 0 512 512">
   </aside>
   <p class="sr-only">Mermaid diagram start</p>
   <pre class="mermaid !bg-inherit">gantt
-title Workshop Agenda
+title Workshop Agenda (2-3 Hours)
+dateFormat  HH:mm
+axisFormat %H:%M
 section Introduction
-Intro to AI UX         :done,    des1, 2025-07-17, 20m
+Intro to AI UX         :done, des1, 00:00, 20m
 section User Mapping
-User Intent Mapping     :done,    des2, after des1, 25m
-AI Access & Permissions :done,    des3, after des2, 30m
-Functional Modelling    :done,    des4, after des3, 30m
-Failure & Recovery      :done,    des5, after des4, 30m
-Wrap-up & Next Steps    :done,    des6, after des5, 15m
+User Intent Mapping     :done, des2, after des1, 25m
+AI Access & Permissions :done, des3, after des2, 30m
+Functional Modelling    :done, des4, after des3, 30m
+Failure & Recovery      :done, des5, after des4, 30m
+Wrap-up & Next Steps    :done, des6, after des5, 15m
   </pre>
   <p class="sr-only">Mermaid diagram end</p>
   <div class="raw-diagram hidden">gantt
-title Workshop Agenda
+title Workshop Agenda (2-3 Hours)
+dateFormat  HH:mm
+axisFormat %H:%M
 section Introduction
-Intro to AI UX         :done,    des1, 2025-07-17, 20m
+Intro to AI UX         :done, des1, 00:00, 20m
 section User Mapping
-User Intent Mapping     :done,    des2, after des1, 25m
-AI Access &amp; Permissions :done,    des3, after des2, 30m
-Functional Modelling    :done,    des4, after des3, 30m
-Failure &amp; Recovery      :done,    des5, after des4, 30m
-Wrap-up &amp; Next Steps    :done,    des6, after des5, 15m</div>
+User Intent Mapping     :done, des2, after des1, 25m
+AI Access &amp; Permissions :done, des3, after des2, 30m
+Functional Modelling    :done, des4, after des3, 30m
+Failure &amp; Recovery      :done, des5, after des4, 30m
+Wrap-up &amp; Next Steps    :done, des6, after des5, 15m</div>
 </figure><h4 id="expected-outcomes" class="scroll-mt-8 group">
   Expected Outcomes
   
@@ -1260,7 +1264,13 @@ Wrap-up &amp; Next Steps    :done,    des6, after des5, 15m</div>
             background: 'transparent',
             mainBkg: isDarkMode ? '#1f2937' : '#fff',
             secondBkg: isDarkMode ? '#374151' : '#f3f4f6',
-            tertiaryBkg: isDarkMode ? '#4b5563' : '#e5e7eb'
+            tertiaryBkg: isDarkMode ? '#4b5563' : '#e5e7eb',
+            
+            gridColor: isDarkMode ? '#4b5563' : '#6b7280',
+            cScale0: isDarkMode ? '#374151' : '#f3f4f6',
+            cScale1: isDarkMode ? '#4b5563' : '#e5e7eb',
+            cScale2: isDarkMode ? '#6b7280' : '#d1d5db',
+            todayLineColor: isDarkMode ? '#5C64FF' : '#347FF7'
           }
         });
         
@@ -1281,7 +1291,13 @@ Wrap-up &amp; Next Steps    :done,    des6, after des5, 15m</div>
               background: 'transparent',
               mainBkg: newIsDarkMode ? '#1f2937' : '#fff',
               secondBkg: newIsDarkMode ? '#374151' : '#f3f4f6',
-              tertiaryBkg: newIsDarkMode ? '#4b5563' : '#e5e7eb'
+              tertiaryBkg: newIsDarkMode ? '#4b5563' : '#e5e7eb',
+              
+              gridColor: newIsDarkMode ? '#4b5563' : '#6b7280',
+              cScale0: newIsDarkMode ? '#374151' : '#f3f4f6',
+              cScale1: newIsDarkMode ? '#4b5563' : '#e5e7eb',
+              cScale2: newIsDarkMode ? '#6b7280' : '#d1d5db',
+              todayLineColor: newIsDarkMode ? '#5C64FF' : '#347FF7'
             }
           });
           

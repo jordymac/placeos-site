@@ -112,15 +112,17 @@ Use event-driven models instead of static wireframes.
 
 ```mermaid
 gantt
-title Workshop Agenda
+title Workshop Agenda (2-3 Hours)
+dateFormat  HH:mm
+axisFormat %H:%M
 section Introduction
-Intro to AI UX         :done,    des1, 2025-07-17, 20m
+Intro to AI UX         :done, des1, 00:00, 20m
 section User Mapping
-User Intent Mapping     :done,    des2, after des1, 25m
-AI Access & Permissions :done,    des3, after des2, 30m
-Functional Modelling    :done,    des4, after des3, 30m
-Failure & Recovery      :done,    des5, after des4, 30m
-Wrap-up & Next Steps    :done,    des6, after des5, 15m
+User Intent Mapping     :done, des2, after des1, 25m
+AI Access & Permissions :done, des3, after des2, 30m
+Functional Modelling    :done, des4, after des3, 30m
+Failure & Recovery      :done, des5, after des4, 30m
+Wrap-up & Next Steps    :done, des6, after des5, 15m
 ```
 
 ### Expected Outcomes

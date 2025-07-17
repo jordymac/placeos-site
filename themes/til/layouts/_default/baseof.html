@@ -76,7 +76,13 @@
             background: 'transparent',
             mainBkg: isDarkMode ? '#1f2937' : '#fff',
             secondBkg: isDarkMode ? '#374151' : '#f3f4f6',
-            tertiaryBkg: isDarkMode ? '#4b5563' : '#e5e7eb'
+            tertiaryBkg: isDarkMode ? '#4b5563' : '#e5e7eb',
+            // Gantt chart specific styling
+            gridColor: isDarkMode ? '#4b5563' : '#6b7280',
+            cScale0: isDarkMode ? '#374151' : '#f3f4f6',
+            cScale1: isDarkMode ? '#4b5563' : '#e5e7eb',
+            cScale2: isDarkMode ? '#6b7280' : '#d1d5db',
+            todayLineColor: isDarkMode ? '#5C64FF' : '#347FF7'
           }
         });
         
@@ -97,7 +103,13 @@
               background: 'transparent',
               mainBkg: newIsDarkMode ? '#1f2937' : '#fff',
               secondBkg: newIsDarkMode ? '#374151' : '#f3f4f6',
-              tertiaryBkg: newIsDarkMode ? '#4b5563' : '#e5e7eb'
+              tertiaryBkg: newIsDarkMode ? '#4b5563' : '#e5e7eb',
+              // Gantt chart specific styling
+              gridColor: newIsDarkMode ? '#4b5563' : '#6b7280',
+              cScale0: newIsDarkMode ? '#374151' : '#f3f4f6',
+              cScale1: newIsDarkMode ? '#4b5563' : '#e5e7eb',
+              cScale2: newIsDarkMode ? '#6b7280' : '#d1d5db',
+              todayLineColor: newIsDarkMode ? '#5C64FF' : '#347FF7'
             }
           });
           // Re-render all mermaid diagrams
