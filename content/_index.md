@@ -2,7 +2,7 @@
 title: PlaceOS
 description_title: The only integration platform built to retrofit commercial building systems – <span class="highlight-link">without ripping anything out</span>
 description_body: >-
-  Most commercial buildings still run on disconnected systems — forcing IT, facilities, and workplace teams into manual workarounds and limiting the value of your existing infrastructure. PlaceOS solves this in a way other platforms can’t: with a massive integration library and modular architecture that <strong>decouples the user experience from the underlying building stack and workflow logic</strong>. So when you switch access control, update occupancy monitoring, or expand to new buildings — <strong>nothing breaks</strong>. The experience stays consistent and reliable so you can:
+  Most commercial buildings still run on disconnected systems — forcing IT, facilities, and space teams into manual workarounds and limiting the value of your existing infrastructure. PlaceOS solves this in a way other platforms can’t: with a massive integration library and modular architecture that <strong>decouples the user experience from the underlying building stack and workflow logic</strong>. So when you switch access control, update occupancy monitoring, or expand to new buildings — <strong>nothing breaks</strong>. The experience stays consistent and reliable so you can:
 feature_list: |-
   - Coordinate how people use space using data from systems you already have
   - Scale across buildings with different infrastructure — without touching the front end
