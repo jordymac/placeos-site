@@ -4,7 +4,7 @@ summary: >-
     The only campus management system that reduces energy consumption, handles AV integration, does resource booking, provides wayfinding and car space booking.
 ---
 
-{{< wistia id="lpgcfokl2w" >}} gmk916qhu4
+{{< wistia id="lpgcfokl2w" >}} 
 
 The only campus management system that reduces energy consumption, handles AV integration, does resource booking, provides wayfinding and car space booking.
 
@@ -31,6 +31,8 @@ The introduction of new technologies on campuses often meets with resistance fro
 ### Energy costs
 
 Campuses are typically large and spread out, making energy management especially challenging. Most campuses operate their major energy-consuming systems, like HVAC, on a rigid schedule — from the opening to the closing of the facility — which can lead to significant and unnecessary energy expenditure.
+
+{{< wistia id="gmk916qhu4" >}} 
 
 ## Connecting the campus
 
