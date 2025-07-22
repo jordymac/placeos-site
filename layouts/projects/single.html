@@ -1,0 +1,61 @@
+{{ define "main" }}
+  {{- $imgResources := .Resources.ByType "image" -}}
+  <article class="main">
+    <header>
+      <h1 class="!mb-1">{{ .Title | title }}</h1>
+
+    </header>
+
+    {{- with .Params.image }}
+    <p>
+        <img
+          src="{{ . | relURL }}"
+          alt="{{ $.Params.FeatureCaption | default $.Title }}"
+        />
+</p>
+      {{- with $.Params.FeatureCaption }}
+        <p class="text-xs italic text-center">{{ . |  markdownify }}</p>
+      {{- end }}
+    {{- end }}
+
+    {{- with .Params.stats }}
+    <div class="not-prose my-4">
+      <div class="flex flex-wrap gap-1">
+        {{- range . }}
+        <span class="stats-pill">{{ . }}</span>
+        {{- end }}
+      </div>
+    </div>
+    {{- end }}
+
+    {{- with .Params.integrations }}
+    <div class="not-prose my-4">
+      <h3 class="text-lg font-semibold mb-4">Integrations</h3>
+      <div class="flex justify-between items-center bg-gray-300 rounded-lg p-4">
+        {{- range . }}
+        <div class="integration-container" data-tooltip="{{ . | title | replaceRE `-` ` ` }}">
+          <img src="/icons/integrations/{{ . }}.svg" alt="{{ . }}" class="integration-icon" />
+        </div>
+        {{- end }}
+      </div>
+    </div>
+    {{- end }}
+
+    {{- with .Params.outcomes }}
+    <div class="not-prose my-8">
+      <h3 class="text-lg font-semibold mb-4">Outcomes</h3>
+      <div class="space-y-2">
+        {{- range . }}
+        <div class="text-gray-700 outcome-item">{{ . }}</div>
+        {{- end }}
+      </div>
+    </div>
+    {{- end }}
+
+    {{ .Content }}
+  </article>
+
+  {{- if or (eq .Section "posts") (eq .Section "notes") }}
+    {{ partial "page/meta" . }}
+  {{- end }}
+{{ end }}

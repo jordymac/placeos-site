@@ -35,9 +35,9 @@ stats:
 outcomes:
   - Net-zero energy retrofit
 integrations:
-  - cisco-meraki
-  - cisco-webex
   - ashrae-bacnet
+  - cisco-meraki-icon
+  - cisco-webex-icon
   - azure-ad
   - microsoft-365
 ---

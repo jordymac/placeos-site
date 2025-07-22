@@ -647,3 +647,67 @@ header form button {
     padding-bottom: 1.5rem !important; /* Half of py-12 (3rem) */
   }
 }
+
+/* Project Page Styles */
+.stats-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  margin: 0.25rem;
+  font-size: 0.875rem;
+  background-color: #0d6efd;
+  color: #fff;
+  border-radius: 50rem;
+}
+
+.integration-icon {
+  min-width: 24px;
+  max-width: 32px;
+  min-height: 24px;
+  max-height: 32px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.integration-container {
+  position: relative;
+  cursor: help;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+.integration-container:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1000;
+  margin-bottom: 4px;
+}
+
+.integration-container:hover::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 4px solid transparent;
+  border-top-color: rgba(0, 0, 0, 0.8);
+  margin-bottom: -4px;
+  z-index: 1000;
+}
+
+.outcome-item {
+  border-left: 0.5rem solid #4b5563;
+  padding-left: 1rem;
+}

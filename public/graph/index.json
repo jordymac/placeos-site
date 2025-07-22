@@ -88,6 +88,10 @@
       "in": [],
       "out": []
     },
+    "/posts/framework-for-scoping-ux-in-automation-and-ai-systems/": {
+      "in": [],
+      "out": []
+    },
     "/posts/hid-mobile-access-in-workmate/": {
       "in": [],
       "out": []
@@ -459,6 +463,11 @@
       "permalink": "/posts/four-technology-integrations-to-help-during-covid-19/",
       "section": "posts",
       "title": "Four Technology Integrations to Help During Covid-19"
+    },
+    "/posts/framework-for-scoping-ux-in-automation-and-ai-systems/": {
+      "permalink": "/posts/framework-for-scoping-ux-in-automation-and-ai-systems/",
+      "section": "posts",
+      "title": "A Framework for Scoping UX in Automation and AI-Driven Systems"
     },
     "/posts/hid-mobile-access-in-workmate/": {
       "permalink": "/posts/hid-mobile-access-in-workmate/",

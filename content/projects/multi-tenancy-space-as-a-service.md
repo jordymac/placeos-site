@@ -27,14 +27,14 @@ summary: >-
   scalable model suitable for other government spaces facing underutilization.
 tags: []
 author: PlaceOS
-image: /images/projects/2025/05/government-agency-building-169.webp
+image: /images/projects/government-agency-building-169.webp
 stats: 
 - 1,300 users 
 - 6 integrations
 outcomes:
   - 4.4/5 experience rating
   - 1,000 data points captured every second
-  - 5,578 reservations
+  - Accurate department utilization & costings report
 integrations:
   - cisco-webex
   - azure-ad

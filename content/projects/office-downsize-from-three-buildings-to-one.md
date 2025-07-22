@@ -30,7 +30,7 @@ summary: >-
   building.
 tags: []
 author: PlaceOS
-image: /images/projects/2025/05/heritage-lanes-suncorp-office-16x9-p-500.jpg
+image: /images/projects/heritage-lanes-suncorp-office-16x9-p-500.jpg
 stats: 
 - 13,000 users 
 - 60,000 m² 

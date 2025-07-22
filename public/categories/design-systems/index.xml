@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/categories/design-systems/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Framework for Scoping UX in Automation and AI-Driven Systems</title>
-      <link>http://localhost:1313/posts/guide-to-scoping-ux/</link>
+      <link>http://localhost:1313/posts/framework-for-scoping-ux-in-automation-and-ai-systems/</link>
       <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/guide-to-scoping-ux/</guid>
+      <guid>http://localhost:1313/posts/framework-for-scoping-ux-in-automation-and-ai-systems/</guid>
       <description>How to scope user experience for automation and AI-driven systems through intent-based, event-driven UX frameworks.</description>
     </item>
   </channel>

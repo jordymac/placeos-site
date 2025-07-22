@@ -22,10 +22,37 @@
   </url><url>
     <loc>http://localhost:1313/products/virtualcare/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/backoffice/</loc>
-    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/framework-for-scoping-ux-in-automation-and-ai-systems/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ai/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/automation/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post_types/blog/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/design-systems/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post_types/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ux/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/backoffice/</loc>
     <lastmod>2025-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/concierge/</loc>
@@ -35,15 +62,6 @@
     <lastmod>2025-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/june-2025-placeos-product-updates/</loc>
-    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post_types/</loc>
-    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post_types/product-update/</loc>
@@ -70,16 +88,10 @@
     <loc>http://localhost:1313/posts/hid-mobile-access-in-workmate/</loc>
     <lastmod>2025-06-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ai/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/analytics/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/ashrae-headquarters-net-zero-retrofit/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/automation/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/av/</loc>
@@ -184,14 +196,8 @@
     <loc>http://localhost:1313/categories/utilization/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ux/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/wayfinding/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post_types/blog/</loc>
-    <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/canada-needs-to-retrofit-482-000-buildings-by-2050-at-the-current-pace-it-will-take-70-years/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>

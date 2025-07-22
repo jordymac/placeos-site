@@ -16,7 +16,7 @@ summary: >-
   patchwork tools.
 tags: []
 author: PlaceOS
-image: /images/projects/2025/05/header_solutions_myvirtualcare_16x9-p-500.png
+image: /images/projects/header_solutions_myvirtualcare_16x9-p-500.png
 stats: 
 - 300,000 users 
 - 4 integrations
