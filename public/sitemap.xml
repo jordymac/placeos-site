@@ -532,6 +532,8 @@
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
+    <loc>http://localhost:1313/usecases/</loc>
+  </url><url>
     <loc>http://localhost:1313/industry/workplace/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/workplace-neighborhoods/</loc>

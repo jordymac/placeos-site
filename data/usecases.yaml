@@ -1,0 +1,583 @@
+- usecase: Smart Room Booking
+  description: Enable employees to find and book rooms easily with context-aware scheduling and space availability.
+  integrations:
+    - displays
+    - occupancy_sensor
+    - resource_booking
+    - rtls
+    - cameras
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+    - Room Booking
+
+- usecase: Auto-release of Unused Spaces
+  description: Automatically release booked rooms or desks if no one shows up, freeing up valuable space.
+  integrations:
+    - occupancy_sensor
+    - resource_booking
+    - rtls
+    - cameras
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+
+- usecase: Ad-hoc Room Reservations via QR or NFC
+  description: Allow instant room bookings by scanning a QR code or tapping with a phone at the door.
+  integrations:
+    - authentication
+    - displays
+    - resource_booking
+  industry:
+    - workplace
+  product:
+    - Room Booking
+- usecase: Desk Neighborhood Management
+  description: Group desks by team, department, or function to encourage collaboration and make hybrid seating more intuitive.
+  integrations:
+    - authentication
+    - network
+    - occupancy_sensor
+    - rtls
+    - active_directory
+  industry:
+    - workplace
+  product:
+    - WorkMate
+
+- usecase: Overflow Space Activation
+  description: Automatically activate additional areas when core zones reach occupancy thresholds, ensuring comfort without over-provisioning.
+  integrations:
+    - bms
+    - occupancy_sensor
+    - rtls
+    - lighting
+    - hvac
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+    - StageHand
+
+- usecase: Booking Rule Enforcement
+  description: Enforce custom rules like minimum attendees, meeting duration limits, or restricted room access during peak hours.
+  integrations:
+    - authentication
+    - resource_booking
+    - active_directory
+  industry:
+    - workplace
+    - campus
+  product:
+    - Room Booking
+    - WorkMate
+
+- usecase: Desk Check-In
+  description: Require employees to check in at their desk to confirm use, helping reduce abandoned bookings and enabling accurate reporting.
+  integrations:
+    - authentication
+    - network
+    - occupancy_sensor
+    - rtls
+  industry:
+    - workplace
+  product:
+    - WorkMate
+- usecase: Lockers (Smart Allocation & Access)
+  description: Provide employees or visitors with dynamically assigned lockers based on bookings, arrival, or credentials.
+  integrations:
+    - access_control
+    - authentication
+    - displays
+    - lockers
+    - active_directory
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+- usecase: Occupancy-Based HVAC Control
+  description: Dynamically adjust HVAC systems based on real-time occupancy data to reduce energy waste and maintain comfort.
+  integrations:
+    - bms
+    - hvac
+    - occupancy_sensor
+    - resource_booking
+    - rtls
+    - lighting
+    - energy
+    - cameras
+  industry:
+    - workplace
+    - campus
+  product:
+    - StageHand
+    - HVAC Automation
+
+- usecase: Lighting Control Based on Presence
+  description: Automate lighting in rooms or zones based on occupancy to improve energy efficiency without disrupting occupants.
+  integrations:
+    - bms
+    - lighting
+    - occupancy_sensor
+    - rtls
+    - cameras
+  industry:
+    - workplace
+    - campus
+  product:
+    - StageHand
+    - HVAC Automation
+
+- usecase: Automated Zone Shutdown After Hours
+  description: Power down lighting, HVAC, and AV in unused zones after business hours based on scheduling and real-time occupancy.
+  integrations:
+    - bms
+    - hvac
+    - lighting
+    - occupancy_sensor
+    - resource_booking
+    - rtls
+    - cameras
+  industry:
+    - workplace
+    - campus
+  product:
+    - HVAC Automation
+    - StageHand
+
+- usecase: Dynamic Cleaning Based on Usage
+  description: Trigger cleaning tasks only for rooms or desks that were used, using occupancy data to optimize janitorial services.
+  integrations:
+    - network
+    - occupancy_sensor
+    - resource_booking
+    - rtls
+    - cameras
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+- usecase: Condense Occupants for Energy Efficiency
+  description: Automatically guide employees to a single zone when the building is underutilized, allowing shutdown of unused areas.
+  integrations:
+    - authentication
+    - bms
+    - hvac
+    - lighting
+    - occupancy_sensor
+    - rtls
+    - cameras
+    - active_directory
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+    - StageHand
+    - HVAC Automation
+
+- usecase: Real-time Occupancy Monitoring
+  description: Monitor how many people are in each space or zone in real time to inform building operations and safety procedures.
+  integrations:
+    - authentication
+    - network
+    - occupancy_sensor
+    - rtls
+    - cameras
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+
+- usecase: Environmental Monitoring Alerts
+  description: Send alerts or trigger actions when temperature, CO₂, humidity, or noise exceeds thresholds, improving wellbeing and compliance.
+  integrations:
+    - bms
+    - environmental_sensor
+    - messaging
+  industry:
+    - workplace
+    - campus
+  product:
+    - StageHand
+- usecase: Visitor Check-In with Access Control
+  description: Streamline visitor entry with pre-registration, self-service check-in, and badge printing linked to building access.
+  integrations:
+    - access_control
+    - authentication
+    - displays
+    - active_directory
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+    - Visitor Management
+
+- usecase: Contractor Management
+  description: Manage contractor onboarding, compliance documents, check-in, and access — all through a unified workflow.
+  integrations:
+    - access_control
+    - authentication
+    - document_management
+    - displays
+    - active_directory
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+    - Visitor Management
+
+- usecase: Delivery Management via Lobby Displays
+  description: Allow couriers to register deliveries via a display and notify recipients automatically without involving front desk staff.
+  integrations:
+    - authentication
+    - displays
+    - messaging
+  industry:
+    - workplace
+  product:
+    - Visitor Management
+    - WorkMate
+
+- usecase: VIP Visitor Workflows
+  description: Automatically notify hosts and provide elevated access or personalized experiences for VIP guests on arrival.
+  integrations:
+    - access_control
+    - messaging
+    - resource_booking
+    - active_directory
+  industry:
+    - workplace
+  product:
+    - WorkMate
+    - Visitor Management
+- usecase: Emergency Evacuation List Generation
+  description: Instantly generate a list of all occupants and visitors currently in the building to support emergency procedures.
+  integrations:
+    - authentication
+    - occupancy_sensor
+    - visitor_management
+    - rtls
+    - cameras
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+    - Visitor Management
+
+- usecase: Group Check-In for Events or Meetings
+  description: Enable a single person to check in an entire group for events or team visits, speeding up lobby workflows.
+  integrations:
+    - authentication
+    - displays
+    - resource_booking
+    - active_directory
+  industry:
+    - workplace
+    - campus
+  product:
+    - Visitor Management
+
+- usecase: Multilingual Display Experience
+  description: Offer check-in experiences in multiple languages to accommodate diverse visitor populations and global offices.
+  integrations:
+    - displays
+  industry:
+    - workplace
+    - campus
+  product:
+    - Visitor Management
+
+- usecase: ID Verification at Check-In
+  description: Validate visitor identity using government-issued ID scanning or facial recognition to enhance security and compliance.
+  integrations:
+    - access_control
+    - authentication
+    - displays
+    - cameras
+  industry:
+    - workplace
+    - campus
+  product:
+    - Visitor Management
+- usecase: Wayfinding with Occupancy Context
+  description: Help people find the best available space nearby with directions and live occupancy overlays on digital signage or mobile.
+  integrations:
+    - displays
+    - occupancy_sensor
+    - rtls
+    - cameras
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+
+- usecase: Personalized Welcome Screens
+  description: Trigger custom welcome messages on displays when specific people arrive, based on booking or presence.
+  integrations:
+    - authentication
+    - displays
+    - resource_booking
+    - active_directory
+  industry:
+    - workplace
+  product:
+    - WorkMate
+
+- usecase: Staff Location Lookup
+  description: Allow employees to find where their teammates are sitting or which zone they’re in, based on presence or bookings.
+  integrations:
+    - authentication
+    - network
+    - occupancy_sensor
+    - rtls
+    - cameras
+    - active_directory
+  industry:
+    - workplace
+  product:
+    - WorkMate
+
+- usecase: Employee Arrival Detection & Prep
+  description: Detect when an employee arrives onsite and trigger workspace prep like lighting, HVAC, locker assignment, or a welcome message.
+  integrations:
+    - access_control
+    - authentication
+    - bms
+    - lighting
+    - hvac
+    - lockers
+    - network
+    - active_directory
+  industry:
+    - workplace
+  product:
+    - WorkMate
+    - StageHand
+- usecase: In-office Attendance Forecasting
+  description: Predict how many people will be in the office on a given day using historical patterns, bookings, and network presence data.
+  integrations:
+    - calendar
+    - network
+    - occupancy_sensor
+    - rtls
+    - cameras
+  industry:
+    - workplace
+  product:
+    - WorkMate
+
+- usecase: Smart Parking Allocation
+  description: Allocate parking based on bookings, arrival detection, or priority rules — and release unused bays for others.
+  integrations:
+    - access_control
+    - authentication
+    - resource_booking
+    - active_directory
+  industry:
+    - workplace
+  product:
+    - WorkMate
+
+- usecase: AV Preferences (Room Setup by Profile)
+  description: Automatically configure AV settings like input source, lighting, and camera presets based on the meeting organizer or room booking type.
+  integrations:
+    - authentication
+    - resource_booking
+    - av_over_ip
+    - audio
+    - video
+    - displays
+    - lighting
+    - active_directory
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+    - StageHand
+
+- usecase: No Fire Wardens in Office Today Notification
+  description: Notify facility managers when no designated fire wardens are present onsite, using real-time occupancy and role data.
+  integrations:
+    - authentication
+    - network
+    - messaging
+    - occupancy_sensor
+    - rtls
+    - active_directory
+  industry:
+    - workplace
+  product:
+    - WorkMate
+- usecase: Space Utilization Reporting
+  description: Track how often rooms, desks, and zones are used to identify underutilized areas and optimize space allocation.
+  integrations:
+    - calendar
+    - network
+    - occupancy_sensor
+    - rtls
+    - cameras
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+
+- usecase: Meeting Room Usage Trends
+  description: Analyze meeting duration, no-show rates, attendees per booking, and preferred rooms to inform workplace policies.
+  integrations:
+    - calendar
+    - occupancy_sensor
+    - rtls
+    - cameras
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+
+- usecase: Campus-wide Occupancy Heatmaps
+  description: Visualize historical and real-time occupancy across multiple buildings to support campus planning and daily operations.
+  integrations:
+    - network
+    - occupancy_sensor
+    - rtls
+    - cameras
+  industry:
+    - campus
+  product:
+    - WorkMate
+    - StageHand
+- usecase: Energy vs Occupancy Correlation
+  description: Correlate energy consumption with real-time occupancy to uncover inefficiencies and justify energy-saving initiatives.
+  integrations:
+    - analytics
+    - bms
+    - energy
+    - hvac
+    - lighting
+    - occupancy_sensor
+    - rtls
+    - cameras
+  industry:
+    - workplace
+    - campus
+  product:
+    - HVAC Automation
+- usecase: Live Occupancy for Emergency Response
+  description: Provide first responders and security teams with live headcounts by zone or floor to support evacuation and rescue.
+  integrations:
+    - authentication
+    - network
+    - occupancy_sensor
+    - rtls
+    - cameras
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+
+- usecase: Access Anomaly Detection
+  description: Identify and alert on access patterns that deviate from normal behavior, such as after-hours entry or wrong-zone swipes.
+  integrations:
+    - access_control
+    - authentication
+    - messaging
+    - cameras
+    - active_directory
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+
+- usecase: Compliance Reporting for Health & Safety
+  description: Generate reports for safety audits, capacity limits, or hygiene protocols using historical occupancy and access data.
+  integrations:
+    - access_control
+    - calendar
+    - occupancy_sensor
+    - rtls
+    - cameras
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+
+- usecase: Secure Area Access Based on Role
+  description: Control access to sensitive areas by syncing user roles with building systems and validating presence in real time.
+  integrations:
+    - access_control
+    - authentication
+    - directory_services
+    - active_directory
+  industry:
+    - workplace
+    - campus
+  product:
+    - WorkMate
+- usecase: Hybrid Team Coordination
+  description: Help teams plan in-office days together by surfacing who is coming in and recommending the best days to meet.
+  integrations:
+    - authentication
+    - calendar
+    - network
+    - active_directory
+  industry:
+    - workplace
+  product:
+    - WorkMate
+
+- usecase: Book Desks Next to Team
+  description: Automatically assign or recommend desks near teammates based on organizational structure or booking patterns.
+  integrations:
+    - authentication
+    - calendar
+    - occupancy_sensor
+    - rtls
+    - active_directory
+  industry:
+    - workplace
+  product:
+    - WorkMate
+
+- usecase: Remote vs In-Office Pattern Analysis
+  description: Identify work patterns across teams to support hybrid strategy, optimize space, or guide future policy decisions.
+  integrations:
+    - authentication
+    - calendar
+    - network
+    - active_directory
+  industry:
+    - workplace
+  product:
+    - WorkMate
+
+- usecase: Dynamic Capacity Management
+  description: Adjust available desks, meeting rooms, and common areas based on forecasted attendance or policy changes.
+  integrations:
+    - bms
+    - network
+    - occupancy_sensor
+    - rtls
+    - cameras
+  industry:
+    - workplace
+  product:
+    - WorkMate
+    - StageHand
