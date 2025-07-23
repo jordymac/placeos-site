@@ -158,3 +158,10 @@ categories:
     description: "Microsoft Active Directory integration for user and group management."
     examples:
       - Microsoft Active Directory
+  hvac:
+    name: "HVAC Systems"
+    description: "Heating, ventilation, and air conditioning systems for climate control and energy efficiency."
+    examples:
+      - BACnet HVAC Controllers
+      - Modbus HVAC Systems
+      - Direct Digital Control (DDC)

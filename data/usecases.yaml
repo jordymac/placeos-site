@@ -25,6 +25,7 @@
     - campus
   product:
     - WorkMate
+    - BackOffice
 
 - usecase: Ad-hoc Room Reservations via QR or NFC
   description: Allow instant room bookings by scanning a QR code or tapping with a phone at the door.
@@ -47,6 +48,7 @@
   industry:
     - workplace
   product:
+    - Desk Booking
     - WorkMate
 
 - usecase: Overflow Space Activation
@@ -61,8 +63,7 @@
     - workplace
     - campus
   product:
-    - WorkMate
-    - StageHand
+    - BackOffice
 
 - usecase: Booking Rule Enforcement
   description: Enforce custom rules like minimum attendees, meeting duration limits, or restricted room access during peak hours.
@@ -87,6 +88,7 @@
   industry:
     - workplace
   product:
+    - Desk Booking
     - WorkMate
 - usecase: Lockers (Smart Allocation & Access)
   description: Provide employees or visitors with dynamically assigned lockers based on bookings, arrival, or credentials.
@@ -118,6 +120,7 @@
   product:
     - StageHand
     - HVAC Automation
+    - BackOffice
 
 - usecase: Lighting Control Based on Presence
   description: Automate lighting in rooms or zones based on occupancy to improve energy efficiency without disrupting occupants.
@@ -133,6 +136,7 @@
   product:
     - StageHand
     - HVAC Automation
+    - BackOffice
 
 - usecase: Automated Zone Shutdown After Hours
   description: Power down lighting, HVAC, and AV in unused zones after business hours based on scheduling and real-time occupancy.
@@ -149,7 +153,7 @@
     - campus
   product:
     - HVAC Automation
-    - StageHand
+    - BackOffice
 
 - usecase: Dynamic Cleaning Based on Usage
   description: Trigger cleaning tasks only for rooms or desks that were used, using occupancy data to optimize janitorial services.
@@ -163,7 +167,8 @@
     - workplace
     - campus
   product:
-    - WorkMate
+    - BackOffice
+    - LensPath
 - usecase: Condense Occupants for Energy Efficiency
   description: Automatically guide employees to a single zone when the building is underutilized, allowing shutdown of unused areas.
   integrations:
@@ -179,8 +184,7 @@
     - workplace
     - campus
   product:
-    - WorkMate
-    - StageHand
+    - BackOffice
     - HVAC Automation
 
 - usecase: Real-time Occupancy Monitoring
@@ -195,7 +199,9 @@
     - workplace
     - campus
   product:
+    - Occupancy Monitoring System
     - WorkMate
+    - LensPath
 
 - usecase: Environmental Monitoring Alerts
   description: Send alerts or trigger actions when temperature, CO₂, humidity, or noise exceeds thresholds, improving wellbeing and compliance.
@@ -207,7 +213,8 @@
     - workplace
     - campus
   product:
-    - StageHand
+    - BackOffice
+    - HVAC Automation
 - usecase: Visitor Check-In with Access Control
   description: Streamline visitor entry with pre-registration, self-service check-in, and badge printing linked to building access.
   integrations:
@@ -219,7 +226,6 @@
     - workplace
     - campus
   product:
-    - WorkMate
     - Visitor Management
 
 - usecase: Contractor Management
@@ -234,7 +240,6 @@
     - workplace
     - campus
   product:
-    - WorkMate
     - Visitor Management
 
 - usecase: Delivery Management via Lobby Displays
@@ -247,7 +252,6 @@
     - workplace
   product:
     - Visitor Management
-    - WorkMate
 
 - usecase: VIP Visitor Workflows
   description: Automatically notify hosts and provide elevated access or personalized experiences for VIP guests on arrival.
@@ -259,7 +263,6 @@
   industry:
     - workplace
   product:
-    - WorkMate
     - Visitor Management
 - usecase: Emergency Evacuation List Generation
   description: Instantly generate a list of all occupants and visitors currently in the building to support emergency procedures.
@@ -273,8 +276,9 @@
     - workplace
     - campus
   product:
-    - WorkMate
     - Visitor Management
+    - Occupancy Monitoring System
+    - LensPath
 
 - usecase: Group Check-In for Events or Meetings
   description: Enable a single person to check in an entire group for events or team visits, speeding up lobby workflows.
@@ -406,8 +410,8 @@
     - workplace
     - campus
   product:
-    - WorkMate
     - StageHand
+    - BackOffice
 
 - usecase: No Fire Wardens in Office Today Notification
   description: Notify facility managers when no designated fire wardens are present onsite, using real-time occupancy and role data.
@@ -435,6 +439,7 @@
     - campus
   product:
     - WorkMate
+    - BackOffice
 
 - usecase: Meeting Room Usage Trends
   description: Analyze meeting duration, no-show rates, attendees per booking, and preferred rooms to inform workplace policies.
@@ -459,8 +464,9 @@
   industry:
     - campus
   product:
-    - WorkMate
-    - StageHand
+    - Occupancy Monitoring System
+    - BackOffice
+
 - usecase: Energy vs Occupancy Correlation
   description: Correlate energy consumption with real-time occupancy to uncover inefficiencies and justify energy-saving initiatives.
   integrations:
@@ -477,6 +483,7 @@
     - campus
   product:
     - HVAC Automation
+    - BackOffice
 - usecase: Live Occupancy for Emergency Response
   description: Provide first responders and security teams with live headcounts by zone or floor to support evacuation and rescue.
   integrations:
@@ -489,7 +496,9 @@
     - workplace
     - campus
   product:
-    - WorkMate
+    - Occupancy Monitoring System
+    - LensPath
+    - BackOffice
 
 - usecase: Access Anomaly Detection
   description: Identify and alert on access patterns that deviate from normal behavior, such as after-hours entry or wrong-zone swipes.
@@ -503,7 +512,8 @@
     - workplace
     - campus
   product:
-    - WorkMate
+    - BackOffice
+    - LensPath
 
 - usecase: Compliance Reporting for Health & Safety
   description: Generate reports for safety audits, capacity limits, or hygiene protocols using historical occupancy and access data.
@@ -517,7 +527,8 @@
     - workplace
     - campus
   product:
-    - WorkMate
+    - BackOffice
+    - Occupancy Monitoring System
 
 - usecase: Secure Area Access Based on Role
   description: Control access to sensitive areas by syncing user roles with building systems and validating presence in real time.
@@ -530,7 +541,7 @@
     - workplace
     - campus
   product:
-    - WorkMate
+    - BackOffice
 - usecase: Hybrid Team Coordination
   description: Help teams plan in-office days together by surfacing who is coming in and recommending the best days to meet.
   integrations:
@@ -554,6 +565,7 @@
   industry:
     - workplace
   product:
+    - Desk Booking
     - WorkMate
 
 - usecase: Remote vs In-Office Pattern Analysis
@@ -579,5 +591,7 @@
   industry:
     - workplace
   product:
+    - Desk Booking
     - WorkMate
     - StageHand
+    - Occupancy Monitoring System

@@ -1,9 +1,28 @@
 console.log('usecases-filter.js loaded');
 
-// Make sure this function is available globally for Alpine.js
-window.useCasesFilter = function() {
+// Helper function to get integration description
+function getIntegrationDescription(integrationKey) {
+  const categories = window.integrationCategories || {};
+  const category = categories[integrationKey];
+  return category ? category.description : null;
+}
+
+function useCasesFilter() {
+  // Parse JSON string if needed
+  let parsedData = window.useCasesData || [];
+  if (typeof window.useCasesData === 'string') {
+    try {
+      parsedData = JSON.parse(window.useCasesData);
+      console.log('Parsed data:', parsedData);
+      console.log('Parsed data is array?', Array.isArray(parsedData));
+    } catch (e) {
+      console.error('Failed to parse JSON:', e);
+      parsedData = [];
+    }
+  }
+  
   return {
-    useCases: Array.isArray(window.useCasesData) ? window.useCasesData : [],
+    useCases: Array.isArray(parsedData) ? parsedData : [],
     searchTerm: '',
     selectedIntegration: '',
     selectedIndustry: '',
@@ -14,21 +33,17 @@ window.useCasesFilter = function() {
     filteredUseCases: [],
 
     init() {
-      console.log('Alpine.js initializing...');
-      console.log('window.useCasesData:', window.useCasesData);
-      console.log('this.useCases type:', typeof this.useCases);
-      console.log('this.useCases is array?', Array.isArray(this.useCases));
-      console.log('this.useCases:', this.useCases);
+      console.log('Alpine init - useCases:', this.useCases);
+      console.log('Alpine init - useCases length:', this.useCases.length);
+      console.log('Alpine init - useCases is array?', Array.isArray(this.useCases));
       
-      // Ensure useCases is always an array
       if (!Array.isArray(this.useCases)) {
-        console.warn('useCases is not an array, setting to empty array');
+        console.error('useCases is not an array!', this.useCases);
         this.useCases = [];
       }
       
       this.extractFilterOptions();
       this.filterUseCases();
-      console.log('Filtered use cases after init:', this.filteredUseCases.length);
       this.$watch('searchTerm', () => this.filterUseCases());
       this.$watch('selectedIntegration', () => this.filterUseCases());
       this.$watch('selectedIndustry', () => this.filterUseCases());
@@ -87,4 +102,4 @@ window.useCasesFilter = function() {
       this.searchTerm = '';
     }
   };
-};
+}
