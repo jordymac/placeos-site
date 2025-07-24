@@ -60,6 +60,10 @@
 
 <div class="container">
     <h1 class="my-4">{{ .Title }}</h1>
+    {{ if .Description }}
+    <p class="text-lg mb-4" style="color: var(--prose-body);">{{ .Description }}</p>
+    {{ end }}
+    {{ .Content }}
 
     <div class="row">
         <div class="col-md-3">

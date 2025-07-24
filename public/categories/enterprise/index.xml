@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enterprise on PlaceOS</title>
+    <link>http://localhost:1313/categories/enterprise/</link>
+    <description>Recent content in Enterprise on PlaceOS</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/enterprise/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WorkMate Global Deployment in 20&#43; Regions for 150&#43; Buidlings</title>
+      <link>http://localhost:1313/projects/workmate-global-deployment-150-buildings/</link>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/workmate-global-deployment-150-buildings/</guid>
+      <description>A Fortune Global 100 company deployed WorkMate across 150+ buildings worldwide to balance local configurability with global consistency—without sacrificing data integrity or business outcomes.</description>
+    </item>
+  </channel>
+</rss>

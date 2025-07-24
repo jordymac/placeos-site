@@ -155,7 +155,7 @@ categories:
       - UbiPark
   active_directory:
     name: "Active Directory"
-    description: "Microsoft Active Directory integration for user and group management."
+    description: "Active Directory integration for user and group management."
     examples:
       - Microsoft Active Directory
   hvac:

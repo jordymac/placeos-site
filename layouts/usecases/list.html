@@ -1,4 +1,11 @@
 {{ define "main" }}
+<h1 class="flex flex-row items-center space-x-2">
+  <span>{{ .Title }}</span>
+</h1>
+{{ if .Description }}
+<p class="text-lg mb-6" style="color: var(--prose-body);">{{ .Description }}</p>
+{{ end }}
+{{ .Content }}
 <div x-data="useCasesFilter()" x-init="init()">
   <!-- Search and Filter Controls -->
   <div class="mb-8 space-y-4">

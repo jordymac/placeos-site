@@ -18,7 +18,7 @@ list_items:
       Whether you’re managing a single room or hundreds of buildings, we want this to be the fastest path to figuring out if PlaceOS fits your world.
   - title: The problems teams are solving with PlaceOS
     summary: >-
-      Hundreds of offices and campuses around the world use PlaceOS for [occupancy management](/products/occupancy-monitoring/), [workplace experience](/products/workmate-workplace-solution/), [room management](/products/room-booking/), utilization reporting, [hot-desks](/products/desk-booking-app/), [visitor management](/products/visitor-management-app/), [building automation](/products/backoffice/), [campus experience](/industry/smart-campus) and [energy savings](/products/hvac-automation/). If your goal is to connect systems, create smarter workflows and deliver real-world outcomes ~ without rolling out new hardware ~ PlaceOS is the platform to do it.
+      Hundreds of offices and campuses around the world use PlaceOS for [occupancy management](/products/occupancy-monitoring/), [workplace experience](/products/workmate-workplace-solution/), [room management](/products/room-booking/), utilization reporting, [hot-desks](/products/desk-booking-app/), [visitor management](/products/visitor-management-app/), [building automation](/products/backoffice/), [campus experience](/industry/smart-campus) and [energy savings](/products/hvac-automation/). If your goal is to connect systems, create smarter workflows and deliver [real-world outcomes](/usecases/) ~ without rolling out new hardware ~ PlaceOS is the platform to do it.
   - title: >-
       The types of teams solving those problems
     summary: >-
@@ -93,8 +93,8 @@ list_items:
       The frontend doesn't drive the experience, the logic does. Whether you're using an AV panel, a workplace app, an AI agent or no interface at all, PlaceOS runs the workflows in the background. It supports varied systems across locations, while maintaining consistent behavior. The interface layer is flexible, so you can switch it out without redoing the logic underneath.
   - title: Examples of automation that actually deliver outcomes
     summary: >
-      - Automate HVAC based on real-time occupancy and room bookings — save ~$1K
-      per room per year
+      - Automate HVAC based on real-time occupancy and room bookings — [save ~$1K
+      per room per year](/projects/campus-energy-reduction-sustainability/)
 
 
       - Swipe your badge and trigger camera footage to log the moment — find
@@ -105,15 +105,14 @@ list_items:
       signage
 
 
-      - Use WorkMate for out-of-the-box workplace management — bookings,
-      presence, mobile-first UX
+      - Use [WorkMate](/products/workmate-workplace-solution/) for out-of-the-box workplace management — bookings, presence, mobile-first UX
 
 
-      - Use Stagehand to simplify AV control for any room — touch panel, web,
+      - Use [Stagehand](/products/stagehand/) to simplify AV control for any room — touch panel, web,
       voice, or automated
 
 
-      - Use VirtualCare to manage remote check-ins and hybrid support in
+      - Use [VirtualCare](/products/virtualcare/) to manage remote check-ins and hybrid support in
       healthcare or campuses
 
 
