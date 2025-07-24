@@ -8,12 +8,15 @@
   <div class="flex flex-col space-y-8">
     <section class="not-prose  flex flex-col space-y-4">
       {{ $pager := .Paginate .Pages (default 20 site.Params.pageSize) }}
-      {{ range $pager.Pages }}
+      {{ range $index, $page := $pager.Pages }}
+        {{ if gt $index 0 }}
+          <hr class="border-gray-200 my-6">
+        {{ end }}
         <article>
-          <h2 class="text-xl font-semibold mb-1">
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          </h2>
-          <p class="text-slate-500">{{ .Summary }}</p>
+          <a href="{{ .RelPermalink }}" class="block rounded-lg p-4 -m-4 project-card">
+            <h2 class="text-xl font-semibold mb-1 project-title">{{ .Title }}</h2>
+            <p class="text-slate-500">{{ .Summary }}</p>
+          </a>
         </article>
       {{ end }}
 

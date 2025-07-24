@@ -802,3 +802,16 @@ header form button {
   opacity: 1;
   visibility: visible;
 }
+
+/* Project list hover styles */
+.project-card {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.project-card:hover {
+  background-color: var(--taxonomy-bg-hover) !important;
+}
+
+.project-card:hover .project-title {
+  color: var(--link-hover) !important;
+}
